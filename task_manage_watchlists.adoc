@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_manage_watchlists.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: 提供管理觀察名單的資訊。 
+---
+= 管理觀察名單
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以檢視不同觀察名單的儀表板、編輯現有觀察名單的詳細資料、以及刪除觀察名單。
+
+.步驟
+. 在左窗格中、按一下*觀察名單*。
++
+畫面會顯示*管理觀察清單*畫面。
+
+. 按一下觀察清單名稱、即可檢視觀察清單的儀表板詳細資料。
+. 按一下*編輯*以更新報價表的詳細資料。
+. 按一下「*刪除*」以刪除觀察清單。
+

@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: task_generate_reports.html 
+keywords: reports, generate reports 
+summary: 提供產生報告的資訊。 
+---
+= 產生報告
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以立即產生報告、或安排每週或每月產生報告。您可以針對庫存、健全狀況和組態（ClusterViewer）等領域產生報告。
+
+*關於此工作*
+
+* 您無法在Active IQ 不執行指令的情況下編輯報告。您應該刪除現有報告並建立新報告。
+
+
+.步驟
+. 在左窗格中、按一下* Reports *。
+. 按一下*建立報告*以產生新報告。
++
+您可以立即產生報告、也可以排程每週或每月產生報告。
+
+
+
+[cols="50,50"]
+|===
+| 立即產生報告 | 可安排每週或每月產生報告 
+
+
+ a| 
+. 選取報告類型、並提供報告所需的值。
+. 按一下*提交*。
+
+
+
+NOTE: 報告會以Active IQ 不完整的形式儲存3天。
+ a| 
+. 按一下*排程報告*索引標籤。
+. 選取報告類型、並提供報告所需的值。
+. 選取報告的頻率。
+. 選取報告的開始日期和結束日期。
+. 按一下*提交*。
+
+
+
+NOTE: 產生新報告時、將會取代現有的排程報告。
+
+|===

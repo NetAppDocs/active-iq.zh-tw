@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_planning.html 
+keywords: overview, planning, increate capacity, renew, software, hardware, expiry, expired 
+summary: 提供資訊以識別即將到期的系統容量、軟體和硬體。 
+---
+= 瞭解規劃
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+「*規劃*」小工具可協助客戶識別超過90%容量或接近90%容量的容量需求、並識別已過期或即將在未來6個月內到期的軟體和硬體。您可以傳送要求以增加儲存系統的容量、並更新硬體與軟體。
+
+video::ZJwz3WSD2u0[youtube, width=848,height=480]

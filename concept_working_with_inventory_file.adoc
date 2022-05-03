@@ -1,0 +1,83 @@
+---
+sidebar: sidebar 
+permalink: concept_working_with_inventory_file.html 
+keywords: inventory file, file format 
+summary: 提供使用庫存檔案的相關資訊。 
+---
+= 使用庫存檔案
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+庫存檔案是由符合韌體更新資格的系統叢集管理生命體所組成。其中包含叢集清單、並在適用的情況下提供磁碟和機櫃韌體檔案名稱資訊。
+
+針對服務處理器韌體更新、節點主機名稱和SP/BMC IP會包含在詳細目錄檔案中。
+
+
+
+== 庫存檔案格式
+
+以下是含有磁碟和機櫃韌體更新的庫存檔案格式範例：
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+    shelf_fw_file: all_shelf_fw.zip
+
+  - clustername: <cluster management LIF-2>
+    disk_fw_file: all.zip
+    sp_nodes:
+    - hostname: <node hostname 1>
+      sp_fw_file: SP_FW_308-03990_11.5.zip
+      sp_fw_type: bmc
+      sp_fw_ver: '11.5'
+      sp_ip: <BMC IP>
+    - hostname: <node hostname 2>
+      sp_fw_file: SP_FW_308-03991_5.8.zip
+      sp_fw_type: sp
+      sp_fw_ver: '5.8'
+      sp_ip: <SP IP>
+----
+在範例中、機櫃和磁碟韌體更新均適用於叢集1、而磁碟和SP/BMC韌體更新則適用於叢集2。
+
+
+
+== 從庫存檔案中刪除叢集
+
+如果您不想在特定叢集上套用韌體更新、可以從庫存檔案中移除叢集。
+
+例如、如果您不想在叢集2上套用磁碟韌體更新、可以使用下列命令將其從庫存檔案中移除：
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+    shelf_fw_file: all_shelf_fw.zip
+----
+您可以看到叢集2的所有資料都已刪除。
+
+如果您只想在叢集1上套用磁碟韌體更新、而不想套用機櫃韌體更新、可以使用下列命令執行：
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+----
+您可以看到_機櫃_fw_file_金鑰和值已從叢集1移除。
+
+
+NOTE: 不支援手動新增叢集或控制器。

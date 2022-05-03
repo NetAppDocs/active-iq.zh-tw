@@ -1,0 +1,16 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: 'Active IQ Digital Advisor enables you to optimize your data infrastructure across your global hybrid cloud by delivering actionable predictive analytics and proactive support through a cloud-based portal and mobile app. Active IQ"s cloud-based services leverage community wisdom and peer comparisons that are drawn from NetApp"s massive installed base, combining these insights with AutoSupport telemetry and My AutoSupport features to deliver an advanced set of unparalleled analytics services.' 
+summary: 透過雲端型入口網站和行動應用程式、支援可據以行動的預測分析和主動式支援、即可讓您在全球混合雲中最佳化資料基礎架構。Active IQActive IQ的雲端型服務運用NetApp龐大安裝基礎所產生的社群智慧與同儕比較、將這些洞見與AutoSupport 遙測和My AutoSupport 整套功能結合、提供一組先進的無與倫比的分析服務。 
+---
+= 《數位顧問》文件 Active IQ
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

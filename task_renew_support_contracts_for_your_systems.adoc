@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_renew_support_contracts_for_your_systems.html 
+keywords: renew, renewals, support contracts, support & entitlements, active support contracts, 
+summary: 提供如何續約系統支援合約的相關資訊。 
+---
+= 續約您的支援合約
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以在儀表板上檢視所有作用中支援合約的分數和摘要。您可以根據依優先順序提供的重要建議採取行動。
+
+.步驟
+. 在健全狀況檢查儀表板上、按一下*支援與權利*小工具。
+. 如果您的任何系統支援合約已過期或即將到期、請按一下「*作用中支援合約*」視窗。
+. 選取核取方塊、然後按一下「*更新*」、針對所選系統啟動續約程序。
+

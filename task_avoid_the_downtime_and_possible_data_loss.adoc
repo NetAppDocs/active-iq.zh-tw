@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_avoid_the_downtime_and_possible_data_loss.html 
+keywords: downtime, data loss, avoid downtime, avoid data loss 
+summary: 提供如何避免停機和可能的資料遺失的相關資訊。 
+---
+= 避免停機和可能的資料遺失
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+當您登入Active IQ 「恆時資料顧問」並在「*可用度與保護*」小工具上看到紅色徽章時、您可以採取行動來修正重大風險。如果沒有韌體修復、這些磁碟機在開機幾個小時後可能無法運作。修正此問題可避免停機和可能的資料遺失。
+
+.步驟
+. 登入Active IQ 《e數位顧問》。
+. 按一下*可用度與保護*小工具中的*動作*。image:Availability and protection_image 1 downtime and data loss.png["可用度與安培；保護小工具"]
++
+針對高影響的安全性風險、請遵循建議的更新磁碟韌體動作。
+
+. 按一下*風險名稱*連結以檢視風險摘要。image:Risk summary_image 2 downtime and data loss.png["風險摘要"]
+. 按一下「*獨特風險*」標籤、然後按一下「*修正行動*」欄中的連結。image:Corrective action_image 3 downtime and data loss.png["修正行動"]
++
+利用此功能、您可以利用數位顧問產生自訂的可執行指令碼或教戰手冊來更新所需的磁碟韌體、包括磁碟韌體檔案。Active IQ
+
+. 按一下* Ansible「A」*圖示、即可產生及下載指令碼。image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["韌體AFF FAS"]
+

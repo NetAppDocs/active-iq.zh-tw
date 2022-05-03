@@ -1,0 +1,133 @@
+---
+sidebar: sidebar 
+permalink: task_install_execute_firmware_update_exp_user.html 
+keywords: install, execute, firmware update, Ansible Playbook, ansible, playbook, docker, experienced user 
+summary: 提供如何使用Ansible教戰手冊安裝及執行韌體更新的資訊。 
+---
+= 安裝及執行AFF 功能不受FAS 限的自動化套件（經驗豐富的使用者）
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+經驗豐富的使用者可以AFF 快速安裝及執行功能豐富的功能豐富的功能、包括功能豐富的功能豐富FAS 的功能。
+
+
+
+== 使用NetApp Docker Image以Ansible進行韌體更新
+
+.步驟
+. 將Ansible Docker映像檔拉到Linux主機：
++
+[listing]
+----
+$ docker pull schmots1/netapp-ansible
+Using default tag: latest
+latest: Pulling from schmots1/netapp-ansible
+docker.io/schmots1/netapp-ansible:latest
+----
+. 在Linux主機上以容器形式執行Docker映像：
++
+[listing]
+----
+$ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
+----
++
+
+NOTE: Ansible Playbook和庫存檔案應位於相同路徑。
+
+. 在Linux主機上執行「Ansible Playbook（可執行教戰手冊）」。韌體更新會在背景執行數小時。
++
+[listing]
+----
+$ cd <container_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware.yml
+
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: 如果磁碟韌體、機櫃韌體和服務處理器韌體的URL為*\http://<web-server>/path/all_shelf_fw.zip*、*\http://<web-server>/path/all.zip*和*\http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip*、請提供*\http://<web-server>/path/*作為基礎URL至韌體套件的輸入。如果有一組叢集具有不同的登入認證、則必須在每個叢集上執行「Ansible教戰手冊」。由於Ansible Playbook會跳過登入失敗的叢集、因此不需要變更庫存檔案。
+
+. 以叢集管理員身分登入叢集、並確認已安裝新的磁碟機韌體：
++
+[listing]
+----
+::> storage disk show -fields firmware-revision,model
+ disk     firmware-revision model
+--------------- ----------------- ----------------
+1.11.0   NA01              X423_HCOBE900A10
+1.11.1   NA01              X423_HCOBE900A10
+1.11.2   NA01              X423_HCOBE900A10
+1.11.3   NA01              X423_HCOBE900A10
+1.11.4   NA01              X423_HCOBE900A10
+----
+
+
+
+
+== 韌體更新（如果已使用Ansible）
+
+.步驟
+. 安裝Python和Ansible、然後使用子母畫面下載Python套件：
++
+[listing]
+----
+$ pip install netapp-lib requests paramiko
+
+Installing collected packages: netapp-lib, requests, paramiko
+Successfully installed netapp-lib-2020.3.12 requests-2.23.0 paramiko-2.7.2
+----
+. 安裝NetApp Ansible Collection：
++
+[listing]
+----
+To install the collection only for the current user:
+$ ansible-galaxy collection install netapp.ontap
+
+For universal installation:
+$ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collections
+$ chmod -R +rw /usr/share/ansible/collections
+----
+. 確認「Ansible Playbook」和庫存檔案位於相同路徑、然後執行「Ansible Playbook」。韌體更新會在背景執行數小時。
++
+[listing]
+----
+$ cd <playbook_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware_disk.yml
+
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: 如果磁碟韌體、機櫃韌體和服務處理器韌體的URL為*\http://<web-server>/path/all_shelf_fw.zip*、*\http://<web-server>/path/all.zip*和*\http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip*、請提供*\http://<web-server>/path/*作為基礎URL至韌體套件的輸入。如果有一組叢集具有不同的登入認證、則必須在每個叢集上執行「Ansible教戰手冊」。由於Ansible Playbook會跳過登入失敗的叢集、因此不需要變更庫存檔案。
+
+. 以叢集管理員身分登入叢集、並確認已安裝新的磁碟機韌體：
++
+[listing]
+----
+::> storage disk show -fields firmware-revision,model
+ disk     firmware-revision model
+--------------- ----------------- ----------------
+1.11.0   NA01              X423_HCOBE900A10
+1.11.1   NA01              X423_HCOBE900A10
+1.11.2   NA01              X423_HCOBE900A10
+1.11.3   NA01              X423_HCOBE900A10
+1.11.4   NA01              X423_HCOBE900A10
+----
+

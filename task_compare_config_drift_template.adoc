@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: task_compare_config_drift_template.html 
+keywords: config deviation, drift, configuration, compare template 
+summary: 提供比較組態偏移範本的資訊。 
+---
+= 比較組態偏移範本
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以比較系統和叢集組態、並近乎即時偵測組態差異。
+
+.步驟
+. 在左窗格中、按一下*設定資料分割*。
+. 選取其中一個現有範本、或按一下*新增範本*以新增範本。
+. 產生組態飄移報告
++
+您可以立即產生報告、也可以排程每週或每月產生報告。
+
+
+
+[cols="50,50"]
+|===
+| 立即產生報告 | 可安排每週或每月產生報告 
+
+
+ a| 
+. 選取類別並提供報告所需的值。
+. 選擇*僅包括磁碟機*選項、即可僅下載組態偏差變更。
+. 按一下*提交*。
+. link:task_generate_reports.html["下載並檢視組態飄移報告"]。
+. 執行Ansible Playbook（包含在組態偏移報告中）以減輕磁碟機的損失。
+
+ a| 
+. 按一下*排程報告*索引標籤。
+. 選取類別並提供報告所需的值。
+. 選擇*僅包括磁碟機*選項、即可僅下載組態偏差變更。
+. 選取報告的頻率。
+. 選取報告的開始日期和結束日期。
+. 按一下*提交*。
+. link:task_generate_reports.html["下載並檢視組態飄移報告"]。
+. 執行Ansible Playbook（包含在組態偏移報告中）以減輕磁碟機的損失。
+
+
+|===
+系統會傳送一封電子郵件、內含所選系統之間組態差異的詳細資料。

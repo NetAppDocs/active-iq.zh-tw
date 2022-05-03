@@ -1,0 +1,113 @@
+---
+sidebar: sidebar 
+permalink: task_validate_firmware_installation.html 
+keywords: validate, firmware, firmware installation 
+summary: 提供如何驗證韌體安裝的資訊。 
+---
+= 驗證韌體安裝
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+執行實戰手冊後、以叢集管理員身分登入叢集。
+
+
+
+== 驗證磁碟韌體安裝
+
+.步驟
+. 確認已安裝磁碟機韌體：
++
+[listing]
+----
+::*> storage disk show -fields firmware-revision,model
+disk     firmware-revision model
+--------------- ----------------- ----------------
+1.11.0   NA01              X423_HCOBE900A10
+1.11.1   NA01              X423_HCOBE900A10
+1.11.2   NA01              X423_HCOBE900A10
+1.11.3   NA01              X423_HCOBE900A10
+1.11.4   NA01              X423_HCOBE900A10
+----
++
+如需命令的詳細資訊、請參閱｛link with -bingeres｝[storage disk show]。
+
+. 確認已安裝新的NVMe Flash Cache韌體：
++
+[listing]
+----
+::*> system controller flash-cache show
+----
++
+如需有關命令的詳細資訊、請參閱｛link with -binges｝[系統控制器flash-cache show]。
+
+
+
+
+
+== 驗證機櫃韌體安裝
+
+.步驟
+. 確認新的機櫃韌體已更新：
++
+[listing]
+----
+::*> system node run -node * -command sysconfig -v
+----
++
+在輸出中、確認每個機櫃的韌體已更新至所需的層級。例如：
+
++
+[listing]
+----
+Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
+----
++
+如需命令的詳細資訊、請參閱｛link with底線｝[系統節點執行]。
+
+. 確認新的ACP韌體已更新：
++
+[listing]
+----
+::*> storage shelf acp module show -instance
+----
++
+如需有關命令的詳細資訊、請參閱｛link with -binges｝[儲存櫃ACP模組show]。
+
+. 確認已設定所需的ACP模式：
++
+[listing]
+----
+::*> storage shelf acp show
+----
++
+如需有關命令的詳細資訊、請參閱｛link with -binges｝[儲存櫃ACP show]。
+
+. 變更ACP模式（通道）：
++
+[listing]
+----
+::*> storage shelf acp configure -channel [in-band | out-of-band]
+----
++
+如需有關命令的詳細資訊、請參閱｛link with -binges｝[儲存櫃ACP設定]。
+
+
+
+
+
+== 正在驗證SP/BMC韌體安裝
+
+啟用服務處理器/BMC韌體更新的可執行教戰手冊、並提供選項來驗證控制器上最新的SP/BMC韌體的安裝。驗證完成後（更新最多需要兩小時）、Ansible教戰手冊會連線至SP/BMC主控台、套用內部交換器韌體更新。
+
+執行「允許教戰手冊」結束時、將會通知SP/BMC韌體和內部交換器韌體安裝的失敗與成功資訊。如果SP/BMC韌體/內部交換器韌體安裝失敗、請遵循《Ansible Playbook》中所述的步驟。

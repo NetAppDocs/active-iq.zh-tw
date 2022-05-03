@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task_generate_drift_timeline_report.html 
+keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
+summary: 提供產生飄移時間軸報告的資訊。 
+---
+= 產生飄移時間軸報告
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以比較AutoSupport 過去90天的資料不完整、並產生報告、提供有關事件和發生的組態差異的資訊。
+
+.步驟
+. 在左窗格中、按一下*設定資料分割*。
+. 選取*資料時間軸*報告類型。
+. 產生飄移時間軸報告
++
+您可以立即產生報告、也可以排程每週或每月產生報告。
+
+
+
+[cols="50,50"]
+|===
+| 立即產生報告 | 可安排每週或每月產生報告 
+
+
+ a| 
+. 選取類別並提供報告所需的值。
+. 選擇*僅包括磁碟機*選項、即可僅下載組態偏差變更。
+. 按一下*提交*。
+. link:task_generate_reports.html["下載並檢視飄移時間軸報告"]。
+
+ a| 
+. 按一下*排程報告*索引標籤。
+. 選取類別並提供報告所需的值。
+. 選擇*僅包括磁碟機*選項、即可僅下載組態偏差變更。
+. 選取報告的頻率。
+. 選取報告的開始日期和結束日期。
+. 按一下*提交*。
+. link:task_generate_reports.html["下載並檢視飄移時間軸報告"]。
+
+
+|===

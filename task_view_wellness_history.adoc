@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_view_wellness_history.html 
+keywords: wellness history, risks, wellness, view all actions, risk history, 
+summary: 提供系統風險及如何檢視健康記錄的相關資訊。 
+---
+= 檢視健康歷史
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以檢視過去三個月內發生的系統風險、以便瞭解這些風險如何造成加班。
+
+這些風險分為四類風險：*未解決*、*新增*、*已解決*及*已確認*。它們以不同的色彩表示。這些風險的摘要會透過*風險歷程*圖表來呈現。
+
+.步驟
+. 在儀表板的* Wellness（健康）*窗格中、按一下*檢視所有動作*。
+. 按一下* Wellness History *。
+. 在*風險歷程記錄*圖表中、按一下您要檢視風險歷程記錄的類別。
++
+當您將游標停留在彩色長條上時、會顯示每個類別中風險數量的資訊。按一下各個風險類別後、資訊會顯示在*風險資訊*表格中。
+
++
+您也可以在Excel工作表中下載風險摘要。
+
+

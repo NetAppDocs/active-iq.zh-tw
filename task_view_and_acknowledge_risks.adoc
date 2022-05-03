@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task_view_and_acknowledge_risks.html 
+keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, acknowledge, unacknowledge, disregard 
+summary: 提供資訊以檢視及分析儲存系統的健全狀況、並確認風險。 
+---
+= 檢視並確認風險
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以檢視與儲存系統相關的行動與風險、來分析儲存系統的健全屬性。您應該檢視修正行動、並手動降低風險。
+
+.步驟
+. 按一下儀表板上的健全屬性小工具、或按一下*檢視所有動作*、即可檢視所有行動與風險的清單。
+. 檢視與Wellness屬性相關的* Actions *和* Risk *。
+. 按一下「*動作*」以檢視與動作相關的風險、按一下「*風險*」以檢視所有風險、或按一下「*受影響的系統*」以檢視需要注意的系統。
+. 按一下風險以檢視風險摘要。
+. 按一下「* Ack*」確認風險。
++
+我們會提供詳細的風險摘要資訊、以及應手動執行的修正行動、以降低風險。
+
+. 如果您目前不想或無法減輕風險、請提供欄位的值、然後按一下*「Acknowledge」（確認）。
++
+風險將新增至已確認的風險。
+
+
+
+
+NOTE: 如果您不想再承認某項風險、可以按一下* Un-Ack*並遵循相同的步驟、忽略該風險。

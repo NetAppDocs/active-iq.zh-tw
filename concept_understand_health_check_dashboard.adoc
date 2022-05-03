@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: concept_understand_health_check_dashboard.html 
+keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
+summary: 提供資訊、讓您熟悉「狀況檢查儀表板」。 
+---
+= 瞭解健全狀況檢查儀表板
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+《支援不健全狀況檢查儀表板》Active IQ 提供整體環境的時間點審查。
+
+根據健全狀況檢查分數、您可以根據建議的NetApp最佳實務做法來調整儲存系統、以利進行長期規劃。它可協助您透過集中化的使用者介面、監控軟體和硬體上執行的所有系統。健全狀況檢查分數可讓您快速深入瞭解系統風險。主要建議與最佳實務做法可協助您採取行動、改善安裝基礎的健全狀況。
+
+
+NOTE: 您只能透過NetApp SupportEdge Advisor 的功能與SupportEdge Expert 服務項目來存取「狀況檢查儀表板」。

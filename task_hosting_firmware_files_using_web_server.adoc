@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_hosting_firmware_files_using_web_server.html 
+keywords: firmware, web server, hosting 
+summary: 提供使用Web伺服器代管韌體檔案的相關資訊。 
+---
+= 使用Web伺服器來裝載韌體檔案
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+下載自動化套件之後、韌體檔案應裝載在Web伺服器上。
+
+Web伺服器可透過多種方式設定。如需使用Python設定簡易Web伺服器的指示、請參閱 link:https://docs.python.org/3/library/http.server.html["使用Python的Web伺服器"]。
+
+.步驟
+. 儲存Web伺服器的基礎URL。如果磁碟韌體、機櫃韌體和服務處理器韌體的URL為*\http://<web-server>/path/all_shelf_fw.zip*、*\http://<web-server>/path/all.zip*和*\http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip*、請將*\http://<web-server>/path/*儲存為基礎URL。
+
+
+Ansible教戰手冊會自動偵測檔案名稱。

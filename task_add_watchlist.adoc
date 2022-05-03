@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task_add_watchlist.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: 提供資訊以將觀察清單新增至儀表板。 
+---
+= 建立觀察名單
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以建立觀察清單、以便快速輕鬆地存取一組系統。您可以根據類別或位置合併系統組。
+
+.步驟
+. 在左窗格中、按一下*觀察名單*
++
+畫面會顯示*管理觀察清單*畫面。
+
+. 按一下「*建立觀察名單*」。
+. 提供觀察名單的名稱。
+. 提供您要新增至觀察清單的系統詳細資料。
++
+您最多可以在類別下新增15、000個系統、並在序號下新增500個系統。
+
+. 按一下「*建立觀察名單*」。
++
+隨即顯示觀察清單儀表板。
+
+

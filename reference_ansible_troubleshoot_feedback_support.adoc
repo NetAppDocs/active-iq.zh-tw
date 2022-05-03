@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: reference_ansible_troubleshoot_feedback_support.html 
+keywords: troubleshoot, feedback, support 
+summary: 提供有關Ansible的詳細資訊。 
+---
+= 取得更多資訊
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以透過各種資源取得協助並尋找更多資訊。
+
+* link:https://netapp.io/2019/08/05/dealing-with-the-unexpected/["疑難排解資訊"]
+* link:https://netapp.io/["可寬延工作區"]
+* mailto：ng-active-iq-feedback@netapp.com [電子郵件]
+* 支援按鈕Active IQ 位於支援與意見回饋中心。
+

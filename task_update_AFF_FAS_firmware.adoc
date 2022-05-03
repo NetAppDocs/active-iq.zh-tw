@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task_update_AFF_FAS_firmware.html 
+keywords: update, AFF, FAS firmware, firmware 
+summary: 提供如何更新AFF 支援功能及FAS 更新功能的資訊。 
+---
+= 下載AFF 《Ansible FAS Automation套件》的《更新與更新》韌體
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您應該AFF 使用Ansible更新更新版的更新版的功能、FAS 以減輕已識別的風險、並讓儲存系統保持最新狀態。
+
+
+
+== 開始之前
+
+在使用AFF Ansible更新功能的韌FAS 體之前、您應該：
+
+* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["在儲存系統上安裝及設定Ansible"]
+* link:https://netapp.io/2019/09/17/coming-together-nicely/["在儲存系統上安裝內含集合的Ansible 2.9"]
+* 將您的儲存系統升級至ONTAP 更新版本的更新版本
+* 以系統管理員角色設定您的帳戶
+
+
+.步驟
+. 按一下儀表板上的任何健全狀況小工具、或按一下*檢視所有動作*、即可檢視所有行動與風險的清單。
+. 按一下*韌體升級*以檢視所有韌體升級風險。
+. 按一下「*更新AFF 」「更新」「更新」「韌FAS 體」*以檢視所有可用的更新套件、或按一下「」 image:update_ansible.png["更新Ansible"] 在每個風險旁更新該風險的套件。
+. 按一下「*下載*」下載壓縮檔並更新您的儲存系統。
++
+此壓縮檔包含下列項目：
+
++
+** Ansible教戰手冊：Yaml檔案、內含執行磁碟、機櫃及服務處理器韌體更新的可執行指令碼。
+** 庫存：Yaml檔案、內含適用於韌體更新之系統的詳細資料。
+** 磁碟、機櫃和服務處理器/BMC韌體套件的名稱分別為* all.Zip *、* all_Shelf_fw.Zip *和*<SP/BM>__。
+
+
+
+
+
+NOTE: 不支援在庫存檔案中手動新增叢集和控制器。

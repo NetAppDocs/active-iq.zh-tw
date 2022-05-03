@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task_subscribe_to_wellness_review_email.html 
+keywords: wellness, wellness review subscription, unsubscribe, supportedge expert, supportedge advisor 
+summary:  
+---
+= 訂閱健康審查電子郵件
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以訂閱健康審查電子郵件、每月都會收到一封電子郵件、摘要說明健康狀態、即將續約日期的系統、以及需要在您安裝的基礎上升級NetApp產品的系統。您將收到一封健康審查電子郵件、以便檢視每月摘要、並針對您的系統採取行動。您也可以選擇檢視、編輯、分享及刪除訂閱。如果您決定不接收電子郵件、也可以隨時取消訂閱、不再收到電子郵件。
+
+啟用訂閱之後、您應該在新增訂閱時選擇開始日期。每月電子郵件摘要可讓您檢視出色的健康、續約、升級及健康檢查行動。您可以確認電子郵件地址、並將電子郵件傳送至指定的電子郵件地址。您也可以選擇刪除訂閱。
+
+
+NOTE: 此功能僅可透過NetApp SupportEdge Advisor 的功能與SupportEdge Expert 功能性服務項目取得。
+
+.步驟
+. 在左窗格中、按一下* Wellness Review*。
+. 按一下 * 新增訂閱 * 。
+. 請在「*新增訂閱*」對話方塊的「*命名訂閱*」、「*選擇類別*」、「*搜尋客戶*」及「*電子郵件*」欄位中提供必要資訊。
+. 按一下*訂閱*。
++
+成功訂閱後、您將會收到*訂閱已新增*訊息。
+
+

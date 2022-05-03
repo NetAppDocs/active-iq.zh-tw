@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_identify_capacity_system.html 
+keywords: capacity, space, increase, 
+summary: 提供資訊以增加系統容量。 
+---
+= 識別容量達到限制的系統
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+主動識別達到容量限制的系統、並透過即時聊天室傳送要求、以增加儲存系統的容量。
+
+您可以在1、3和6個月內檢視已超過90%容量或超過90%容量的系統。與銷售人員交談、輕鬆提出容量新增要求、並取得即時協助。
+
+.步驟
+. 在* Planning（規劃）*小工具中、按一下* Capacity Additions *（*新增容量）、即可檢視容量超過90%或接近90%的系統。
++
+您可以檢視在未來1、3和6個月內已超過90%容量或超過90%容量的系統數量。
+
+. 選取一張卡以檢視系統。
+. 選取您要增加容量的系統、然後按一下*聯絡銷售人員*。
+. 確認您的聯絡詳細資料。
+. 最多可複製五個主機名稱並貼到聊天室中、以提高容量新增要求。
+

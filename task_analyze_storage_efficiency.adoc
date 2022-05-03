@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task_analyze_storage_efficiency.html 
+keywords: renew, hardware, software 
+summary: 提供更新儲存系統軟體與硬體的資訊。 
+---
+= 分析容量與儲存效率節約效益
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以檢視系統的容量詳細資料及儲存效率節約效益、並採取適當行動。容量與儲存效率資訊可在叢集層級或節點層級檢視。
+
+
+NOTE: E系列系統不支援此功能。
+
+容量儀表板會顯示容量詳細資料和系統容量預測。容量預測會使用歷史容量資訊來識別每個系統的使用率。根據已使用和已分配容量的歷史資料（一年的資料、若有）、演算法會考量每個系統的目前使用率、並針對未來1到6個月內的系統使用率產生預測。
+
+儲存效率儀表板會顯示儲存效率比、所用邏輯空間、所用實體空間、以及執行ONTAP 更新版本的儲存系統所儲存的總資料。無論是否使用Snapshot備份AFF 、都能看出效能比與節約效益、適用於各種系統、非AFF系統、或兩者皆適用。每個效率功能（例如Volume重複資料刪除、Volume壓縮、壓實、FlexClone Volume和Snapshot備份）都可看出客戶儲存設備的總節約效益。您也可以以最佳效率比檢視前5大儲存系統。
+
+video::8Ge3_0qlyxA[youtube, width=848,height=480]
+.步驟
+. 在左窗格中、按一下*容量與效率*。
++
+預設會選取*容量*索引標籤。
+
+. 在叢集和節點層級檢視容量詳細資料。
++
+.. 檢視節點層級的容量預測。
++
+對於部分系統、有關原始容量的資訊可在ClusterViewer中取得。ONTAP
+
+.. 按一下*新增容量*、將通知傳送給NetApp或您的合作夥伴以新增容量。
+
+
+. 檢視儲存系統的儲存效率和資料節約效益。
++
+.. 如果您的儲存系統儲存效率比高於平均儲存效率比率、請按一下*分享您的成功案例*、讓我們瞭解所遵循的最佳實務做法。
+.. 如果您的儲存系統儲存效率比低於平均儲存效率比率、請按一下*聯絡我們*、讓我們知道您的儲存系統組態。
+
+
+
+
+如需容量與儲存效率的詳細資訊、請參閱 link:reference_aiq_faq.html["關於此功能的常見問題集Active IQ"]。

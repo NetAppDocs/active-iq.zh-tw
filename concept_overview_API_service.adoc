@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_API_service.html 
+keywords: API services, access token, refresh token, API Catalog 
+summary: 提供API服務功能的總覽。 
+---
+= 瞭解API服務
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+利用自動化功能來提升工作流程效率。Active IQ內部API服務位於* API目錄*、其中描述超過100個不同的API端點、這些端點分為20個以上不同的服務區域。這些API可作為NetApp客戶提供給您、涵蓋不同的興趣領域、例如系統資訊、儲存效率、效能、健全狀況和升級。
+
+API是可讓您撰寫簡單程式碼的介面、可Active IQ 透過程式設計方式聯絡到NetApp Digital Advisor、並將資料帶回運算環境中。您可以撰寫程式碼、讓程式碼每天都能連絡Active IQ 到《支援資料》、並在您感興趣的領域提供最新的資料。然後您可以使用此資料填入您的票證系統、或建立自己的儀表板、網頁或報告。此產品包含程式碼範例和Active IQ 工具、可讓您在瀏覽器中試用API。
+
+API自動化是提升日常或每週工作效率與準確度的絕佳方法。它可釋出您的資源、以執行更複雜的活動或自動化新的工作流程。例如、如果您有需要修正的系統健全狀況風險、您至少可以將Active IQ 這些項目從「支援資訊顧問」中取出、然後推入您的票證系統、以實現自動化。
+
+
+
+== API目錄
+
+頁面頂端的切換可讓使用者在兩種模式之間切換、以檢視「目錄」。「程式碼」檢視著重於所需的輸入參數、傳回資料的內容和格式、以及程式碼範例、讓使用者開始準備程式碼。實驗檢視讓使用者有機會使用從API Services主頁取得的產生權杖、在瀏覽器中「試用」API。
+
+任一檢視都可讓使用者使用左側的導覽窗格瀏覽可用的項目。這些項目會依服務的字母順序排列。在特定服務中、您可以展開標題以顯示個別的API端點。按一下服務標題或API端點、即可前往中間窗格中目錄的該區段。
+
+
+
+== 使用API
+
+一旦您獲得授權並可產生權杖、您就可以利用權杖來進行程式化查詢及擷取資料。您也可以從API目錄中測試API、以第一手瞭解查詢的運作方式、以及傳回的資料類型。這是一種很好的方法、可確保您瞭解API在系統中建置程式碼架構之前的運作方式。
+
+video::GQskCeCrtQA[youtube, width=848,height=480]

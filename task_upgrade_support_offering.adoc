@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task_upgrade_support_offering.html 
+keywords: upgrade, support offering, supportedge, premium, standard, basic, expert, secure, purchase 
+summary: 提供升級支援服務的相關資訊。 
+---
+= 升級支援服務
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以購買升級至支援服務、以存取Active IQ 更多功能的功能。
+
+您可以透過建議的實務做法與修正、使用Ansible playbook升級自動化、可據以行動的報告與審查、個人化支援等功能、來升級目前的支援服務、以最佳化您的安裝基礎。您可以在續約支援合約時或任何其他時間從系統（節點）儀表板購買升級。
+
+
+NOTE: 您只能在目前使用SupportEdge Premium VMware或SupportEdge VMware Secure支援產品的情況下、才可以選擇AIQ升級。
+
+.步驟
+. 按一下「* Inventory *」小工具旁的「* View All Systems*」（檢視所有系統*）。
+. 在「Inventory Dashboard」（庫存儀表板）上、選取您要升級的節點（主機）。系統會將您重新導向至系統或節點儀表板。
+. 按一下*組態*小工具中的*升級*。
++
+image:Configuration widget_Support offering upgrade.PNG["組態Widget"]
+
+. 您也可以選擇按一下*比較支援服務項目*來檢視比較表、然後挑選符合您需求的支援服務項目。或者、您也可以按一下左側導覽功能表上的*支援服務項目*來檢視比較表。
+. 選取您要的升級類型。
++
+.. 將AIQ升級新增至SupportEdge Premium 您的支援服務項目（即「支援不SupportEdge 安全」）
+.. 任何其他升級要求
+
+
+. 新增您的任何留言、然後按一下*傳送*。購買支援服務升級的要求會傳送給NetApp續約團隊。
+

@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_view_risk_and_take_action.html 
+keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, mitigate, rectify 
+summary: 提供資訊以檢視及分析儲存系統的健全狀況、並降低風險。 
+---
+= 檢視風險並手動採取修正行動
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以檢視與儲存系統相關的行動與風險、來分析儲存系統的健全屬性。您應該檢視相關的修正行動、並手動降低風險。
+
+.步驟
+. 按一下儀表板上的* Wellness（健康）*小工具、或按一下* View All Actions（檢視所有動作）*、即可檢視所有行動與風險的清單。
+. 檢視與Wellness屬性相關的* Actions *和* Risk *。
+. 按一下「*動作*」以檢視與動作相關的風險、按一下「*風險*」以檢視所有風險、或按一下「*受影響的系統*」以檢視需要注意的系統。
+. 按一下風險名稱以檢視有關風險的資訊。
+. 按一下相關的修正行動、然後依照資訊來解決風險。
+
+
+減輕風險的步驟與所有健全屬性相同。您可以觀看下列影片、以監控及修正安全性相關問題：
+
+video::ssXI-FAKMis[youtube, width=848,height=480]

@@ -1,0 +1,45 @@
+---
+sidebar: sidebar 
+permalink: reference_limitations_activeiq.html 
+keywords: limitation, issues, not supported, drawbacks 
+summary: 提供版本限制的相關資訊。 
+---
+= 已知限制
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+已知限制指出本產品版本不支援的平台、裝置或功能、或是無法與產品正確互通的平台、裝置或功能。請仔細檢閱這些限制。
+
+存在下列限制：
+
+* 僅適用於以7-Mode運作的支援系統（以7-Mode運作的VMware儲存系統即將終止支援壽命）Data ONTAP Data ONTAP
++
+** 效能圖表
+** 儲存效率
+
+
+* 升級顧問不支援ONTAP 9.0之前的叢集式功能升級計畫。
+
+
+
+
+=== 編輯報價表可能需要60分鐘的時間、才能反映Active IQ 在《e數位顧問》中
+
+編輯報價表並Active IQ 不會立即更新《支援資訊》中的資訊。變更可能需要60分鐘的時間才能反映Active IQ 在《關於數位顧問的資訊》中。
+
+
+
+=== 排程報告時會顯示空白報告
+
+排定的報告只能搭配SupportEdge Advisor 支援服務SupportEdge Expert 合約使用。如果您的系統不符合SupportEdge Advisor 不完整支援SupportEdge Expert 合約或不完整支援合約、您可能會在排程報告時收到空白報告。

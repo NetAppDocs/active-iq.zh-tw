@@ -1,0 +1,201 @@
+---
+settings:
+  name: Active IQ Digital Advisor
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr
+sidebar:
+  entries:
+  - title: "《數位顧問文件》Active IQ"
+    url: "/index.html"
+  - title: 版本資訊
+    entries:
+    - title: 新增功能
+      url: "/reference_new_activeiq.html"
+    - title: 已知限制
+      url: "/reference_limitations_activeiq.html"
+  - title: 開始使用
+    entries:
+    - title: 快速入門
+      url: "/concept_getting_started_2.html"
+    - title: 瞭Active IQ 解功能
+      url: "/concept_understand_activeiq_features.html"
+    - title: 關鍵Active IQ 概念
+      url: "/concept_key_terms.html"
+    - title: 瞭解AutoSupport
+      url: "/concept_autosupport.html"
+    - title: 登入Active IQ 「We Digital Advisor」
+      url: "/task_login_activeiq.html"
+    - title: 在Cloud Manager中管理叢集
+      url: "/concept_manage_your_cluster_in_cloud_manager.html"
+  - title: 資源配置觀察清單
+    entries:
+    - title: 總覽
+      url: "/concept_overview_dashboard.html"
+    - title: 建立觀察名單
+      url: "/task_add_watchlist.html"
+    - title: 管理觀察名單
+      url: "/task_manage_watchlists.html"
+  - title: 分析健全屬性
+    entries:
+    - title: 總覽
+      url: "/concept_overview_wellness.html"
+    - title: 檢視風險並手動採取修正行動
+      url: "/task_view_risk_and_take_action.html"
+    - title: 偵測安全性弱點
+      url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
+    - title: 保護系統免受勒索軟體風險的侵害
+      url: "/task_protect_systems_against_ransomware_risks.html"
+    - title: 檢視並確認風險
+      url: "/task_view_and_acknowledge_risks.html"
+    - title: 檢視健康歷史
+      url: "/task_view_wellness_history.html"
+    - title: 檢視Active IQ Unified Manager 可透過《不經認證的戰術》或《可執行的戰術》來自動減輕的風險
+      url: "/task_view_risks_remediated_unified_manager.html"
+    - title: 避免停機和可能的資料遺失
+      url: "/task_avoid_the_downtime_and_possible_data_loss.html"
+    - title: 訂閱健康審查電子郵件
+      url: "/task_subscribe_to_wellness_review_email.html"
+    - title: 更新軟體與硬體
+      url: "/task_renew_software_and_hardware.html"
+    - title: 分析叢集和節點的健全狀況
+      url: "/task_analyze_wellness_clusters_and_nodes.html"
+  - title: 檢視系統詳細資料
+    entries:
+    - title: 檢視庫存詳細資料
+      url: "/task_view_inventory_details.html"
+    - title: 檢視寶貴的洞見
+      url: "/task_view_valuable_insight_widget.html"
+    - title: 檢視Flex訂閱容量使用率
+      url: "/task_view_keystone_capacity_utilization.html"
+  - title: 主動識別系統需求
+    entries:
+    - title: 總覽
+      url: "/concept_overview_planning.html"
+    - title: 識別容量達到限制的系統
+      url: "/task_identify_capacity_system.html"
+    - title: 避免大量佔用、以避免中斷運作
+      url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
+    - title: 更新軟體與硬體
+      url: "/task_renew_software_and_hardware.html"
+  - title: 識別組態差異
+    entries:
+    - title: 總覽
+      url: "/concept_overview_config_drift.html"
+    - title: 新增組態偏移範本
+      url: "/task_add_config_drift_template.html"
+    - title: 比較組態偏移範本
+      url: "/task_compare_config_drift_template.html"
+    - title: 產生飄移時間軸報告
+      url: "/task_generate_drift_timeline_report.html"
+    - title: 管理範本
+      url: "/task_manage_template.html"
+  - title: 提升儲存系統的效率與效能
+    entries:
+    - title: 分析容量與效率節約效益
+      url: "/task_analyze_storage_efficiency.html"
+    - title: 分析儲存效能
+      url: "/task_view_performance_graphs.html"
+  - title: 利用現象顧問監控並分層處理非使用中資料FabricPool
+    url: "/task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html"
+  - title: 分析儲存系統的健全狀況
+    entries:
+    - title: 總覽
+      url: "/concept_understand_health_check_dashboard.html"
+    - title: 健全狀況檢查儀表板入門
+      url: "/concept_get_started_with_health_check_dashboard.html"
+    - title: 續約您的支援合約
+      url: "/task_renew_support_contracts_for_your_systems.html"
+  - title: 升級以最佳化安裝基礎
+    entries:
+    - title: 升級ONTAP 儲存系統的版本
+      url: "/task_view_upgrade.html"
+    - title: 升級支援服務
+      url: "/task_upgrade_support_offering.html"
+    - title: 使用Ansible教戰手冊更新AFF 您的功能性和FAS 功能性的韌體
+      entries:
+      - title: 下載AFF 《Ansible FAS Automation套件》的《更新與更新》韌體
+        url: "/task_update_AFF_FAS_firmware.html"
+      - title: 安裝並執行AFF 不FAS 受限的Automation套件（經驗豐富的使用者）
+        url: "/task_install_execute_firmware_update_exp_user.html"
+      - title: 安裝並執行AFF 不FAS 受限的Automation套件（初學者）
+        entries:
+        - title: 使用Web伺服器來裝載韌體檔案
+          url: "/task_hosting_firmware_files_using_web_server.html"
+        - title: 使用Inventory檔案
+          url: "/concept_working_with_inventory_file.html"
+        - title: 使用NetApp Docker映像執行Ansible教戰手冊
+          url: "/task_execute_ansible_playbook_using_docker.html"
+        - title: 執行不含Docker的可執行教戰手冊
+          url: "/task_execute_ansible_playbook_without_docker.html"
+        - title: 驗證韌體安裝
+          url: "/task_validate_firmware_installation.html"
+        - title: 疑難排解、意見反應與支援
+          url: "/reference_ansible_troubleshoot_feedback_support.html"
+  - title: 使用API整合資料
+    entries:
+    - title: 總覽
+      url: "/concept_overview_API_service.html"
+    - title: 產生權杖以存取API
+      url: "/task_generate_tokens_API_services.html"
+    - title: 使用API目錄來執行API
+      url: "/task_view_API_catalog.html"
+  - title: 產生自訂報告
+    entries:
+    - title: 報告類型
+      url: "/concept_report_types.html"
+    - title: 產生報告
+      url: "/task_generate_reports.html"
+  - title: 常見問題集
+    url: reference_aiq_faq.html
+  - title: 取得更多資訊
+    url: "/concept_get_more_information.html"
+  - title: 法律聲明
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 深入瞭解Active IQ
+      url: https://tv.netapp.com/detail/video/6254074753001/what-can-you-do-with-active-iq
+    - title: 快速入門Active IQ
+      url: concept_getting_started_2.html
+    - title: 主要概念
+      url: concept_key_terms.html
+    - title: 建立觀察名單
+      url: task_add_watchlist.html
+  - title: 使用Active IQ
+    links:
+    - title: 檢視風險並採取修正行動
+      url: task_view_risk_and_take_action.html
+    - title: 偵測組態差異
+      url: task_compare_config_drift_template.html
+    - title: 修正重大安全風險
+      url: task_increase_protection_against_hackers_and_Ransomware_attacks.html
+    - title: 分析儲存效能
+      url: task_view_performance_graphs.html
+    - title: 產生報告
+      url: task_generate_reports.html
+  - title: 使用Active IQ 功能分析
+    links:
+    - title: 檢視ONTAP 有關升級的建議
+      url: task_view_upgrade.html
+    - title: 利用Cloud Manager減少儲存設備佔用空間
+      url: task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html
+    - title: 透過「 View Flex 訂閱」檢視容量使用率 NetApp Keystone
+      url: task_view_keystone_capacity_utilization.html
+  - title: 更多資源
+    links:
+    - title: 網頁入口網站Active IQ
+      url: https://mysupport.netapp.com/myautosupport/home.html
+    - title: 影片Active IQ
+      url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
+    - title: NetApp社群Active IQ
+      url: https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport
+    - title: 支援行動應用程式（Android）Active IQ
+      url: https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US
+    - title: 作業系統（iOS）Active IQ
+      url: https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322

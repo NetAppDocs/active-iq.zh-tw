@@ -1,0 +1,82 @@
+---
+sidebar: sidebar 
+permalink: task_execute_ansible_playbook_using_docker.html 
+keywords: Ansible Playbook, Ansible, Playbook, docker 
+summary: 提供如何使用Docker映像執行「可執行教戰手冊」的相關資訊。 
+---
+= 使用NetApp Docker映像執行可執行的教戰手冊
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+在執行Ansible Playbook之前、請先確認已解壓縮* NetApp_Ansible _*。*壓縮*檔案、且已準備好含有磁碟或機櫃韌體檔案的Web伺服器。
+
+
+
+== 開始之前
+
+在使用NetApp泊塢視窗執行「可執行教戰手冊」之前、您應該：
+
+* link:task_update_AFF_FAS_firmware.html["下載AFF 《Ansible FAS Automation套件》的《更新與更新》韌體"]
+* link:task_hosting_firmware_files_using_web_server.html["使用Web伺服器裝載韌體檔案"]
+* link:concept_working_with_inventory_file.html["使用庫存檔案"]
+* 確保已安裝NetApp Docker。
+
+
+.步驟
+. link:https://docs.docker.com/get-started/["設定Docker"]。
+. 執行下列命令、從Docker Hub擷取NetApp Docker映像檔：
++
+[listing]
+----
+$ docker pull schmots1/netapp-ansible
+
+Using default tag: latest
+latest: Pulling from schmots1/netapp-ansible
+docker.io/schmots1/netapp-ansible:lates
+----
++
+如需有關Docker Pull命令的詳細資訊、請參閱 link:https://docs.docker.com/engine/reference/commandline/pull/["Docker Pull文件"]。
+
+. 以容器形式執行Docker映像檔、然後登入容器以執行「可執行的教戰手冊」。
+. 複製包含擷取的Ansible教戰手冊和庫存檔案的資料夾路徑、例如* downloaded_playbook_path*。Ansible教戰手冊和庫存檔案應位於同一個資料夾中、以便順利執行。
+. 在Docker容器上以磁碟區的形式掛載資料夾。例如、若要掛載資料夾* container路徑*、您應該執行下列命令：
++
+[listing]
+----
+$ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
+----
++
+容器隨即啟動、主控台現在位於容器的Bash Shell。如需Docker Run命令的詳細資訊、請參閱 link:https://docs.docker.com/engine/reference/run/["Docker執行文件"]。
+
+. 使用* Ansible playbook*命令在容器內執行Ansible Playbook：
++
+[listing]
+----
+$ cd <container_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware.yml
+ 
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: 如果有一組叢集具有不同的登入認證、則必須在每個叢集上執行「Ansible教戰手冊」。由於Ansible Playbook會跳過登入失敗的叢集、因此不需要變更庫存檔案。
+
+
+
+如需* Ansible playbook *命令的詳細資訊、請參閱 link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible教戰手冊文件"] 若要以檢查模式執行Ansible教戰手冊（演習）、請參閱 link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible：檢查模式"]。
+
+執行「Ansible Playbook」之後、請參閱 link:task_validate_firmware_installation.html["韌體安裝驗證"] 以取得執行後的指示。

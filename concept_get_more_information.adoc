@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: concept_get_more_information.html 
+keywords: overview, information, more details 
+summary: 提供Active IQ 更多關於功能的資訊。 
+---
+= 取得更多資訊
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以透過各種資源取得協助並尋找更多資訊。
+
+* link:https://community.netapp.com/t5/Active-IQ-Digital-Advisor-and-AutoSupport/ct-p/autosupport-and-my-autosupport["NetApp社群"]
+* link:https://www.netapp.com/us/documentation/active-iq.aspx["文件資源"]
+* link:https://www.netapp.com/us/media/tr-4688.pdf["NetApp遙測資料的安全性與隱私"]
+* link:https://www.netapp.com/us/media/tr-4444.pdf["隨需提供的功能ONTAP AutoSupport AutoSupport"]
+

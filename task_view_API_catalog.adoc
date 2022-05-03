@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: task_view_API_catalog.html 
+keywords: API Catalog, APIs, integrate data, view catalog 
+summary: 提供API目錄中可用API的相關資訊。 
+---
+= 使用API目錄來執行API
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+API目錄可讓您瀏覽各個類別中的類別和可用API。
+
+使用有效的存取權杖和正確輸入必要欄位、您就能對API進行測試呼叫。
+
+.步驟
+. 在*快速連結*功能表中、按一下* API服務*。
+. 按一下 link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*瀏覽*"] 在「* API目錄*」圖示下。
++
+隨即顯示API目錄。
+
+. 選取任何API
+. 在頁面頂端、將切換開關滑至「實驗」。
+. 從左側導覽中、展開類別並選取任何API以檢視詳細資訊。
+. 展開API。
+. 按一下右側的*試用*按鈕。
+. 提供所需的參數、然後按一下*執行*以檢視結果。
++
+您也可以查看API的*回應*區段、瞭解將會傳回的資料。您可以按一下*範例值*來查看資料的格式、或按一下*模型*、然後按一下插入符號來展開區段、以查看每個元素的定義。
+
+
+
+只要將切換切換切換到* Cod*檢視、就能以各種語言檢視程式碼範例。

@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: task_generate_tokens_API_services.html 
+keywords: generate token, access token, refresh token, API services 
+summary: 提供如何產生權杖以存取API的相關資訊。 
+---
+= 產生權杖以使用API
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+註冊API服務並產生權杖很簡單。
+
+.步驟
+. 在*快速連結*功能表中、按一下* API服務*。
+. 按一下 * 註冊 * 。
+. 填寫授權申請表、然後按一下*提交*。
++
+啟動是自動的、應該是即時的。一旦您獲得使用Active IQ 此功能的權限、就能產生權杖、以便在進行API編程呼叫時使用。您也可以使用這些權杖、從API目錄中執行「試用」。當以程式設計方式取得時、權杖一律會以兩種形式提供：存取權杖和更新權杖。必須傳遞存取權杖、才能成功使用所有API（除了一種API之外、「重新整理權杖」是用來以程式設計方式取得一組新的權杖）。
+
+. 在「主要API服務」頁面上、按一下「*產生Token *」以檢視及下載存取權杖、並重新整理權杖以叫用API。
++
+入口網站提供多種方法、可將一個或兩個權杖儲存在集合中。您可以將它們複製到剪貼簿、下載為文字檔、或以純文字檢視。
+
+
+
+
+NOTE: 您應該下載並儲存存取權杖和重新整理權杖、以供日後使用。存取權杖一經產生即過期一小時、更新權杖應每7天重新產生一次、並安裝在應用程式中。90天後、您需要手動登入、並取得新的存取權杖和重新整理權杖。

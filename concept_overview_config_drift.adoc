@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_config_drift.html 
+keywords: config drift, configuration deviation, add template, compare template 
+summary: 提供組態飄移功能的總覽 
+---
+= 瞭解組態偏差
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Config DrivFT功能可將系統範本與「golden」或基礎系統範本進行比較、以識別組態差異。您可以排程每週或每月的飄移報告、或是隨需產生報告。您可以使用組態飄移報告中提供的「可執行教戰手冊」來減輕一些差異。
+
+此功能僅適用於持有顧問與專家支援合約的系統。
+
+您可以查看下圖、瞭解識別組態差異並產生報告的工作流程。
+
+image:config_drift.png["組態飄移工作流程"]
+
+您可以觀看下列影片、以產生並執行可執行的教戰手冊、以修正組態差異：
+
+video::MbkwcZ7xk3Y[youtube, width=848,height=480]

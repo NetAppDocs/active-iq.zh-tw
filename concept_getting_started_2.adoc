@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: concept_getting_started_2.html 
+keywords: overview, get started, wellness, performance, configuration, renewal, risk, remediation, planning, inventory 
+summary: 協助您瞭解工作流程、並開始瞭Active IQ 解《e數位顧問》。 
+---
+= 快速入門Active IQ
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+加強並重新設計了支援功能的支援功能、協助您更有效地執行工作。Active IQ使用者介面是專為引導您執行所需目標而開發。
+
+您可以查看下圖、瞭解Active IQ 《EWe Digital Advisor》的工作流程。
+
+image:activeiq2_workflow.png["「數位顧問」工作流程Active IQ"]
+
+您可以觀看下列影片、以開始使用Active IQ 《不景點數位顧問》：
+
+video::rEPtldosjWM[youtube, width=848,height=480]
+並非所有平台都支援所有的支援功能。Active IQ「資訊安全顧問」可識別儲存系統的平台、並只顯示可在儲存系統上執行的一組工作。Active IQ
+
+請閱讀下列資訊、以瞭解儲存系統支援的小工具。
+
+[cols="4*"]
+|===
+| *小工具* | *客戶* | *叢集* | *節點* 
+
+
+| 健康 | 支援所有平台 | 支援所有平台 | 支援所有平台 
+
+
+| 續約 | 支援所有平台 | 支援所有平台 | 支援所有平台 
+
+
+| 增加容量 | 僅支援ONTAP 在支援的支援平台（Data ONTAP 以7-Mode和叢集Data ONTAP 式的功能運作） | 僅支援ONTAP 在支援的支援平台（Data ONTAP 以7-Mode和叢集Data ONTAP 式的功能運作） | 僅支援ONTAP 在支援的支援平台（Data ONTAP 以7-Mode和叢集Data ONTAP 式的功能運作） 
+
+
+| 庫存 | 支援所有平台 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 
+
+
+| 升級 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 
+|===

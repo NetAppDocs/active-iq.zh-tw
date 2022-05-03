@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_wellness.html 
+keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
+summary: 提供有關健全狀況和風險類型的資訊、協助您改善儲存系統。 
+---
+= 瞭解健全狀況
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+健全狀況小工具提供儲存系統的詳細資訊。它提供儲存系統不同屬性的相關資訊、例如效能與效率、容量、組態設定、安全性弱點、續約、 及其他。
+
+image:wellness_workflow.png["健全工作流程"]
+
+健全狀況小工具也會提供風險的相關資訊、以及應採取哪些行動來降低每個健全狀況屬性的風險。以下是每種風險的風險類型及相關後果：
+
+[cols="25,75"]
+|===
+| 風險類型 | 結果 
+
+
+| 關鍵 | 資料遺失、資料毀損、叢集資料中斷、個人安全問題、或潛在的法律法規遵循問題。 
+
+
+| 高 | 短期資料存取遺失或節點備援長期中斷。 
+
+
+| 中 | 效能降低或短期中斷節點備援。 
+
+
+| 低 | 低影響情境 
+
+
+| 最佳實務做法 | 偏離已記錄的最佳實務做法 
+|===
+您可以觀看下列影片、瞭解健康特質的重要性：
+
+video::-lTF3oWZB1M[youtube, width=848,height=480]

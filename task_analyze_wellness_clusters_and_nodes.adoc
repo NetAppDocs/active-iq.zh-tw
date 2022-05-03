@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_analyze_wellness_clusters_and_nodes.html 
+keywords: cluster, node, clusterviewer, configuration 
+summary: 提供有關ClusterViewer的資訊。 
+---
+= 分析叢集和節點的健全狀況
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以使用ClusterViewer來分析叢集和節點的健全狀況、這是一站式的來源、可提供有關叢集和節點實體和邏輯組態的資訊。
+
+ClusterViewer提供的資訊包括節點的堆疊圖、儲存使用量與效率、硬體容量的保留空間等、可協助您做出明智的決策、改善叢集與節點的健全度。
+
+您可以在纜線、堆疊和RAID磁碟層級檢視節點實體組態的視覺效果或圖形呈現。您也可以下載svg格式的視覺效果。
+
+video::FVbb2bbIY9E[youtube, width=848,height=480]
+.步驟
+. 在* Inventory（詳細目錄）* Widget中、選取您要的叢集或節點（主機）。
+. 在叢集或節點層級、按一下*組態*小工具旁的*叢集檢視器*。
+. 按一下「*視覺化*」索引標籤、即可檢視叢集的圖形化呈現。
+

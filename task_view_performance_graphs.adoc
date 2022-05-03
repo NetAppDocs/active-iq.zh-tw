@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: task_view_performance_graphs.html 
+keywords: performance, performance graph, graphs, activeiq, active iq digital advisor, performance charts, day, week, 1 month, 2 months, calendar, chart data, performance on node level, graph, node level 
+summary: 提供效能相關資訊。 
+---
+= 分析效能圖表
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+效能圖表可讓您分析儲存設備的效能。您可以檢視ONTAP 有關一個或ONTAP 多個節點的VMware叢集和E系列控制器的詳細效能圖表。這些圖表提供歷史效能資料、可用於瞭解效能趨勢和模式分析。您可以從行事曆中選取日期、以檢視一天、一週、一月、兩個月及十二個月的效能圖表。您可以選取多個節點、以便同時檢視特定圖表。
+
+您可以選擇設定偏好設定、例如、您可以檢視三個節點的一個圖形或三個節點的兩個圖形。
+
+第一次顯示圖表時、系統會預先選取1週索引標籤、並以圖形格式顯示1週的資料、讓您更容易瞭解大量資料及其在不同資料系列之間的關係。例如、若要重設日期範圍、您可以按一下「1個月」索引標籤、然後選取行事曆中的日期。
+
+您也可以選擇放大效能圖表、顯示個別的資料點。
+
+video::fWrHYX17xT8[youtube, width=848,height=480]
+.步驟
+. 在儀表板上、按一下*效能*。
++
+若為ONTAP 流通系統、您可以按一下「*節點*」索引標籤來檢視ONTAP 某個叢集節點的效能、按一下「*本機層*」索引標籤來檢視本機層的效能、或按一下「* Volume *」索引標籤來檢視磁碟區的效能。預設會顯示叢集效能。
+
++
+對於E系列系統、您只能在控制器層級檢視圖表。
+
+
+
+. 選取1天、1週、1個月、2個月或12個月、 在行事曆中、以圖形格式檢視效能資料。
++
+例如、選取「2個月」索引標籤即可檢視2個月的資料。這可讓您根據效能需求、檢視特定資料的持續時間。
+
+. 下列效能圖表包含ONTAP 所需的指標、可用於各個叢集和節點：
+
+
+[cols="25,25,25,25"]
+|===
+| 適用於叢集 | （用於節點） | 適用於本機層 | 適用於Volume 
+
+
+| IOPS | CPU使用率-尖峰效能（保留空間） | 平均處理量 | IOPS 
+
+
+| 網路處理量 | 延遲 | 平均使用率 | 延遲 
+
+
+|  | IOPS |  |  
+
+
+|  | 傳輸協定IOPS |  |  
+
+
+|  | 網路處理量 |  |  
+|===
+
+NOTE: 節點延遲效能圖表和Volume效能圖表僅在執行ONTAP VMware版9.2及更新版本的系統上受支援。
+
+. E系列控制器可取得下列效能圖表及必要的指標：
++
+** CPU使用率
+** 延遲
+** IOPS
+** 處理量
+
+
+
