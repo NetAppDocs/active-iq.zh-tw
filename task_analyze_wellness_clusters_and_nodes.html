@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head class="at-element-marker">
+  <title>分析叢集和節點的健全狀況</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="分析叢集和節點的健全狀況" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/zh-tw/active-iq/task_analyze_wellness_clusters_and_nodes.html" />
+	<meta property="og:description" content="提供有關ClusterViewer的資訊。" />
+  <meta property="og:image" content="https://docs.netapp.com/zh-tw/active-iq/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="提供有關ClusterViewer的資訊。">
+  <meta name="keywords" content=" cluster, node, clusterviewer, configuration"><!-- Icons -->
+  <link rel="icon" href="/zh-tw/active-iq/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+  <!-- Elastic Search -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
+
+  <!-- Controls AsciiDoctor Admonition Blocks -->
+  <link rel="stylesheet" type="text/css" href="/zh-tw/active-iq/css/font-awesome.min.css">
+
+  <!-- Controls the shadow effect for search dropdown menu -->
+  <link rel="stylesheet" href="/zh-tw/active-iq/css/boxshadowproperties.css">
+
+  <!-- NetApp CSS controls the technical content -->
+  <link rel="stylesheet" type="text/css" href="/zh-tw/active-iq/css/netapp.css">
+
+  <!-- WWW CSS Content -->
+  <link rel="stylesheet" type="text/css" href="/zh-tw/active-iq/css/www-luci-dotcom.min.css">
+  <link rel="stylesheet" type="text/css" href="/zh-tw/active-iq/css/www-netapp-dotcom.css">
+  <link rel="stylesheet" href="/zh-tw/active-iq/css/www-netapp-library-critical.min.css" media="all" >
+  <link rel="stylesheet" href="/zh-tw/active-iq/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="/zh-tw/active-iq/css/www-netapp-library-global-header-footer.min.css">
+
+  <!-- NetApp IE Customizations -->
+  <link rel="stylesheet" href='/zh-tw/active-iq/css/na-utility.css' type='text/css'>
+  <link rel="stylesheet" href='/zh-tw/active-iq/css/na-sidebar.css' type='text/css'>
+  <link rel='stylesheet' href='/zh-tw/active-iq/css/clouddocs.css' type='text/css'>
+  <link rel='stylesheet' href='/zh-tw/active-iq/css/custom-dropdown.css' type='text/css'>
+  <link rel='stylesheet' href='/zh-tw/active-iq/css/na-pagenav.css' type='text/css'>
+
+  
+  <link rel="stylesheet" href="/zh-tw/active-iq/css/landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/zh-tw/active-iq/css/tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel='stylesheet' href='/zh-tw/active-iq/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
+    if (document.location.hostname === "docs.netapp.com") {
+      var head = document.getElementsByTagName('head')[0];
+      var onetrustConsent = document.createElement("script");
+      onetrustConsent.type = "text/javascript";
+      onetrustConsent.src = "https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js";
+      head.appendChild(onetrustConsent);
+
+      var onetrustScript = document.createElement("script");
+      onetrustScript.type = "text/javascript";
+      onetrustScript.src = "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js";
+      onetrustScript.charset = "UTF-8";
+      onetrustScript.dataset.documentLanguage = "true";
+      onetrustScript.dataset.domainScript = "72570c5c-fe30-465f-b0e0-b77f7fb4ae34";
+      head.appendChild(onetrustScript);
+    }
+
+    function OptanonWrapper() { }
+
+    if (document.location.hostname === "docs.netapp.com") {
+      var adobe = document.createElement("script");
+      adobe.type = "text/plain";
+      adobe.className = "optanon-category-C0002";
+      adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js";
+      head.appendChild(adobe);
+
+      var google = document.createElement("script");
+      google.type = "text/plain";
+      google.className = "optanon-category-C0002";
+      google.src = "https://www.googletagmanager.com/gtag/js?id=UA-81697994-3";
+      head.appendChild(google);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-81697994-3');
+    }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-tw/active-iq/js/na-search.js'></script><script src='/zh-tw/active-iq/js/na-pagenav.js'></script><link rel='stylesheet' href='/zh-tw/active-iq/css/prism.css' type='text/css'>
+  <link rel='stylesheet' href='/zh-tw/active-iq/css/prism-netapp.css' type='text/css'>
+
+
+  <script src='/zh-tw/active-iq/js/na-utility.js'></script>
+  <script src='/zh-tw/active-iq/js/clouddocs.js'></script>
+  <script src='/zh-tw/active-iq/js/jquery.navgoco.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src='/zh-tw/active-iq/js/toc.js'></script>
+  <script src='/zh-tw/active-iq/js/customscripts.js'></script><script>
+      $(document).ready(function() {
+          
+          var collapseOnInit = true;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
+              },
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
+              }
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+
+          $("#collapseAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', false);
+          });
+
+          $("#expandAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', true);
+          });
+
+      });
+
+  </script>
+  <script>
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+  </script>
+  <script src='/zh-tw/active-iq/js/custom-dropdown.js'></script>
+  <script src='/zh-tw/active-iq/js/FileSaver.min.js'></script>
+  <script src='/zh-tw/active-iq/js/jszip-utils.min.js'></script>
+  <script src='/zh-tw/active-iq/js/jszip.min.js'></script>
+  <script src='/zh-tw/active-iq/js/pdf-ux.js'></script>
+</head>
+
+
+  <body class role="document" data-flavor="">
+    <div id="page" class="n-off-canvas-menu">
+      <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
+      <div class="n-off-canvas-menu__content-wrap">
+        <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq/issues/new?body=Page%3A%20[分析叢集和節點的健全狀況](https://docs.netapp.com/zh-tw/active-iq/task_analyze_wellness_clusters_and_nodes.html)" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq/images/discuss-sm.svg" class="github-icon" />要求變更文件</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq/blob/main/task_analyze_wellness_clusters_and_nodes.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq/images/edit-sm.svg" class="github-icon" />編輯此頁面</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-tw/active-iq/images/article-sm.svg" class="github-icon" />瞭解如何作出貢獻</a></div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">在此頁面上</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  
+  <!-- Start top_hat -->
+  <div class="n-top-hat">
+    <div class="n-container">
+      <div class="n-top-hat__cross-property-nav">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/products-a-z/" class="n-top-hat__link">產品與解決方案</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/support-and-training/netapp-university/" class="n-top-hat__link">支援與訓練</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://cloud.netapp.com" class="n-top-hat__link">Cloud Central</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://community.netapp.com/" class="n-top-hat__link">社群</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://blog.netapp.com/" class="n-top-hat__link">部落格</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://customers.netapp.com/en/" class="n-top-hat__link">客戶成功案例</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">聯絡人</a>
+          </li>
+        </ul>
+      </div>
+      <div class="n-top-hat__utils">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">聯絡人</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End top_hat -->
+
+  <!-- Start property bar -->
+  <style>
+    .n-property-navigation-bar__menus--desktop-experience .n-menu--mega__default-content__heading span {
+    color: #34B0FF;
+    }
+  </style>
+  <div class="n-property-bar " data-ntap-ui="sticky-nav">
+    <div class="n-property-bar__inner-wrap">
+      <div class="n-property-bar__menu-toggle">
+        <a href="#" class="n-property-bar__menu-toggle-link">
+          <span class="n-property-bar__menu-toggle-text">Menu</span>
+          <svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
+            <title>bars</title>
+            <use xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#bars"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="n-property-bar__property-mark ">
+        <a href="https://www.netapp.com" class="n-property-bar__property-link">
+          <div class="n-property-bar__logo">
+            <svg class="n-icon-netapp-mark n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
+              <title>netapp-mark</title>
+              <use xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#netapp-mark"></use>
+            </svg>
+            <svg class="n-icon-netapp-logo n-property-bar__logo-svg" aria-labelledby="title">
+              <title>netapp-logo</title>
+              <use xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#netapp-logo"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" 
+          data-search-html="/zh-tw/active-iq/search.html"
+          data-type="widget" 
+          data-placeholder="搜尋文件" 
+          data-no-results-found="找不到符合 {query} 的相關結果。" 
+          data-did-you-mean="搜尋 {suggestion}。" 
+          data-no-results-found-did-you-mean="找不到符合 {query} 的相關結果。您是否要找的是{suggestion}？" 
+          data-results-found="找到 {hitCount} 筆結果"  
+          data-sk-es-pf-indexes=""
+          data-flavor=""></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="n-property-bar__toolbar">
+    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
+      <div id="ie-i18n-menu">
+      <span class="ie-i18n-lang">繁體中文</span>
+        <button class="ie-i18n-icon-container" type="button">
+          <svg class="n-globe__icon" aria-labelledby="title">
+            <title>globe</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#globe"></use>
+          </svg>
+        </button>
+      </div>
+      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
+        <div class="n-language-selector-menu">
+          <ul class="n-menu__list">
+            <li class="n-menu__list-column">
+              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/us-en/active-iq/task_analyze_wellness_clusters_and_nodes.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/ja-jp/active-iq/task_analyze_wellness_clusters_and_nodes.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/ko-kr/active-iq/task_analyze_wellness_clusters_and_nodes.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/zh-cn/active-iq/task_analyze_wellness_clusters_and_nodes.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/zh-tw/active-iq/task_analyze_wellness_clusters_and_nodes.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
+                </li></ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- End Language Selector -->
+
+    <div class="n-property-bar__cta"></div>
+  </div>
+  <script>
+    $(function(){
+        var currentLocalization = $('html').attr('lang');
+
+        var localizationsDictionary = {
+            "en-CA" : "https://www.netapp.com/search/index.aspx?for_cr=canada&",
+            "en-IN" : "https://www.netapp.com/search/index.aspx?for_cr=india&",
+            "nl-NL" : "https://www.netapp.com/search/index.aspx?for_cr=netherlands&",
+            "ru-RU" : "https://www.netapp.com/search/index.aspx?for_cr=russia&",
+            "sv-SE" : "https://www.netapp.com/search/index.aspx?for_cr=sweden&",
+            "it-IT" : "https://www.netapp.com/search/index.aspx?for_cr=italy&",
+            "he-IL" : "https://www.netapp.com/search/index.aspx?for_cr=israel&",
+            "ko-KR" : "https://www.netapp.com/search/index.aspx?for_cr=korea&",
+            "zh-TW" : "https://www.netapp.com/search/index.aspx?for_cr=taiwan&",
+            "en-GB" : "https://www.netapp.com/search/index.aspx?for_cr=unitedkingdom&",
+            "en-SG" : "https://www.netapp.com/search/index.aspx?for_cr=asean&",
+            "en-AU" : "https://www.netapp.com/search/index.aspx?for_cr=australia&",
+            "pt-BR" : "https://www.netapp.com/search/index.aspx?for_cr=brasil&",
+            "de-CH" : "https://www.netapp.com/search/index.aspx?for_cr=switzerland&",
+            "es-MX" : "https://www.netapp.com/search/index.aspx?for_cr=mexico&"
+        };
+
+        if($('html').hasClass('ntap-whitelisted') && localizationsDictionary.hasOwnProperty(currentLocalization)) {
+            $('.n-property-bar__property-link').attr('href', '/');
+        }
+    });
+  </script>
+  <!-- End property bar -->
+</header>
+
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+  <!-- Sidebar Column -->
+  
+  <div class="col-md-3" id="sidebar-height">
+      <div class="n-pdf-header">
+  <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+    <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>可用的 PDF<span>
+    </span>
+  </a>
+</div>
+<div class="n-pdf-body-container">
+  <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+        
+        
+        
+        <a target="_blank" href="/zh-tw/active-iq/pdfs/fullsite-sidebar/_數位顧問_文件_Active_IQ.pdf" >
+          <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>此文件網站（PDF 格式）</a>
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/版本資訊.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            版本資訊
+          </a>
+          
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/開始使用.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            開始使用
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/資源配置觀察清單.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            資源配置觀察清單
+          </a>
+          
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/分析健全屬性.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            分析健全屬性
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
+  <a target="_blank" href="/zh-tw/active-iq/pdfs/pages/task_analyze_wellness_clusters_and_nodes.pdf" >
+    <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+    PDF of this page
+  </a>
+</li>
+
+</ul>
+  
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/檢視系統詳細資料.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            檢視系統詳細資料
+          </a>
+          
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/主動識別系統需求.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            主動識別系統需求
+          </a>
+          
+
+
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/識別組態差異.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            識別組態差異
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/提升儲存系統的效率與效能.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            提升儲存系統的效率與效能
+          </a>
+          
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/分析儲存系統的健全狀況.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            分析儲存系統的健全狀況
+          </a>
+          
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/升級以最佳化安裝基礎.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            升級以最佳化安裝基礎
+          </a>
+          
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/使用Ansible教戰手冊更新AFF_您的功能性和FAS_功能性的韌體.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            使用Ansible教戰手冊更新AFF 您的功能性和FAS 功能性的韌體
+          </a>
+          
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/安裝並執行AFF_不FAS_受限的Automation套件_初學者_.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            安裝並執行AFF 不FAS 受限的Automation套件（初學者）
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/使用API整合資料.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            使用API整合資料
+          </a>
+          
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/產生自訂報告.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf.png" width="16" height="16"/>
+            產生自訂報告
+          </a>
+          
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+
+</li></ul>
+  <div class="zip-pdf-link-container" style="display: none;">   
+    <a href="#" id="zipPdf">
+      <img src="/zh-tw/active-iq/images/pdf-zip.png" width="16" height="16"/>
+      <pre>個別 PDF 文件的集合<span class="zip-size"></span></pre>
+    </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+</div>
+<script>
+  $("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+  $("#toggleButtonPdf").click(function () {
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+  });
+</script><div class="sidebar-nav-container">
+  <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/index.html">
+        《數位顧問文件》Active IQ
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 版本資訊</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/reference_new_activeiq.html">
+        新增功能
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/reference_limitations_activeiq.html">
+        已知限制
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 開始使用</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_getting_started_2.html">
+        快速入門
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_understand_activeiq_features.html">
+        瞭Active IQ 解功能
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_key_terms.html">
+        關鍵Active IQ 概念
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_autosupport.html">
+        瞭解AutoSupport
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_login_activeiq.html">
+        登入Active IQ 「We Digital Advisor」
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_manage_your_cluster_in_cloud_manager.html">
+        在Cloud Manager中管理叢集
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 資源配置觀察清單</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_overview_dashboard.html">
+        總覽
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_add_watchlist.html">
+        建立觀察名單
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_manage_watchlists.html">
+        管理觀察名單
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 分析健全屬性</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_overview_wellness.html">
+        總覽
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_view_risk_and_take_action.html">
+        檢視風險並手動採取修正行動
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html">
+        偵測安全性弱點
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_protect_systems_against_ransomware_risks.html">
+        保護系統免受勒索軟體風險的侵害
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_view_and_acknowledge_risks.html">
+        檢視並確認風險
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_view_wellness_history.html">
+        檢視健康歷史
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_view_risks_remediated_unified_manager.html">
+        檢視Active IQ Unified Manager 可透過《不經認證的戰術》或《可執行的戰術》來自動減輕的風險
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_avoid_the_downtime_and_possible_data_loss.html">
+        避免停機和可能的資料遺失
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_subscribe_to_wellness_review_email.html">
+        訂閱健康審查電子郵件
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_renew_software_and_hardware.html">
+        更新軟體與硬體
+      </a></li><li class="  active "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_analyze_wellness_clusters_and_nodes.html">
+        分析叢集和節點的健全狀況
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 檢視系統詳細資料</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_view_inventory_details.html">
+        檢視庫存詳細資料
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_view_valuable_insight_widget.html">
+        檢視寶貴的洞見
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_view_keystone_capacity_utilization.html">
+        檢視Flex訂閱容量使用率
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 主動識別系統需求</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_overview_planning.html">
+        總覽
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_identify_capacity_system.html">
+        識別容量達到限制的系統
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_avoid_a_volume_filling_up_to_prevent_an_outage.html">
+        避免大量佔用、以避免中斷運作
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_renew_software_and_hardware.html">
+        更新軟體與硬體
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 識別組態差異</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_overview_config_drift.html">
+        總覽
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_add_config_drift_template.html">
+        新增組態偏移範本
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_compare_config_drift_template.html">
+        比較組態偏移範本
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_generate_drift_timeline_report.html">
+        產生飄移時間軸報告
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_manage_template.html">
+        管理範本
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 提升儲存系統的效率與效能</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_analyze_storage_efficiency.html">
+        分析容量與效率節約效益
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_view_performance_graphs.html">
+        分析儲存效能
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html">
+        利用現象顧問監控並分層處理非使用中資料FabricPool
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 分析儲存系統的健全狀況</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_understand_health_check_dashboard.html">
+        總覽
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_get_started_with_health_check_dashboard.html">
+        健全狀況檢查儀表板入門
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_renew_support_contracts_for_your_systems.html">
+        續約您的支援合約
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 升級以最佳化安裝基礎</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_view_upgrade.html">
+        升級ONTAP 儲存系統的版本
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_upgrade_support_offering.html">
+        升級支援服務
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 使用Ansible教戰手冊更新AFF 您的功能性和FAS 功能性的韌體</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_update_AFF_FAS_firmware.html">
+        下載AFF 《Ansible FAS Automation套件》的《更新與更新》韌體
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_install_execute_firmware_update_exp_user.html">
+        安裝並執行AFF 不FAS 受限的Automation套件（經驗豐富的使用者）
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 安裝並執行AFF 不FAS 受限的Automation套件（初學者）</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_hosting_firmware_files_using_web_server.html">
+        使用Web伺服器來裝載韌體檔案
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_working_with_inventory_file.html">
+        使用Inventory檔案
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_execute_ansible_playbook_using_docker.html">
+        使用NetApp Docker映像執行Ansible教戰手冊
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_execute_ansible_playbook_without_docker.html">
+        執行不含Docker的可執行教戰手冊
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_validate_firmware_installation.html">
+        驗證韌體安裝
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/reference_ansible_troubleshoot_feedback_support.html">
+        疑難排解、意見反應與支援
+      </a></li></ul></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 使用API整合資料</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_overview_API_service.html">
+        總覽
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_generate_tokens_API_services.html">
+        產生權杖以存取API
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_view_API_catalog.html">
+        使用API目錄來執行API
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> 產生自訂報告</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_report_types.html">
+        報告類型
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_generate_reports.html">
+        產生報告
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/reference_aiq_faq.html">
+        常見問題集
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_get_more_information.html">
+        取得更多資訊
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/legal-notices.html">
+        法律聲明
+      </a></li></ul>
+</div>
+<script>
+  window.onscroll = () => {
+    const value = -40 - (document.body.scrollHeight - (window.innerHeight + document.scrollingElement.scrollTop));
+    
+    document.getElementById("sidebar-height").style.bottom = Math.max(0,value) + "px";
+};
+</script>
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+
+  </div>
+  
+
+  <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content">
+      <div class="ie-utility">
+  <div class="ie-menu">
+    <div class="n-breadcrumb">
+      <ul class="n-breadcrumb__list">
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
+        </li>
+        
+
+        
+
+        <li class="n-breadcrumb__list-item">
+          <a href="/zh-tw/active-iq/">Active&nbsp;IQ&nbsp;Digital&nbsp;Advisor</a>
+        </li>
+
+      </ul>
+    </div>
+    <div style="clear: both"></div><!-- Main needs to have height -->
+  </div>
+</div>
+
+      <div class="ie-nmt-disclaimer">
+  <span>
+    <div class="ie-nmt-disclaimer-container">
+      <div class="ie-nmt-disclaimer-icon">
+        <svg class="luci-icon" aria-hidden="true">
+          <use xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#circle-info">
+        </svg>
+      </div>
+      <div class="ie-nmt-disclaimer-content">
+        <span> 本繁體中文版使用機器翻譯，譯文僅供參考，若與英文版本牴觸，應以英文版本為準。 </span>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+  </span>
+</div><div class="n-doc__component-detail-heading-wrap">
+  <h1 class="n-doc__component-detail-heading">分析叢集和節點的健全狀況</h1>
+</div>
+
+
+<p class="page-details">
+  
+    
+    <time datetime="2022-05-03 05:49:06 +0000">05/03/2022</time>
+    
+  
+
+
+</p>
+
+<div class="paragraph lead">
+<p>您可以使用ClusterViewer來分析叢集和節點的健全狀況、這是一站式的來源、可提供有關叢集和節點實體和邏輯組態的資訊。</p>
+</div>
+<div class="paragraph">
+<p>ClusterViewer提供的資訊包括節點的堆疊圖、儲存使用量與效率、硬體容量的保留空間等、可協助您做出明智的決策、改善叢集與節點的健全度。</p>
+</div>
+<div class="paragraph">
+<p>您可以在纜線、堆疊和RAID磁碟層級檢視節點實體組態的視覺效果或圖形呈現。您也可以下載svg格式的視覺效果。</p>
+</div>
+<div class="videoblock">
+<div class="content">
+<iframe width="848" height="480" src="https://www.youtube.com/embed/FVbb2bbIY9E?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<div class="olist arabic">
+<div class="title">步驟</div>
+<ol class="arabic">
+<li>
+<p>在* Inventory（詳細目錄）* Widget中、選取您要的叢集或節點（主機）。</p>
+</li>
+<li>
+<p>在叢集或節點層級、按一下*組態*小工具旁的*叢集檢視器*。</p>
+</li>
+<li>
+<p>按一下「<strong>視覺化</strong>」索引標籤、即可檢視叢集的圖形化呈現。</p>
+</li>
+</ol>
+</div>
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+      <div class="n-footer__bottom-left">
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/us/legal/copyright.aspx">© 2022 NetApp, Inc.</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">legal-terms</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">legal-privacy</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">legal-cookies</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">cookie-settings</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="n-footer__bottom-right">
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <span class="n-footer__fine-print">對我們的網站有任何意見或要求？</span>
+              <a target="_self" href="javascript:netapp_mailto()">請與我們聯絡</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://docs.netapp.com/zh-tw/announcements/">公告</a>
+            </li>
+          </ul>
+        </div>
+        <div class="n-footer__social-links">
+          <ul class="n-footer__social-link-list">
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com"
+                target="_blank" title="blog" alt="blog">
+                <span class="n-footer__social-link-text">blog</span>
+                <svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+                  <title>blog@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#blog"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/"
+                target="_blank" title="community" alt="community">
+                <span class="n-footer__social-link-text">community</span>
+                <svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+                  <title>community@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#comments"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp"
+                target="_blank" title="twitter" alt="twitter">
+                <span class="n-footer__social-link-text">twitter</span>
+                <svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+                  <title>twitter@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp"
+                target="_blank" title="facebook" alt="facebook">
+                <span class="n-footer__social-link-text">facebook</span>
+                <svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+                  <title>facebook@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-linkedin"
+                href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+                <span class="n-footer__social-link-text">linkedin</span>
+                <svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+                  <title>linkedin@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-youtube"
+                href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+                <span class="n-footer__social-link-text">youtube</span>
+                <svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+                  <title>youtube@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-slideshare"
+                href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+                <span class="n-footer__social-link-text">slideshare</span>
+                <svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+                  <title>slideshare@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#slideshare"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/zh-tw/active-iq/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/zh-tw/active-iq/js/prism.js'></script>
+      <script type="text/javascript" src='/zh-tw/active-iq/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/zh-tw/active-iq/js/www-ntap.js'></script>
+    <script src='/zh-tw/active-iq/js/tabbed-blocks.js'></script>
+  </body></html>
