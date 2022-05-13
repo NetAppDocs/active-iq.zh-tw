@@ -24,11 +24,14 @@ summary: 提供AutoSupport 關於功能的概述。
 NetApp技術支援部門會使用這些資料來加速問題的診斷與解決、Active IQ 而由NetApp技術支援部門來主動偵測並避免潛在問題。您也可以將其傳送給內部支援組織和支援合作夥伴。
 
 
-NOTE: 不含任何使用者資料。AutoSupport
+NOTE: 僅針對使用不到60天的系統顯示與此功能相關的資料。Active IQ AutoSupport AutoSupport
 
 對於支援靜態系統、當您第一次設定儲存系統時、預設會啟用此功能。ONTAP AutoSupport您應該 link:https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/GUID-91C43742-E563-442E-8161-17D5C5DA8C19.html["設定AutoSupport 功能"] 可控制將資訊傳送至技術支援部門和內部支援組織的方式。ONTAP AutoSupport
 
 如果您不想啟用AutoSupport 效益分析功能、可以使用AutoSupport 「上傳」功能手動上傳AutoSupport 效益分析資料、以獲得有關儲存生態系統的建議和見解。
+
+
+NOTE: 不含任何使用者資料。AutoSupport
 
 如需AutoSupport 更多關於效益的資訊、請參閱適當的文件：
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference_aiq_faq.html 
-keywords: faq, frequently asked questions, nontechnical, nontechnical case, non-technical, non-technical case 
+keywords: faq, frequently asked questions, non-technical, non-technical case, inventory, storage efficiency, capacity, performance 
 summary: 如果您只是想要快速回答問題、這個常見問題集就能幫上忙。 
 ---
 = 關於此功能的常見問題集Active IQ
@@ -20,6 +20,10 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 [role="lead"]
 下列問題可回答您經常提出Active IQ 的有關解決方法的問題。
+
+
+
+== 非技術案例
 
 *什麼是非技術案例？*
 
@@ -300,3 +304,17 @@ NOTE: 其中包含保留給檔案或磁碟區保證類型磁碟區的空間。�
 *容量顯示於Active IQ 《S16 Digital Advisor Base 2》或《Base 10》嗎？* Active IQ 顯示在《21》中的所有容量均為Base 2（除以1024）、代表GiB/TiB的容量。NetApp產品及其他NetApp產品也會在Base 2中顯示容量使用量。ONTAP
 
 就功能而言、容量會以Base 10顯示、容量單位則以TB表示。StorageGRID
+
+
+
+== 庫存
+
+*為什麼我在庫存頁面中找不到某些系統？*由於下列原因之一、您可能無法在庫存頁面中檢視某些系統：
+
+* 新系統Active IQ 在SAP中新增或更新後、需要花一天時間才能反映在更新中。
+* 系統安全無虞、您無權檢視安全系統。
+* 您無權檢視系統。
+* 系統處於非使用中狀態
+
+
+如果您因為其他原因而無法檢視系統、 link:https://mysupport.netapp.com/site/help["建立非技術案例"]。若要深入瞭解非技術案例、請按一下 <<Non-technical case,請按這裡。>>

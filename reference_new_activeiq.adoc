@@ -23,6 +23,36 @@ NetApp Active IQ We Digital Advisor提供下列功能與增強功能：
 
 
 
+== 2022年5月12日
+
+
+
+=== StorageGRID
+
+其他容量指標會包含在StorageGRID 「能力與容量報告」中。
+
+
+
+=== ClusterViewer
+
+叢集的SnapMirror（資料保護）摘要現已包含在ClusterViewer中。
+
+
+
+=== 升級工作流程
+
+您現在可以使用升級工作流程來檢視升級建議、以及目標E系列版本中可用的新功能摘要。
+
+
+
+=== 健康
+
+* Ansible教戰手冊已經過強化、可降低軟體組態風險。
+* 篩選條件已整合至健全狀況行動與風險中。
+
+
+
+
 == 2022年4月7日
 
 

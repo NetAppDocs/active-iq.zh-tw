@@ -390,18 +390,12 @@
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想要快速回答問題、這個常見問題集就能幫上忙。</block>
   <block id="f45e8ce7df04f3b7fdef9a7ac914534b" category="doc">關於此功能的常見問題集Active IQ</block>
   <block id="1733ab713f46f3f8c18b694cf0e0f2c2" category="paragraph">下列問題可回答您經常提出Active IQ 的有關解決方法的問題。</block>
-  <block id="9dbb9bc7db7f476d8d07033da29e3963" category="paragraph">*什麼是非技術案例？*</block>
-  <block id="3ecf934ba92a202021971366143ca10d" category="paragraph">無法檢視庫存中的系統、不正確的合約期限等問題、本質上並非技術性質的問題、均歸類為非技術案例。</block>
-  <block id="00d92d98ebf38a6aa159770cf065b452" category="paragraph">*何時需要建立非技術案例？*</block>
-  <block id="369c5e0a2b4ca18226dd42668ec16d4a" category="paragraph">應針對下列案例建立非技術案例：</block>
   <block id="83f77ac81e7b9adec1ae7943c11aef16" category="list-text">無法存取某些功能</block>
   <block id="9f289da80756bc405e29b49d51ac81d8" category="list-text">庫存中遺失系統</block>
   <block id="7f03ee6a26eada8c343d4876fe635184" category="list-text">從安裝基礎解除委任系統</block>
   <block id="e8298308fc4d536ad5a50bc21152434f" category="list-text">合約期限日期不正確或遺失</block>
   <block id="6fece82477cde8bae9bdb844907c3dc2" category="list-text">不正確的支援服務</block>
-  <block id="57d68619b2765e5344ee6691f1cbbd88" category="paragraph">*如何建立非技術案例？*</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">請按這裡</block>
-  <block id="ba625a9b488c5e1df819a67984494371" category="list-text">按一下 <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> 開啟NetApp支援網站上的「非技術意見回饋工具」。</block>
   <block id="b881d2001fba3b1062cec6417c32bb74" category="list-text">從「*意見反應類別*」下拉式清單中選取適當的類別。</block>
   <block id="12330277a5f9a61a6bc1beddec10eeff" category="list-text">輸入所需的詳細資料、並在「Comments（註解）」方塊中提供額外資訊。</block>
   <block id="014b609750aa0ccedbb6b4212fb3f2df" category="paragraph">系統會建立個案、並提供個案編號供您參考。</block>
@@ -1143,4 +1137,26 @@
   <block id="df332e88c38c4fe66059f71090f042ca" category="sidebar">NetApp社群Active IQ</block>
   <block id="9fb5d585aad7cbcbf4b27548d6b5e072" category="sidebar">支援行動應用程式（Android）Active IQ</block>
   <block id="1b2c7b8f8e2694e94122b68464b31c9f" category="sidebar">作業系統（iOS）Active IQ</block>
+  <block id="390e66de0b25a9d9b226d4ede6fa20b5" category="section-title">2022年5月12日</block>
+  <block id="9ce6137128fa3150f0b3f3b8f9f5d110" category="paragraph">其他容量指標會包含在StorageGRID 「能力與容量報告」中。</block>
+  <block id="412b4661c99e365493b34061a41311d4" category="paragraph">叢集的SnapMirror（資料保護）摘要現已包含在ClusterViewer中。</block>
+  <block id="30477aac7de696f872a4af4a6aff4a5e" category="paragraph">您現在可以使用升級工作流程來檢視升級建議、以及目標E系列版本中可用的新功能摘要。</block>
+  <block id="3974e26b26a740068e57eaa72b547d14" category="list-text">Ansible教戰手冊已經過強化、可降低軟體組態風險。</block>
+  <block id="a47a4bf50c391a1c178847e49446d5d9" category="list-text">篩選條件已整合至健全狀況行動與風險中。</block>
+  <block id="beb3c900abcdebfe6fb8889f05e352f2" category="admonition">僅針對使用不到60天的系統顯示與此功能相關的資料。Active IQ AutoSupport AutoSupport</block>
+  <block id="73cbb404e3fdd583d819be0e2eb8034e" category="section-title">非技術案例</block>
+  <block id="b09ac678fb70485b6003259d225086ea" category="paragraph">*什麼是非技術案例？*</block>
+  <block id="49b0363cd6699cf55e78d722000a5e8c" category="paragraph">無法檢視庫存中的系統、不正確的合約期限等問題、本質上並非技術性質的問題、均歸類為非技術案例。</block>
+  <block id="5eb51f8ff81951a471d845f526636e66" category="paragraph">*何時需要建立非技術案例？*</block>
+  <block id="53184e7a4bde7d1975ba90074c0a52d3" category="paragraph">應針對下列案例建立非技術案例：</block>
+  <block id="8d561f83f3c24e7d066a3cd084ed3764" category="paragraph">*如何建立非技術案例？*</block>
+  <block id="85009e822479a8fa21551fa97aad6551" category="list-text">按一下 <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> 開啟NetApp支援網站上的「非技術意見回饋工具」。</block>
+  <block id="9b3e70f7ec5801014bd7ba2b043dd460" category="paragraph">*為什麼我在庫存頁面中找不到某些系統？*由於下列原因之一、您可能無法在庫存頁面中檢視某些系統：</block>
+  <block id="bc589a42c9712f3202e1697e0c7d5db9" category="list-text">新系統Active IQ 在SAP中新增或更新後、需要花一天時間才能反映在更新中。</block>
+  <block id="490faa3ce28cbfbdad8226dd7dc88a66" category="list-text">系統安全無虞、您無權檢視安全系統。</block>
+  <block id="fff04069266603da7d63522615d51f31" category="list-text">您無權檢視系統。</block>
+  <block id="04187ceda7d68629d17d32d7bfb72e06" category="list-text">系統處於非使用中狀態</block>
+  <block id="202e46041652836ed8241309090e3360" category="inline-link-macro">建立非技術案例</block>
+  <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">請按這裡。</block>
+  <block id="9ca5b690fe8bde0ca39f3697552ca80d" category="paragraph">如果您因為其他原因而無法檢視系統、 <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>。若要深入瞭解非技術案例、請按一下 <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
 </blocks>
