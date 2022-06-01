@@ -23,6 +23,18 @@ NetApp Active IQ We Digital Advisor提供下列功能與增強功能：
 
 
 
+== 2022年5月25日
+
+
+
+=== 庫存
+
+* 您現在可以檢視庫存中系統的銷售代表資訊。
+* Astra Control Center系統現已在庫存中提供。
+
+
+
+
 == 2022年5月12日
 
 

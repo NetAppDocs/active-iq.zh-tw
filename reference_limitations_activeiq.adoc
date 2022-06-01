@@ -34,12 +34,12 @@ summary: 提供版本限制的相關資訊。
 
 
 
-=== 編輯報價表可能需要60分鐘的時間、才能反映Active IQ 在《e數位顧問》中
+== 編輯報價表可能需要60分鐘的時間、才能反映Active IQ 在《e數位顧問》中
 
 編輯報價表並Active IQ 不會立即更新《支援資訊》中的資訊。變更可能需要60分鐘的時間才能反映Active IQ 在《關於數位顧問的資訊》中。
 
 
 
-=== 排程報告時會顯示空白報告
+== 排程報告時會顯示空白報告
 
 排定的報告只能搭配SupportEdge Advisor 支援服務SupportEdge Expert 合約使用。如果您的系統不符合SupportEdge Advisor 不完整支援SupportEdge Expert 合約或不完整支援合約、您可能會在排程報告時收到空白報告。
