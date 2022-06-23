@@ -75,6 +75,8 @@ sidebar:
     entries:
     - title: 總覽
       url: "/concept_overview_planning.html"
+    - title: 根據雲端建議做出明智決策
+      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: 識別容量達到限制的系統
       url: "/task_identify_capacity_system.html"
     - title: 避免大量佔用、以避免中斷運作

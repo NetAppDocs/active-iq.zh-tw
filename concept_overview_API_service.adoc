@@ -39,4 +39,4 @@ API自動化是提升日常或每週工作效率與準確度的絕佳方法。�
 
 一旦您獲得授權並可產生權杖、您就可以利用權杖來進行程式化查詢及擷取資料。您也可以從API目錄中測試API、以第一手瞭解查詢的運作方式、以及傳回的資料類型。這是一種很好的方法、可確保您瞭解API在系統中建置程式碼架構之前的運作方式。
 
-video::GQskCeCrtQA[youtube, width=848,height=480]
+video::GQskCeCrtQA[youtube,width=848,height=480]

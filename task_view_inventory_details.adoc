@@ -23,7 +23,7 @@ summary: 提供您擁有的整體庫存資訊。
 
 您也可以產生所選觀察名單的報告、並以電子郵件將報告傳送給最多5位收件者。
 
-video::ttbpbT5uTBI[youtube, width=848,height=480]
+video::ttbpbT5uTBI[youtube,width=848,height=480]
 .步驟
 . 在* Inventory（清單）*小工具中、按一下* Systems（系統）*以檢視所有平台的系統資訊、或按一下平台類型、然後按一下* Systems（系統）*以檢視該平台的特定系統。
 . 按一下節點或叢集以檢視系統的詳細資訊。

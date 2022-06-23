@@ -27,7 +27,7 @@ summary: 提供效能相關資訊。
 
 您也可以選擇放大效能圖表、顯示個別的資料點。
 
-video::fWrHYX17xT8[youtube, width=848,height=480]
+video::fWrHYX17xT8[youtube,width=848,height=480]
 .步驟
 . 在儀表板上、按一下*效能*。
 +

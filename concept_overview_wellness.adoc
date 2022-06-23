@@ -46,4 +46,4 @@ image:wellness_workflow.png["健全工作流程"]
 |===
 您可以觀看下列影片、瞭解健康特質的重要性：
 
-video::-lTF3oWZB1M[youtube, width=848,height=480]
+video::-lTF3oWZB1M[youtube,width=848,height=480]

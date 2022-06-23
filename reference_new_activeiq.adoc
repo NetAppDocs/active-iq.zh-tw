@@ -23,6 +23,31 @@ NetApp Active IQ We Digital Advisor提供下列功能與增強功能：
 
 
 
+== 2022年6月22日
+
+
+
+=== StorageGRID
+
+Grid檢視器中已包含資訊生命週期管理（ILM）for StorageGRID the功能。
+
+
+
+=== 雲端建議
+
+提供工作負載及其各自磁碟區的建議、這些工作負載及磁碟區可透過Cloud Volumes ONTAP SnapMirror資料複寫移至NetApp還原、NetApp Cloud Volumes Service 還原及NetApp雲端備份（先前AltaVault 稱為「還原」）。 link:task-informed-decisions-based-on-cloud-recommendations.html["瞭解方法"]。
+
+
+
+=== 報告
+
+* 您現在可以使用為已產生報告所定義的準則來產生報告。
+* 您現在可以嘗試3次、重試產生失敗的報告。
+* 所產生報告的保留期間已從3天增加至90天。
+
+
+
+
 == 2022年6月1日
 
 
@@ -735,7 +760,7 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 儲存效率
 
-您可以檢視儲存系統的儲存效率比與節約效益、無論是否使用AFF Snapshot備份、以供支援各種系統、非AFF系統或兩者。您可以在節點層級檢視儲存效率資訊。 link:task_analyze_storage_efficiency.html["瞭解方法"]。
+您可以檢視儲存系統的儲存效率與節約效益、無論是否使用AFF 適用於各種系統、非AFF系統或兩者的Snapshot複本。您可以在節點層級檢視儲存效率資訊。 link:task_analyze_storage_efficiency.html["瞭解方法"]。
 
 
 

@@ -27,7 +27,7 @@ image:activeiq2_workflow.png["「數位顧問」工作流程Active IQ"]
 
 您可以觀看下列影片、以開始使用Active IQ 《不景點數位顧問》：
 
-video::rEPtldosjWM[youtube, width=848,height=480]
+video::rEPtldosjWM[youtube,width=848,height=480]
 並非所有平台都支援所有的支援功能。Active IQ「資訊安全顧問」可識別儲存系統的平台、並只顯示可在儲存系統上執行的一組工作。Active IQ
 
 請閱讀下列資訊、以瞭解儲存系統支援的小工具。

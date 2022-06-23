@@ -21,7 +21,7 @@ summary: 提供資訊以檢視可使用Unified Manager自動修正的風險。
 [role="lead"]
 您可以透過檢視行動和風險來分析儲存系統、並使用Active IQ Unified Manager 《不受影響的戰術》或《不受影響的戰術》來減輕風險。
 
-video::XusFvXM7h-E[youtube, width=848,height=480]
+video::XusFvXM7h-E[youtube,width=848,height=480]
 .步驟
 . 按一下儀表板上的*檢視所有動作*。
 . 按一下「*動作*」以檢視與動作相關的風險、按一下「*風險*」以檢視所有風險、或按一下「*受影響的系統*」以檢視需要注意的系統。

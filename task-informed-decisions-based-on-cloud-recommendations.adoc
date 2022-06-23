@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task-informed-decisions-based-on-cloud-recommendations.html 
+keywords: cloud recommendations, migration, backup and archive, disaster recovery 
+summary: 根據可做出的明智決策、提供建議。 
+---
+= 根據雲端建議做出明智決策
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+NetApp會持續分析您的系統、並提供改善系統效能、效率和健全狀況的建議。Active IQ
+
+提供下列相關建議：Active IQ
+
+* 移轉：提供儲存系統中可用的不同工作負載類型資訊、並識別雲端就緒的工作負載。將工作負載移至雲端可節省成本、並提供雲端災難恢復功能。
+* 備份與歸檔：提供應備份至雲端的系統相關資訊。您可以使用NetApp Cloud Backup來保護系統安全、並在必要時還原。
+* 災難恢復：提供應複寫至雲端以在發生災難時提供協助的資料相關資訊。
+
+
+
+NOTE: 可導覽至Cloud Manager以實作建議。Active IQ
+
+.步驟
+. 在左窗格中、按一下*雲端建議*。
+. 若要移轉資料：
++
+.. 按一下「*移轉*」窗格中的任一連結。
+.. 按一下*移轉至雲端*以啟動* Cloud Manager*。
+
+
+. 若要備份與歸檔資料：
++
+.. 按一下「*備份與歸檔*」窗格中的任一連結。
+.. 按一下*備份到雲端*以啟動* Cloud Manager*。
+
+
+. 若要複寫資料：
++
+.. 按一下「* Disaster Recovery*」（*災難恢復*）窗格中的任一連結。
+.. 按一下*「Replicate to Cloud」*啟動* Cloud Manager*。
+
+
+

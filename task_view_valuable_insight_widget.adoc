@@ -21,7 +21,7 @@ summary: 提供寶貴見解小工具的相關資訊。
 [role="lead"]
 「*珍貴的洞見*」小工具提供相關資訊、包括支援案例數量、擱置中的軟體升級、儲存效率節約、減輕風險等。它也會主動列出來自* Wellness *屬性的風險通知。
 
-video::QPJY2TWnRxQ[youtube, width=848,height=480]
+video::QPJY2TWnRxQ[youtube,width=848,height=480]
 .步驟
 . 在* Inventory（清單）*小工具中、按一下* Systems（系統）*以檢視所有平台的系統資訊、或按一下平台類型、然後按一下* Systems（系統）*以檢視該平台的特定系統。
 . 按一下節點或叢集以檢視系統的詳細資訊。

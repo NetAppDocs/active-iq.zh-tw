@@ -47,7 +47,6 @@
   <block id="d05dbf74dd4a436186ee08c15e9b81d8" category="paragraph">您可以檢視系統的容量詳細資料及儲存效率節約效益、並採取適當行動。容量與儲存效率資訊可在叢集層級或節點層級檢視。</block>
   <block id="17c1d72dbea38c3c03aed0e08dbb37f9" category="admonition">E系列系統不支援此功能。</block>
   <block id="1b7b69815feec90db643b8ced3964b38" category="paragraph">容量儀表板會顯示容量詳細資料和系統容量預測。容量預測會使用歷史容量資訊來識別每個系統的使用率。根據已使用和已分配容量的歷史資料（一年的資料、若有）、演算法會考量每個系統的目前使用率、並針對未來1到6個月內的系統使用率產生預測。</block>
-  <block id="93cf95f800aa42ebeb5cf101c5a712a8" category="paragraph">儲存效率儀表板會顯示儲存效率比、所用邏輯空間、所用實體空間、以及執行ONTAP 更新版本的儲存系統所儲存的總資料。無論是否使用Snapshot備份AFF 、都能看出效能比與節約效益、適用於各種系統、非AFF系統、或兩者皆適用。每個效率功能（例如Volume重複資料刪除、Volume壓縮、壓實、FlexClone Volume和Snapshot備份）都可看出客戶儲存設備的總節約效益。您也可以以最佳效率比檢視前5大儲存系統。</block>
   <block id="ee810de9566deba98dbe4a46fbcf7410" category="list-text">在左窗格中、按一下*容量與效率*。</block>
   <block id="672a98e16d598ad5d32b32f96bbf4db5" category="paragraph">預設會選取*容量*索引標籤。</block>
   <block id="283c169bd8b723905691a0368b1eaf2a" category="list-text">在叢集和節點層級檢視容量詳細資料。</block>
@@ -609,7 +608,6 @@
   <block id="5a0f42f64fb533926accae7152c26173" category="section-title">2020年5月19日</block>
   <block id="c43f08e4b3393556316dfdcf0ac2adec" category="section-title">設定預設首頁</block>
   <block id="55525d93b267e6c2f7d0012ff227fd2f" category="paragraph">您現在可以設定Active IQ 預設的主頁畫面以供使用。您可以將其設為Active IQ 「不知道數位顧問」或Active IQ 「不知道經典」。</block>
-  <block id="8365d6514f06519fba15dafa8c04003a" category="paragraph">您可以檢視儲存系統的儲存效率比與節約效益、無論是否使用AFF Snapshot備份、以供支援各種系統、非AFF系統或兩者。您可以在節點層級檢視儲存效率資訊。 <block ref="7ce8aae7f470992890fd5777e8778c08" category="inline-link-macro-rx"></block>。</block>
   <block id="5c38b1bfe8fc19ace289c4b181898cc3" category="paragraph">效能圖表可讓您評估儲存設備在不同重要領域的效能。</block>
   <block id="79a857f77fa2d44ca5fa8f7eb514d82b" category="section-title">使用Ansible教戰手冊進行韌體升級AFF FAS</block>
   <block id="71bfa4dc9b5da9a689d2f3e561ce94a2" category="paragraph">使用AFF 儲存系統上的Ansible更新功能的更新功能、FAS 以減輕已識別的風險、並讓儲存系統保持最新狀態。</block>
@@ -708,13 +706,10 @@
   <block id="4f34ff28c8e6e0459e7e8b7c218ea60a" category="list-text">*規劃小工具：*顯示需要更新的容量新增、軟體及硬體相關資訊。</block>
   <block id="f455a78311af3f0899cacd26d802aabd" category="list-text">*新增容量：*識別已超過或接近90%容量的系統、以及已超過或接近70%容量的網格站台。您可以提出要求、以增加儲存系統的容量。</block>
   <block id="a14095eb1402d18db0b8da516449039e" category="list-text">*續約：*提供未來6個月內已過期或即將到期的軟體與硬體相關資訊。</block>
-  <block id="0ba25c7c72e05d6333389fdd4abc53fb" category="list-text">*升級小工具：*提供可用的升級數量。</block>
-  <block id="fcc5fdc856cbb2876c3c6a828548290b" category="list-text">*儲存效率：*可識別儲存系統的儲存效率比率與節約效益、無論是否備份AFF 適用於非AFF系統、或兩者皆適用的Snapshot備份。</block>
   <block id="b397fac92f5d136f7fe3fb94680c6e6f" category="list-text">*效能圖表：*可讓您檢視效能資料的圖形格式、以分析儲存裝置的效能。您可以檢視ONTAP 所選節點的詳細效能圖表。</block>
   <block id="c6a6fbd3c93831286955b654f3a43c2d" category="list-text">*《寶貴見解》小工具：*提供支援案例數量、擱置中的軟體升級、儲存效率節約、降低風險等相關資訊。它也會主動列出Wellness屬性的風險通知。</block>
   <block id="d949398a0cd9559b70782bfb2f9ac159" category="list-text">*《*》：*可讓您從高層或詳細的角度檢視《*》。AutoSupport AutoSupport詳細資料包括系統詳細資料、可能發生問題的原因、以及建議的行動。</block>
   <block id="f58148b36d284264c85f69fb927477ef" category="paragraph">若要存取AutoSupport 此功能、請登入Active IQ 「e字串數位顧問」並搜尋叢集或主機名稱。左側窗格提供了這個選項。AutoSupport</block>
-  <block id="7f866e98d50d2b5a636e0419f858c5db" category="list-text">*雲端就緒工作負載：*提供儲存系統內各種可用工作負載的相關資訊、並識別雲端就緒的工作負載。將工作負載移至雲端可節省成本、並提供雲端災難恢復功能。您可以移動在Oracle、SAP、SAP HANA、檔案共用、SQL、 和SharePoint。NetApp®Cloud Volumes提供極致效能與進階資料管理功能、即使是雲端中最嚴苛的應用程式、也能滿足需求、有助於將工作負載和磁碟區移至雲端。如需使用NetApp®Cloud Volumes的詳細資訊、請參閱 <block ref="be04c0866e8894226d734193a7aae968" category="inline-link-macro-rx"></block> 文件。</block>
   <block id="60765e03124dbe237199057ad89d6f43" category="list-text">*快速連結：*提供Active IQ 可以使用「支援資訊顧問」啟動的應用程式清單。</block>
   <block id="9739d4ffc25558588df6f57e8041f639" category="list-text">* ClusterViewer:*可讓您查看詳細的實體和邏輯組態資訊。詳細資料會顯示在多個索引標籤上的數個易於檢視的表格中、這些索引標籤包括叢集與節點組態的摘要、本機層級與磁碟區資訊、網路介面與連接埠資訊、詳細說明磁碟與磁碟櫃資訊的堆疊圖表、以及一些纜線視覺效果。您也可以下載svg格式的纜線視覺效果圖形。</block>
   <block id="e10554f48e3ad865c8bd3aa251010031" category="paragraph">E系列系統不支援ClusterViewer功能。</block>
@@ -913,8 +908,6 @@
   <block id="6eeadd9a025ffd894de9d068b4e77d24" category="paragraph">排定的報告只能搭配SupportEdge Advisor 支援服務SupportEdge Expert 合約使用。如果您的系統不符合SupportEdge Advisor 不完整支援SupportEdge Expert 合約或不完整支援合約、您可能會在排程報告時收到空白報告。</block>
   <block id="b073ca01338f5dd8d8a707598c797762" category="summary">提供有關追蹤儲存系統效率的資訊。</block>
   <block id="c116684e616e0ce2787b26417c569f60" category="doc">瞭解儲存效率</block>
-  <block id="7179ac6c721c0d8a6a624e4e93ff600e" category="paragraph">儲存效率儀表板會顯示儲存效率比、所用邏輯空間、所用實體空間、以及執行ONTAP 更新版本的儲存系統所儲存的總資料。無論是否使用Snapshot備份AFF 、都能看出效能比與節約效益、適用於各種系統、非AFF系統、或兩者皆適用。您可以在叢集層級或節點層級檢視儲存效率資訊。</block>
-  <block id="c01056395b72293f5dff072d861e8dcc" category="paragraph">每個效率功能（例如Volume重複資料刪除、Volume壓縮、壓實、FlexClone Volume和Snapshot備份）都可看出客戶儲存設備的總節約效益。您也可以以最佳效率比檢視前5大儲存系統。</block>
   <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">提供管理觀察名單的資訊。</block>
   <block id="6e963896d19c6e8365735dbf8e7f8cba" category="doc">管理觀察名單</block>
   <block id="aa3fb4a2f751f4c503a02c5e91433d10" category="paragraph">您可以檢視不同觀察名單的儀表板、編輯現有觀察名單的詳細資料、以及刪除觀察名單。</block>
@@ -1162,4 +1155,37 @@
   <block id="a620ec8d73813dc8557698991cfb2b95" category="list-text">您現在可以檢視庫存中系統的銷售代表資訊。</block>
   <block id="141c7ce1e6e924787a29d62d1abc74fd" category="list-text">Astra Control Center系統現已在庫存中提供。</block>
   <block id="95f841026c30d747102e348f792a2a3e" category="section-title">2022年6月1日</block>
+  <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">根據可做出的明智決策、提供建議。</block>
+  <block id="5649476905365d651ff75a651e4e79a8" category="doc">根據雲端建議做出明智決策</block>
+  <block id="786f97e3b85dcf5cda7df9f506b9e37f" category="paragraph">NetApp會持續分析您的系統、並提供改善系統效能、效率和健全狀況的建議。Active IQ</block>
+  <block id="13f2e084bb6eb90118a6180587525fdc" category="paragraph">提供下列相關建議：Active IQ</block>
+  <block id="c4365912c5ac550ab4563cdf655a1389" category="list-text">移轉：提供儲存系統中可用的不同工作負載類型資訊、並識別雲端就緒的工作負載。將工作負載移至雲端可節省成本、並提供雲端災難恢復功能。</block>
+  <block id="1b1c7445cf11ba61f71545ee9a26fa10" category="list-text">備份與歸檔：提供應備份至雲端的系統相關資訊。您可以使用NetApp Cloud Backup來保護系統安全、並在必要時還原。</block>
+  <block id="85e7b287d322cd383487f21370cbd1d0" category="list-text">災難恢復：提供應複寫至雲端以在發生災難時提供協助的資料相關資訊。</block>
+  <block id="afec60d9807859052bf26fac6dd60746" category="admonition">可導覽至Cloud Manager以實作建議。Active IQ</block>
+  <block id="fb59e0db05d49dc1ab77a214f215e7c3" category="list-text">在左窗格中、按一下*雲端建議*。</block>
+  <block id="d54ae2a9cf19772827827ac1b0cd7425" category="list-text">若要移轉資料：</block>
+  <block id="610e13ad770f2052e464b10bf6ea8527" category="list-text">按一下「*移轉*」窗格中的任一連結。</block>
+  <block id="ddf979002bc59fc32f03076418804262" category="list-text">按一下*移轉至雲端*以啟動* Cloud Manager*。</block>
+  <block id="c6f97553f2c8b8171f56bc5fd81ae33e" category="list-text">若要備份與歸檔資料：</block>
+  <block id="8e508c78b6f8cdee2edbb3ccef2f99e0" category="list-text">按一下「*備份與歸檔*」窗格中的任一連結。</block>
+  <block id="d1077a4290f7d361380bac5612edd515" category="list-text">按一下*備份到雲端*以啟動* Cloud Manager*。</block>
+  <block id="7942b76ee4f0230e37266032b153a3dd" category="list-text">若要複寫資料：</block>
+  <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">按一下「* Disaster Recovery*」（*災難恢復*）窗格中的任一連結。</block>
+  <block id="a70fb77774e64282c4a92fa8563e4b75" category="list-text">按一下*「Replicate to Cloud」*啟動* Cloud Manager*。</block>
+  <block id="054285913eee18981aea3554542786c2" category="paragraph">儲存效率儀表板會顯示儲存效率比、所用邏輯空間、所用實體空間、以及執行ONTAP 更新版本的儲存系統所儲存的總資料。無論是AFF 使用或不使用適用於各種系統、非AFF系統或兩者的Snapshot複本、都能看出效率與節約效益。您可以在叢集層級或節點層級檢視儲存效率資訊。</block>
+  <block id="cd4f2e2f122a3ca13ed6a55ea65137d8" category="paragraph">每個效率功能（例如Volume重複資料刪除、Volume壓縮、壓實、FlexClone Volume和Snapshot複本）都可看出客戶儲存設備的總節約效益。您也可以以最佳效率比檢視前5大儲存系統。</block>
+  <block id="877cc09ee5c3206ad144f4aa8f211c78" category="paragraph">儲存效率儀表板會顯示儲存效率比、所用邏輯空間、所用實體空間、以及執行ONTAP 更新版本的儲存系統所儲存的總資料。無論是AFF 使用或不使用適用於各種系統、非AFF系統或兩者的Snapshot複本、都能看出效率與節約效益。每個效率功能（例如Volume重複資料刪除、Volume壓縮、壓實、FlexClone Volume和Snapshot複本）都可看出客戶儲存設備的總節約效益。您也可以以最佳效率比檢視前5大儲存系統。</block>
+  <block id="caf1252a3f30072a722120f9f4845208" category="section-title">2022年6月22日</block>
+  <block id="a23d1d4ae4ec88d0e3d45bcb6cfa40ac" category="paragraph">Grid檢視器中已包含資訊生命週期管理（ILM）for StorageGRID the功能。</block>
+  <block id="76ad5352af956a4d0d16558d3d763073" category="section-title">雲端建議</block>
+  <block id="5351ffbf47ff169f3734bf800f57ddfc" category="paragraph">提供工作負載及其各自磁碟區的建議、這些工作負載及磁碟區可透過Cloud Volumes ONTAP SnapMirror資料複寫移至NetApp還原、NetApp Cloud Volumes Service 還原及NetApp雲端備份（先前AltaVault 稱為「還原」）。 <block ref="e540305a20102603a156b0c2b7f74a4c" category="inline-link-macro-rx"></block>。</block>
+  <block id="f2ca08481f9cb688103b90a756b0c613" category="list-text">您現在可以使用為已產生報告所定義的準則來產生報告。</block>
+  <block id="db9b022851e15c130528bb7ffa01c31a" category="list-text">您現在可以嘗試3次、重試產生失敗的報告。</block>
+  <block id="318d37e2adcbd404d2708622a356f2c5" category="list-text">所產生報告的保留期間已從3天增加至90天。</block>
+  <block id="196bf417f670cda21f19ec3d4d3beee2" category="paragraph">您可以檢視儲存系統的儲存效率與節約效益、無論是否使用AFF 適用於各種系統、非AFF系統或兩者的Snapshot複本。您可以在節點層級檢視儲存效率資訊。 <block ref="7ce8aae7f470992890fd5777e8778c08" category="inline-link-macro-rx"></block>。</block>
+  <block id="893c77a9be3c9d01629801789ac3c684" category="list-text">*升級小工具：*提供ONTAP 適用於下列系統的升級數量：</block>
+  <block id="802c8daa153570ef0dadaf2d8be9ee78" category="list-text">若為ONTAP 「更新」系統、您可以檢視需要升級的系統數量資訊、然後申請升級計畫。</block>
+  <block id="ac697c7fc74ba789f9ec5a46df7312c6" category="list-text">對於E系列系統、您只能檢視需要升級的系統數量資訊。</block>
+  <block id="c7d11c557339c95279902ee082ba9f5b" category="list-text">*儲存效率：*可識別儲存系統的儲存效率比、以及儲存系統的儲存效率與節約效益、無論是否使用AFF Snapshot複本、均適用於非AFF系統或兩者。</block>
 </blocks>

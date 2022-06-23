@@ -29,4 +29,4 @@ image:config_drift.png["組態飄移工作流程"]
 
 您可以觀看下列影片、以產生並執行可執行的教戰手冊、以修正組態差異：
 
-video::MbkwcZ7xk3Y[youtube, width=848,height=480]
+video::MbkwcZ7xk3Y[youtube,width=848,height=480]
