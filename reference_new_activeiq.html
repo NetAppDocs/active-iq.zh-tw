@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">繁體中文</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">繁體中文</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-tw/active-iq/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/active-iq/reference_new_activeiq.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/active-iq/reference_new_activeiq.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/active-iq/reference_new_activeiq.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/active-iq/reference_new_activeiq.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/zh-tw/active-iq/reference_new_activeiq.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/active-iq/reference_new_activeiq.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/active-iq/reference_new_activeiq.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/active-iq/reference_new_activeiq.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -562,6 +554,8 @@
             主動識別系統需求
           </a>
           
+
+
 
 
 
@@ -873,7 +867,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/index.html">
         《數位顧問文件》Active IQ
       </a></li><li class="subfolders "><a href="#">
@@ -946,6 +940,8 @@
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/concept_overview_planning.html">
         總覽
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task-informed-decisions-based-on-cloud-recommendations.html">
+        根據雲端建議做出明智決策
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_identify_capacity_system.html">
         識別容量達到限制的系統
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq/task_avoid_a_volume_filling_up_to_prevent_an_outage.html">
@@ -1095,7 +1091,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-06-01 15:39:01 +0000">06/01/2022</time>
+    <time datetime="2022-06-23 08:10:00 +0000">06/23/2022</time>
     
   
 
@@ -1105,6 +1101,7 @@
 <div id="toc" class="toc">
 <div id="toctitle">目錄</div>
 <ul class="sectlevel1">
+<li><a href="#2022年6月22日">2022年6月22日</a></li>
 <li><a href="#2022年6月1日">2022年6月1日</a></li>
 <li><a href="#2022年5月12日">2022年5月12日</a></li>
 <li><a href="#2022年4月7日">2022年4月7日</a></li>
@@ -1150,6 +1147,39 @@
 </div>
 </div>
 <div class="sect1">
+<h2 id="2022年6月22日">2022年6月22日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid">StorageGRID</h3>
+<div class="paragraph">
+<p>Grid檢視器中已包含資訊生命週期管理（ILM）for StorageGRID the功能。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="雲端建議">雲端建議</h3>
+<div class="paragraph">
+<p>提供工作負載及其各自磁碟區的建議、這些工作負載及磁碟區可透過Cloud Volumes ONTAP SnapMirror資料複寫移至NetApp還原、NetApp Cloud Volumes Service 還原及NetApp雲端備份（先前AltaVault 稱為「還原」）。 <a href="task-informed-decisions-based-on-cloud-recommendations.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="報告">報告</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>您現在可以使用為已產生報告所定義的準則來產生報告。</p>
+</li>
+<li>
+<p>您現在可以嘗試3次、重試產生失敗的報告。</p>
+</li>
+<li>
+<p>所產生報告的保留期間已從3天增加至90天。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="2022年6月1日">2022年6月1日</h2>
 <div class="sectionbody">
 <div class="sect2">
@@ -1171,7 +1201,7 @@
 <h2 id="2022年5月12日">2022年5月12日</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="storagegrid">StorageGRID</h3>
+<h3 id="storagegrid-2">StorageGRID</h3>
 <div class="paragraph">
 <p>其他容量指標會包含在StorageGRID 「能力與容量報告」中。</p>
 </div>
@@ -1225,7 +1255,7 @@
 <h2 id="2022年3月31日">2022年3月31日</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="storagegrid-2">StorageGRID</h3>
+<h3 id="storagegrid-3">StorageGRID</h3>
 <div class="paragraph">
 <p>您可以在網格檢視器中檢視租戶和鏟斗的相關資訊。</p>
 </div>
@@ -1252,7 +1282,7 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="storagegrid-3">StorageGRID</h3>
+<h3 id="storagegrid-4">StorageGRID</h3>
 <div class="paragraph">
 <p>您可以在網格檢視器中檢視網格組態詳細資料。</p>
 </div>
@@ -1287,7 +1317,7 @@
 <h2 id="2021年12月15日">2021年12月15日</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="報告">報告</h3>
+<h3 id="報告-2">報告</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -1403,7 +1433,7 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="報告-2">報告</h3>
+<h3 id="報告-3">報告</h3>
 <div class="paragraph">
 <p>報告時程已延長至12個月。排程報告即將到期時、您也會收到通知。</p>
 </div>
@@ -1483,7 +1513,7 @@
 <h2 id="2021年9月6日">2021年9月6日</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="storagegrid-4">StorageGRID</h3>
+<h3 id="storagegrid-5">StorageGRID</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -1630,7 +1660,7 @@
 <h2 id="2021年6月17日">2021年6月17日</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="報告-3">報告</h3>
+<h3 id="報告-4">報告</h3>
 <div class="paragraph">
 <p>您現在可以針對儲存VM中的所有Volume、針對任何日期、週或月產生彙總Volume效能報告。</p>
 </div>
@@ -1749,7 +1779,7 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="報告-4">報告</h3>
+<h3 id="報告-5">報告</h3>
 <div class="paragraph">
 <p>您可以產生或排程容量與效率報告、以檢視系統容量與儲存效率節約效益的詳細資訊。</p>
 </div>
@@ -1760,7 +1790,7 @@
 <h2 id="2021年2月10日">2021年2月10日</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="storagegrid-5">StorageGRID</h3>
+<h3 id="storagegrid-6">StorageGRID</h3>
 <div class="paragraph">
 <p>使用NextGen API架構啟用「支援資訊儀表板」StorageGRID 。</p>
 </div>
@@ -1881,7 +1911,7 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="報告-5">報告</h3>
+<h3 id="報告-6">報告</h3>
 <div class="paragraph">
 <p>您可以產生或排程ClusterViewer報告、以檢視系統實體和邏輯組態的詳細資訊。 <a href="task_generate_reports.html">"瞭解方法"</a>。</p>
 </div>
@@ -1916,7 +1946,7 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="報告-6">報告</h3>
+<h3 id="報告-7">報告</h3>
 <div class="paragraph">
 <p>您可以使用報告功能立即產生報告、或排程每週或每月產生報告。 <a href="task_generate_reports.html">"瞭解方法"</a>。</p>
 </div>
@@ -2030,7 +2060,7 @@
 <div class="sect2">
 <h3 id="儲存效率-4">儲存效率</h3>
 <div class="paragraph">
-<p>您可以檢視儲存系統的儲存效率比與節約效益、無論是否使用AFF Snapshot備份、以供支援各種系統、非AFF系統或兩者。您可以在節點層級檢視儲存效率資訊。 <a href="task_analyze_storage_efficiency.html">"瞭解方法"</a>。</p>
+<p>您可以檢視儲存系統的儲存效率與節約效益、無論是否使用AFF 適用於各種系統、非AFF系統或兩者的Snapshot複本。您可以在節點層級檢視儲存效率資訊。 <a href="task_analyze_storage_efficiency.html">"瞭解方法"</a>。</p>
 </div>
 </div>
 <div class="sect2">
@@ -2320,4 +2350,5 @@
     </script>
     <script src='/zh-tw/active-iq/js/www-ntap.js'></script>
     <script src='/zh-tw/active-iq/js/tabbed-blocks.js'></script>
+    <script src='/zh-tw/active-iq/js/sidebar.js'></script>
   </body></html>

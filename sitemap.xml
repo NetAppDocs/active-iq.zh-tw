@@ -36,14 +36,14 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/concept_getting_started_2.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/concept_key_terms.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
@@ -57,14 +57,14 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/concept_overview_API_service.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/concept_overview_config_drift.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
@@ -78,21 +78,21 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/concept_overview_planning.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/concept_overview_storage_efficiency.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/concept_overview_wellness.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
@@ -162,14 +162,21 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/reference_new_activeiq.html</loc>
       
-      <lastmod>2022-06-01T15:39:01+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq//search.html</loc>
       
-      <lastmod>2022-06-01T15:39:22+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:22+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/active-iq/task-informed-decisions-based-on-cloud-recommendations.html</loc>
+      
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
@@ -190,14 +197,14 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/task_analyze_storage_efficiency.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/task_analyze_wellness_clusters_and_nodes.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
@@ -379,7 +386,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/task_view_inventory_details.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
@@ -393,21 +400,21 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/task_view_performance_graphs.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/task_view_risk_and_take_action.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/task_view_risks_remediated_unified_manager.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
@@ -421,7 +428,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/active-iq/task_view_valuable_insight_widget.html</loc>
       
-      <lastmod>2022-05-03T05:49:06+00:00</lastmod>
+      <lastmod>2022-06-23T08:10:00+00:00</lastmod>
       
     </url>
   
