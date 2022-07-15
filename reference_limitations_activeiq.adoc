@@ -43,3 +43,9 @@ summary: 提供版本限制的相關資訊。
 == 排程報告時會顯示空白報告
 
 排定的報告只能搭配SupportEdge Advisor 支援服務SupportEdge Expert 合約使用。如果您的系統不符合SupportEdge Advisor 不完整支援SupportEdge Expert 合約或不完整支援合約、您可能會在排程報告時收到空白報告。
+
+
+
+== 認可和未確認的風險可能需要60分鐘時間才能反映Active IQ 在《e數位顧問》中
+
+已確認及未確認的風險狀態、並未立即反映在Active IQ 《e數位顧問》中。變更可能需要60分鐘的時間、才能反映Active IQ 在「資訊顧問」和「健康報告」中。

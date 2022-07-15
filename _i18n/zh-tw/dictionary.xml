@@ -1188,4 +1188,14 @@
   <block id="802c8daa153570ef0dadaf2d8be9ee78" category="list-text">若為ONTAP 「更新」系統、您可以檢視需要升級的系統數量資訊、然後申請升級計畫。</block>
   <block id="ac697c7fc74ba789f9ec5a46df7312c6" category="list-text">對於E系列系統、您只能檢視需要升級的系統數量資訊。</block>
   <block id="c7d11c557339c95279902ee082ba9f5b" category="list-text">*儲存效率：*可識別儲存系統的儲存效率比、以及儲存系統的儲存效率與節約效益、無論是否使用AFF Snapshot複本、均適用於非AFF系統或兩者。</block>
+  <block id="0e1335531f896df953b41fb40e52c70e" category="section-title">2022年7月14日</block>
+  <block id="703e1ace2a23931c8fffe15a7d94076f" category="list-text">您現在可以在Cloud Volumes ONTAP 「健全狀況檢查儀表板」中檢視針對各種系統所建立的技術案例詳細資料。</block>
+  <block id="bf392ea3db062ee21bd43f90458c912a" category="list-text">新增了平台索引標籤、可協助您輕鬆瀏覽不同平台的KPI。</block>
+  <block id="6b068f0a943d421535c7d8d412ee3522" category="section-title">E系列系統</block>
+  <block id="4485be220070dac75e317d3e08e5d652" category="paragraph">您可以SANtricity 在建議的版本和健全狀況檢查KPI中檢視版本的支援。</block>
+  <block id="1166b0654d50f1afb6e9769be090407f" category="paragraph">引進色彩編碼、可快速輕鬆地識別不需要任何軟體或韌體版本升級的系統。</block>
+  <block id="8693aef17f2d371968a29ad0e0dff726" category="section-title">升級工作流程</block>
+  <block id="f04030f456776755903c2312553427bf" category="paragraph">您現在可以檢視E系列系統的升級建議。</block>
+  <block id="ebb3292114a6a69609c0f8875098f714" category="section-title">認可和未確認的風險可能需要60分鐘時間才能反映Active IQ 在《e數位顧問》中</block>
+  <block id="7264c3b35813062888fb1306b7ec8b7b" category="paragraph">已確認及未確認的風險狀態、並未立即反映在Active IQ 《e數位顧問》中。變更可能需要60分鐘的時間、才能反映Active IQ 在「資訊顧問」和「健康報告」中。</block>
 </blocks>
