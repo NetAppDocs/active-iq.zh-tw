@@ -75,14 +75,14 @@ sidebar:
     entries:
     - title: 總覽
       url: "/concept_overview_planning.html"
-    - title: 根據雲端建議做出明智決策
-      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: 識別容量達到限制的系統
       url: "/task_identify_capacity_system.html"
     - title: 避免大量佔用、以避免中斷運作
       url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
     - title: 更新軟體與硬體
       url: "/task_renew_software_and_hardware.html"
+  - title: 根據雲端建議做出明智決策
+    url: "/task-informed-decisions-based-on-cloud-recommendations.html"
   - title: 識別組態差異
     entries:
     - title: 總覽
@@ -101,8 +101,6 @@ sidebar:
       url: "/task_analyze_storage_efficiency.html"
     - title: 分析儲存效能
       url: "/task_view_performance_graphs.html"
-  - title: 利用現象顧問監控並分層處理非使用中資料FabricPool
-    url: "/task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html"
   - title: 分析儲存系統的健全狀況
     entries:
     - title: 總覽
@@ -185,8 +183,8 @@ homepage:
     links:
     - title: 檢視ONTAP 有關升級的建議
       url: task_view_upgrade.html
-    - title: 利用Cloud Manager減少儲存設備佔用空間
-      url: task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html
+    - title: 根據雲端建議做出明智決策
+      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: 透過「 View Flex 訂閱」檢視容量使用率 NetApp Keystone
       url: task_view_keystone_capacity_utilization.html
   - title: 更多資源

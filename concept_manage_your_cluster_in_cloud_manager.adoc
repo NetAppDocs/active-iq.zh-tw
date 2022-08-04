@@ -21,4 +21,4 @@ summary: 提供有關整合及如何在Cloud Manager中管理叢集的資訊。
 [role="lead"]
 整合至Cloud Manager的不只是數位顧問、Active IQ您現在可以從Active IQ Cloud Manager使用者介面（UI）管理叢集、並存取所有的功能。使用Cloud Manager、IT專家和雲端架構設計師可以集中管理混合式多雲端基礎架構。
 
-您只需要Cloud Manager中的一個NSS帳戶、就能在Active IQ Cloud Manager中整合及存取功能。如需在Active IQ Cloud Manager中整合及存取功能的相關資訊、請參閱 link:https://docs.netapp.com/us-en/occm/concept-aiq-digital-advisor.html#how-active-iq-digital-advisor-works-with-cloud-manager["如何與Cloud Manager搭配運作Active IQ"]。
+您只需要Cloud Manager中的NetApp支援網站（NSS）帳戶、即可在Active IQ Cloud Manager中整合及存取功能。如需在Active IQ Cloud Manager中整合及存取功能的相關資訊、請參閱 link:https://docs.netapp.com/us-en/occm/concept-aiq-digital-advisor.html#how-active-iq-digital-advisor-works-with-cloud-manager["如何與Cloud Manager搭配運作Active IQ"]。

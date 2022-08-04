@@ -127,7 +127,6 @@
   <block id="69afd9ad39724c949338645bc3c18d3c" category="doc">在Cloud Manager中管理叢集</block>
   <block id="8a0d2c897946577052b091701b0ae580" category="paragraph">整合至Cloud Manager的不只是數位顧問、Active IQ您現在可以從Active IQ Cloud Manager使用者介面（UI）管理叢集、並存取所有的功能。使用Cloud Manager、IT專家和雲端架構設計師可以集中管理混合式多雲端基礎架構。</block>
   <block id="292e5c26d5c03cc4f8e1e8768bbbabaa" category="inline-link-macro">如何與Cloud Manager搭配運作Active IQ</block>
-  <block id="1a14660c227c82394e14ca6a74c99853" category="paragraph">您只需要Cloud Manager中的一個NSS帳戶、就能在Active IQ Cloud Manager中整合及存取功能。如需在Active IQ Cloud Manager中整合及存取功能的相關資訊、請參閱 <block ref="4b51d7668fb4335133544eec7db447ae" category="inline-link-macro-rx"></block>。</block>
   <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">提供有關ClusterViewer的資訊。</block>
   <block id="6e6b112d636d5497f59ccca67738fac3" category="doc">分析叢集和節點的健全狀況</block>
   <block id="964f0ca73e7ebb063af3a2240b8483fb" category="paragraph">您可以使用ClusterViewer來分析叢集和節點的健全狀況、這是一站式的來源、可提供有關叢集和節點實體和邏輯組態的資訊。</block>
@@ -185,7 +184,6 @@
   <block id="eae8b28f90d4f0bef1cf3c21d4b34b89" category="list-text">按一下*獨特風險*索引標籤。按一下「*修正行動*」連結後、您可以變更警告臨界值、或為磁碟區分配更多空間。<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e0f076d59e2092bdbab66e81920ec8bf" category="summary">提供產生報告的資訊。</block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="doc">產生報告</block>
-  <block id="eef7fb172cf051c21b223bbb686fb46e" category="paragraph">您可以立即產生報告、或安排每週或每月產生報告。您可以針對庫存、健全狀況和組態（ClusterViewer）等領域產生報告。</block>
   <block id="78166ce4ccceeedfbf6aeb8682851072" category="paragraph">*關於此工作*</block>
   <block id="f4326c266c746886119f8753fbde4ae5" category="list-text">您無法在Active IQ 不執行指令的情況下編輯報告。您應該刪除現有報告並建立新報告。</block>
   <block id="b9078cbffeaf57a288d7d58d7ed02317" category="list-text">在左窗格中、按一下* Reports *。</block>
@@ -733,15 +731,7 @@
   <block id="baceeff257420910d075f17bbf8cb985" category="paragraph">利用此功能、您可以利用數位顧問產生自訂的可執行指令碼或教戰手冊來更新所需的磁碟韌體、包括磁碟韌體檔案。Active IQ</block>
   <block id="0a6792a12eae97ba02fc8390bfc77b8c" category="inline-image-macro">韌體AFF FAS</block>
   <block id="03ad1b597ecef769f82b062d6ca40935" category="list-text">按一下* Ansible「A」*圖示、即可產生及下載指令碼。<block ref="de1b9e535c23b0fc7148d0cda53eb930" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="babc6382b2fc83a689d76a9aff74a96b" category="summary">提供FabricPool 有關使用NetApp Advisor分層處理非作用中資料的資訊。</block>
-  <block id="67b399315af1fd51d7b669851330bf0a" category="doc">利用現象顧問監控並分層處理非使用中資料FabricPool</block>
-  <block id="ce8d6a782fcd6d935be2872ca00a46dd" category="paragraph">您可以監控冷資料或非使用中資料、並將其分層存放至低成本的物件儲存層、藉此減少儲存設備佔用空間及相關成本。</block>
-  <block id="c085b6657036bb1d81722aa83019dea6" category="paragraph">「流通數位顧問」FabricPool 中的「流通顧問」儀表板Active IQ 會顯示您的非使用中本機層（集合）資料、非使用中Volume資料、階層式資料及未受監控資料的詳細資料。</block>
   <block id="1ba52d4e13f2ee111637763e8fc34e61" category="admonition">您可以啟用非使用中資料報告（IDR)、以產生含有可執行教戰手冊檔案的壓縮檔。這些資訊可在客戶、站台、群組、觀察清單、叢集、 和節點層級。</block>
-  <block id="36afa058c74d288178950c27927bdb38" category="inline-link-macro">深入瞭解雲端分層</block>
-  <block id="68402dbd648038cbbdf19fccff1898f8" category="paragraph">如果某個Volume中有超過50%的非使用中資料、您可以使用NetApp®Cloud Manager來分層資料。如需雲端分層的詳細資訊、請參閱 <block ref="c3ebe7f502aadde64f1a50d413c5e2b0" category="inline-link-macro-rx"></block>。</block>
-  <block id="cd01c74549cdfc52159ec7a8329c2c3f" category="list-text">從FabricPool 左側導覽窗格中選取*《顧問*》。</block>
-  <block id="ba825ed19de4ba2cc70be46eb78689f1" category="list-text">按一下*層級資料*、使用Cloud Manager來分層資料。</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link-macro">最佳實務做法FabricPool</block>
   <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">如需FabricPool 深入瞭解有關資訊、請參閱 <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-macro-rx"></block>。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想要快速回答問題、這個常見問題集就能幫上忙。</block>
@@ -924,15 +914,10 @@
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">說明</block>
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">提供未解決及已確認的風險、風險詳細資料、修正行動及受影響系統的相關資訊。</block>
   <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">健全狀況：彙總</block>
-  <block id="87dafd57e21434bb814dbc172e84014c" category="cell">以Excel格式提供未解決風險的摘要、以及受影響系統的數量。</block>
   <block id="0c9c13cde9e8b69be84ca36dee87f611" category="cell">7-Mode Upgrade Advisor計畫</block>
-  <block id="172ba4bf1d36ec96b59a55102d5b020c" category="cell">提供關於7-mode系統升級顧問計畫的報告。本報告以PDF格式提供HA合作夥伴的相關資訊。</block>
-  <block id="35767d0c6b2bfe724794207ba0268903" category="cell">提供可Ansible庫存檔案、依地區或站台列出所有系統庫存詳細資料。此檔案可用於自動化。</block>
   <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
   <block id="7eaee357275d531796b5348076c7abaa" category="cell">提供非使用中、冷、作用中、熱、階層式、 和未受監控的資料。本報告也包含可在停用的Aggregate上啟用「非作用中資料報告」的可執行方針。</block>
-  <block id="ee50541ca9446ee369b76dc85f187051" category="cell">提供所選觀察清單、客戶、站台、群組層級的安裝基礎相關資訊。此報告可從「庫存詳細資料」頁面直接下載、也可從「報告」頁面產生。</block>
   <block id="7a1964d60060b532bf912499ef0e5419" category="cell">終止支援壽命</block>
-  <block id="eb3e2bb77a70accd5403c18060eae0d0" category="cell">提供已達到支援終止（EOS）的控制器、磁碟櫃和磁碟清單資訊。</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">建議組態</block>
   <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">提供遠端管理組態、備援磁碟機、HA配對和SVM健全狀況等各種建議組態落差的相關資訊。</block>
   <block id="fca571dd1b59c732f4bccd0d20435b5d" category="cell">技術案例詳細資料</block>
@@ -940,13 +925,11 @@
   <block id="5cbae6debb1f76f9bf4bec9196da5dc6" category="cell">升級建議（軟體與韌體）</block>
   <block id="9932f2379db681a01520e32c482a3ddb" category="cell">搜尋條件中每個控制器或序列的軟體與韌體幣別及建議版本的多索引標籤式報告。</block>
   <block id="7ba03c87de2b2098f95107674c8477ff" category="cell">ClusterViewer報告</block>
-  <block id="deadf2a9fa3f158efcd64e6a72518e2d" category="cell">提供客戶與報價表層級的單一或多個叢集相關資訊。您可以使用ClusterViewer報告、將所有資訊下載到單一檔案中。您只能針對最多100個節點的觀察清單產生此報告。</block>
   <block id="2d99f2b259d1d48f91090cd494f911f9" category="cell">容量與效率</block>
   <block id="5da3b92de536337b0597bb58ef5868ac" category="cell">提供叢集、客戶、站台、群組、觀察清單和節點層級的容量與效率詳細資料。</block>
   <block id="7780a058aaed86fab91b6e7629c71e93" category="cell">Volume效能報告</block>
   <block id="2bc63cd07b97ee266354dc14df194285" category="cell">提供叢集層級磁碟區效能詳細資料的相關資訊。</block>
   <block id="f7ced170f0a650cade73ee4d9d2d75de" category="cell">效能報告</block>
-  <block id="c05d44d160f419e8ea9a210443df1f11" category="cell">在報價表層級、以單一壓縮檔提供有關叢集、節點、本機層（Aggregate）和磁碟區效能的資訊。您只能針對最多100個節點的觀察清單產生此報告。</block>
   <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">提供API服務功能的總覽。</block>
   <block id="de3992e6ea5d74abcf945b6f9ab19c22" category="doc">瞭解API服務</block>
   <block id="b07b959de8b68ea30367c1272aa98387" category="paragraph">利用自動化功能來提升工作流程效率。Active IQ內部API服務位於* API目錄*、其中描述超過100個不同的API端點、這些端點分為20個以上不同的服務區域。這些API可作為NetApp客戶提供給您、涵蓋不同的興趣領域、例如系統資訊、儲存效率、效能、健全狀況和升級。</block>
@@ -1145,7 +1128,6 @@
   <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">修正重大安全風險</block>
   <block id="d30be8ed596e28125eabf3aaa9088577" category="sidebar">使用Active IQ 功能分析</block>
   <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">檢視ONTAP 有關升級的建議</block>
-  <block id="cf7ecbbc7d2dad5af625439bf096d746" category="sidebar">利用Cloud Manager減少儲存設備佔用空間</block>
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多資源</block>
   <block id="f706543e3bc2ef8cf127bd6a70d0b831" category="sidebar">網頁入口網站Active IQ</block>
   <block id="dd4f53241a447bade15efabb4cd19ce4" category="sidebar">影片Active IQ</block>
@@ -1158,19 +1140,12 @@
   <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">根據可做出的明智決策、提供建議。</block>
   <block id="5649476905365d651ff75a651e4e79a8" category="doc">根據雲端建議做出明智決策</block>
   <block id="786f97e3b85dcf5cda7df9f506b9e37f" category="paragraph">NetApp會持續分析您的系統、並提供改善系統效能、效率和健全狀況的建議。Active IQ</block>
-  <block id="13f2e084bb6eb90118a6180587525fdc" category="paragraph">提供下列相關建議：Active IQ</block>
-  <block id="c4365912c5ac550ab4563cdf655a1389" category="list-text">移轉：提供儲存系統中可用的不同工作負載類型資訊、並識別雲端就緒的工作負載。將工作負載移至雲端可節省成本、並提供雲端災難恢復功能。</block>
-  <block id="1b1c7445cf11ba61f71545ee9a26fa10" category="list-text">備份與歸檔：提供應備份至雲端的系統相關資訊。您可以使用NetApp Cloud Backup來保護系統安全、並在必要時還原。</block>
-  <block id="85e7b287d322cd383487f21370cbd1d0" category="list-text">災難恢復：提供應複寫至雲端以在發生災難時提供協助的資料相關資訊。</block>
   <block id="afec60d9807859052bf26fac6dd60746" category="admonition">可導覽至Cloud Manager以實作建議。Active IQ</block>
   <block id="fb59e0db05d49dc1ab77a214f215e7c3" category="list-text">在左窗格中、按一下*雲端建議*。</block>
-  <block id="d54ae2a9cf19772827827ac1b0cd7425" category="list-text">若要移轉資料：</block>
   <block id="610e13ad770f2052e464b10bf6ea8527" category="list-text">按一下「*移轉*」窗格中的任一連結。</block>
   <block id="ddf979002bc59fc32f03076418804262" category="list-text">按一下*移轉至雲端*以啟動* Cloud Manager*。</block>
-  <block id="c6f97553f2c8b8171f56bc5fd81ae33e" category="list-text">若要備份與歸檔資料：</block>
   <block id="8e508c78b6f8cdee2edbb3ccef2f99e0" category="list-text">按一下「*備份與歸檔*」窗格中的任一連結。</block>
   <block id="d1077a4290f7d361380bac5612edd515" category="list-text">按一下*備份到雲端*以啟動* Cloud Manager*。</block>
-  <block id="7942b76ee4f0230e37266032b153a3dd" category="list-text">若要複寫資料：</block>
   <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">按一下「* Disaster Recovery*」（*災難恢復*）窗格中的任一連結。</block>
   <block id="a70fb77774e64282c4a92fa8563e4b75" category="list-text">按一下*「Replicate to Cloud」*啟動* Cloud Manager*。</block>
   <block id="054285913eee18981aea3554542786c2" category="paragraph">儲存效率儀表板會顯示儲存效率比、所用邏輯空間、所用實體空間、以及執行ONTAP 更新版本的儲存系統所儲存的總資料。無論是AFF 使用或不使用適用於各種系統、非AFF系統或兩者的Snapshot複本、都能看出效率與節約效益。您可以在叢集層級或節點層級檢視儲存效率資訊。</block>
@@ -1198,4 +1173,39 @@
   <block id="f04030f456776755903c2312553427bf" category="paragraph">您現在可以檢視E系列系統的升級建議。</block>
   <block id="ebb3292114a6a69609c0f8875098f714" category="section-title">認可和未確認的風險可能需要60分鐘時間才能反映Active IQ 在《e數位顧問》中</block>
   <block id="7264c3b35813062888fb1306b7ec8b7b" category="paragraph">已確認及未確認的風險狀態、並未立即反映在Active IQ 《e數位顧問》中。變更可能需要60分鐘的時間、才能反映Active IQ 在「資訊顧問」和「健康報告」中。</block>
+  <block id="61adb43205caa7a035172727c2635283" category="paragraph">您只需要Cloud Manager中的NetApp支援網站（NSS）帳戶、即可在Active IQ Cloud Manager中整合及存取功能。如需在Active IQ Cloud Manager中整合及存取功能的相關資訊、請參閱 <block ref="4b51d7668fb4335133544eec7db447ae" category="inline-link-macro-rx"></block>。</block>
+  <block id="c18954481ec7b1ca7731f10fe88f17e0" category="paragraph">您可以立即產生報告、或安排每週或每月產生報告。報告可以不同格式產生。根據選取的報告、會顯示可用的格式。</block>
+  <block id="43c47648912b14ae2e4dae66c4c94e6f" category="list-text">選取報告格式。</block>
+  <block id="df67990129d3bd9cbda01755e666bbee" category="cell">提供未解決風險的摘要、以及受影響系統的數量。</block>
+  <block id="997e7cc095a9554f17d93457daa42a47" category="cell">提供關於7-mode系統升級顧問計畫的報告。本報告包含HA合作夥伴的相關資訊。</block>
+  <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">提供可Ansible庫存檔案、依地區或站台列出所有系統庫存詳細資料。此檔案可用於自動化。</block>
+  <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">提供所選觀察清單、客戶、站台、群組層級的安裝基礎相關資訊。此報告可從「庫存詳細資料」頁面直接下載、也可從「報告」頁面產生。</block>
+  <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">提供已達到支援終止（EOS）的控制器、磁碟櫃和磁碟清單資訊。</block>
+  <block id="acaaa059ccc549a29b26a0c1ad515bba" category="cell">提供客戶與報價表層級的單一或多個叢集相關資訊。您只能針對最多100個節點的觀察清單產生此報告。</block>
+  <block id="a26bfd54d2d0360c1432f1b51ff336ad" category="cell">提供叢集、節點、本機層級（Aggregate）和磁碟區效能的詳細資訊。您只能針對最多100個節點的觀察清單產生此報告。</block>
+  <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">移轉</block>
+  <block id="4fc6b52f3180163cea93aa7c8da0e7dd" category="paragraph">提供儲存系統內各種可用工作負載的相關資訊、並識別雲端就緒的工作負載。將工作負載移至雲端可節省成本、並提供雲端災難恢復功能。</block>
+  <block id="46c5977f0ec6a34283e38ed39033952e" category="paragraph">建議將符合下列條件的磁碟區移轉至Cloud Volumes ONTAP 下列對象（CVO）和Cloud Volumes Service 介紹（CVS）：</block>
+  <block id="4f18efd74627acd1e83311ad6a450b7c" category="list-text">Volume應使用NFS、SMB、CIFS、FCP或iSCSI傳輸協定</block>
+  <block id="3c765c5584278c5b7d2bb8a2e48bbea0" category="list-text">排除根磁碟區</block>
+  <block id="eee58b17a5b1a316e3d557e27113c69e" category="list-text">磁碟區中的工作負載標記為Oracle、SAP、SAP HANA、MSSQL、MySQL、 SharePoint、檔案共享、虛擬化和Trident</block>
+  <block id="c1328ee3765b6fd9ea6ec610e680fd21" category="list-text">系統使用時間超過1年</block>
+  <block id="a6d684c1e9500a6c9c813745e8e2c394" category="list-text">支援合約將於6個月內終止</block>
+  <block id="337c62c6b6eb7319bae58701105e889c" category="section-title">分層</block>
+  <block id="02c463794e84ded5d1c10c4e83bcc812" category="paragraph">提供非作用中本機層（Aggregate）資料、非作用中磁碟區資料、階層式資料及未受監控資料的相關資訊。您可以監控冷資料或非使用中資料、並將其分層存放至低成本的物件儲存層、藉此減少儲存設備佔用空間及相關成本。</block>
+  <block id="0c245730dd874b37d12f8e5789ae7608" category="paragraph">建議使用符合下列準則的磁碟區進行分層：</block>
+  <block id="c9386bad11bf78c9c46c82639aed3b42" category="list-text">Volume應使用NFS、SMB或CIFS傳輸協定</block>
+  <block id="e59435b98864e38b0a5fd790ad3f9213" category="list-text">非作用中資料超過50%</block>
+  <block id="3785a1cc5e81e3b99e7d2b0287e9c3b0" category="list-text">Aggregate容量超過50%</block>
+  <block id="c052aa26952758956923ba904ca5f96a" category="list-text">按一下「*分層*」窗格中的任一連結。</block>
+  <block id="27c212bb42a38db76960ac460b46ac3d" category="list-text">按一下*層級資料*以啟動* Cloud Manager*。</block>
+  <block id="f2b4569bc3667af0074e035180a43ef3" category="section-title">備份與歸檔</block>
+  <block id="ed0d607dcab8c81dc440cde601ff66d5" category="paragraph">提供應備份至雲端的系統相關資訊。您可以使用NetApp Cloud Backup來保護系統安全、並在必要時還原。</block>
+  <block id="711f2c81f17519fb6501c1fd6a2ec0bf" category="paragraph">建議使用符合下列準則的磁碟區來備份至雲端：</block>
+  <block id="58fd2779462a85717972aef01a3e851e" category="list-text">不SnapVault 包括來源Volume、目的地系統和具有此功能的Volume。</block>
+  <block id="8c340dc334134096f68b880b42a8692c" category="section-title">複寫</block>
+  <block id="a1ca393b9475ac14fc86fe05bb65fa30" category="paragraph">提供應複寫至雲端以在發生災難時提供協助的資料相關資訊。</block>
+  <block id="8a442914a9cdda78003d67734f13fd54" category="paragraph">建議將符合下列條件的磁碟區複寫至雲端：</block>
+  <block id="c54cd2366c0770abd7582f7fd94c3e4d" category="list-text">SnapMirror來源磁碟區除外</block>
+  <block id="4cb8aabcf131d734977ab53c8a2ca120" category="list-text">SnapMirror目的地磁碟區（Volume Type LS和DP）將被排除</block>
 </blocks>

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-informed-decisions-based-on-cloud-recommendations.html 
-keywords: cloud recommendations, migration, backup and archive, disaster recovery 
+keywords: cloud recommendations, migration, backup and archive, disaster recovery, FabricPool, FabricPool Advisor, inactive data, tiered data, IDR 
 summary: 根據可做出的明智決策、提供建議。 
 ---
 = 根據雲端建議做出明智決策
@@ -21,34 +21,88 @@ summary: 根據可做出的明智決策、提供建議。
 [role="lead"]
 NetApp會持續分析您的系統、並提供改善系統效能、效率和健全狀況的建議。Active IQ
 
-提供下列相關建議：Active IQ
-
-* 移轉：提供儲存系統中可用的不同工作負載類型資訊、並識別雲端就緒的工作負載。將工作負載移至雲端可節省成本、並提供雲端災難恢復功能。
-* 備份與歸檔：提供應備份至雲端的系統相關資訊。您可以使用NetApp Cloud Backup來保護系統安全、並在必要時還原。
-* 災難恢復：提供應複寫至雲端以在發生災難時提供協助的資料相關資訊。
-
-
 
 NOTE: 可導覽至Cloud Manager以實作建議。Active IQ
 
+
+
+== 移轉
+
+提供儲存系統內各種可用工作負載的相關資訊、並識別雲端就緒的工作負載。將工作負載移至雲端可節省成本、並提供雲端災難恢復功能。
+
+建議將符合下列條件的磁碟區移轉至Cloud Volumes ONTAP 下列對象（CVO）和Cloud Volumes Service 介紹（CVS）：
+
+* Volume應使用NFS、SMB、CIFS、FCP或iSCSI傳輸協定
+* 排除根磁碟區
+* 磁碟區中的工作負載標記為Oracle、SAP、SAP HANA、MSSQL、MySQL、 SharePoint、檔案共享、虛擬化和Trident
+* 系統使用時間超過1年
+* 支援合約將於6個月內終止
+
+
 .步驟
 . 在左窗格中、按一下*雲端建議*。
-. 若要移轉資料：
-+
-.. 按一下「*移轉*」窗格中的任一連結。
-.. 按一下*移轉至雲端*以啟動* Cloud Manager*。
+. 按一下「*移轉*」窗格中的任一連結。
+. 按一下*移轉至雲端*以啟動* Cloud Manager*。
 
 
-. 若要備份與歸檔資料：
-+
-.. 按一下「*備份與歸檔*」窗格中的任一連結。
-.. 按一下*備份到雲端*以啟動* Cloud Manager*。
 
 
-. 若要複寫資料：
-+
-.. 按一下「* Disaster Recovery*」（*災難恢復*）窗格中的任一連結。
-.. 按一下*「Replicate to Cloud」*啟動* Cloud Manager*。
+== 分層
+
+提供非作用中本機層（Aggregate）資料、非作用中磁碟區資料、階層式資料及未受監控資料的相關資訊。您可以監控冷資料或非使用中資料、並將其分層存放至低成本的物件儲存層、藉此減少儲存設備佔用空間及相關成本。
 
 
+NOTE: 您可以啟用非使用中資料報告（IDR)、以產生含有可執行教戰手冊檔案的壓縮檔。這些資訊可在客戶、站台、群組、觀察清單、叢集、 和節點層級。
+
+建議使用符合下列準則的磁碟區進行分層：
+
+* Volume應使用NFS、SMB或CIFS傳輸協定
+* 排除根磁碟區
+* 非作用中資料超過50%
+* Aggregate容量超過50%
+
+
+.步驟
+. 在左窗格中、按一下*雲端建議*。
+. 按一下「*分層*」窗格中的任一連結。
+. 按一下*層級資料*以啟動* Cloud Manager*。
+
+
+如需FabricPool 深入瞭解有關資訊、請參閱 link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["最佳實務做法FabricPool"]。
+
+
+
+== 備份與歸檔
+
+提供應備份至雲端的系統相關資訊。您可以使用NetApp Cloud Backup來保護系統安全、並在必要時還原。
+
+建議使用符合下列準則的磁碟區來備份至雲端：
+
+* 排除根磁碟區
+* 不SnapVault 包括來源Volume、目的地系統和具有此功能的Volume。
+
+
+.步驟
+. 在左窗格中、按一下*雲端建議*。
+. 按一下「*備份與歸檔*」窗格中的任一連結。
+. 按一下*備份到雲端*以啟動* Cloud Manager*。
+
+
+
+
+== 複寫
+
+提供應複寫至雲端以在發生災難時提供協助的資料相關資訊。
+
+建議將符合下列條件的磁碟區複寫至雲端：
+
+* 排除根磁碟區
+* SnapMirror來源磁碟區除外
+* SnapMirror目的地磁碟區（Volume Type LS和DP）將被排除
+
+
+.步驟
+. 在左窗格中、按一下*雲端建議*。
+. 按一下「* Disaster Recovery*」（*災難恢復*）窗格中的任一連結。
+. 按一下*「Replicate to Cloud」*啟動* Cloud Manager*。
 
