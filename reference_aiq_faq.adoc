@@ -42,7 +42,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 *如何建立非技術案例？*
 
-. 按一下 link:https://mysupport.netapp.com/site/help["請按這裡"] 開啟NetApp支援網站上的「非技術意見回饋工具」。
+. 按一下 link:https://mysupport.netapp.com/site/help["請按這裡"] 開啟 NetApp 支援網站上的「Non Technical Feedback Tool（非技術意見回饋工具）」。
 . 從「*意見反應類別*」下拉式清單中選取適當的類別。
 . 輸入所需的詳細資料、並在「Comments（註解）」方塊中提供額外資訊。
 . 按一下*提交*。
@@ -58,9 +58,9 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 == 儲存效率
 
-*如何在Active IQ 《Se Digital Advisor》中存取儲存效率？*
+*如何在 Active IQ Digital Advisor 中存取儲存效率報告？*
 
-. 開啟的首頁 link:https://activeiq.netapp.com/?source=onlinedocs["《數位顧問》 Active IQ"]。
+. 開啟的首頁 link:https://activeiq.netapp.com/?source=onlinedocs["Active IQ Digital Advisor"]。
 . 從右上方的搜尋方塊中搜尋客戶、站台、群組、叢集或節點、以前往各自的儀表板。
 . 按一下左側導覽中的*儲存效率*。
 
@@ -68,7 +68,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 NOTE: 使用觀察清單建立的儀表板不會顯示在儲存效率Widget中。
 
-*所有的不完整系統都能顯示倍率* Active IQ ONTAP
+*Active IQ Digital Advisor 會顯示所有 ONTAP 系統的儲存效率比例嗎？*
 
 顯示執行效能不均9.1及更新版本系統的比率。Active IQ ONTAP
 
@@ -83,7 +83,7 @@ NOTE: 使用觀察清單建立的儀表板不會顯示在儲存效率Widget中�
 * 快照
 
 
-如果您選取「*不含Snapshot*」核取方塊、Active IQ 那麼就會在客戶層級、站台層級、群組層級、叢集層級和節點層級上、計算效率比率（重複資料刪除、壓縮、資料壓縮及複製儲存效率技術的比率）。
+如果您選取「*不含快照*」(Without Snapshots) 核取方塊，Active IQ Digital Advisor 就會依照客戶層級，站台層級，群組層級，叢集層級、節點層級，計算儲存效率比例（重複資料刪除、壓縮、資料精簡、Clone 複製等儲存效率技術的比例）。
 
 *使用什麼實體資料和使用的邏輯資料？*
 
@@ -201,7 +201,7 @@ NOTE: 使用觀察清單建立的儀表板不會顯示在儲存效率Widget中�
 
 == 容量
 
-*用Active IQ 什麼方法計算出功能在《Se Digital Advisor》*中的功能Active IQ 是針對叢集和節點（不包括root和Snapshot複本）來計算
+*Active IQ Digital Advisor 如何計算容量？* Active IQ Digital Advisor 依照叢集和節點來計算容量，不含 root 但包括 Snapshot 快照複本
 
 |===
 | *容量* | *透過新增每個Aggregate…*來計算 
@@ -301,7 +301,7 @@ NOTE: 其中包含保留給檔案或磁碟區保證類型磁碟區的空間。�
 
 *為什麼每個磁碟區的「已新增使用容量」與節點層級的「已使用容量」不符？*節點層級的「已使用容量」包括由磁碟區、中繼資料和Snapshot複本保留的空間。它也包含保留給磁碟區的空間（檔案或磁碟區保證類型）。因此兩者可能不相符。
 
-*容量顯示於Active IQ 《S16 Digital Advisor Base 2》或《Base 10》嗎？* Active IQ 顯示在《21》中的所有容量均為Base 2（除以1024）、代表GiB/TiB的容量。NetApp產品及其他NetApp產品也會在Base 2中顯示容量使用量。ONTAP
+*Active IQ Digital Advisor 顯示的容量為 Base 2 或 Base 10？* Active IQ 顯示的所有容量均為 Base 2（除以 1024），容量以 GiB/TiB 表示。NetApp產品及其他NetApp產品也會在Base 2中顯示容量使用量。ONTAP
 
 就功能而言、容量會以Base 10顯示、容量單位則以TB表示。StorageGRID
 

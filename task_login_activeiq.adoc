@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task_login_activeiq.html 
 keywords: login, log in 
-summary: 提供登入Active IQ 資訊以供登入至《支援資料》。 
+summary: 提供登入 Active IQ Digital Advisor 的相關資訊。 
 ---
-= 登入Active IQ 「We Digital Advisor」
+= 登入 Active IQ Digital Advisor
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,12 +19,12 @@ summary: 提供登入Active IQ 資訊以供登入至《支援資料》。
 
 
 [role="lead"]
-您必須擁有有效的NetApp支援網站認證資料、才能登入Active IQ 到NetApp Digital Advisor。如果您沒有帳戶且正在開始使用、請按一下 link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["請按這裡"]。
+您必須擁有有效的 NetApp 支援網站認證資料，才能登入 Active IQ Digital Advisor。如果您沒有帳戶且正在開始使用、請按一下 link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["請按這裡"]。
 
 .步驟
-. 按一下 link:https://activeiq.netapp.com/?source=onlinedocs["請按這裡"] 存取Active IQ 《Digital Advisor》。
+. 按一下 link:https://activeiq.netapp.com/?source=onlinedocs["請按這裡"] 存取 Active IQ Digital Advisor。
 +
-支援合約有效的系統可透過「支援顧問」取得資訊。Active IQ如果合約到期、系統會提供 90 天的寬限期、讓系統持續可見。之後Active IQ 、系統便無法在「視覺化資訊顧問」中搜尋或顯示。
+Active IQ Digital Advisor 會顯示具有有效支援合約的系統。如果合約到期、系統會提供 90 天的寬限期、讓系統持續可見。之後，系統便無法在 Active IQ Digital Advisor 中搜尋或顯示。
 
 . 提供您的使用者名稱和密碼、然後按一下*登入*。
 

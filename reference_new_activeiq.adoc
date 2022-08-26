@@ -4,7 +4,7 @@ permalink: reference_new_activeiq.html
 keywords: 'what"s new, features, new' 
 summary: 提供版本新功能的相關資訊。 
 ---
-= 更新功能Active IQ
+= Active IQ Digital Advisor 新增功能
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,7 +19,7 @@ summary: 提供版本新功能的相關資訊。
 
 
 [role="lead"]
-NetApp Active IQ We Digital Advisor提供下列功能與增強功能：
+NetApp Active IQ Digital Advisor 提供下列特色與增強功能：
 
 
 
@@ -137,7 +137,7 @@ Grid檢視器中已包含資訊生命週期管理（ILM）for StorageGRID the功
 === 健康
 
 * 針對最新作業系統版本和「6個月」支援合約與支援結束KPI的關鍵建議評分已降低、以符合解決的減少急迫性。
-* 遠端管理和HA配對（建議組態）的主要建議已更新、以納入NetApp支援網站的URL、以供客戶自助服務使用。
+* 遠端管理和 HA 配對（建議組態）的主要建議事項已更新，納入了 NetApp 支援網站的 URL，以供客戶自助服務使用。
 
 
 
@@ -224,7 +224,7 @@ Cloud Manager使用者現在可以在Active IQ 新的索引標籤中開啟鏈結
 === 健全狀況檢查儀表板
 
 * 新增的圖示位於「Health Check（狀況檢查）」區塊、僅適用於裝有SupportEdge Advisor 支援功能的系統SupportEdge Expert 。我們已針對「建議的軟體-軟體貨幣和韌體貨幣」區段、「建議的組態」和「最佳實務做法」進行增強。
-* 在Active IQ 「支援內部與外部（客戶與合作夥伴）」使用者的「支援機密資料」橫幅上、新增「支援內部與外部（客戶與合作夥伴）」畫面。
+* 在 Active IQ Digital Advisor–Reports（報告）畫面上，新增了針對內部與外部（客戶和合作夥伴）」使用者的「機密資料」橫幅。
 
 
 
@@ -381,12 +381,12 @@ ClusterViewer堆疊視覺化模組已經過強化、可納入「放大/縮小及
 
 
 
-=== 《數位顧問行動應用程式》Active IQ
+=== Active IQ Digital Advisor 行動應用程式
 
-您現在可以在Active IQ 「支援生物特徵辨識」行動應用程式上啟用生物特徵驗證。驗證可用的選項會因手機支援的功能而有所不同。
+您現在可以在 Active IQ Digital Advisor 行動應用程式上啟用生物特徵驗證。驗證可用的選項會因手機支援的功能而有所不同。
 
-下載應用程式以深入瞭解：link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["支援數位顧問行動應用程式（Android）Active IQ"]
-link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["《數位顧問行動應用程式》（iOS）Active IQ"]
+下載應用程式以深入瞭解：link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Active IQ Digital Advisor 行動應用程式 (Android)"]
+link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Active IQ Digital Advisor 行動應用程式 (iOS)"]
 
 
 
@@ -543,7 +543,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["《�
 
 === 觀察名單
 
-第一次存取Active IQ 時、您應該先建立觀察清單、而非儀表板。您也可以檢視不同觀察名單的儀表板、編輯現有觀察名單的詳細資料、以及刪除觀察名單。
+第一次存取 Active IQ Digital Advisor 時，您應該先建立一份觀察清單，而非儀表板。您也可以檢視不同觀察名單的儀表板、編輯現有觀察名單的詳細資料、以及刪除觀察名單。
 
 
 
@@ -654,7 +654,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["《�
 
 === 簡體中文和日文的本地化
 
-現在提供中文、英文和日文三種語言的「世界資訊顧問」Active IQ 。
+Active IQ Digital Advisor 現在提供中文，英文、日文三種語言版本。
 
 
 
@@ -794,7 +794,7 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 設定預設首頁
 
-您現在可以設定Active IQ 預設的主頁畫面以供使用。您可以將其設為Active IQ 「不知道數位顧問」或Active IQ 「不知道經典」。
+您現在可以設定Active IQ 預設的主頁畫面以供使用。您可以將其設為 Active IQ Digital Advisor 或 Active IQ Classic。
 
 
 
@@ -828,7 +828,7 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 就職總覽影片
 
-入門影片可協助使用者快速熟悉Active IQ 《e數位顧問》的選項與功能。
+入門影片可協助使用者快速熟悉 Active IQ Digital Advisor 的選項與功能。
 
 
 
@@ -884,7 +884,7 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 增強的使用者介面
 
-最新Active IQ 版的《數位顧問儀表板》提供個人化體驗。它能在不同的儀表板、小工具和螢幕上順暢無礙地導覽、並具備直覺功能。提供一體化體驗。它傳達比較、關係和趨勢。它提供深入見解、可協助您根據不同儀表板顯示的資料、偵測並驗證重要關係和有意義的差異。
+最新的 Active IQ Digital Advisor 儀表板可提供個人化體驗。它能在不同的儀表板、小工具和螢幕上順暢無礙地導覽、並具備直覺功能。提供一體化體驗。它傳達比較、關係和趨勢。它提供深入見解、可協助您根據不同儀表板顯示的資料、偵測並驗證重要關係和有意義的差異。
 
 
 

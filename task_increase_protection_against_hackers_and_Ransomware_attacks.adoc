@@ -28,7 +28,7 @@ NetApp安全網站是NetApp產品安全的真實來源： link:https://security.
 *涵蓋產品：ONTAP 支援VMware *的支援範圍：支援內部部署與雲端技術的支援、SANtricity 支援VMware *的支援範SolidFire 圍包括：VMware *的支援範StorageGRID 圍包括：VMware *支援內部部署與雲端*、支援VMware *的支援範圍涵蓋範圍涵蓋範圍涵蓋範圍涵蓋Active IQ Unified Manager ONTAP
 
 .步驟
-. 登入Active IQ 「We Digital Advisor」。
+. 登入 Active IQ Digital Advisor。
 . 按一下「*安全性弱點*」小工具中的「*動作*」。image:Security_Image 1 Ransomware attacks.png["安全漏洞小工具"]
 +
 針對高影響的安全風險、請遵循建議的行動來升級作業系統。
@@ -37,5 +37,5 @@ NetApp安全網站是NetApp產品安全的真實來源： link:https://security.
 +
 此風險已在ONTAP 更新版本的《更新版本：1.7P8（更新版本）」中修正。image:Remediations_Image 3 Ransomware attacks.png["「修正」索引標籤"]
 
-. 最重要的步驟是在Active IQ *升級顧問*中規劃OS升級、以供參考。
+. 最重要的步驟是在 Active IQ Digital Advisor 的「*升級顧問*」(Upgrade Advisor) 中規劃 OS 升級。
 

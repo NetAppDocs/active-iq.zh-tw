@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="79e6bb72bf3b27322743b85d46e7028f" category="summary">提供如何避免停機和可能的資料遺失的相關資訊。</block>
+  <block id="aab3d4ecb2113aebbbf0fc0f4e0bd569" category="doc">避免停機和可能的資料遺失</block>
+  <block id="8da37e3c470ea9e09b868f74f857a58a" category="paragraph">當您登入 Active IQ Digital Advisor 並在「*可用度和保護力* 」(Availability and Protection) 小工具上看到紅色徽章時，您可以採取行動來修正重大風險。如果沒有韌體修復、這些磁碟機在開機幾個小時後可能無法運作。修正此問題可避免停機和可能的資料遺失。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
+  <block id="b6f0789e4854da3dde8f55d00cee757f" category="list-text">登入 Active IQ Digital Advisor。</block>
+  <block id="a9d1a3c661cd780de1547f8874ba7fa9" category="inline-image-macro">可用度與安培；保護小工具</block>
+  <block id="4b5886406c71d9a6478bc858959901d2" category="list-text">按一下*可用度與保護*小工具中的*動作*。<block ref="5a8b574aaf1c16ebb902595925228ace" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e91f704233072d4cd24a403d5175cfc" category="paragraph">針對高影響的安全性風險、請遵循建議的更新磁碟韌體動作。</block>
+  <block id="586072113125e441fad32377fb3b55fc" category="inline-image-macro">風險摘要</block>
+  <block id="36ae45e0f51d582bd7ecffce242361dd" category="list-text">按一下*風險名稱*連結以檢視風險摘要。<block ref="961d5eee8f3900b106dbb0a2777f7ace" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="57b854162d6caadf0053934ab77436cd" category="inline-image-macro">修正行動</block>
+  <block id="194764f556fc1cef4cadf0744c5dc483" category="list-text">按一下「*獨特風險*」標籤、然後按一下「*修正行動*」欄中的連結。<block ref="40b4aae1cc80ba37a700a5a58756afdd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="baceeff257420910d075f17bbf8cb985" category="paragraph">Active IQ Digital Advisor 會產生自訂 Ansible 指令碼或指導方針，來更新所需的磁碟韌體，包括磁碟韌體檔案。</block>
+  <block id="0a6792a12eae97ba02fc8390bfc77b8c" category="inline-image-macro">韌體AFF FAS</block>
+  <block id="03ad1b597ecef769f82b062d6ca40935" category="list-text">按一下* Ansible「A」*圖示、即可產生及下載指令碼。<block ref="de1b9e535c23b0fc7148d0cda53eb930" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3be360a5cb329666d65e17b5ecd32b3c" category="summary">提供使用庫存檔案的相關資訊。</block>
+  <block id="69e0d4a3abb68d55b51aa1e3824395d1" category="doc">使用庫存檔案</block>
+  <block id="d9d85047436d37abb6c5c8deca6fe036" category="paragraph">庫存檔案是由符合韌體更新資格的系統叢集管理生命體所組成。其中包含叢集清單、並在適用的情況下提供磁碟和機櫃韌體檔案名稱資訊。</block>
+  <block id="d6c78c605ec5b1cf9ed3237663470e46" category="paragraph">針對服務處理器韌體更新、節點主機名稱和SP/BMC IP會包含在詳細目錄檔案中。</block>
+  <block id="4bfcc6f41dca1008b82bd33b35e9028c" category="section-title">庫存檔案格式</block>
+  <block id="fe8a16b14aa3ee9b81fea5b3d12d7502" category="paragraph">以下是含有磁碟和機櫃韌體更新的庫存檔案格式範例：</block>
+  <block id="dfd53194ddb4429fa3de6c8de298ffa3" category="paragraph">在範例中、機櫃和磁碟韌體更新均適用於叢集1、而磁碟和SP/BMC韌體更新則適用於叢集2。</block>
+  <block id="d641c6af52d8237b407874f343977ddf" category="section-title">從庫存檔案中刪除叢集</block>
+  <block id="439cd58655da1c45e5e152c25dfb0733" category="paragraph">如果您不想在特定叢集上套用韌體更新、可以從庫存檔案中移除叢集。</block>
+  <block id="16b271c335b653efcece7dadc13b916b" category="paragraph">例如、如果您不想在叢集2上套用磁碟韌體更新、可以使用下列命令將其從庫存檔案中移除：</block>
+  <block id="b19674d12a203b0c80b8202ba4bf9303" category="paragraph">您可以看到叢集2的所有資料都已刪除。</block>
+  <block id="b860f6d4e359bd2f759cab9711936f2d" category="paragraph">如果您只想在叢集1上套用磁碟韌體更新、而不想套用機櫃韌體更新、可以使用下列命令執行：</block>
+  <block id="75a224357589706495901ad497cb3098" category="paragraph">您可以看到_機櫃_fw_file_金鑰和值已從叢集1移除。</block>
+  <block id="dd2f14a8d126300e4d4b5f68789f76c1" category="admonition">不支援手動新增叢集或控制器。</block>
+  <block id="834e689bebc0737b35009981790fcddc" category="summary">提供有關健全狀況和風險類型的資訊、協助您改善儲存系統。</block>
+  <block id="bda4a48b47a4d90e94b87697e6455bb9" category="doc">瞭解健全狀況</block>
+  <block id="16ae463ae4f1266939a871f237f322a5" category="paragraph">健全狀況小工具提供儲存系統的詳細資訊。它提供儲存系統不同屬性的相關資訊、例如效能與效率、容量、組態設定、安全性弱點、續約、 及其他。</block>
+  <block id="fce1523be4b4cc1966774ce59fd20610" category="inline-image-macro">健全工作流程</block>
+  <block id="32a4a6962e2e1ab900312c2d4eefa0de" category="paragraph"><block ref="32a4a6962e2e1ab900312c2d4eefa0de" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="15d214cfadac5e15f2d227c604756873" category="paragraph">健全狀況小工具也會提供風險的相關資訊、以及應採取哪些行動來降低每個健全狀況屬性的風險。以下是每種風險的風險類型及相關後果：</block>
+  <block id="8a26f5b6df6fd966e5e5f4be5ec0b4ba" category="cell">風險類型</block>
+  <block id="5aad20220e2659425b35295326ac2658" category="cell">結果</block>
+  <block id="278d01e5af56273bae1bb99a98b370cd" category="cell">關鍵</block>
+  <block id="68fa7bfff8ce78be9cbd246eb41afab3" category="cell">資料遺失、資料毀損、叢集資料中斷、個人安全問題、或潛在的法律法規遵循問題。</block>
+  <block id="655d20c1ca69519ca647684edbb2db35" category="cell">高</block>
+  <block id="28037ae0dd486449990f163b8d634614" category="cell">短期資料存取遺失或節點備援長期中斷。</block>
+  <block id="87f8a6ab85c9ced3702b4ea641ad4bb5" category="cell">中</block>
+  <block id="86bccbec674d694a44a874890a3a8185" category="cell">效能降低或短期中斷節點備援。</block>
+  <block id="28d0edd045e05cf5af64e35ae0c4c6ef" category="cell">低</block>
+  <block id="b5e8505881a879de37f6dcea9188eabf" category="cell">低影響情境</block>
+  <block id="39d9903201320a83d45d3b36d512f051" category="cell">最佳實務做法</block>
+  <block id="3c1579e4105c256057f7f7b8f1c3f947" category="cell">偏離已記錄的最佳實務做法</block>
+  <block id="6fe43a0bc5267b501dd5c7825c17e1be" category="paragraph">您可以觀看下列影片、瞭解健康特質的重要性：</block>
+  <block id="a789bbd5cd15d75a39f05ef8f875cf51" category="summary">提供更新儲存系統軟體與硬體的資訊。</block>
+  <block id="20827f5f11724ac7658af2f39f50f964" category="doc">更新儲存系統的軟體與硬體</block>
+  <block id="6134af206850e07eeb1d6838aae2ceb5" category="paragraph">您可以主動識別已過期或即將在未來6個月內到期的軟體和硬體、並傳送更新硬體和軟體的要求。</block>
+  <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">按一下「*規劃*」小工具中的「*續約*」。</block>
+  <block id="0d9283785cad0930c05662c95f72d63d" category="list-text">選取您要續約的系統、然後按一下*更新*。</block>
+  <block id="f3a5f842bf6c3b73bcf58318a3511acf" category="list-text">您也可以提供其他意見。</block>
+  <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">按一下*傳送*。</block>
+  <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想要快速回答問題、這個常見問題集就能幫上忙。</block>
+  <block id="f45e8ce7df04f3b7fdef9a7ac914534b" category="doc">關於此功能的常見問題集Active IQ</block>
+  <block id="1733ab713f46f3f8c18b694cf0e0f2c2" category="paragraph">下列問題可回答您經常提出Active IQ 的有關解決方法的問題。</block>
+  <block id="73cbb404e3fdd583d819be0e2eb8034e" category="section-title">非技術案例</block>
+  <block id="b09ac678fb70485b6003259d225086ea" category="paragraph">*什麼是非技術案例？*</block>
+  <block id="49b0363cd6699cf55e78d722000a5e8c" category="paragraph">無法檢視庫存中的系統、不正確的合約期限等問題、本質上並非技術性質的問題、均歸類為非技術案例。</block>
+  <block id="5eb51f8ff81951a471d845f526636e66" category="paragraph">*何時需要建立非技術案例？*</block>
+  <block id="53184e7a4bde7d1975ba90074c0a52d3" category="paragraph">應針對下列案例建立非技術案例：</block>
+  <block id="83f77ac81e7b9adec1ae7943c11aef16" category="list-text">無法存取某些功能</block>
+  <block id="9f289da80756bc405e29b49d51ac81d8" category="list-text">庫存中遺失系統</block>
+  <block id="7f03ee6a26eada8c343d4876fe635184" category="list-text">從安裝基礎解除委任系統</block>
+  <block id="e8298308fc4d536ad5a50bc21152434f" category="list-text">合約期限日期不正確或遺失</block>
+  <block id="6fece82477cde8bae9bdb844907c3dc2" category="list-text">不正確的支援服務</block>
+  <block id="8d561f83f3c24e7d066a3cd084ed3764" category="paragraph">*如何建立非技術案例？*</block>
+  <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">請按這裡</block>
+  <block id="85009e822479a8fa21551fa97aad6551" category="list-text">按一下 <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> 開啟 NetApp 支援網站上的「Non Technical Feedback Tool（非技術意見回饋工具）」。</block>
+  <block id="b881d2001fba3b1062cec6417c32bb74" category="list-text">從「*意見反應類別*」下拉式清單中選取適當的類別。</block>
+  <block id="12330277a5f9a61a6bc1beddec10eeff" category="list-text">輸入所需的詳細資料、並在「Comments（註解）」方塊中提供額外資訊。</block>
+  <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">按一下*提交*。</block>
+  <block id="014b609750aa0ccedbb6b4212fb3f2df" category="paragraph">系統會建立個案、並提供個案編號供您參考。</block>
+  <block id="1ded387253a93d29755ab2ca1074fbd1" category="paragraph">*我該如何提供意見反應或提出Active IQ 其他有關的問題？*</block>
+  <block id="ac028435b37412dea24f9b1040cc0dc4" category="paragraph">若要提供意見回饋或提出問題、請傳送電子郵件至mailto：ng-activeiq-feedback@netapp.com [.Underlines]#ng-activeiq-feedback@netapp.com。</block>
+  <block id="fd18465573ec21a6218982055981f6b1" category="section-title">儲存效率</block>
+  <block id="01068fe2a9465b605eb4727d6748f0b0" category="paragraph">*如何在 Active IQ Digital Advisor 中存取儲存效率報告？*</block>
+  <block id="dab2edf9eaac3950e92c281ce358af01" category="inline-link-macro">Active IQ Digital Advisor</block>
+  <block id="51b7461ab2221ad6ebc347199d080996" category="list-text">開啟的首頁 <block ref="73cab01bc3ab60831e45f34cd3a02915" category="inline-link-macro-rx"></block>。</block>
+  <block id="1f7190b58ba77336a9e9c5d8010a216d" category="list-text">從右上方的搜尋方塊中搜尋客戶、站台、群組、叢集或節點、以前往各自的儀表板。</block>
+  <block id="f30fbe64196609d84d8615d57fc452c4" category="list-text">按一下左側導覽中的*儲存效率*。</block>
+  <block id="b9fc81c6a264c571164cb5ed34f3d618" category="admonition">使用觀察清單建立的儀表板不會顯示在儲存效率Widget中。</block>
+  <block id="1a056f8c1beedb684724e6b0601b069c" category="paragraph">*Active IQ Digital Advisor 會顯示所有 ONTAP 系統的儲存效率比例嗎？*</block>
+  <block id="544815dd73a9c77dedc2a33074a1135a" category="paragraph">顯示執行效能不均9.1及更新版本系統的比率。Active IQ ONTAP</block>
+  <block id="43208ae3669e6064ac8131ae950695db" category="paragraph">*效率儀表板上的「無快照」核取方塊是什麼？*</block>
+  <block id="677a526a7915d620261f7e6e60e75fac" category="paragraph">根據預設、Active IQ 「效率儀表板」會計算客戶層級、站台層級、群組層級、叢集層級和節點層級的整體比率。整體比率包括下列儲存效率技術的比率：</block>
+  <block id="83f45cad5e6f535ff10e564a526baad0" category="list-text">重複資料刪除</block>
+  <block id="82af841589057aa8922b1ac3bb4a28a4" category="list-text">壓縮</block>
+  <block id="14c3c56ff2a98d1a9c47b63a917f67a3" category="list-text">資料壓縮</block>
+  <block id="999cc42b236c7aee1157ff02d6f1bcd5" category="list-text">複製</block>
+  <block id="9147e5e61a7b9260dec09f3a6eb3e5be" category="list-text">快照</block>
+  <block id="659294da8b9c465e6bd99f135b247780" category="paragraph">如果您選取「*不含快照*」(Without Snapshots) 核取方塊，Active IQ Digital Advisor 就會依照客戶層級，站台層級，群組層級，叢集層級、節點層級，計算儲存效率比例（重複資料刪除、壓縮、資料精簡、Clone 複製等儲存效率技術的比例）。</block>
+  <block id="4607346b33eee4e6a2891bed9f7bd75f" category="paragraph">*使用什麼實體資料和使用的邏輯資料？*</block>
+  <block id="fa23175e7bcd622e3124ac47ad2ac225" category="list-text">實體區塊使用量/實體資料使用量</block>
+  <block id="eccc5f12f48e88329c29d59f7fb7399f" category="list-text">目前用於資料的空間量（而非保留供未來使用）</block>
+  <block id="c299ceefe4739c6609844682b86349c4" category="list-text">包括Aggregate Snapshot複本所使用的空間</block>
+  <block id="fa72b749302bf3b8957c8abf2acf2d82" category="list-text">用戶端實際使用/寫入的空間</block>
+  <block id="de71714b6d790e6f2a901c6c63045604" category="list-text">使用的邏輯資料總計</block>
+  <block id="522573efa17813e55f87c7cbae5c665d" category="list-text">顯示用於集合體的邏輯大小。</block>
+  <block id="76961ec33cf185290a8b0dced033a18b" category="list-text">這包括集合體中的Volume、Clones和Snapshot。</block>
+  <block id="43f302f7ba1d2f90ab1fb1a174f89e61" category="list-text">邏輯大小是根據實體使用量（實際寫入）和在集合體中取得的節約成本來計算。</block>
+  <block id="770b033112d1f3ec483eae3f0376cba5" category="list-text">不包含保留供未來使用的空間</block>
+  <block id="49c331c7fa45c3fcea9db4e6d895aaf5" category="paragraph">* AutoSupport 使用哪些資料執行個體來計算效率比率？*</block>
+  <block id="fbba86bedbedb826e4d49d6634e11a58" category="paragraph">計算是使用最新的每週AutoSupport 或使用者觸發的等位執行個體來執行、這些執行個體通常包含計算比率所需的大部分區段。</block>
+  <block id="77b1b6d5c5c968f271dcbd4564de5557" category="paragraph">*哪些磁碟區或集合體會排除在效率計算之外？*</block>
+  <block id="5ddf073dc88b1b1cb693f83408b50169" category="paragraph">計算效率比率時、不考慮下列物件：</block>
+  <block id="fee1bf4ad7d1f9d9f0b5840dbdfc417a" category="list-text">根Aggregate</block>
+  <block id="174527e8830337d88ba77cf782633189" category="list-text">離線磁碟區</block>
+  <block id="872d1e8c2f7648403bbfc1b139c3b484" category="list-text">Vserver根/管理根磁碟區</block>
+  <block id="2e3f400b5c42bd491bb0b106dbc41434" category="list-text">MCC組態磁碟區</block>
+  <block id="bf1367a73102c14a530a9d3b4b8d7e32" category="paragraph">*我如何看待效率比率的趨勢？*</block>
+  <block id="5a897b6a1d7a975aff02b4546b892b29" category="paragraph">目前、效率比率是根據最新的每週或使用者觸發AutoSupport 的版本執行個體來計算。未來版本可能會考慮效率趨勢。</block>
+  <block id="31ad53a8969261984454352088ceee13" category="paragraph">*如何計算客戶層級的比率與效率節約效益？*</block>
+  <block id="8b07e9c9dfe78ebf6417b7e46aa9a8cb" category="paragraph">客戶層級的儲存效率儀表板可提供效率比、無論是否提供AFF 適用於非AFF系統的Snapshot複本、並可在客戶安裝的基礎上、針對執行ONTAP 更新版本的系統進行整合。下列計算所需的參數來自ONTAP AutoSupport 於下列項目：</block>
+  <block id="5104ffb6ada9a72f38b9cfe6696d45ef" category="paragraph">不使用Snapshot複本（先根據Aggr計算）：</block>
+  <block id="aee8bfb2d0d5d3e3c92513c62e58c58e" category="cell">*營運*</block>
+  <block id="fa556b827144248698e8b0105e5108b3" category="cell">*公式*</block>
+  <block id="8cc25718cb08fca5f9a9711a17f71e9b" category="cell">使用Aggr邏輯時不使用Snapshot複本</block>
+  <block id="93e1642b9a2163d0e286ed5b4dd986a4" category="cell">集合體中的Volume、Clones、Snapshot複本所使用的邏輯大小–Snapshot複本所使用的邏輯大小</block>
+  <block id="c13349c903de3c465840d6a0c76af43c" category="cell">不使用Snapshot複本的aggr實體</block>
+  <block id="424ba008cacedc5b0baebac153720516" category="cell">實體使用總數–（Snapshot複本使用的實體大小/ Aggregate Data Reduction SE比率）</block>
+  <block id="08cef9a368702eeeac7161ce30e64036" category="cell">不含Snapshot複本的客戶效率比率</block>
+  <block id="f567b2b8924d3eb6ec09c5dc410cbffc" category="cell">總計[不使用Snapshot複本的Aggr邏輯用於客戶的所有集合體和所有節點]/總計[不使用Snapshot複本的Aggr實體用於客戶的所有集合體和所有節點]：1.</block>
+  <block id="202ef30b2f3a15d4c82c8b78c06fa753" category="paragraph">使用Snapshot複本：</block>
+  <block id="888f76b18cd7638b969e9ac5eebc981e" category="cell">使用Snapshot複本的客戶邏輯大小</block>
+  <block id="5e172371942a821fe719bb9927e028ac" category="cell">總計[適用於所有集合體和客戶所有節點的Volume、Clones、Snapshot複本所使用的邏輯大小]</block>
+  <block id="ad553b325f74022f6cdb9816eef8e372" category="cell">使用Snapshot複本的客戶實體大小</block>
+  <block id="caac557a2f6913ad1dc30764cebdcb51" category="cell">總和[用於所有集合體和客戶所有節點的實體大小總計]</block>
+  <block id="ef57ca9e5d4bfb77cfc6e251d21a1763" category="cell">Snapshot複本的客戶效率比率</block>
+  <block id="94ac4db23e5bf0c5c79c132d9e499226" category="cell">使用Snapshot複本和Clones的客戶邏輯大小/使用Snapshot複本和Clones的客戶實體大小：1.</block>
+  <block id="504e36e2268a4abc438382c6e58210df" category="paragraph">效率功能表計算：</block>
+  <block id="b12bcb5d643bed309360544737bf24d4" category="cell">已使用的客戶實體空間</block>
+  <block id="d27940afaa3670698836aa97aaaf5284" category="cell">集合體使用的實體空間總和、用於客戶的所有集合體和所有節點</block>
+  <block id="625abfc517917229cf36b11cf3bdec00" category="cell">不使用Snapshot複本的客戶邏輯大小</block>
+  <block id="cac9b390967d1a57de89a94a58768553" category="cell">Volume、Clones、Snapshot複本所使用的邏輯大小總和- Snapshot複本所使用的邏輯大小、適用於客戶所有節點的所有集合體</block>
+  <block id="35861b17dd609cc6e380a872314d8539" category="cell">與Snapshot複本搭配使用的客戶邏輯大小</block>
+  <block id="f4c53520bd67a034cfda9f5ab6850807" category="cell">適用於客戶所有節點之所有集合體的Volume、Clones、Snapshot複本、其所使用的邏輯大小總和</block>
+  <block id="32fe127357a619e7e7f62af1d2f3819c" category="cell">已儲存空間總計</block>
+  <block id="39769b329c3be86894154b7e697acdb4" category="cell">已用邏輯空間總計：已用實體空間總計</block>
+  <block id="755336e4aa89a7752f104b5a608365fc" category="cell">重複資料刪除技術的節省</block>
+  <block id="6d5145b44af8f83cad3a06be23c01bf0" category="cell">Volume Deduplication所節省的空間總和+藉由即時零模式偵測所節省的空間、可偵測客戶所有節點的每個集合體</block>
+  <block id="8a78a23b30fd79b77d26a6d6c4c6c250" category="cell">壓縮節約效益</block>
+  <block id="a2669e6da9e376c46aca3cf4e89b013a" category="cell">由Volume壓縮所儲存的空間總和、可儲存客戶所有節點的每個集合體</block>
+  <block id="08d4c45c5e7b197f80414c4bc9c995db" category="cell">精簡節能（ONTAP 適用於29）</block>
+  <block id="af9b35e9306bf26cb8e0020d360bd317" category="cell">由客戶所有節點的每個集合體的Aggregate Compaction所儲存的空間總和</block>
+  <block id="8041e90b5e40701b98194ae34ade011e" category="cell">精簡節能（ONTAP 適用於效能不再更新的版本）</block>
+  <block id="f993bf4d6ca0d3b79d12f8965352feb2" category="cell">藉由彙總資料減量、將客戶所有節點的每個集合體所節省的空間總和</block>
+  <block id="57b49fee86d691b1f71efb03f0ec9eb6" category="cell">FlexClone節約效益</block>
+  <block id="0399cea9f76ca035b776ca55a99908ef" category="cell">客戶所有節點的每個集合（FlexClone Volumes使用的邏輯大小- FlexClone Volumes使用的實體大小）總和</block>
+  <block id="9eb91200dfeecc085364dc670f2b9143" category="cell">Snapshot複本備份節約效益</block>
+  <block id="1f5c59c0f85bb3e3a1746576ff27a1f2" category="cell">客戶所有節點的所有集合體（Snapshot複本使用的邏輯大小- Snapshot複本使用的實體大小）總和</block>
+  <block id="f6d08cceacd60dbc06c4e68a2ce51a1d" category="paragraph">*為何增加所有個人效率節約效益、並不加總儲存效率所節省的資料？*</block>
+  <block id="8a028433114d8c1b4462b443e6a61ff2" category="paragraph">儲存效率節約效益儀表板會顯示在Volume和本機層（集合體）的儲存效率控制面板中。您無法在不同的儲存物件上同時新增磁碟區節約效益和集合節約效益。</block>
+  <block id="5fc0bed0c4e94cabaa1690a7b1cc57bc" category="paragraph">*為何在升級ONTAP 至S甚麼 時候、儲存效率會被報告為較高或不正確？*</block>
+  <block id="cc1aa2ce993d9bbdac08a80d2c73290b" category="paragraph">當節點中出現資料保護磁碟區、由於ONTAP 出現錯誤、儲存效率會較高。此問題已在ONTAP 32版中修正。當從ONTAP 9.3 P11之前的版本進行升級、以及節點中存在資料保護磁碟區時、儲存效率會報告正確或較低的值。</block>
+  <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="section-title">容量</block>
+  <block id="3b30da6e59750752fba75398273933ea" category="paragraph">*Active IQ Digital Advisor 如何計算容量？* Active IQ Digital Advisor 依照叢集和節點來計算容量，不含 root 但包括 Snapshot 快照複本</block>
+  <block id="97b94c75518b90d30aeab5f6ccdd903e" category="cell">*容量*</block>
+  <block id="2c132960410953edab40f07fdeedf275" category="cell">*透過新增每個Aggregate…*來計算</block>
+  <block id="e09dc7945acb6ec6caf41c962f679916" category="cell">原始容量</block>
+  <block id="73473b3d1d1b3b64d410b6de201d3909" category="cell">「sysconfig -R」的所有實體（MB/blks）</block>
+  <block id="1d9a663a8048fa4c70d3b7da3290365f" category="cell">可用容量</block>
+  <block id="032fda64e6a0bf795c5f692ec81e0058" category="cell">「DF -A」的KB（已分配）</block>
+  <block id="9c18925cc3ac1106267e0a7fbc74457c" category="cell">已用容量（含保留容量）</block>
+  <block id="d65d7272cd3fe27671fc7ae777508c45" category="cell">使用「DF -A」</block>
+  <block id="6af63b14f64f6cb255988d8fde2e0437" category="cell">可用容量</block>
+  <block id="401d8c6db38975663ee901e5d7fc92c4" category="cell">可獲得「DF -A」</block>
+  <block id="6bec843fabf7f6cd4135638b444c3d76" category="cell">實體容量（實際）</block>
+  <block id="bb5423bbb1fc0323b5236bc5dc1d9e20" category="cell">「agg-Eff效率.xml」的實體使用量總計</block>
+  <block id="1e1a0981d9d71863eca6149c902bbb20" category="cell">邏輯容量（有效）</block>
+  <block id="dcf1f48a16982fe7600e5723a145d50f" category="cell">「aggreg-Eff效率.xml」集合體中的Volume、Clones及Snapshot複本所使用的邏輯大小</block>
+  <block id="c3b80bbabb8e4b1ce4ee6427b05862ed" category="paragraph">*適用於本機層（含Snapshot複本的Aggregate）*</block>
+  <block id="0316961c4a7633e0b942acc96b6339e9" category="cell">*使用…*計算</block>
+  <block id="2c5ce898cb91b251aea8073cb30504b1" category="cell">「DF -A」的KB（已分配）</block>
+  <block id="b91181e4331aac3998cc67a3414d845b" category="paragraph">*適用於Volume（含Snapshot複本的Volume）*</block>
+  <block id="69ba447dc5e9ab1619f330f106eabbf3" category="cell">Volume容量</block>
+  <block id="031c81f326ba7c94b87e1cb512182696" category="cell">Volume大小為「Volume .xml」</block>
+  <block id="dbaabc345dc2b075bd176cd810e7ab94" category="cell">已使用的「Volume .xml」大小</block>
+  <block id="b33d54bb708c74cc416bf123ae545639" category="cell">「Volume .xml」的可用大小</block>
+  <block id="e8033cbde923aa19e823cc81296cb836" category="cell">「VOL STATUS -S」的實體使用總計</block>
+  <block id="fdb37ac8fa68749263ace18445e10547" category="cell">邏輯使用的「Volume .xml」大小</block>
+  <block id="64e47ccdb67c7b45896bb9a787a2786d" category="paragraph">*什麼是實體容量（實際容量）、邏輯容量（有效容量）和已用容量（含保留容量）？*</block>
+  <block id="1448ed2e9691c778e30c89c96cf71c8f" category="list-text">實體區塊使用量/實體使用容量（實際）</block>
+  <block id="9f949105f5563a86c9335097398679a2" category="list-text">用戶端實際使用或寫入的空間</block>
+  <block id="9132eec7c7956d6b79d64f13ce5ce15e" category="list-text">已使用邏輯容量（有效）邏輯資料</block>
+  <block id="2f5b8aad51a721e7769a29a26b16a760" category="list-text">顯示用於集合體的邏輯大小</block>
+  <block id="e02b370212cb3372e44be273e3f9dd04" category="list-text">集合體會將Volume、Cles及Snapshot複本內化。</block>
+  <block id="c1430459f384e529728a1369a5ad1347" category="admonition">不包含保留供未來使用的空間。</block>
+  <block id="acf8af6ea046a9190f032ee604a25ac1" category="list-text">已用/已用資料容量總計（含保留）</block>
+  <block id="f220560d0803053aa622dc91a4c63fc2" category="list-text">集合體中所有已用或保留空間的總和（依磁碟區、中繼資料或Snapshot複本）</block>
+  <block id="004016a613c0ec93cc34b1dd36fd4bfc" category="admonition">其中包含保留給檔案或磁碟區保證類型磁碟區的空間。除了保留資源之外、還包括延遲釋出、aggr部落格和中繼資料。它會顯示為已用空間、直到清除延遲的可用區塊為止。清除後、已用空間會減少。</block>
+  <block id="00de952105fc077b1333ac55d8d0bb98" category="paragraph">*容量預測如何計算？*容量預測使用去年使用的容量資料來計算系統的每週平均成長率。系統使用率的這種變更率會從目前使用的容量中推斷出、以證明系統使用率在未來6個月內將如何改變（假設總可用容量維持不變）。</block>
+  <block id="62b464a696f86c90363b4594cfca87f4" category="paragraph">*為什麼每個磁碟區的「已新增使用容量」與節點層級的「已使用容量」不符？*節點層級的「已使用容量」包括由磁碟區、中繼資料和Snapshot複本保留的空間。它也包含保留給磁碟區的空間（檔案或磁碟區保證類型）。因此兩者可能不相符。</block>
+  <block id="a11869b5899e26048c9ed041f11ec9bf" category="paragraph">*Active IQ Digital Advisor 顯示的容量為 Base 2 或 Base 10？* Active IQ 顯示的所有容量均為 Base 2（除以 1024），容量以 GiB/TiB 表示。NetApp產品及其他NetApp產品也會在Base 2中顯示容量使用量。ONTAP</block>
+  <block id="5144b142028342a902f17914b7d8eeb1" category="paragraph">就功能而言、容量會以Base 10顯示、容量單位則以TB表示。StorageGRID</block>
+  <block id="4d604dd8f008145471dc845683399189" category="section-title">庫存</block>
+  <block id="9b3e70f7ec5801014bd7ba2b043dd460" category="paragraph">*為什麼我在庫存頁面中找不到某些系統？*由於下列原因之一、您可能無法在庫存頁面中檢視某些系統：</block>
+  <block id="bc589a42c9712f3202e1697e0c7d5db9" category="list-text">新系統Active IQ 在SAP中新增或更新後、需要花一天時間才能反映在更新中。</block>
+  <block id="490faa3ce28cbfbdad8226dd7dc88a66" category="list-text">系統安全無虞、您無權檢視安全系統。</block>
+  <block id="fff04069266603da7d63522615d51f31" category="list-text">您無權檢視系統。</block>
+  <block id="04187ceda7d68629d17d32d7bfb72e06" category="list-text">系統處於非使用中狀態</block>
+  <block id="202e46041652836ed8241309090e3360" category="inline-link-macro">建立非技術案例</block>
+  <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">請按這裡。</block>
+  <block id="9ca5b690fe8bde0ca39f3697552ca80d" category="paragraph">如果您因為其他原因而無法檢視系統、 <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>。若要深入瞭解非技術案例、請按一下 <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
+  <block id="7c6137cde05014e7fab83f78a553dffa" category="doc">分析容量與儲存效率節約效益</block>
+  <block id="d05dbf74dd4a436186ee08c15e9b81d8" category="paragraph">您可以檢視系統的容量詳細資料及儲存效率節約效益、並採取適當行動。容量與儲存效率資訊可在叢集層級或節點層級檢視。</block>
+  <block id="17c1d72dbea38c3c03aed0e08dbb37f9" category="admonition">E系列系統不支援此功能。</block>
+  <block id="1b7b69815feec90db643b8ced3964b38" category="paragraph">容量儀表板會顯示容量詳細資料和系統容量預測。容量預測會使用歷史容量資訊來識別每個系統的使用率。根據已使用和已分配容量的歷史資料（一年的資料、若有）、演算法會考量每個系統的目前使用率、並針對未來1到6個月內的系統使用率產生預測。</block>
+  <block id="877cc09ee5c3206ad144f4aa8f211c78" category="paragraph">儲存效率儀表板會顯示儲存效率比、所用邏輯空間、所用實體空間、以及執行ONTAP 更新版本的儲存系統所儲存的總資料。無論是AFF 使用或不使用適用於各種系統、非AFF系統或兩者的Snapshot複本、都能看出效率與節約效益。每個效率功能（例如Volume重複資料刪除、Volume壓縮、壓實、FlexClone Volume和Snapshot複本）都可看出客戶儲存設備的總節約效益。您也可以以最佳效率比檢視前5大儲存系統。</block>
+  <block id="ee810de9566deba98dbe4a46fbcf7410" category="list-text">在左窗格中、按一下*容量與效率*。</block>
+  <block id="672a98e16d598ad5d32b32f96bbf4db5" category="paragraph">預設會選取*容量*索引標籤。</block>
+  <block id="283c169bd8b723905691a0368b1eaf2a" category="list-text">在叢集和節點層級檢視容量詳細資料。</block>
+  <block id="be131fcebf48482dd72ea96add51f0e0" category="list-text">檢視節點層級的容量預測。</block>
+  <block id="c08f4fce6d9fc3b55b586bec7ed0c778" category="paragraph">對於部分系統、有關原始容量的資訊可在ClusterViewer中取得。ONTAP</block>
+  <block id="03c660c2768c96f05e2acdb21cf61ebb" category="list-text">按一下*新增容量*、將通知傳送給NetApp或您的合作夥伴以新增容量。</block>
+  <block id="6d01d6a00b896623fe1252dcd728f7d4" category="list-text">檢視儲存系統的儲存效率和資料節約效益。</block>
+  <block id="f4211b7ee285529c0082b53f3b17de86" category="list-text">如果您的儲存系統儲存效率比高於平均儲存效率比率、請按一下*分享您的成功案例*、讓我們瞭解所遵循的最佳實務做法。</block>
+  <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">如果您的儲存系統儲存效率比低於平均儲存效率比率、請按一下*聯絡我們*、讓我們知道您的儲存系統組態。</block>
+  <block id="469ece09146953ebd6a7e5bf041f15f1" category="paragraph">如需容量與儲存效率的詳細資訊、請參閱 <block ref="1f14e24988ac8fc33e2e14ae229f096d" category="inline-link-macro-rx"></block>。</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30a3a5781ffac6a88cce2ccd6925d533" category="doc">保護系統免受勒索軟體風險的侵害</block>
+  <block id="3deb21101d87fafbbc562a691cfe0a34" category="paragraph">當您登入 Active IQ Digital Advisor 時，您可以檢視「*勒索軟體防護*」(Ransomware Defense) 小工具上強調顯示的「*動作*」(Actions)，其中會顯示風險計數。</block>
+  <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">您可以檢視Snapshot建立、保留和ONTAP 不確定FPolicy風險、然後採取行動加以修正。</block>
+  <block id="c93512b030d1e761994897b23c1eaf91" category="list-text">登入 Active IQ Digital Advisor。</block>
+  <block id="6f75bc30c5b47eb48f72d647d67781a9" category="list-text">按一下「*勒索軟體防禦*」小工具上的「*動作*」。</block>
+  <block id="5e0e2c126796ee31f891f0f923d864f9" category="list-text">針對所顯示的風險、請檢查影響層級、並遵循建議的行動。</block>
+  <block id="9468b2f5ff83e6a3ed59b51e8ca38dc2" category="list-text">按一下「Unique風險」（獨特風險）索引標籤、然後在「* Corrective Action"（修正行動*）欄</block>
+  <block id="719f031257428b8b9c9c34ee45a1c9ae" category="list-text">按一下「*受影響的系統*」索引標籤、即可檢視有風險的系統。</block>
+  <block id="0733f4fb920038885a10cd7d7528474a" category="list-text">遵循建議的補救行動來保護系統。</block>
+  <block id="36b9a40607be4fe5327a83c15f10355e" category="summary">提供比較組態偏移範本的資訊。</block>
+  <block id="07bccdf47af12c51bb370278a660f033" category="doc">比較組態偏移範本</block>
+  <block id="5a8fec4938d8693af6506cce2afba55d" category="paragraph">您可以比較系統和叢集組態、並近乎即時偵測組態差異。</block>
+  <block id="610f90ca909a7ffba0cca7c8587ce0c7" category="list-text">在左窗格中、按一下*設定資料分割*。</block>
+  <block id="3d768fbe606a71f8b806879ad00eba22" category="list-text">選取其中一個現有範本、或按一下*新增範本*以新增範本。</block>
+  <block id="0f4b62d6f9a595aef4041b063db627c2" category="list-text">產生組態飄移報告</block>
+  <block id="94d8a7699e6d9a94b8c7f9284a38e5c3" category="paragraph">您可以立即產生報告、也可以排程每週或每月產生報告。</block>
+  <block id="8037e16862d84c161a0376bf3349c34f" category="cell">立即產生報告</block>
+  <block id="d281137a49a54aa7802aec878d399810" category="cell">可安排每週或每月產生報告</block>
+  <block id="d998ded6956eac23bfe161c9afe0ea0e" category="list-text">選取類別並提供報告所需的值。</block>
+  <block id="812ad8b6bb127213d73d9d6bcd0ec8d0" category="list-text">選擇*僅包括磁碟機*選項、即可僅下載組態偏差變更。</block>
+  <block id="e5a357b5d9e14c026e56b048d8d30481" category="inline-link-macro">下載並檢視組態飄移報告</block>
+  <block id="3fe3e6cae45cdc7f363823f66ac8cff4" category="list-text"><block ref="9904fa624af53322bf0cb3a29f4aca11" category="inline-link-macro-rx"></block>。</block>
+  <block id="385c42157f7dfc3d457c05af35c0f3e3" category="list-text">執行Ansible Playbook（包含在組態偏移報告中）以減輕磁碟機的損失。</block>
+  <block id="3d238a330bc38f038dc62d179d5a04fb" category="list-text">按一下*排程報告*索引標籤。</block>
+  <block id="0462e15ed17cd7dc971f1fa1cb455fff" category="list-text">選取報告的頻率。</block>
+  <block id="1d644c91a129f4fee67bbeac164d1355" category="list-text">選取報告的開始日期和結束日期。</block>
+  <block id="da46c99001fe56b84201c7d1c1bb16f1" category="paragraph">系統會傳送一封電子郵件、內含所選系統之間組態差異的詳細資料。</block>
+  <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">提供資訊、讓您熟悉「狀況檢查儀表板」。</block>
+  <block id="8bd30f76be476058b4d8d425fef989b2" category="doc">瞭解健全狀況檢查儀表板</block>
+  <block id="c4e79cb686b01699ee0c71f0e369c23c" category="paragraph">《支援不健全狀況檢查儀表板》Active IQ 提供整體環境的時間點審查。</block>
+  <block id="3cc3a0dbf287ac1f117caad7c4ff3529" category="paragraph">根據健全狀況檢查分數、您可以根據建議的NetApp最佳實務做法來調整儲存系統、以利進行長期規劃。它可協助您透過集中化的使用者介面、監控軟體和硬體上執行的所有系統。健全狀況檢查分數可讓您快速深入瞭解系統風險。主要建議與最佳實務做法可協助您採取行動、改善安裝基礎的健全狀況。</block>
+  <block id="73b22abb2810760940bcbce346e76523" category="admonition">您只能透過NetApp SupportEdge Advisor 的功能與SupportEdge Expert 服務項目來存取「狀況檢查儀表板」。</block>
+  <block id="cf03e3b283bc7fa70a7713acb40de102" category="doc">訂閱健康審查電子郵件</block>
+  <block id="21ad3730eb42f0e7e97440864d89b224" category="paragraph">您可以訂閱健康審查電子郵件、每月都會收到一封電子郵件、摘要說明健康狀態、即將續約日期的系統、以及需要在您安裝的基礎上升級NetApp產品的系統。您將收到一封健康審查電子郵件、以便檢視每月摘要、並針對您的系統採取行動。您也可以選擇檢視、編輯、分享及刪除訂閱。如果您決定不接收電子郵件、也可以隨時取消訂閱、不再收到電子郵件。</block>
+  <block id="74bac88334325995c9ac3011aacb8ce6" category="paragraph">啟用訂閱之後、您應該在新增訂閱時選擇開始日期。每月電子郵件摘要可讓您檢視出色的健康、續約、升級及健康檢查行動。您可以確認電子郵件地址、並將電子郵件傳送至指定的電子郵件地址。您也可以選擇刪除訂閱。</block>
+  <block id="758be7d229b841d1130a3c7c210ffbdf" category="admonition">此功能僅可透過NetApp SupportEdge Advisor 的功能與SupportEdge Expert 功能性服務項目取得。</block>
+  <block id="e7b254db09865dd430cfc8b7b0677352" category="list-text">在左窗格中、按一下* Wellness Review*。</block>
+  <block id="2e732ac605c2ed9156bbd850efb40083" category="list-text">按一下 * 新增訂閱 * 。</block>
+  <block id="5fc44cddfe7ebd9f1c1db179221f47cf" category="list-text">請在「*新增訂閱*」對話方塊的「*命名訂閱*」、「*選擇類別*」、「*搜尋客戶*」及「*電子郵件*」欄位中提供必要資訊。</block>
+  <block id="85bb97cf1fc6a37ea1a5e97e0e2e1a8b" category="list-text">按一下*訂閱*。</block>
+  <block id="59986442c027a30a72ff51fcf5ad3c9b" category="paragraph">成功訂閱後、您將會收到*訂閱已新增*訊息。</block>
+  <block id="b073ca01338f5dd8d8a707598c797762" category="summary">提供有關追蹤儲存系統效率的資訊。</block>
+  <block id="c116684e616e0ce2787b26417c569f60" category="doc">瞭解儲存效率</block>
+  <block id="054285913eee18981aea3554542786c2" category="paragraph">儲存效率儀表板會顯示儲存效率比、所用邏輯空間、所用實體空間、以及執行ONTAP 更新版本的儲存系統所儲存的總資料。無論是AFF 使用或不使用適用於各種系統、非AFF系統或兩者的Snapshot複本、都能看出效率與節約效益。您可以在叢集層級或節點層級檢視儲存效率資訊。</block>
+  <block id="cd4f2e2f122a3ca13ed6a55ea65137d8" category="paragraph">每個效率功能（例如Volume重複資料刪除、Volume壓縮、壓實、FlexClone Volume和Snapshot複本）都可看出客戶儲存設備的總節約效益。您也可以以最佳效率比檢視前5大儲存系統。</block>
+  <block id="e0f076d59e2092bdbab66e81920ec8bf" category="summary">提供產生報告的資訊。</block>
+  <block id="7ecd0726b721e17d74d280fdd93e49f8" category="doc">產生報告</block>
+  <block id="c18954481ec7b1ca7731f10fe88f17e0" category="paragraph">您可以立即產生報告、或安排每週或每月產生報告。報告可以不同格式產生。根據選取的報告、會顯示可用的格式。</block>
+  <block id="78166ce4ccceeedfbf6aeb8682851072" category="paragraph">*關於此工作*</block>
+  <block id="f4326c266c746886119f8753fbde4ae5" category="list-text">您無法在Active IQ 不執行指令的情況下編輯報告。您應該刪除現有報告並建立新報告。</block>
+  <block id="b9078cbffeaf57a288d7d58d7ed02317" category="list-text">在左窗格中、按一下* Reports *。</block>
+  <block id="cf2b00ffa5bd73f45aa8d81c2b6127eb" category="list-text">按一下*建立報告*以產生新報告。</block>
+  <block id="bb8c427c31e76f816f767bd2cad87cfc" category="list-text">選取報告類型、並提供報告所需的值。</block>
+  <block id="43c47648912b14ae2e4dae66c4c94e6f" category="list-text">選取報告格式。</block>
+  <block id="1c29599ba00f8ba135a21a794908ea18" category="admonition">報告會以Active IQ 不完整的形式儲存3天。</block>
+  <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">產生新報告時、將會取代現有的排程報告。</block>
+  <block id="6d70d8473310213564444d3b9fe477dd" category="summary">提供如何避免磁碟區滿量以避免中斷運作的相關資訊。</block>
+  <block id="a80aea1c7f0129b13ea55e329311ec63" category="doc">避免大量佔用、以避免中斷運作</block>
+  <block id="d1bd15862f9b11e10337ce20fe325868" category="paragraph">當您登入 Active IQ Digital Advisor 時，請注意「*組態*」(Configuration) 小工具上是否出現紅色徽章。按一下小工具後、您會發現磁碟區已滿98%、這可能會導致中斷運作。修正此問題可避免磁碟區充滿、這會使其變成唯讀、導致存取它的應用程式當機且故障。</block>
+  <block id="ce18cbcf742aed8e35c658e5625fc984" category="inline-image-macro">組態Widget</block>
+  <block id="60436722270a4533c09cb8939f672895" category="list-text">按一下*組態*小工具中的*動作*。<block ref="6aa7a8b05df22247419ddcea980afa15" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eae8b28f90d4f0bef1cf3c21d4b34b89" category="list-text">按一下*獨特風險*索引標籤。按一下「*修正行動*」連結後、您可以變更警告臨界值、或為磁碟區分配更多空間。<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e2c6808982593708e3cfabf058fefb40" category="summary">提供有關整合及如何在Cloud Manager中管理叢集的資訊。</block>
+  <block id="69afd9ad39724c949338645bc3c18d3c" category="doc">在Cloud Manager中管理叢集</block>
+  <block id="8a0d2c897946577052b091701b0ae580" category="paragraph">Active IQ Digital Advisor 已整合至 Cloud Manager。您現在可以從Active IQ Cloud Manager使用者介面（UI）管理叢集、並存取所有的功能。使用Cloud Manager、IT專家和雲端架構設計師可以集中管理混合式多雲端基礎架構。</block>
+  <block id="292e5c26d5c03cc4f8e1e8768bbbabaa" category="inline-link-macro">Active IQ Digital Advisor 如何搭配 Cloud Manager 運作</block>
+  <block id="61adb43205caa7a035172727c2635283" category="paragraph">您只需要在 Cloud Manager 中登錄了 NetApp 支援網站（NSS）帳戶，即可在 Cloud Manager中整合及存取 Active IQ 功能。如需在Active IQ Cloud Manager中整合及存取功能的相關資訊、請參閱 <block ref="4b51d7668fb4335133544eec7db447ae" category="inline-link-macro-rx"></block>。</block>
+  <block id="1adfed22e84a753b83628708ada03eee" category="summary">提供新增組態偏移範本的資訊。</block>
+  <block id="474c5ad2b749cb9d123843c02a15e051" category="doc">新增組態偏移範本</block>
+  <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">您應該新增範本、以比較系統和叢集組態、並近乎即時偵測組態差異。組態偏移範本是使用執行AutoSupport 不實資料的系統來新增。</block>
+  <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">按一下*新增範本*。</block>
+  <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">提供所需的值。</block>
+  <block id="d2f9c6e3559cfd668d1e78b444103c0a" category="list-text">選用：按一下*編輯*以編輯範本。</block>
+  <block id="345d76812dbf5452d2588e7271cf8436" category="summary">提供有關使用NetApp訂閱的容量使用率資訊NetApp Keystone 。</block>
+  <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">透過NetApp Keystone 「View訂閱」檢視容量使用率</block>
+  <block id="3d49fcaa5c70ee5c62bd12985bcdc011" category="paragraph">如果您訂閱Keystone訂閱服務、可以在Active IQ Digital Advisor 「支援資訊」儀表板上檢視Keystone訂閱小工具。</block>
+  <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">Keystone訂閱小工具可提供您帳戶容量使用量的摘要。其中包含實體容量的容量使用率圖表、快照會四捨五入至最後五分鐘。超過承諾容量（突發容量）的使用率會標示為紅色。</block>
+  <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link-macro">服務層級</block>
+  <block id="f05054c9a7b129693b022320001e81ed" category="paragraph">您可以檢視*基礎概念-容量使用率*儀表板、此儀表板會分析小工具中的資料、並以圖形方式呈現所有訂閱儲存設備容量和使用量的使用率趨勢 <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-macro-rx"></block>（例如Premium、Extreme和Standard）、與NetApp Keystone 您的「精選訂閱」帳戶有關。</block>
+  <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Keystone訂閱服務容量</block>
+  <block id="eada85ae345afac1356e1265ed14965d" category="paragraph">您可以檢視 <block ref="c3e14696d82449875aa62ae1bc7f05d0" category="inline-link-macro-rx"></block> 以及儀表板上每個已訂閱服務的區塊、檔案服務或物件儲存設備使用量。</block>
+  <block id="c56661a66437cf16fa6985915185aa55" category="admonition">身為一個不一樣的使用者、您可以選擇使用「資料收集器」和「參考資料」來取得容量使用量的資料。Active IQ ONTAP AutoSupport</block>
+  <block id="559ab0392555ba0574ee8aafcb0dd4b8" category="list-text">按一下「*檢視詳細資料*」、即可在「詳細資料*基礎概念-容量使用率*」儀表板中檢視使用率趨勢。</block>
+  <block id="842ffce382b29ce5f564cf2e7a51575e" category="list-text">選取「目前帳單期間」、「30天」、「7天」或「1天」、即可檢視最近的平均使用量趨勢。</block>
+  <block id="b75ffe757df198361f55d7334bf6a3ea" category="paragraph">在目前的計費期間、您可以下載報告、其中提供有關連拍詳細資料的資訊。</block>
+  <block id="6c6a95e0f5aea889e91da11c9661f08c" category="list-text">或者、如果您選擇ONTAP 使用「資料收集器」來取得容量使用量的資料、您可以按一下儀表板上的索引標籤來檢視檔案共用和磁碟的詳細資料。</block>
+  <block id="6fc85e5ba98ece0cf451b774e77a7a7c" category="list-text">按一下*共享*或*磁碟*來識別接近已認可容量的檔案共用區或磁碟、並做出明智的決策以節省儲存容量。</block>
+  <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">提供版本新功能的相關資訊。</block>
+  <block id="661b451e3ca8f0a560cc7724b5acfaa2" category="doc">Active IQ Digital Advisor 新增功能</block>
+  <block id="b796f5a9938eed79a1b234c13b86fcaf" category="paragraph">NetApp Active IQ Digital Advisor 提供下列特色與增強功能：</block>
+  <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
+  <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">瞭解方法</block>
+  <block id="0b351c39af261a93af103bf080f120a3" category="paragraph">VMware資產的vCenter、ESXi主機和虛擬機器相關資訊現已包含在詳細目錄中、以提供完整的堆疊庫存和互通性檢查。 <block ref="c1d18b80dac13889361e9f73d9613fbb" category="inline-link-macro-rx"></block>。</block>
+  <block id="0e1335531f896df953b41fb40e52c70e" category="section-title">2022年7月14日</block>
+  <block id="2e6276e69ded861b20ecfa19303091d4" category="section-title">健全狀況檢查儀表板</block>
+  <block id="703e1ace2a23931c8fffe15a7d94076f" category="list-text">您現在可以在Cloud Volumes ONTAP 「健全狀況檢查儀表板」中檢視針對各種系統所建立的技術案例詳細資料。</block>
+  <block id="bf392ea3db062ee21bd43f90458c912a" category="list-text">新增了平台索引標籤、可協助您輕鬆瀏覽不同平台的KPI。</block>
+  <block id="6b068f0a943d421535c7d8d412ee3522" category="section-title">E系列系統</block>
+  <block id="4485be220070dac75e317d3e08e5d652" category="paragraph">您可以SANtricity 在建議的版本和健全狀況檢查KPI中檢視版本的支援。</block>
+  <block id="32a07c6643e39bb3fe494292db9ae233" category="section-title">健康</block>
+  <block id="1166b0654d50f1afb6e9769be090407f" category="paragraph">引進色彩編碼、可快速輕鬆地識別不需要任何軟體或韌體版本升級的系統。</block>
+  <block id="8693aef17f2d371968a29ad0e0dff726" category="section-title">升級工作流程</block>
+  <block id="f04030f456776755903c2312553427bf" category="paragraph">您現在可以檢視E系列系統的升級建議。</block>
+  <block id="caf1252a3f30072a722120f9f4845208" category="section-title">2022年6月22日</block>
+  <block id="392d70ca39f31f10bd637936769788df" category="section-title">StorageGRID</block>
+  <block id="a23d1d4ae4ec88d0e3d45bcb6cfa40ac" category="paragraph">Grid檢視器中已包含資訊生命週期管理（ILM）for StorageGRID the功能。</block>
+  <block id="76ad5352af956a4d0d16558d3d763073" category="section-title">雲端建議</block>
+  <block id="5351ffbf47ff169f3734bf800f57ddfc" category="paragraph">提供工作負載及其各自磁碟區的建議、這些工作負載及磁碟區可透過Cloud Volumes ONTAP SnapMirror資料複寫移至NetApp還原、NetApp Cloud Volumes Service 還原及NetApp雲端備份（先前AltaVault 稱為「還原」）。 <block ref="e540305a20102603a156b0c2b7f74a4c" category="inline-link-macro-rx"></block>。</block>
+  <block id="c91c7b93c28cd18741b71f727ee81ee3" category="section-title">報告</block>
+  <block id="f2ca08481f9cb688103b90a756b0c613" category="list-text">您現在可以使用為已產生報告所定義的準則來產生報告。</block>
+  <block id="db9b022851e15c130528bb7ffa01c31a" category="list-text">您現在可以嘗試3次、重試產生失敗的報告。</block>
+  <block id="318d37e2adcbd404d2708622a356f2c5" category="list-text">所產生報告的保留期間已從3天增加至90天。</block>
+  <block id="95f841026c30d747102e348f792a2a3e" category="section-title">2022年6月1日</block>
+  <block id="a620ec8d73813dc8557698991cfb2b95" category="list-text">您現在可以檢視庫存中系統的銷售代表資訊。</block>
+  <block id="141c7ce1e6e924787a29d62d1abc74fd" category="list-text">Astra Control Center系統現已在庫存中提供。</block>
+  <block id="390e66de0b25a9d9b226d4ede6fa20b5" category="section-title">2022年5月12日</block>
+  <block id="9ce6137128fa3150f0b3f3b8f9f5d110" category="paragraph">其他容量指標會包含在StorageGRID 「能力與容量報告」中。</block>
+  <block id="8d1c3a552ad49163efb4753de2a95773" category="section-title">ClusterViewer</block>
+  <block id="412b4661c99e365493b34061a41311d4" category="paragraph">叢集的SnapMirror（資料保護）摘要現已包含在ClusterViewer中。</block>
+  <block id="5b416e1633d16aad217a2e0fc2d097f8" category="section-title">升級工作流程</block>
+  <block id="30477aac7de696f872a4af4a6aff4a5e" category="paragraph">您現在可以使用升級工作流程來檢視升級建議、以及目標E系列版本中可用的新功能摘要。</block>
+  <block id="3974e26b26a740068e57eaa72b547d14" category="list-text">Ansible教戰手冊已經過強化、可降低軟體組態風險。</block>
+  <block id="a47a4bf50c391a1c178847e49446d5d9" category="list-text">篩選條件已整合至健全狀況行動與風險中。</block>
+  <block id="23bfe468015bf5d3034031a6c8dc0d0e" category="section-title">2022年4月7日</block>
+  <block id="1de44a557b304229f4217b29677a5336" category="list-text">針對最新作業系統版本和「6個月」支援合約與支援結束KPI的關鍵建議評分已降低、以符合解決的減少急迫性。</block>
+  <block id="63ed1cad11240bab739f30f048ea3624" category="list-text">遠端管理和 HA 配對（建議組態）的主要建議事項已更新，納入了 NetApp 支援網站的 URL，以供客戶自助服務使用。</block>
+  <block id="246416981c0bc5059f44e80fed33fe3f" category="section-title">2022年3月31日</block>
+  <block id="c058a29a15264f27580683a21135dedb" category="paragraph">您可以在網格檢視器中檢視租戶和鏟斗的相關資訊。</block>
+  <block id="d0fae250da4b7045c7ff7f8d51ced9ec" category="section-title">2022年3月24日</block>
+  <block id="96fff307c63b4a63d8ad632126d7cbfa" category="list-text">健全狀況評估執行摘要PPT的增強功能與錯誤修正。</block>
+  <block id="a3b957b59d881117bf09ee6ca7366bb9" category="list-text">能夠產生最低建議版本升級計畫。</block>
+  <block id="93023f3e4204331d859903eed4894e42" category="list-text">健全狀況檢查區塊的增強功能、可識別每個KPI需要注意的節點數量。</block>
+  <block id="a6c3d2af64b360b39a28cdb59292357b" category="paragraph">您可以在網格檢視器中檢視網格組態詳細資料。</block>
+  <block id="315474a8ef79b74899073fc979f12da4" category="section-title">Cloud Manager</block>
+  <block id="dad2544fd1c448ea22b7a63cbf03e1df" category="paragraph">Cloud Manager使用者現在可以在Active IQ 新的索引標籤中開啟鏈結（如適用）、類似Active IQ 於《》中的現有功能。</block>
+  <block id="d5fe749824528d36ebfda1e6d68028c4" category="section-title">2022年1月12日</block>
+  <block id="2ffefe6c8c1d57527c2c86448a467c08" category="section-title">設定飄移</block>
+  <block id="1f11edbc13f039765fac872c257a9a13" category="list-text">您可以複製範本以複製原始範本。</block>
+  <block id="4be9d327e5d4314ef41a2c76cb413647" category="list-text">您可以透過唯讀或完整存取這些範本的權限、與其他獲授權的使用者共用黃金範本。<block ref="cbf38bd30e52bcc4b4982b19aec6bc2b" category="inline-link-macro-rx"></block>。</block>
+  <block id="1e6a2df5d81ec0be4913d5a6cc31e753" category="section-title">2021年12月15日</block>
+  <block id="f551e29085dd1ae672a5c22b16dd5231" category="list-text">*叢集檢視器報告*：此報告提供客戶與報價表層級的單一叢集或多個叢集相關資訊。您可以使用ClusterViewer報告、將所有資訊下載到單一檔案中。您只能針對最多100個節點的觀察清單產生此報告。</block>
+  <block id="32323c520058568cf459c9c091b6302a" category="list-text">*效能報告*：此報告以單一壓縮檔提供叢集、節點、本機層級（Aggregate）和磁碟區效能的詳細資訊。每個壓縮檔都包含單一叢集的效能資料、有助於使用者分析每個叢集的資料。您只能針對最多100個節點的觀察清單產生此報告。</block>
+  <block id="e7495c352afe82777cef53d3f7d2534f" category="section-title">與E系列系統整合</block>
+  <block id="00c03a5533f59ea010c2980d7e4d8d04" category="paragraph">您可以在Active IQ VMware View中檢視所選E系列系統的容量詳細資料和效能圖表。</block>
+  <block id="bff8e0727b4c9b257312f2cbb6fcce4d" category="section-title">2021年11月18日</block>
+  <block id="91b681e174a782226d26fb4056e14081" category="section-title">儲存效率</block>
+  <block id="2837fa943ed77aa7de5f931fc0d9ddb0" category="paragraph">您可以檢視由NetApp Cloud Insights 資源中心維護及監控之節點的儲存效率詳細資料。</block>
+  <block id="45b18c343d43ec682e557426d44cda54" category="section-title">2021年11月11日</block>
+  <block id="1c4dbaa68e9004b45ad08f1cf5f157a1" category="list-text">新增的圖示位於「Health Check（狀況檢查）」區塊、僅適用於裝有SupportEdge Advisor 支援功能的系統SupportEdge Expert 。我們已針對「建議的軟體-軟體貨幣和韌體貨幣」區段、「建議的組態」和「最佳實務做法」進行增強。</block>
+  <block id="0411f5495f5795b2270ee7603259fb59" category="list-text">在 Active IQ Digital Advisor–Reports（報告）畫面上，新增了針對內部與外部（客戶和合作夥伴）」使用者的「機密資料」橫幅。</block>
+  <block id="ec4db24b3963d4a0b276c998be9a81bc" category="section-title">健全狀況與升級小工具</block>
+  <block id="54454ba57239406365ebc84a4d7bd111" category="paragraph">在「Wellness Action History（健康行動記錄）」欄中新增E系列升級建議和風險觸發日期、以強化儀表板。</block>
+  <block id="9dc83864364276e0f933b83aba5a7e53" category="paragraph">ClusterViewer堆疊視覺化模組已經過強化、可納入「放大/縮小及儲存映像」功能。</block>
+  <block id="3085ac0389f450e4cca3a2b286aaf59f" category="paragraph">您可以檢視由NetApp Cloud Insights 執行維護與監控之系統的儲存效率詳細資料。</block>
+  <block id="4f4438730e3b3e658fec82d94c8dd2c9" category="section-title">2021年10月14日</block>
+  <block id="206b11a774f63418bae21625e6f6d2fb" category="section-title">可Ansible Inventory</block>
+  <block id="d218acf3139b2df9f86974252e34f973" category="paragraph">您現在可以在區域和站台層級產生.yml和.ini檔案格式的Ansible庫存檔案。 <block ref="6c1a86a6b220ef637b98bb90dcad9e67" category="inline-link-macro-rx"></block>。</block>
+  <block id="f6ba2adb39c05d434ab52c6ad161a40d" category="section-title">非作用中資料報告（印尼盾）</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">深入瞭解</block>
+  <block id="1363d8028841d1a619635b4cbd33e1e6" category="paragraph">在「功能性顧問」畫面中、您可以啟動非作用中的資料報告（IDR）來監控Aggregate並產生可執行的教戰手冊。FabricPool <block ref="779f7b5b9d0c1245e542540e4775cdfe" category="inline-link-macro-rx"></block></block>
+  <block id="6f815aa2f2eb28995c59dd2d2b0af600" category="section-title">飄移時間軸報告</block>
+  <block id="5e4b167efbd384d21eda43769f89f2b4" category="paragraph">您可以比較AutoSupport 過去90天的資料不完整、並產生飄移時間軸報告。 <block ref="6e959f6930398ffd4237fa003affc1a1" category="inline-link-macro-rx"></block>。</block>
+  <block id="cb3f8f484c3b350e78e56ea72f491137" category="section-title">符合法規的系統切換</block>
+  <block id="25158a1dfe0d3c798ddbe50ec410b4c1" category="paragraph">健全狀況檢查儀表板已透過「最小作業系統」和「最新作業系統」索引標籤的切換功能增強、因此您可以檢視符合建議和最新版本最低要求且不符合要求的系統。</block>
+  <block id="726d553e79fbb6d2f511fe1bd60fb931" category="section-title">重要建議摘要</block>
+  <block id="1d1be840f4bc6297746dee2a3bb5547a" category="paragraph">在「健全狀況檢查」儀表板上、您可以檢視前5大主要建議摘要。</block>
+  <block id="b00f197330b8c03d51bcc9ff737bf029" category="section-title">適用於NetApp Cloud Volumes ONTAP 的選項卡和E系列平台</block>
+  <block id="823e0682a919056e63060941206cbbd0" category="paragraph">健全狀況檢查儀表板已透過Cloud Volumes ONTAP 更新功能的支援功能、可讓您檢視這些平台的健全狀況檢查KPI和詳細資料。</block>
+  <block id="b47109f6e8c3654beb551c1dc5b17f5e" category="paragraph">此外ONTAP 、我們也新增了「支援」索引標籤、以及其他平台、這些平台現在已啟用。</block>
+  <block id="5113f77f1fff34aa6b365de6e30cf5ec" category="paragraph">您可以在Cloud Volumes ONTAP 《關於NetApp的功能細節Active IQ 、請參閱：</block>
+  <block id="bab881e7a77679bf1ae1e0e5dcb3ec3e" category="paragraph">報告時程已延長至12個月。排程報告即將到期時、您也會收到通知。</block>
+  <block id="01577a026e7abe02a9ba236a3d4f679b" category="section-title">2021年9月30日</block>
+  <block id="5548552a90db4c3921de9d1e9c9fb3e3" category="section-title">客戶合格版本</block>
+  <block id="1a55a42fef82760b4bf1c9a610731b20" category="paragraph">客戶合格版本可協助支援客戶經理（SAM）管理客戶安裝基礎的一部分、其中裝載了需要下列條件的應用程式：</block>
+  <block id="a6cfeafd34fe6f642483207974dd04a7" category="list-text">較早且有時不受支援的ONTAP 版本的不支援</block>
+  <block id="1b7190e71bf87b797608810a3fa80d64" category="list-text">或客戶的安裝基礎已通過測試和認證、可使用特定作業系統版本。</block>
+  <block id="f40998631af1af360155366585f115c8" category="section-title">技術案例工作流程</block>
+  <block id="41705b7e1f487807deb1b3b4480313a9" category="paragraph">在儀表板和向下切入畫面中、資料圖表和折線圖都有圖形增強功能。您也可以選擇在長條圖中檢視該資料。在折線圖視窗中、您可以檢視、選取及取消選取這兩個使用者介面中的「開啟」、「關閉」和「個案總數」圖表。</block>
+  <block id="875d9c5afda791a40017daaed49334d2" category="section-title">效能圖表</block>
+  <block id="3bea15cd61ddb06da5da3c9da21af174" category="paragraph">除了CSV格式之外、您現在也可以下載PNG和JPG格式的效能圖表。</block>
+  <block id="93c8a6e17d9d5f6fe358eb0ccb598e13" category="section-title">超過12個月的終止支援（EOS）控制器</block>
+  <block id="2fab76159eccef44ca8dd94e1dee4665" category="paragraph">健全狀況檢查儀表板的索引標籤已增強、顯示EOS超過12個月的控制器。</block>
+  <block id="1201772d73bae2bd2ca29d21ab61238f" category="section-title">2021年9月16日</block>
+  <block id="e334c16b25916f028d0cccfe5500fd69" category="list-text">勒索軟體防禦小工具現在是Wellness工作流程的一部分、而非獨立式小工具。</block>
+  <block id="0452e82e921087d7b1a83c2f02b68e57" category="list-text">在Wellness Review電子郵件中、您會看到勒索軟體防禦的相關資訊、而非續約。</block>
+  <block id="6268dbec956651e7bd88197154e41f93" category="paragraph">您可以在ONTAP 本文件中檢視有關NetApp SolidNetApp®Select系統的容量詳細資料Active IQ 。</block>
+  <block id="9ee1a0b7aa28c278380f54797be2bc29" category="paragraph">您可以在ClusterViewer的「視覺化」索引標籤中檢視纜線故障和其他錯誤。</block>
+  <block id="6be3e4cc137acae41c32679736c4a678" category="section-title">2021年9月6日</block>
+  <block id="b3133741a2e146480d59529cf245b52d" category="list-text">檢視AutoSupport 功能：檢視AutoSupport 有關功能不全及基礎節點的資訊。StorageGRID</block>
+  <block id="be2ca2c828948202cf80b4f5a05562a9" category="list-text">《產品介紹：檢視有關應用程式的詳細資料、例如節點類型、應用裝置機型、磁碟機大小、磁碟機類型、RAID模式、StorageGRID StorageGRID 網格檢視器-網格資源清冊區段中的其他項目。</block>
+  <block id="89bcdbae8ce3c1ee510be773259789e7" category="list-text">續約：檢視應續約的網格清單和基礎節點。</block>
+  <block id="d5ce3696c490cfd2eb9bd24f1aec7d29" category="list-text">E系列SANtricity 產品不含風險：在SANtricity Grid Dashboard - Wellness區段中檢視基礎節點的E系列產品不含風險。</block>
+  <block id="acc29a7b7f23045f357b49f3a37a34bf" category="section-title">容量預測</block>
+  <block id="e7beaf5388707f5b78d0f93b770b13e6" category="paragraph">容量預測小工具已更新為改良的演算法、可更妥善地因應系統重新組態。 <block ref="358e7502d3a3beb3c7524dcf4ddbf11b" category="inline-link-macro-rx"></block>。</block>
+  <block id="aefb7a7993c510ef70b2a8e8af0c8a8d" category="section-title">2021年8月26日</block>
+  <block id="cdf13500e15ccdea960e2cbd513e706e" category="section-title">Active IQ Digital Advisor 行動應用程式</block>
+  <block id="c2177c5092a1d047c74aacc2ac6a0266" category="paragraph">您現在可以在 Active IQ Digital Advisor 行動應用程式上啟用生物特徵驗證。驗證可用的選項會因手機支援的功能而有所不同。</block>
+  <block id="36cbd0d8037ebab11ab6cbc27994392d" category="inline-link-macro">Active IQ Digital Advisor 行動應用程式 (Android)</block>
+  <block id="e6692358ec400759110ca506b80cdccf" category="inline-link-macro">Active IQ Digital Advisor 行動應用程式 (iOS)</block>
+  <block id="67336000033c69d2422b8a1d56abc928" category="paragraph">下載應用程式以深入瞭解：<block ref="f4a3d04670909fa28f3881892d9f974d" category="inline-link-macro-rx"></block>
+<block ref="df3e240c84a77f3ec5b190ed94cab8b3" category="inline-link-macro-rx"></block></block>
+  <block id="b5007357b4e518744cbd11c21e6102ff" category="paragraph">健全狀況小工具已透過勒索軟體的「防衛」屬性增強。您現在可以檢視勒索軟體偵測、預防及恢復的相關風險和修正行動。</block>
+  <block id="5c3849b33a3b6bf738dbe72c0348f10c" category="section-title">2021年8月16日</block>
+  <block id="ba0619dd0f47665766133e60320fb439" category="section-title">健康審查</block>
+  <block id="c9de0ec49084be05fec9ba7b0f4a6b26" category="paragraph">您現在可以產生隨需報告。此外、您也可以從Wellness Review訂閱畫面下載上次排程的報告。</block>
+  <block id="2beb2ab0c9df0a1b1c7b89d28d94b394" category="paragraph">在Grid Inventory（網格清單）選項卡中、您現在可以根據站台層級、以可擴充且可摺疊的格式來檢視節點詳細資料。</block>
+  <block id="9d8ce84c0bf081ce006dd3eb8e15fffe" category="section-title">混合模式叢集旗標</block>
+  <block id="eb2249e8ced682cca59b7347422fd3ae" category="paragraph">如果叢集有混合式硬體模型、則在叢集上套用的OS版本是所有節點都能使用的版本。因此、較新硬體機型的某些節點作業系統版本可能會從應該的位置縮減。為了讓這些混合模型叢集更為可見、我們已套用「混合模式」圖示。</block>
+  <block id="cc85a81e9d6e17fbea80420c8dbe7efa" category="section-title">建議的組態/儲存虛擬機器（SVM）健全狀況：Volume層級摘要</block>
+  <block id="3a48ac5fd188547db06b9f51266e7df6" category="paragraph">按一下SVM表格中的藍色「Volume Summary」（Volume摘要）方塊後、會出現「快顯」視窗、顯示有關主控或附加至特定序號或實體節點之磁碟區的詳細資訊。</block>
+  <block id="a9fc8b0c7515ed8f092626e8b6dfe6ae" category="section-title">2021年7月12日</block>
+  <block id="5d74c31f1e66f6dedf097f9a9ae5f31d" category="section-title">系統韌體</block>
+  <block id="18f3c6e410315e65fda0ade6fb1eb520" category="paragraph">您現在可以檢視系統韌體的相關資訊、這些資訊會隨ONTAP 附於主要版本和修補程式版本的資訊。您可以從「快速連結」功能表存取此功能。</block>
+  <block id="26db7511cb508f017d3895c34683014b" category="list-text">健全狀況檢查儀表板已經過強化、加入藍色橫幅、通知使用者SupportEdge Advisor 在SupportEdge Expert 計算健全狀況分數時、不會將不受支援的系統納入考量。</block>
+  <block id="a097fce76ab040d673bff883e300bb1b" category="list-text">建議的組態Widget已經過強化、可針對儲存VM（SVM）的失敗檢查提供深入分析、並可針對每個風險採取建議的修正行動。</block>
+  <block id="03f3109a0c0bb83b15258634e3f61278" category="list-text">對於ONTAP 使用不同硬體機型設定的叢集中的所有節點、建議的目標版本現在都相同。所有節點均支援目標版本。</block>
+  <block id="d3c1f787ff63a25609fa946fe06088e0" category="list-text">您現在可以透過購買PVR來延長控制器、磁碟和磁碟櫃的EOS時程。購買時可在支援結束小工具中檢視PVR日期和延長詳細資料。PVR詳細資料也會在EOSL報告中提供。</block>
+  <block id="11654a7c9bfe622e8f0c2bd5fa18720b" category="paragraph">您可以在詳細目錄頁面上檢視硬體、軟體及不可回收磁碟的支援合約終止日期。</block>
+  <block id="fc6d3ceb7c84059ca7f2eb808bff5479" category="section-title">支援服務升級</block>
+  <block id="afd7e04c0a9b982d69f8dafe88b0c37f" category="list-text">使用者介面已經過強化、可顯示Active IQ 您在支援中訂閱的特定支援服務項目。</block>
+  <block id="bb4ddc55330c48075b3116356500dbf5" category="list-text">您現在可以從系統儀表板提出升級支援服務訂閱的申請、以存取更多功能。 <block ref="cb0308c385d8d496d1f59d74eb315c21" category="inline-link-macro-rx"></block>。</block>
+  <block id="bd0328b259e09ba57ed30da815f4cc42" category="section-title">2021年6月25日</block>
+  <block id="e6950d9f03fba06e22767b7f984caa30" category="section-title">彈性訂閱小工具</block>
+  <block id="3ec6287c56b9bb68a36e7c97f53e3f6b" category="list-text">如果您已選擇ONTAP 使用「資源收集器」取得容量使用量的資料、您可以在「共用和磁碟」索引標籤中檢視檔案共用和磁碟的詳細資料。您可以識別即將提交容量的儲存空間、以節省儲存空間。</block>
+  <block id="04831b0867d81afad6e918c11ee8b449" category="list-text">Keystone -容量使用率儀表板上顯示並用於計費的容量使用量、現在是根據邏輯容量來決定。</block>
+  <block id="499ac45a8abad3e414323681b6865993" category="section-title">2021年6月17日</block>
+  <block id="726b79341207e0305865ddd07bd220e5" category="paragraph">您現在可以針對儲存VM中的所有Volume、針對任何日期、週或月產生彙總Volume效能報告。</block>
+  <block id="57f3de4c026e78c595235fda67e74088" category="section-title">健康審查電子郵件</block>
+  <block id="804abf6ff56cc508e60ea3b78aeebd9a" category="paragraph">健康審查電子郵件已增強功能、可納入健康檢查和升級行動所提供的支援和授權資訊。</block>
+  <block id="11be918415b47960a3e622906e9b1142" category="list-text">使用者介面已經過增強、可提供資訊的表格檢視。</block>
+  <block id="ac2b13c9e8ac3e212fb8de487c09ccf0" category="list-text">您現在可以在ONTAP 「Upgrade Details」（升級詳細資料）畫面中、檢視有關停止支援的資訊。</block>
+  <block id="b6679b1c6146963df7846e6abe20fb56" category="list-text">Config Drivft現在支援200多AutoSupport 個功能區段、可建立黃金範本、並在客戶、站台、群組、觀察清單、叢集、 和主機。</block>
+  <block id="23c2940abe14c5f014c90d156a3d6aa7" category="list-text">組態飄移可讓您使用組態飄移報告有效負載中所含的Ansible教戰手冊來降低差異。</block>
+  <block id="709097c77412d5597cf70b901f0b3daa" category="paragraph">此功能已經過強化、可比較您的儲存VM（SVM）與預先定義的風險目錄、以評估落差並建議相關的修正行動。</block>
+  <block id="987fe606ef6419240a7e3345ba0c565f" category="section-title">2021年6月9日</block>
+  <block id="aca33dafdae7a3f67c7dfa9a5df0dc66" category="paragraph">您現在可以檢視根據其計算健全狀況分數的系統數量。此增強功能適用於「狀況檢查儀表板」中的所有屬性。</block>
+  <block id="3c8ecaee4178e4a25eef65be6cd5cad3" category="section-title">2021年5月20日</block>
+  <block id="1efec69d62920635bf002f71b17c18dd" category="section-title">針對容量新增要求使用「飄移聊天室」</block>
+  <block id="af9ef30544afecf2392bfa5eb477b3c4" category="paragraph">如需容量新增要求的即時協助、請直接從儀表板與銷售人員交談。 <block ref="de37e4b638bc7349ed07e06459c58df9" category="inline-link-macro-rx"></block>。</block>
+  <block id="f0cf1727349620562c13360528ab8936" category="section-title">2021年4月29日</block>
+  <block id="cd7b4050bdc517374876fa8cc2fc9631" category="list-text">以下說明如何保護您的系統免受駭客和勒索軟體攻擊。 <block ref="5d0d02d916acc8170e9496212f9f098d" category="inline-link-macro-rx"></block>。</block>
+  <block id="b2742e9fcf5e18c84979ae25e147d480" category="list-text">您可以避免停機和可能的資料遺失。 <block ref="d89d6ee1bb6c538f985e1c356031942c" category="inline-link-macro-rx"></block>。</block>
+  <block id="ceb8404d75df4cd36057918b2a3c3975" category="list-text">瞭解如何避免容量滿溢、以避免中斷運作。 <block ref="fabdf753888b88e4e56a3a1d46f402d9" category="inline-link-macro-rx"></block>。</block>
+  <block id="b7fd11efbe4b08f9789db43e656aae94" category="section-title">2021年4月7日</block>
+  <block id="e057979f7791f37ec4a8704baa00923d" category="section-title">觀察名單</block>
+  <block id="3cc267fba4c83695b9464316876b7f84" category="paragraph">第一次存取 Active IQ Digital Advisor 時，您應該先建立一份觀察清單，而非儀表板。您也可以檢視不同觀察名單的儀表板、編輯現有觀察名單的詳細資料、以及刪除觀察名單。</block>
+  <block id="3fc3e2eabeba0d4fc1cd1cd29feb8f53" category="section-title">2021年2月24日</block>
+  <block id="28218bb56d995c803dfa66937720289f" category="paragraph">此版本提供下列功能：</block>
+  <block id="774bd29c6c04ea222762ebe419b8682f" category="list-text">可在建立範本期間編輯屬性。</block>
+  <block id="bd98aae9d6874e5b22af9007ec29d40c" category="list-text">將各個部分分組AutoSupport 。</block>
+  <block id="13f08ae5228a12616541f564ea38a102" category="list-text">在客戶、站台、群組、觀察清單、叢集、 和主機名稱。 <block ref="5778a3b24980082649fb0239cf4a1aee" category="inline-link-macro-rx"></block>。</block>
+  <block id="3a38eeff0f77465a7a5489b58303e64b" category="paragraph">您可以產生或排程容量與效率報告、以檢視系統容量與儲存效率節約效益的詳細資訊。</block>
+  <block id="39b6eb402b8871cdc35121d26ca117cb" category="section-title">2021年2月10日</block>
+  <block id="42bee64e260cf6b08834a028608fd5b9" category="paragraph">使用NextGen API架構啟用「支援資訊儀表板」StorageGRID 。</block>
+  <block id="d7bc8a5613552d326ad02be20ff346df" category="paragraph">您可以使用StorageGRID 「報價單」儀表板來檢視報價表、客戶、群組和站台層級的資訊。</block>
+  <block id="7a02010f1fdbb3243b633245324dbadf" category="list-text">*詳細目錄小工具：*檢視StorageGRID 所選層級下可用的各種系統資源清冊。</block>
+  <block id="b9928cfa30ad75fb5efb2c79cc8b812e" category="list-text">*健全狀況小工具：*根據StorageGRID 現有的可用系統ARS規則、檢視所有風險與行動、包括與之相關的風險與行動。</block>
+  <block id="5c9ed548c23a9e1a91cf1c652e779a1a" category="list-text">*規劃小工具：*</block>
+  <block id="5ad57484a0088c331d00073cc0508f63" category="list-text">*新增容量：*若網格站台超過現有容量70%的臨界值、您將會收到通知。如果容量臨界值可能超過70%、您可以在未來1、3和6個月內、為站台的StorageGRID新增容量。</block>
+  <block id="b1022932a0a6c2bc62b19907e4e14bea" category="list-text">*續約：* StorageGRID 若授權合約已到期或即將在未來6個月內到期、您將會收到通知。您可以選取一或多個系統、向NetApp支援團隊提出續約申請。</block>
+  <block id="c4e80074735e6ff2daec051071dbc429" category="list-text">*網格儀表板：*網格儀表板提供所選網格的健全狀況、規劃及組態詳細資料。</block>
+  <block id="b71490eeea3abb6f9a0c159a3418dd5e" category="list-text">*組態小工具：*提供StorageGRID 小工具中所選功能的基本詳細資料、例如網格名稱、主機名稱、序號、型號、作業系統版本、 客戶名稱、出貨地點及聯絡詳細資料。</block>
+  <block id="a22fe4c7486ab7ffb8d4bc05dcab6336" category="list-text">*網格檢視器：*在*組態*小工具中、您可以按一下*網格檢視器*連結來檢視網格組態的詳細資料。在*組態*小工具中、StorageGRID 按一下*網格檢視器*畫面中的*下載*按鈕、即可下載所選的「站台詳細資料」和「容量詳細資料」。</block>
+  <block id="8952273932d18fb81102eabf38cabbd1" category="list-text">*站台詳細資料：*此索引標籤提供每個站台可用的網格摘要和儲存節點。</block>
+  <block id="666d5831344c81a6bb17a82cba51d507" category="list-text">*網格摘要：*包含基本資訊、例如授權類型、授權容量、已安裝節點數量、支援期限（授權合約終止日期）、主要管理節點和主要管理節點的主要站台。此索引標籤也會提供站台名稱、以及在對應站台下標記的儲存節點數量。在此版本中、按一下可檢視對應站台儲存節點的超連結、即可檢視節點名稱清單。</block>
+  <block id="d2f225914092c41360983fad88f32684" category="list-text">*容量詳細資料索引標籤：*提供為網格設定的網格層級和網站容量詳細資料。容量詳細資料、例如已安裝的儲存容量、可用儲存容量、已用儲存容量總計、以及用於資料和中繼資料的容量。網格和站台層級均提供這些詳細資料。</block>
+  <block id="67cd8350911a2c5c4d5ea70ff9f7a77e" category="section-title">資訊顧問FabricPool</block>
+  <block id="d891e937202bc371fc43c6ba5e8795c1" category="paragraph">「階層資料」按鈕已新增至FabricPool 「階層資料」儀表板、可讓您使用NetApp Cloud Manager將資料分層至低成本的物件儲存層。</block>
+  <block id="5c1cbbba646e78bf69e01be8602cbe41" category="section-title">雲端就緒工作負載</block>
+  <block id="b07b6b80fae4b5c609f71c937ae1f913" category="paragraph">您可以檢視儲存系統內可用的不同工作負載類型、並識別雲端就緒的工作負載。</block>
+  <block id="e68cf4e683901ace045287e72cebd33c" category="section-title">2020年12月21日</block>
+  <block id="aa5994392f8a093dc1c41223c074d356" category="paragraph">儀表板已新增下列小工具：</block>
+  <block id="1bc4226bb477b9de81539a5228f031c5" category="list-text">建議軟體：此小工具提供所有軟體和韌體升級的合併清單、以及建議的貨幣。</block>
+  <block id="665aadbe4be879e060b8e8fac4ef8d2d" category="list-text">訊號遺失：此小工具提供有關系統的分數和資訊、AutoSupport 這些系統因為某些原因而停止傳送某些資訊。如果AutoSupport 在7天內未從主機名稱接收到任何非功能性資料、則會提供相關資訊。</block>
+  <block id="241b4f2209980b6ad5d063befe23d87b" category="section-title">2020年11月12日</block>
+  <block id="8c0d8ca7bc36fd1c788f07ffdf479f1a" category="section-title">使用API整合資料</block>
+  <block id="f0f6378060f0a712e4a330fc5ea352f1" category="paragraph">您可以使用Active IQ NetApp API來提取感興趣的資料、並將其直接整合到貴公司的工作流程中。 <block ref="79a495fed0082d673c1047b883d4546e" category="inline-link-macro-rx"></block>。</block>
+  <block id="624736396a8b3a77e9c686953fd15366" category="section-title">健全狀況-升級小工具</block>
+  <block id="8dbd4b3ccf50a85cd67f91386a8bb3d0" category="paragraph">增強的Risk Advisor和Upgrade Advisor索引標籤可讓您檢視所有系統風險、並協助您規劃升級以降低所有風險。</block>
+  <block id="202bdb919d7843a2b9915cfbbdc58b90" category="paragraph">建議的組態Widget已新增至儀表板、並提供遠端管理風險、備援磁碟機和故障磁碟機風險以及HA配對風險所監控的系統數量摘要。</block>
+  <block id="43c0aba84cc47baeb81702f63ea56f52" category="paragraph">您可以監控叢集、將其分為四類：非作用中的本機層（Aggregate）資料、非作用中磁碟區資料、階層式資料、以及未啟用印尼盾的資料、藉此減少儲存佔用空間及相關成本。</block>
+  <block id="9d66e07285d95331a9e3c8ef9b211743" category="section-title">簡體中文和日文的本地化</block>
+  <block id="1c5712641a932654698398b48cdc067b" category="paragraph">Active IQ Digital Advisor 現在提供中文，英文、日文三種語言版本。</block>
+  <block id="273c6172eab8f123977db3341f450022" category="paragraph">您可以產生或排程ClusterViewer報告、以檢視系統實體和邏輯組態的詳細資訊。 <block ref="a215153d303469248fdb9fd5d964c085" category="inline-link-macro-rx"></block>。</block>
+  <block id="ff0ca88c2de09857272e1e64c6d20635" category="section-title">2020年10月15日</block>
+  <block id="6d588ba57b36a25f837d3883ad145dcc" category="paragraph">《支援不健全狀況檢查儀表板》Active IQ 提供整體環境的時間點審查。根據健全狀況檢查分數、您可以將儲存系統調整為建議的NetApp最佳實務做法、以利進行長期規劃、並改善安裝基礎的健全狀況。 <block ref="1896498242b484574904ca9397362055" category="inline-link-macro-rx"></block>。</block>
+  <block id="6d842379317d540dc2fdadff80691eac" category="inline-link-macro">瞭解如何新增組態偏移範本</block>
+  <block id="a3ed0d9c8cd0f99576d01a2e583bb3ce" category="paragraph">此功能可讓您近乎即時地比較系統與叢集組態、以及偵測組態差異。 <block ref="85835a3294f4672a256d2580bd36ed95" category="inline-link-macro-rx"></block>。</block>
+  <block id="6645e0ebb53d4b6e68be7936af3a8039" category="section-title">AutoSupport</block>
+  <block id="d1544e43fa9e4a2e0901961974335791" category="paragraph">您可以檢視AutoSupport 您的資料、並檢閱詳細資料。</block>
+  <block id="96147dc3de69ed13a10770c1738dd171" category="section-title">健康審查訂閱</block>
+  <block id="dfa592421ec2584a960f077610eb19bd" category="inline-link-macro">立即訂閱</block>
+  <block id="6ef0aa0373a6d79edad5f0d6f3889dae" category="paragraph">您可以訂閱每月收到一封電子郵件通知、摘要說明系統的健全狀態、這些系統即將續約、且需要升級您安裝基礎上的NetApp產品。 <block ref="eee7e6e78eae58cdbb5e1d747e67de54" category="inline-link-macro-rx"></block>。</block>
+  <block id="2b8a1cf4302bf1a2b093ad5a2f86b07e" category="paragraph">您可以使用報告功能立即產生報告、或排程每週或每月產生報告。 <block ref="a215153d303469248fdb9fd5d964c085" category="inline-link-macro-rx"></block>。</block>
+  <block id="152dbe546ff9aa1627c8b40ce14b12f6" category="section-title">手動AutoSupport 上傳</block>
+  <block id="dae11fc59da97a669ccb5077d15f9feb" category="paragraph">手動AutoSupport 上傳功能已增強、可改善使用者體驗。已提供額外的欄位、以供註解上傳狀態。</block>
+  <block id="3abdc55ecb8f5549d400131a4e62eb26" category="paragraph">您可以監控NetApp Keystone 您的《支援、耗用及突發儲存容量、以利執行您的《支援NetApp訂閱服務（NetApp訂購服務）」。</block>
+  <block id="54074209636092245fcad58469e0b60b" category="section-title">2020年9月30日</block>
+  <block id="c0b0c57bf06a60b6c879938a236e3641" category="section-title">使用Ansible教戰手冊的韌體更新AFF FAS</block>
+  <block id="23a0f65d52d06cfe6d43d8793a09161e" category="paragraph">文件內容已經過強化、包括有關下載、安裝及執行AFF 更新版的資訊、包括可FAS 執行的更新版的更新版、包括更新版的更新版、以及更新版的更新版。</block>
+  <block id="d2e6f4969f726dbd7ac32c021857b523" category="inline-link-macro">瞭解如何AFF 使用「可執行教戰手冊」來更新BIOS和FAS BIOS韌體</block>
+  <block id="35bc12131efa9f6788a3ec1e078d9d78" category="paragraph"><block ref="89e5b59c67c81c40d1588bacab1f2a7d" category="inline-link-macro-rx"></block>。</block>
+  <block id="1455047a6476c0ea270b790e52d7abea" category="section-title">2020年8月18日</block>
+  <block id="9446a98ad14416153cc4d45ab8b531bf" category="section-title">效能</block>
+  <block id="af429ddb90041caae5cb0a5b6eaa8a88" category="paragraph">效能圖表已增強、可讓您評估磁碟區的效能。您可以在同一個畫面上的節點索引標籤、叢集索引標籤、本機層索引標籤和Volume索引標籤之間瀏覽及切換。 <block ref="606c83272bbe19665f8a097df8c523d9" category="inline-link-macro-rx"></block>。</block>
+  <block id="b508e68cd0507ef1be2149928ccfb5d2" category="paragraph">功能強化的「更新版」和「更新版」韌體畫面、提供更好的使用者體驗。AFF FAS</block>
+  <block id="e72cacaacd11735a1ef668ea40561f48" category="section-title">2020年7月17日</block>
+  <block id="6faaeb6717e56f197c068bbdcc1dafe6" category="paragraph">效能圖表已增強、可讓您評估本機層級的效能。您可以在同一個畫面上的節點索引標籤、叢集索引標籤和本機層索引標籤之間瀏覽及切換。</block>
+  <block id="2e20192b38422171b2798484dac41923" category="paragraph">健全狀況屬性已增強、可檢視所有受影響的系統、而不需深入瞭解行動和風險。</block>
+  <block id="a040552380bded0d96728cb16d577b09" category="section-title">2020年6月19日</block>
+  <block id="f2b088c89a4551e93c99ac6a2e50ce00" category="section-title">產生庫存報告</block>
+  <block id="c117e01f37139241901af00c21552671" category="paragraph">您現在可以產生所選觀察名單的報告、並以電子郵件將報告傳送給最多5位收件者。 <block ref="6c1a86a6b220ef637b98bb90dcad9e67" category="inline-link-macro-rx"></block>。</block>
+  <block id="07804c57460fb69b448ea03e4f7e4a5b" category="paragraph">效能圖表已增強、可讓您評估儲存系統的叢集效能。您可以在同一個畫面上的節點索引標籤和叢集索引標籤之間瀏覽及切換。</block>
+  <block id="f67b3b7c63db378874cf3c9f28add752" category="paragraph">儲存效率小工具已經過增強、可讓您檢視叢集層級的儲存效率比與節約效益。您可以在同一個畫面上的節點索引標籤和叢集索引標籤之間瀏覽及切換。</block>
+  <block id="08f72fff0f0812bdbc9fc2474685218d" category="section-title">更新預設首頁</block>
+  <block id="7ae2dac2735821d57148c768b3f4759e" category="paragraph">您現在可以提供您的意見反應、並告訴我們您更新Active IQ 預設首頁畫面的原因。</block>
+  <block id="29fbfd86c80e15b164b8f105fd5ddd93" category="section-title">更新至庫存小工具</block>
+  <block id="a392fcca4182f7d6c6748c76a6e192ac" category="paragraph">庫存小工具已經過強化、可提供使用者友好的日期格式、用於平台結束支援的其他欄位、以及版本結束支援、藉此改善使用者體驗。</block>
+  <block id="5a0f42f64fb533926accae7152c26173" category="section-title">2020年5月19日</block>
+  <block id="c43f08e4b3393556316dfdcf0ac2adec" category="section-title">設定預設首頁</block>
+  <block id="55525d93b267e6c2f7d0012ff227fd2f" category="paragraph">您現在可以設定Active IQ 預設的主頁畫面以供使用。您可以將其設為 Active IQ Digital Advisor 或 Active IQ Classic。</block>
+  <block id="196bf417f670cda21f19ec3d4d3beee2" category="paragraph">您可以檢視儲存系統的儲存效率與節約效益、無論是否使用AFF 適用於各種系統、非AFF系統或兩者的Snapshot複本。您可以在節點層級檢視儲存效率資訊。 <block ref="7ce8aae7f470992890fd5777e8778c08" category="inline-link-macro-rx"></block>。</block>
+  <block id="5c38b1bfe8fc19ace289c4b181898cc3" category="paragraph">效能圖表可讓您評估儲存設備在不同重要領域的效能。</block>
+  <block id="79a857f77fa2d44ca5fa8f7eb514d82b" category="section-title">使用Ansible教戰手冊進行韌體升級AFF FAS</block>
+  <block id="71bfa4dc9b5da9a689d2f3e561ce94a2" category="paragraph">使用AFF 儲存系統上的Ansible更新功能的更新功能、FAS 以減輕已識別的風險、並讓儲存系統保持最新狀態。</block>
+  <block id="f96522e1ff649962254ca83d5f0ccbc6" category="section-title">停用健全狀況分數功能</block>
+  <block id="b8b301824f50a2466b05d0e265e26b92" category="paragraph">目前正在暫時停用「健康評分」功能、以改善評分演算法並簡化整體體驗。</block>
+  <block id="1366d33389e2c07fe5eb0f36d050d4e3" category="section-title">2020年4月2日</block>
+  <block id="9a6e9ab02b089e4597f04c993e0c7c7b" category="section-title">就職總覽影片</block>
+  <block id="f9b08de0f0bc72617b5e2e6555c6734c" category="paragraph">入門影片可協助使用者快速熟悉 Active IQ Digital Advisor 的選項與功能。</block>
+  <block id="a73d4602bef933dd262bf00fe9698547" category="section-title">健全狀況分數</block>
+  <block id="9affd4fcaf6ae8cd1f13ff85ee04639a" category="paragraph">健全度分數可根據高風險數量和過期合約、為客戶提供已安裝基礎的整合分數。分數可以是「好」、「一般」或「差」。</block>
+  <block id="cf64d5515732b199da1e16fc842fc5f6" category="paragraph">風險摘要提供有關風險、風險影響、修正行動的詳細資訊。</block>
+  <block id="c3a9eb28399cadc0f072f330b4efb065" category="section-title">支援確認及忽略風險</block>
+  <block id="074b117837e20fe90877bbbcfbb2c836" category="paragraph">如果您確實想要減輕風險或無法減輕風險、請提供確認風險的選項。</block>
+  <block id="0c562b4902e013a94d95961f9d6c5aa4" category="section-title">2020年3月19日</block>
+  <block id="17191d00ab4a3736fa040f3b95b65558" category="paragraph">您可以使用升級工作流程來檢視升級建議、以及目標ONTAP 版本可用的新功能摘要。 <block ref="c1d3fae1f3512f66a2affe4e88cce8cf" category="inline-link-macro-rx"></block>。</block>
+  <block id="c35f526b5bc5e4a0bea7fb374721a1af" category="section-title">寶貴見解</block>
+  <block id="81ab2e271e95304e9636d948311780aa" category="inline-link-macro">立即檢視</block>
+  <block id="c9a1ec42e4cf5e34b3705012283be087" category="paragraph">您可以檢視Active IQ 透過NetApp及支援合約獲得的福利摘要。對於選定的系統、價值報告整合了過去一年的效益。 <block ref="d21ac6e6095a0c5ba338352404b3f707" category="inline-link-macro-rx"></block>。</block>
+  <block id="33c22a10574cad1dbba382fa84bb9e8d" category="section-title">深入探討細節</block>
+  <block id="7fad2d7a0f06323ca7ccbbdb8a8d8128" category="paragraph">提供更深入的資訊、這是深入瞭解資料、並根據需要立即深入瞭解彙總資訊的組成。</block>
+  <block id="2cb4ae28b8163c737793ba547c7720f7" category="section-title">增加容量</block>
+  <block id="f7296b933ffd5f3db1ad54487be159f2" category="paragraph">您可以主動識別已超過容量或接近90%容量的系統、並傳送要求以增加容量。</block>
+  <block id="01b86650af0bcf4537bb6beccd306928" category="section-title">2020年2月29日</block>
+  <block id="ab7938419e5054f4058775c5af52206b" category="section-title">增強的使用者介面</block>
+  <block id="fef76536248e8e3697b6c54fc3c9f625" category="paragraph">最新的 Active IQ Digital Advisor 儀表板可提供個人化體驗。它能在不同的儀表板、小工具和螢幕上順暢無礙地導覽、並具備直覺功能。提供一體化體驗。它傳達比較、關係和趨勢。它提供深入見解、可協助您根據不同儀表板顯示的資料、偵測並驗證重要關係和有意義的差異。</block>
+  <block id="26816f83580825737543b7ee34f72751" category="section-title">可自訂的儀表板</block>
+  <block id="cd8fb73c97a7d30cae83d4fc877ecd00" category="paragraph">在一個或多個頁面或畫面上提供有關資料的重要見解和分析、協助您一目瞭然地監控系統。您也可以建立最多10個儀表板、並做出有效的業務決策。</block>
+  <block id="aaa2e98f0455022c0297b0af6b83eef1" category="paragraph"><block ref="f8067c30e51c031bbe2e9d7c7ba78ef1" category="inline-link-macro-rx"></block>。</block>
+  <block id="49e793f563ecf7cab7768c1ec94950d2" category="section-title">利用本解決方法降低風險Active IQ Unified Manager</block>
+  <block id="425e31332f517048f43c5edacc522900" category="paragraph">您可以檢視風險、並使用Active IQ Unified Manager 無法判斷的功能加以修正。 <block ref="0e83f6d327b6e8136b8d3df110e74348" category="inline-link-macro-rx"></block>。</block>
+  <block id="50eac2c95951f5d6d4bb21c54979f288" category="paragraph">提供儲存系統狀態的詳細資訊、這些資訊可分為下列6個小工具：</block>
+  <block id="6627855b1a63b303727d96a2650ca948" category="list-text">效能與效率</block>
+  <block id="99fd9198bb44a91d96aabfecbcf66151" category="list-text">可用度與保護</block>
+  <block id="254f642527b45bc260048e30704edb39" category="list-text">組態</block>
+  <block id="2fae32629d4ef4fc6341f1751b405e45" category="list-text">安全性</block>
+  <block id="61583caaac5d274ab78d4c71e3dc0ae8" category="list-text">續約</block>
+  <block id="479fc92d9846f74321dfe4a9903dbc40" category="inline-link-macro">分析健全屬性</block>
+  <block id="467258cff06ebf6b6f59ed857491cb1c" category="paragraph">請參閱 <block ref="6bf69a2fa78d4565f6de730ae9e137bc" category="inline-link-macro-rx"></block> 以取得更多詳細資料。</block>
+  <block id="6a46e3c3984001a8a2d4481982e69a8f" category="section-title">更聰明、更快速的搜尋</block>
+  <block id="d9c7072ff9d902e7ac9964e95c163d94" category="paragraph">可讓您搜尋參數、例如序號、系統ID、主機名稱、站台名稱、群組名稱、 以及使用單一系統檢視的叢集名稱。您也可以搜尋系統群組、此外、您也可以依客戶名稱、站台名稱或依系統群組的群組名稱進行搜尋。</block>
+  <block id="75fb68630cabac33011c445584315dfc" category="summary">提供有關Ansible的詳細資訊。</block>
+  <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">取得更多資訊</block>
+  <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">您可以透過各種資源取得協助並尋找更多資訊。</block>
+  <block id="5d08ea99dda2f857e6edb3d641d26b98" category="inline-link-macro">疑難排解資訊</block>
+  <block id="36625d4a8e3483d42b841caa5eb55b29" category="list-text"><block ref="36625d4a8e3483d42b841caa5eb55b29" category="inline-link-macro-rx"></block></block>
+  <block id="e350176e2ca4464b7c8bb3efa4e581fa" category="inline-link-macro">可寬延工作區</block>
+  <block id="fef5c7747fd3b7d85ff39f7b27d6f02f" category="list-text"><block ref="fef5c7747fd3b7d85ff39f7b27d6f02f" category="inline-link-macro-rx"></block></block>
+  <block id="e1ceb514961568f187bb88fa116f776f" category="list-text">mailto：ng-active-iq-feedback@netapp.com [電子郵件]</block>
+  <block id="4a5ad5e572656060b0c08a811a08e951" category="list-text">Active IQ Digital Advisor 的支援按鈕用於要求支援與提供意見回饋。</block>
+  <block id="989ffda8482c36243642e39d9d8e50ff" category="summary">提供如何更新AFF 支援功能及FAS 更新功能的資訊。</block>
+  <block id="439d63cd3905d44125be50793bdd3ab5" category="doc">下載AFF 《Ansible FAS Automation套件》的《更新與更新》韌體</block>
+  <block id="6032e7db579fa00df8e3062fcbc04a91" category="paragraph">您應該AFF 使用Ansible更新更新版的更新版的功能、FAS 以減輕已識別的風險、並讓儲存系統保持最新狀態。</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">開始之前</block>
+  <block id="1564b29b093f31fb45180a4db5577505" category="paragraph">在使用AFF Ansible更新功能的韌FAS 體之前、您應該：</block>
+  <block id="745230e54aaf2b7a27c00a64f7313bd5" category="inline-link-macro">在儲存系統上安裝及設定Ansible</block>
+  <block id="0094d1b9b17f030f70b103864dd666f5" category="list-text"><block ref="0094d1b9b17f030f70b103864dd666f5" category="inline-link-macro-rx"></block></block>
+  <block id="5c5c784bf4fbab90a4f6348de576d5da" category="inline-link-macro">在儲存系統上安裝內含集合的Ansible 2.9</block>
+  <block id="7e1754c18b818c3a897f7aca76d74aea" category="list-text"><block ref="7e1754c18b818c3a897f7aca76d74aea" category="inline-link-macro-rx"></block></block>
+  <block id="b6b47e144c6cacc9e6c8bdaafc85da05" category="list-text">將您的儲存系統升級至ONTAP 更新版本的更新版本</block>
+  <block id="15236e2742dc8cb603caee435694fbe2" category="list-text">以系統管理員角色設定您的帳戶</block>
+  <block id="ffc6cdcd4e33637452d7cabcc86954ab" category="list-text">按一下儀表板上的任何健全狀況小工具、或按一下*檢視所有動作*、即可檢視所有行動與風險的清單。</block>
+  <block id="cd6050a6bccf4f0492eade7e0a8b22b4" category="list-text">按一下*韌體升級*以檢視所有韌體升級風險。</block>
+  <block id="1aff53cee8a7c38fb4ee3ddb6173f4e7" category="inline-image-macro">更新Ansible</block>
+  <block id="47629e856a7468c3fb4d1e1a69e972fe" category="list-text">按一下「*更新AFF 」「更新」「更新」「韌FAS 體」*以檢視所有可用的更新套件、或按一下「」 <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block> 在每個風險旁更新該風險的套件。</block>
+  <block id="93a006c876b6eaa096cc468c6c5701c3" category="list-text">按一下「*下載*」下載壓縮檔並更新您的儲存系統。</block>
+  <block id="595cff17c33a5e83b1c88ca7a48f0cfd" category="paragraph">此壓縮檔包含下列項目：</block>
+  <block id="25768194d367c4c25b7836beb6ba6a75" category="list-text">Ansible教戰手冊：Yaml檔案、內含執行磁碟、機櫃及服務處理器韌體更新的可執行指令碼。</block>
+  <block id="ccc4f365b19456825f9b83309e5739f9" category="list-text">庫存：Yaml檔案、內含適用於韌體更新之系統的詳細資料。</block>
+  <block id="ec16ae1399b2143d882f379f451279d9" category="list-text">磁碟、機櫃和服務處理器/BMC韌體套件的名稱分別為* all.Zip *、* all_Shelf_fw.Zip *和*&lt;SP/BM&gt;__。</block>
+  <block id="3c31ca2c59ebd12781d8a3ccae41f4f7" category="admonition">不支援在庫存檔案中手動新增叢集和控制器。</block>
+  <block id="e02babead98c40fa29fb8fc1d8fdc331" category="summary">提供資訊以檢視及分析儲存系統的健全狀況、並確認風險。</block>
+  <block id="e5ec766403e277fb64b1373cde7b1e02" category="doc">檢視並確認風險</block>
+  <block id="271d577ec8f32c51ee101c1c091a870f" category="paragraph">您可以檢視與儲存系統相關的行動與風險、來分析儲存系統的健全屬性。您應該檢視修正行動、並手動降低風險。</block>
+  <block id="c8c26be9319b332a2b6294dcfb6585b6" category="list-text">按一下儀表板上的健全屬性小工具、或按一下*檢視所有動作*、即可檢視所有行動與風險的清單。</block>
+  <block id="09cf3ca5d8f7efac34773df93eb9049a" category="list-text">檢視與Wellness屬性相關的* Actions *和* Risk *。</block>
+  <block id="fc9f98aa0c178e3deb4bbfb52980b9ee" category="list-text">按一下「*動作*」以檢視與動作相關的風險、按一下「*風險*」以檢視所有風險、或按一下「*受影響的系統*」以檢視需要注意的系統。</block>
+  <block id="2c60e29192926ea042adbfd8b4ef0fbd" category="list-text">按一下風險以檢視風險摘要。</block>
+  <block id="c6f1cb771fe8d368c81ecb4ae31f7c66" category="list-text">按一下「* Ack*」確認風險。</block>
+  <block id="747d136ecce6fb802da86b65cb0bad59" category="paragraph">我們會提供詳細的風險摘要資訊、以及應手動執行的修正行動、以降低風險。</block>
+  <block id="712521b43d0b848d99bf5f898ee9c033" category="list-text">如果您目前不想或無法減輕風險、請提供欄位的值、然後按一下*「Acknowledge」（確認）。</block>
+  <block id="6f93dec8e32211fde259c444ab2d63fb" category="paragraph">風險將新增至已確認的風險。</block>
+  <block id="862744f0ea49f8f06aab2a99ec7a3482" category="admonition">如果您不想再承認某項風險、可以按一下* Un-Ack*並遵循相同的步驟、忽略該風險。</block>
+  <block id="204efaf5593d9e611dc3c30f114be675" category="summary">提供效能相關資訊。</block>
+  <block id="14b9230853f4485a198aadfb867fa9d2" category="doc">分析效能圖表</block>
+  <block id="665087aa09840ccfb70bca045f36d8db" category="paragraph">效能圖表可讓您分析儲存設備的效能。您可以檢視ONTAP 有關一個或ONTAP 多個節點的VMware叢集和E系列控制器的詳細效能圖表。這些圖表提供歷史效能資料、可用於瞭解效能趨勢和模式分析。您可以從行事曆中選取日期、以檢視一天、一週、一月、兩個月及十二個月的效能圖表。您可以選取多個節點、以便同時檢視特定圖表。</block>
+  <block id="be879ac697bce0956116e49ae0638f3d" category="paragraph">您可以選擇設定偏好設定、例如、您可以檢視三個節點的一個圖形或三個節點的兩個圖形。</block>
+  <block id="076450bd5493fb3f2b96a170a0dd6c27" category="paragraph">第一次顯示圖表時、系統會預先選取1週索引標籤、並以圖形格式顯示1週的資料、讓您更容易瞭解大量資料及其在不同資料系列之間的關係。例如、若要重設日期範圍、您可以按一下「1個月」索引標籤、然後選取行事曆中的日期。</block>
+  <block id="ad3bed6f42a6ad4a8833910809d6869a" category="paragraph">您也可以選擇放大效能圖表、顯示個別的資料點。</block>
+  <block id="6c21725c2fee517428d56fd28be8dce6" category="list-text">在儀表板上、按一下*效能*。</block>
+  <block id="5d92b2431ee288652fa8215751a358ff" category="paragraph">若為ONTAP 流通系統、您可以按一下「*節點*」索引標籤來檢視ONTAP 某個叢集節點的效能、按一下「*本機層*」索引標籤來檢視本機層的效能、或按一下「* Volume *」索引標籤來檢視磁碟區的效能。預設會顯示叢集效能。</block>
+  <block id="6fe197718e793119bb42e7711e87af78" category="paragraph">對於E系列系統、您只能在控制器層級檢視圖表。</block>
+  <block id="0903dad68c16a638b10bd1ddb1e0174c" category="list-text">選取1天、1週、1個月、2個月或12個月、 在行事曆中、以圖形格式檢視效能資料。</block>
+  <block id="7f563b85c5584569a5e770f9c808574e" category="paragraph">例如、選取「2個月」索引標籤即可檢視2個月的資料。這可讓您根據效能需求、檢視特定資料的持續時間。</block>
+  <block id="eb2e6c5fc48772d6045c9e2d71e988be" category="list-text">下列效能圖表包含ONTAP 所需的指標、可用於各個叢集和節點：</block>
+  <block id="15eb8b3d9df67254274f62a83e630ab1" category="cell">適用於叢集</block>
+  <block id="cc602193a0f756e266aa2bf1dae2ca4a" category="cell">（用於節點）</block>
+  <block id="78c9b6860d330d2e926b901d5a1c5309" category="cell">適用於本機層</block>
+  <block id="b416a9f2b4ecc79e2e696a811d5fd5e2" category="cell">適用於Volume</block>
+  <block id="79073619fba8242703524f16870ff858" category="cell">IOPS</block>
+  <block id="5e607d0dc756572764c19907ec450f92" category="cell">CPU使用率-尖峰效能（保留空間）</block>
+  <block id="edd5221a3f19c0c3519847deb797f926" category="cell">平均處理量</block>
+  <block id="4baa5144ebbc57fb18753b2ef76b4322" category="cell">網路處理量</block>
+  <block id="26ae7bdd1d6fb8c4886e6fde8d12601c" category="cell">延遲</block>
+  <block id="363feef65df9d9b2c15feec5eeae6961" category="cell">平均使用率</block>
+  <block id="52d04ac041f40e180ee13d2d46edbfc6" category="cell">傳輸協定IOPS</block>
+  <block id="23f1323406f594572732c2bad13eebde" category="admonition">節點延遲效能圖表和Volume效能圖表僅在執行ONTAP VMware版9.2及更新版本的系統上受支援。</block>
+  <block id="194a23f51af9ff2576303b43382ec1b9" category="list-text">E系列控制器可取得下列效能圖表及必要的指標：</block>
+  <block id="cc2748501c3e7b4010b19883a07f8053" category="list-text">CPU使用率</block>
+  <block id="0b85467ebafa7ca3c47e82dc38184484" category="list-text">處理量</block>
+  <block id="81a8efa642a6a389343d5ea66b3628e4" category="summary">提供系統風險及如何檢視健康記錄的相關資訊。</block>
+  <block id="aedc21ab40ffa5085f7e9bc68e9ec4b8" category="doc">檢視健康歷史</block>
+  <block id="74d76c2b05d8452b29d401847b93bccc" category="paragraph">您可以檢視過去三個月內發生的系統風險、以便瞭解這些風險如何造成加班。</block>
+  <block id="683c34920d11092541e7486d67c4de2d" category="paragraph">這些風險分為四類風險：*未解決*、*新增*、*已解決*及*已確認*。它們以不同的色彩表示。這些風險的摘要會透過*風險歷程*圖表來呈現。</block>
+  <block id="c31d5a309fdc7a8394fd5eac13c0d06a" category="list-text">在儀表板的* Wellness（健康）*窗格中、按一下*檢視所有動作*。</block>
+  <block id="d5eb5666e73a1145b1e29132fcbd61e7" category="list-text">按一下* Wellness History *。</block>
+  <block id="a0131598041c59b5aec9b6bdcb8a9431" category="list-text">在*風險歷程記錄*圖表中、按一下您要檢視風險歷程記錄的類別。</block>
+  <block id="5e1ec40828b897d199a44619b575caa9" category="paragraph">當您將游標停留在彩色長條上時、會顯示每個類別中風險數量的資訊。按一下各個風險類別後、資訊會顯示在*風險資訊*表格中。</block>
+  <block id="37c39a7ebbd06bad10e2b0f330cec68b" category="paragraph">您也可以在Excel工作表中下載風險摘要。</block>
+  <block id="5aa601140b131288c890a0936edb134f" category="summary">提供登入 Active IQ Digital Advisor 的相關資訊。</block>
+  <block id="80daf0cf7335c791f0046301e2d3a526" category="doc">登入 Active IQ Digital Advisor</block>
+  <block id="ed76f0e3d945943c5fae33190defb3b0" category="paragraph">您必須擁有有效的 NetApp 支援網站認證資料，才能登入 Active IQ Digital Advisor。如果您沒有帳戶且正在開始使用、請按一下 <block ref="967ddad47d4311162e2dc8cf03423cdc" category="inline-link-macro-rx"></block>。</block>
+  <block id="dc805bf9b905c9a6974558611f5c99b3" category="list-text">按一下 <block ref="348c59707f27a8ca5472dc7d66de9883" category="inline-link-macro-rx"></block> 存取 Active IQ Digital Advisor。</block>
+  <block id="1bb03b210e480674a2a9700b06bb8d83" category="paragraph">Active IQ Digital Advisor 會顯示具有有效支援合約的系統。如果合約到期、系統會提供 90 天的寬限期、讓系統持續可見。之後，系統便無法在 Active IQ Digital Advisor 中搜尋或顯示。</block>
+  <block id="1dce4feb01121addbdaf71931c469035" category="list-text">提供您的使用者名稱和密碼、然後按一下*登入*。</block>
+  <block id="f39b53c109ef22724fc3808f3709808c" category="summary">提供資訊以將觀察清單新增至儀表板。</block>
+  <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">建立觀察名單</block>
+  <block id="a6b5018db137b1873575388bb66fd696" category="paragraph">您可以建立觀察清單、以便快速輕鬆地存取一組系統。您可以根據類別或位置合併系統組。</block>
+  <block id="da2d66a259f4a63d3108ebfd2b3e72c3" category="list-text">在左窗格中、按一下*觀察名單*</block>
+  <block id="ba76cc75fba1482c23f5d61fcf99fc47" category="paragraph">畫面會顯示*管理觀察清單*畫面。</block>
+  <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">按一下「*建立觀察名單*」。</block>
+  <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">提供觀察名單的名稱。</block>
+  <block id="d92f20aa0037ca0433951e4c3075ac1e" category="list-text">提供您要新增至觀察清單的系統詳細資料。</block>
+  <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">您最多可以在類別下新增15、000個系統、並在序號下新增500個系統。</block>
+  <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">隨即顯示觀察清單儀表板。</block>
+  <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">提供儀表板、健全狀況分數、功能和小工具的相關資訊。</block>
+  <block id="e916508b5fb2cdc772d71fc2a189c67b" category="doc">健全狀況檢查儀表板入門</block>
+  <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">此儀表板可透過下列小工具、提供已安裝基礎的概覽摘要：</block>
+  <block id="820ed668f5824044ba24b743388d94f8" category="list-text">*《*》採用率*：顯示啟用了功能的系統數量和百分比。AutoSupport AutoSupport您也可以檢視標示為「異排」的系統、AutoSupport 已啟用* HTTPS *和*支援*的「隨需」*的系統、以及過去AutoSupport 7天內停止傳送資訊的系統*遺失訊號*。若要檢視安裝基礎中系統的健全狀況檢查分數和相關資訊、請按一下* AutoSupport 《採用*》小工具。</block>
+  <block id="5a203b8ad736b84e1741fd3d04b50fd8" category="list-text">*建議組態*：根據*建議組態*小工具、顯示相容且不相容的系統。這有助於您採取行動、確保系統在安裝基礎上均設定完善。您可以檢視儀表板上提供的分數、並根據依優先順序提供的重要建議採取行動。</block>
+  <block id="e94ebb58e29dcb4765fa5c479c8e07d7" category="list-text">*推薦軟體*：顯示所有軟體與韌體升級及貨幣建議的合併清單。您可以檢視AutoSupport 啟用了支援功能的系統、這些系統應為最低或最新的軟體或韌體版本。</block>
+  <block id="63d26e96496f498e8ddc517162407ad9" category="list-text">*支援與權利*：顯示已到期且即將在6至12個月內到期的支援合約。它會顯示支援平台、磁碟、磁碟櫃、權利法規遵循、等待到期、 終止平台與硬體支援則不適用。您可以檢視儀表板上提供的健全狀況檢查分數、並根據主要建議採取行動、這些建議會依優先順序提供。若要檢視支援合約的詳細資訊、請按一下*支援與權利*小工具。您也可以使用此小工具來續約支援合約。</block>
+  <block id="022a011d9b874fb921f0168799a144d0" category="list-text">*最佳實務做法*：透過評估儲存系統的最佳實務做法屬性來顯示健全狀況檢查分數、包括效能與效率、可用度與保護、容量、組態及安全性弱點。NetApp最佳實務做法有助於維持系統健全狀況、使安裝基礎的效能最佳化。</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">NetApp 支援網站</block>
+  <block id="9d4e98ef3e858b364953644ba3b9dd42" category="list-text">*技術案例*：根據案例類型、開啟或關閉狀態、以及可選擇的時間範圍、提供您技術案例歷程的詳細檢視。您可以深入案例群組、並透過檢視案例詳細資料 <block ref="524afdbf585c55af8de5660a471d6788" category="inline-link-macro-rx"></block> 或其他案例入口網站。</block>
+  <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">提供API服務功能的總覽。</block>
+  <block id="de3992e6ea5d74abcf945b6f9ab19c22" category="doc">瞭解API服務</block>
+  <block id="b07b959de8b68ea30367c1272aa98387" category="paragraph">利用自動化功能來提升工作流程效率。Active IQ內部API服務位於* API目錄*、其中描述超過100個不同的API端點、這些端點分為20個以上不同的服務區域。這些API可作為NetApp客戶提供給您、涵蓋不同的興趣領域、例如系統資訊、儲存效率、效能、健全狀況和升級。</block>
+  <block id="cf11cff49bbf6af885124e9c4fcb8614" category="paragraph">API 是可讓您撰寫簡單程式碼的介面，以便用程式設計方式來聯絡 Active IQ Digital Advisor，並將資料帶回運算環境中。您可以撰寫程式碼，讓它每天聯絡 Active IQ Digital Advisor，並帶回您感興趣領域中的最新資料。然後您可以使用此資料填入您的票證系統、或建立自己的儀表板、網頁或報告。此產品包含程式碼範例和Active IQ 工具、可讓您在瀏覽器中試用API。</block>
+  <block id="93e254cb92821cbfca6ca1aabf156a0e" category="paragraph">API自動化是提升日常或每週工作效率與準確度的絕佳方法。它可釋出您的資源、以執行更複雜的活動或自動化新的工作流程。例如，如果您有一些系統健全狀況風險需要修正，您至少可以將這些項目從 Active IQ Digital Advisor 中取出，然後推入您的支援問題單系統，以實現自動化。</block>
+  <block id="272eb6d717938719a6643dde54a455f1" category="section-title">API目錄</block>
+  <block id="609b94093c96779bd697e437a237dada" category="paragraph">頁面頂端的切換可讓使用者在兩種模式之間切換、以檢視「目錄」。「程式碼」檢視著重於所需的輸入參數、傳回資料的內容和格式、以及程式碼範例、讓使用者開始準備程式碼。實驗檢視讓使用者有機會使用從API Services主頁取得的產生權杖、在瀏覽器中「試用」API。</block>
+  <block id="e06ee5f4d38e3f442020774d590dd8ae" category="paragraph">任一檢視都可讓使用者使用左側的導覽窗格瀏覽可用的項目。這些項目會依服務的字母順序排列。在特定服務中、您可以展開標題以顯示個別的API端點。按一下服務標題或API端點、即可前往中間窗格中目錄的該區段。</block>
+  <block id="32389560c3f1a6bf5e949c0c90761d9b" category="section-title">使用API</block>
+  <block id="39560be2ac4b28448572ca6aff31945e" category="paragraph">一旦您獲得授權並可產生權杖、您就可以利用權杖來進行程式化查詢及擷取資料。您也可以從API目錄中測試API、以第一手瞭解查詢的運作方式、以及傳回的資料類型。這是一種很好的方法、可確保您瞭解API在系統中建置程式碼架構之前的運作方式。</block>
+  <block id="23fc079b14c319bb82e85f2e815d0f03" category="summary">提供如何產生權杖以存取API的相關資訊。</block>
+  <block id="bdddfc6c707fca332fdc31a6f26637d2" category="doc">產生權杖以使用API</block>
+  <block id="3a2fdf84bfcc3c891b43f0d51724ccde" category="paragraph">註冊API服務並產生權杖很簡單。</block>
+  <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">在*快速連結*功能表中、按一下* API服務*。</block>
+  <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">按一下 * 註冊 * 。</block>
+  <block id="d3ea808b3d55f3adc011ccc0b25a4a36" category="list-text">填寫授權申請表、然後按一下*提交*。</block>
+  <block id="b30b3bbfc415b638b24e6565c44b8b35" category="paragraph">啟動是自動的、應該是即時的。一旦您獲得使用Active IQ 此功能的權限、就能產生權杖、以便在進行API編程呼叫時使用。您也可以使用這些權杖、從API目錄中執行「試用」。當以程式設計方式取得時、權杖一律會以兩種形式提供：存取權杖和更新權杖。必須傳遞存取權杖、才能成功使用所有API（除了一種API之外、「重新整理權杖」是用來以程式設計方式取得一組新的權杖）。</block>
+  <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">在「主要API服務」頁面上、按一下「*產生Token *」以檢視及下載存取權杖、並重新整理權杖以叫用API。</block>
+  <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">入口網站提供多種方法、可將一個或兩個權杖儲存在集合中。您可以將它們複製到剪貼簿、下載為文字檔、或以純文字檢視。</block>
+  <block id="ce35b219dc5f96e6b0eb25a2bb2623b6" category="admonition">您應該下載並儲存存取權杖和重新整理權杖、以供日後使用。存取權杖一經產生即過期一小時、更新權杖應每7天重新產生一次、並安裝在應用程式中。90天後、您需要手動登入、並取得新的存取權杖和重新整理權杖。</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">法律聲明提供版權聲明、商標、專利等存取權限。</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 標誌及 NetApp 商標頁面上列出的標章均為 NetApp 、 Inc. 的商標。其他公司與產品名稱可能為其各自所有者的商標。</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="df2d4059ef2614c57676ddbb81080026" category="summary">提供Active IQ 更多關於功能的資訊。</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="inline-link-macro">NetApp社群</block>
+  <block id="1881e7a42b09973c0262936d8c6638d6" category="list-text"><block ref="1881e7a42b09973c0262936d8c6638d6" category="inline-link-macro-rx"></block></block>
+  <block id="2250dada69ecec08ffc29ac659683495" category="inline-link-macro">文件資源</block>
+  <block id="177f8a6daba75aef7ca1dc356f119571" category="list-text"><block ref="177f8a6daba75aef7ca1dc356f119571" category="inline-link-macro-rx"></block></block>
+  <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">NetApp遙測資料的安全性與隱私</block>
+  <block id="0c653ba2b8e3812b4f58b7bef8777e11" category="list-text"><block ref="0c653ba2b8e3812b4f58b7bef8777e11" category="inline-link-macro-rx"></block></block>
+  <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">隨需提供的功能ONTAP AutoSupport AutoSupport</block>
+  <block id="c60726371723b7c1a53a2242c4905f14" category="list-text"><block ref="c60726371723b7c1a53a2242c4905f14" category="inline-link-macro-rx"></block></block>
+  <block id="5089613f649d2296a75191884c2e8f61" category="summary">協助您瞭解工作流程，並開始使用 Active IQ Digital Advisor。</block>
+  <block id="487b50c0db900755e8510fd1c1223213" category="doc">Active IQ Digital Advisor 快速入門</block>
+  <block id="bb79a2831a7315640da7e030108a25cf" category="paragraph">Active IQ Digital Advisor 已經增強並重新設計，能夠協助您更有效地執行工作。使用者介面是專為引導您執行所需目標而開發。</block>
+  <block id="1ec16ea135ce0198f1162d8dd003bedc" category="paragraph">您可以查看下圖，瞭解 Active IQ Digital Advisor 的工作流程。</block>
+  <block id="1833a5853550761fe8f7b2b34ae6e094" category="inline-image-macro">Active IQ Digital Advisor 工作流程</block>
+  <block id="12e8d479cd61a8f66e8010e4a3a9135f" category="paragraph"><block ref="12e8d479cd61a8f66e8010e4a3a9135f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f66597d000b1714447e39d38381d717f" category="paragraph">您可以觀看下列影片，以開始使用 Active IQ Digital Advisor：</block>
+  <block id="536f3538dd1bcb560b5131c42d2fd745" category="paragraph">並非所有平台都支援所有 Active IQ Digital Advisor 小工具。Active IQ Digital Advisor 能識別您的儲存系統平台，僅顯示您的儲存系統可以執行的一組工作。</block>
+  <block id="6fda8feb3296b57c0c20a9ab7542ac2a" category="paragraph">請閱讀下列資訊、以瞭解儲存系統支援的小工具。</block>
+  <block id="fa0a9488678326eeee7398751bbe2d01" category="cell">*小工具*</block>
+  <block id="ca4ae4faff37f22c0ffe6a214e8a4b08" category="cell">*客戶*</block>
+  <block id="f72e303ceb317ddb2d49f55359f01d75" category="cell">*叢集*</block>
+  <block id="04eaef0c64f7604067332b0b05e598d3" category="cell">*節點*</block>
+  <block id="fe40d8b49a8a95c2a28179b7ef3039d6" category="cell">支援所有平台</block>
+  <block id="28e26766a62bd9ef329986f7963b6357" category="cell">增加容量</block>
+  <block id="b892c2b3bdaaf51bbf65f75ef159ae10" category="cell">僅支援ONTAP 在支援的支援平台（Data ONTAP 以7-Mode和叢集Data ONTAP 式的功能運作）</block>
+  <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">僅在叢集Data ONTAP 式的不支援</block>
+  <block id="240f9686efc9548a1d556d924c143924" category="cell">升級</block>
+  <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">提供管理觀察名單的資訊。</block>
+  <block id="6e963896d19c6e8365735dbf8e7f8cba" category="doc">管理觀察名單</block>
+  <block id="aa3fb4a2f751f4c503a02c5e91433d10" category="paragraph">您可以檢視不同觀察名單的儀表板、編輯現有觀察名單的詳細資料、以及刪除觀察名單。</block>
+  <block id="ec42a36485bf0b7690ac95ac39ea08f3" category="list-text">在左窗格中、按一下*觀察名單*。</block>
+  <block id="c533a451e2ebd63cf7629e613a0e5483" category="list-text">按一下觀察清單名稱、即可檢視觀察清單的儀表板詳細資料。</block>
+  <block id="170bb6f16db0d4bbf5962cd0bdb83cdc" category="list-text">按一下*編輯*以更新報價表的詳細資料。</block>
+  <block id="71c11d072ed3800acd07298b9da0447f" category="list-text">按一下「*刪除*」以刪除觀察清單。</block>
+  <block id="6d18f9cdd03d3a175d54504f01f0c78b" category="summary">提供版本限制的相關資訊。</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="doc">已知限制</block>
+  <block id="1eba71d64e6c5e410e558530711e835b" category="paragraph">已知限制指出本產品版本不支援的平台、裝置或功能、或是無法與產品正確互通的平台、裝置或功能。請仔細檢閱這些限制。</block>
+  <block id="30c68d7c9821acafb85ce89d3dd5cf9e" category="paragraph">存在下列限制：</block>
+  <block id="6f4abdbff187f79e2ea1ac06a9e104b5" category="list-text">僅適用於以7-Mode運作的支援系統（以7-Mode運作的VMware儲存系統即將終止支援壽命）Data ONTAP Data ONTAP</block>
+  <block id="e10f6958064ae5f36e8b132d4142e626" category="list-text">效能圖表</block>
+  <block id="2a6091be36acbf3db3bd34443d143abf" category="list-text">升級顧問不支援ONTAP 9.0之前的叢集式功能升級計畫。</block>
+  <block id="7e4e0b857c6e143cfb082c8bb0ab61cd" category="section-title">編輯觀察清單之後，可能需要 60 分鐘才會反映在 Active IQ Digital Advisor 中</block>
+  <block id="ae68b6ce5c029662d6b5aaeadce82376" category="paragraph">編輯觀察清單並不會立即更新 Active IQ Digital Advisor 中的資訊。所做變更可能需要 60 分鐘才會反映在 Active IQ Digital Advisor 中。</block>
+  <block id="2bdc4897dd362e50492e84b2adbd474b" category="section-title">排程報告時會顯示空白報告</block>
+  <block id="6eeadd9a025ffd894de9d068b4e77d24" category="paragraph">排定的報告只能搭配SupportEdge Advisor 支援服務SupportEdge Expert 合約使用。如果您的系統不符合SupportEdge Advisor 不完整支援SupportEdge Expert 合約或不完整支援合約、您可能會在排程報告時收到空白報告。</block>
+  <block id="ebb3292114a6a69609c0f8875098f714" category="section-title">已確認和未確認的風險事項可能需要 60 分鐘才會反映在 Active IQ Digital Advisor 中</block>
+  <block id="7264c3b35813062888fb1306b7ec8b7b" category="paragraph">對於已確認和未確認的風險事項，其狀態不會立即反映在 Active IQ Digital Advisor 中。所做變更可能需要 60 分鐘才會反映在 Active IQ Digital Advisor 和健全度報告中。</block>
+  <block id="35e66ec67a2e099ca561a914e3070a54" category="summary">提供管理範本的資訊。</block>
+  <block id="50265178fa957fba00e89ee31583eda9" category="doc">管理範本</block>
+  <block id="111b7a31750f76bdbff754725d0a891f" category="paragraph">您可以複製範本、共用範本、編輯現有範本的詳細資料、以及刪除範本。</block>
+  <block id="fb9ec4a767166de614d7b27285754a9b" category="paragraph">共用範本可節省建立及自訂已由使用者建立的範本所需的時間與心力。共用使用者可以彼此變更共用範本、讓多位使用者修改單一黃金範本。</block>
+  <block id="f4c12685c854edc2a70b55cda1355928" category="list-text">共用範本的存取權可隨時撤銷。</block>
+  <block id="604e4b03afa73e998c83987a965bf62f" category="list-text">共享使用者可隨時從帳戶刪除此範本。</block>
+  <block id="d329fd777726c300d7a044e482b967e7" category="inline-image-macro">複製</block>
+  <block id="6f2f86dbd151feaab096b96a9b0c37eb" category="list-text">按一下 <block ref="3b55c23dfb4079e2af5dd3be6ef65a9e" category="inline-image-macro-rx" type="image"></block> 以製作範本複本。</block>
+  <block id="85e47ac07ac9d6416168a97e33fa969a" category="inline-image-macro">分享</block>
+  <block id="30486c4de149468d64f86f131cbfba0a" category="list-text">按一下 <block ref="e99ba43207c50943c58f4200e8020746" category="inline-image-macro-rx" type="image"></block> 然後輸入您要與之共用範本的使用者名稱。</block>
+  <block id="595120ebe2be774fab22543291877b24" category="admonition">如果您輸入使用者的電子郵件地址而非使用者名稱、則不會共用範本。</block>
+  <block id="de95b43bceeb4b998aed4aed5cef1ae7" category="inline-image-macro">編輯</block>
+  <block id="0865a774e1174481df7273cee252f86b" category="list-text">按一下 <block ref="d17ae34269ddc9b756c90c8b4fb41e88" category="inline-image-macro-rx" type="image"></block> 以更新範本的詳細資料。</block>
+  <block id="099af53f601532dbd31e0ea99ffdeb64" category="inline-image-macro">刪除</block>
+  <block id="a9345dca2427f7f88c526df2640684ed" category="list-text">按一下 <block ref="26fc5ebf2c3c934a9aae5c740ff267ef" category="inline-image-macro-rx" type="image"></block> 刪除範本。</block>
+  <block id="98fb6b15dbf8f4dbd1391e6345a22114" category="summary">提供寶貴見解小工具的相關資訊。</block>
+  <block id="972d710da4877c6c96be5f36ff410fe3" category="doc">檢視寶貴的洞見</block>
+  <block id="b874a602a040f316e2805e898c0a9584" category="paragraph">「*珍貴的洞見*」小工具提供相關資訊、包括支援案例數量、擱置中的軟體升級、儲存效率節約、減輕風險等。它也會主動列出來自* Wellness *屬性的風險通知。</block>
+  <block id="7a7d4a4667b4536acd427d4c99b2e845" category="list-text">在* Inventory（清單）*小工具中、按一下* Systems（系統）*以檢視所有平台的系統資訊、或按一下平台類型、然後按一下* Systems（系統）*以檢視該平台的特定系統。</block>
+  <block id="da7363bcf69f8ff499f5f44a09b9c4ac" category="list-text">按一下節點或叢集以檢視系統的詳細資訊。</block>
+  <block id="6e8eb21f5c710d91b6fa76bd91af461f" category="paragraph">儀表板上提供*珍貴的Insights *小工具。</block>
+  <block id="07fd0f116aaad9b880128783daa7bc1a" category="list-text">檢閱小工具中的資訊、瞭解從您的支援合約中獲得的商業和技術價值。</block>
+  <block id="8830ebf30b3e1ad7b344461753f7d3dd" category="summary">提供資訊以增加系統容量。</block>
+  <block id="9438f616517805af3f4c395324944dff" category="doc">識別容量達到限制的系統</block>
+  <block id="9112a7f041cc3afbe8bca565f29fc0a9" category="paragraph">主動識別達到容量限制的系統、並透過即時聊天室傳送要求、以增加儲存系統的容量。</block>
+  <block id="99a992296fff4706d4ef607ee5c43843" category="paragraph">您可以在1、3和6個月內檢視已超過90%容量或超過90%容量的系統。與銷售人員交談、輕鬆提出容量新增要求、並取得即時協助。</block>
+  <block id="7f5131aab7fa520fc9551135afbbe9e3" category="list-text">在* Planning（規劃）*小工具中、按一下* Capacity Additions *（*新增容量）、即可檢視容量超過90%或接近90%的系統。</block>
+  <block id="64130d6cdb0009d5982c553eaac6efd4" category="paragraph">您可以檢視在未來1、3和6個月內已超過90%容量或超過90%容量的系統數量。</block>
+  <block id="050156d031ad136ed72a48cba4a7a4cf" category="list-text">選取一張卡以檢視系統。</block>
+  <block id="60dc2e9f7ab275abe0ffe373abf95dae" category="list-text">選取您要增加容量的系統、然後按一下*聯絡銷售人員*。</block>
+  <block id="a234330eca66f8c170189efebab23db1" category="list-text">確認您的聯絡詳細資料。</block>
+  <block id="19f756ea7d458dddec483de6c8fb3ddc" category="list-text">最多可複製五個主機名稱並貼到聊天室中、以提高容量新增要求。</block>
+  <block id="fea651c80f853524fd5c34e4ec0610f8" category="summary">提供如何使用Ansible教戰手冊安裝及執行韌體更新的資訊。</block>
+  <block id="c8cc6f58456eb3a7923573bb5d9a8b03" category="doc">安裝及執行AFF 功能不受FAS 限的自動化套件（經驗豐富的使用者）</block>
+  <block id="c35aa20a55cbeb586909eacd3abea8d0" category="paragraph">經驗豐富的使用者可以AFF 快速安裝及執行功能豐富的功能豐富的功能、包括功能豐富的功能豐富FAS 的功能。</block>
+  <block id="2cc3e52bf2e235fe75c3143d19d34c35" category="section-title">使用NetApp Docker Image以Ansible進行韌體更新</block>
+  <block id="bfafdb377b55f8c583e98a32ccdf8474" category="list-text">將Ansible Docker映像檔拉到Linux主機：</block>
+  <block id="8bd5159be69cec3bca8f9049d6789053" category="list-text">在Linux主機上以容器形式執行Docker映像：</block>
+  <block id="48582f003b9d46eb75cc5c0f091645cf" category="admonition">Ansible Playbook和庫存檔案應位於相同路徑。</block>
+  <block id="b0b55cc3165f03b42b1aeb76c565fe05" category="list-text">在Linux主機上執行「Ansible Playbook（可執行教戰手冊）」。韌體更新會在背景執行數小時。</block>
+  <block id="a423ce4370bc5efb50a9f9b6edd15965" category="admonition">如果磁碟韌體、機櫃韌體和服務處理器韌體的URL為*\http://&lt;web-server&gt;/path/all_shelf_fw.zip*、*\http://&lt;web-server&gt;/path/all.zip*和*\http://&lt;web-server&gt;/path/&lt;SP/BMC&gt;_&lt;version_number&gt;_fw.zip*、請提供*\http://&lt;web-server&gt;/path/*作為基礎URL至韌體套件的輸入。如果有一組叢集具有不同的登入認證、則必須在每個叢集上執行「Ansible教戰手冊」。由於Ansible Playbook會跳過登入失敗的叢集、因此不需要變更庫存檔案。</block>
+  <block id="4f7ce3962f437c3c5eba2302e70876be" category="list-text">以叢集管理員身分登入叢集、並確認已安裝新的磁碟機韌體：</block>
+  <block id="2bff8e26d2bffb6e1959b7e7a8ee7b5a" category="section-title">韌體更新（如果已使用Ansible）</block>
+  <block id="112380f3f709a44ef8f75f6d665ac2c9" category="list-text">安裝Python和Ansible、然後使用子母畫面下載Python套件：</block>
+  <block id="03f27531419e8390d55e5ee184b373c7" category="list-text">安裝NetApp Ansible Collection：</block>
+  <block id="9b838c4ce633e917e74290b161349c3a" category="list-text">確認「Ansible Playbook」和庫存檔案位於相同路徑、然後執行「Ansible Playbook」。韌體更新會在背景執行數小時。</block>
+  <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">提供資訊以檢視及升級ONTAP 儲存系統的版本。</block>
+  <block id="d6917a390639e0a267939dc55858c685" category="doc">透過產生升級計畫來升級ONTAP 此版本</block>
+  <block id="46a187e39eefc3fd35138a494e565b49" category="paragraph">您可以檢視儲存系統的擱置升級、ONTAP 並藉由產生升級計畫來升級至更新版本的版次。您也應該檢視「風險顧問」標籤中的風險清單、因為升級而會減輕風險。</block>
+  <block id="49786ca9e9171e0b112a14ef40054cea" category="list-text">在儀表板上、在*升級*小工具中檢視擱置的升級。</block>
+  <block id="38fafc5e9c9553727750b9510171bb41" category="list-text">按一下*動作*的數目、即可檢視擱置中的升級。</block>
+  <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">選取所需的升級選項。</block>
+  <block id="01d220f359ae904005a0944f594a1bcd" category="list-text">按一下小工具上顯示的系統數量、即可檢視*升級顧問*索引標籤。</block>
+  <block id="a6b0fa6504db5a6f3dee9bdba49d1fe7" category="paragraph">您也可以查看版本資訊、以檢視版本的詳細資訊。</block>
+  <block id="ac73a7625c762ca863d294bc61f64a16" category="list-text">檢視「風險顧問」標籤中的風險清單、以及其嚴重性等級、因為升級而可減輕風險。</block>
+  <block id="281921503952801e23be5489728f4728" category="list-text">按一下「*產生升級計畫*」以瀏覽至*升級顧問*。</block>
+  <block id="f48a84db276a73cbf07dc419e82ec5ec" category="summary">提供 Active IQ Digital Advisor 所使用關鍵詞彙的相關資訊。</block>
+  <block id="aecb526721c5811e8b940ed95c7e8b18" category="doc">主要概念</block>
+  <block id="e88ec3f6fa36ea31fdc1642a2265daee" category="paragraph">當您開始使用 Active IQ Digital Advisor 時，請務必先瞭解會在整個 Active IQ Digital Advisor 中看到的一些基本術語。</block>
+  <block id="d92bf3a3e254ba5152f5693f2c3551e3" category="list-text">*觀察清單 (Watchlist)：*讓您能夠在 Active IQ Digital Advisor 內靈活存取已被選定的系統。您可以使用觀察名單來新增一或多個客戶的系統。</block>
+  <block id="f7aec255f127e937f979de1bed372a50" category="list-text">* Wellness Dashboard：*提供觀察清單中系統的整體狀態。</block>
+  <block id="b6f36a5587ee48036508da1d84d1b299" category="list-text">*小工具：*在儀表板上顯示小型應用程式、可快速摘要顯示系統狀態。</block>
+  <block id="609ab9f49962ff004a5b2c4dd4ad0a3d" category="list-text">*風險：*顯示系統清單及其各自的問題。其嚴重性等級不同：</block>
+  <block id="ddbf0fd1da76583c4b866ee00d9dc49c" category="list-text">高風險</block>
+  <block id="46e1a07f6b9f9211bc404c1172b9762d" category="list-text">中度風險</block>
+  <block id="7974021eb0cfb9764fe9f3c86c01fb5a" category="list-text">無風險</block>
+  <block id="cff767810c25eb9e7e045026afa7e145" category="list-text">*獨特風險：*顯示特定風險類別的風險名稱和系統數量。</block>
+  <block id="5121c9dc51d6a37185dc039855ee0a0b" category="list-text">*動作：*顯示您可採取的獨特動作數目、以修正問題。</block>
+  <block id="629a0491d1fc1b8cac7461bcdbb6d940" category="list-text">*色彩編碼的風險狀態*：根據風險等級顯示風險等級及其色彩代碼、並根據其嚴重性等級分類為3個等級。使用色彩可以更快評估所涉及的風險層級。</block>
+  <block id="93893aaefafcef8bc1d0b7cfb3636487" category="cell">*色彩*</block>
+  <block id="0c20606a05187a81c5f8575c8cac085d" category="cell">*嚴重性*</block>
+  <block id="ee38e4d5dd68c4e440825018d549cb47" category="inline-image-macro">紅色</block>
+  <block id="f8dddc7aece9aec986615aab82c72640" category="cell"><block ref="f8dddc7aece9aec986615aab82c72640" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="909cea0c97058cfe2e3ea8d675cb08e1" category="inline-image-macro">橘色</block>
+  <block id="6fa2a4bbd93156c90bf4bbb2f2a514f8" category="cell"><block ref="6fa2a4bbd93156c90bf4bbb2f2a514f8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d382816a3cbeed082c9e216e7392eed1" category="inline-image-macro">綠色</block>
+  <block id="64ee1c9e1f6593d727716a2bfd8604d0" category="cell"><block ref="64ee1c9e1f6593d727716a2bfd8604d0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a0cead27e095329905ff0ea7d83de0d2" category="list-text">*健全狀況小工具：*顯示效能、效率、容量、組態設定、安全性弱點、 及其他。它會主動判斷已超過容量或接近90%容量的系統。此外、本指南也提供已過期或設定在未來6個月內到期的軟體與硬體相關資訊。</block>
+  <block id="3308e39f080273976ba1ead8edc3dd13" category="list-text">*效能與效率：*顯示儲存系統效能與效率的相關資訊。</block>
+  <block id="1c4f0f720caa935586c5ce44a7df6b85" category="list-text">*可用度與保護：*顯示儲存系統可用度與保護的相關資訊。</block>
+  <block id="f0ee5c8e0425d79cc4821f46b896129b" category="list-text">*容量：*由風險組成、並具有影響區域值的容量屬性。</block>
+  <block id="b9a9426de6f2aeaaa8a2431da4900e30" category="list-text">*組態：*由風險組成、其中包含影響區域值的組態屬性、其排序方式對頂端影響最高。</block>
+  <block id="8dae33fe79be13ef64d47e7f786ed059" category="list-text">*安全性弱點：*由風險組成、並具有影響區域值的安全屬性。</block>
+  <block id="0df29eb5c3a3cf627598e14216743f20" category="list-text">*健康記錄：*顯示過去三個月發生的系統風險資訊、讓您瞭解他們如何加班。</block>
+  <block id="8d4304747bf1c53a7a27da5249a5a0c3" category="list-text">*勒索軟體防禦：*提供有關勒索軟體偵測、預防及恢復相關風險與修正行動的資訊。</block>
+  <block id="927c2765ee865261a716c54a2fde3878" category="list-text">*認知風險（Ack）：*可讓您瞭解受影響的風險和系統。您可以瞭解這些風險、並熟悉可採取哪些行動來減輕這些風險。</block>
+  <block id="91351fc68db7f9bca112a2fb897a0902" category="list-text">*取消認可風險（取消認可）：*可讓您取消認可已確認的風險與系統。</block>
+  <block id="0f4f0d8eb7497054f3f3160501e62e20" category="list-text">*修正：* Active IQ 使用NetApp Manager（UM）9.7或更新版本來修正系統的風險。按一下此按鈕以啟動UM、並執行降低風險的步驟。</block>
+  <block id="92a113ae9f19ea88db4e78b8c397339e" category="list-text">*詳細目錄小工具：*顯示您擁有的系統總數彙總。這包括Active IQ 啟用了不支援功能的產品和非啟用功能的產品。</block>
+  <block id="70997d9cb46f1884262203c0386ee9ba" category="list-text">*產生報告：*產生所選觀察名單的報告、並以電子郵件將報告寄送給最多5位收件者。</block>
+  <block id="4f34ff28c8e6e0459e7e8b7c218ea60a" category="list-text">*規劃小工具：*顯示需要更新的容量新增、軟體及硬體相關資訊。</block>
+  <block id="f455a78311af3f0899cacd26d802aabd" category="list-text">*新增容量：*識別已超過或接近90%容量的系統、以及已超過或接近70%容量的網格站台。您可以提出要求、以增加儲存系統的容量。</block>
+  <block id="a14095eb1402d18db0b8da516449039e" category="list-text">*續約：*提供未來6個月內已過期或即將到期的軟體與硬體相關資訊。</block>
+  <block id="893c77a9be3c9d01629801789ac3c684" category="list-text">*升級小工具：*提供ONTAP 適用於下列系統的升級數量：</block>
+  <block id="802c8daa153570ef0dadaf2d8be9ee78" category="list-text">若為ONTAP 「更新」系統、您可以檢視需要升級的系統數量資訊、然後申請升級計畫。</block>
+  <block id="ac697c7fc74ba789f9ec5a46df7312c6" category="list-text">對於E系列系統、您只能檢視需要升級的系統數量資訊。</block>
+  <block id="c7d11c557339c95279902ee082ba9f5b" category="list-text">*儲存效率：*可識別儲存系統的儲存效率比、以及儲存系統的儲存效率與節約效益、無論是否使用AFF Snapshot複本、均適用於非AFF系統或兩者。</block>
+  <block id="b397fac92f5d136f7fe3fb94680c6e6f" category="list-text">*效能圖表：*可讓您檢視效能資料的圖形格式、以分析儲存裝置的效能。您可以檢視ONTAP 所選節點的詳細效能圖表。</block>
+  <block id="c6a6fbd3c93831286955b654f3a43c2d" category="list-text">*《寶貴見解》小工具：*提供支援案例數量、擱置中的軟體升級、儲存效率節約、降低風險等相關資訊。它也會主動列出Wellness屬性的風險通知。</block>
+  <block id="d949398a0cd9559b70782bfb2f9ac159" category="list-text">*《*》：*可讓您從高層或詳細的角度檢視《*》。AutoSupport AutoSupport詳細資料包括系統詳細資料、可能發生問題的原因、以及建議的行動。</block>
+  <block id="f58148b36d284264c85f69fb927477ef" category="paragraph">若要存取 AutoSupport 功能，請登入 Active IQ Digital Advisor，然後搜尋叢集或主機名稱。左側窗格提供了這個選項。AutoSupport</block>
+  <block id="60765e03124dbe237199057ad89d6f43" category="list-text">*快速連結 (Quick Links)：*提供使用 Active IQ Digital Advisor 時可以啟動的應用程式清單。</block>
+  <block id="9739d4ffc25558588df6f57e8041f639" category="list-text">* ClusterViewer:*可讓您查看詳細的實體和邏輯組態資訊。詳細資料會顯示在多個索引標籤上的數個易於檢視的表格中、這些索引標籤包括叢集與節點組態的摘要、本機層級與磁碟區資訊、網路介面與連接埠資訊、詳細說明磁碟與磁碟櫃資訊的堆疊圖表、以及一些纜線視覺效果。您也可以下載svg格式的纜線視覺效果圖形。</block>
+  <block id="e10554f48e3ad865c8bd3aa251010031" category="paragraph">E系列系統不支援ClusterViewer功能。</block>
+  <block id="c3ee6b10a82ee8a739a196c0f92e9cc7" category="list-text">* API服務：*可讓您提取感興趣的資料、並將其直接整合至貴公司的工作流程中。</block>
+  <block id="cf6603053c3facd929d0e865e9f65807" category="list-text">*《上傳：*》可讓您分析各種故障或問題、包括在支援範圍內的各種系統上。AutoSupport ONTAP瑕疵或問題由支援網站人員手動檢閱及修正。</block>
+  <block id="37adb256aff16968048142b85e04d7cc" category="list-text">*系統韌體：*可讓您檢視ONTAP 系統韌體的相關資訊、這些資訊會隨附於每個主要版本和修補程式版本的資訊。</block>
+  <block id="87b3d4ff312f3761998135fad1e654e6" category="list-text">*搜尋：*可讓您根據各種類別來搜尋系統、例如客戶名稱、序號、叢集、站台名稱、群組名稱、 主機名稱及其他。</block>
+  <block id="0a51f957e738efd6c9df7534834bede6" category="list-text">*客戶：*可讓您檢視及管理客戶的安裝基礎。Customer Dashboard是Active IQ 整個過程的核心入口網站。</block>
+  <block id="18679057e5312924c976a6bd4b05d9ed" category="list-text">*叢集：*提供ONTAP 有關叢集的資訊。儀表板也整合健全狀況、容量、儲存效率及效能洞見。</block>
+  <block id="ad2084b929b7ea214a5005875f3f854d" category="list-text">*序號：*提供指派給客戶的序號相關資訊。</block>
+  <block id="33ff2e9459330445a2f8efc828105eb4" category="summary">提供產生飄移時間軸報告的資訊。</block>
+  <block id="377be568d398496d62e94ceb54a8e1af" category="doc">產生飄移時間軸報告</block>
+  <block id="1206d2cfc5680736af341c983375f78e" category="paragraph">您可以比較AutoSupport 過去90天的資料不完整、並產生報告、提供有關事件和發生的組態差異的資訊。</block>
+  <block id="1a13d9a0c86de95ae6f63dd3820e10c6" category="list-text">選取*資料時間軸*報告類型。</block>
+  <block id="4d3bf8b6bdc26afdb2aa1d58bbe4ee2d" category="inline-link-macro">下載並檢視飄移時間軸報告</block>
+  <block id="0ee9ccb81e2b9003939ac6aa09488241" category="list-text"><block ref="ab5a1cc12fe7d947d0930f0a2ef72091" category="inline-link-macro-rx"></block>。</block>
+  <block id="5e9c60352a0afc7b5a85da95eb674bae" category="summary">提供AutoSupport 關於功能的概述。</block>
+  <block id="fef2278ec58d443914c7d16d5c90ecc3" category="paragraph">支援遙測機制、可主動監控系統健全狀況、並自動將組態、狀態、效能及系統事件資料傳送至NetApp。AutoSupport</block>
+  <block id="24b2d71bf7ffd73507bd643c18529301" category="paragraph">NetApp技術支援部門會使用這些資料來加速問題的診斷與解決、Active IQ 而由NetApp技術支援部門來主動偵測並避免潛在問題。您也可以將其傳送給內部支援組織和支援合作夥伴。</block>
+  <block id="beb3c900abcdebfe6fb8889f05e352f2" category="admonition">僅針對使用不到60天的系統顯示與此功能相關的資料。Active IQ AutoSupport AutoSupport</block>
+  <block id="e66de45ccd9a8afefe101940b4da6485" category="inline-link-macro">設定AutoSupport 功能</block>
+  <block id="f3bfa02908c2ab879d33330f57dce830" category="paragraph">對於支援靜態系統、當您第一次設定儲存系統時、預設會啟用此功能。ONTAP AutoSupport您應該 <block ref="54fdd8b22a63e736e8b214bc3b8526e0" category="inline-link-macro-rx"></block> 可控制將資訊傳送至技術支援部門和內部支援組織的方式。ONTAP AutoSupport</block>
+  <block id="1bbdc300c5fbfb2d1eb6e80bff986bc4" category="paragraph">如果您不想啟用AutoSupport 效益分析功能、可以使用AutoSupport 「上傳」功能手動上傳AutoSupport 效益分析資料、以獲得有關儲存生態系統的建議和見解。</block>
+  <block id="a91ebd35c5ab5f4627190f49de7d7617" category="admonition">不含任何使用者資料。AutoSupport</block>
+  <block id="a6a6e60d8b343bd990173569c80a158f" category="paragraph">如需AutoSupport 更多關於效益的資訊、請參閱適當的文件：</block>
+  <block id="82433783dcf17ee52968a7749a51c698" category="inline-link-macro">不適用的ONTAP FAS AFF</block>
+  <block id="4eb0c54aeb98efae14f5e16b29581405" category="list-text"><block ref="4eb0c54aeb98efae14f5e16b29581405" category="inline-link-macro-rx"></block></block>
+  <block id="4ce5f3a0d296000e2119e87731ead543" category="list-text"><block ref="4ce5f3a0d296000e2119e87731ead543" category="inline-link-macro-rx"></block></block>
+  <block id="78e23f0a3cc97f9e8278bd679d396bbb" category="inline-link-macro">（E系列和EF系列）SANtricity</block>
+  <block id="d2b30e7e13ee44c62d545dde14f5cbb1" category="list-text"><block ref="d2b30e7e13ee44c62d545dde14f5cbb1" category="inline-link-macro-rx"></block></block>
+  <block id="cc959aa92b96d7ed4154da16e0bc5de4" category="inline-link-macro">元素NetApp HCI （支援功能）SolidFire</block>
+  <block id="4348cd8210353d22e852c9bdde3d5483" category="list-text"><block ref="4348cd8210353d22e852c9bdde3d5483" category="inline-link-macro-rx"></block></block>
+  <block id="67c2a0578ac58d1bcfb4fc00eb6e05ba" category="inline-link-macro">技術報告ONTAP AutoSupport -根據AutoSupport 需求提供支援</block>
+  <block id="68f5446fdc2f2edf829bb787c3f313a0" category="list-text"><block ref="68f5446fdc2f2edf829bb787c3f313a0" category="inline-link-macro-rx"></block></block>
+  <block id="1629a9318eb60c2f7422a0ca0be6bfcb" category="inline-link-macro">技術報告- NetApp遙測資料的安全性與隱私權</block>
+  <block id="a7601e85e4e519e4d1467321c32fe973" category="list-text"><block ref="a7601e85e4e519e4d1467321c32fe973" category="inline-link-macro-rx"></block></block>
+  <block id="fba1e9100df562973f55a49a6269cc88" category="summary">提供資訊以識別即將到期的系統容量、軟體和硬體。</block>
+  <block id="6aacc84d89dc86cac8838dbdb3de2def" category="doc">瞭解規劃</block>
+  <block id="ab0938c0a634e7b9a0c32175dab66cbf" category="paragraph">「*規劃*」小工具可協助客戶識別超過90%容量或接近90%容量的容量需求、並識別已過期或即將在未來6個月內到期的軟體和硬體。您可以傳送要求以增加儲存系統的容量、並更新硬體與軟體。</block>
+  <block id="cc035831ceccd9eaf04a71fd720c7f1f" category="summary">提供Cloud Insights 有關VMware中虛擬機器的資訊</block>
+  <block id="d152c939b222bcd3e796ea901ac07554" category="doc">與Cloud Insights VMware整合以檢視虛擬機器詳細資料</block>
+  <block id="bad5d4e303a8943f6791b611707e97f2" category="paragraph">目前、支援使用者將支援的功能整合到了支援完整堆疊庫存和互通性的版本中、以供客戶進行檢查。Active IQ Cloud Insights</block>
+  <block id="7988a3af08a9ab5c3313f24277fd8cdb" category="paragraph">這項整合的優點包括：</block>
+  <block id="d73fc2f93b0cf7e6d3bf78fb70bff2a8" category="list-text">簡化ONTAP SaaS對功能的監控</block>
+  <block id="05bffae7acee1d751495fb2f8a0701fe" category="list-text">VMware完整堆疊監控的可見度</block>
+  <block id="c1541ad2124531ef89e365336511a23e" category="list-text">透過自動化互通性檢查、協助ONTAP 客戶進行升級規劃、進而節省生產力。如此一ONTAP 來、就能更順暢地進行升級、並降低與主機不相容的風險。</block>
+  <block id="8c0f9ce9681dd5179f5451c71f8f6793" category="admonition">此功能僅適用於SupportEdge Advisor VMware、SupportEdge Expert VMware及Active IQ VMware升級合約。</block>
+  <block id="cf14d774d8d0c6d9907931e44af83d21" category="list-text">在* Inventory（資源清冊）*小工具中、按一下* Virtual Machines（虛擬機器）*以檢視Cloud Insights 在VMware中可用的資料。</block>
+  <block id="5292d19ab11993bca39a0810f62fdc4d" category="list-text">單擊*虛擬機概述*選項卡。</block>
+  <block id="e0c81bd049581387caad2e365f631ca6" category="list-text">按一下* ESX主機數*以檢視有關主機的資訊。</block>
+  <block id="79fc7fc3d1c3888f0da7bea1712b7cb0" category="list-text">按一下「* ESX Name*」瀏覽Cloud Insights 至「介紹」以檢視更多資訊。</block>
+  <block id="93ae395e2672dbc470bc375ec78e11e4" category="summary">提供組態飄移功能的總覽</block>
+  <block id="039bebff198c8cd18e071d60368ea6a5" category="doc">瞭解組態偏差</block>
+  <block id="1a4bd064e1cb8fcdad31574facf63def" category="paragraph">Config DrivFT功能可將系統範本與「golden」或基礎系統範本進行比較、以識別組態差異。您可以排程每週或每月的飄移報告、或是隨需產生報告。您可以使用組態飄移報告中提供的「可執行教戰手冊」來減輕一些差異。</block>
+  <block id="00c936ae5068ea9685cb242934d6e619" category="paragraph">此功能僅適用於持有顧問與專家支援合約的系統。</block>
+  <block id="c66fe758a8cf22beffdabb8f048395bc" category="paragraph">您可以查看下圖、瞭解識別組態差異並產生報告的工作流程。</block>
+  <block id="ae388a363ae9fad14e8ddbb635cf11a9" category="inline-image-macro">組態飄移工作流程</block>
+  <block id="bd7c8ab041a2ad665bf462b1a7a3644f" category="paragraph"><block ref="bd7c8ab041a2ad665bf462b1a7a3644f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="07bdeb694d8afc8ca3ac40f7f85ed9e7" category="paragraph">您可以觀看下列影片、以產生並執行可執行的教戰手冊、以修正組態差異：</block>
+  <block id="27c0c1bb0cadc9e37385f3ef549226cb" category="summary">提供儀表板、觀察清單和小工具的相關資訊。</block>
+  <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="doc">瞭解觀察名單</block>
+  <block id="11ede7bd0ace739f3b91781a9ab554d5" category="paragraph">觀察清單可用來快速輕鬆地在 Active IQ Digital Advisor 內存取預先選定的系統。如果您經常檢視某位客戶或一組系統、建議您建立觀察名單。您最多可建立50個報價表、每個報價表最多可依類別包含15、000個系統、或依序號包含500個系統。</block>
+  <block id="84f698fa2ff5c75d0cfb42c5093b40e1" category="paragraph">第一次存取 Active IQ Digital Advisor 時，您可以建立一份觀察清單，或是直接搜尋客戶名稱、網站名稱、群組名稱、StorageGRID、主機名稱、叢集、序號或系統 ID。</block>
+  <block id="dece35eb22b3654f47ea7b34c8d28b05" category="paragraph">您也應該瞭解套用至卡片的色彩、這些色彩會指出風險的嚴重性和類型。</block>
+  <block id="cfe3edab2601e99b9745cec9fd8ad086" category="summary">提供如何續約系統支援合約的相關資訊。</block>
+  <block id="fba041f597391cccf20df624e451614c" category="doc">續約您的支援合約</block>
+  <block id="55c259bf51c9908c5e33fc4b248b3f61" category="paragraph">您可以在儀表板上檢視所有作用中支援合約的分數和摘要。您可以根據依優先順序提供的重要建議採取行動。</block>
+  <block id="4dc41be6abef4ee242883df1a57fb262" category="list-text">在健全狀況檢查儀表板上、按一下*支援與權利*小工具。</block>
+  <block id="195a1e51a63db10df6d13350df648daf" category="list-text">如果您的任何系統支援合約已過期或即將到期、請按一下「*作用中支援合約*」視窗。</block>
+  <block id="f166a7d8aa57a3dbeef11dc2e8abe7a8" category="list-text">選取核取方塊、然後按一下「*更新*」、針對所選系統啟動續約程序。</block>
+  <block id="79e58a59d5d9e700b34093a1d2e53ffb" category="summary">提供資訊以檢視可使用Unified Manager自動修正的風險。</block>
+  <block id="77e1702155a3d41741a7eee390691869" category="doc">檢視可以使用Unified Manager或Ansible教戰手冊自動減輕的風險</block>
+  <block id="45eee928d91988f1092c821e200e91e7" category="paragraph">您可以透過檢視行動和風險來分析儲存系統、並使用Active IQ Unified Manager 《不受影響的戰術》或《不受影響的戰術》來減輕風險。</block>
+  <block id="da48e8a594a1d177bf4a0a523841c6bb" category="list-text">按一下儀表板上的*檢視所有動作*。</block>
+  <block id="a07983e266ae35893ec0d3fb2fbe58ad" category="inline-image-macro">西班牙文</block>
+  <block id="3dd705058f6fd7884922146ffb1b552a" category="paragraph">如果您可以使用Active IQ Unified Manager 不確定的功能來減輕風險、請使用 <block ref="b36bd34ef127641c1d7dc29907e63c31" category="inline-image-macro-rx" type="image"></block> 圖示會反白顯示、如果您可以使用Ansible教戰手冊來減輕風險、請參閱 <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block> 圖示會反白顯示。</block>
+  <block id="9be4ecab9993242061ef9bd0e3582d94" category="cell">使用Unified Manager降低風險</block>
+  <block id="a877d704a3d55f5485ebeade7e3d7202" category="cell">使用Ansible教戰手冊降低風險</block>
+  <block id="7fcc42d3ab47d6970d0745fc70a10ae3" category="list-text">按一下 <block ref="b36bd34ef127641c1d7dc29907e63c31" category="inline-image-macro-rx" type="image"></block> 圖示。</block>
+  <block id="f54fc4e92c7c9524bc86ce760eeac730" category="list-text">按一下「*修正*」以啟動Active IQ Unified Manager 「更新」功能。</block>
+  <block id="4b1c75d59fccd48f1c20cdbf5faf3645" category="list-text">按一下「*安裝*」以安裝Active IQ Unified Manager 更新版本的資訊、以使用「*修復*」選項。</block>
+  <block id="55065a8829503555cfbba421bd638a00" category="list-text">按一下「*升級*」以升級Active IQ Unified Manager 至VMware 9.7或更新版本、以使用「*修復*」選項。</block>
+  <block id="d159511cf27ee3a3fa24f2d31ff80434" category="list-text">按一下 <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block> 圖示。</block>
+  <block id="e8999980f2d5f8e5a193a82965648f09" category="list-text">按一下「*下載*」下載AFF 「功能性與FAS 功能性」韌體「功能性自動化」套件。</block>
+  <block id="f05b4b84106eafcc5aad0f438b841dff" category="admonition">使用*修復*選項和可執行教戰手冊功能時、需要簽訂一份不完整或不完整的合約。SupportEdge Advisor SupportEdge Expert</block>
+  <block id="d30bc95f114574e4f302ff7d56c38197" category="summary">提供使用Web伺服器代管韌體檔案的相關資訊。</block>
+  <block id="e8d8e943135c6833b6747d1c1486332b" category="doc">使用Web伺服器來裝載韌體檔案</block>
+  <block id="dc3625ebff827af69b299c8e6fea1420" category="paragraph">下載自動化套件之後、韌體檔案應裝載在Web伺服器上。</block>
+  <block id="5129ab853bf297d4240fcbf65f9e0d46" category="inline-link-macro">使用Python的Web伺服器</block>
+  <block id="a55312b673d55580b96948865430bf83" category="paragraph">Web伺服器可透過多種方式設定。如需使用Python設定簡易Web伺服器的指示、請參閱 <block ref="f42a69e2fd8a191b3a873ea1d9c49de9" category="inline-link-macro-rx"></block>。</block>
+  <block id="48c7c41b72e1d678923ce3571aa65b2d" category="list-title">步驟</block>
+  <block id="f48786c9c76c96752daaf8192b199d06" category="list-text">儲存Web伺服器的基礎URL。如果磁碟韌體、機櫃韌體和服務處理器韌體的URL為*\http://&lt;web-server&gt;/path/all_shelf_fw.zip*、*\http://&lt;web-server&gt;/path/all.zip*和*\http://&lt;web-server&gt;/path/&lt;SP/BMC&gt;_&lt;version_number&gt;_fw.zip*、請將*\http://&lt;web-server&gt;/path/*儲存為基礎URL。</block>
+  <block id="5d15b41ee5ac810b6e7268188476648c" category="paragraph">Ansible教戰手冊會自動偵測檔案名稱。</block>
+  <block id="6566d0c64aca6f40a49a4420aa3d8883" category="summary">提供升級支援服務的相關資訊。</block>
+  <block id="467ddc656b1c849a40e46a0d7ee06a8f" category="doc">升級支援服務</block>
+  <block id="d6a2c3315eaa87effd365a47d6dfb92b" category="paragraph">您可以購買支援服務升級選項，以便在 Active IQ Digital Advisor 中存取更多特色和功能。</block>
+  <block id="81bee906866e738f7e8a54b6610f32e3" category="paragraph">您可以透過建議的實務做法與修正、使用Ansible playbook升級自動化、可據以行動的報告與審查、個人化支援等功能、來升級目前的支援服務、以最佳化您的安裝基礎。您可以在續約支援合約時或任何其他時間從系統（節點）儀表板購買升級。</block>
+  <block id="4b0ff7d5bbadbf7074a8de3b40758350" category="admonition">您只能在目前使用SupportEdge Premium VMware或SupportEdge VMware Secure支援產品的情況下、才可以選擇AIQ升級。</block>
+  <block id="7f59006fb633d44faf18e7aa72c20403" category="list-text">按一下「* Inventory *」小工具旁的「* View All Systems*」（檢視所有系統*）。</block>
+  <block id="3d30fb3e89786aced41e8a9ad5e64a9b" category="list-text">在「Inventory Dashboard」（庫存儀表板）上、選取您要升級的節點（主機）。系統會將您重新導向至系統或節點儀表板。</block>
+  <block id="6d622bcce07deb96f1d4cea2024b0766" category="list-text">按一下*組態*小工具中的*升級*。</block>
+  <block id="bf08cd4c1bc33720a5485c666caed145" category="paragraph"><block ref="bf08cd4c1bc33720a5485c666caed145" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="632064723404f7a0755249b947a55c6a" category="list-text">您也可以選擇按一下*比較支援服務項目*來檢視比較表、然後挑選符合您需求的支援服務項目。或者、您也可以按一下左側導覽功能表上的*支援服務項目*來檢視比較表。</block>
+  <block id="88650e3130d602eb873c6cec8aa1b43d" category="list-text">選取您要的升級類型。</block>
+  <block id="6b1e028800580e41be7e09af7233c6ea" category="list-text">將AIQ升級新增至SupportEdge Premium 您的支援服務項目（即「支援不SupportEdge 安全」）</block>
+  <block id="e151846aa3b308b87c9d25ba4b1deba4" category="list-text">任何其他升級要求</block>
+  <block id="0c152bcc14bc08edd4b0de34a463af86" category="list-text">新增您的任何留言、然後按一下*傳送*。購買支援服務升級的要求會傳送給NetApp續約團隊。</block>
+  <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">提供如何加強防範駭客和勒索軟體攻擊的相關資訊。</block>
+  <block id="f7e6c88265534036ac8e0f442a755875" category="doc">偵測安全性弱點</block>
+  <block id="d5d17f408c363c187667642f4d2ee597" category="paragraph">NetApp安全網站是NetApp產品安全的真實來源： <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
+  <block id="d07de6c78533ed3ecc00b46776283804" category="paragraph">利用遙測資料和發佈的產品安全性摘要報告來偵測涵蓋*和獲支援授權產品的安全性問題。Active IQ產品遙測資料必須透過AutoSupport NetApp透過NetApp傳輸、Active IQ 才能讓Sect偵測風險。</block>
+  <block id="ac9e6dffc41619c8aed4c566d44168e4" category="paragraph">如需更多NetApp產品安全資訊、包括Active IQ 不涵蓋在內的產品、請參訪 <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
+  <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">*涵蓋產品：ONTAP 支援VMware *的支援範圍：支援內部部署與雲端技術的支援、SANtricity 支援VMware *的支援範SolidFire 圍包括：VMware *的支援範StorageGRID 圍包括：VMware *支援內部部署與雲端*、支援VMware *的支援範圍涵蓋範圍涵蓋範圍涵蓋範圍涵蓋Active IQ Unified Manager ONTAP</block>
+  <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">安全漏洞小工具</block>
+  <block id="b690081b833e8f28d12bf81f4c46d353" category="list-text">按一下「*安全性弱點*」小工具中的「*動作*」。<block ref="8410ae438d98c330146456538464956f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c17e33981c0b062b393672808567a4ab" category="paragraph">針對高影響的安全風險、請遵循建議的行動來升級作業系統。</block>
+  <block id="75b13b2a3ff2cb52d35b06fcc7348713" category="inline-image-macro">修正行動欄</block>
+  <block id="d13ac08a85c268be8e12fb2c5fc6a61f" category="list-text">按一下「*獨特風險*」標籤、然後按一下「*修正行動*」欄中的連結。<block ref="b8e4538a50e97a4603efab53e7672864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ac7de22f816f2710cfe2e83f6abc78bf" category="inline-image-macro">「修正」索引標籤</block>
+  <block id="159d95fb8858b00a76199e1c9300be15" category="paragraph">此風險已在ONTAP 更新版本的《更新版本：1.7P8（更新版本）」中修正。<block ref="4975e5a0a99336b95db3342c05516170" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="15464f88e743b55370c522e3e45b18a4" category="list-text">最重要的步驟是在 Active IQ Digital Advisor 的「*升級顧問*」(Upgrade Advisor) 中規劃 OS 升級。</block>
+  <block id="f839cdbae8d80bc224d943c9c45a46f0" category="summary">提供資訊以檢視及分析儲存系統的健全狀況、並降低風險。</block>
+  <block id="20ee74a30034c5c1341368bee35c84ff" category="doc">檢視風險並手動採取修正行動</block>
+  <block id="0e3a68f1f6b2f1d1d9fe331b11c5efa2" category="paragraph">您可以檢視與儲存系統相關的行動與風險、來分析儲存系統的健全屬性。您應該檢視相關的修正行動、並手動降低風險。</block>
+  <block id="9bbf83543e304f4973370a44626c0d09" category="list-text">按一下儀表板上的* Wellness（健康）*小工具、或按一下* View All Actions（檢視所有動作）*、即可檢視所有行動與風險的清單。</block>
+  <block id="4c1501034b347258e5d755cf7e7fb1a3" category="list-text">按一下風險名稱以檢視有關風險的資訊。</block>
+  <block id="f2681bd59cd373759d660366f9539908" category="list-text">按一下相關的修正行動、然後依照資訊來解決風險。</block>
+  <block id="05bc37729c4a94d83e8b67e8d6af6202" category="paragraph">減輕風險的步驟與所有健全屬性相同。您可以觀看下列影片、以監控及修正安全性相關問題：</block>
+  <block id="181b78869ff3c2e1d0f13fbb85809980" category="summary">提供如何使用Docker映像執行「可執行教戰手冊」的相關資訊。</block>
+  <block id="ffa09fb8e8764d736920c50362846ed7" category="doc">使用NetApp Docker映像執行可執行的教戰手冊</block>
+  <block id="18e4b799fc66943cb5ca094c22421d14" category="paragraph">在執行Ansible Playbook之前、請先確認已解壓縮* NetApp_Ansible _*。*壓縮*檔案、且已準備好含有磁碟或機櫃韌體檔案的Web伺服器。</block>
+  <block id="2e539a8b55656611ca1f039b25d5987b" category="paragraph">在使用NetApp泊塢視窗執行「可執行教戰手冊」之前、您應該：</block>
+  <block id="82d6e33ffa2d3e136792c8074ac54f9c" category="list-text"><block ref="82d6e33ffa2d3e136792c8074ac54f9c" category="inline-link-macro-rx"></block></block>
+  <block id="cd52899f1679a9b2e3b756255e5c3676" category="inline-link-macro">使用Web伺服器裝載韌體檔案</block>
+  <block id="4e934f63fd61cf954bde477d71345e3c" category="list-text"><block ref="4e934f63fd61cf954bde477d71345e3c" category="inline-link-macro-rx"></block></block>
+  <block id="6b4dbbb245371383fcc0b1b43ca85958" category="inline-link-macro">使用庫存檔案</block>
+  <block id="27f8f6c7481c543f7ac1c0d9d320816e" category="list-text"><block ref="27f8f6c7481c543f7ac1c0d9d320816e" category="inline-link-macro-rx"></block></block>
+  <block id="3570d1e60985f402f1d406b1bb17fabe" category="list-text">確保已安裝NetApp Docker。</block>
+  <block id="98b7373d39b238790c1ff24532e0131d" category="inline-link-macro">設定Docker</block>
+  <block id="f895e909f4c93c66cfc4db5135b3a996" category="list-text"><block ref="3b2e905f6f93f4d6890d3aa9d597f16a" category="inline-link-macro-rx"></block>。</block>
+  <block id="8eecd8834fb5f9cdc5f843b5d2c48c24" category="list-text">執行下列命令、從Docker Hub擷取NetApp Docker映像檔：</block>
+  <block id="037827372e4837bd8ff3497c4130c640" category="inline-link-macro">Docker Pull文件</block>
+  <block id="237179d55c9b9cc55a2a0fc332940b6e" category="paragraph">如需有關Docker Pull命令的詳細資訊、請參閱 <block ref="686c6850e2855d2f1580e6ead4c4d5b9" category="inline-link-macro-rx"></block>。</block>
+  <block id="0bc0e3827b53abf3b0f9b0fe7b6c6d6e" category="list-text">以容器形式執行Docker映像檔、然後登入容器以執行「可執行的教戰手冊」。</block>
+  <block id="7a08031c1198b73a67d7dbbfc0b2b499" category="list-text">複製包含擷取的Ansible教戰手冊和庫存檔案的資料夾路徑、例如* downloaded_playbook_path*。Ansible教戰手冊和庫存檔案應位於同一個資料夾中、以便順利執行。</block>
+  <block id="cb4d462d21cc15559dc794a881088007" category="list-text">在Docker容器上以磁碟區的形式掛載資料夾。例如、若要掛載資料夾* container路徑*、您應該執行下列命令：</block>
+  <block id="b79da91e8b6cad8ff3cbbba97849f5bd" category="inline-link-macro">Docker執行文件</block>
+  <block id="597afd67fd0e72cb7a70e153b5a0c05b" category="paragraph">容器隨即啟動、主控台現在位於容器的Bash Shell。如需Docker Run命令的詳細資訊、請參閱 <block ref="2fc7d05c935ff6be555d7f63a536aca5" category="inline-link-macro-rx"></block>。</block>
+  <block id="e5552704875aa395a98f606393ed284e" category="list-text">使用* Ansible playbook*命令在容器內執行Ansible Playbook：</block>
+  <block id="bb478311862b399ec7fa1f80b95d035f" category="admonition">如果有一組叢集具有不同的登入認證、則必須在每個叢集上執行「Ansible教戰手冊」。由於Ansible Playbook會跳過登入失敗的叢集、因此不需要變更庫存檔案。</block>
+  <block id="1714e9fb6abdf2199b4b533dbc09e449" category="inline-link-macro">Ansible教戰手冊文件</block>
+  <block id="722b950e7c3cbec69bb9c0beac55297d" category="inline-link-macro">Ansible：檢查模式</block>
+  <block id="4d4775d2493815cc4f2739862c3cbd05" category="paragraph">如需* Ansible playbook *命令的詳細資訊、請參閱 <block ref="95109b43eb6e849a8618bd2b4eef7bcf" category="inline-link-macro-rx"></block> 若要以檢查模式執行Ansible教戰手冊（演習）、請參閱 <block ref="6147f3e62e9f38d3a62da3c9a7f4664b" category="inline-link-macro-rx"></block>。</block>
+  <block id="5769cb0edb876ded60913f5ed79c0ed3" category="inline-link-macro">韌體安裝驗證</block>
+  <block id="09fb789b79f3191a076b495425e54de6" category="paragraph">執行「Ansible Playbook」之後、請參閱 <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> 以取得執行後的指示。</block>
+  <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">提供有關ClusterViewer的資訊。</block>
+  <block id="6e6b112d636d5497f59ccca67738fac3" category="doc">分析叢集和節點的健全狀況</block>
+  <block id="964f0ca73e7ebb063af3a2240b8483fb" category="paragraph">您可以使用ClusterViewer來分析叢集和節點的健全狀況、這是一站式的來源、可提供有關叢集和節點實體和邏輯組態的資訊。</block>
+  <block id="6db3885477641d8e5ca59335970bf0b0" category="paragraph">ClusterViewer提供的資訊包括節點的堆疊圖、儲存使用量與效率、硬體容量的保留空間等、可協助您做出明智的決策、改善叢集與節點的健全度。</block>
+  <block id="acc7732ef13d215f323b715a75c23913" category="paragraph">您可以在纜線、堆疊和RAID磁碟層級檢視節點實體組態的視覺效果或圖形呈現。您也可以下載svg格式的視覺效果。</block>
+  <block id="2d57c025a86cbb3c18376b2e6594182b" category="list-text">在* Inventory（詳細目錄）* Widget中、選取您要的叢集或節點（主機）。</block>
+  <block id="05f9cea794823bcfe9edd186fcb424a3" category="list-text">在叢集或節點層級、按一下*組態*小工具旁的*叢集檢視器*。</block>
+  <block id="6551f219e2490db3bc60a0ba2bac261d" category="list-text">按一下「*視覺化*」索引標籤、即可檢視叢集的圖形化呈現。</block>
+  <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">提供API目錄中可用API的相關資訊。</block>
+  <block id="99690ba41792c97440fb7507094c827d" category="doc">使用API目錄來執行API</block>
+  <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">API目錄可讓您瀏覽各個類別中的類別和可用API。</block>
+  <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">使用有效的存取權杖和正確輸入必要欄位、您就能對API進行測試呼叫。</block>
+  <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">*瀏覽*</block>
+  <block id="6b0cf1c3391c27f7ed23a37a7f08e23b" category="list-text">按一下 <block ref="fde164deb6e8e46d9dfc690af8d1059d" category="inline-link-macro-rx"></block> 在「* API目錄*」圖示下。</block>
+  <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">隨即顯示API目錄。</block>
+  <block id="82ee712943040cce957254912d97aba0" category="list-text">選取任何API</block>
+  <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">在頁面頂端、將切換開關滑至「實驗」。</block>
+  <block id="835a43b0478137c574edbef583d126a1" category="list-text">從左側導覽中、展開類別並選取任何API以檢視詳細資訊。</block>
+  <block id="fcf9335996c4ed1473286f8644d4b479" category="list-text">展開API。</block>
+  <block id="3bf0bb81ef29ed72536c933fd264a98e" category="list-text">按一下右側的*試用*按鈕。</block>
+  <block id="10d2154e0509c65c04341184204f6715" category="list-text">提供所需的參數、然後按一下*執行*以檢視結果。</block>
+  <block id="541d1e8525d813225b5812766f70549c" category="paragraph">您也可以查看API的*回應*區段、瞭解將會傳回的資料。您可以按一下*範例值*來查看資料的格式、或按一下*模型*、然後按一下插入符號來展開區段、以查看每個元素的定義。</block>
+  <block id="dd2ac633c61d9191fba57c56e22336db" category="paragraph">只要將切換切換切換到* Cod*檢視、就能以各種語言檢視程式碼範例。</block>
+  <block id="e4f7548bfc57cb05ec15b81412fadffb" category="summary">提供您擁有的整體庫存資訊。</block>
+  <block id="a8c9ef5b4f3d7f23d67ca929bf6a60ee" category="doc">檢視庫存詳細資料</block>
+  <block id="cab23e300ec643a9fe247abd78009379" category="paragraph">「*詳細目錄*」小工具可提供您擁有的系統總數總和的彙總套件。這包括Active IQ 啟用了不支援功能的產品和非啟用功能的產品。</block>
+  <block id="95cc9b63edd3c2016f97c0476635528a" category="paragraph">您也可以產生所選觀察名單的報告、並以電子郵件將報告傳送給最多5位收件者。</block>
+  <block id="2a533baae54ffebd2a7ae449c7f45df9" category="list-text">下載* Inventory *報告、以.xls格式檢視系統詳細資料。</block>
+  <block id="c97def108b37d464e0c4a724252e49d9" category="list-text">下載* Ansible Inventory（可用庫存）*報告、以區域或站台層級的.yml和.ini格式檢視系統詳細資料。</block>
+  <block id="cf9a05044c598886b8421db3045b9edd" category="paragraph">Ansible Inventory檔案可與自訂的Ansible Playbook檔案搭配使用、以進行基礎架構組態變更。</block>
+  <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">根據可做出的明智決策、提供建議。</block>
+  <block id="5649476905365d651ff75a651e4e79a8" category="doc">根據雲端建議做出明智決策</block>
+  <block id="786f97e3b85dcf5cda7df9f506b9e37f" category="paragraph">NetApp會持續分析您的系統、並提供改善系統效能、效率和健全狀況的建議。Active IQ</block>
+  <block id="afec60d9807859052bf26fac6dd60746" category="admonition">可導覽至Cloud Manager以實作建議。Active IQ</block>
+  <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">移轉</block>
+  <block id="4fc6b52f3180163cea93aa7c8da0e7dd" category="paragraph">提供儲存系統內各種可用工作負載的相關資訊、並識別雲端就緒的工作負載。將工作負載移至雲端可節省成本、並提供雲端災難恢復功能。</block>
+  <block id="46c5977f0ec6a34283e38ed39033952e" category="paragraph">建議將符合下列條件的磁碟區移轉至Cloud Volumes ONTAP 下列對象（CVO）和Cloud Volumes Service 介紹（CVS）：</block>
+  <block id="4f18efd74627acd1e83311ad6a450b7c" category="list-text">Volume應使用NFS、SMB、CIFS、FCP或iSCSI傳輸協定</block>
+  <block id="3c765c5584278c5b7d2bb8a2e48bbea0" category="list-text">排除根磁碟區</block>
+  <block id="eee58b17a5b1a316e3d557e27113c69e" category="list-text">磁碟區中的工作負載標記為Oracle、SAP、SAP HANA、MSSQL、MySQL、 SharePoint、檔案共享、虛擬化和Trident</block>
+  <block id="c1328ee3765b6fd9ea6ec610e680fd21" category="list-text">系統使用時間超過1年</block>
+  <block id="a6d684c1e9500a6c9c813745e8e2c394" category="list-text">支援合約將於6個月內終止</block>
+  <block id="fb59e0db05d49dc1ab77a214f215e7c3" category="list-text">在左窗格中、按一下*雲端建議*。</block>
+  <block id="610e13ad770f2052e464b10bf6ea8527" category="list-text">按一下「*移轉*」窗格中的任一連結。</block>
+  <block id="ddf979002bc59fc32f03076418804262" category="list-text">按一下*移轉至雲端*以啟動* Cloud Manager*。</block>
+  <block id="337c62c6b6eb7319bae58701105e889c" category="section-title">分層</block>
+  <block id="02c463794e84ded5d1c10c4e83bcc812" category="paragraph">提供非作用中本機層（Aggregate）資料、非作用中磁碟區資料、階層式資料及未受監控資料的相關資訊。您可以監控冷資料或非使用中資料、並將其分層存放至低成本的物件儲存層、藉此減少儲存設備佔用空間及相關成本。</block>
+  <block id="1ba52d4e13f2ee111637763e8fc34e61" category="admonition">您可以啟用非使用中資料報告（IDR)、以產生含有可執行教戰手冊檔案的壓縮檔。這些資訊可在客戶、站台、群組、觀察清單、叢集、 和節點層級。</block>
+  <block id="0c245730dd874b37d12f8e5789ae7608" category="paragraph">建議使用符合下列準則的磁碟區進行分層：</block>
+  <block id="c9386bad11bf78c9c46c82639aed3b42" category="list-text">Volume應使用NFS、SMB或CIFS傳輸協定</block>
+  <block id="e59435b98864e38b0a5fd790ad3f9213" category="list-text">非作用中資料超過50%</block>
+  <block id="3785a1cc5e81e3b99e7d2b0287e9c3b0" category="list-text">Aggregate容量超過50%</block>
+  <block id="c052aa26952758956923ba904ca5f96a" category="list-text">按一下「*分層*」窗格中的任一連結。</block>
+  <block id="27c212bb42a38db76960ac460b46ac3d" category="list-text">按一下*層級資料*以啟動* Cloud Manager*。</block>
+  <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link-macro">最佳實務做法FabricPool</block>
+  <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">如需FabricPool 深入瞭解有關資訊、請參閱 <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-macro-rx"></block>。</block>
+  <block id="f2b4569bc3667af0074e035180a43ef3" category="section-title">備份與歸檔</block>
+  <block id="ed0d607dcab8c81dc440cde601ff66d5" category="paragraph">提供應備份至雲端的系統相關資訊。您可以使用NetApp Cloud Backup來保護系統安全、並在必要時還原。</block>
+  <block id="711f2c81f17519fb6501c1fd6a2ec0bf" category="paragraph">建議使用符合下列準則的磁碟區來備份至雲端：</block>
+  <block id="58fd2779462a85717972aef01a3e851e" category="list-text">不SnapVault 包括來源Volume、目的地系統和具有此功能的Volume。</block>
+  <block id="8e508c78b6f8cdee2edbb3ccef2f99e0" category="list-text">按一下「*備份與歸檔*」窗格中的任一連結。</block>
+  <block id="d1077a4290f7d361380bac5612edd515" category="list-text">按一下*備份到雲端*以啟動* Cloud Manager*。</block>
+  <block id="8c340dc334134096f68b880b42a8692c" category="section-title">複寫</block>
+  <block id="a1ca393b9475ac14fc86fe05bb65fa30" category="paragraph">提供應複寫至雲端以在發生災難時提供協助的資料相關資訊。</block>
+  <block id="8a442914a9cdda78003d67734f13fd54" category="paragraph">建議將符合下列條件的磁碟區複寫至雲端：</block>
+  <block id="c54cd2366c0770abd7582f7fd94c3e4d" category="list-text">SnapMirror來源磁碟區除外</block>
+  <block id="4cb8aabcf131d734977ab53c8a2ca120" category="list-text">SnapMirror目的地磁碟區（Volume Type LS和DP）將被排除</block>
+  <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">按一下「* Disaster Recovery*」（*災難恢復*）窗格中的任一連結。</block>
+  <block id="a70fb77774e64282c4a92fa8563e4b75" category="list-text">按一下*「Replicate to Cloud」*啟動* Cloud Manager*。</block>
+  <block id="c6483c09e97ee0fc310ecd3048002f04" category="summary">Active IQ Digital Advisor 可透過雲端型入口網站和行動應用程式，提供可據以行動的預測分析和主動式支援，讓您跨越全球混合雲來最佳化資料基礎架構。Active IQ的雲端型服務運用NetApp龐大安裝基礎所產生的社群智慧與同儕比較、將這些洞見與AutoSupport 遙測和My AutoSupport 整套功能結合、提供一組先進的無與倫比的分析服務。</block>
+  <block id="8aec6a2bcfb78af1fffa4f2c52dfe49d" category="doc">Active IQ Digital Advisor 數位顧問文件</block>
+  <block id="ef8a4ebca6f4cc3e64a7ad289ebd3eb6" category="summary">提供儀表板、觀察清單、功能和小工具的相關資訊。</block>
+  <block id="0661b006f375f8cf574047a84d3831c9" category="doc">瞭Active IQ 解功能</block>
+  <block id="60f840b3ee58d04f9e443013fa9e3b28" category="paragraph">您可以在觀察清單層級，使用 Active IQ Digital Advisor 來檢視儲存系統整體狀態、系統健全度高階資訊、庫存容量、規劃升級、升級選項、及寶貴洞見。</block>
+  <block id="503f32635f00a2f9e7855f2515e0b2a6" category="paragraph">以下是 Active IQ Digital Advisor 的一些功能：</block>
+  <block id="ac1dcbd86bac3c8e0c5adb11006ef7d3" category="list-text">檢視多份報價表、可據以行動且實用的資訊一覽表</block>
+  <block id="9c469876265a6bb1e8b9865685bdea76" category="list-text">深入瞭解儲存系統的所有風險、以及降低風險的行動</block>
+  <block id="07fbf7c29b885315f5a499828e5d2912" category="list-text">升級您的儲存系統</block>
+  <block id="7c19de9daa4abc4fd87b688f29ba6e89" category="list-text">檢視儲存效率比、使用的邏輯空間、使用的實體空間、以及執行ONTAP 更新版本的儲存系統所儲存的總資料</block>
+  <block id="4c8438807538fa50db0d24cda516c562" category="list-text">檢視效能資料的圖形格式、以分析儲存設備的效能</block>
+  <block id="25bab72d979d2f781310fbd8a7510d1e" category="list-text">取得未來6個月內已過期或即將到期的硬體與軟體相關資訊</block>
+  <block id="582adb4f0e7a3267346145b6b82ce29a" category="list-text">使用Ansible更新ONTAP 您的韌體</block>
+  <block id="63a792f0efaeee81d9e7f3ba251637c2" category="list-text">取得超過90%容量或接近90%容量的系統詳細資料</block>
+  <block id="3635d6c25949f1a58c70590c42f57462" category="list-text">檢視詳細的實體和邏輯組態資訊、包括叢集和節點組態摘要、本機層級和磁碟區資訊、網路介面和連接埠資訊、詳細說明磁碟和磁碟櫃資訊的堆疊圖表、以及幾種纜線視覺效果</block>
+  <block id="99d2fd1ab881558fd1bfafc670c1e114" category="list-text">提供跨堆疊的資訊與洞見、有助於疑難排解、升級評估、解決方案驗證及移轉</block>
+  <block id="2eff8449b9983f6e6e5e4c068f551cde" category="list-text">檢查主機的相容性、並針對主機作業系統、驅動程式和韌體提供升級建議</block>
+  <block id="3ef99ba5d79d98939649058bd12621b4" category="list-text">以更聰明、更快速的方式、準確找到您想要的產品</block>
+  <block id="d8d27ee684d88256c60816459952e514" category="admonition">您可以從系統儀表板上的*組態*小工具升級支援服務、以深入瞭解您的安裝基礎、並獲得個人化支援。</block>
+  <block id="7fffffd83e81207eb469a895955d2d8a" category="summary">提供使用者可用之不同類型報告的相關資訊。</block>
+  <block id="5205cb2f3582e719834d2230589ba0f6" category="doc">報告類型</block>
+  <block id="94e352af51d87c5a98b75dabcdaad93a" category="paragraph">提供各種報告選項、讓您監控及管理系統健全狀況和運作成功。Active IQ</block>
+  <block id="4580a4b84f306c8ee589e863f752ac16" category="paragraph">以下是Active IQ 可在《》中取得的報告類型：</block>
+  <block id="fb988f484e2c15b2a450e5b4c6255e46" category="cell">報告名稱</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">說明</block>
+  <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">提供未解決及已確認的風險、風險詳細資料、修正行動及受影響系統的相關資訊。</block>
+  <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">健全狀況：彙總</block>
+  <block id="df67990129d3bd9cbda01755e666bbee" category="cell">提供未解決風險的摘要、以及受影響系統的數量。</block>
+  <block id="0c9c13cde9e8b69be84ca36dee87f611" category="cell">7-Mode Upgrade Advisor計畫</block>
+  <block id="997e7cc095a9554f17d93457daa42a47" category="cell">提供關於7-mode系統升級顧問計畫的報告。本報告包含HA合作夥伴的相關資訊。</block>
+  <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">提供可Ansible庫存檔案、依地區或站台列出所有系統庫存詳細資料。此檔案可用於自動化。</block>
+  <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
+  <block id="7eaee357275d531796b5348076c7abaa" category="cell">提供非使用中、冷、作用中、熱、階層式、 和未受監控的資料。本報告也包含可在停用的Aggregate上啟用「非作用中資料報告」的可執行方針。</block>
+  <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">提供所選觀察清單、客戶、站台、群組層級的安裝基礎相關資訊。此報告可從「庫存詳細資料」頁面直接下載、也可從「報告」頁面產生。</block>
+  <block id="7a1964d60060b532bf912499ef0e5419" category="cell">終止支援壽命</block>
+  <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">提供已達到支援終止（EOS）的控制器、磁碟櫃和磁碟清單資訊。</block>
+  <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">建議組態</block>
+  <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">提供遠端管理組態、備援磁碟機、HA配對和SVM健全狀況等各種建議組態落差的相關資訊。</block>
+  <block id="fca571dd1b59c732f4bccd0d20435b5d" category="cell">技術案例詳細資料</block>
+  <block id="d6cb167525a6b69100791b38c109bfe9" category="cell">提供所有技術案例及其狀態的年度報告。</block>
+  <block id="5cbae6debb1f76f9bf4bec9196da5dc6" category="cell">升級建議（軟體與韌體）</block>
+  <block id="9932f2379db681a01520e32c482a3ddb" category="cell">搜尋條件中每個控制器或序列的軟體與韌體幣別及建議版本的多索引標籤式報告。</block>
+  <block id="7ba03c87de2b2098f95107674c8477ff" category="cell">ClusterViewer報告</block>
+  <block id="acaaa059ccc549a29b26a0c1ad515bba" category="cell">提供客戶與報價表層級的單一或多個叢集相關資訊。您只能針對最多100個節點的觀察清單產生此報告。</block>
+  <block id="2d99f2b259d1d48f91090cd494f911f9" category="cell">容量與效率</block>
+  <block id="5da3b92de536337b0597bb58ef5868ac" category="cell">提供叢集、客戶、站台、群組、觀察清單和節點層級的容量與效率詳細資料。</block>
+  <block id="7780a058aaed86fab91b6e7629c71e93" category="cell">Volume效能報告</block>
+  <block id="2bc63cd07b97ee266354dc14df194285" category="cell">提供叢集層級磁碟區效能詳細資料的相關資訊。</block>
+  <block id="f7ced170f0a650cade73ee4d9d2d75de" category="cell">效能報告</block>
+  <block id="a26bfd54d2d0360c1432f1b51ff336ad" category="cell">提供叢集、節點、本機層級（Aggregate）和磁碟區效能的詳細資訊。您只能針對最多100個節點的觀察清單產生此報告。</block>
+  <block id="23ed0325a3e4b1fb0cb88618017f6637" category="doc">執行不含NetApp Docker映像的可執行教戰手冊</block>
+  <block id="a7f5f35426b927411fc9231b56382173" category="inline-link-macro">Python</block>
+  <block id="d51d5ee15f404c2f4f7863bebcde1fac" category="inline-link-macro">Ansible</block>
+  <block id="c4d54d13c97f7b21566ce91cf519f7d1" category="list-text">安裝 <block ref="860a6dcfd65a4cc731e87e6d8725ecef" category="inline-link-macro-rx"></block> 和 <block ref="086704ee55f1abf90c8de86788d2188f" category="inline-link-macro-rx"></block>。</block>
+  <block id="e7c02bb7153fb9b42ed0dd17ac63ab65" category="list-text">使用* pip*安裝所需的Python套件：</block>
+  <block id="bc9eaf8dbca65e51b0aa7bd8ddc04278" category="list-text">使用* Ansible－gal銀河*命令安裝NetApp Ansible集合：</block>
+  <block id="5834961728fb1e8689bb80975152a998" category="inline-link-macro">Ansible銀河文件</block>
+  <block id="509364058559184a4e13280292a2e466" category="inline-link-macro">NetApp Ansible收藏頁面</block>
+  <block id="9be55a0983d66ca9beb418a166d36252" category="paragraph">如需Ansible銀河命令的詳細資訊、請參閱 <block ref="e4d002c66ffff735092421718e986120" category="inline-link-macro-rx"></block> 如需NetApp Ansible Collection的詳細資訊、請參閱 <block ref="ba103299e96a7cc55110b34488ce1c0b" category="inline-link-macro-rx"></block>。</block>
+  <block id="338486320c79b4d1c52d4b4142a79ae2" category="list-text">使用* Ansible playbook*命令執行Ansible Playbook：</block>
+  <block id="f727e1702f3053598d515b2bdf4b8161" category="paragraph">如需* Ansible playbook *命令的詳細資訊、請參閱 <block ref="95109b43eb6e849a8618bd2b4eef7bcf" category="inline-link-macro-rx"></block> 若要以檢查模式（演習）執行「Ansible Playbook」、請參閱 <block ref="6147f3e62e9f38d3a62da3c9a7f4664b" category="inline-link-macro-rx"></block>。</block>
+  <block id="207d610de4ff42212b921026752872d2" category="paragraph">執行本方針後、請參閱 <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> 以取得執行後的指示。</block>
+  <block id="d33c547719b131d3de1a17847217be28" category="summary">提供如何驗證韌體安裝的資訊。</block>
+  <block id="19f3cc5c7d290cca42fee095792dee18" category="doc">驗證韌體安裝</block>
+  <block id="43cf401c92f61570be3a8b8af451acf3" category="paragraph">執行實戰手冊後、以叢集管理員身分登入叢集。</block>
+  <block id="3d4609be21bd67626ea8848d17b975ec" category="section-title">驗證磁碟韌體安裝</block>
+  <block id="3083d2c1ae7f9607307c4933fafac051" category="list-text">確認已安裝磁碟機韌體：</block>
+  <block id="ddaf90ba9130735e22c69470b8ca1105" category="paragraph">如需命令的詳細資訊、請參閱｛link with -bingeres｝[storage disk show]。</block>
+  <block id="4a291709986e76671c4e1ef51ec0498d" category="list-text">確認已安裝新的NVMe Flash Cache韌體：</block>
+  <block id="e369aca69b6564e01b781fd587d2025c" category="paragraph">如需有關命令的詳細資訊、請參閱｛link with -binges｝[系統控制器flash-cache show]。</block>
+  <block id="66db453df531af0a73add1cbbef1ceb6" category="section-title">驗證機櫃韌體安裝</block>
+  <block id="894f02f1db5e6fbe18ce3d45767d3756" category="list-text">確認新的機櫃韌體已更新：</block>
+  <block id="2d77282afafc6d5db219df50ea65e332" category="paragraph">在輸出中、確認每個機櫃的韌體已更新至所需的層級。例如：</block>
+  <block id="b30a1cfbe7a32d2e40e04190f7966a31" category="paragraph">如需命令的詳細資訊、請參閱｛link with底線｝[系統節點執行]。</block>
+  <block id="416af856ff2ea6b6a1bf3e9296eb34d8" category="list-text">確認新的ACP韌體已更新：</block>
+  <block id="caa63608d42a3d23018646f69df48ac9" category="paragraph">如需有關命令的詳細資訊、請參閱｛link with -binges｝[儲存櫃ACP模組show]。</block>
+  <block id="f1ac933796d7e8a621dc4f778e1ca2a9" category="list-text">確認已設定所需的ACP模式：</block>
+  <block id="2c24f319b514a723a1df15f5012dac8a" category="paragraph">如需有關命令的詳細資訊、請參閱｛link with -binges｝[儲存櫃ACP show]。</block>
+  <block id="7803d493a86a46af8da6da871f5b8190" category="list-text">變更ACP模式（通道）：</block>
+  <block id="2852ca69aef82e487818a169ee3f9ab5" category="paragraph">如需有關命令的詳細資訊、請參閱｛link with -binges｝[儲存櫃ACP設定]。</block>
+  <block id="0ec4134b90582cc935ee8837f4b79494" category="section-title">正在驗證SP/BMC韌體安裝</block>
+  <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">啟用服務處理器/BMC韌體更新的可執行教戰手冊、並提供選項來驗證控制器上最新的SP/BMC韌體的安裝。驗證完成後（更新最多需要兩小時）、Ansible教戰手冊會連線至SP/BMC主控台、套用內部交換器韌體更新。</block>
+  <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">執行「允許教戰手冊」結束時、將會通知SP/BMC韌體和內部交換器韌體安裝的失敗與成功資訊。如果SP/BMC韌體/內部交換器韌體安裝失敗、請遵循《Ansible Playbook》中所述的步驟。</block>
+  <block id="0056e708efc93210499292c833fd6580" category="sidebar">Active IQ Digital Advisor 文件</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速入門</block>
+  <block id="0a68dc74d82b0caf2bae22d33594834f" category="sidebar">關鍵Active IQ 概念</block>
+  <block id="e179ba0b158b2a7f9047aea26b6a2227" category="sidebar">瞭解AutoSupport</block>
+  <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">資源配置觀察清單</block>
+  <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">總覽</block>
+  <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">檢視Active IQ Unified Manager 可透過《不經認證的戰術》或《可執行的戰術》來自動減輕的風險</block>
+  <block id="e5c576a815351e15ac0b32011a7cd066" category="sidebar">更新軟體與硬體</block>
+  <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">檢視系統詳細資料</block>
+  <block id="46edca0ff6e552183e1d49c7d4a3ff08" category="sidebar">與Cloud Insights VMware整合以檢視虛擬機器詳細資料</block>
+  <block id="6721d14778dfec7598747969baedc497" category="sidebar">檢視Keystone訂閱容量使用率</block>
+  <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">主動識別系統需求</block>
+  <block id="b3f73dc804d731e2fd50580bfb4bd2bb" category="sidebar">識別組態差異</block>
+  <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">產生飄移時間軸報告</block>
+  <block id="0cc0b1a131ca25b1ae5d22ddb1c11865" category="sidebar">提升儲存系統的效率與效能</block>
+  <block id="6029b29ba0bf4fa906d9b33aeb4affea" category="sidebar">分析容量與效率節約效益</block>
+  <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">分析儲存效能</block>
+  <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">分析儲存系統的健全狀況</block>
+  <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">升級以最佳化安裝基礎</block>
+  <block id="1d6e1053c3a5ac9c901ad8624d357a85" category="sidebar">升級ONTAP 儲存系統的版本</block>
+  <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">使用Ansible教戰手冊更新AFF 您的功能性和FAS 功能性的韌體</block>
+  <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">安裝並執行AFF 不FAS 受限的Automation套件（經驗豐富的使用者）</block>
+  <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">安裝並執行AFF 不FAS 受限的Automation套件（初學者）</block>
+  <block id="d9daa9f2104f9630f56fba5a79e00e16" category="sidebar">使用Web伺服器來裝載韌體檔案</block>
+  <block id="1ecec82935ab6d53ed561471cf78dfed" category="sidebar">使用Inventory檔案</block>
+  <block id="09a5a45f88e6f466acff860555335df6" category="sidebar">使用NetApp Docker映像執行Ansible教戰手冊</block>
+  <block id="72d8c17b82a8128c57dce58c29f29979" category="sidebar">執行不含Docker的可執行教戰手冊</block>
+  <block id="624bf3c50fda6cdcdab599281e893dee" category="sidebar">疑難排解、意見反應與支援</block>
+  <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">使用API整合資料</block>
+  <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">產生權杖以存取API</block>
+  <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">產生自訂報告</block>
+  <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">常見問題集</block>
+  <block id="92073a6013a22635da417c415cea3970" category="sidebar">深入瞭解Active IQ</block>
+  <block id="80f522a133d5c0697a1422b8cba4f439" category="sidebar">快速入門Active IQ</block>
+  <block id="3903992d449534623e64de4fb24bc7bf" category="sidebar">使用Active IQ</block>
+  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">檢視風險並採取修正行動</block>
+  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">偵測組態差異</block>
+  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">修正重大安全風險</block>
+  <block id="d30be8ed596e28125eabf3aaa9088577" category="sidebar">使用Active IQ 功能分析</block>
+  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">檢視ONTAP 有關升級的建議</block>
+  <block id="29cb371773858a73b7aca64ff6f208f4" category="sidebar">透過「 View Flex 訂閱」檢視容量使用率 NetApp Keystone</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多資源</block>
+  <block id="f706543e3bc2ef8cf127bd6a70d0b831" category="sidebar">網頁入口網站Active IQ</block>
+  <block id="dd4f53241a447bade15efabb4cd19ce4" category="sidebar">影片Active IQ</block>
+  <block id="df332e88c38c4fe66059f71090f042ca" category="sidebar">NetApp社群Active IQ</block>
+  <block id="9fb5d585aad7cbcbf4b27548d6b5e072" category="sidebar">支援行動應用程式（Android）Active IQ</block>
+  <block id="1b2c7b8f8e2694e94122b68464b31c9f" category="sidebar">作業系統（iOS）Active IQ</block>
+</blocks>

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept_key_terms.html 
 keywords: overview, inventory, wellness, widgets, actions 
-summary: 提供Active IQ 有關《知識》中使用關鍵詞彙的資訊。 
+summary: 提供 Active IQ Digital Advisor 所使用關鍵詞彙的相關資訊。 
 ---
 = 主要概念
 :toc: macro
@@ -19,9 +19,9 @@ summary: 提供Active IQ 有關《知識》中使用關鍵詞彙的資訊。
 
 
 [role="lead"]
-當您開始使用Active IQ 「景點數位顧問」時、請務必瞭解Active IQ 您在整個「景點數位顧問」中所能看到的一些基本詞彙。
+當您開始使用 Active IQ Digital Advisor 時，請務必先瞭解會在整個 Active IQ Digital Advisor 中看到的一些基本術語。
 
-* *觀察名單：*讓您能夠靈活存取Active IQ 已被選中的菜單、包括在內的系統。您可以使用觀察名單來新增一或多個客戶的系統。
+* *觀察清單 (Watchlist)：*讓您能夠在 Active IQ Digital Advisor 內靈活存取已被選定的系統。您可以使用觀察名單來新增一或多個客戶的系統。
 +
 ** * Wellness Dashboard：*提供觀察清單中系統的整體狀態。
 ** *小工具：*在儀表板上顯示小型應用程式、可快速摘要顯示系統狀態。
@@ -89,9 +89,9 @@ summary: 提供Active IQ 有關《知識》中使用關鍵詞彙的資訊。
 * *《寶貴見解》小工具：*提供支援案例數量、擱置中的軟體升級、儲存效率節約、降低風險等相關資訊。它也會主動列出Wellness屬性的風險通知。
 * *《*》：*可讓您從高層或詳細的角度檢視《*》。AutoSupport AutoSupport詳細資料包括系統詳細資料、可能發生問題的原因、以及建議的行動。
 +
-若要存取AutoSupport 此功能、請登入Active IQ 「e字串數位顧問」並搜尋叢集或主機名稱。左側窗格提供了這個選項。AutoSupport
+若要存取 AutoSupport 功能，請登入 Active IQ Digital Advisor，然後搜尋叢集或主機名稱。左側窗格提供了這個選項。AutoSupport
 
-* *快速連結：*提供Active IQ 可以使用「支援資訊顧問」啟動的應用程式清單。
+* *快速連結 (Quick Links)：*提供使用 Active IQ Digital Advisor 時可以啟動的應用程式清單。
 +
 ** * ClusterViewer:*可讓您查看詳細的實體和邏輯組態資訊。詳細資料會顯示在多個索引標籤上的數個易於檢視的表格中、這些索引標籤包括叢集與節點組態的摘要、本機層級與磁碟區資訊、網路介面與連接埠資訊、詳細說明磁碟與磁碟櫃資訊的堆疊圖表、以及一些纜線視覺效果。您也可以下載svg格式的纜線視覺效果圖形。
 +

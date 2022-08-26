@@ -34,9 +34,9 @@ summary: 提供版本限制的相關資訊。
 
 
 
-== 編輯報價表可能需要60分鐘的時間、才能反映Active IQ 在《e數位顧問》中
+== 編輯觀察清單之後，可能需要 60 分鐘才會反映在 Active IQ Digital Advisor 中
 
-編輯報價表並Active IQ 不會立即更新《支援資訊》中的資訊。變更可能需要60分鐘的時間才能反映Active IQ 在《關於數位顧問的資訊》中。
+編輯觀察清單並不會立即更新 Active IQ Digital Advisor 中的資訊。所做變更可能需要 60 分鐘才會反映在 Active IQ Digital Advisor 中。
 
 
 
@@ -46,6 +46,6 @@ summary: 提供版本限制的相關資訊。
 
 
 
-== 認可和未確認的風險可能需要60分鐘時間才能反映Active IQ 在《e數位顧問》中
+== 已確認和未確認的風險事項可能需要 60 分鐘才會反映在 Active IQ Digital Advisor 中
 
-已確認及未確認的風險狀態、並未立即反映在Active IQ 《e數位顧問》中。變更可能需要60分鐘的時間、才能反映Active IQ 在「資訊顧問」和「健康報告」中。
+對於已確認和未確認的風險事項，其狀態不會立即反映在 Active IQ Digital Advisor 中。所做變更可能需要 60 分鐘才會反映在 Active IQ Digital Advisor 和健全度報告中。
