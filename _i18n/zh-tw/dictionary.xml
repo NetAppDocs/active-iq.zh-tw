@@ -352,15 +352,9 @@
   <block id="a7601e85e4e519e4d1467321c32fe973" category="list-text"><block ref="a7601e85e4e519e4d1467321c32fe973" category="inline-link-macro-rx"></block></block>
   <block id="345d76812dbf5452d2588e7271cf8436" category="summary">提供有關使用NetApp訂閱的容量使用率資訊NetApp Keystone 。</block>
   <block id="29cb371773858a73b7aca64ff6f208f4" category="doc">透過「 View Flex 訂閱」檢視容量使用率 NetApp Keystone</block>
-  <block id="a0569192c93daf768db9180658231e9e" category="paragraph">如果您訂閱Keystone Flex訂閱服務、您可以在Active IQ 「e數位顧問儀表板」上檢視Flex訂閱小工具。</block>
-  <block id="2a386132dc9368657bf55334cdc2e9c0" category="paragraph">Flex訂閱小工具會提供您帳戶容量使用量的摘要。其中包含容量使用率圖表、以及邏輯容量、快照會四捨五入至最後五分鐘。超過承諾容量（突發容量）的使用率會標示為紅色。</block>
   <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link-macro">服務層級</block>
-  <block id="a40699645a064ce56bb66217612d0bbf" category="paragraph">您可以檢視*基礎概念-容量使用率*儀表板、此儀表板會分析小工具中的資料、並以圖形方式呈現所有訂閱儲存設備容量和使用量的使用率趨勢 <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-macro-rx"></block>、例如Premium、Extreme和Standard、與NetApp Keystone 您的FlexFlex訂閱帳戶有關。</block>
-  <block id="e252513a2a6c279f863372807d4d590a" category="inline-link-macro">彈性訂閱服務容量</block>
-  <block id="c247604a9a54e024469e50635a2178fb" category="paragraph">您可以檢視 <block ref="89a369e27820d8f4b4edc540b820bd22" category="inline-link-macro-rx"></block> 以及儀表板上每個已訂閱服務的區塊、檔案服務或物件儲存設備使用量。</block>
   <block id="c56661a66437cf16fa6985915185aa55" category="admonition">身為一個不一樣的使用者、您可以選擇使用「資料收集器」和「參考資料」來取得容量使用量的資料。Active IQ ONTAP AutoSupport</block>
   <block id="559ab0392555ba0574ee8aafcb0dd4b8" category="list-text">按一下「*檢視詳細資料*」、即可在「詳細資料*基礎概念-容量使用率*」儀表板中檢視使用率趨勢。</block>
-  <block id="d59bded01684ae09c11dfc24d78fbe41" category="list-text">選取30天、7天或1天以檢視最近的平均使用量趨勢。</block>
   <block id="6c6a95e0f5aea889e91da11c9661f08c" category="list-text">或者、如果您選擇ONTAP 使用「資料收集器」來取得容量使用量的資料、您可以按一下儀表板上的索引標籤來檢視檔案共用和磁碟的詳細資料。</block>
   <block id="6fc85e5ba98ece0cf451b774e77a7a7c" category="paragraph">按一下*共享*或*磁碟*來識別接近已認可容量的檔案共用區或磁碟、並做出明智的決策以節省儲存容量。</block>
   <block id="5aa601140b131288c890a0936edb134f" category="summary">提供登入Active IQ 資訊以供登入至《支援資料》。</block>
@@ -1098,7 +1092,6 @@
   <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">檢視Active IQ Unified Manager 可透過《不經認證的戰術》或《可執行的戰術》來自動減輕的風險</block>
   <block id="e5c576a815351e15ac0b32011a7cd066" category="sidebar">更新軟體與硬體</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">檢視系統詳細資料</block>
-  <block id="dc63f1d6af160ca1c3f1b882bf421db7" category="sidebar">檢視Flex訂閱容量使用率</block>
   <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">主動識別系統需求</block>
   <block id="b3f73dc804d731e2fd50580bfb4bd2bb" category="sidebar">識別組態差異</block>
   <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">產生飄移時間軸報告</block>
@@ -1208,4 +1201,28 @@
   <block id="8a442914a9cdda78003d67734f13fd54" category="paragraph">建議將符合下列條件的磁碟區複寫至雲端：</block>
   <block id="c54cd2366c0770abd7582f7fd94c3e4d" category="list-text">SnapMirror來源磁碟區除外</block>
   <block id="4cb8aabcf131d734977ab53c8a2ca120" category="list-text">SnapMirror目的地磁碟區（Volume Type LS和DP）將被排除</block>
+  <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">透過NetApp Keystone 「View訂閱」檢視容量使用率</block>
+  <block id="3d49fcaa5c70ee5c62bd12985bcdc011" category="paragraph">如果您訂閱Keystone訂閱服務、可以在Active IQ Digital Advisor 「支援資訊」儀表板上檢視Keystone訂閱小工具。</block>
+  <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">Keystone訂閱小工具可提供您帳戶容量使用量的摘要。其中包含實體容量的容量使用率圖表、快照會四捨五入至最後五分鐘。超過承諾容量（突發容量）的使用率會標示為紅色。</block>
+  <block id="f05054c9a7b129693b022320001e81ed" category="paragraph">您可以檢視*基礎概念-容量使用率*儀表板、此儀表板會分析小工具中的資料、並以圖形方式呈現所有訂閱儲存設備容量和使用量的使用率趨勢 <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-macro-rx"></block>（例如Premium、Extreme和Standard）、與NetApp Keystone 您的「精選訂閱」帳戶有關。</block>
+  <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Keystone訂閱服務容量</block>
+  <block id="eada85ae345afac1356e1265ed14965d" category="paragraph">您可以檢視 <block ref="c3e14696d82449875aa62ae1bc7f05d0" category="inline-link-macro-rx"></block> 以及儀表板上每個已訂閱服務的區塊、檔案服務或物件儲存設備使用量。</block>
+  <block id="842ffce382b29ce5f564cf2e7a51575e" category="list-text">選取「目前帳單期間」、「30天」、「7天」或「1天」、即可檢視最近的平均使用量趨勢。</block>
+  <block id="b75ffe757df198361f55d7334bf6a3ea" category="paragraph">在目前的計費期間、您可以下載報告、其中提供有關連拍詳細資料的資訊。</block>
+  <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
+  <block id="0b351c39af261a93af103bf080f120a3" category="paragraph">VMware資產的vCenter、ESXi主機和虛擬機器相關資訊現已包含在詳細目錄中、以提供完整的堆疊庫存和互通性檢查。 <block ref="c1d18b80dac13889361e9f73d9613fbb" category="inline-link-macro-rx"></block>。</block>
+  <block id="cc035831ceccd9eaf04a71fd720c7f1f" category="summary">提供Cloud Insights 有關VMware中虛擬機器的資訊</block>
+  <block id="d152c939b222bcd3e796ea901ac07554" category="doc">與Cloud Insights VMware整合以檢視虛擬機器詳細資料</block>
+  <block id="bad5d4e303a8943f6791b611707e97f2" category="paragraph">目前、支援使用者將支援的功能整合到了支援完整堆疊庫存和互通性的版本中、以供客戶進行檢查。Active IQ Cloud Insights</block>
+  <block id="7988a3af08a9ab5c3313f24277fd8cdb" category="paragraph">這項整合的優點包括：</block>
+  <block id="d73fc2f93b0cf7e6d3bf78fb70bff2a8" category="list-text">簡化ONTAP SaaS對功能的監控</block>
+  <block id="05bffae7acee1d751495fb2f8a0701fe" category="list-text">VMware完整堆疊監控的可見度</block>
+  <block id="c1541ad2124531ef89e365336511a23e" category="list-text">透過自動化互通性檢查、協助ONTAP 客戶進行升級規劃、進而節省生產力。如此一ONTAP 來、就能更順暢地進行升級、並降低與主機不相容的風險。</block>
+  <block id="8c0f9ce9681dd5179f5451c71f8f6793" category="admonition">此功能僅適用於SupportEdge Advisor VMware、SupportEdge Expert VMware及Active IQ VMware升級合約。</block>
+  <block id="cf14d774d8d0c6d9907931e44af83d21" category="list-text">在* Inventory（資源清冊）*小工具中、按一下* Virtual Machines（虛擬機器）*以檢視Cloud Insights 在VMware中可用的資料。</block>
+  <block id="5292d19ab11993bca39a0810f62fdc4d" category="list-text">單擊*虛擬機概述*選項卡。</block>
+  <block id="e0c81bd049581387caad2e365f631ca6" category="list-text">按一下* ESX主機數*以檢視有關主機的資訊。</block>
+  <block id="79fc7fc3d1c3888f0da7bea1712b7cb0" category="list-text">按一下「* ESX Name*」瀏覽Cloud Insights 至「介紹」以檢視更多資訊。</block>
+  <block id="46edca0ff6e552183e1d49c7d4a3ff08" category="sidebar">與Cloud Insights VMware整合以檢視虛擬機器詳細資料</block>
+  <block id="6721d14778dfec7598747969baedc497" category="sidebar">檢視Keystone訂閱容量使用率</block>
 </blocks>

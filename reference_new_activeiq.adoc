@@ -23,6 +23,16 @@ NetApp Active IQ We Digital Advisor提供下列功能與增強功能：
 
 
 
+== 2022年8月25日
+
+
+
+=== 庫存
+
+VMware資產的vCenter、ESXi主機和虛擬機器相關資訊現已包含在詳細目錄中、以提供完整的堆疊庫存和互通性檢查。 link:task-integrating-with-cloud-insights-to-view-vm-details.html["瞭解方法"]。
+
+
+
 == 2022年7月14日
 
 

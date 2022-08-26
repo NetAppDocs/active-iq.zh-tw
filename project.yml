@@ -67,9 +67,11 @@ sidebar:
     entries:
     - title: 檢視庫存詳細資料
       url: "/task_view_inventory_details.html"
+    - title: 與Cloud Insights VMware整合以檢視虛擬機器詳細資料
+      url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
     - title: 檢視寶貴的洞見
       url: "/task_view_valuable_insight_widget.html"
-    - title: 檢視Flex訂閱容量使用率
+    - title: 檢視Keystone訂閱容量使用率
       url: "/task_view_keystone_capacity_utilization.html"
   - title: 主動識別系統需求
     entries:

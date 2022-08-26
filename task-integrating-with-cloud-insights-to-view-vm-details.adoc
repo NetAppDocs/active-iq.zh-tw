@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task-integrating-with-cloud-insights-to-view-vm-details.html 
+keywords: Cloud Insights, VMs, virtual machines 
+summary: 提供Cloud Insights 有關VMware中虛擬機器的資訊 
+---
+= 與Cloud Insights VMware整合以檢視虛擬機器詳細資料
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+目前、支援使用者將支援的功能整合到了支援完整堆疊庫存和互通性的版本中、以供客戶進行檢查。Active IQ Cloud Insights
+
+這項整合的優點包括：
+
+* 簡化ONTAP SaaS對功能的監控
+* VMware完整堆疊監控的可見度
+* 透過自動化互通性檢查、協助ONTAP 客戶進行升級規劃、進而節省生產力。如此一ONTAP 來、就能更順暢地進行升級、並降低與主機不相容的風險。
+
+
+
+NOTE: 此功能僅適用於SupportEdge Advisor VMware、SupportEdge Expert VMware及Active IQ VMware升級合約。
+
+.步驟
+. 在* Inventory（資源清冊）*小工具中、按一下* Virtual Machines（虛擬機器）*以檢視Cloud Insights 在VMware中可用的資料。
+. 單擊*虛擬機概述*選項卡。
+. 按一下* ESX主機數*以檢視有關主機的資訊。
+. 按一下「* ESX Name*」瀏覽Cloud Insights 至「介紹」以檢視更多資訊。
+
