@@ -816,11 +816,8 @@
   <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">提供資訊以檢視及升級ONTAP 儲存系統的版本。</block>
   <block id="d6917a390639e0a267939dc55858c685" category="doc">透過產生升級計畫來升級ONTAP 此版本</block>
   <block id="46a187e39eefc3fd35138a494e565b49" category="paragraph">您可以檢視儲存系統的擱置升級、ONTAP 並藉由產生升級計畫來升級至更新版本的版次。您也應該檢視「風險顧問」標籤中的風險清單、因為升級而會減輕風險。</block>
-  <block id="49786ca9e9171e0b112a14ef40054cea" category="list-text">在儀表板上、在*升級*小工具中檢視擱置的升級。</block>
   <block id="38fafc5e9c9553727750b9510171bb41" category="list-text">按一下*動作*的數目、即可檢視擱置中的升級。</block>
-  <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">選取所需的升級選項。</block>
   <block id="01d220f359ae904005a0944f594a1bcd" category="list-text">按一下小工具上顯示的系統數量、即可檢視*升級顧問*索引標籤。</block>
-  <block id="a6b0fa6504db5a6f3dee9bdba49d1fe7" category="paragraph">您也可以查看版本資訊、以檢視版本的詳細資訊。</block>
   <block id="ac73a7625c762ca863d294bc61f64a16" category="list-text">檢視「風險顧問」標籤中的風險清單、以及其嚴重性等級、因為升級而可減輕風險。</block>
   <block id="281921503952801e23be5489728f4728" category="list-text">按一下「*產生升級計畫*」以瀏覽至*升級顧問*。</block>
   <block id="f48a84db276a73cbf07dc419e82ec5ec" category="summary">提供 Active IQ Digital Advisor 所使用關鍵詞彙的相關資訊。</block>
@@ -1225,4 +1222,12 @@
   <block id="df332e88c38c4fe66059f71090f042ca" category="sidebar">NetApp社群Active IQ</block>
   <block id="9fb5d585aad7cbcbf4b27548d6b5e072" category="sidebar">支援行動應用程式（Android）Active IQ</block>
   <block id="1b2c7b8f8e2694e94122b68464b31c9f" category="sidebar">作業系統（iOS）Active IQ</block>
+  <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">多跳升級</block>
+  <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">對於非鄰近版本的自動不中斷升級（andu）、您可以安裝中間版本和目標版本的軟體映像。自動化升級程序會使用背景中的中繼映像來完成目標版本的更新。例如、如果叢集執行9.3且您想升級至9.7、則會載入ONTAP 9.5和9.7的版次安裝套件、然後啟動andu至9.7。然後、將叢集先自動升級至9.5、再升級至9.7。ONTAP您應預期在程序期間會有多個接管/恢復作業及相關的重新開機。</block>
+  <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">升級顧問</block>
+  <block id="e9588616576594b7265f748171c85266" category="list-text">在儀表板上、在*升級*小工具中檢視擱置的升級。<block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="64916198004d1ee19b1b50002f51f1a8" category="inline-image-macro">升級選項</block>
+  <block id="6398194d87822fdaa5a4dac58b51a1cd" category="list-text">選取所需的升級選項。<block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b58373ef1164bbd04be01f9d80e8c58e" category="inline-image-macro">產生升級計畫</block>
+  <block id="7438b9deedb82087dad294ad34018afe" category="paragraph">您也可以查看版本資訊、以檢視版本的詳細資訊。<block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

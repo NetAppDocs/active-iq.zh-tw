@@ -317,4 +317,4 @@ NOTE: 其中包含保留給檔案或磁碟區保證類型磁碟區的空間。�
 * 系統處於非使用中狀態
 
 
-如果您因為其他原因而無法檢視系統、 link:https://mysupport.netapp.com/site/help["建立非技術案例"]。若要深入瞭解非技術案例、請按一下 <<Non-technical case,請按這裡。>>
+如果您因為其他原因而無法檢視系統、 link:https://mysupport.netapp.com/site/help["建立非技術案例"]。若要深入瞭解非技術案例、請按一下  case,請按這裡。
