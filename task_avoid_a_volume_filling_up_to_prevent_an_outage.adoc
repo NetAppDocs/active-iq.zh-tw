@@ -19,10 +19,10 @@ summary: 提供如何避免磁碟區滿量以避免中斷運作的相關資訊�
 
 
 [role="lead"]
-當您登入 Active IQ Digital Advisor 時，請注意「*組態*」(Configuration) 小工具上是否出現紅色徽章。按一下小工具後、您會發現磁碟區已滿98%、這可能會導致中斷運作。修正此問題可避免磁碟區充滿、這會使其變成唯讀、導致存取它的應用程式當機且故障。
+當您登入Digital Advisor時、請注意*組態*小工具上的紅色徽章。按一下小工具後、您會發現磁碟區已滿98%、這可能會導致中斷運作。修正此問題可避免磁碟區充滿、這會使其變成唯讀、導致存取它的應用程式當機且故障。
 
 .步驟
-. 登入 Active IQ Digital Advisor。
+. 登入Digital Advisor。
 . 按一下*組態*小工具中的*動作*。image:Configuration_image 1 prevent an outage.png["組態Widget"]
 . 按一下*獨特風險*索引標籤。按一下「*修正行動*」連結後、您可以變更警告臨界值、或為磁碟區分配更多空間。image:Risk summary_image 2 prevent an outage.png["風險摘要"]
 

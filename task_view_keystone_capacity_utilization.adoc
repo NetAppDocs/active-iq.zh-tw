@@ -19,7 +19,7 @@ summary: 提供有關使用NetApp訂閱的容量使用率資訊NetApp Keystone �
 
 
 [role="lead"]
-如果您訂閱Keystone訂閱服務、可以在Active IQ Digital Advisor 「支援資訊」儀表板上檢視Keystone訂閱小工具。
+如果您已訂閱Keystone訂閱服務、則可在Digital Advisor儀表板上檢視Keystone訂閱小工具。
 
 Keystone訂閱小工具可提供您帳戶容量使用量的摘要。其中包含實體容量的容量使用率圖表、快照會四捨五入至最後五分鐘。超過承諾容量（突發容量）的使用率會標示為紅色。
 
@@ -28,7 +28,7 @@ Keystone訂閱小工具可提供您帳戶容量使用量的摘要。其中包含
 您可以檢視 link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Keystone訂閱服務容量"] 以及儀表板上每個已訂閱服務的區塊、檔案服務或物件儲存設備使用量。
 
 
-NOTE: 身為一個不一樣的使用者、您可以選擇使用「資料收集器」和「參考資料」來取得容量使用量的資料。Active IQ ONTAP AutoSupport
+NOTE: 身為數位顧問使用者、您可以選擇ONTAP 使用「資料收集器」和AutoSupport 「參考資料」、以取得容量使用量的相關資料。
 
 .步驟
 . 按一下「*檢視詳細資料*」、即可在「詳細資料*基礎概念-容量使用率*」儀表板中檢視使用率趨勢。

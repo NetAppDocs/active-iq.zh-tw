@@ -4,7 +4,7 @@ permalink: reference_new_activeiq.html
 keywords: 'what"s new, features, new' 
 summary: 提供版本新功能的相關資訊。 
 ---
-= Active IQ Digital Advisor 新增功能
+= 數位顧問的新功能
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,7 +19,17 @@ summary: 提供版本新功能的相關資訊。
 
 
 [role="lead"]
-NetApp Active IQ Digital Advisor 提供下列特色與增強功能：
+數位顧問提供下列功能與增強功能：
+
+
+
+== 2022年11月1日
+
+
+
+=== 與BlueXP整合的數位顧問
+
+目前、NetApp的統一化管理主控台已改為Digital Advisor、並已整合至適用於混合式多雲端環境的BlueXP。Active IQ Digital Advisor link:digital-advisor-integration-with-bluexp.html["深入瞭解"]。
 
 
 
@@ -177,9 +187,9 @@ Grid檢視器中已包含資訊生命週期管理（ILM）for StorageGRID the功
 
 
 
-=== Cloud Manager
+=== 藍圖
 
-Cloud Manager使用者現在可以在Active IQ 新的索引標籤中開啟鏈結（如適用）、類似Active IQ 於《》中的現有功能。
+BlueXP使用者現在可以在新的索引標籤中開啟「數位顧問」連結（如適用）、類似於數位顧問的現有功能。
 
 
 
@@ -209,7 +219,7 @@ Cloud Manager使用者現在可以在Active IQ 新的索引標籤中開啟鏈結
 
 === 與E系列系統整合
 
-您可以在Active IQ VMware View中檢視所選E系列系統的容量詳細資料和效能圖表。
+您可以在Digital Advisor中檢視所選E系列系統的容量詳細資料和效能圖表。
 
 
 
@@ -230,7 +240,7 @@ Cloud Manager使用者現在可以在Active IQ 新的索引標籤中開啟鏈結
 === 健全狀況檢查儀表板
 
 * 新增的圖示位於「Health Check（狀況檢查）」區塊、僅適用於裝有SupportEdge Advisor 支援功能的系統SupportEdge Expert 。我們已針對「建議的軟體-軟體貨幣和韌體貨幣」區段、「建議的組態」和「最佳實務做法」進行增強。
-* 在 Active IQ Digital Advisor–Reports（報告）畫面上，新增了針對內部與外部（客戶和合作夥伴）」使用者的「機密資料」橫幅。
+* 在「Digital Advisor–Reports」（數位顧問–報告）畫面上新增了適用於內部和外部（客戶和合作夥伴）使用者的機密資料橫幅。
 
 
 
@@ -297,7 +307,7 @@ ClusterViewer堆疊視覺化模組已經過強化、可納入「放大/縮小及
 
 === 容量
 
-您可以在Cloud Volumes ONTAP 《關於NetApp的功能細節Active IQ 、請參閱：
+您可以在Cloud Volumes ONTAP Digital Advisor中檢視NetApp的容量詳細資料。
 
 
 
@@ -353,7 +363,7 @@ ClusterViewer堆疊視覺化模組已經過強化、可納入「放大/縮小及
 
 === 容量
 
-您可以在ONTAP 本文件中檢視有關NetApp SolidNetApp®Select系統的容量詳細資料Active IQ 。
+您可以在ONTAP Digital Advisor中檢視NetApp SolidW®Select系統的容量詳細資料。
 
 
 
@@ -387,12 +397,12 @@ ClusterViewer堆疊視覺化模組已經過強化、可納入「放大/縮小及
 
 
 
-=== Active IQ Digital Advisor 行動應用程式
+=== 數位顧問行動應用程式
 
-您現在可以在 Active IQ Digital Advisor 行動應用程式上啟用生物特徵驗證。驗證可用的選項會因手機支援的功能而有所不同。
+您現在可以在Digital Advisor行動應用程式上啟用生物特徵驗證。驗證可用的選項會因手機支援的功能而有所不同。
 
-下載應用程式以深入瞭解：link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Active IQ Digital Advisor 行動應用程式 (Android)"]
-link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Active IQ Digital Advisor 行動應用程式 (iOS)"]
+下載應用程式以深入瞭解：link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["數位顧問行動應用程式（Android）"]
+link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["數位顧問行動應用程式（iOS）"]
 
 
 
@@ -458,7 +468,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Activ
 
 === 支援服務升級
 
-* 使用者介面已經過強化、可顯示Active IQ 您在支援中訂閱的特定支援服務項目。
+* 使用者介面已經過增強、可顯示您在Digital Advisor中訂閱的特定支援服務項目。
 * 您現在可以從系統儀表板提出升級支援服務訂閱的申請、以存取更多功能。 link:task_upgrade_support_offering.html["瞭解方法"]。
 
 
@@ -549,7 +559,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Activ
 
 === 觀察名單
 
-第一次存取 Active IQ Digital Advisor 時，您應該先建立一份觀察清單，而非儀表板。您也可以檢視不同觀察名單的儀表板、編輯現有觀察名單的詳細資料、以及刪除觀察名單。
+第一次存取Digital Advisor時、您現在應該建立觀察清單、而非儀表板。您也可以檢視不同觀察名單的儀表板、編輯現有觀察名單的詳細資料、以及刪除觀察名單。
 
 
 
@@ -606,7 +616,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Activ
 
 === 資訊顧問FabricPool
 
-「階層資料」按鈕已新增至FabricPool 「階層資料」儀表板、可讓您使用NetApp Cloud Manager將資料分層至低成本的物件儲存層。
+「階層資料」按鈕已新增至FabricPool 「階層資料」儀表板、可讓您使用NetApp BlueXP將資料分層至低成本的物件儲存層。
 
 
 
@@ -636,7 +646,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Activ
 
 === 使用API整合資料
 
-您可以使用Active IQ NetApp API來提取感興趣的資料、並將其直接整合到貴公司的工作流程中。 link:concept_overview_API_service.html["深入瞭解"]。
+您可以使用數位顧問API來提取感興趣的資料、並將其直接整合到貴公司的工作流程中。 link:concept_overview_API_service.html["深入瞭解"]。
 
 
 
@@ -660,7 +670,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Activ
 
 === 簡體中文和日文的本地化
 
-Active IQ Digital Advisor 現在提供中文，英文、日文三種語言版本。
+數位顧問現在提供三種語言：中文、英文和日文。
 
 
 
@@ -676,7 +686,7 @@ Active IQ Digital Advisor 現在提供中文，英文、日文三種語言版本
 
 === 健全狀況檢查儀表板
 
-《支援不健全狀況檢查儀表板》Active IQ 提供整體環境的時間點審查。根據健全狀況檢查分數、您可以將儲存系統調整為建議的NetApp最佳實務做法、以利進行長期規劃、並改善安裝基礎的健全狀況。 link:concept_understand_health_check_assessment_dashboard.html["深入瞭解"]。
+「數位顧問健全狀況檢查儀表板」提供整體環境的時間點審查。根據健全狀況檢查分數、您可以將儲存系統調整為建議的NetApp最佳實務做法、以利進行長期規劃、並改善安裝基礎的健全狀況。 link:concept_understand_health_check_assessment_dashboard.html["深入瞭解"]。
 
 
 
@@ -784,7 +794,7 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 更新預設首頁
 
-您現在可以提供您的意見反應、並告訴我們您更新Active IQ 預設首頁畫面的原因。
+您現在可以提供您的意見反應、並告知我們您更新數位顧問預設首頁畫面的原因。
 
 
 
@@ -800,7 +810,7 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 設定預設首頁
 
-您現在可以設定Active IQ 預設的主頁畫面以供使用。您可以將其設為 Active IQ Digital Advisor 或 Active IQ Classic。
+您現在可以設定數位顧問的預設首頁畫面。您可以將其設定為數位顧問或傳統。
 
 
 
@@ -834,7 +844,7 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 就職總覽影片
 
-入門影片可協助使用者快速熟悉 Active IQ Digital Advisor 的選項與功能。
+入門影片可協助使用者快速熟悉數位顧問的選項與功能。
 
 
 
@@ -868,7 +878,7 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 寶貴見解
 
-您可以檢視Active IQ 透過NetApp及支援合約獲得的福利摘要。對於選定的系統、價值報告整合了過去一年的效益。 link:task_view_valuable_insight_widget.html["立即檢視"]。
+您可以檢視透過Digital Advisor和支援合約所獲得的效益摘要。對於選定的系統、價值報告整合了過去一年的效益。 link:task_view_valuable_insight_widget.html["立即檢視"]。
 
 
 
@@ -890,7 +900,7 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 增強的使用者介面
 
-最新的 Active IQ Digital Advisor 儀表板可提供個人化體驗。它能在不同的儀表板、小工具和螢幕上順暢無礙地導覽、並具備直覺功能。提供一體化體驗。它傳達比較、關係和趨勢。它提供深入見解、可協助您根據不同儀表板顯示的資料、偵測並驗證重要關係和有意義的差異。
+最新的數位顧問儀表板提供個人化體驗。它能在不同的儀表板、小工具和螢幕上順暢無礙地導覽、並具備直覺功能。提供一體化體驗。它傳達比較、關係和趨勢。它提供深入見解、可協助您根據不同儀表板顯示的資料、偵測並驗證重要關係和有意義的差異。
 
 
 

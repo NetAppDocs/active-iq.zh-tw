@@ -19,10 +19,10 @@ summary: 根據可做出的明智決策、提供建議。
 
 
 [role="lead"]
-NetApp會持續分析您的系統、並提供改善系統效能、效率和健全狀況的建議。Active IQ
+Digital Advisor會持續分析您的系統、並提供建議、以改善系統的效能、效率和健全狀況。
 
 
-NOTE: 可導覽至Cloud Manager以實作建議。Active IQ
+NOTE: 數位顧問將帶您前往藍圖XP、以實作建議。
 
 
 
@@ -42,7 +42,7 @@ NOTE: 可導覽至Cloud Manager以實作建議。Active IQ
 .步驟
 . 在左窗格中、按一下*雲端建議*。
 . 按一下「*移轉*」窗格中的任一連結。
-. 按一下*移轉至雲端*以啟動* Cloud Manager*。
+. 按一下*移轉至雲端*以啟動*藍圖XP*。
 
 
 
@@ -65,7 +65,7 @@ NOTE: 您可以啟用非使用中資料報告（IDR)、以產生含有可執行�
 .步驟
 . 在左窗格中、按一下*雲端建議*。
 . 按一下「*分層*」窗格中的任一連結。
-. 按一下*層級資料*以啟動* Cloud Manager*。
+. 按一下*層級資料*以啟動*藍圖XP*。
 
 
 如需FabricPool 深入瞭解有關資訊、請參閱 link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["最佳實務做法FabricPool"]。
@@ -85,7 +85,7 @@ NOTE: 您可以啟用非使用中資料報告（IDR)、以產生含有可執行�
 .步驟
 . 在左窗格中、按一下*雲端建議*。
 . 按一下「*備份與歸檔*」窗格中的任一連結。
-. 按一下*備份到雲端*以啟動* Cloud Manager*。
+. 按一下*備份到雲端*以啟動*藍圖XP*。
 
 
 
@@ -104,5 +104,5 @@ NOTE: 您可以啟用非使用中資料報告（IDR)、以產生含有可執行�
 .步驟
 . 在左窗格中、按一下*雲端建議*。
 . 按一下「* Disaster Recovery*」（*災難恢復*）窗格中的任一連結。
-. 按一下*「Replicate to Cloud」*啟動* Cloud Manager*。
+. 按一下*「Replicate to Cloud」（複寫至雲端）*以啟動*藍圖XP*。
 

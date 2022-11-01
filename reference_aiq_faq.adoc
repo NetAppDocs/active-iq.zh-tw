@@ -4,7 +4,7 @@ permalink: reference_aiq_faq.html
 keywords: faq, frequently asked questions, non-technical, non-technical case, inventory, storage efficiency, capacity, performance 
 summary: 如果您只是想要快速回答問題、這個常見問題集就能幫上忙。 
 ---
-= 關於此功能的常見問題集Active IQ
+= 數位顧問的常見問題集
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,7 +19,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 
 [role="lead"]
-下列問題可回答您經常提出Active IQ 的有關解決方法的問題。
+下列問題可解答您對數位顧問的常見問題。
 
 
 
@@ -50,7 +50,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 系統會建立個案、並提供個案編號供您參考。
 
-*我該如何提供意見反應或提出Active IQ 其他有關的問題？*
+*我該如何提供意見反應或提出其他與數位顧問相關的問題？*
 
 若要提供意見回饋或提出問題、請傳送電子郵件至mailto：ng-activeiq-feedback@netapp.com [.Underlines]#ng-activeiq-feedback@netapp.com。
 
@@ -58,9 +58,9 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 == 儲存效率
 
-*如何在 Active IQ Digital Advisor 中存取儲存效率報告？*
+*如何在Digital Advisor中存取儲存效率？*
 
-. 開啟的首頁 link:https://activeiq.netapp.com/?source=onlinedocs["Active IQ Digital Advisor"]。
+. 開啟的首頁 link:https://activeiq.netapp.com/?source=onlinedocs["數位顧問"]。
 . 從右上方的搜尋方塊中搜尋客戶、站台、群組、叢集或節點、以前往各自的儀表板。
 . 按一下左側導覽中的*儲存效率*。
 
@@ -68,13 +68,13 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 NOTE: 使用觀察清單建立的儀表板不會顯示在儲存效率Widget中。
 
-*Active IQ Digital Advisor 會顯示所有 ONTAP 系統的儲存效率比例嗎？*
+*數位顧問是否顯示所有ONTAP 的不全系統的比率？*
 
-顯示執行效能不均9.1及更新版本系統的比率。Active IQ ONTAP
+Digital Advisor會顯示ONTAP 執行效能更新版本的系統的比率。
 
 *效率儀表板上的「無快照」核取方塊是什麼？*
 
-根據預設、Active IQ 「效率儀表板」會計算客戶層級、站台層級、群組層級、叢集層級和節點層級的整體比率。整體比率包括下列儲存效率技術的比率：
+根據預設、Digital Advisor效率儀表板會計算客戶層級、站台層級、群組層級、叢集層級和節點層級的整體比率。整體比率包括下列儲存效率技術的比率：
 
 * 重複資料刪除
 * 壓縮
@@ -83,7 +83,7 @@ NOTE: 使用觀察清單建立的儀表板不會顯示在儲存效率Widget中�
 * 快照
 
 
-如果您選取「*不含快照*」(Without Snapshots) 核取方塊，Active IQ Digital Advisor 就會依照客戶層級，站台層級，群組層級，叢集層級、節點層級，計算儲存效率比例（重複資料刪除、壓縮、資料精簡、Clone 複製等儲存效率技術的比例）。
+如果您選取「*不含Snapshot*」核取方塊、Digital Advisor將會計算客戶層級、站台層級、群組層級、叢集層級和節點層級的效率比率（重複資料刪除、壓縮、資料壓縮及複製儲存效率技術的比率）。
 
 *使用什麼實體資料和使用的邏輯資料？*
 
@@ -201,7 +201,7 @@ NOTE: 使用觀察清單建立的儀表板不會顯示在儲存效率Widget中�
 
 == 容量
 
-*Active IQ Digital Advisor 如何計算容量？* Active IQ Digital Advisor 依照叢集和節點來計算容量，不含 root 但包括 Snapshot 快照複本
+*如何在Digital Advisor中計算容量？* Digital Advisor中的容量是針對叢集和節點（不包括root和Snapshot複本）計算而得
 
 |===
 | *容量* | *透過新增每個Aggregate…*來計算 
@@ -301,7 +301,7 @@ NOTE: 其中包含保留給檔案或磁碟區保證類型磁碟區的空間。�
 
 *為什麼每個磁碟區的「已新增使用容量」與節點層級的「已使用容量」不符？*節點層級的「已使用容量」包括由磁碟區、中繼資料和Snapshot複本保留的空間。它也包含保留給磁碟區的空間（檔案或磁碟區保證類型）。因此兩者可能不相符。
 
-*Active IQ Digital Advisor 顯示的容量為 Base 2 或 Base 10？* Active IQ 顯示的所有容量均為 Base 2（除以 1024），容量以 GiB/TiB 表示。NetApp產品及其他NetApp產品也會在Base 2中顯示容量使用量。ONTAP
+*容量顯示在Digital Advisor Base 2或Base 10中嗎？*數位顧問中顯示的所有容量都是Base 2（除以1024）、代表GiB/TiB的容量。NetApp產品及其他NetApp產品也會在Base 2中顯示容量使用量。ONTAP
 
 就功能而言、容量會以Base 10顯示、容量單位則以TB表示。StorageGRID
 
@@ -311,7 +311,7 @@ NOTE: 其中包含保留給檔案或磁碟區保證類型磁碟區的空間。�
 
 *為什麼我在庫存頁面中找不到某些系統？*由於下列原因之一、您可能無法在庫存頁面中檢視某些系統：
 
-* 新系統Active IQ 在SAP中新增或更新後、需要花一天時間才能反映在更新中。
+* 新系統在SAP中新增或更新後、需要一天的時間才能在Digital Advisor中反映出來。
 * 系統安全無虞、您無權檢視安全系統。
 * 您無權檢視系統。
 * 系統處於非使用中狀態

@@ -19,10 +19,10 @@ summary: 提供如何避免停機和可能的資料遺失的相關資訊。
 
 
 [role="lead"]
-當您登入 Active IQ Digital Advisor 並在「*可用度和保護力* 」(Availability and Protection) 小工具上看到紅色徽章時，您可以採取行動來修正重大風險。如果沒有韌體修復、這些磁碟機在開機幾個小時後可能無法運作。修正此問題可避免停機和可能的資料遺失。
+當您登入Digital Advisor並在* Availability and Protection（可用度與保護）*小工具上看到紅色徽章時、您可以採取行動來修正重大風險。如果沒有韌體修復、這些磁碟機在開機幾個小時後可能無法運作。修正此問題可避免停機和可能的資料遺失。
 
 .步驟
-. 登入 Active IQ Digital Advisor。
+. 登入數位顧問。
 . 按一下*可用度與保護*小工具中的*動作*。image:Availability and protection_image 1 downtime and data loss.png["可用度與安培；保護小工具"]
 +
 針對高影響的安全性風險、請遵循建議的更新磁碟韌體動作。
@@ -30,7 +30,7 @@ summary: 提供如何避免停機和可能的資料遺失的相關資訊。
 . 按一下*風險名稱*連結以檢視風險摘要。image:Risk summary_image 2 downtime and data loss.png["風險摘要"]
 . 按一下「*獨特風險*」標籤、然後按一下「*修正行動*」欄中的連結。image:Corrective action_image 3 downtime and data loss.png["修正行動"]
 +
-Active IQ Digital Advisor 會產生自訂 Ansible 指令碼或指導方針，來更新所需的磁碟韌體，包括磁碟韌體檔案。
+Digital Advisor會產生自訂的可執行指令碼或教戰手冊、以更新所需的磁碟韌體、包括磁碟韌體檔案。
 
 . 按一下* Ansible「A」*圖示、即可產生及下載指令碼。image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["韌體AFF FAS"]
 

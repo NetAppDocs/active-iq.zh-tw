@@ -1,6 +1,7 @@
 ---
 settings:
-  name: Active IQ Digital Advisor
+  name: Digital Advisor
+  platform: cloud
   internal:
     pdf_enabled: true
   prod:
@@ -9,8 +10,10 @@ settings:
   langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr
 sidebar:
   entries:
-  - title: Active IQ Digital Advisor 文件
+  - title: 數位顧問文件
     url: "/index.html"
+  - title: 數位顧問與BlueXP整合
+    url: "/digital-advisor-integration-with-bluexp.html"
   - title: 版本資訊
     entries:
     - title: 新增功能
@@ -21,15 +24,15 @@ sidebar:
     entries:
     - title: 快速入門
       url: "/concept_getting_started_2.html"
-    - title: 瞭Active IQ 解功能
+    - title: 瞭解Digital Advisor功能
       url: "/concept_understand_activeiq_features.html"
-    - title: 關鍵Active IQ 概念
+    - title: 主要概念
       url: "/concept_key_terms.html"
     - title: 瞭解AutoSupport
       url: "/concept_autosupport.html"
-    - title: 登入 Active IQ Digital Advisor
+    - title: 登入Digital Advisor
       url: "/task_login_activeiq.html"
-    - title: 在Cloud Manager中管理叢集
+    - title: 在BlueXP中管理叢集
       url: "/concept_manage_your_cluster_in_cloud_manager.html"
   - title: 資源配置觀察清單
     entries:
@@ -161,15 +164,15 @@ homepage:
   tiles:
   - title: 開始使用
     links:
-    - title: 深入瞭解Active IQ
+    - title: 深入瞭解數位顧問
       url: https://tv.netapp.com/detail/video/6254074753001/what-can-you-do-with-active-iq
-    - title: 快速入門Active IQ
+    - title: 數位顧問快速入門
       url: concept_getting_started_2.html
     - title: 主要概念
       url: concept_key_terms.html
     - title: 建立觀察名單
       url: task_add_watchlist.html
-  - title: 使用Active IQ
+  - title: 使用Digital Advisor
     links:
     - title: 檢視風險並採取修正行動
       url: task_view_risk_and_take_action.html
@@ -181,7 +184,7 @@ homepage:
       url: task_view_performance_graphs.html
     - title: 產生報告
       url: task_generate_reports.html
-  - title: 使用Active IQ 功能分析
+  - title: 使用數位顧問進行分析
     links:
     - title: 檢視ONTAP 有關升級的建議
       url: task_view_upgrade.html
@@ -191,13 +194,17 @@ homepage:
       url: task_view_keystone_capacity_utilization.html
   - title: 更多資源
     links:
-    - title: 網頁入口網站Active IQ
+    - title: 數位顧問Web入口網站
       url: https://mysupport.netapp.com/myautosupport/home.html
-    - title: 影片Active IQ
+    - title: 數位顧問影片
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
-    - title: NetApp社群Active IQ
+    - title: NetApp社群–數位顧問
       url: https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport
-    - title: 支援行動應用程式（Android）Active IQ
+    - title: 數位顧問行動應用程式（Android）
       url: https://play.google.com/store/apps/details?id=com.netapp.myautosupport
-    - title: 作業系統（iOS）Active IQ
+    - title: 數位顧問行動應用程式（iOS）
       url: https://apps.apple.com/us/app/active-iq/id1230542480
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: 所有BlueXP文件

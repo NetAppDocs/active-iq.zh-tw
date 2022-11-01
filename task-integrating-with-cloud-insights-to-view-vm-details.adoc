@@ -19,7 +19,7 @@ summary: 提供Cloud Insights 有關VMware中虛擬機器的資訊
 
 
 [role="lead"]
-目前、支援使用者將支援的功能整合到了支援完整堆疊庫存和互通性的版本中、以供客戶進行檢查。Active IQ Cloud Insights
+Digital Advisor現在已與Cloud Insights 《支援資訊》的版本整合、為客戶提供完整的堆疊庫存和互通性檢查。
 
 這項整合的優點包括：
 
@@ -29,7 +29,7 @@ summary: 提供Cloud Insights 有關VMware中虛擬機器的資訊
 
 
 
-NOTE: 此功能僅適用於SupportEdge Advisor VMware、SupportEdge Expert VMware及Active IQ VMware升級合約。
+NOTE: 此功能僅適用於SupportEdge Advisor VMware、SupportEdge Expert VMware及Digital Advisor升級合約。
 
 .步驟
 . 在* Inventory（資源清冊）*小工具中、按一下* Virtual Machines（虛擬機器）*以檢視Cloud Insights 在VMware中可用的資料。

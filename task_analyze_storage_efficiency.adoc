@@ -51,4 +51,4 @@ video::8Ge3_0qlyxA[youtube,width=848,height=480]
 
 
 
-如需容量與儲存效率的詳細資訊、請參閱 link:reference_aiq_faq.html["關於此功能的常見問題集Active IQ"]。
+如需容量與儲存效率的詳細資訊、請參閱 link:reference_aiq_faq.html["數位顧問的常見問題集"]。

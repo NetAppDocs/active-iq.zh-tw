@@ -24,5 +24,5 @@ summary: 提供有關Ansible的詳細資訊。
 * link:https://netapp.io/2019/08/05/dealing-with-the-unexpected/["疑難排解資訊"]
 * link:https://netapp.io/["可寬延工作區"]
 * mailto：ng-active-iq-feedback@netapp.com [電子郵件]
-* Active IQ Digital Advisor 的支援按鈕用於要求支援與提供意見回饋。
+* Digital Advisor中的「支援」按鈕、以取得支援和意見反應。
 

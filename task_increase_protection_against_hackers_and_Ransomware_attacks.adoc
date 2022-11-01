@@ -21,14 +21,14 @@ summary: 提供如何加強防範駭客和勒索軟體攻擊的相關資訊。
 [role="lead"]
 NetApp安全網站是NetApp產品安全的真實來源： link:https://security.netapp.com[""]
 
-利用遙測資料和發佈的產品安全性摘要報告來偵測涵蓋*和獲支援授權產品的安全性問題。Active IQ產品遙測資料必須透過AutoSupport NetApp透過NetApp傳輸、Active IQ 才能讓Sect偵測風險。
+數位顧問利用遙測資料和已發佈的產品安全性摘要報告來偵測涵蓋範圍*的安全性問題、以及授權支援的產品。產品遙測資料必須透過AutoSupport NetApp透過NetApp傳輸、以便Digital Advisor偵測風險。
 
-如需更多NetApp產品安全資訊、包括Active IQ 不涵蓋在內的產品、請參訪 link:https://security.netapp.com[""]
+如需其他NetApp產品安全資訊、包括數位顧問未涵蓋的產品、請造訪 link:https://security.netapp.com[""]
 
 *涵蓋產品：ONTAP 支援VMware *的支援範圍：支援內部部署與雲端技術的支援、SANtricity 支援VMware *的支援範SolidFire 圍包括：VMware *的支援範StorageGRID 圍包括：VMware *支援內部部署與雲端*、支援VMware *的支援範圍涵蓋範圍涵蓋範圍涵蓋範圍涵蓋Active IQ Unified Manager ONTAP
 
 .步驟
-. 登入 Active IQ Digital Advisor。
+. 登入Digital Advisor。
 . 按一下「*安全性弱點*」小工具中的「*動作*」。image:Security_Image 1 Ransomware attacks.png["安全漏洞小工具"]
 +
 針對高影響的安全風險、請遵循建議的行動來升級作業系統。
@@ -37,5 +37,5 @@ NetApp安全網站是NetApp產品安全的真實來源： link:https://security.
 +
 此風險已在ONTAP 更新版本的《更新版本：1.7P8（更新版本）」中修正。image:Remediations_Image 3 Ransomware attacks.png["「修正」索引標籤"]
 
-. 最重要的步驟是在 Active IQ Digital Advisor 的「*升級顧問*」(Upgrade Advisor) 中規劃 OS 升級。
+. 最重要的步驟是在Digital Advisor的* Upgrade Advisor *中規劃作業系統升級。
 

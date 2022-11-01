@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept_get_more_information.html 
 keywords: overview, information, more details 
-summary: 提供Active IQ 更多關於功能的資訊。 
+summary: 提供數位顧問的詳細資訊。 
 ---
 = 取得更多資訊
 :toc: macro

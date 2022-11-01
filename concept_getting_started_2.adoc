@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept_getting_started_2.html 
 keywords: overview, get started, wellness, performance, configuration, renewal, risk, remediation, planning, inventory 
-summary: 協助您瞭解工作流程，並開始使用 Active IQ Digital Advisor。 
+summary: 協助您瞭解工作流程、並開始使用Digital Advisor。 
 ---
-= Active IQ Digital Advisor 快速入門
+= 數位顧問快速入門
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,16 +19,16 @@ summary: 協助您瞭解工作流程，並開始使用 Active IQ Digital Advisor
 
 
 [role="lead"]
-Active IQ Digital Advisor 已經增強並重新設計，能夠協助您更有效地執行工作。使用者介面是專為引導您執行所需目標而開發。
+數位顧問經過強化與重新設計、可協助您更有效地執行工作。使用者介面是專為引導您執行所需目標而開發。
 
-您可以查看下圖，瞭解 Active IQ Digital Advisor 的工作流程。
+您可以查看下圖、瞭解Digital Advisor的工作流程。
 
-image:activeiq2_workflow.png["Active IQ Digital Advisor 工作流程"]
+image:activeiq2_workflow.png["數位顧問工作流程"]
 
-您可以觀看下列影片，以開始使用 Active IQ Digital Advisor：
+您可以觀看下列影片、開始使用Digital Advisor：
 
 video::rEPtldosjWM[youtube,width=848,height=480]
-並非所有平台都支援所有 Active IQ Digital Advisor 小工具。Active IQ Digital Advisor 能識別您的儲存系統平台，僅顯示您的儲存系統可以執行的一組工作。
+並非所有平台都支援所有的Digital Advisor小工具。Digital Advisor可識別儲存系統的平台、並只顯示可在儲存系統上執行的一組工作。
 
 請閱讀下列資訊、以瞭解儲存系統支援的小工具。
 
