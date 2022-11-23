@@ -32,8 +32,6 @@ sidebar:
       url: "/concept_autosupport.html"
     - title: 登入Digital Advisor
       url: "/task_login_activeiq.html"
-    - title: 在BlueXP中管理叢集
-      url: "/concept_manage_your_cluster_in_cloud_manager.html"
   - title: 資源配置觀察清單
     entries:
     - title: 總覽
