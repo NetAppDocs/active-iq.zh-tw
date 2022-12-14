@@ -19,6 +19,7 @@ summary: 提供如何使用Docker映像執行「可執行教戰手冊」的相�
 
 
 .步驟
+[role="lead"]
 . 安裝 link:https://docs.python.org/3/using/windows.html["Python"] 和 link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"]。
 . 使用* pip*安裝所需的Python套件：
 +
