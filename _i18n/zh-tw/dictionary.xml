@@ -266,7 +266,6 @@
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">您應該新增範本、以比較系統和叢集組態、並近乎即時偵測組態差異。組態偏移範本是使用執行AutoSupport 不實資料的系統來新增。</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">按一下*新增範本*。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">提供所需的值。</block>
-  <block id="d2f9c6e3559cfd668d1e78b444103c0a" category="list-text">選用：按一下*編輯*以編輯範本。</block>
   <block id="345d76812dbf5452d2588e7271cf8436" category="summary">提供有關使用NetApp訂閱的容量使用率資訊NetApp Keystone 。</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">透過NetApp Keystone 「View訂閱」檢視容量使用率</block>
   <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">Keystone訂閱小工具可提供您帳戶容量使用量的摘要。其中包含實體容量的容量使用率圖表、快照會四捨五入至最後五分鐘。超過承諾容量（突發容量）的使用率會標示為紅色。</block>
@@ -642,7 +641,6 @@
   <block id="d3ea808b3d55f3adc011ccc0b25a4a36" category="list-text">填寫授權申請表、然後按一下*提交*。</block>
   <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">在「主要API服務」頁面上、按一下「*產生Token *」以檢視及下載存取權杖、並重新整理權杖以叫用API。</block>
   <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">入口網站提供多種方法、可將一個或兩個權杖儲存在集合中。您可以將它們複製到剪貼簿、下載為文字檔、或以純文字檢視。</block>
-  <block id="ce35b219dc5f96e6b0eb25a2bb2623b6" category="admonition">您應該下載並儲存存取權杖和重新整理權杖、以供日後使用。存取權杖一經產生即過期一小時、更新權杖應每7天重新產生一次、並安裝在應用程式中。90天後、您需要手動登入、並取得新的存取權杖和重新整理權杖。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">法律聲明提供版權聲明、商標、專利等存取權限。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
@@ -1243,4 +1241,31 @@
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp社群–數位顧問</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">根據雲端建議做出明智決策</block>
+  <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">您應該下載並儲存存取權杖和重新整理權杖、以供日後使用。存取權杖一經產生即過期一小時、更新權杖應每7天手動重新產生一次、並安裝在應用程式中。若要這麼做、您不需要登入應用程式。不過、90天後、您需要登入應用程式、才能取得新的存取權杖和重新整理權杖。</block>
+  <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">組態偏移範本中的屬性是可編輯的、下列範本群組支援某些區段的規則運算式：</block>
+  <block id="03937134cedab9078be39a77ee3a48a0" category="cell">群組</block>
+  <block id="d2c24d59e0baff4d0155fbdf62590867" category="cell">區段</block>
+  <block id="f2bbdf9f72c085adc4d0404e370f0f4c" category="cell">屬性</block>
+  <block id="47b593c5940e25582a1dca06739b46cc" category="cell">* Aggregate *</block>
+  <block id="f2cfee1656082de62bc61d6f6d957ee8" category="cell">agg-info.xml</block>
+  <block id="b068931cc450442b63f5b3d276ea4297" category="cell">名稱</block>
+  <block id="3beefed1659b0c09798f370bfefeb567" category="cell">*叢集*</block>
+  <block id="a8b8f7083d259c319bbdcf79e8c313b0" category="cell">叢集資訊.xml</block>
+  <block id="508767cc5bdfeffacaf1319fa70b7e0c" category="cell">叢集名稱</block>
+  <block id="630cd03f677631daf198ae03114b0479" category="cell">* LUN *</block>
+  <block id="72c32ad6105c949470e7cdcebb8e7fa8" category="cell">LUN.xml</block>
+  <block id="e0d26a956299752ba1653e4bf057b332" category="cell">* Vserver*</block>
+  <block id="affe66842f15d0d82eebb388d829d8c4" category="cell">vserver資訊.xml</block>
+  <block id="5999e4ab912c7c1d8aa6fd2225491ef2" category="cell">Vserver</block>
+  <block id="dd2630f76030cb00e6fa7980733e4c78" category="cell">*網路*</block>
+  <block id="3520aa027a7702ae4b2c5c34dd772347" category="cell">network-interface.xml</block>
+  <block id="91dd16eb6eb42839df38f62bfc3cda48" category="cell">VIF</block>
+  <block id="1f837483a812efd2e08b2a3e12d8b02c" category="cell">* DNS *</block>
+  <block id="28dd299428285a11cb6458603bf1c56d" category="cell">DNS.XML</block>
+  <block id="e4e46deb7f9cc58c7abfb32e5570b6f3" category="cell">網域</block>
+  <block id="218a984781458a9d1b3c02030403fee9" category="cell">* Volume *</block>
+  <block id="583d69a4a79378ddaf1cd955ffc0c3eb" category="cell">Volume .xml</block>
+  <block id="0acf8be1231e24946c3d10b649fb576f" category="cell">Vol</block>
+  <block id="21f34cc44dc8079bb3c3e391a241dae2" category="paragraph">使用者可以使用規則運算式建立組態飄移報告、其中包含因命名磁碟區、集合體、叢集等不一致而產生的磁碟機偏移。例如，如果在組* Aggregate *中的第* aggreg-info.xml節中提及屬性* Name*的規則運算式* agg-name*，則在產生組態偏移報告時，不含前置字元* aggr-name*的屬性值會標示為偏移。</block>
+  <block id="2eb59240b774cdd59bd034ded7487a51" category="list-text">選用：您可以編輯群組或刪除範本的非必要群組、以自訂範本。</block>
 </blocks>
