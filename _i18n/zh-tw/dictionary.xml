@@ -1012,7 +1012,6 @@
   <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
   <block id="7eaee357275d531796b5348076c7abaa" category="cell">提供非使用中、冷、作用中、熱、階層式、 和未受監控的資料。本報告也包含可在停用的Aggregate上啟用「非作用中資料報告」的可執行方針。</block>
   <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">提供所選觀察清單、客戶、站台、群組層級的安裝基礎相關資訊。此報告可從「庫存詳細資料」頁面直接下載、也可從「報告」頁面產生。</block>
-  <block id="7a1964d60060b532bf912499ef0e5419" category="cell">終止支援壽命</block>
   <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">提供已達到支援終止（EOS）的控制器、磁碟櫃和磁碟清單資訊。</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">建議組態</block>
   <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">提供遠端管理組態、備援磁碟機、HA配對和SVM健全狀況等各種建議組態落差的相關資訊。</block>
@@ -1268,4 +1267,10 @@
   <block id="0acf8be1231e24946c3d10b649fb576f" category="cell">Vol</block>
   <block id="21f34cc44dc8079bb3c3e391a241dae2" category="paragraph">使用者可以使用規則運算式建立組態飄移報告、其中包含因命名磁碟區、集合體、叢集等不一致而產生的磁碟機偏移。例如，如果在組* Aggregate *中的第* aggreg-info.xml節中提及屬性* Name*的規則運算式* agg-name*，則在產生組態偏移報告時，不含前置字元* aggr-name*的屬性值會標示為偏移。</block>
   <block id="2eb59240b774cdd59bd034ded7487a51" category="list-text">選用：您可以編輯群組或刪除範本的非必要群組、以自訂範本。</block>
+  <block id="65ad691748c94924b6f326c7c9439c6f" category="section-title">2023年1月12日</block>
+  <block id="af8ffc565aa8e5b74351ac5b3619d11e" category="section-title">效能報告</block>
+  <block id="da1d47d31f2c9af4c95e87ea269228d6" category="paragraph">您可以在磁碟區層級的效能報告中檢視平均讀取、寫入及其他作業。</block>
+  <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">支援合約/硬體EOS</block>
+  <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">IO密度</block>
+  <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">IO密度報告針對客戶的尖峰輸入輸出作業、提供資料和中繼資料使用量與密度的深入見解。</block>
 </blocks>
