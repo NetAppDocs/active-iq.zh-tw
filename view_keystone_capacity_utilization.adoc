@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: task_view_keystone_capacity_utilization.html 
+permalink: view_keystone_capacity_utilization.html 
 keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
 summary: 提供有關使用NetApp訂閱的容量使用率資訊NetApp Keystone 。 
 ---
@@ -30,12 +30,4 @@ Keystone訂閱小工具可提供您帳戶容量使用量的摘要。其中包含
 
 NOTE: 身為數位顧問使用者、您可以選擇ONTAP 使用「資料收集器」和AutoSupport 「參考資料」、以取得容量使用量的相關資料。
 
-.步驟
-. 按一下「*檢視詳細資料*」、即可在「詳細資料*基礎概念-容量使用率*」儀表板中檢視使用率趨勢。
-. 選取「目前帳單期間」、「30天」、「7天」或「1天」、即可檢視最近的平均使用量趨勢。
-+
-在目前的計費期間、您可以下載報告、其中提供有關連拍詳細資料的資訊。
-
-. 或者、如果您選擇ONTAP 使用「資料收集器」來取得容量使用量的資料、您可以按一下儀表板上的索引標籤來檢視檔案共用和磁碟的詳細資料。
-. 按一下*共享*或*磁碟*來識別接近已認可容量的檔案共用區或磁碟、並做出明智的決策以節省儲存容量。
-
+如需Keystone訂閱的相關資訊、請參閱 link:https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.html["Keystone訂閱儀表板與報告"^]。

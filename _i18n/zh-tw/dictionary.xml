@@ -273,11 +273,6 @@
   <block id="f05054c9a7b129693b022320001e81ed" category="paragraph">您可以檢視*基礎概念-容量使用率*儀表板、此儀表板會分析小工具中的資料、並以圖形方式呈現所有訂閱儲存設備容量和使用量的使用率趨勢 <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-macro-rx"></block>（例如Premium、Extreme和Standard）、與NetApp Keystone 您的「精選訂閱」帳戶有關。</block>
   <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Keystone訂閱服務容量</block>
   <block id="eada85ae345afac1356e1265ed14965d" category="paragraph">您可以檢視 <block ref="c3e14696d82449875aa62ae1bc7f05d0" category="inline-link-macro-rx"></block> 以及儀表板上每個已訂閱服務的區塊、檔案服務或物件儲存設備使用量。</block>
-  <block id="559ab0392555ba0574ee8aafcb0dd4b8" category="list-text">按一下「*檢視詳細資料*」、即可在「詳細資料*基礎概念-容量使用率*」儀表板中檢視使用率趨勢。</block>
-  <block id="842ffce382b29ce5f564cf2e7a51575e" category="list-text">選取「目前帳單期間」、「30天」、「7天」或「1天」、即可檢視最近的平均使用量趨勢。</block>
-  <block id="b75ffe757df198361f55d7334bf6a3ea" category="paragraph">在目前的計費期間、您可以下載報告、其中提供有關連拍詳細資料的資訊。</block>
-  <block id="6c6a95e0f5aea889e91da11c9661f08c" category="list-text">或者、如果您選擇ONTAP 使用「資料收集器」來取得容量使用量的資料、您可以按一下儀表板上的索引標籤來檢視檔案共用和磁碟的詳細資料。</block>
-  <block id="6fc85e5ba98ece0cf451b774e77a7a7c" category="list-text">按一下*共享*或*磁碟*來識別接近已認可容量的檔案共用區或磁碟、並做出明智的決策以節省儲存容量。</block>
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">提供版本新功能的相關資訊。</block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">瞭解方法</block>
@@ -1273,4 +1268,6 @@
   <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">支援合約/硬體EOS</block>
   <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">IO密度</block>
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">IO密度報告針對客戶的尖峰輸入輸出作業、提供資料和中繼資料使用量與密度的深入見解。</block>
+  <block id="deaf5bbabe29231a9826b313fee569a1" category="inline-link-macro">Keystone訂閱儀表板與報告</block>
+  <block id="706f9582e4d14591a9eeeaf6db8cc6c5" category="paragraph">如需Keystone訂閱的相關資訊、請參閱 <block ref="42d99877a3bdc96c47aeda69738db0f2" category="inline-link-macro-rx"></block>。</block>
 </blocks>

@@ -7,7 +7,7 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-  langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr,fr-fr,de-de
+  langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,fr-fr
 sidebar:
   entries:
   - title: 數位顧問文件
@@ -73,7 +73,7 @@ sidebar:
     - title: 檢視寶貴的洞見
       url: "/task_view_valuable_insight_widget.html"
     - title: 檢視Keystone訂閱容量使用率
-      url: "/task_view_keystone_capacity_utilization.html"
+      url: "/view_keystone_capacity_utilization.html"
   - title: 主動識別系統需求
     entries:
     - title: 總覽
