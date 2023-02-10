@@ -1270,4 +1270,7 @@
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">IO密度報告針對客戶的尖峰輸入輸出作業、提供資料和中繼資料使用量與密度的深入見解。</block>
   <block id="deaf5bbabe29231a9826b313fee569a1" category="inline-link-macro">Keystone訂閱儀表板與報告</block>
   <block id="706f9582e4d14591a9eeeaf6db8cc6c5" category="paragraph">如需Keystone訂閱的相關資訊、請參閱 <block ref="42d99877a3bdc96c47aeda69738db0f2" category="inline-link-macro-rx"></block>。</block>
+  <block id="271fb73110ffc5de8ec449a60893024c" category="section-title">2023年2月9日</block>
+  <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">您可以在Volume IOPS圖表中檢視平均讀取、寫入及其他作業。</block>
+  <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10》及更新版本的各種系統、包括AFF ：VMware、AFF VMware、VMware ONTAP 、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware</block>
 </blocks>
