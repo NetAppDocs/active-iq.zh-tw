@@ -23,6 +23,22 @@ summary: 提供版本新功能的相關資訊。
 
 
 
+== 2023年2月22日
+
+
+
+=== 效能圖表
+
+您可以在Volume IOPS圖表中檢視平均讀取、寫入及其他作業。
+
+
+
+=== 儲存效率
+
+SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10》及更新版本的各種系統、包括AFF ：VMware、AFF VMware、VMware ONTAP 、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware
+
+
+
 == 2023年1月12日
 
 
