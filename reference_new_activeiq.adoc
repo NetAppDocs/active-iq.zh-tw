@@ -301,7 +301,7 @@ ClusterViewer堆疊視覺化模組已經過強化、可納入「放大/縮小及
 
 === 非作用中資料報告（印尼盾）
 
-在「功能性顧問」畫面中、您可以啟動非作用中的資料報告（IDR）來監控Aggregate並產生可執行的教戰手冊。FabricPool link:task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html["深入瞭解"]
+在「功能性顧問」畫面中、您可以啟動非作用中的資料報告（IDR）來監控Aggregate並產生可執行的教戰手冊。FabricPool
 
 
 
@@ -427,8 +427,8 @@ ClusterViewer堆疊視覺化模組已經過強化、可納入「放大/縮小及
 
 您現在可以在Digital Advisor行動應用程式上啟用生物特徵驗證。驗證可用的選項會因手機支援的功能而有所不同。
 
-下載應用程式以深入瞭解：link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["數位顧問行動應用程式（Android）"]
-link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["數位顧問行動應用程式（iOS）"]
+下載應用程式以深入瞭解：link:https://play.google.com/store/apps/details?id=com.netapp.myautosupport["數位顧問行動應用程式（Android）"^]
+link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應用程式（iOS）"^]
 
 
 
@@ -504,7 +504,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["數�
 
 
 
-=== 彈性訂閱小工具
+=== Keystone訂閱小工具
 
 * 如果您已選擇ONTAP 使用「資源收集器」取得容量使用量的資料、您可以在「共用和磁碟」索引標籤中檢視檔案共用和磁碟的詳細資料。您可以識別即將提交容量的儲存空間、以節省儲存空間。
 * Keystone -容量使用率儀表板上顯示並用於計費的容量使用量、現在是根據邏輯容量來決定。
@@ -712,7 +712,7 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["數�
 
 === 健全狀況檢查儀表板
 
-「數位顧問健全狀況檢查儀表板」提供整體環境的時間點審查。根據健全狀況檢查分數、您可以將儲存系統調整為建議的NetApp最佳實務做法、以利進行長期規劃、並改善安裝基礎的健全狀況。 link:concept_understand_health_check_assessment_dashboard.html["深入瞭解"]。
+「數位顧問健全狀況檢查儀表板」提供整體環境的時間點審查。根據健全狀況檢查分數、您可以將儲存系統調整為建議的NetApp最佳實務做法、以利進行長期規劃、並改善安裝基礎的健全狀況。
 
 
 
@@ -746,9 +746,9 @@ link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["數�
 
 
 
-=== 彈性訂閱小工具
+=== Keystone訂閱小工具
 
-您可以監控NetApp Keystone 您的《支援、耗用及突發儲存容量、以利執行您的《支援NetApp訂閱服務（NetApp訂購服務）」。
+您可以監控NetApp Keystone 針對您的《支援訂閱服務》所做的承諾、耗用及突發儲存容量。
 
 
 

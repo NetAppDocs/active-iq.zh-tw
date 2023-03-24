@@ -266,13 +266,10 @@
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">您應該新增範本、以比較系統和叢集組態、並近乎即時偵測組態差異。組態偏移範本是使用執行AutoSupport 不實資料的系統來新增。</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">按一下*新增範本*。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">提供所需的值。</block>
-  <block id="345d76812dbf5452d2588e7271cf8436" category="summary">提供有關使用NetApp訂閱的容量使用率資訊NetApp Keystone 。</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">透過NetApp Keystone 「View訂閱」檢視容量使用率</block>
   <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">Keystone訂閱小工具可提供您帳戶容量使用量的摘要。其中包含實體容量的容量使用率圖表、快照會四捨五入至最後五分鐘。超過承諾容量（突發容量）的使用率會標示為紅色。</block>
   <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link-macro">服務層級</block>
-  <block id="f05054c9a7b129693b022320001e81ed" category="paragraph">您可以檢視*基礎概念-容量使用率*儀表板、此儀表板會分析小工具中的資料、並以圖形方式呈現所有訂閱儲存設備容量和使用量的使用率趨勢 <block ref="fc793db6d2c63268b4ab3d8ca0a9e15f" category="inline-link-macro-rx"></block>（例如Premium、Extreme和Standard）、與NetApp Keystone 您的「精選訂閱」帳戶有關。</block>
   <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Keystone訂閱服務容量</block>
-  <block id="eada85ae345afac1356e1265ed14965d" category="paragraph">您可以檢視 <block ref="c3e14696d82449875aa62ae1bc7f05d0" category="inline-link-macro-rx"></block> 以及儀表板上每個已訂閱服務的區塊、檔案服務或物件儲存設備使用量。</block>
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">提供版本新功能的相關資訊。</block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">瞭解方法</block>
@@ -339,7 +336,6 @@
   <block id="d218acf3139b2df9f86974252e34f973" category="paragraph">您現在可以在區域和站台層級產生.yml和.ini檔案格式的Ansible庫存檔案。 <block ref="6c1a86a6b220ef637b98bb90dcad9e67" category="inline-link-macro-rx"></block>。</block>
   <block id="f6ba2adb39c05d434ab52c6ad161a40d" category="section-title">非作用中資料報告（印尼盾）</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">深入瞭解</block>
-  <block id="1363d8028841d1a619635b4cbd33e1e6" category="paragraph">在「功能性顧問」畫面中、您可以啟動非作用中的資料報告（IDR）來監控Aggregate並產生可執行的教戰手冊。FabricPool <block ref="779f7b5b9d0c1245e542540e4775cdfe" category="inline-link-macro-rx"></block></block>
   <block id="6f815aa2f2eb28995c59dd2d2b0af600" category="section-title">飄移時間軸報告</block>
   <block id="5e4b167efbd384d21eda43769f89f2b4" category="paragraph">您可以比較AutoSupport 過去90天的資料不完整、並產生飄移時間軸報告。 <block ref="6e959f6930398ffd4237fa003affc1a1" category="inline-link-macro-rx"></block>。</block>
   <block id="cb3f8f484c3b350e78e56ea72f491137" category="section-title">符合法規的系統切換</block>
@@ -393,7 +389,6 @@
   <block id="fc6d3ceb7c84059ca7f2eb808bff5479" category="section-title">支援服務升級</block>
   <block id="bb4ddc55330c48075b3116356500dbf5" category="list-text">您現在可以從系統儀表板提出升級支援服務訂閱的申請、以存取更多功能。 <block ref="cb0308c385d8d496d1f59d74eb315c21" category="inline-link-macro-rx"></block>。</block>
   <block id="bd0328b259e09ba57ed30da815f4cc42" category="section-title">2021年6月25日</block>
-  <block id="e6950d9f03fba06e22767b7f984caa30" category="section-title">彈性訂閱小工具</block>
   <block id="3ec6287c56b9bb68a36e7c97f53e3f6b" category="list-text">如果您已選擇ONTAP 使用「資源收集器」取得容量使用量的資料、您可以在「共用和磁碟」索引標籤中檢視檔案共用和磁碟的詳細資料。您可以識別即將提交容量的儲存空間、以節省儲存空間。</block>
   <block id="04831b0867d81afad6e918c11ee8b449" category="list-text">Keystone -容量使用率儀表板上顯示並用於計費的容量使用量、現在是根據邏輯容量來決定。</block>
   <block id="499ac45a8abad3e414323681b6865993" category="section-title">2021年6月17日</block>
@@ -462,7 +457,6 @@
   <block id="2b8a1cf4302bf1a2b093ad5a2f86b07e" category="paragraph">您可以使用報告功能立即產生報告、或排程每週或每月產生報告。 <block ref="a215153d303469248fdb9fd5d964c085" category="inline-link-macro-rx"></block>。</block>
   <block id="152dbe546ff9aa1627c8b40ce14b12f6" category="section-title">手動AutoSupport 上傳</block>
   <block id="dae11fc59da97a669ccb5077d15f9feb" category="paragraph">手動AutoSupport 上傳功能已增強、可改善使用者體驗。已提供額外的欄位、以供註解上傳狀態。</block>
-  <block id="3abdc55ecb8f5549d400131a4e62eb26" category="paragraph">您可以監控NetApp Keystone 您的《支援、耗用及突發儲存容量、以利執行您的《支援NetApp訂閱服務（NetApp訂購服務）」。</block>
   <block id="54074209636092245fcad58469e0b60b" category="section-title">2020年9月30日</block>
   <block id="c0b0c57bf06a60b6c879938a236e3641" category="section-title">使用Ansible教戰手冊的韌體更新AFF FAS</block>
   <block id="23a0f65d52d06cfe6d43d8793a09161e" category="paragraph">文件內容已經過強化、包括有關下載、安裝及執行AFF 更新版的資訊、包括可FAS 執行的更新版的更新版、包括更新版的更新版、以及更新版的更新版。</block>
@@ -875,7 +869,6 @@
   <block id="0c152bcc14bc08edd4b0de34a463af86" category="list-text">新增您的任何留言、然後按一下*傳送*。購買支援服務升級的要求會傳送給NetApp續約團隊。</block>
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">提供如何加強防範駭客和勒索軟體攻擊的相關資訊。</block>
   <block id="f7e6c88265534036ac8e0f442a755875" category="doc">偵測安全性弱點</block>
-  <block id="d5d17f408c363c187667642f4d2ee597" category="paragraph">NetApp安全網站是NetApp產品安全的真實來源： <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
   <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">*涵蓋產品：ONTAP 支援VMware *的支援範圍：支援內部部署與雲端技術的支援、SANtricity 支援VMware *的支援範SolidFire 圍包括：VMware *的支援範StorageGRID 圍包括：VMware *支援內部部署與雲端*、支援VMware *的支援範圍涵蓋範圍涵蓋範圍涵蓋範圍涵蓋Active IQ Unified Manager ONTAP</block>
   <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">安全漏洞小工具</block>
   <block id="b690081b833e8f28d12bf81f4c46d353" category="list-text">按一下「*安全性弱點*」小工具中的「*動作*」。<block ref="8410ae438d98c330146456538464956f" category="inline-image-macro-rx" type="image"></block></block>
@@ -1092,7 +1085,6 @@
   <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">偵測組態差異</block>
   <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">修正重大安全風險</block>
   <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">檢視ONTAP 有關升級的建議</block>
-  <block id="29cb371773858a73b7aca64ff6f208f4" category="sidebar">透過「 View Flex 訂閱」檢視容量使用率 NetApp Keystone</block>
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多資源</block>
   <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">多跳升級</block>
   <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">對於非鄰近版本的自動不中斷升級（andu）、您可以安裝中間版本和目標版本的軟體映像。自動化升級程序會使用背景中的中繼映像來完成目標版本的更新。例如、如果叢集執行9.3且您想升級至9.7、則會載入ONTAP 9.5和9.7的版次安裝套件、然後啟動andu至9.7。然後、將叢集先自動升級至9.5、再升級至9.7。ONTAP您應預期在程序期間會有多個接管/恢復作業及相關的重新開機。</block>
@@ -1157,7 +1149,6 @@
   <block id="b38cbc17f5d9a4695d51db9473e7dffd" category="admonition">報告會儲存在數位顧問中3天。</block>
   <block id="ba5f7135032775c8c999ecabfd7ec65b" category="summary">提供數位顧問的詳細資訊。</block>
   <block id="e3f44fedccc2711587690bd9581827ed" category="paragraph">數位顧問利用遙測資料和已發佈的產品安全性摘要報告來偵測涵蓋範圍*的安全性問題、以及授權支援的產品。產品遙測資料必須透過AutoSupport NetApp透過NetApp傳輸、以便Digital Advisor偵測風險。</block>
-  <block id="e4a01f7a7f6646fdbc005accd650783f" category="paragraph">如需其他NetApp產品安全資訊、包括數位顧問未涵蓋的產品、請造訪 <block ref="2b116f024b5e4a0f9c1d319872f1fc7d" category="inline-link-macro-rx"></block></block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">登入Digital Advisor。</block>
   <block id="ca249192c36cc85e44209b65bfb3ec3d" category="list-text">最重要的步驟是在Digital Advisor的* Upgrade Advisor *中規劃作業系統升級。</block>
   <block id="16d182da6aeb172074cbe06d557991cc" category="paragraph">報價表可用來快速輕鬆地存取數位顧問內部預先選取的系統。如果您經常檢視某位客戶或一組系統、建議您建立觀察名單。您最多可建立50個報價表、每個報價表最多可依類別包含15、000個系統、或依序號包含500個系統。</block>
@@ -1182,14 +1173,11 @@
   <block id="8782b3b7fd5ab9d892fbb6380e74d09a" category="paragraph">您現在可以在Digital Advisor行動應用程式上啟用生物特徵驗證。驗證可用的選項會因手機支援的功能而有所不同。</block>
   <block id="c5529581775c24c48ba966fe62c380ea" category="inline-link-macro">數位顧問行動應用程式（Android）</block>
   <block id="d2bb1a06f3434afc8ca9c8ea68155750" category="inline-link-macro">數位顧問行動應用程式（iOS）</block>
-  <block id="ede5133f297fb3524e463011a05dcbc2" category="paragraph">下載應用程式以深入瞭解：<block ref="3b3c942cfc1ba603f4c8c5e6cb260955" category="inline-link-macro-rx"></block>
-<block ref="fe0e17ac3ee3049ee306c938dd1d6b0c" category="inline-link-macro-rx"></block></block>
   <block id="d78a9201b5a1da34052eb6d1da7c7414" category="list-text">使用者介面已經過增強、可顯示您在Digital Advisor中訂閱的特定支援服務項目。</block>
   <block id="606d45bc02a4e58356236313e91bb72f" category="paragraph">第一次存取Digital Advisor時、您現在應該建立觀察清單、而非儀表板。您也可以檢視不同觀察名單的儀表板、編輯現有觀察名單的詳細資料、以及刪除觀察名單。</block>
   <block id="e07c66941c84e7feebe88312021581ff" category="paragraph">「階層資料」按鈕已新增至FabricPool 「階層資料」儀表板、可讓您使用NetApp BlueXP將資料分層至低成本的物件儲存層。</block>
   <block id="41f9c9dd8e599cba3a64a6e53ff343a9" category="paragraph">您可以使用數位顧問API來提取感興趣的資料、並將其直接整合到貴公司的工作流程中。 <block ref="79a495fed0082d673c1047b883d4546e" category="inline-link-macro-rx"></block>。</block>
   <block id="423dd400f697bb08eca274e1e810b26e" category="paragraph">數位顧問現在提供三種語言：中文、英文和日文。</block>
-  <block id="4791e1aac6a449cf242a8a6a09240ac3" category="paragraph">「數位顧問健全狀況檢查儀表板」提供整體環境的時間點審查。根據健全狀況檢查分數、您可以將儲存系統調整為建議的NetApp最佳實務做法、以利進行長期規劃、並改善安裝基礎的健全狀況。 <block ref="1896498242b484574904ca9397362055" category="inline-link-macro-rx"></block>。</block>
   <block id="7a528fe08556f70d64e31f51b17654f7" category="paragraph">您現在可以提供您的意見反應、並告知我們您更新數位顧問預設首頁畫面的原因。</block>
   <block id="242af7c119838a4ad767c52325947075" category="paragraph">您現在可以設定數位顧問的預設首頁畫面。您可以將其設定為數位顧問或傳統。</block>
   <block id="6a561fa96a3d1a7ca7d1a2e1d651de71" category="paragraph">入門影片可協助使用者快速熟悉數位顧問的選項與功能。</block>
@@ -1273,4 +1261,16 @@
   <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">您可以在Volume IOPS圖表中檢視平均讀取、寫入及其他作業。</block>
   <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10》及更新版本的各種系統、包括AFF ：VMware、AFF VMware、VMware ONTAP 、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware</block>
   <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">2023年2月22日</block>
+  <block id="c97236d0432cf7fbbc8c3b120b3e6701" category="inline-link-macro">NetApp產品安全</block>
+  <block id="30becc7ff660741781b33df4424a976b" category="paragraph">NetApp安全網站是NetApp產品安全的真實來源： <block ref="5e78a47b9f3f07f171347317054eb0a4" category="inline-link-macro-rx"></block></block>
+  <block id="1a0fefe07d105bbdb30fd8b35268ac5f" category="paragraph">如需其他NetApp產品安全資訊、包括數位顧問未涵蓋的產品、請造訪 <block ref="5e78a47b9f3f07f171347317054eb0a4" category="inline-link-macro-rx"></block></block>
+  <block id="bbca9981d6b0f3a88a20d77f9f0b515e" category="summary">提供NetApp Keystone 有關容量使用率的資訊、請參閱「用作支援」。</block>
+  <block id="ce1aa13636f163ff457fae8432a2f4ec" category="paragraph">您可以檢視*基礎概念-容量使用率*儀表板、此儀表板會分析小工具中的資料、並以圖形方式呈現所有訂閱儲存設備容量和使用量的使用率趨勢 <block ref="471fbca756054ddae280268222b19bf9" category="inline-link-macro-rx"></block>（例如Premium、Extreme和Standard）、與NetApp Keystone 您的「精選訂閱」帳戶有關。</block>
+  <block id="27363af66f7c7e4630979587cc9ad936" category="paragraph">您可以檢視 <block ref="641f2bb6b5e44be4cae8acd4ce2983c0" category="inline-link-macro-rx"></block> 以及儀表板上每個已訂閱服務的區塊、檔案服務或物件儲存設備使用量。</block>
+  <block id="1583e3cf3d8d7b04d46e1fc4c3378657" category="paragraph">在「功能性顧問」畫面中、您可以啟動非作用中的資料報告（IDR）來監控Aggregate並產生可執行的教戰手冊。FabricPool</block>
+  <block id="a44ea0c484f7b46a675c3900938f5c9e" category="paragraph">下載應用程式以深入瞭解：<block ref="9f34f1e9a1a1b7a5470e007139e444f5" category="inline-link-macro-rx"></block>
+<block ref="45e5ff1f89e77ef1cc1575bf78209669" category="inline-link-macro-rx"></block></block>
+  <block id="c0992993c6a0220032f6f381a6082dc2" category="section-title">Keystone訂閱小工具</block>
+  <block id="f84828c873f8fa6665a13cc455631ce9" category="paragraph">「數位顧問健全狀況檢查儀表板」提供整體環境的時間點審查。根據健全狀況檢查分數、您可以將儲存系統調整為建議的NetApp最佳實務做法、以利進行長期規劃、並改善安裝基礎的健全狀況。</block>
+  <block id="767f01b53ed58e4274d58e166e4e1e78" category="paragraph">您可以監控NetApp Keystone 針對您的《支援訂閱服務》所做的承諾、耗用及突發儲存容量。</block>
 </blocks>

@@ -19,11 +19,11 @@ summary: 提供如何加強防範駭客和勒索軟體攻擊的相關資訊。
 
 
 [role="lead"]
-NetApp安全網站是NetApp產品安全的真實來源： link:https://security.netapp.com[""]
+NetApp安全網站是NetApp產品安全的真實來源： link:https://security.netapp.com["NetApp產品安全"^]
 
 數位顧問利用遙測資料和已發佈的產品安全性摘要報告來偵測涵蓋範圍*的安全性問題、以及授權支援的產品。產品遙測資料必須透過AutoSupport NetApp透過NetApp傳輸、以便Digital Advisor偵測風險。
 
-如需其他NetApp產品安全資訊、包括數位顧問未涵蓋的產品、請造訪 link:https://security.netapp.com[""]
+如需其他NetApp產品安全資訊、包括數位顧問未涵蓋的產品、請造訪 link:https://security.netapp.com["NetApp產品安全"^]
 
 *涵蓋產品：ONTAP 支援VMware *的支援範圍：支援內部部署與雲端技術的支援、SANtricity 支援VMware *的支援範SolidFire 圍包括：VMware *的支援範StorageGRID 圍包括：VMware *支援內部部署與雲端*、支援VMware *的支援範圍涵蓋範圍涵蓋範圍涵蓋範圍涵蓋Active IQ Unified Manager ONTAP
 
