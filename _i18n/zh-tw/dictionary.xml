@@ -186,7 +186,6 @@
   <block id="9b3e70f7ec5801014bd7ba2b043dd460" category="paragraph">*為什麼我在庫存頁面中找不到某些系統？*由於下列原因之一、您可能無法在庫存頁面中檢視某些系統：</block>
   <block id="490faa3ce28cbfbdad8226dd7dc88a66" category="list-text">系統安全無虞、您無權檢視安全系統。</block>
   <block id="fff04069266603da7d63522615d51f31" category="list-text">您無權檢視系統。</block>
-  <block id="04187ceda7d68629d17d32d7bfb72e06" category="list-text">系統處於非使用中狀態</block>
   <block id="202e46041652836ed8241309090e3360" category="inline-link-macro">建立非技術案例</block>
   <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">請按這裡。</block>
   <block id="9ca5b690fe8bde0ca39f3697552ca80d" category="paragraph">如果您因為其他原因而無法檢視系統、 <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>。若要深入瞭解非技術案例、請按一下 <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
@@ -1273,4 +1272,5 @@
   <block id="c0992993c6a0220032f6f381a6082dc2" category="section-title">Keystone訂閱小工具</block>
   <block id="f84828c873f8fa6665a13cc455631ce9" category="paragraph">「數位顧問健全狀況檢查儀表板」提供整體環境的時間點審查。根據健全狀況檢查分數、您可以將儲存系統調整為建議的NetApp最佳實務做法、以利進行長期規劃、並改善安裝基礎的健全狀況。</block>
   <block id="767f01b53ed58e4274d58e166e4e1e78" category="paragraph">您可以監控NetApp Keystone 針對您的《支援訂閱服務》所做的承諾、耗用及突發儲存容量。</block>
+  <block id="51f3a0a362446375c682ade41a945286" category="list-text">SAP 中的系統處於非使用中狀態。</block>
 </blocks>
