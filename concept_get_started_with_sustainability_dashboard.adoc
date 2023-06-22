@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concept_get_started_with_sustainability_dashboard.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
+summary: 提供儀表板、永續性分數、工作環境及建議行動的相關資訊。 
+---
+= 開始使用 Sustainability Dashboard
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+此儀表板提供儲存系統的環境評估、以及可據以行動的深入分析、以 NetApp 建議行動的形式進行改善。
+
+* 永續性分數 * ：顯示代表儲存系統環境永續性的總分數。您可以根據下列範圍評估儲存系統的永續性層級：
+
+* 76-100 ：表示永續性是首要考量。
+* 51 - 75 ：表示可持續發展計畫的投資額很高。
+* 26 - 50 ：表示在永續發展計畫方面有良好進展。
+* 少於 25 ：表示需要改善永續性做法。
+
+
+您可以看到最多 5 週的分數圖形呈現、每週更新一次。您也可以將游標暫留在圖表上、以查看永續性分數增加或降低的原因。
+
+image:sustainability_score.png["顯示永續性分數及圖表的螢幕擷取畫面。"]
+
+* 環境指標 * ：顯示電力、直接碳使用量和熱能排放量的預測、以評估儲存系統的環境健全狀況。您可以從本節右上角的下拉式清單中選取所需的時間範圍、以每月、每季或每年檢視這些預測。
+
+* 碳減量百分比 * ：顯示每個站台 / 城市的碳減量百分比、並根據您所在的位置顯示所呈現的基準值。您可以按一下來調整特定站台的碳排放百分比 image:edit_icon_1.png["顯示可編輯圖示的螢幕擷取畫面。"] 位於百分比值旁的圖示、碳數值將會自動調整。
+
+* 建議行動 * ：顯示建議行動清單、以改善儲存系統的永續性分數。選擇 *Fix* 即可立即採取這些行動。您可以按一下 *Fix* 或向下箭頭來展開檢視、如果繼續使用 *Fix* 選項、您可以看到叢集名稱、永續性分數及後續的增加。在展開的檢視中、您也可以看到繼續使用 *Fix* 選項的資訊訊息。
+
+image:recommended_actions.png["螢幕擷取畫面、顯示展開檢視中的動作清單。"]
+
+如果您打算稍後處理這些動作、您可以選取 * 稍後 * 、將它們移至 * 稍後的動作 * 索引標籤。這些行動將延後 30 天。30 天後、這些動作會自動移回 * 建議的動作 * 索引標籤。您也可以隨時檢閱延遲的動作、並按一下 * 考慮 * 、將其移回 * 建議的動作 * 索引標籤。
+
+* 工作環境 * ：在已安裝基礎的叢集層級顯示各種環境參數。您可以檢視叢集層級的永續性分數、選取叢集名稱存取 * ClusterViewer* 、從這裡採取特定的建議行動以改善永續性。
+
+
+NOTE: 目前支援採用 AFF 、 FAS 和 CVO 的 ONTAP 系統。

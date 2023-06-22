@@ -973,18 +973,6 @@
   <block id="4cb8aabcf131d734977ab53c8a2ca120" category="list-text">SnapMirror目的地磁碟區（Volume Type LS和DP）將被排除</block>
   <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">按一下「* Disaster Recovery*」（*災難恢復*）窗格中的任一連結。</block>
   <block id="ef8a4ebca6f4cc3e64a7ad289ebd3eb6" category="summary">提供儀表板、觀察清單、功能和小工具的相關資訊。</block>
-  <block id="ac1dcbd86bac3c8e0c5adb11006ef7d3" category="list-text">檢視多份報價表、可據以行動且實用的資訊一覽表</block>
-  <block id="9c469876265a6bb1e8b9865685bdea76" category="list-text">深入瞭解儲存系統的所有風險、以及降低風險的行動</block>
-  <block id="07fbf7c29b885315f5a499828e5d2912" category="list-text">升級您的儲存系統</block>
-  <block id="7c19de9daa4abc4fd87b688f29ba6e89" category="list-text">檢視儲存效率比、使用的邏輯空間、使用的實體空間、以及執行ONTAP 更新版本的儲存系統所儲存的總資料</block>
-  <block id="4c8438807538fa50db0d24cda516c562" category="list-text">檢視效能資料的圖形格式、以分析儲存設備的效能</block>
-  <block id="25bab72d979d2f781310fbd8a7510d1e" category="list-text">取得未來6個月內已過期或即將到期的硬體與軟體相關資訊</block>
-  <block id="582adb4f0e7a3267346145b6b82ce29a" category="list-text">使用Ansible更新ONTAP 您的韌體</block>
-  <block id="63a792f0efaeee81d9e7f3ba251637c2" category="list-text">取得超過90%容量或接近90%容量的系統詳細資料</block>
-  <block id="3635d6c25949f1a58c70590c42f57462" category="list-text">檢視詳細的實體和邏輯組態資訊、包括叢集和節點組態摘要、本機層級和磁碟區資訊、網路介面和連接埠資訊、詳細說明磁碟和磁碟櫃資訊的堆疊圖表、以及幾種纜線視覺效果</block>
-  <block id="99d2fd1ab881558fd1bfafc670c1e114" category="list-text">提供跨堆疊的資訊與洞見、有助於疑難排解、升級評估、解決方案驗證及移轉</block>
-  <block id="2eff8449b9983f6e6e5e4c068f551cde" category="list-text">檢查主機的相容性、並針對主機作業系統、驅動程式和韌體提供升級建議</block>
-  <block id="3ef99ba5d79d98939649058bd12621b4" category="list-text">以更聰明、更快速的方式、準確找到您想要的產品</block>
   <block id="d8d27ee684d88256c60816459952e514" category="admonition">您可以從系統儀表板上的*組態*小工具升級支援服務、以深入瞭解您的安裝基礎、並獲得個人化支援。</block>
   <block id="7fffffd83e81207eb469a895955d2d8a" category="summary">提供使用者可用之不同類型報告的相關資訊。</block>
   <block id="5205cb2f3582e719834d2230589ba0f6" category="doc">報告類型</block>
@@ -1272,5 +1260,75 @@
   <block id="c0992993c6a0220032f6f381a6082dc2" category="section-title">Keystone訂閱小工具</block>
   <block id="f84828c873f8fa6665a13cc455631ce9" category="paragraph">「數位顧問健全狀況檢查儀表板」提供整體環境的時間點審查。根據健全狀況檢查分數、您可以將儲存系統調整為建議的NetApp最佳實務做法、以利進行長期規劃、並改善安裝基礎的健全狀況。</block>
   <block id="767f01b53ed58e4274d58e166e4e1e78" category="paragraph">您可以監控NetApp Keystone 針對您的《支援訂閱服務》所做的承諾、耗用及突發儲存容量。</block>
-  <block id="51f3a0a362446375c682ade41a945286" category="list-text">SAP 中的系統處於非使用中狀態。</block>
+  <block id="cd58a2289aa9a570f905ace9253b287f" category="list-text">系統在 SAP 中處於非使用中或停用狀態。</block>
+  <block id="e90912cb3f8595479987796300c99d6c" category="summary">提供儀表板、永續性分數、工作環境及建議行動的相關資訊。</block>
+  <block id="06cdd6dcccb0573b58a1525964134965" category="doc">開始使用 Sustainability Dashboard</block>
+  <block id="87711a398a7e6a734618da04d3342954" category="paragraph">此儀表板提供儲存系統的環境評估、以及可據以行動的深入分析、以 NetApp 建議行動的形式進行改善。</block>
+  <block id="de857c4705c01d60f072c89db409bb0f" category="paragraph">* 永續性分數 * ：顯示代表儲存系統環境永續性的總分數。您可以根據下列範圍評估儲存系統的永續性層級：</block>
+  <block id="b04fdd8d3c616238ff5067578ec445ae" category="list-text">76-100 ：表示永續性是首要考量。</block>
+  <block id="d79fa3a278fafc90f05b60fc886ee7a8" category="list-text">51 - 75 ：表示可持續發展計畫的投資額很高。</block>
+  <block id="8af93586db898b2afff53995435e56cd" category="list-text">26 - 50 ：表示在永續發展計畫方面有良好進展。</block>
+  <block id="129c025cb275919421a73e175f4d6b51" category="list-text">少於 25 ：表示需要改善永續性做法。</block>
+  <block id="39df01e4d3f96b515477bb91d41693e1" category="paragraph">您可以看到最多 5 週的分數圖形呈現、每週更新一次。您也可以將游標暫留在圖表上、以查看永續性分數增加或降低的原因。</block>
+  <block id="124737733adb9db94833bf1012498225" category="inline-image-macro">顯示永續性分數及圖表的螢幕擷取畫面。</block>
+  <block id="a2bc2df13c5a3762142955fb95ab0af5" category="paragraph"><block ref="a2bc2df13c5a3762142955fb95ab0af5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4a4ece81a5a89febb339536be98d1458" category="paragraph">* 環境指標 * ：顯示電力、直接碳使用量和熱能排放量的預測、以評估儲存系統的環境健全狀況。您可以從本節右上角的下拉式清單中選取所需的時間範圍、以每月、每季或每年檢視這些預測。</block>
+  <block id="d934690f46f773b38d9c65526a88d2a1" category="inline-image-macro">顯示可編輯圖示的螢幕擷取畫面。</block>
+  <block id="88ff2e9a0a1bf07b4e3957199ef248f0" category="paragraph">* 碳減量百分比 * ：顯示每個站台 / 城市的碳減量百分比、並根據您所在的位置顯示所呈現的基準值。您可以按一下來調整特定站台的碳排放百分比 <block ref="58945c98e470d270455cd5912e91eb15" category="inline-image-macro-rx" type="image"></block> 位於百分比值旁的圖示、碳數值將會自動調整。</block>
+  <block id="35c40b1976d1ce98a9121146c10ec009" category="paragraph">* 建議行動 * ：顯示建議行動清單、以改善儲存系統的永續性分數。選擇 *Fix* 即可立即採取這些行動。您可以按一下 *Fix* 或向下箭頭來展開檢視、如果繼續使用 *Fix* 選項、您可以看到叢集名稱、永續性分數及後續的增加。在展開的檢視中、您也可以看到繼續使用 *Fix* 選項的資訊訊息。</block>
+  <block id="707741d275e0975dc229329ccd426a07" category="inline-image-macro">螢幕擷取畫面、顯示展開檢視中的動作清單。</block>
+  <block id="d1f34a9fa829d3045f1efbad48f775eb" category="paragraph"><block ref="d1f34a9fa829d3045f1efbad48f775eb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="09620871e591b6de487066e0b42c028c" category="paragraph">如果您打算稍後處理這些動作、您可以選取 * 稍後 * 、將它們移至 * 稍後的動作 * 索引標籤。這些行動將延後 30 天。30 天後、這些動作會自動移回 * 建議的動作 * 索引標籤。您也可以隨時檢閱延遲的動作、並按一下 * 考慮 * 、將其移回 * 建議的動作 * 索引標籤。</block>
+  <block id="5f0388a6e35ab1c017b19f9c0c580225" category="paragraph">* 工作環境 * ：在已安裝基礎的叢集層級顯示各種環境參數。您可以檢視叢集層級的永續性分數、選取叢集名稱存取 * ClusterViewer* 、從這裡採取特定的建議行動以改善永續性。</block>
+  <block id="f2ae849ec2f53979329ed4b00e3cd6eb" category="admonition">目前支援採用 AFF 、 FAS 和 CVO 的 ONTAP 系統。</block>
+  <block id="fb8c863be001fc68522b09f5c7ab5899" category="summary">提供資訊以熟悉 Sustainability Dashboard 。</block>
+  <block id="df3259aced42e68d1518ac692c0cd25d" category="doc">瞭解 BlueXP 永續性服務</block>
+  <block id="855d25a326a6ecf64f0190057e34a8a2" category="paragraph">永續性即服務可讓您減少能源消耗、並協助您達成環保目標。這可讓您將儲存系統與環保實務一致、並達成永續發展目標。</block>
+  <block id="7a5cdb5829440fd156d521830c546a85" category="section-title">您可以如何使用永續性服務</block>
+  <block id="f6e5c50b1d630128adfb99732b3be16b" category="paragraph">您可以檢視永續性分數、以及電力、直接碳和熱能的預計使用率。您可以調整特定站台的碳減量百分比。根據永續性分數、您可以評估整體的永續性態勢、並實作 NetApp 建議的行動來改善分數。</block>
+  <block id="61f3d8e621fe05148bb6346a3da7c9cc" category="paragraph">您也可以檢視叢集層級的永續性分數。叢集層級所提供的資料也有助於識別可移轉至更有效率儲存的叢集、在效能與電源效率之間取得適當的平衡。</block>
+  <block id="40dc10ad135a4e4dc568a7aa242e346b" category="section-title">存取永續性服務</block>
+  <block id="591d6bde7048e0f055f2937e178fe8eb" category="paragraph">您可以透過兩種方式存取此服務：</block>
+  <block id="bc321562c41e07c6c7a7c2fcc7819032" category="list-text">* 在 Digital Advisor * 中存取永續性服務
+您可以登入 Digital Advisor 、並從 Digital Advisor 儀表板存取 Sustainability 服務。</block>
+  <block id="e58e5e6ea250c0d33583a97403fee17c" category="inline-image-macro">UI 螢幕擷取畫面提供 Sustainability 儀表板的概觀。</block>
+  <block id="c15bf54bfb138c4f090b02cbeeca69f9" category="paragraph"><block ref="c15bf54bfb138c4f090b02cbeeca69f9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0ff38bbdb0277b0a0d29e6fc78aca4e1" category="paragraph">如需登入 Digital Advisor 的詳細資訊、請參閱 <block ref="ea710f62517834d879fd62e2f2933884" category="inline-link-macro-rx"></block>。</block>
+  <block id="67b2c8af58c710f6cd4521f1f80f8216" category="list-text">* 在 BlueXP* 中存取永續性服務
+您可以登入 BlueXP 、並從 BlueXP 左側導覽中的 * Governance * 類別存取永續性服務。</block>
+  <block id="96d0f57ed12b3b53cfcbb2be8d2ecf30" category="inline-image-macro">UI 螢幕擷取畫面、提供 BlueXP 中的 Sustainability 儀表板概觀。</block>
+  <block id="547c7e82193b8c421f80fff741758831" category="paragraph"><block ref="547c7e82193b8c421f80fff741758831" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8e917942a77709dfd28c155f42a97553" category="inline-link-macro">深入瞭解登入</block>
+  <block id="8f311d0aee01eb4f3b71cb4a1f717703" category="paragraph">若要登入BlueXP、您可以使用NetApp 支援網站 您的不實證資料、也可以使用電子郵件和密碼註冊NetApp雲端登入。 <block ref="f3eba1008b655e5e66f20213b643dd24" category="inline-link-macro-rx"></block>。</block>
+  <block id="821d1756364d64a3adf1ff448e34d40b" category="section-title">使用永續性服務的好處</block>
+  <block id="953321a5ab304bd7d58cf4dd451e32e0" category="paragraph">永續性服務提供下列優點：</block>
+  <block id="4fdc8f8c48e4ec80848e9368764d4b95" category="list-text">加速效能</block>
+  <block id="3539435a6de515609cc1b8543224f713" category="list-text">降低儲存成本</block>
+  <block id="f12856396bd806cdc7038dbbbc5efcd2" category="list-text">減少碳足跡</block>
+  <block id="49beaa2702ece5b3496f85b7811e7898" category="list-text">改善能源效率</block>
+  <block id="d7ffa2dface411a028c111d92c0574cc" category="list-text">清楚洞悉您的永續發展態勢</block>
+  <block id="f172c78b7f668c77b49c9342501992c0" category="list-text">AI / ML 導向的可行建議</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
+  <block id="520e1d23fab39afcbff2a7abad3b1d89" category="paragraph">NetApp 不會向您收取使用 BlueXP 永續性服務的費用。您可以在有效的支援合約中使用。</block>
+  <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">授權</block>
+  <block id="8a85fa75801981e1dba36489f26b604e" category="paragraph">存取此服務不需要特殊授權。如果您已為系統啟用 AutoSupport 、則可在有效的支援合約中使用此功能。</block>
+  <block id="e9cdfc3ff6e77bfb8ec195d6362f98f9" category="list-text">檢視多個觀察名單、可據以行動且實用的資訊概覽。</block>
+  <block id="6af161dea04328fb2cd0c0438e1f8355" category="list-text">深入瞭解儲存系統的所有風險、以及降低風險的行動。</block>
+  <block id="36cec47f7689f0259d19d5b01531f4e9" category="list-text">使用 Active IQ Unified Manager 降低風險。</block>
+  <block id="2c1d81e3772d9ef164c64b411ca4e8f2" category="list-text">升級您的儲存系統。</block>
+  <block id="a3724fe4c82d2e588a76d98b41647731" category="list-text">檢視永續性分數、以及電力、直接碳和熱能的預計使用率。根據永續性分數、評估儲存系統的整體效率、並配合 NetApp 建議的行動來改善分數。 <block ref="2a00df11659d53cc6af50733fabe3a4a" category="inline-link-macro-rx"></block>。</block>
+  <block id="05eae71003a0c12ec28cec072f7339f8" category="list-text">檢視儲存效率比率、使用的邏輯空間、使用的實體空間、以及儲存給執行 ONTAP 9.1 及更新版本之儲存系統的總資料。</block>
+  <block id="125859f7a75ea087ef61995849562e3b" category="list-text">檢視效能資料的圖形格式、分析儲存裝置的效能。</block>
+  <block id="dacf9744e039d2c6cd15d0001ef8a424" category="list-text">取得在未來 6 個月內過期或即將到期的硬體和軟體相關資訊。</block>
+  <block id="bb684054961f57c4a18794310f91e0e7" category="list-text">使用 Ansible 更新 ONTAP 韌體。</block>
+  <block id="eb1fe695fcd963b57a65eba0363be8d8" category="list-text">取得超過 90% 容量或接近 90% 容量的系統詳細資料。</block>
+  <block id="7c6c02effa6412237c8c392380180699" category="list-text">檢視詳細的實體和邏輯組態資訊、包括叢集和節點組態摘要、本機層和磁碟區資訊、網路介面和連接埠資訊、詳細說明磁碟和磁碟櫃資訊的堆疊圖表、以及一些纜線視覺化。</block>
+  <block id="d81e9eda4f33de56cfd4c583d99ab437" category="list-text">提供跨堆疊資訊和深入見解、有助於疑難排解、升級評估、解決方案驗證和移轉。</block>
+  <block id="c2b079f6f62fe899dec7b1a93823c546" category="list-text">檢查主機的相容性、並針對主機作業系統、驅動程式和提供升級建議。</block>
+  <block id="daea2bcb0af4558719fc040fddad5b69" category="list-text">以更聰明、更快速的方式、準確達成您想要的目標。</block>
+  <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">2023 年 6 月 21 日</block>
+  <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="section-title">永續發展儀表板</block>
+  <block id="87dcc2d179cb1551f2eb118866025f06" category="paragraph">數位顧問永續性儀表板提供寶貴的見解、讓您深入瞭解儲存系統的環境永續發展。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。評估永續性分數後、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <block ref="2a00df11659d53cc6af50733fabe3a4a" category="inline-link-macro-rx"></block>。</block>
+  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">分析儲存系統的永續性</block>
+  <block id="718c5101b53c8646db75a2172094f520" category="sidebar">開始使用 Sustainability Dashboard</block>
 </blocks>

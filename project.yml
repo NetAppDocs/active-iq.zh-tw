@@ -113,6 +113,12 @@ sidebar:
       url: "/concept_get_started_with_health_check_dashboard.html"
     - title: 續約您的支援合約
       url: "/task_renew_support_contracts_for_your_systems.html"
+  - title: 分析儲存系統的永續性
+    entries:
+    - title: 瞭解 BlueXP 永續性服務
+      url: "/concept_understand_sustainability_dashboard.html"
+    - title: 開始使用 Sustainability Dashboard
+      url: "/concept_get_started_with_sustainability_dashboard.html"
   - title: 升級以最佳化安裝基礎
     entries:
     - title: 升級ONTAP 儲存系統的版本
