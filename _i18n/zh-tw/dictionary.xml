@@ -183,12 +183,10 @@
   <block id="62b464a696f86c90363b4594cfca87f4" category="paragraph">*為什麼每個磁碟區的「已新增使用容量」與節點層級的「已使用容量」不符？*節點層級的「已使用容量」包括由磁碟區、中繼資料和Snapshot複本保留的空間。它也包含保留給磁碟區的空間（檔案或磁碟區保證類型）。因此兩者可能不相符。</block>
   <block id="5144b142028342a902f17914b7d8eeb1" category="paragraph">就功能而言、容量會以Base 10顯示、容量單位則以TB表示。StorageGRID</block>
   <block id="4d604dd8f008145471dc845683399189" category="section-title">庫存</block>
-  <block id="9b3e70f7ec5801014bd7ba2b043dd460" category="paragraph">*為什麼我在庫存頁面中找不到某些系統？*由於下列原因之一、您可能無法在庫存頁面中檢視某些系統：</block>
   <block id="490faa3ce28cbfbdad8226dd7dc88a66" category="list-text">系統安全無虞、您無權檢視安全系統。</block>
   <block id="fff04069266603da7d63522615d51f31" category="list-text">您無權檢視系統。</block>
   <block id="202e46041652836ed8241309090e3360" category="inline-link-macro">建立非技術案例</block>
   <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">請按這裡。</block>
-  <block id="9ca5b690fe8bde0ca39f3697552ca80d" category="paragraph">如果您因為其他原因而無法檢視系統、 <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>。若要深入瞭解非技術案例、請按一下 <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
   <block id="7c6137cde05014e7fab83f78a553dffa" category="doc">分析容量與儲存效率節約效益</block>
   <block id="d05dbf74dd4a436186ee08c15e9b81d8" category="paragraph">您可以檢視系統的容量詳細資料及儲存效率節約效益、並採取適當行動。容量與儲存效率資訊可在叢集層級或節點層級檢視。</block>
   <block id="17c1d72dbea38c3c03aed0e08dbb37f9" category="admonition">E系列系統不支援此功能。</block>
@@ -1260,7 +1258,6 @@
   <block id="c0992993c6a0220032f6f381a6082dc2" category="section-title">Keystone訂閱小工具</block>
   <block id="f84828c873f8fa6665a13cc455631ce9" category="paragraph">「數位顧問健全狀況檢查儀表板」提供整體環境的時間點審查。根據健全狀況檢查分數、您可以將儲存系統調整為建議的NetApp最佳實務做法、以利進行長期規劃、並改善安裝基礎的健全狀況。</block>
   <block id="767f01b53ed58e4274d58e166e4e1e78" category="paragraph">您可以監控NetApp Keystone 針對您的《支援訂閱服務》所做的承諾、耗用及突發儲存容量。</block>
-  <block id="cd58a2289aa9a570f905ace9253b287f" category="list-text">系統在 SAP 中處於非使用中或停用狀態。</block>
   <block id="e90912cb3f8595479987796300c99d6c" category="summary">提供儀表板、永續性分數、工作環境及建議行動的相關資訊。</block>
   <block id="06cdd6dcccb0573b58a1525964134965" category="doc">開始使用 Sustainability Dashboard</block>
   <block id="87711a398a7e6a734618da04d3342954" category="paragraph">此儀表板提供儲存系統的環境評估、以及可據以行動的深入分析、以 NetApp 建議行動的形式進行改善。</block>
@@ -1331,4 +1328,8 @@
   <block id="87dcc2d179cb1551f2eb118866025f06" category="paragraph">數位顧問永續性儀表板提供寶貴的見解、讓您深入瞭解儲存系統的環境永續發展。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。評估永續性分數後、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <block ref="2a00df11659d53cc6af50733fabe3a4a" category="inline-link-macro-rx"></block>。</block>
   <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">分析儲存系統的永續性</block>
   <block id="718c5101b53c8646db75a2172094f520" category="sidebar">開始使用 Sustainability Dashboard</block>
+  <block id="23c5744a4c274e51948ba5ceeb6db0f9" category="paragraph">* 為何我無法在 Digital Advisor 中找到某些系統？ *
+您可能因為下列其中一項原因而無法搜尋某些系統或在庫存頁面中檢視這些系統：</block>
+  <block id="f2c1cd072b0801929f6eda1e5bff8545" category="list-text">系統在 SAP 中處於非使用中、歸檔或停用狀態。</block>
+  <block id="6d3911d1bc35c7abc342f54857e32dcf" category="paragraph">如果您因為任何其他原因而無法檢視系統、有疑問或想要要求存取、 <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>。若要深入瞭解非技術案例、請按一下 <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
 </blocks>
