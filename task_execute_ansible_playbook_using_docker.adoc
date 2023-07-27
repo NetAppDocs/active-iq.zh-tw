@@ -34,7 +34,7 @@ summary: 提供如何使用Docker映像執行「可執行教戰手冊」的相�
 
 
 .步驟
-. link:https://docs.docker.com/get-started/["設定Docker"]。
+. link:https://docs.docker.com/get-started/["設定Docker"^]。
 . 執行下列命令、從Docker Hub擷取NetApp Docker映像檔：
 +
 [listing]
@@ -46,7 +46,7 @@ latest: Pulling from schmots1/netapp-ansible
 docker.io/schmots1/netapp-ansible:lates
 ----
 +
-如需有關Docker Pull命令的詳細資訊、請參閱 link:https://docs.docker.com/engine/reference/commandline/pull/["Docker Pull文件"]。
+如需有關Docker Pull命令的詳細資訊、請參閱 link:https://docs.docker.com/engine/reference/commandline/pull/["Docker Pull文件"^]。
 
 . 以容器形式執行Docker映像檔、然後登入容器以執行「可執行的教戰手冊」。
 . 複製包含擷取的Ansible教戰手冊和庫存檔案的資料夾路徑、例如* downloaded_playbook_path*。Ansible教戰手冊和庫存檔案應位於同一個資料夾中、以便順利執行。
@@ -57,7 +57,7 @@ docker.io/schmots1/netapp-ansible:lates
 $ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
 ----
 +
-容器隨即啟動、主控台現在位於容器的Bash Shell。如需Docker Run命令的詳細資訊、請參閱 link:https://docs.docker.com/engine/reference/run/["Docker執行文件"]。
+容器隨即啟動、主控台現在位於容器的Bash Shell。如需Docker Run命令的詳細資訊、請參閱 link:https://docs.docker.com/engine/reference/run/["Docker執行文件"^]。
 
 . 使用* Ansible playbook*命令在容器內執行Ansible Playbook：
 +
@@ -77,6 +77,6 @@ NOTE: 如果有一組叢集具有不同的登入認證、則必須在每個叢�
 
 
 
-如需* Ansible playbook *命令的詳細資訊、請參閱 link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible教戰手冊文件"] 若要以檢查模式執行Ansible教戰手冊（演習）、請參閱 link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible：檢查模式"]。
+如需* Ansible playbook *命令的詳細資訊、請參閱 link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible教戰手冊文件"^] 若要以檢查模式執行Ansible教戰手冊（演習）、請參閱 link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible：檢查模式"^]。
 
 執行「Ansible Playbook」之後、請參閱 link:task_validate_firmware_installation.html["韌體安裝驗證"] 以取得執行後的指示。

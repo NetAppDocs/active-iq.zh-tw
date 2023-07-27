@@ -25,7 +25,7 @@ API目錄可讓您瀏覽各個類別中的類別和可用API。
 
 .步驟
 . 在*快速連結*功能表中、按一下* API服務*。
-. 按一下 link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*瀏覽*"] 在「* API目錄*」圖示下。
+. 按一下 link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*瀏覽*"^] 在「* API目錄*」圖示下。
 +
 隨即顯示API目錄。
 

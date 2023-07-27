@@ -40,7 +40,7 @@ disk     firmware-revision model
 1.11.4   NA01              X423_HCOBE900A10
 ----
 +
-如需命令的詳細資訊、請參閱｛link with -bingeres｝[storage disk show]。
+如需命令的詳細資訊、請參閱 ｛ link-with - 底線 ｝ [ 儲存磁碟顯示 ^] 。
 
 . 確認已安裝新的NVMe Flash Cache韌體：
 +
@@ -49,7 +49,7 @@ disk     firmware-revision model
 ::*> system controller flash-cache show
 ----
 +
-如需有關命令的詳細資訊、請參閱｛link with -binges｝[系統控制器flash-cache show]。
+如需命令的詳細資訊、請參閱 ｛ link-with - 底線 ｝ [ 系統控制器 flash-cache show ^] 。
 
 
 
@@ -73,7 +73,7 @@ disk     firmware-revision model
 Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 ----
 +
-如需命令的詳細資訊、請參閱｛link with底線｝[系統節點執行]。
+如需命令的詳細資訊、請參閱 ｛ link-with - 底線 ｝ [ 系統節點執行 ^] 。
 
 . 確認新的ACP韌體已更新：
 +
@@ -82,7 +82,7 @@ Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 ::*> storage shelf acp module show -instance
 ----
 +
-如需有關命令的詳細資訊、請參閱｛link with -binges｝[儲存櫃ACP模組show]。
+如需命令的詳細資訊、請參閱 ｛ link-with - 底線 ｝ [ 儲存櫃 ACP 模組 show ^] 。
 
 . 確認已設定所需的ACP模式：
 +
@@ -91,7 +91,7 @@ Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 ::*> storage shelf acp show
 ----
 +
-如需有關命令的詳細資訊、請參閱｛link with -binges｝[儲存櫃ACP show]。
+如需命令的詳細資訊、請參閱 ｛ link-with - 底線 ｝ [ 儲存櫃 ACP show ^] 。
 
 . 變更ACP模式（通道）：
 +
@@ -100,7 +100,7 @@ Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 ::*> storage shelf acp configure -channel [in-band | out-of-band]
 ----
 +
-如需有關命令的詳細資訊、請參閱｛link with -binges｝[儲存櫃ACP設定]。
+如需命令的詳細資訊、請參閱 ｛ link-with - 底線 ｝ [ 儲存櫃 ACP 組態 ^] 。
 
 
 

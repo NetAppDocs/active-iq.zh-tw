@@ -42,7 +42,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 *如何建立非技術案例？*
 
-. 按一下 link:https://mysupport.netapp.com/site/help["請按這裡"] 開啟 NetApp 支援網站上的「Non Technical Feedback Tool（非技術意見回饋工具）」。
+. 按一下 link:https://mysupport.netapp.com/site/help["請按這裡"^] 開啟 NetApp 支援網站上的「Non Technical Feedback Tool（非技術意見回饋工具）」。
 . 從「*意見反應類別*」下拉式清單中選取適當的類別。
 . 輸入所需的詳細資料、並在「Comments（註解）」方塊中提供額外資訊。
 . 按一下*提交*。
@@ -60,7 +60,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 *如何在Digital Advisor中存取儲存效率？*
 
-. 開啟的首頁 link:https://activeiq.netapp.com/?source=onlinedocs["數位顧問"]。
+. 開啟的首頁 link:https://activeiq.netapp.com/?source=onlinedocs["數位顧問"^]。
 . 從右上方的搜尋方塊中搜尋客戶、站台、群組、叢集或節點、以前往各自的儀表板。
 . 按一下左側導覽中的*儲存效率*。
 
@@ -210,7 +210,7 @@ Digital Advisor會顯示ONTAP 執行效能更新版本的系統的比率。
 * 系統在 SAP 中處於非使用中、歸檔或停用狀態。
 
 
-如果您因為任何其他原因而無法檢視系統、有疑問或想要要求存取、 link:https://mysupport.netapp.com/site/help["建立非技術案例"]。若要深入瞭解非技術案例、請按一下 <<非技術案例,請按這裡。>>
+如果您因為任何其他原因而無法檢視系統、有疑問或想要要求存取、 link:https://mysupport.netapp.com/site/help["建立非技術案例"^]。若要深入瞭解非技術案例、請按一下 <<非技術案例,請按這裡。>>
 
 
 

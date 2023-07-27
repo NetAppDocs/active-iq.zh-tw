@@ -27,8 +27,8 @@ summary: 提供如何更新AFF 支援功能及FAS 更新功能的資訊。
 
 在使用AFF Ansible更新功能的韌FAS 體之前、您應該：
 
-* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["在儲存系統上安裝及設定Ansible"]
-* link:https://netapp.io/2019/09/17/coming-together-nicely/["在儲存系統上安裝內含集合的Ansible 2.9"]
+* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["在儲存系統上安裝及設定Ansible"^]
+* link:https://netapp.io/2019/09/17/coming-together-nicely/["在儲存系統上安裝內含集合的Ansible 2.9"^]
 * 將您的儲存系統升級至ONTAP 更新版本的更新版本
 * 以系統管理員角色設定您的帳戶
 

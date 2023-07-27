@@ -19,10 +19,13 @@ summary: 提供登入數位顧問的資訊。
 
 
 [role="lead"]
-您必須擁有有效NetApp 支援網站 的資訊提供憑證、才能登入Digital Advisor。如果您沒有帳戶且正在開始使用、請按一下 link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["請按這裡"]。
+您可以從網路型主控台登入 Digital Advisor 、以建立觀察清單來檢視儲存系統的整體狀態。
+
+.開始之前
+您必須擁有有效NetApp 支援網站 的資訊提供憑證、才能登入Digital Advisor。如果您沒有帳戶且正在開始使用、請繼續執行 link:https://mysupport.netapp.com/info/web/ECMLP2458178.html["建立帳戶"^]。
 
 .步驟
-. 按一下 link:https://activeiq.netapp.com/?source=onlinedocs["請按這裡"] 存取Digital Advisor：
+. 前往 link:https://activeiq.netapp.com/?source=onlinedocs["數位顧問"^] 登入頁面。
 +
 Digital Advisor會顯示具有有效支援合約的系統。如果合約到期、系統會提供 90 天的寬限期、讓系統持續可見。之後、數位顧問無法搜尋或顯示系統。
 

@@ -26,7 +26,7 @@ NetApp技術支援會使用這些資料來加速問題的診斷與解決、而�
 
 NOTE: 數位顧問AutoSupport 只會針對AutoSupport 未滿60天的系統顯示與功能不相關的資料。
 
-對於支援靜態系統、當您第一次設定儲存系統時、預設會啟用此功能。ONTAP AutoSupport您應該 link:https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/GUID-91C43742-E563-442E-8161-17D5C5DA8C19.html["設定AutoSupport 功能"] 可控制將資訊傳送至技術支援部門和內部支援組織的方式。ONTAP AutoSupport
+對於支援靜態系統、當您第一次設定儲存系統時、預設會啟用此功能。ONTAP AutoSupport您應該 link:https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/GUID-91C43742-E563-442E-8161-17D5C5DA8C19.html["設定AutoSupport 功能"^] 可控制將資訊傳送至技術支援部門和內部支援組織的方式。ONTAP AutoSupport
 
 如果您不想啟用AutoSupport 效益分析功能、可以使用AutoSupport 「上傳」功能手動上傳AutoSupport 效益分析資料、以獲得有關儲存生態系統的建議和見解。
 
@@ -35,10 +35,10 @@ NOTE: 不含任何使用者資料。AutoSupport
 
 如需AutoSupport 更多關於效益的資訊、請參閱適當的文件：
 
-* link:https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/GUID-DF931E89-B833-4DED-83B5-A97F7EC97425.html["不適用的ONTAP FAS AFF"]
-* link:https://docs.netapp.com/sgws-114/topic/com.netapp.doc.sg-primer/GUID-7D38684D-1CA1-41E7-BE68-A5F671F9C33F.html["StorageGRID"]
-* link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/E-Series_SANtricity_Software_Suite/How_to_enable_AutoSupport_on_E-Series_System_Manager["（E系列和EF系列）SANtricity"]
-* link:https://help.monitoring.solidfire.com/#01_User%20Guide/ActiveIQ/Getting%20Started/enable_active_iq_reporting.htm["元素NetApp HCI （支援功能）SolidFire"]
-* link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444pdf.pdf["技術報告ONTAP AutoSupport -根據AutoSupport 需求提供支援"]
-* link:https://www.netapp.com/pdf.html?item=/media/10439-tr4688pdf.pdf["技術報告- NetApp遙測資料的安全性與隱私權"]
+* link:https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/GUID-DF931E89-B833-4DED-83B5-A97F7EC97425.html["不適用的ONTAP FAS AFF"^]
+* link:https://docs.netapp.com/sgws-114/topic/com.netapp.doc.sg-primer/GUID-7D38684D-1CA1-41E7-BE68-A5F671F9C33F.html["StorageGRID"^]
+* link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/E-Series_SANtricity_Software_Suite/How_to_enable_AutoSupport_on_E-Series_System_Manager["（E系列和EF系列）SANtricity"^]
+* link:https://help.monitoring.solidfire.com/#01_User%20Guide/ActiveIQ/Getting%20Started/enable_active_iq_reporting.htm["元素NetApp HCI （支援功能）SolidFire"^]
+* link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444pdf.pdf["技術報告ONTAP AutoSupport -根據AutoSupport 需求提供支援"^]
+* link:https://www.netapp.com/pdf.html?item=/media/10439-tr4688pdf.pdf["技術報告- NetApp遙測資料的安全性與隱私權"^]
 

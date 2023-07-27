@@ -65,7 +65,6 @@
   <block id="6fece82477cde8bae9bdb844907c3dc2" category="list-text">不正確的支援服務</block>
   <block id="8d561f83f3c24e7d066a3cd084ed3764" category="paragraph">*如何建立非技術案例？*</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">請按這裡</block>
-  <block id="85009e822479a8fa21551fa97aad6551" category="list-text">按一下 <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> 開啟 NetApp 支援網站上的「Non Technical Feedback Tool（非技術意見回饋工具）」。</block>
   <block id="b881d2001fba3b1062cec6417c32bb74" category="list-text">從「*意見反應類別*」下拉式清單中選取適當的類別。</block>
   <block id="12330277a5f9a61a6bc1beddec10eeff" category="list-text">輸入所需的詳細資料、並在「Comments（註解）」方塊中提供額外資訊。</block>
   <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">按一下*提交*。</block>
@@ -518,9 +517,7 @@
   <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">取得更多資訊</block>
   <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">您可以透過各種資源取得協助並尋找更多資訊。</block>
   <block id="5d08ea99dda2f857e6edb3d641d26b98" category="inline-link-macro">疑難排解資訊</block>
-  <block id="36625d4a8e3483d42b841caa5eb55b29" category="list-text"><block ref="36625d4a8e3483d42b841caa5eb55b29" category="inline-link-macro-rx"></block></block>
   <block id="e350176e2ca4464b7c8bb3efa4e581fa" category="inline-link-macro">可寬延工作區</block>
-  <block id="fef5c7747fd3b7d85ff39f7b27d6f02f" category="list-text"><block ref="fef5c7747fd3b7d85ff39f7b27d6f02f" category="inline-link-macro-rx"></block></block>
   <block id="e1ceb514961568f187bb88fa116f776f" category="list-text">mailto：ng-active-iq-feedback@netapp.com [電子郵件]</block>
   <block id="989ffda8482c36243642e39d9d8e50ff" category="summary">提供如何更新AFF 支援功能及FAS 更新功能的資訊。</block>
   <block id="439d63cd3905d44125be50793bdd3ab5" category="doc">下載AFF 《Ansible FAS Automation套件》的《更新與更新》韌體</block>
@@ -528,9 +525,7 @@
   <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">開始之前</block>
   <block id="1564b29b093f31fb45180a4db5577505" category="paragraph">在使用AFF Ansible更新功能的韌FAS 體之前、您應該：</block>
   <block id="745230e54aaf2b7a27c00a64f7313bd5" category="inline-link-macro">在儲存系統上安裝及設定Ansible</block>
-  <block id="0094d1b9b17f030f70b103864dd666f5" category="list-text"><block ref="0094d1b9b17f030f70b103864dd666f5" category="inline-link-macro-rx"></block></block>
   <block id="5c5c784bf4fbab90a4f6348de576d5da" category="inline-link-macro">在儲存系統上安裝內含集合的Ansible 2.9</block>
-  <block id="7e1754c18b818c3a897f7aca76d74aea" category="list-text"><block ref="7e1754c18b818c3a897f7aca76d74aea" category="inline-link-macro-rx"></block></block>
   <block id="b6b47e144c6cacc9e6c8bdaafc85da05" category="list-text">將您的儲存系統升級至ONTAP 更新版本的更新版本</block>
   <block id="15236e2742dc8cb603caee435694fbe2" category="list-text">以系統管理員角色設定您的帳戶</block>
   <block id="ffc6cdcd4e33637452d7cabcc86954ab" category="list-text">按一下儀表板上的任何健全狀況小工具、或按一下*檢視所有動作*、即可檢視所有行動與風險的清單。</block>
@@ -611,7 +606,6 @@
   <block id="63d26e96496f498e8ddc517162407ad9" category="list-text">*支援與權利*：顯示已到期且即將在6至12個月內到期的支援合約。它會顯示支援平台、磁碟、磁碟櫃、權利法規遵循、等待到期、 終止平台與硬體支援則不適用。您可以檢視儀表板上提供的健全狀況檢查分數、並根據主要建議採取行動、這些建議會依優先順序提供。若要檢視支援合約的詳細資訊、請按一下*支援與權利*小工具。您也可以使用此小工具來續約支援合約。</block>
   <block id="022a011d9b874fb921f0168799a144d0" category="list-text">*最佳實務做法*：透過評估儲存系統的最佳實務做法屬性來顯示健全狀況檢查分數、包括效能與效率、可用度與保護、容量、組態及安全性弱點。NetApp最佳實務做法有助於維持系統健全狀況、使安裝基礎的效能最佳化。</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">NetApp 支援網站</block>
-  <block id="9d4e98ef3e858b364953644ba3b9dd42" category="list-text">*技術案例*：根據案例類型、開啟或關閉狀態、以及可選擇的時間範圍、提供您技術案例歷程的詳細檢視。您可以深入案例群組、並透過檢視案例詳細資料 <block ref="524afdbf585c55af8de5660a471d6788" category="inline-link-macro-rx"></block> 或其他案例入口網站。</block>
   <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">提供API服務功能的總覽。</block>
   <block id="de3992e6ea5d74abcf945b6f9ab19c22" category="doc">瞭解API服務</block>
   <block id="272eb6d717938719a6643dde54a455f1" category="section-title">API目錄</block>
@@ -640,13 +634,9 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="dd490b81914dd945601e442a41cb4222" category="inline-link-macro">NetApp社群</block>
-  <block id="1881e7a42b09973c0262936d8c6638d6" category="list-text"><block ref="1881e7a42b09973c0262936d8c6638d6" category="inline-link-macro-rx"></block></block>
   <block id="2250dada69ecec08ffc29ac659683495" category="inline-link-macro">文件資源</block>
-  <block id="177f8a6daba75aef7ca1dc356f119571" category="list-text"><block ref="177f8a6daba75aef7ca1dc356f119571" category="inline-link-macro-rx"></block></block>
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">NetApp遙測資料的安全性與隱私</block>
-  <block id="0c653ba2b8e3812b4f58b7bef8777e11" category="list-text"><block ref="0c653ba2b8e3812b4f58b7bef8777e11" category="inline-link-macro-rx"></block></block>
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">隨需提供的功能ONTAP AutoSupport AutoSupport</block>
-  <block id="c60726371723b7c1a53a2242c4905f14" category="list-text"><block ref="c60726371723b7c1a53a2242c4905f14" category="inline-link-macro-rx"></block></block>
   <block id="6fda8feb3296b57c0c20a9ab7542ac2a" category="paragraph">請閱讀下列資訊、以瞭解儲存系統支援的小工具。</block>
   <block id="fa0a9488678326eeee7398751bbe2d01" category="cell">*小工具*</block>
   <block id="ca4ae4faff37f22c0ffe6a214e8a4b08" category="cell">*客戶*</block>
@@ -783,21 +773,14 @@
   <block id="5e9c60352a0afc7b5a85da95eb674bae" category="summary">提供AutoSupport 關於功能的概述。</block>
   <block id="fef2278ec58d443914c7d16d5c90ecc3" category="paragraph">支援遙測機制、可主動監控系統健全狀況、並自動將組態、狀態、效能及系統事件資料傳送至NetApp。AutoSupport</block>
   <block id="e66de45ccd9a8afefe101940b4da6485" category="inline-link-macro">設定AutoSupport 功能</block>
-  <block id="f3bfa02908c2ab879d33330f57dce830" category="paragraph">對於支援靜態系統、當您第一次設定儲存系統時、預設會啟用此功能。ONTAP AutoSupport您應該 <block ref="54fdd8b22a63e736e8b214bc3b8526e0" category="inline-link-macro-rx"></block> 可控制將資訊傳送至技術支援部門和內部支援組織的方式。ONTAP AutoSupport</block>
   <block id="1bbdc300c5fbfb2d1eb6e80bff986bc4" category="paragraph">如果您不想啟用AutoSupport 效益分析功能、可以使用AutoSupport 「上傳」功能手動上傳AutoSupport 效益分析資料、以獲得有關儲存生態系統的建議和見解。</block>
   <block id="a91ebd35c5ab5f4627190f49de7d7617" category="admonition">不含任何使用者資料。AutoSupport</block>
   <block id="a6a6e60d8b343bd990173569c80a158f" category="paragraph">如需AutoSupport 更多關於效益的資訊、請參閱適當的文件：</block>
   <block id="82433783dcf17ee52968a7749a51c698" category="inline-link-macro">不適用的ONTAP FAS AFF</block>
-  <block id="4eb0c54aeb98efae14f5e16b29581405" category="list-text"><block ref="4eb0c54aeb98efae14f5e16b29581405" category="inline-link-macro-rx"></block></block>
-  <block id="4ce5f3a0d296000e2119e87731ead543" category="list-text"><block ref="4ce5f3a0d296000e2119e87731ead543" category="inline-link-macro-rx"></block></block>
   <block id="78e23f0a3cc97f9e8278bd679d396bbb" category="inline-link-macro">（E系列和EF系列）SANtricity</block>
-  <block id="d2b30e7e13ee44c62d545dde14f5cbb1" category="list-text"><block ref="d2b30e7e13ee44c62d545dde14f5cbb1" category="inline-link-macro-rx"></block></block>
   <block id="cc959aa92b96d7ed4154da16e0bc5de4" category="inline-link-macro">元素NetApp HCI （支援功能）SolidFire</block>
-  <block id="4348cd8210353d22e852c9bdde3d5483" category="list-text"><block ref="4348cd8210353d22e852c9bdde3d5483" category="inline-link-macro-rx"></block></block>
   <block id="67c2a0578ac58d1bcfb4fc00eb6e05ba" category="inline-link-macro">技術報告ONTAP AutoSupport -根據AutoSupport 需求提供支援</block>
-  <block id="68f5446fdc2f2edf829bb787c3f313a0" category="list-text"><block ref="68f5446fdc2f2edf829bb787c3f313a0" category="inline-link-macro-rx"></block></block>
   <block id="1629a9318eb60c2f7422a0ca0be6bfcb" category="inline-link-macro">技術報告- NetApp遙測資料的安全性與隱私權</block>
-  <block id="a7601e85e4e519e4d1467321c32fe973" category="list-text"><block ref="a7601e85e4e519e4d1467321c32fe973" category="inline-link-macro-rx"></block></block>
   <block id="fba1e9100df562973f55a49a6269cc88" category="summary">提供資訊以識別即將到期的系統容量、軟體和硬體。</block>
   <block id="6aacc84d89dc86cac8838dbdb3de2def" category="doc">瞭解規劃</block>
   <block id="ab0938c0a634e7b9a0c32175dab66cbf" category="paragraph">「*規劃*」小工具可協助客戶識別超過90%容量或接近90%容量的容量需求、並識別已過期或即將在未來6個月內到期的軟體和硬體。您可以傳送要求以增加儲存系統的容量、並更新硬體與軟體。</block>
@@ -847,7 +830,6 @@
   <block id="e8d8e943135c6833b6747d1c1486332b" category="doc">使用Web伺服器來裝載韌體檔案</block>
   <block id="dc3625ebff827af69b299c8e6fea1420" category="paragraph">下載自動化套件之後、韌體檔案應裝載在Web伺服器上。</block>
   <block id="5129ab853bf297d4240fcbf65f9e0d46" category="inline-link-macro">使用Python的Web伺服器</block>
-  <block id="a55312b673d55580b96948865430bf83" category="paragraph">Web伺服器可透過多種方式設定。如需使用Python設定簡易Web伺服器的指示、請參閱 <block ref="f42a69e2fd8a191b3a873ea1d9c49de9" category="inline-link-macro-rx"></block>。</block>
   <block id="48c7c41b72e1d678923ce3571aa65b2d" category="list-title">步驟</block>
   <block id="f48786c9c76c96752daaf8192b199d06" category="list-text">儲存Web伺服器的基礎URL。如果磁碟韌體、機櫃韌體和服務處理器韌體的URL為*\http://&lt;web-server&gt;/path/all_shelf_fw.zip*、*\http://&lt;web-server&gt;/path/all.zip*和*\http://&lt;web-server&gt;/path/&lt;SP/BMC&gt;_&lt;version_number&gt;_fw.zip*、請將*\http://&lt;web-server&gt;/path/*儲存為基礎URL。</block>
   <block id="5d15b41ee5ac810b6e7268188476648c" category="paragraph">Ansible教戰手冊會自動偵測檔案名稱。</block>
@@ -892,20 +874,16 @@
   <block id="27f8f6c7481c543f7ac1c0d9d320816e" category="list-text"><block ref="27f8f6c7481c543f7ac1c0d9d320816e" category="inline-link-macro-rx"></block></block>
   <block id="3570d1e60985f402f1d406b1bb17fabe" category="list-text">確保已安裝NetApp Docker。</block>
   <block id="98b7373d39b238790c1ff24532e0131d" category="inline-link-macro">設定Docker</block>
-  <block id="f895e909f4c93c66cfc4db5135b3a996" category="list-text"><block ref="3b2e905f6f93f4d6890d3aa9d597f16a" category="inline-link-macro-rx"></block>。</block>
   <block id="8eecd8834fb5f9cdc5f843b5d2c48c24" category="list-text">執行下列命令、從Docker Hub擷取NetApp Docker映像檔：</block>
   <block id="037827372e4837bd8ff3497c4130c640" category="inline-link-macro">Docker Pull文件</block>
-  <block id="237179d55c9b9cc55a2a0fc332940b6e" category="paragraph">如需有關Docker Pull命令的詳細資訊、請參閱 <block ref="686c6850e2855d2f1580e6ead4c4d5b9" category="inline-link-macro-rx"></block>。</block>
   <block id="0bc0e3827b53abf3b0f9b0fe7b6c6d6e" category="list-text">以容器形式執行Docker映像檔、然後登入容器以執行「可執行的教戰手冊」。</block>
   <block id="7a08031c1198b73a67d7dbbfc0b2b499" category="list-text">複製包含擷取的Ansible教戰手冊和庫存檔案的資料夾路徑、例如* downloaded_playbook_path*。Ansible教戰手冊和庫存檔案應位於同一個資料夾中、以便順利執行。</block>
   <block id="cb4d462d21cc15559dc794a881088007" category="list-text">在Docker容器上以磁碟區的形式掛載資料夾。例如、若要掛載資料夾* container路徑*、您應該執行下列命令：</block>
   <block id="b79da91e8b6cad8ff3cbbba97849f5bd" category="inline-link-macro">Docker執行文件</block>
-  <block id="597afd67fd0e72cb7a70e153b5a0c05b" category="paragraph">容器隨即啟動、主控台現在位於容器的Bash Shell。如需Docker Run命令的詳細資訊、請參閱 <block ref="2fc7d05c935ff6be555d7f63a536aca5" category="inline-link-macro-rx"></block>。</block>
   <block id="e5552704875aa395a98f606393ed284e" category="list-text">使用* Ansible playbook*命令在容器內執行Ansible Playbook：</block>
   <block id="bb478311862b399ec7fa1f80b95d035f" category="admonition">如果有一組叢集具有不同的登入認證、則必須在每個叢集上執行「Ansible教戰手冊」。由於Ansible Playbook會跳過登入失敗的叢集、因此不需要變更庫存檔案。</block>
   <block id="1714e9fb6abdf2199b4b533dbc09e449" category="inline-link-macro">Ansible教戰手冊文件</block>
   <block id="722b950e7c3cbec69bb9c0beac55297d" category="inline-link-macro">Ansible：檢查模式</block>
-  <block id="4d4775d2493815cc4f2739862c3cbd05" category="paragraph">如需* Ansible playbook *命令的詳細資訊、請參閱 <block ref="95109b43eb6e849a8618bd2b4eef7bcf" category="inline-link-macro-rx"></block> 若要以檢查模式執行Ansible教戰手冊（演習）、請參閱 <block ref="6147f3e62e9f38d3a62da3c9a7f4664b" category="inline-link-macro-rx"></block>。</block>
   <block id="5769cb0edb876ded60913f5ed79c0ed3" category="inline-link-macro">韌體安裝驗證</block>
   <block id="09fb789b79f3191a076b495425e54de6" category="paragraph">執行「Ansible Playbook」之後、請參閱 <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> 以取得執行後的指示。</block>
   <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">提供有關ClusterViewer的資訊。</block>
@@ -921,7 +899,6 @@
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">API目錄可讓您瀏覽各個類別中的類別和可用API。</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">使用有效的存取權杖和正確輸入必要欄位、您就能對API進行測試呼叫。</block>
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">*瀏覽*</block>
-  <block id="6b0cf1c3391c27f7ed23a37a7f08e23b" category="list-text">按一下 <block ref="fde164deb6e8e46d9dfc690af8d1059d" category="inline-link-macro-rx"></block> 在「* API目錄*」圖示下。</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">隨即顯示API目錄。</block>
   <block id="82ee712943040cce957254912d97aba0" category="list-text">選取任何API</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">在頁面頂端、將切換開關滑至「實驗」。</block>
@@ -958,7 +935,6 @@
   <block id="3785a1cc5e81e3b99e7d2b0287e9c3b0" category="list-text">Aggregate容量超過50%</block>
   <block id="c052aa26952758956923ba904ca5f96a" category="list-text">按一下「*分層*」窗格中的任一連結。</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link-macro">最佳實務做法FabricPool</block>
-  <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">如需FabricPool 深入瞭解有關資訊、請參閱 <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-macro-rx"></block>。</block>
   <block id="f2b4569bc3667af0074e035180a43ef3" category="section-title">備份與歸檔</block>
   <block id="ed0d607dcab8c81dc440cde601ff66d5" category="paragraph">提供應備份至雲端的系統相關資訊。您可以使用NetApp Cloud Backup來保護系統安全、並在必要時還原。</block>
   <block id="711f2c81f17519fb6501c1fd6a2ec0bf" category="paragraph">建議使用符合下列準則的磁碟區來備份至雲端：</block>
@@ -1003,33 +979,24 @@
   <block id="23ed0325a3e4b1fb0cb88618017f6637" category="doc">執行不含NetApp Docker映像的可執行教戰手冊</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link-macro">Python</block>
   <block id="d51d5ee15f404c2f4f7863bebcde1fac" category="inline-link-macro">Ansible</block>
-  <block id="c4d54d13c97f7b21566ce91cf519f7d1" category="list-text">安裝 <block ref="860a6dcfd65a4cc731e87e6d8725ecef" category="inline-link-macro-rx"></block> 和 <block ref="086704ee55f1abf90c8de86788d2188f" category="inline-link-macro-rx"></block>。</block>
   <block id="e7c02bb7153fb9b42ed0dd17ac63ab65" category="list-text">使用* pip*安裝所需的Python套件：</block>
   <block id="bc9eaf8dbca65e51b0aa7bd8ddc04278" category="list-text">使用* Ansible－gal銀河*命令安裝NetApp Ansible集合：</block>
   <block id="5834961728fb1e8689bb80975152a998" category="inline-link-macro">Ansible銀河文件</block>
   <block id="509364058559184a4e13280292a2e466" category="inline-link-macro">NetApp Ansible收藏頁面</block>
-  <block id="9be55a0983d66ca9beb418a166d36252" category="paragraph">如需Ansible銀河命令的詳細資訊、請參閱 <block ref="e4d002c66ffff735092421718e986120" category="inline-link-macro-rx"></block> 如需NetApp Ansible Collection的詳細資訊、請參閱 <block ref="ba103299e96a7cc55110b34488ce1c0b" category="inline-link-macro-rx"></block>。</block>
   <block id="338486320c79b4d1c52d4b4142a79ae2" category="list-text">使用* Ansible playbook*命令執行Ansible Playbook：</block>
-  <block id="f727e1702f3053598d515b2bdf4b8161" category="paragraph">如需* Ansible playbook *命令的詳細資訊、請參閱 <block ref="95109b43eb6e849a8618bd2b4eef7bcf" category="inline-link-macro-rx"></block> 若要以檢查模式（演習）執行「Ansible Playbook」、請參閱 <block ref="6147f3e62e9f38d3a62da3c9a7f4664b" category="inline-link-macro-rx"></block>。</block>
   <block id="207d610de4ff42212b921026752872d2" category="paragraph">執行本方針後、請參閱 <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> 以取得執行後的指示。</block>
   <block id="d33c547719b131d3de1a17847217be28" category="summary">提供如何驗證韌體安裝的資訊。</block>
   <block id="19f3cc5c7d290cca42fee095792dee18" category="doc">驗證韌體安裝</block>
   <block id="43cf401c92f61570be3a8b8af451acf3" category="paragraph">執行實戰手冊後、以叢集管理員身分登入叢集。</block>
   <block id="3d4609be21bd67626ea8848d17b975ec" category="section-title">驗證磁碟韌體安裝</block>
   <block id="3083d2c1ae7f9607307c4933fafac051" category="list-text">確認已安裝磁碟機韌體：</block>
-  <block id="ddaf90ba9130735e22c69470b8ca1105" category="paragraph">如需命令的詳細資訊、請參閱｛link with -bingeres｝[storage disk show]。</block>
   <block id="4a291709986e76671c4e1ef51ec0498d" category="list-text">確認已安裝新的NVMe Flash Cache韌體：</block>
-  <block id="e369aca69b6564e01b781fd587d2025c" category="paragraph">如需有關命令的詳細資訊、請參閱｛link with -binges｝[系統控制器flash-cache show]。</block>
   <block id="66db453df531af0a73add1cbbef1ceb6" category="section-title">驗證機櫃韌體安裝</block>
   <block id="894f02f1db5e6fbe18ce3d45767d3756" category="list-text">確認新的機櫃韌體已更新：</block>
   <block id="2d77282afafc6d5db219df50ea65e332" category="paragraph">在輸出中、確認每個機櫃的韌體已更新至所需的層級。例如：</block>
-  <block id="b30a1cfbe7a32d2e40e04190f7966a31" category="paragraph">如需命令的詳細資訊、請參閱｛link with底線｝[系統節點執行]。</block>
   <block id="416af856ff2ea6b6a1bf3e9296eb34d8" category="list-text">確認新的ACP韌體已更新：</block>
-  <block id="caa63608d42a3d23018646f69df48ac9" category="paragraph">如需有關命令的詳細資訊、請參閱｛link with -binges｝[儲存櫃ACP模組show]。</block>
   <block id="f1ac933796d7e8a621dc4f778e1ca2a9" category="list-text">確認已設定所需的ACP模式：</block>
-  <block id="2c24f319b514a723a1df15f5012dac8a" category="paragraph">如需有關命令的詳細資訊、請參閱｛link with -binges｝[儲存櫃ACP show]。</block>
   <block id="7803d493a86a46af8da6da871f5b8190" category="list-text">變更ACP模式（通道）：</block>
-  <block id="2852ca69aef82e487818a169ee3f9ab5" category="paragraph">如需有關命令的詳細資訊、請參閱｛link with -binges｝[儲存櫃ACP設定]。</block>
   <block id="0ec4134b90582cc935ee8837f4b79494" category="section-title">正在驗證SP/BMC韌體安裝</block>
   <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">啟用服務處理器/BMC韌體更新的可執行教戰手冊、並提供選項來驗證控制器上最新的SP/BMC韌體的安裝。驗證完成後（更新最多需要兩小時）、Ansible教戰手冊會連線至SP/BMC主控台、套用內部交換器韌體更新。</block>
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">執行「允許教戰手冊」結束時、將會通知SP/BMC韌體和內部交換器韌體安裝的失敗與成功資訊。如果SP/BMC韌體/內部交換器韌體安裝失敗、請遵循《Ansible Playbook》中所述的步驟。</block>
@@ -1082,8 +1049,6 @@
   <block id="241d0a5c7d11b08c4b6742aafec7ad3e" category="paragraph">「*詳細目錄*」小工具可提供您擁有的系統總數總和的彙總套件。這包括已啟用數位顧問功能的產品和未啟用的產品。</block>
   <block id="e58b12802a7d54b8bca5c0033174b2d8" category="summary">提供登入數位顧問的資訊。</block>
   <block id="5a68b284b7bcd8f7a66fdc39f1dcbcd7" category="doc">登入Digital Advisor</block>
-  <block id="37590f3349dc615946e2bde66219f592" category="paragraph">您必須擁有有效NetApp 支援網站 的資訊提供憑證、才能登入Digital Advisor。如果您沒有帳戶且正在開始使用、請按一下 <block ref="967ddad47d4311162e2dc8cf03423cdc" category="inline-link-macro-rx"></block>。</block>
-  <block id="45f615e2033fe61475056e1d49532aee" category="list-text">按一下 <block ref="348c59707f27a8ca5472dc7d66de9883" category="inline-link-macro-rx"></block> 存取Digital Advisor：</block>
   <block id="45b708abb9ee2f917c7896e31ae4c7b6" category="paragraph">Digital Advisor會顯示具有有效支援合約的系統。如果合約到期、系統會提供 90 天的寬限期、讓系統持續可見。之後、數位顧問無法搜尋或顯示系統。</block>
   <block id="5c711ca6514b7bc5e8b54eb7d0514b90" category="paragraph">NetApp技術支援會使用這些資料來加速問題的診斷與解決、而數位顧問則會主動偵測並避免潛在問題。您也可以將其傳送給內部支援組織和支援合作夥伴。</block>
   <block id="5da64b23743d20365a812a148d09b65f" category="admonition">數位顧問AutoSupport 只會針對AutoSupport 未滿60天的系統顯示與功能不相關的資料。</block>
@@ -1122,7 +1087,6 @@
   <block id="78922dd3155059d302d1fdc4e6e2d629" category="paragraph">*我該如何提供意見反應或提出其他與數位顧問相關的問題？*</block>
   <block id="8ddbb4960ae1ce3eafd141c7e16ad702" category="paragraph">*如何在Digital Advisor中存取儲存效率？*</block>
   <block id="f079f17b0940258743d34e7b771c715f" category="inline-link-macro">數位顧問</block>
-  <block id="72ad3932c594cc8330139ca85deb062e" category="list-text">開啟的首頁 <block ref="b14a1f08a6d5b6b71c0d3622c0d1ab6d" category="inline-link-macro-rx"></block>。</block>
   <block id="2206003195e83e7dfa4c2c9011926729" category="paragraph">*數位顧問是否顯示所有ONTAP 的不全系統的比率？*</block>
   <block id="2c66ccfb9136989ebd0b2f7794383ba0" category="paragraph">Digital Advisor會顯示ONTAP 執行效能更新版本的系統的比率。</block>
   <block id="1d12326dce386ed19f23df20370e5e13" category="paragraph">根據預設、Digital Advisor效率儀表板會計算客戶層級、站台層級、群組層級、叢集層級和節點層級的整體比率。整體比率包括下列儲存效率技術的比率：</block>
@@ -1331,5 +1295,43 @@
   <block id="23c5744a4c274e51948ba5ceeb6db0f9" category="paragraph">* 為何我無法在 Digital Advisor 中找到某些系統？ *
 您可能因為下列其中一項原因而無法搜尋某些系統或在庫存頁面中檢視這些系統：</block>
   <block id="f2c1cd072b0801929f6eda1e5bff8545" category="list-text">系統在 SAP 中處於非使用中、歸檔或停用狀態。</block>
-  <block id="6d3911d1bc35c7abc342f54857e32dcf" category="paragraph">如果您因為任何其他原因而無法檢視系統、有疑問或想要要求存取、 <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>。若要深入瞭解非技術案例、請按一下 <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
+  <block id="166fa8245082188f0cd75088bb36f5db" category="paragraph">如需命令的詳細資訊、請參閱 ｛ link-with - 底線 ｝ [ 儲存磁碟顯示 ^] 。</block>
+  <block id="2c27c44b6d1d0ed255845c9ffa447dbe" category="paragraph">如需命令的詳細資訊、請參閱 ｛ link-with - 底線 ｝ [ 系統控制器 flash-cache show ^] 。</block>
+  <block id="752e94f47e519cd2bf16fec09ad9f470" category="paragraph">如需命令的詳細資訊、請參閱 ｛ link-with - 底線 ｝ [ 系統節點執行 ^] 。</block>
+  <block id="90542ff9ec5b690c4ff349a953987a9f" category="paragraph">如需命令的詳細資訊、請參閱 ｛ link-with - 底線 ｝ [ 儲存櫃 ACP 模組 show ^] 。</block>
+  <block id="c45f42f02d2bf7bd92e0d26534723c80" category="paragraph">如需命令的詳細資訊、請參閱 ｛ link-with - 底線 ｝ [ 儲存櫃 ACP show ^] 。</block>
+  <block id="d2a56416e501bf47a267c5eb4f202014" category="paragraph">如需命令的詳細資訊、請參閱 ｛ link-with - 底線 ｝ [ 儲存櫃 ACP 組態 ^] 。</block>
+  <block id="f3ffec30d4e62fd6b4663ba215a643ed" category="list-text">按一下 <block ref="92a15a62356fc979cd7db02d3dcebebf" category="inline-link-macro-rx"></block> 開啟 NetApp 支援網站上的「Non Technical Feedback Tool（非技術意見回饋工具）」。</block>
+  <block id="3e77ec7dcefb3407f7a4b7c4b8051d1e" category="list-text">開啟的首頁 <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block>。</block>
+  <block id="8dd3258635f25ed56f238af521960f2b" category="paragraph">如果您因為任何其他原因而無法檢視系統、有疑問或想要要求存取、 <block ref="09587a48f092e0d3b236776f889d19c2" category="inline-link-macro-rx"></block>。若要深入瞭解非技術案例、請按一下 <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
+  <block id="ba117b364c26b06c871a54fc6945f641" category="list-text"><block ref="3eaf8bde6ca57cae1e0245ca6f31a246" category="inline-link-macro-rx"></block>。</block>
+  <block id="472c223fae3612be8aadf50d73eb0809" category="paragraph">如需有關Docker Pull命令的詳細資訊、請參閱 <block ref="4b16511182941b47e25fae103f9d15b4" category="inline-link-macro-rx"></block>。</block>
+  <block id="793420e8298f81919bf32aff38b47ae2" category="paragraph">容器隨即啟動、主控台現在位於容器的Bash Shell。如需Docker Run命令的詳細資訊、請參閱 <block ref="2e999d289da5bafdf839ad8763a0ba40" category="inline-link-macro-rx"></block>。</block>
+  <block id="2a0dd6c3bcb96a2f49ec6fd9a82e2f4a" category="paragraph">如需* Ansible playbook *命令的詳細資訊、請參閱 <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> 若要以檢查模式執行Ansible教戰手冊（演習）、請參閱 <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
+  <block id="ae60d74a912ddc26168a3645463cc941" category="list-text"><block ref="ae60d74a912ddc26168a3645463cc941" category="inline-link-macro-rx"></block></block>
+  <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
+  <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Web伺服器可透過多種方式設定。如需使用Python設定簡易Web伺服器的指示、請參閱 <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>。</block>
+  <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">按一下 <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block> 在「* API目錄*」圖示下。</block>
+  <block id="6300a3453f44e919baf2a9aa05a8acaf" category="paragraph">您可以從網路型主控台登入 Digital Advisor 、以建立觀察清單來檢視儲存系統的整體狀態。</block>
+  <block id="315ad4061cc238e6dcb01825e9ab9572" category="inline-link-macro">建立帳戶</block>
+  <block id="425f3e0f4d6e9e92e654e9ba5e993d54" category="paragraph">您必須擁有有效NetApp 支援網站 的資訊提供憑證、才能登入Digital Advisor。如果您沒有帳戶且正在開始使用、請繼續執行 <block ref="6e6f0f52d614dd0ec77faf300e34ad53" category="inline-link-macro-rx"></block>。</block>
+  <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">前往 <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> 登入頁面。</block>
+  <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">對於支援靜態系統、當您第一次設定儲存系統時、預設會啟用此功能。ONTAP AutoSupport您應該 <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> 可控制將資訊傳送至技術支援部門和內部支援組織的方式。ONTAP AutoSupport</block>
+  <block id="c69712b80ef7bcc235093f9221047c47" category="list-text"><block ref="c69712b80ef7bcc235093f9221047c47" category="inline-link-macro-rx"></block></block>
+  <block id="0ecea5b3f45d0b317fc17c67ecadeec6" category="list-text"><block ref="0ecea5b3f45d0b317fc17c67ecadeec6" category="inline-link-macro-rx"></block></block>
+  <block id="2c4b22e05e691d4ce96f7b4e3c02df4c" category="list-text"><block ref="2c4b22e05e691d4ce96f7b4e3c02df4c" category="inline-link-macro-rx"></block></block>
+  <block id="cbf41252f5082da209304e5ca48c34d8" category="list-text"><block ref="cbf41252f5082da209304e5ca48c34d8" category="inline-link-macro-rx"></block></block>
+  <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
+  <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
+  <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">如需FabricPool 深入瞭解有關資訊、請參閱 <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>。</block>
+  <block id="c9a7e25beb9575351b078da21d059517" category="list-text">*技術案例*：根據案例類型、開啟或關閉狀態、以及可選擇的時間範圍、提供您技術案例歷程的詳細檢視。  您可以深入案例群組、並透過檢視案例詳細資料 <block ref="4052dc01853e78687038691ab3fc5cc0" category="inline-link-macro-rx"></block> 或其他案例入口網站。</block>
+  <block id="0abfb28c0c42381f5bdaaa9ae0da77db" category="list-text">安裝 <block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> 和 <block ref="b37d22802e31da3263bb8117bdd516f1" category="inline-link-macro-rx"></block>。</block>
+  <block id="4bdc49aacf883a14a18411273872ee96" category="paragraph">如需Ansible銀河命令的詳細資訊、請參閱 <block ref="037b694376946e6e330c847bc4e48449" category="inline-link-macro-rx"></block> 如需NetApp Ansible Collection的詳細資訊、請參閱 <block ref="d786fc4574d9c68470d2f8b53d708c65" category="inline-link-macro-rx"></block>。</block>
+  <block id="85da219929dec7990a12ce28aff47903" category="paragraph">如需* Ansible playbook *命令的詳細資訊、請參閱 <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> 若要以檢查模式（演習）執行「Ansible Playbook」、請參閱 <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
+  <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
+  <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
+  <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
+  <block id="847b7c4d19d7d7ef0daee103975b7b83" category="list-text"><block ref="847b7c4d19d7d7ef0daee103975b7b83" category="inline-link-macro-rx"></block></block>
+  <block id="0212b08a947e9079148b138fa48a9e62" category="list-text"><block ref="0212b08a947e9079148b138fa48a9e62" category="inline-link-macro-rx"></block></block>
+  <block id="3bb41de04026c13803b9189b287bb05a" category="list-text"><block ref="3bb41de04026c13803b9189b287bb05a" category="inline-link-macro-rx"></block></block>
 </blocks>
