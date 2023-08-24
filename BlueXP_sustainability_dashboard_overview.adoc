@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: BlueXP_sustainability_dashboard_overview.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
+summary: 提供儀表板、永續性分數、工作環境及建議行動的相關資訊。 
+---
+= 永續性儀表板總覽
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+永續性儀表板可針對您的儲存系統進行環境評估、並提供可據以行動的洞見、以 NetApp 建議行動的形式進行改善。
+
+image:get_started_sustainability_dashboard.png["顯示永續性儀表板的 UI 螢幕擷取畫面。"]
+
+
+NOTE: 若要從儀表板取得最佳結果、您必須啟用 AutoSupport 。如果未啟用 AutoSupport 、資料將會根據產品規格而定。若要取得即時電力詳細資料、您需要啟用 Cloud Insights 。如需如何啟用 Cloud Insights 的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
+
+* 永續性分數 * ：顯示代表儲存系統環境永續性的總分數。您可以根據下列範圍評估儲存系統的永續性層級：
+
+* 76-100 ：表示永續性是首要考量。
+* 51 - 75 ：表示可持續發展計畫的投資額很高。
+* 26 - 50 ：表示在永續發展計畫方面有良好進展。
+* 少於 25 ：表示需要改善永續性做法。
+
+
+您可以看到最多 5 週的分數圖形呈現、每週更新一次。您也可以將游標暫留在圖表上、以查看永續性分數增加或降低的原因。
+
+image:sustainability_score.png["顯示永續性分數及圖表的螢幕擷取畫面。"]
+
+* 環境指標 * ：顯示電力、直接碳使用量和熱能排放量的預測、以評估儲存系統的環境健全狀況。這些預測是根據實際電力（如果無法使用）的典型電源值。您可以從本節右上角的下拉式清單中選取所需選項、以每月、每季或每年檢視這些預測。
+
+* 碳減量百分比 * ：顯示每個站台 / 城市的碳減量百分比、並根據您所在的位置顯示所呈現的基準值。您可以按一下來調整特定站台的碳排放百分比 image:edit_icon_1.png["顯示可編輯圖示的螢幕擷取畫面。"] 位於百分比值旁的圖示、碳數值將會自動調整。
+
+image:carbon_mitigation_percentage.png["螢幕擷取畫面顯示網站的碳排放百分比、以及如何編輯此百分比。"]
+
+* 建議行動 * ：顯示建議行動清單、以改善儲存系統的永續性分數。這些行動可以立即或稍後採取。
+如需如何改善永續性分數的詳細資訊、請參閱 link:improve_sustainability_score.html["改善永續性分數"]。
+
+* 工作環境 * ：在表格中顯示環境參數、有助於識別叢集以移轉至更有效率的儲存設備。從這個表格中、您可以：
+
+* 檢視叢集層級的永續性分數、選取要存取的叢集名稱 * ClusterViewer* 、採取特定的建議行動來改善永續性。如需詳細資訊、請參閱 link:improve_sustainability_score.html["改善叢集層級的永續性分數"]。
++
+image:working_environments.png["顯示各種環境參數的 UI 螢幕擷取畫面"]
+
+* 從 * 即時電力 * 控制欄啟用監控、以檢視叢集層級的即時電力詳細資料。如需詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
+

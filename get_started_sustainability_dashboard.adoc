@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: get_started_sustainability_dashboard.html 
+keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
+summary: 從 BlueXP 或 Digital Advisor 中存取 BlueXP 永續性儀表板開始使用。 
+---
+= 開始使用 Sustainability 儀表板
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+永續性儀表板提供啟用 AIOps 的報告和評分功能、並提供可據以行動的洞見、以改善您的永續性狀態。您可以使用 NetApp BlueXP 或數位顧問來檢視 Sustainability 儀表板。
+
+[role="tabbed-block"]
+====
+.藍圖
+--
+若要登入BlueXP、您可以使用NetApp 支援網站 您的不實證資料、也可以使用電子郵件和密碼註冊NetApp雲端登入。深入瞭解 link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["登入 BlueXP"^]。
+
+.步驟
+. 開啟網頁瀏覽器、然後前往 link:https://console.bluexp.netapp.com/["BlueXP主控台"^]。
+出現 NetApp BlueXP 登入頁面。
+. 登入 BlueXP 。
+. 從 BlueXP 左側瀏覽器中、選取 * Governance * > * Sustainability * 。
+  Sustainability 儀表板隨即出現。
+  +
+image:sustainability_dashboard_bluexp.png["UI 螢幕擷取畫面、概述 BlueXP 中的永續性儀表板。"]
+
+
+
+NOTE: 如果未設定 Sustainability 儀表板 , 則會出現選項 * 新增 NSS 帳戶 * 。提供您的 NetApp 支援網站 （ NSS ）認證、以檢視您的永續性儀表板和與您帳戶相關的系統。
+
+--
+.數位顧問
+--
+若要登入數位顧問、您可以使用 NetApp 支援網站 認證。
+
+.步驟
+. 開啟網頁瀏覽器、然後前往 link:https://activeiq.netapp.com/?source=onlinedocs["數位顧問"^] 登入頁面。
+. 提供您的使用者名稱和密碼、然後按一下*登入*。
+. 從左側導覽中、選取 * 儲存健全狀況 * > * 永續性 * 。
++
+image:sustainability_dashboard.png["UI 螢幕擷取畫面、提供永續性儀表板的概觀。"]
+
+
+
+
+NOTE: 若未設定報價表、則會停用 * Sustainability * 選項。若要啟用、您可以建立觀察名單、或使用客戶名稱、站台名稱、群組名稱、 StorageGRID 、主機名稱、 叢集、序號或系統 ID 。 link:concept_overview_dashboard.html["深入瞭解報價表"]。
+
+--
+====

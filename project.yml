@@ -65,6 +65,16 @@ sidebar:
       url: "/task_renew_software_and_hardware.html"
     - title: 分析叢集和節點的健全狀況
       url: "/task_analyze_wellness_clusters_and_nodes.html"
+  - title: 分析儲存系統的永續性
+    entries:
+    - title: 瞭解永續發展
+      url: "/learn_BlueXP_sustainability.html"
+    - title: 開始使用 Sustainability 儀表板
+      url: "/get_started_sustainability_dashboard.html"
+    - title: 永續性儀表板總覽
+      url: "/BlueXP_sustainability_dashboard_overview.html"
+    - title: 改善永續性分數
+      url: "/improve_sustainability_score.html"
   - title: 檢視系統詳細資料
     entries:
     - title: 檢視庫存詳細資料
@@ -113,12 +123,6 @@ sidebar:
       url: "/concept_get_started_with_health_check_dashboard.html"
     - title: 續約您的支援合約
       url: "/task_renew_support_contracts_for_your_systems.html"
-  - title: 分析儲存系統的永續性
-    entries:
-    - title: 瞭解 BlueXP 永續性服務
-      url: "/concept_understand_sustainability_dashboard.html"
-    - title: 開始使用 Sustainability Dashboard
-      url: "/concept_get_started_with_sustainability_dashboard.html"
   - title: 升級以最佳化安裝基礎
     entries:
     - title: 升級ONTAP 儲存系統的版本

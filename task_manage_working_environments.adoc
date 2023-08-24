@@ -1,0 +1,58 @@
+---
+sidebar: sidebar 
+permalink: task_manage_working_environments.html 
+keywords: activeiq, sustainability dashboard, sustainability score, clusterviewer, cloud insights 
+summary: 提供工作環境的相關資訊。 
+---
+= 管理工作環境
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+您可以新增或移除環境參數來自訂 * 工作環境 * 表格。您也可以檢視已安裝基礎叢集層級的建議動作、並採取必要行動以達成永續性目標。
+
+[role="tabbed-block"]
+====
+.藍圖
+--
+. 請從 BlueXP 左側導覽中的 * Governance * 類別移至 * Sustainability * 。
+. 移至 * 工作環境 * 表格。
++
+** 您可以使用新增或移除環境參數、來自訂 * 工作環境 * 表格 image:add_icon.png["用於新增或移除參數的加號圖示"] 圖示。
+** 您可以檢視叢集層級的永續性分數、選取叢集名稱存取 * ClusterViewer* 、從這裡採取特定的建議行動以改善永續性。
+** 您也可以啟用 Cloud Insights 、在叢集層級檢視即時電力詳細資料。 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["深入瞭解"^]。
+  +
+image:working_environments.png["顯示各種環境參數的 UI 螢幕擷取畫面"]
+** 您也可以使用以逗號分隔的值（ .csv ）格式匯出此表格 image:download_icon.png["用於匯出參數的下載符號"] 圖示。
+
+
+
+
+--
+.數位顧問
+--
+. 從數位顧問儀表板左側導覽的 * 儲存健全狀況 * 類別移至 * 永續性 * 。
+. 移至 * 工作環境 * 表格。
++
+** 您可以使用新增或移除環境參數、來自訂 * 工作環境 * 表格 image:add_icon.png["用於新增或移除參數的加號圖示"] 圖示。
+** 您可以檢視叢集層級的永續性分數、選取叢集名稱存取 * ClusterViewer* 、從這裡採取特定的建議行動以改善永續性。
+** 您也可以啟用 Cloud Insights 、在叢集層級檢視即時電力詳細資料。 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["深入瞭解"^]。
+  +
+image:working_environments.png["顯示各種環境參數的 UI 螢幕擷取畫面"]
+** 您也可以使用以逗號分隔的值（ .csv ）格式匯出此表格 image:download_icon.png["用於匯出參數的下載符號"] 圖示。
+
+
+
+
+--
+====
