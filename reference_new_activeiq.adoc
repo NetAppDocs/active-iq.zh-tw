@@ -42,7 +42,7 @@ summary: 提供版本新功能的相關資訊。
 
 === 永續發展儀表板
 
-永續發展儀表板可提供寶貴的見解、讓您深入瞭解儲存系統的環境永續發展。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。評估永續性分數後、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 link:concept_understand_sustainability_dashboard.html["深入瞭解"]。
+永續發展儀表板可提供寶貴的見解、讓您深入瞭解儲存系統的環境永續發展。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。評估永續性分數後、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["深入瞭解"]。
 
 
 
@@ -78,7 +78,7 @@ SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10�
 
 === 與BlueXP整合的數位顧問
 
-目前、NetApp的統一化管理主控台已改為Digital Advisor、並已整合至適用於混合式多雲端環境的BlueXP。Active IQ Digital Advisor link:digital-advisor-integration-with-bluexp.html["深入瞭解"]。
+目前、NetApp的統一化管理主控台已改為Digital Advisor、並已整合至適用於混合式多雲端環境的BlueXP。Active IQ Digital Advisor link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["深入瞭解"]。
 
 
 
@@ -88,7 +88,7 @@ SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10�
 
 === 庫存
 
-VMware資產的vCenter、ESXi主機和虛擬機器相關資訊現已包含在詳細目錄中、以提供完整的堆疊庫存和互通性檢查。 link:task-integrating-with-cloud-insights-to-view-vm-details.html["瞭解方法"]。
+VMware資產的vCenter、ESXi主機和虛擬機器相關資訊現已包含在詳細目錄中、以提供完整的堆疊庫存和互通性檢查。 link:https://docs.netapp.com/us-en/active-iq/task-integrating-with-cloud-insights-to-view-vm-details.html["瞭解方法"]。
 
 
 
@@ -140,7 +140,7 @@ Grid檢視器中已包含資訊生命週期管理（ILM）for StorageGRID the功
 
 === 雲端建議
 
-提供工作負載及其各自磁碟區的建議、這些工作負載及磁碟區可透過Cloud Volumes ONTAP SnapMirror資料複寫移至NetApp還原、NetApp Cloud Volumes Service 還原及NetApp雲端備份（先前AltaVault 稱為「還原」）。 link:task-informed-decisions-based-on-cloud-recommendations.html["瞭解方法"]。
+提供工作負載及其各自磁碟區的建議、這些工作負載及磁碟區可透過Cloud Volumes ONTAP SnapMirror資料複寫移至NetApp還原、NetApp Cloud Volumes Service 還原及NetApp雲端備份（先前AltaVault 稱為「還原」）。 link:https://docs.netapp.com/us-en/active-iq/task-informed-decisions-based-on-cloud-recommendations.html["瞭解方法"]。
 
 
 
@@ -249,7 +249,8 @@ BlueXP使用者現在可以在新的索引標籤中開啟「數位顧問」連�
 === 設定飄移
 
 * 您可以複製範本以複製原始範本。
-* 您可以透過唯讀或完整存取這些範本的權限、與其他獲授權的使用者共用黃金範本。link:task_manage_template.html["瞭解方法"]。
+* 您可以透過唯讀或完整存取這些範本的權限、與其他獲授權的使用者共用黃金範本。
+link:https://docs.netapp.com/us-en/active-iq/task_manage_template.html["瞭解方法"]。
 
 
 
@@ -318,7 +319,7 @@ ClusterViewer堆疊視覺化模組已經過強化、可納入「放大/縮小及
 
 === 可Ansible Inventory
 
-您現在可以在區域和站台層級產生.yml和.ini檔案格式的Ansible庫存檔案。 link:task_view_inventory_details.html["瞭解方法"]。
+您現在可以在區域和站台層級產生.yml和.ini檔案格式的Ansible庫存檔案。 link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["瞭解方法"]。
 
 
 
@@ -330,7 +331,7 @@ ClusterViewer堆疊視覺化模組已經過強化、可納入「放大/縮小及
 
 === 飄移時間軸報告
 
-您可以比較AutoSupport 過去90天的資料不完整、並產生飄移時間軸報告。 link:task_generate_drift_timeline_report.html["瞭解方法"]。
+您可以比較AutoSupport 過去90天的資料不完整、並產生飄移時間軸報告。 link:https://docs.netapp.com/us-en/active-iq/task_generate_drift_timeline_report.html["瞭解方法"]。
 
 
 
@@ -438,7 +439,7 @@ ClusterViewer堆疊視覺化模組已經過強化、可納入「放大/縮小及
 
 === 容量預測
 
-容量預測小工具已更新為改良的演算法、可更妥善地因應系統重新組態。 link:reference_aiq_faq.html#capacity["深入瞭解"]。
+容量預測小工具已更新為改良的演算法、可更妥善地因應系統重新組態。 link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#capacity["深入瞭解"]。
 
 
 
@@ -518,7 +519,7 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 === 支援服務升級
 
 * 使用者介面已經過增強、可顯示您在Digital Advisor中訂閱的特定支援服務項目。
-* 您現在可以從系統儀表板提出升級支援服務訂閱的申請、以存取更多功能。 link:task_upgrade_support_offering.html["瞭解方法"]。
+* 您現在可以從系統儀表板提出升級支援服務訂閱的申請、以存取更多功能。 link:https://docs.netapp.com/us-en/active-iq/task_upgrade_support_offering.html["瞭解方法"]。
 
 
 
@@ -589,15 +590,15 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 
 === 針對容量新增要求使用「飄移聊天室」
 
-如需容量新增要求的即時協助、請直接從儀表板與銷售人員交談。 link:task_identify_capacity_system.html["瞭解方法"]。
+如需容量新增要求的即時協助、請直接從儀表板與銷售人員交談。 link:https://docs.netapp.com/us-en/active-iq/task_identify_capacity_system.html["瞭解方法"]。
 
 
 
 == 2021年4月29日
 
-* 以下說明如何保護您的系統免受駭客和勒索軟體攻擊。 link:task_increase_protection_against_hackers_and_Ransomware_attacks.html["瞭解方法"]。
-* 您可以避免停機和可能的資料遺失。 link:task_avoid_the_downtime_and_possible_data_loss.html["瞭解方法"]。
-* 瞭解如何避免容量滿溢、以避免中斷運作。 link:task_avoid_a_volume_filling_up_to_prevent_an_outage.html["瞭解方法"]。
+* 以下說明如何保護您的系統免受駭客和勒索軟體攻擊。 link:https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html["瞭解方法"]。
+* 您可以避免停機和可能的資料遺失。 link:https://docs.netapp.com/us-en/active-iq/task_avoid_the_downtime_and_possible_data_loss.html["瞭解方法"]。
+* 瞭解如何避免容量滿溢、以避免中斷運作。 link:https://docs.netapp.com/us-en/active-iq/task_avoid_a_volume_filling_up_to_prevent_an_outage.html["瞭解方法"]。
 
 
 
@@ -622,7 +623,7 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 
 * 可在建立範本期間編輯屬性。
 * 將各個部分分組AutoSupport 。
-* 在客戶、站台、群組、觀察清單、叢集、 和主機名稱。 link:task_compare_config_drift_template.html["瞭解方法"]。
+* 在客戶、站台、群組、觀察清單、叢集、 和主機名稱。 link:https://docs.netapp.com/us-en/active-iq/task_compare_config_drift_template.html["瞭解方法"]。
 
 
 
@@ -695,7 +696,7 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 
 === 使用API整合資料
 
-您可以使用數位顧問API來提取感興趣的資料、並將其直接整合到貴公司的工作流程中。 link:concept_overview_API_service.html["深入瞭解"]。
+您可以使用數位顧問API來提取感興趣的資料、並將其直接整合到貴公司的工作流程中。 link:https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html["深入瞭解"]。
 
 
 
@@ -725,7 +726,7 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 
 === 報告
 
-您可以產生或排程ClusterViewer報告、以檢視系統實體和邏輯組態的詳細資訊。 link:task_generate_reports.html["瞭解方法"]。
+您可以產生或排程ClusterViewer報告、以檢視系統實體和邏輯組態的詳細資訊。 link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["瞭解方法"]。
 
 
 
@@ -741,7 +742,7 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 
 === 設定飄移
 
-此功能可讓您近乎即時地比較系統與叢集組態、以及偵測組態差異。 link:task_add_config_drift_template.html["瞭解如何新增組態偏移範本"]。
+此功能可讓您近乎即時地比較系統與叢集組態、以及偵測組態差異。 link:https://docs.netapp.com/us-en/active-iq/task_add_config_drift_template.html["瞭解如何新增組態偏移範本"]。
 
 
 
@@ -753,13 +754,13 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 
 === 健康審查訂閱
 
-您可以訂閱每月收到一封電子郵件通知、摘要說明系統的健全狀態、這些系統即將續約、且需要升級您安裝基礎上的NetApp產品。 link:task_subscribe_to_wellness_review_email.html["立即訂閱"]。
+您可以訂閱每月收到一封電子郵件通知、摘要說明系統的健全狀態、這些系統即將續約、且需要升級您安裝基礎上的NetApp產品。 link:https://docs.netapp.com/us-en/active-iq/task_subscribe_to_wellness_review_email.html["立即訂閱"]。
 
 
 
 === 報告
 
-您可以使用報告功能立即產生報告、或排程每週或每月產生報告。 link:task_generate_reports.html["瞭解方法"]。
+您可以使用報告功能立即產生報告、或排程每週或每月產生報告。 link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["瞭解方法"]。
 
 
 
@@ -783,7 +784,7 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 
 文件內容已經過強化、包括有關下載、安裝及執行AFF 更新版的資訊、包括可FAS 執行的更新版的更新版、包括更新版的更新版、以及更新版的更新版。
 
-link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰手冊」來更新BIOS和FAS BIOS韌體"]。
+link:https://docs.netapp.com/us-en/active-iq/task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰手冊」來更新BIOS和FAS BIOS韌體"]。
 
 
 
@@ -793,7 +794,7 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 效能
 
-效能圖表已增強、可讓您評估磁碟區的效能。您可以在同一個畫面上的節點索引標籤、叢集索引標籤、本機層索引標籤和Volume索引標籤之間瀏覽及切換。 link:task_view_performance_graphs.html["瞭解方法"]。
+效能圖表已增強、可讓您評估磁碟區的效能。您可以在同一個畫面上的節點索引標籤、叢集索引標籤、本機層索引標籤和Volume索引標籤之間瀏覽及切換。 link:https://docs.netapp.com/us-en/active-iq/task_view_performance_graphs.html["瞭解方法"]。
 
 
 
@@ -825,7 +826,7 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 產生庫存報告
 
-您現在可以產生所選觀察名單的報告、並以電子郵件將報告傳送給最多5位收件者。 link:task_view_inventory_details.html["瞭解方法"]。
+您現在可以產生所選觀察名單的報告、並以電子郵件將報告傳送給最多5位收件者。 link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["瞭解方法"]。
 
 
 
@@ -865,7 +866,7 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 儲存效率
 
-您可以檢視儲存系統的儲存效率與節約效益、無論是否使用AFF 適用於各種系統、非AFF系統或兩者的Snapshot複本。您可以在節點層級檢視儲存效率資訊。 link:task_analyze_storage_efficiency.html["瞭解方法"]。
+您可以檢視儲存系統的儲存效率與節約效益、無論是否使用AFF 適用於各種系統、非AFF系統或兩者的Snapshot複本。您可以在節點層級檢視儲存效率資訊。 link:https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["瞭解方法"]。
 
 
 
@@ -921,13 +922,13 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 === 升級工作流程
 
-您可以使用升級工作流程來檢視升級建議、以及目標ONTAP 版本可用的新功能摘要。 link:task_view_upgrade.html["瞭解方法"]。
+您可以使用升級工作流程來檢視升級建議、以及目標ONTAP 版本可用的新功能摘要。 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["瞭解方法"]。
 
 
 
 === 寶貴見解
 
-您可以檢視透過Digital Advisor和支援合約所獲得的效益摘要。對於選定的系統、價值報告整合了過去一年的效益。 link:task_view_valuable_insight_widget.html["立即檢視"]。
+您可以檢視透過Digital Advisor和支援合約所獲得的效益摘要。對於選定的系統、價值報告整合了過去一年的效益。 link:https://docs.netapp.com/us-en/active-iq/task_view_valuable_insight_widget.html["立即檢視"]。
 
 
 
@@ -957,13 +958,13 @@ link:task_update_AFF_FAS_firmware.html["瞭解如何AFF 使用「可執行教戰
 
 在一個或多個頁面或畫面上提供有關資料的重要見解和分析、協助您一目瞭然地監控系統。您也可以建立最多10個儀表板、並做出有效的業務決策。
 
-link:concept_overview_dashboard.html["深入瞭解"]。
+link:https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["深入瞭解"]。
 
 
 
 === 利用本解決方法降低風險Active IQ Unified Manager
 
-您可以檢視風險、並使用Active IQ Unified Manager 無法判斷的功能加以修正。 link:task_view_risks_remediated_unified_manager.html["瞭解方法"]。
+您可以檢視風險、並使用Active IQ Unified Manager 無法判斷的功能加以修正。 link:https://docs.netapp.com/us-en/active-iq/task_view_risks_remediated_unified_manager.html["瞭解方法"]。
 
 
 
@@ -979,7 +980,7 @@ link:concept_overview_dashboard.html["深入瞭解"]。
 * 續約
 
 
-請參閱 link:concept_overview_wellness.html["分析健全屬性"] 以取得更多詳細資料。
+請參閱 link:https://docs.netapp.com/us-en/active-iq/concept_overview_wellness.html["分析健全屬性"] 以取得更多詳細資料。
 
 
 

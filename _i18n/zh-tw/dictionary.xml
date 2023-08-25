@@ -250,7 +250,6 @@
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">提供版本新功能的相關資訊。</block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">瞭解方法</block>
-  <block id="0b351c39af261a93af103bf080f120a3" category="paragraph">VMware資產的vCenter、ESXi主機和虛擬機器相關資訊現已包含在詳細目錄中、以提供完整的堆疊庫存和互通性檢查。 <block ref="c1d18b80dac13889361e9f73d9613fbb" category="inline-link-macro-rx"></block>。</block>
   <block id="0e1335531f896df953b41fb40e52c70e" category="section-title">2022年7月14日</block>
   <block id="2e6276e69ded861b20ecfa19303091d4" category="section-title">健全狀況檢查儀表板</block>
   <block id="703e1ace2a23931c8fffe15a7d94076f" category="list-text">您現在可以在Cloud Volumes ONTAP 「健全狀況檢查儀表板」中檢視針對各種系統所建立的技術案例詳細資料。</block>
@@ -265,7 +264,6 @@
   <block id="392d70ca39f31f10bd637936769788df" category="section-title">StorageGRID</block>
   <block id="a23d1d4ae4ec88d0e3d45bcb6cfa40ac" category="paragraph">Grid檢視器中已包含資訊生命週期管理（ILM）for StorageGRID the功能。</block>
   <block id="76ad5352af956a4d0d16558d3d763073" category="section-title">雲端建議</block>
-  <block id="5351ffbf47ff169f3734bf800f57ddfc" category="paragraph">提供工作負載及其各自磁碟區的建議、這些工作負載及磁碟區可透過Cloud Volumes ONTAP SnapMirror資料複寫移至NetApp還原、NetApp Cloud Volumes Service 還原及NetApp雲端備份（先前AltaVault 稱為「還原」）。 <block ref="e540305a20102603a156b0c2b7f74a4c" category="inline-link-macro-rx"></block>。</block>
   <block id="c91c7b93c28cd18741b71f727ee81ee3" category="section-title">報告</block>
   <block id="f2ca08481f9cb688103b90a756b0c613" category="list-text">您現在可以使用為已產生報告所定義的準則來產生報告。</block>
   <block id="db9b022851e15c130528bb7ffa01c31a" category="list-text">您現在可以嘗試3次、重試產生失敗的報告。</block>
@@ -294,7 +292,6 @@
   <block id="d5fe749824528d36ebfda1e6d68028c4" category="section-title">2022年1月12日</block>
   <block id="2ffefe6c8c1d57527c2c86448a467c08" category="section-title">設定飄移</block>
   <block id="1f11edbc13f039765fac872c257a9a13" category="list-text">您可以複製範本以複製原始範本。</block>
-  <block id="4be9d327e5d4314ef41a2c76cb413647" category="list-text">您可以透過唯讀或完整存取這些範本的權限、與其他獲授權的使用者共用黃金範本。<block ref="cbf38bd30e52bcc4b4982b19aec6bc2b" category="inline-link-macro-rx"></block>。</block>
   <block id="1e6a2df5d81ec0be4913d5a6cc31e753" category="section-title">2021年12月15日</block>
   <block id="f551e29085dd1ae672a5c22b16dd5231" category="list-text">*叢集檢視器報告*：此報告提供客戶與報價表層級的單一叢集或多個叢集相關資訊。您可以使用ClusterViewer報告、將所有資訊下載到單一檔案中。您只能針對最多100個節點的觀察清單產生此報告。</block>
   <block id="32323c520058568cf459c9c091b6302a" category="list-text">*效能報告*：此報告以單一壓縮檔提供叢集、節點、本機層級（Aggregate）和磁碟區效能的詳細資訊。每個壓縮檔都包含單一叢集的效能資料、有助於使用者分析每個叢集的資料。您只能針對最多100個節點的觀察清單產生此報告。</block>
@@ -310,11 +307,9 @@
   <block id="3085ac0389f450e4cca3a2b286aaf59f" category="paragraph">您可以檢視由NetApp Cloud Insights 執行維護與監控之系統的儲存效率詳細資料。</block>
   <block id="4f4438730e3b3e658fec82d94c8dd2c9" category="section-title">2021年10月14日</block>
   <block id="206b11a774f63418bae21625e6f6d2fb" category="section-title">可Ansible Inventory</block>
-  <block id="d218acf3139b2df9f86974252e34f973" category="paragraph">您現在可以在區域和站台層級產生.yml和.ini檔案格式的Ansible庫存檔案。 <block ref="6c1a86a6b220ef637b98bb90dcad9e67" category="inline-link-macro-rx"></block>。</block>
   <block id="f6ba2adb39c05d434ab52c6ad161a40d" category="section-title">非作用中資料報告（印尼盾）</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">深入瞭解</block>
   <block id="6f815aa2f2eb28995c59dd2d2b0af600" category="section-title">飄移時間軸報告</block>
-  <block id="5e4b167efbd384d21eda43769f89f2b4" category="paragraph">您可以比較AutoSupport 過去90天的資料不完整、並產生飄移時間軸報告。 <block ref="6e959f6930398ffd4237fa003affc1a1" category="inline-link-macro-rx"></block>。</block>
   <block id="cb3f8f484c3b350e78e56ea72f491137" category="section-title">符合法規的系統切換</block>
   <block id="25158a1dfe0d3c798ddbe50ec410b4c1" category="paragraph">健全狀況檢查儀表板已透過「最小作業系統」和「最新作業系統」索引標籤的切換功能增強、因此您可以檢視符合建議和最新版本最低要求且不符合要求的系統。</block>
   <block id="726d553e79fbb6d2f511fe1bd60fb931" category="section-title">重要建議摘要</block>
@@ -344,7 +339,6 @@
   <block id="89bcdbae8ce3c1ee510be773259789e7" category="list-text">續約：檢視應續約的網格清單和基礎節點。</block>
   <block id="d5ce3696c490cfd2eb9bd24f1aec7d29" category="list-text">E系列SANtricity 產品不含風險：在SANtricity Grid Dashboard - Wellness區段中檢視基礎節點的E系列產品不含風險。</block>
   <block id="acc29a7b7f23045f357b49f3a37a34bf" category="section-title">容量預測</block>
-  <block id="e7beaf5388707f5b78d0f93b770b13e6" category="paragraph">容量預測小工具已更新為改良的演算法、可更妥善地因應系統重新組態。 <block ref="358e7502d3a3beb3c7524dcf4ddbf11b" category="inline-link-macro-rx"></block>。</block>
   <block id="aefb7a7993c510ef70b2a8e8af0c8a8d" category="section-title">2021年8月26日</block>
   <block id="b5007357b4e518744cbd11c21e6102ff" category="paragraph">健全狀況小工具已透過勒索軟體的「防衛」屬性增強。您現在可以檢視勒索軟體偵測、預防及恢復的相關風險和修正行動。</block>
   <block id="5c3849b33a3b6bf738dbe72c0348f10c" category="section-title">2021年8月16日</block>
@@ -364,7 +358,6 @@
   <block id="d3c1f787ff63a25609fa946fe06088e0" category="list-text">您現在可以透過購買PVR來延長控制器、磁碟和磁碟櫃的EOS時程。購買時可在支援結束小工具中檢視PVR日期和延長詳細資料。PVR詳細資料也會在EOSL報告中提供。</block>
   <block id="11654a7c9bfe622e8f0c2bd5fa18720b" category="paragraph">您可以在詳細目錄頁面上檢視硬體、軟體及不可回收磁碟的支援合約終止日期。</block>
   <block id="fc6d3ceb7c84059ca7f2eb808bff5479" category="section-title">支援服務升級</block>
-  <block id="bb4ddc55330c48075b3116356500dbf5" category="list-text">您現在可以從系統儀表板提出升級支援服務訂閱的申請、以存取更多功能。 <block ref="cb0308c385d8d496d1f59d74eb315c21" category="inline-link-macro-rx"></block>。</block>
   <block id="bd0328b259e09ba57ed30da815f4cc42" category="section-title">2021年6月25日</block>
   <block id="3ec6287c56b9bb68a36e7c97f53e3f6b" category="list-text">如果您已選擇ONTAP 使用「資源收集器」取得容量使用量的資料、您可以在「共用和磁碟」索引標籤中檢視檔案共用和磁碟的詳細資料。您可以識別即將提交容量的儲存空間、以節省儲存空間。</block>
   <block id="04831b0867d81afad6e918c11ee8b449" category="list-text">Keystone -容量使用率儀表板上顯示並用於計費的容量使用量、現在是根據邏輯容量來決定。</block>
@@ -381,18 +374,13 @@
   <block id="aca33dafdae7a3f67c7dfa9a5df0dc66" category="paragraph">您現在可以檢視根據其計算健全狀況分數的系統數量。此增強功能適用於「狀況檢查儀表板」中的所有屬性。</block>
   <block id="3c8ecaee4178e4a25eef65be6cd5cad3" category="section-title">2021年5月20日</block>
   <block id="1efec69d62920635bf002f71b17c18dd" category="section-title">針對容量新增要求使用「飄移聊天室」</block>
-  <block id="af9ef30544afecf2392bfa5eb477b3c4" category="paragraph">如需容量新增要求的即時協助、請直接從儀表板與銷售人員交談。 <block ref="de37e4b638bc7349ed07e06459c58df9" category="inline-link-macro-rx"></block>。</block>
   <block id="f0cf1727349620562c13360528ab8936" category="section-title">2021年4月29日</block>
-  <block id="cd7b4050bdc517374876fa8cc2fc9631" category="list-text">以下說明如何保護您的系統免受駭客和勒索軟體攻擊。 <block ref="5d0d02d916acc8170e9496212f9f098d" category="inline-link-macro-rx"></block>。</block>
-  <block id="b2742e9fcf5e18c84979ae25e147d480" category="list-text">您可以避免停機和可能的資料遺失。 <block ref="d89d6ee1bb6c538f985e1c356031942c" category="inline-link-macro-rx"></block>。</block>
-  <block id="ceb8404d75df4cd36057918b2a3c3975" category="list-text">瞭解如何避免容量滿溢、以避免中斷運作。 <block ref="fabdf753888b88e4e56a3a1d46f402d9" category="inline-link-macro-rx"></block>。</block>
   <block id="b7fd11efbe4b08f9789db43e656aae94" category="section-title">2021年4月7日</block>
   <block id="e057979f7791f37ec4a8704baa00923d" category="section-title">觀察名單</block>
   <block id="3fc3e2eabeba0d4fc1cd1cd29feb8f53" category="section-title">2021年2月24日</block>
   <block id="28218bb56d995c803dfa66937720289f" category="paragraph">此版本提供下列功能：</block>
   <block id="774bd29c6c04ea222762ebe419b8682f" category="list-text">可在建立範本期間編輯屬性。</block>
   <block id="bd98aae9d6874e5b22af9007ec29d40c" category="list-text">將各個部分分組AutoSupport 。</block>
-  <block id="13f08ae5228a12616541f564ea38a102" category="list-text">在客戶、站台、群組、觀察清單、叢集、 和主機名稱。 <block ref="5778a3b24980082649fb0239cf4a1aee" category="inline-link-macro-rx"></block>。</block>
   <block id="3a38eeff0f77465a7a5489b58303e64b" category="paragraph">您可以產生或排程容量與效率報告、以檢視系統容量與儲存效率節約效益的詳細資訊。</block>
   <block id="39b6eb402b8871cdc35121d26ca117cb" category="section-title">2021年2月10日</block>
   <block id="42bee64e260cf6b08834a028608fd5b9" category="paragraph">使用NextGen API架構啟用「支援資訊儀表板」StorageGRID 。</block>
@@ -422,33 +410,26 @@
   <block id="202bdb919d7843a2b9915cfbbdc58b90" category="paragraph">建議的組態Widget已新增至儀表板、並提供遠端管理風險、備援磁碟機和故障磁碟機風險以及HA配對風險所監控的系統數量摘要。</block>
   <block id="43c0aba84cc47baeb81702f63ea56f52" category="paragraph">您可以監控叢集、將其分為四類：非作用中的本機層（Aggregate）資料、非作用中磁碟區資料、階層式資料、以及未啟用印尼盾的資料、藉此減少儲存佔用空間及相關成本。</block>
   <block id="9d66e07285d95331a9e3c8ef9b211743" category="section-title">簡體中文和日文的本地化</block>
-  <block id="273c6172eab8f123977db3341f450022" category="paragraph">您可以產生或排程ClusterViewer報告、以檢視系統實體和邏輯組態的詳細資訊。 <block ref="a215153d303469248fdb9fd5d964c085" category="inline-link-macro-rx"></block>。</block>
   <block id="ff0ca88c2de09857272e1e64c6d20635" category="section-title">2020年10月15日</block>
   <block id="6d842379317d540dc2fdadff80691eac" category="inline-link-macro">瞭解如何新增組態偏移範本</block>
-  <block id="a3ed0d9c8cd0f99576d01a2e583bb3ce" category="paragraph">此功能可讓您近乎即時地比較系統與叢集組態、以及偵測組態差異。 <block ref="85835a3294f4672a256d2580bd36ed95" category="inline-link-macro-rx"></block>。</block>
   <block id="6645e0ebb53d4b6e68be7936af3a8039" category="section-title">AutoSupport</block>
   <block id="d1544e43fa9e4a2e0901961974335791" category="paragraph">您可以檢視AutoSupport 您的資料、並檢閱詳細資料。</block>
   <block id="96147dc3de69ed13a10770c1738dd171" category="section-title">健康審查訂閱</block>
   <block id="dfa592421ec2584a960f077610eb19bd" category="inline-link-macro">立即訂閱</block>
-  <block id="6ef0aa0373a6d79edad5f0d6f3889dae" category="paragraph">您可以訂閱每月收到一封電子郵件通知、摘要說明系統的健全狀態、這些系統即將續約、且需要升級您安裝基礎上的NetApp產品。 <block ref="eee7e6e78eae58cdbb5e1d747e67de54" category="inline-link-macro-rx"></block>。</block>
-  <block id="2b8a1cf4302bf1a2b093ad5a2f86b07e" category="paragraph">您可以使用報告功能立即產生報告、或排程每週或每月產生報告。 <block ref="a215153d303469248fdb9fd5d964c085" category="inline-link-macro-rx"></block>。</block>
   <block id="152dbe546ff9aa1627c8b40ce14b12f6" category="section-title">手動AutoSupport 上傳</block>
   <block id="dae11fc59da97a669ccb5077d15f9feb" category="paragraph">手動AutoSupport 上傳功能已增強、可改善使用者體驗。已提供額外的欄位、以供註解上傳狀態。</block>
   <block id="54074209636092245fcad58469e0b60b" category="section-title">2020年9月30日</block>
   <block id="c0b0c57bf06a60b6c879938a236e3641" category="section-title">使用Ansible教戰手冊的韌體更新AFF FAS</block>
   <block id="23a0f65d52d06cfe6d43d8793a09161e" category="paragraph">文件內容已經過強化、包括有關下載、安裝及執行AFF 更新版的資訊、包括可FAS 執行的更新版的更新版、包括更新版的更新版、以及更新版的更新版。</block>
   <block id="d2e6f4969f726dbd7ac32c021857b523" category="inline-link-macro">瞭解如何AFF 使用「可執行教戰手冊」來更新BIOS和FAS BIOS韌體</block>
-  <block id="35bc12131efa9f6788a3ec1e078d9d78" category="paragraph"><block ref="89e5b59c67c81c40d1588bacab1f2a7d" category="inline-link-macro-rx"></block>。</block>
   <block id="1455047a6476c0ea270b790e52d7abea" category="section-title">2020年8月18日</block>
   <block id="9446a98ad14416153cc4d45ab8b531bf" category="section-title">效能</block>
-  <block id="af429ddb90041caae5cb0a5b6eaa8a88" category="paragraph">效能圖表已增強、可讓您評估磁碟區的效能。您可以在同一個畫面上的節點索引標籤、叢集索引標籤、本機層索引標籤和Volume索引標籤之間瀏覽及切換。 <block ref="606c83272bbe19665f8a097df8c523d9" category="inline-link-macro-rx"></block>。</block>
   <block id="b508e68cd0507ef1be2149928ccfb5d2" category="paragraph">功能強化的「更新版」和「更新版」韌體畫面、提供更好的使用者體驗。AFF FAS</block>
   <block id="e72cacaacd11735a1ef668ea40561f48" category="section-title">2020年7月17日</block>
   <block id="6faaeb6717e56f197c068bbdcc1dafe6" category="paragraph">效能圖表已增強、可讓您評估本機層級的效能。您可以在同一個畫面上的節點索引標籤、叢集索引標籤和本機層索引標籤之間瀏覽及切換。</block>
   <block id="2e20192b38422171b2798484dac41923" category="paragraph">健全狀況屬性已增強、可檢視所有受影響的系統、而不需深入瞭解行動和風險。</block>
   <block id="a040552380bded0d96728cb16d577b09" category="section-title">2020年6月19日</block>
   <block id="f2b088c89a4551e93c99ac6a2e50ce00" category="section-title">產生庫存報告</block>
-  <block id="c117e01f37139241901af00c21552671" category="paragraph">您現在可以產生所選觀察名單的報告、並以電子郵件將報告傳送給最多5位收件者。 <block ref="6c1a86a6b220ef637b98bb90dcad9e67" category="inline-link-macro-rx"></block>。</block>
   <block id="07804c57460fb69b448ea03e4f7e4a5b" category="paragraph">效能圖表已增強、可讓您評估儲存系統的叢集效能。您可以在同一個畫面上的節點索引標籤和叢集索引標籤之間瀏覽及切換。</block>
   <block id="f67b3b7c63db378874cf3c9f28add752" category="paragraph">儲存效率小工具已經過增強、可讓您檢視叢集層級的儲存效率比與節約效益。您可以在同一個畫面上的節點索引標籤和叢集索引標籤之間瀏覽及切換。</block>
   <block id="08f72fff0f0812bdbc9fc2474685218d" category="section-title">更新預設首頁</block>
@@ -456,7 +437,6 @@
   <block id="a392fcca4182f7d6c6748c76a6e192ac" category="paragraph">庫存小工具已經過強化、可提供使用者友好的日期格式、用於平台結束支援的其他欄位、以及版本結束支援、藉此改善使用者體驗。</block>
   <block id="5a0f42f64fb533926accae7152c26173" category="section-title">2020年5月19日</block>
   <block id="c43f08e4b3393556316dfdcf0ac2adec" category="section-title">設定預設首頁</block>
-  <block id="196bf417f670cda21f19ec3d4d3beee2" category="paragraph">您可以檢視儲存系統的儲存效率與節約效益、無論是否使用AFF 適用於各種系統、非AFF系統或兩者的Snapshot複本。您可以在節點層級檢視儲存效率資訊。 <block ref="7ce8aae7f470992890fd5777e8778c08" category="inline-link-macro-rx"></block>。</block>
   <block id="5c38b1bfe8fc19ace289c4b181898cc3" category="paragraph">效能圖表可讓您評估儲存設備在不同重要領域的效能。</block>
   <block id="79a857f77fa2d44ca5fa8f7eb514d82b" category="section-title">使用Ansible教戰手冊進行韌體升級AFF FAS</block>
   <block id="71bfa4dc9b5da9a689d2f3e561ce94a2" category="paragraph">使用AFF 儲存系統上的Ansible更新功能的更新功能、FAS 以減輕已識別的風險、並讓儲存系統保持最新狀態。</block>
@@ -470,7 +450,6 @@
   <block id="c3a9eb28399cadc0f072f330b4efb065" category="section-title">支援確認及忽略風險</block>
   <block id="074b117837e20fe90877bbbcfbb2c836" category="paragraph">如果您確實想要減輕風險或無法減輕風險、請提供確認風險的選項。</block>
   <block id="0c562b4902e013a94d95961f9d6c5aa4" category="section-title">2020年3月19日</block>
-  <block id="17191d00ab4a3736fa040f3b95b65558" category="paragraph">您可以使用升級工作流程來檢視升級建議、以及目標ONTAP 版本可用的新功能摘要。 <block ref="c1d3fae1f3512f66a2affe4e88cce8cf" category="inline-link-macro-rx"></block>。</block>
   <block id="c35f526b5bc5e4a0bea7fb374721a1af" category="section-title">寶貴見解</block>
   <block id="81ab2e271e95304e9636d948311780aa" category="inline-link-macro">立即檢視</block>
   <block id="33c22a10574cad1dbba382fa84bb9e8d" category="section-title">深入探討細節</block>
@@ -481,9 +460,7 @@
   <block id="ab7938419e5054f4058775c5af52206b" category="section-title">增強的使用者介面</block>
   <block id="26816f83580825737543b7ee34f72751" category="section-title">可自訂的儀表板</block>
   <block id="cd8fb73c97a7d30cae83d4fc877ecd00" category="paragraph">在一個或多個頁面或畫面上提供有關資料的重要見解和分析、協助您一目瞭然地監控系統。您也可以建立最多10個儀表板、並做出有效的業務決策。</block>
-  <block id="aaa2e98f0455022c0297b0af6b83eef1" category="paragraph"><block ref="f8067c30e51c031bbe2e9d7c7ba78ef1" category="inline-link-macro-rx"></block>。</block>
   <block id="49e793f563ecf7cab7768c1ec94950d2" category="section-title">利用本解決方法降低風險Active IQ Unified Manager</block>
-  <block id="425e31332f517048f43c5edacc522900" category="paragraph">您可以檢視風險、並使用Active IQ Unified Manager 無法判斷的功能加以修正。 <block ref="0e83f6d327b6e8136b8d3df110e74348" category="inline-link-macro-rx"></block>。</block>
   <block id="50eac2c95951f5d6d4bb21c54979f288" category="paragraph">提供儲存系統狀態的詳細資訊、這些資訊可分為下列6個小工具：</block>
   <block id="6627855b1a63b303727d96a2650ca948" category="list-text">效能與效率</block>
   <block id="99fd9198bb44a91d96aabfecbcf66151" category="list-text">可用度與保護</block>
@@ -491,7 +468,6 @@
   <block id="2fae32629d4ef4fc6341f1751b405e45" category="list-text">安全性</block>
   <block id="61583caaac5d274ab78d4c71e3dc0ae8" category="list-text">續約</block>
   <block id="479fc92d9846f74321dfe4a9903dbc40" category="inline-link-macro">分析健全屬性</block>
-  <block id="467258cff06ebf6b6f59ed857491cb1c" category="paragraph">請參閱 <block ref="6bf69a2fa78d4565f6de730ae9e137bc" category="inline-link-macro-rx"></block> 以取得更多詳細資料。</block>
   <block id="6a46e3c3984001a8a2d4481982e69a8f" category="section-title">更聰明、更快速的搜尋</block>
   <block id="d9c7072ff9d902e7ac9964e95c163d94" category="paragraph">可讓您搜尋參數、例如序號、系統ID、主機名稱、站台名稱、群組名稱、 以及使用單一系統檢視的叢集名稱。您也可以搜尋系統群組、此外、您也可以依客戶名稱、站台名稱或依系統群組的群組名稱進行搜尋。</block>
   <block id="75fb68630cabac33011c445584315dfc" category="summary">提供有關Ansible的詳細資訊。</block>
@@ -1087,7 +1063,6 @@
   <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">數位顧問提供下列功能與增強功能：</block>
   <block id="ae90f5ddd6bedf0784aa3f4496ea1cad" category="section-title">2022年11月1日</block>
   <block id="8170292c601a72e4a24d3cbac63d8070" category="section-title">與BlueXP整合的數位顧問</block>
-  <block id="7dc92aa05d634ffe404fd7ad42175cf1" category="paragraph">目前、NetApp的統一化管理主控台已改為Digital Advisor、並已整合至適用於混合式多雲端環境的BlueXP。Active IQ Digital Advisor <block ref="575246a0eb7002042f4cf91d71dc2f1a" category="inline-link-macro-rx"></block>。</block>
   <block id="f668b17ee05cd74c11dbf1d1d949072e" category="paragraph">BlueXP使用者現在可以在新的索引標籤中開啟「數位顧問」連結（如適用）、類似於數位顧問的現有功能。</block>
   <block id="de07e5fcc39a7c8a7ee2ef456f8e167e" category="paragraph">您可以在Digital Advisor中檢視所選E系列系統的容量詳細資料和效能圖表。</block>
   <block id="0762a98733fb0259b2c034300821b8eb" category="list-text">在「Digital Advisor–Reports」（數位顧問–報告）畫面上新增了適用於內部和外部（客戶和合作夥伴）使用者的機密資料橫幅。</block>
@@ -1100,12 +1075,10 @@
   <block id="d78a9201b5a1da34052eb6d1da7c7414" category="list-text">使用者介面已經過增強、可顯示您在Digital Advisor中訂閱的特定支援服務項目。</block>
   <block id="606d45bc02a4e58356236313e91bb72f" category="paragraph">第一次存取Digital Advisor時、您現在應該建立觀察清單、而非儀表板。您也可以檢視不同觀察名單的儀表板、編輯現有觀察名單的詳細資料、以及刪除觀察名單。</block>
   <block id="e07c66941c84e7feebe88312021581ff" category="paragraph">「階層資料」按鈕已新增至FabricPool 「階層資料」儀表板、可讓您使用NetApp BlueXP將資料分層至低成本的物件儲存層。</block>
-  <block id="41f9c9dd8e599cba3a64a6e53ff343a9" category="paragraph">您可以使用數位顧問API來提取感興趣的資料、並將其直接整合到貴公司的工作流程中。 <block ref="79a495fed0082d673c1047b883d4546e" category="inline-link-macro-rx"></block>。</block>
   <block id="423dd400f697bb08eca274e1e810b26e" category="paragraph">數位顧問現在提供三種語言：中文、英文和日文。</block>
   <block id="7a528fe08556f70d64e31f51b17654f7" category="paragraph">您現在可以提供您的意見反應、並告知我們您更新數位顧問預設首頁畫面的原因。</block>
   <block id="242af7c119838a4ad767c52325947075" category="paragraph">您現在可以設定數位顧問的預設首頁畫面。您可以將其設定為數位顧問或傳統。</block>
   <block id="6a561fa96a3d1a7ca7d1a2e1d651de71" category="paragraph">入門影片可協助使用者快速熟悉數位顧問的選項與功能。</block>
-  <block id="f0e62003a241d3b1041b11bf3944673b" category="paragraph">您可以檢視透過Digital Advisor和支援合約所獲得的效益摘要。對於選定的系統、價值報告整合了過去一年的效益。 <block ref="d21ac6e6095a0c5ba338352404b3f707" category="inline-link-macro-rx"></block>。</block>
   <block id="d6a9e7c7d5d1f7c1e1914573b3f70321" category="paragraph">最新的數位顧問儀表板提供個人化體驗。它能在不同的儀表板、小工具和螢幕上順暢無礙地導覽、並具備直覺功能。提供一體化體驗。它傳達比較、關係和趨勢。它提供深入見解、可協助您根據不同儀表板顯示的資料、偵測並驗證重要關係和有意義的差異。</block>
   <block id="4bf24111ed7846edf31112cd54f977f7" category="summary">協助您瞭解工作流程、並開始使用Digital Advisor。</block>
   <block id="9df05130b53153d473ac75b8468832e2" category="doc">數位顧問快速入門</block>
@@ -1392,7 +1365,6 @@
   <block id="cc50d008d8b1e1f6ba13bbe127a1bf29" category="list-text">標籤 * 儲存效率所儲存的資料 * 會重新命名為 * 資料減量節省 * 。</block>
   <block id="2a88859b894ead28756789553bc66754" category="list-text">切換「不使用 Snapshot 備份的節省」 * 會重新命名為 * 使用 Snapshot Copies * 、並變更其功能。 <block ref="3a01d99aaa6c74ce8f92a2ac5ca4e5e9" category="inline-link-macro-rx"></block>。</block>
   <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">永續發展儀表板</block>
-  <block id="d10bde6beff40b3a3856da6b1e40b9b7" category="paragraph">永續發展儀表板可提供寶貴的見解、讓您深入瞭解儲存系統的環境永續發展。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。評估永續性分數後、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <block ref="2a00df11659d53cc6af50733fabe3a4a" category="inline-link-macro-rx"></block>。</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -1417,4 +1389,33 @@
   <block id="567b01f0b5cd67001d808012ef0e7dd2" category="paragraph">儲存效率儀表板中顯示的是 Volume 和本機層（集合體）的資料減量節省量。  您無法在不同的儲存物件上同時新增磁碟區節約效益和集合節約效益。</block>
   <block id="fb8e35ae91d9f2d1bbfa26a865e3bdde" category="paragraph">* 升級至 ONTAP 之前、為什麼資料減量報告為較高或不正確？ *</block>
   <block id="d9358f68a6e1323e55b1eaead9cd9368" category="paragraph">當節點中存在資料保護磁碟區、因為 ONTAP 中有錯誤而導致資料減量的情形較高。此問題已在ONTAP 32版中修正。當從ONTAP 9.3 P11之前的版本進行升級、以及節點中存在資料保護磁碟區時、儲存效率會報告正確或較低的值。</block>
+  <block id="157e4d0632e88d94ee663058894a5415" category="paragraph">永續發展儀表板可提供寶貴的見解、讓您深入瞭解儲存系統的環境永續發展。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。評估永續性分數後、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
+  <block id="111e2574729518f75d68b12a141895ca" category="paragraph">目前、NetApp的統一化管理主控台已改為Digital Advisor、並已整合至適用於混合式多雲端環境的BlueXP。Active IQ Digital Advisor <block ref="00345514845e0d86c9c648d29a98b060" category="inline-link-macro-rx"></block>。</block>
+  <block id="685c75c1df83c508b4344c2b7bddc69a" category="paragraph">VMware資產的vCenter、ESXi主機和虛擬機器相關資訊現已包含在詳細目錄中、以提供完整的堆疊庫存和互通性檢查。 <block ref="a4fd8b50f9fa1d3acd0018ed3d197139" category="inline-link-macro-rx"></block>。</block>
+  <block id="689f0156b8d6f21052bcf808d6c62508" category="paragraph">提供工作負載及其各自磁碟區的建議、這些工作負載及磁碟區可透過Cloud Volumes ONTAP SnapMirror資料複寫移至NetApp還原、NetApp Cloud Volumes Service 還原及NetApp雲端備份（先前AltaVault 稱為「還原」）。 <block ref="6170547bf38252f5bd3b005d8df0f331" category="inline-link-macro-rx"></block>。</block>
+  <block id="de893a63460ea5903d1d626088c95638" category="list-text">您可以透過唯讀或完整存取這些範本的權限、與其他獲授權的使用者共用黃金範本。
+<block ref="fce3605ff7833eb2d0c24b739534268b" category="inline-link-macro-rx"></block>。</block>
+  <block id="d7009239ee11cab715d63f06bd45b81c" category="paragraph">您現在可以在區域和站台層級產生.yml和.ini檔案格式的Ansible庫存檔案。 <block ref="e49140995889c841dca106143f17c244" category="inline-link-macro-rx"></block>。</block>
+  <block id="22a1e2cf183721997b394dc204d957b4" category="paragraph">您可以比較AutoSupport 過去90天的資料不完整、並產生飄移時間軸報告。 <block ref="fd991fddef446a67800f179ad91c7860" category="inline-link-macro-rx"></block>。</block>
+  <block id="72ed76b579308028fd573f86164d9389" category="paragraph">容量預測小工具已更新為改良的演算法、可更妥善地因應系統重新組態。 <block ref="a424132f388a9507ecf8cc1b163c5933" category="inline-link-macro-rx"></block>。</block>
+  <block id="7b3d37084d95800100717e2c74ad6300" category="list-text">您現在可以從系統儀表板提出升級支援服務訂閱的申請、以存取更多功能。 <block ref="8994dc1bca5f94e111ca978ae9118e0d" category="inline-link-macro-rx"></block>。</block>
+  <block id="ac93d623b6bf8a82f00ec8d98810b37a" category="paragraph">如需容量新增要求的即時協助、請直接從儀表板與銷售人員交談。 <block ref="943629d75811a4829fa99f8213b13161" category="inline-link-macro-rx"></block>。</block>
+  <block id="a56e903d18370537609ef437aa52c0b0" category="list-text">以下說明如何保護您的系統免受駭客和勒索軟體攻擊。 <block ref="63edcc213515e0926bb0f14fcee07dfd" category="inline-link-macro-rx"></block>。</block>
+  <block id="affbae51cb248fc228a64eff8ef4b19a" category="list-text">您可以避免停機和可能的資料遺失。 <block ref="cdc6118fb0dd484c6eecea2c16368d88" category="inline-link-macro-rx"></block>。</block>
+  <block id="e9914ee0052933ab0eb5ed245f68f4be" category="list-text">瞭解如何避免容量滿溢、以避免中斷運作。 <block ref="5cdf43ceea4370a0a68934a3b004b9d7" category="inline-link-macro-rx"></block>。</block>
+  <block id="533dbe637c2f68cac9ab973ac9a2c30d" category="list-text">在客戶、站台、群組、觀察清單、叢集、 和主機名稱。 <block ref="de81add81e119065d94ddeac8ee64650" category="inline-link-macro-rx"></block>。</block>
+  <block id="109fc841d00ef808e65701bf12c832d9" category="paragraph">您可以使用數位顧問API來提取感興趣的資料、並將其直接整合到貴公司的工作流程中。 <block ref="1cadb4b3b896f461880aeba67b4bebd1" category="inline-link-macro-rx"></block>。</block>
+  <block id="d2d5b2832ad6260f7e47f21eda203625" category="paragraph">您可以產生或排程ClusterViewer報告、以檢視系統實體和邏輯組態的詳細資訊。 <block ref="b5110609d22aa395850743bf41df8a3c" category="inline-link-macro-rx"></block>。</block>
+  <block id="7f468348ccf6d1b2c89a41ca66585095" category="paragraph">此功能可讓您近乎即時地比較系統與叢集組態、以及偵測組態差異。 <block ref="b3bd45262a4931447b29e389f808703b" category="inline-link-macro-rx"></block>。</block>
+  <block id="2ea25d3aa454a8719fbcd77c0cb45036" category="paragraph">您可以訂閱每月收到一封電子郵件通知、摘要說明系統的健全狀態、這些系統即將續約、且需要升級您安裝基礎上的NetApp產品。 <block ref="6ebaac8877cbf874499b8874b314ad68" category="inline-link-macro-rx"></block>。</block>
+  <block id="cc7d08b25bce1f736c4988b1381953d9" category="paragraph">您可以使用報告功能立即產生報告、或排程每週或每月產生報告。 <block ref="b5110609d22aa395850743bf41df8a3c" category="inline-link-macro-rx"></block>。</block>
+  <block id="d08dfd94a4d36eb2bcd5fbae59ee124d" category="paragraph"><block ref="b46bd81d9b5d17f9607d3bf70532f303" category="inline-link-macro-rx"></block>。</block>
+  <block id="85a5b85b171db93012b817af7272c528" category="paragraph">效能圖表已增強、可讓您評估磁碟區的效能。您可以在同一個畫面上的節點索引標籤、叢集索引標籤、本機層索引標籤和Volume索引標籤之間瀏覽及切換。 <block ref="4513feee0626ae09dfa51f7c8eb5d5ce" category="inline-link-macro-rx"></block>。</block>
+  <block id="ccd4252e1ddc49da690f804e7aeabf6f" category="paragraph">您現在可以產生所選觀察名單的報告、並以電子郵件將報告傳送給最多5位收件者。 <block ref="e49140995889c841dca106143f17c244" category="inline-link-macro-rx"></block>。</block>
+  <block id="99019cd797a33c2f1f0354aa51829694" category="paragraph">您可以檢視儲存系統的儲存效率與節約效益、無論是否使用AFF 適用於各種系統、非AFF系統或兩者的Snapshot複本。您可以在節點層級檢視儲存效率資訊。 <block ref="a712d09976009a64cc618b068e6daeda" category="inline-link-macro-rx"></block>。</block>
+  <block id="840f469fb410bb3332071cd390daa1a8" category="paragraph">您可以使用升級工作流程來檢視升級建議、以及目標ONTAP 版本可用的新功能摘要。 <block ref="7f4976c761eb4018266cc0d54f5b87cd" category="inline-link-macro-rx"></block>。</block>
+  <block id="07be922df0906b959295384caa9e817a" category="paragraph">您可以檢視透過Digital Advisor和支援合約所獲得的效益摘要。對於選定的系統、價值報告整合了過去一年的效益。 <block ref="64d68cf7646e7bd28259850f10575416" category="inline-link-macro-rx"></block>。</block>
+  <block id="4ab7ab489ac4d021f39004a1bc70c209" category="paragraph"><block ref="ab7ef85b2ffc5cc75de4e5a966fa1b9d" category="inline-link-macro-rx"></block>。</block>
+  <block id="37cce083eef0841e779db21ca8daef7e" category="paragraph">您可以檢視風險、並使用Active IQ Unified Manager 無法判斷的功能加以修正。 <block ref="f4086b11d800cf115240026fc88182a0" category="inline-link-macro-rx"></block>。</block>
+  <block id="68eadb44b69eeb166a72c254148cc4c3" category="paragraph">請參閱 <block ref="b0240cce700bb082e59a979e57faa1fc" category="inline-link-macro-rx"></block> 以取得更多詳細資料。</block>
 </blocks>
