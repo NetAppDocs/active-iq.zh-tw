@@ -244,9 +244,6 @@
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">按一下*新增範本*。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">提供所需的值。</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">透過NetApp Keystone 「View訂閱」檢視容量使用率</block>
-  <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">Keystone訂閱小工具可提供您帳戶容量使用量的摘要。其中包含實體容量的容量使用率圖表、快照會四捨五入至最後五分鐘。超過承諾容量（突發容量）的使用率會標示為紅色。</block>
-  <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link-macro">服務層級</block>
-  <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Keystone訂閱服務容量</block>
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">提供版本新功能的相關資訊。</block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">瞭解方法</block>
@@ -1105,8 +1102,6 @@
   <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">您可以使用數位顧問、在報價表層級檢視儲存系統的整體狀態、系統健全狀況的高階資訊、庫存管理、規劃、升級、以及寶貴的見解。</block>
   <block id="4d7ba674630738cac5e8b1e2fed17854" category="paragraph">數位顧問的部分功能如下：</block>
   <block id="12dfd6dec7a5455387d9e6ce595e8907" category="paragraph">您可以購買升級至支援服務、以存取Digital Advisor的更多功能與功能。</block>
-  <block id="1e113c9e791f55b9d40e5564c75fd42a" category="paragraph">如果您已訂閱Keystone訂閱服務、則可在Digital Advisor儀表板上檢視Keystone訂閱小工具。</block>
-  <block id="46b0133ea42a96887a939d9e262c57cf" category="admonition">身為數位顧問使用者、您可以選擇ONTAP 使用「資料收集器」和AutoSupport 「參考資料」、以取得容量使用量的相關資料。</block>
   <block id="ededec00f7d24950f152983df2ad1f73" category="list-text">Digital Advisor中的「支援」按鈕、以取得支援和意見反應。</block>
   <block id="a66a2f6647458a57d2e6fc1df3f920bf" category="paragraph">當您登入Digital Advisor並在* Availability and Protection（可用度與保護）*小工具上看到紅色徽章時、您可以採取行動來修正重大風險。如果沒有韌體修復、這些磁碟機在開機幾個小時後可能無法運作。修正此問題可避免停機和可能的資料遺失。</block>
   <block id="7668feb1d998cf5c94c1e24359309154" category="list-text">登入數位顧問。</block>
@@ -1153,8 +1148,6 @@
   <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">支援合約/硬體EOS</block>
   <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">IO密度</block>
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">IO密度報告針對客戶的尖峰輸入輸出作業、提供資料和中繼資料使用量與密度的深入見解。</block>
-  <block id="deaf5bbabe29231a9826b313fee569a1" category="inline-link-macro">Keystone訂閱儀表板與報告</block>
-  <block id="706f9582e4d14591a9eeeaf6db8cc6c5" category="paragraph">如需Keystone訂閱的相關資訊、請參閱 <block ref="42d99877a3bdc96c47aeda69738db0f2" category="inline-link-macro-rx"></block>。</block>
   <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">您可以在Volume IOPS圖表中檢視平均讀取、寫入及其他作業。</block>
   <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10》及更新版本的各種系統、包括AFF ：VMware、AFF VMware、VMware ONTAP 、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware</block>
   <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">2023年2月22日</block>
@@ -1162,8 +1155,6 @@
   <block id="30becc7ff660741781b33df4424a976b" category="paragraph">NetApp安全網站是NetApp產品安全的真實來源： <block ref="5e78a47b9f3f07f171347317054eb0a4" category="inline-link-macro-rx"></block></block>
   <block id="1a0fefe07d105bbdb30fd8b35268ac5f" category="paragraph">如需其他NetApp產品安全資訊、包括數位顧問未涵蓋的產品、請造訪 <block ref="5e78a47b9f3f07f171347317054eb0a4" category="inline-link-macro-rx"></block></block>
   <block id="bbca9981d6b0f3a88a20d77f9f0b515e" category="summary">提供NetApp Keystone 有關容量使用率的資訊、請參閱「用作支援」。</block>
-  <block id="ce1aa13636f163ff457fae8432a2f4ec" category="paragraph">您可以檢視*基礎概念-容量使用率*儀表板、此儀表板會分析小工具中的資料、並以圖形方式呈現所有訂閱儲存設備容量和使用量的使用率趨勢 <block ref="471fbca756054ddae280268222b19bf9" category="inline-link-macro-rx"></block>（例如Premium、Extreme和Standard）、與NetApp Keystone 您的「精選訂閱」帳戶有關。</block>
-  <block id="27363af66f7c7e4630979587cc9ad936" category="paragraph">您可以檢視 <block ref="641f2bb6b5e44be4cae8acd4ce2983c0" category="inline-link-macro-rx"></block> 以及儀表板上每個已訂閱服務的區塊、檔案服務或物件儲存設備使用量。</block>
   <block id="1583e3cf3d8d7b04d46e1fc4c3378657" category="paragraph">在「功能性顧問」畫面中、您可以啟動非作用中的資料報告（IDR）來監控Aggregate並產生可執行的教戰手冊。FabricPool</block>
   <block id="a44ea0c484f7b46a675c3900938f5c9e" category="paragraph">下載應用程式以深入瞭解：<block ref="9f34f1e9a1a1b7a5470e007139e444f5" category="inline-link-macro-rx"></block>
 <block ref="45e5ff1f89e77ef1cc1575bf78209669" category="inline-link-macro-rx"></block></block>
@@ -1418,4 +1409,7 @@
   <block id="4ab7ab489ac4d021f39004a1bc70c209" category="paragraph"><block ref="ab7ef85b2ffc5cc75de4e5a966fa1b9d" category="inline-link-macro-rx"></block>。</block>
   <block id="37cce083eef0841e779db21ca8daef7e" category="paragraph">您可以檢視風險、並使用Active IQ Unified Manager 無法判斷的功能加以修正。 <block ref="f4086b11d800cf115240026fc88182a0" category="inline-link-macro-rx"></block>。</block>
   <block id="68eadb44b69eeb166a72c254148cc4c3" category="paragraph">請參閱 <block ref="b0240cce700bb082e59a979e57faa1fc" category="inline-link-macro-rx"></block> 以取得更多詳細資料。</block>
+  <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">如果您已訂閱 NetApp Keystone STaaS 服務、您可以在數位顧問儀表板上檢視 Keystone Subscription 小工具。</block>
+  <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone與Digital Advisor</block>
+  <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Keystone訂閱小工具可提供您帳戶容量使用量的摘要。它包含與實體容量有關的容量使用率圖表。如需不同層級訂閱資料和使用資訊的詳細資訊、請參閱 <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>。</block>
 </blocks>

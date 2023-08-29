@@ -19,15 +19,6 @@ summary: 提供NetApp Keystone 有關容量使用率的資訊、請參閱「用�
 
 
 [role="lead"]
-如果您已訂閱Keystone訂閱服務、則可在Digital Advisor儀表板上檢視Keystone訂閱小工具。
+如果您已訂閱 NetApp Keystone STaaS 服務、您可以在數位顧問儀表板上檢視 Keystone Subscription 小工具。
 
-Keystone訂閱小工具可提供您帳戶容量使用量的摘要。其中包含實體容量的容量使用率圖表、快照會四捨五入至最後五分鐘。超過承諾容量（突發容量）的使用率會標示為紅色。
-
-您可以檢視*基礎概念-容量使用率*儀表板、此儀表板會分析小工具中的資料、並以圖形方式呈現所有訂閱儲存設備容量和使用量的使用率趨勢 link:https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["服務層級"^]（例如Premium、Extreme和Standard）、與NetApp Keystone 您的「精選訂閱」帳戶有關。
-
-您可以檢視 link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Keystone訂閱服務容量"^] 以及儀表板上每個已訂閱服務的區塊、檔案服務或物件儲存設備使用量。
-
-
-NOTE: 身為數位顧問使用者、您可以選擇ONTAP 使用「資料收集器」和AutoSupport 「參考資料」、以取得容量使用量的相關資料。
-
-如需Keystone訂閱的相關資訊、請參閱 link:https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.html["Keystone訂閱儀表板與報告"^]。
+Keystone訂閱小工具可提供您帳戶容量使用量的摘要。它包含與實體容量有關的容量使用率圖表。如需不同層級訂閱資料和使用資訊的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-aiq.html["Keystone與Digital Advisor"^]。
