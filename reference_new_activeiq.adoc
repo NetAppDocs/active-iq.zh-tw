@@ -23,6 +23,22 @@ summary: 提供版本新功能的相關資訊。
 
 
 
+== 2023 年 9 月 27 日
+
+
+
+=== 升級顧問
+
+您可以使用存取預設報價表或儀表板的 Upgrade Advisor 頁面 link:https://activeiq.netapp.com/redirect/upgrade-advisor["升級顧問"^] 連結：如果您沒有預設的報價表或儀表板、按一下連結即可將您重新導向至「搜尋」頁面。
+
+
+
+=== 升級計畫
+
+升級計畫已經過最佳化、可移除多餘的升級步驟、修改資訊和警告、並簡化回溯計畫。叢集中所有節點的一般步驟均已整合、並可在「一般資訊」區段下取得。若要檢視改善的計畫、請使用中所述的步驟來產生升級計畫 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["使用升級計畫升級 ONTAP 版本"]。
+
+
+
 == 2023 年 7 月 16 日
 
 
