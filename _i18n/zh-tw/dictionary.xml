@@ -1371,7 +1371,6 @@
   <block id="567b01f0b5cd67001d808012ef0e7dd2" category="paragraph">儲存效率儀表板中顯示的是 Volume 和本機層（集合體）的資料減量節省量。  您無法在不同的儲存物件上同時新增磁碟區節約效益和集合節約效益。</block>
   <block id="fb8e35ae91d9f2d1bbfa26a865e3bdde" category="paragraph">* 升級至 ONTAP 之前、為什麼資料減量報告為較高或不正確？ *</block>
   <block id="d9358f68a6e1323e55b1eaead9cd9368" category="paragraph">當節點中存在資料保護磁碟區、因為 ONTAP 中有錯誤而導致資料減量的情形較高。此問題已在ONTAP 32版中修正。當從ONTAP 9.3 P11之前的版本進行升級、以及節點中存在資料保護磁碟區時、儲存效率會報告正確或較低的值。</block>
-  <block id="157e4d0632e88d94ee663058894a5415" category="paragraph">永續發展儀表板可提供寶貴的見解、讓您深入瞭解儲存系統的環境永續發展。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。評估永續性分數後、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
   <block id="111e2574729518f75d68b12a141895ca" category="paragraph">目前、NetApp的統一化管理主控台已改為Digital Advisor、並已整合至適用於混合式多雲端環境的BlueXP。Active IQ Digital Advisor <block ref="00345514845e0d86c9c648d29a98b060" category="inline-link-macro-rx"></block>。</block>
   <block id="685c75c1df83c508b4344c2b7bddc69a" category="paragraph">VMware資產的vCenter、ESXi主機和虛擬機器相關資訊現已包含在詳細目錄中、以提供完整的堆疊庫存和互通性檢查。 <block ref="a4fd8b50f9fa1d3acd0018ed3d197139" category="inline-link-macro-rx"></block>。</block>
   <block id="689f0156b8d6f21052bcf808d6c62508" category="paragraph">提供工作負載及其各自磁碟區的建議、這些工作負載及磁碟區可透過Cloud Volumes ONTAP SnapMirror資料複寫移至NetApp還原、NetApp Cloud Volumes Service 還原及NetApp雲端備份（先前AltaVault 稱為「還原」）。 <block ref="6170547bf38252f5bd3b005d8df0f331" category="inline-link-macro-rx"></block>。</block>
@@ -1403,7 +1402,6 @@
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">如果您已訂閱 NetApp Keystone STaaS 服務、您可以在數位顧問儀表板上檢視 Keystone Subscription 小工具。</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone與Digital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Keystone訂閱小工具可提供您帳戶容量使用量的摘要。它包含與實體容量有關的容量使用率圖表。如需不同層級訂閱資料和使用資訊的詳細資訊、請參閱 <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>。</block>
-  <block id="31b9d852bd062a4549ad97725d279a03" category="doc">使用升級計畫升級 ONTAP 版本</block>
   <block id="05101a0f55d1824ea65fdd4aed3a0df5" category="paragraph">您可以檢視儲存系統的擱置升級、並使用升級計畫升級至較新版本的 ONTAP 。您也可以在 * 風險顧問 * 標籤中檢視風險清單、因為升級而減輕風險。</block>
   <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">在儀表板上的 * 升級顧問 * 小工具中、按一下動作數以檢視擱置的升級。</block>
   <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
@@ -1427,8 +1425,8 @@
   <block id="3cefe062f61e5f64624dd75eec82a381" category="inline-image-macro">顯示升級計畫報告狀態的螢幕擷取畫面</block>
   <block id="6f8fd13bf5cb0b5816478a43f298af9e" category="paragraph"><block ref="6f8fd13bf5cb0b5816478a43f298af9e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023 年 9 月 27 日</block>
-  <block id="ca6933ae0f261efa98f09526aba05bf1" category="paragraph">您可以使用存取預設報價表或儀表板的 Upgrade Advisor 頁面 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> 連結：如果您沒有預設的報價表或儀表板、按一下連結即可將您重新導向至「搜尋」頁面。</block>
-  <block id="9622c46ac664d07f743905654edd5f26" category="section-title">升級計畫</block>
-  <block id="bd3f220b24dc61548511364f320ec8ea" category="inline-link-macro">使用升級計畫升級 ONTAP 版本</block>
-  <block id="62418fbf78b58ba84b3c5a6987815772" category="paragraph">升級計畫已經過最佳化、可移除多餘的升級步驟、修改資訊和警告、並簡化回溯計畫。叢集中所有節點的一般步驟均已整合、並可在「一般資訊」區段下取得。若要檢視改善的計畫、請使用中所述的步驟來產生升級計畫 <block ref="90927e731c81adade70cb7e4c40b43bd" category="inline-link-macro-rx"></block>。</block>
+  <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">您可以使用存取預設報價表的 Upgrade Advisor 頁面 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> 連結：</block>
+  <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">瞭解如何產生及檢視升級計畫</block>
+  <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>。</block>
+  <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">永續性儀表板提供寶貴的見解、讓您深入瞭解儲存系統的環境永續性。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
 </blocks>

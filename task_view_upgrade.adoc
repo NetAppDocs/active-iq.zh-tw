@@ -4,7 +4,7 @@ permalink: task_view_upgrade.html
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
 summary: 提供資訊以檢視及升級ONTAP 儲存系統的版本。 
 ---
-= 使用升級計畫升級 ONTAP 版本
+= 升級ONTAP 儲存系統的版本
 :toc: macro
 :hardbreaks:
 :toclevels: 1
