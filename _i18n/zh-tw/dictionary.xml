@@ -964,7 +964,6 @@
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">分析儲存效能</block>
   <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">分析儲存系統的健全狀況</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">升級以最佳化安裝基礎</block>
-  <block id="1d6e1053c3a5ac9c901ad8624d357a85" category="sidebar">升級ONTAP 儲存系統的版本</block>
   <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">使用Ansible教戰手冊更新AFF 您的功能性和FAS 功能性的韌體</block>
   <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">安裝並執行AFF 不FAS 受限的Automation套件（經驗豐富的使用者）</block>
   <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">安裝並執行AFF 不FAS 受限的Automation套件（初學者）</block>
@@ -1179,7 +1178,6 @@
   <block id="c2b079f6f62fe899dec7b1a93823c546" category="list-text">檢查主機的相容性、並針對主機作業系統、驅動程式和提供升級建議。</block>
   <block id="daea2bcb0af4558719fc040fddad5b69" category="list-text">以更聰明、更快速的方式、準確達成您想要的目標。</block>
   <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">2023 年 6 月 21 日</block>
-  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">分析儲存系統的永續性</block>
   <block id="23c5744a4c274e51948ba5ceeb6db0f9" category="paragraph">* 為何我無法在 Digital Advisor 中找到某些系統？ *
 您可能因為下列其中一項原因而無法搜尋某些系統或在庫存頁面中檢視這些系統：</block>
   <block id="f2c1cd072b0801929f6eda1e5bff8545" category="list-text">系統在 SAP 中處於非使用中、歸檔或停用狀態。</block>
@@ -1402,22 +1400,13 @@
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">如果您已訂閱 NetApp Keystone STaaS 服務、您可以在數位顧問儀表板上檢視 Keystone Subscription 小工具。</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone與Digital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Keystone訂閱小工具可提供您帳戶容量使用量的摘要。它包含與實體容量有關的容量使用率圖表。如需不同層級訂閱資料和使用資訊的詳細資訊、請參閱 <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>。</block>
-  <block id="05101a0f55d1824ea65fdd4aed3a0df5" category="paragraph">您可以檢視儲存系統的擱置升級、並使用升級計畫升級至較新版本的 ONTAP 。您也可以在 * 風險顧問 * 標籤中檢視風險清單、因為升級而減輕風險。</block>
   <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">在儀表板上的 * 升級顧問 * 小工具中、按一下動作數以檢視擱置的升級。</block>
   <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">選取所需的升級選項。</block>
   <block id="63134457816850025801f96a7797e55c" category="paragraph"><block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="21161aff1728668cb5f36b56c240c89c" category="list-text">按一下所選升級選項中的相容系統數量、前往「 * 升級詳細資料 * 」頁面以產生升級計畫。</block>
   <block id="04306a8a1debf79f0ac04ae6415d891b" category="paragraph"><block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">風險顧問標籤</block>
-  <block id="0520934f7f277be53d0e5af988901e83" category="list-text">您可以移至 * 風險顧問 * 標籤、檢視風險清單及其嚴重性等級、因為升級而減輕風險。
-  +
-<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="10df3b7bc0d299d1789736d691e0d81b" category="list-text">如果所選的升級選項包括 * 總風險 * 、您可以按一下總風險數、在 * 風險顧問 * 標籤中檢視風險清單。</block>
   <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">總風險</block>
   <block id="545606e93056e8efc230dfc45f3dffd2" category="paragraph"><block ref="545606e93056e8efc230dfc45f3dffd2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0d3a6c12cad96c6c84d2e06211666b7a" category="list-text">在 * 升級顧問 * 標籤中、按一下 * 產生升級計畫 * 。</block>
-  <block id="ee86a97709cbf5c06d97b73c231dde60" category="list-text">在顯示的快顯視窗中提供詳細資料。您也可以選取 * 恢復計畫 * 核取方塊、將退出計畫納入升級計畫報告中。</block>
   <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">快顯視窗可填入詳細資料、以提交產生升級計畫的要求</block>
   <block id="d9884ccdf942ab0c8a261c9bf340eefe" category="paragraph"><block ref="d9884ccdf942ab0c8a261c9bf340eefe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5d97ab11aa1e9f44020218850b335941" category="list-text">前往 * 報告 * 。您可以監控升級計畫的狀態、並在可用時下載。</block>
@@ -1429,4 +1418,17 @@
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">瞭解如何產生及檢視升級計畫</block>
   <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>。</block>
   <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">永續性儀表板提供寶貴的見解、讓您深入瞭解儲存系統的環境永續性。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
+  <block id="cdb49ecd8a62ade62c327a64e1695566" category="doc">升級儲存系統的 ONTAP 版本</block>
+  <block id="0311d8be615519ede7fdf56e28c4e87a" category="paragraph">您可以使用 Upgrade Advisor 來檢視建議的升級、並為您的儲存系統建立升級計畫。您可以在與儲存系統相關的風險顧問標籤中檢視風險清單、並在將儲存系統升級至較新版本的 ONTAP 時減輕這些風險。</block>
+  <block id="a51f3b59b1e2e55eb492198c5498a7bf" category="list-text">選擇升級選項。</block>
+  <block id="fd23e666b2cc48f70922dc0a25bed60d" category="list-text">按一下相容系統的數量以產生升級計畫。
+此時將顯示 * 升級詳細資料 * 頁面。</block>
+  <block id="075d151109499e2e30fc7ffd634ce560" category="list-text">您可以前往 * 風險顧問 * 標籤、檢視風險清單及其嚴重性等級。
+  +
+<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f4e13f16e7fba0f60794942036b0d5b3" category="list-text">如果升級選項包括 * 總風險 * 、您可以按一下總風險數、在 * 風險顧問 * 標籤中檢視風險清單。</block>
+  <block id="ace70623d17cb73b373d377d0c453895" category="list-text">在 * 升級顧問 * 標籤中、選取要升級的系統。</block>
+  <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">按一下 * 產生升級計畫 * 。</block>
+  <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">在顯示的快顯視窗中提供詳細資料。您也可以選取 * 恢復計畫 * 核取方塊、將退出計畫納入升級計畫中。</block>
+  <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">分析儲存系統的永續性</block>
 </blocks>
