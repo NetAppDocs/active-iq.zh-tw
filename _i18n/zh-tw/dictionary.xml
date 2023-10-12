@@ -1103,7 +1103,6 @@
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">數位顧問Web入口網站</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">數位顧問影片</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp社群–數位顧問</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">根據雲端建議做出明智決策</block>
   <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">您應該下載並儲存存取權杖和重新整理權杖、以供日後使用。存取權杖一經產生即過期一小時、更新權杖應每7天手動重新產生一次、並安裝在應用程式中。若要這麼做、您不需要登入應用程式。不過、90天後、您需要登入應用程式、才能取得新的存取權杖和重新整理權杖。</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">組態偏移範本中的屬性是可編輯的、下列範本群組支援某些區段的規則運算式：</block>
@@ -1431,4 +1430,7 @@
   <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">按一下 * 產生升級計畫 * 。</block>
   <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">在顯示的快顯視窗中提供詳細資料。您也可以選取 * 恢復計畫 * 核取方塊、將退出計畫納入升級計畫中。</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">分析儲存系統的永續性</block>
+  <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023 年 10 月 4 日</block>
+  <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">規劃 Widget</block>
+  <block id="cf75b31aeb339e309fa309a49a276a28" category="paragraph">「技術更新建議」計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。</block>
 </blocks>
