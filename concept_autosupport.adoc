@@ -4,7 +4,7 @@ permalink: concept_autosupport.html
 keywords: AutoSupport 
 summary: 提供AutoSupport 關於功能的概述。 
 ---
-= AutoSupport
+= 什麼AutoSupport 是呢
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -35,10 +35,10 @@ NOTE: 不含任何使用者資料。AutoSupport
 
 如需AutoSupport 更多關於效益的資訊、請參閱適當的文件：
 
-* link:https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/GUID-DF931E89-B833-4DED-83B5-A97F7EC97425.html["不適用的ONTAP FAS AFF"^]
-* link:https://docs.netapp.com/sgws-114/topic/com.netapp.doc.sg-primer/GUID-7D38684D-1CA1-41E7-BE68-A5F671F9C33F.html["StorageGRID"^]
-* link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/E-Series_SANtricity_Software_Suite/How_to_enable_AutoSupport_on_E-Series_System_Manager["（E系列和EF系列）SANtricity"^]
-* link:https://help.monitoring.solidfire.com/#01_User%20Guide/ActiveIQ/Getting%20Started/enable_active_iq_reporting.htm["元素NetApp HCI （支援功能）SolidFire"^]
+* link:https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html["不適用的ONTAP FAS AFF"^]
+* link:https://docs.netapp.com/us-en/storagegrid-117/admin/what-is-autosupport.html["StorageGRID"^]
+* link:https://docs.netapp.com/us-en/e-series-santricity/sm-support/autosupport-feature-overview.html["（E系列和EF系列）SANtricity"^]
+* link:https://docs.netapp.com/us-en/solidfire-active-iq/concept-active-iq-learn-about-active-iq.html["元素NetApp HCI （支援功能）SolidFire"^]
 * link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444pdf.pdf["技術報告ONTAP AutoSupport -根據AutoSupport 需求提供支援"^]
 * link:https://www.netapp.com/pdf.html?item=/media/10439-tr4688pdf.pdf["技術報告- NetApp遙測資料的安全性與隱私權"^]
 

@@ -948,7 +948,6 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速入門</block>
-  <block id="e179ba0b158b2a7f9047aea26b6a2227" category="sidebar">瞭解AutoSupport</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">資源配置觀察清單</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">總覽</block>
   <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">檢視Active IQ Unified Manager 可透過《不經認證的戰術》或《可執行的戰術》來自動減輕的風險</block>
@@ -1202,10 +1201,6 @@
   <block id="425f3e0f4d6e9e92e654e9ba5e993d54" category="paragraph">您必須擁有有效NetApp 支援網站 的資訊提供憑證、才能登入Digital Advisor。如果您沒有帳戶且正在開始使用、請繼續執行 <block ref="6e6f0f52d614dd0ec77faf300e34ad53" category="inline-link-macro-rx"></block>。</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">前往 <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> 登入頁面。</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">對於支援靜態系統、當您第一次設定儲存系統時、預設會啟用此功能。ONTAP AutoSupport您應該 <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> 可控制將資訊傳送至技術支援部門和內部支援組織的方式。ONTAP AutoSupport</block>
-  <block id="c69712b80ef7bcc235093f9221047c47" category="list-text"><block ref="c69712b80ef7bcc235093f9221047c47" category="inline-link-macro-rx"></block></block>
-  <block id="0ecea5b3f45d0b317fc17c67ecadeec6" category="list-text"><block ref="0ecea5b3f45d0b317fc17c67ecadeec6" category="inline-link-macro-rx"></block></block>
-  <block id="2c4b22e05e691d4ce96f7b4e3c02df4c" category="list-text"><block ref="2c4b22e05e691d4ce96f7b4e3c02df4c" category="inline-link-macro-rx"></block></block>
-  <block id="cbf41252f5082da209304e5ca48c34d8" category="list-text"><block ref="cbf41252f5082da209304e5ca48c34d8" category="inline-link-macro-rx"></block></block>
   <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
   <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
   <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">如需FabricPool 深入瞭解有關資訊、請參閱 <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>。</block>
@@ -1433,4 +1428,9 @@
   <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023 年 10 月 4 日</block>
   <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">規劃 Widget</block>
   <block id="cf75b31aeb339e309fa309a49a276a28" category="paragraph">「技術更新建議」計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。</block>
+  <block id="0f39f4240371d8ece7d1695a2c16fc9b" category="doc">什麼AutoSupport 是呢</block>
+  <block id="da0ad1a41b699c5a3226f922417a0037" category="list-text"><block ref="da0ad1a41b699c5a3226f922417a0037" category="inline-link-macro-rx"></block></block>
+  <block id="f1882284408a9b189100dc3da835bb13" category="list-text"><block ref="f1882284408a9b189100dc3da835bb13" category="inline-link-macro-rx"></block></block>
+  <block id="f4547f31c09ed6f71cd2e94db143fffd" category="list-text"><block ref="f4547f31c09ed6f71cd2e94db143fffd" category="inline-link-macro-rx"></block></block>
+  <block id="4f0ba3197c25744bb644bb7e83a43b5f" category="list-text"><block ref="4f0ba3197c25744bb644bb7e83a43b5f" category="inline-link-macro-rx"></block></block>
 </blocks>
