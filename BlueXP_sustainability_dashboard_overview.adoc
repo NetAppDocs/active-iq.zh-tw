@@ -53,5 +53,5 @@ image:carbon_mitigation_percentage.png["螢幕擷取畫面顯示網站的碳排�
 +
 image:working_environments.png["顯示各種環境參數的 UI 螢幕擷取畫面"]
 
-* 從 * 即時電力 * 控制欄啟用監控、以檢視叢集層級的即時電力詳細資料。如需詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
+* 從「 * 即時電源 * 」欄啟用監控、以檢視叢集層級的即時電源詳細資料。如需詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
 

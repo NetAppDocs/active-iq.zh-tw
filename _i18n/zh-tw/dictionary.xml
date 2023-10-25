@@ -1231,7 +1231,6 @@
   <block id="d349bd444ea7cf19afb8883ebd796f29" category="list-text">檢視叢集層級的永續性分數、選取要存取的叢集名稱 * ClusterViewer* 、採取特定的建議行動來改善永續性。如需詳細資訊、請參閱 <block ref="7b74333fc84c714028dfd344685516f9" category="inline-link-macro-rx"></block>。</block>
   <block id="79999a4ecf711f396250420972b3f656" category="inline-image-macro">顯示各種環境參數的 UI 螢幕擷取畫面</block>
   <block id="bdd2426c4d2109338fe18a123768ecdc" category="paragraph"><block ref="bdd2426c4d2109338fe18a123768ecdc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="98d36b90b00384720ce8e3798f4a3272" category="list-text">從 * 即時電力 * 控制欄啟用監控、以檢視叢集層級的即時電力詳細資料。如需詳細資訊、請參閱 <block ref="0287186bd1777b27f244433b8d45ea17" category="inline-link-macro-rx"></block>。</block>
   <block id="a2f1182a601b743128d6828388ae0858" category="summary">透過建議的行動、提供改善永續性分數的步驟。</block>
   <block id="2918acdc5a483d34499fea5cbd269851" category="paragraph">永續性儀表板會產生建議的動作、供您用來改善永續性分數。您可以從 NetApp BlueXP 或數位顧問檢視及實作這些建議動作。</block>
   <block id="3b3aba76e199225196725fa3238e318d" category="paragraph">您可以改善整體永續性分數和叢集層級的永續性分數。</block>
@@ -1270,7 +1269,6 @@
   <block id="9a9d1fcb0fc2ed3c19b9209c78b11654" category="doc">瞭解永續發展</block>
   <block id="65d0a6b734949784b0887407ba3ca70d" category="inline-link-macro">開始使用 Sustainability 儀表板</block>
   <block id="86d85c8f18d99b8b865f7c6d94244def" category="paragraph">您可以使用 Sustainability 儀表板來達成您的環境目標。您可以從永續性儀表板檢視永續性分數、以及電力、直接碳和熱能的預計使用量。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估永續性態勢、並實作 NetApp 建議的行動以改善分數。若要深入瞭解 Sustainability 儀表板、請前往 <block ref="58051d8d22ef1ef0b0d8fdd8d18af919" category="inline-link-macro-rx"></block>。</block>
-  <block id="f67d206ceec6ff2653a6e38ab8d320cf" category="admonition">AFF 系統支援永續性、包括 A 系列和 C 系列、 FAS 系統和 Cloud Volumes ONTAP （ CVO ）。</block>
   <block id="7e173a40533251b9a026b06b164f28ae" category="section-title">永續發展的效益</block>
   <block id="ebfae6189a060b9e62c9f5fecbd6516a" category="paragraph">永續發展可帶來下列效益：</block>
   <block id="1fb360f9d6a57ed97d8536894f3f8efd" category="list-text">減少儲存設備的數量以儲存相同數量的資料、藉此加速效能。</block>
@@ -1433,4 +1431,6 @@
   <block id="f1882284408a9b189100dc3da835bb13" category="list-text"><block ref="f1882284408a9b189100dc3da835bb13" category="inline-link-macro-rx"></block></block>
   <block id="f4547f31c09ed6f71cd2e94db143fffd" category="list-text"><block ref="f4547f31c09ed6f71cd2e94db143fffd" category="inline-link-macro-rx"></block></block>
   <block id="4f0ba3197c25744bb644bb7e83a43b5f" category="list-text"><block ref="4f0ba3197c25744bb644bb7e83a43b5f" category="inline-link-macro-rx"></block></block>
+  <block id="dc52fcbf0f80ad7cfad9b3efcbd2df3d" category="list-text">從「 * 即時電源 * 」欄啟用監控、以檢視叢集層級的即時電源詳細資料。如需詳細資訊、請參閱 <block ref="0287186bd1777b27f244433b8d45ea17" category="inline-link-macro-rx"></block>。</block>
+  <block id="17ee9449f19b1975afdae38c7db7d001" category="admonition">AFF 系統支援永續性、包括 A 系列和 C 系列、 FAS 系統和 Cloud Volumes ONTAP （ CVO ）。</block>
 </blocks>
