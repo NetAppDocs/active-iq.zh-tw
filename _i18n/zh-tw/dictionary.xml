@@ -1425,7 +1425,6 @@
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">分析儲存系統的永續性</block>
   <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023 年 10 月 4 日</block>
   <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">規劃 Widget</block>
-  <block id="cf75b31aeb339e309fa309a49a276a28" category="paragraph">「技術更新建議」計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。</block>
   <block id="0f39f4240371d8ece7d1695a2c16fc9b" category="doc">什麼AutoSupport 是呢</block>
   <block id="da0ad1a41b699c5a3226f922417a0037" category="list-text"><block ref="da0ad1a41b699c5a3226f922417a0037" category="inline-link-macro-rx"></block></block>
   <block id="f1882284408a9b189100dc3da835bb13" category="list-text"><block ref="f1882284408a9b189100dc3da835bb13" category="inline-link-macro-rx"></block></block>
@@ -1433,4 +1432,9 @@
   <block id="4f0ba3197c25744bb644bb7e83a43b5f" category="list-text"><block ref="4f0ba3197c25744bb644bb7e83a43b5f" category="inline-link-macro-rx"></block></block>
   <block id="dc52fcbf0f80ad7cfad9b3efcbd2df3d" category="list-text">從「 * 即時電源 * 」欄啟用監控、以檢視叢集層級的即時電源詳細資料。如需詳細資訊、請參閱 <block ref="0287186bd1777b27f244433b8d45ea17" category="inline-link-macro-rx"></block>。</block>
   <block id="17ee9449f19b1975afdae38c7db7d001" category="admonition">AFF 系統支援永續性、包括 A 系列和 C 系列、 FAS 系統和 Cloud Volumes ONTAP （ CVO ）。</block>
+  <block id="20cc757c4cb0c9b6153ae0f56705ae36" category="section-title">2023 年 11 月 16 日</block>
+  <block id="20015eaa9dc8feb8cbf1eaadb95c6b20" category="paragraph">現在您最多可以建立 100 個觀察名單。</block>
+  <block id="752f0c78427b5fffe498798d609a58a7" category="list-text">技術更新建議現在可在觀察清單、網站和群組儀表板中找到。</block>
+  <block id="5abb66a3f2a4a3a5e6083eb0e9cb8016" category="list-text">當技術更新建議數量為零時、您現在可以檢視潛在的技術更新候選項目。</block>
+  <block id="bd644bc36e5d6955b3d49189c83c45f3" category="paragraph">技術更新建議計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。</block>
 </blocks>
