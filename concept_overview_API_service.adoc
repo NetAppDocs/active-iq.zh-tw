@@ -5,17 +5,14 @@ keywords: API services, access token, refresh token, API Catalog
 summary: 提供API服務功能的總覽。 
 ---
 = 瞭解API服務
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

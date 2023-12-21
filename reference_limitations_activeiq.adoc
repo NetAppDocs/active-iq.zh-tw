@@ -5,17 +5,14 @@ keywords: limitation, issues, not supported, drawbacks
 summary: 提供版本限制的相關資訊。 
 ---
 = 已知限制
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

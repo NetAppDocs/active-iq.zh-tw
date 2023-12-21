@@ -5,17 +5,14 @@ keywords: reports, report types, reporting, performance reports
 summary: 提供使用者可用之不同類型報告的相關資訊。 
 ---
 = 報告類型
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

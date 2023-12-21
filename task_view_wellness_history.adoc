@@ -5,17 +5,14 @@ keywords: wellness history, risks, wellness, view all actions, risk history,
 summary: 提供系統風險及如何檢視健康記錄的相關資訊。 
 ---
 = 檢視健康歷史
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

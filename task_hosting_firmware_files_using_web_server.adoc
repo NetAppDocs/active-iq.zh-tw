@@ -5,17 +5,14 @@ keywords: firmware, web server, hosting
 summary: 提供使用Web伺服器代管韌體檔案的相關資訊。 
 ---
 = 使用Web伺服器來裝載韌體檔案
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

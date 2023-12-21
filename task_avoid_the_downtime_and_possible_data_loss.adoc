@@ -5,17 +5,14 @@ keywords: downtime, data loss, avoid downtime, avoid data loss
 summary: 提供如何避免停機和可能的資料遺失的相關資訊。 
 ---
 = 避免停機和可能的資料遺失
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

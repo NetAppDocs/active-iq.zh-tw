@@ -5,17 +5,14 @@ keywords: renew, renewals, support contracts, support & entitlements, active sup
 summary: 提供如何續約系統支援合約的相關資訊。 
 ---
 = 續約您的支援合約
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

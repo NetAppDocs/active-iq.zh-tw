@@ -5,17 +5,14 @@ keywords: reports, generate reports
 summary: 提供產生報告的資訊。 
 ---
 = 產生報告
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

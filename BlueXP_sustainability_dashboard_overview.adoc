@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, sustainability score, sustainabili
 summary: 提供儀表板、永續性分數、工作環境及建議行動的相關資訊。 
 ---
 = 永續性儀表板總覽
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
@@ -24,7 +21,7 @@ summary: 提供儀表板、永續性分數、工作環境及建議行動的相�
 image:get_started_sustainability_dashboard.png["顯示永續性儀表板的 UI 螢幕擷取畫面。"]
 
 
-NOTE: 若要從儀表板取得最佳結果、您必須啟用 AutoSupport 。如果未啟用 AutoSupport 、資料將會根據產品規格而定。若要取得即時電力詳細資料、您需要啟用 Cloud Insights 。如需如何啟用 Cloud Insights 的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
+NOTE: 應啟用 AutoSupport 以準確計算永續性分數。
 
 * 永續性分數 * ：顯示代表儲存系統環境永續性的總分數。您可以根據下列範圍評估儲存系統的永續性層級：
 

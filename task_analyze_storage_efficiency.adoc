@@ -5,17 +5,14 @@ keywords: renew, hardware, software
 summary: 提供更新儲存系統軟體與硬體的資訊。 
 ---
 = 分析容量與儲存效率節約效益
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

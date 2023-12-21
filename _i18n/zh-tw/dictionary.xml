@@ -1232,9 +1232,6 @@
   <block id="79999a4ecf711f396250420972b3f656" category="inline-image-macro">顯示各種環境參數的 UI 螢幕擷取畫面</block>
   <block id="bdd2426c4d2109338fe18a123768ecdc" category="paragraph"><block ref="bdd2426c4d2109338fe18a123768ecdc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a2f1182a601b743128d6828388ae0858" category="summary">透過建議的行動、提供改善永續性分數的步驟。</block>
-  <block id="2918acdc5a483d34499fea5cbd269851" category="paragraph">永續性儀表板會產生建議的動作、供您用來改善永續性分數。您可以從 NetApp BlueXP 或數位顧問檢視及實作這些建議動作。</block>
-  <block id="3b3aba76e199225196725fa3238e318d" category="paragraph">您可以改善整體永續性分數和叢集層級的永續性分數。</block>
-  <block id="5fc7b06711ac7bb637c8eec226c1f5ac" category="admonition">必須啟用 AutoSupport 才能計算整體永續性分數和叢集層級的永續性分數。</block>
   <block id="f80ed0bec4d5369f6f27677cc8e21f1a" category="section-title">改善整體永續性分數</block>
   <block id="ba18ca93ca864ea5d718c8e7333965be" category="paragraph">您可以遵循下列步驟來改善整體永續性分數、並將重點放在公司層級的永續性努力上：</block>
   <block id="3774cb32c82786aa28930cf523223326" category="list-text">請從 BlueXP 左側導覽中的 * Governance * 類別移至 * Sustainability * 。</block>
@@ -1267,18 +1264,13 @@
   <block id="a2bb032a03a021fbba597fa619f46950" category="admonition">您可以使用新增或移除 * 工作環境 * 表格中的環境參數 <block ref="2152c38f4a2771e87024e1e087a05f24" category="inline-image-macro-rx" type="image"></block> 圖示、並可使用以逗號分隔的值（ .csv ）格式匯出此表格 <block ref="12f258362dcb80dcb781736a1d5e0dbf" category="inline-image-macro-rx" type="image"></block> 圖示。</block>
   <block id="df99fff5ad47295f7f49e20f556653f3" category="summary">提供永續發展的相關資訊、可讓您減少能源消耗、並協助您達成環保目標。</block>
   <block id="9a9d1fcb0fc2ed3c19b9209c78b11654" category="doc">瞭解永續發展</block>
-  <block id="65d0a6b734949784b0887407ba3ca70d" category="inline-link-macro">開始使用 Sustainability 儀表板</block>
-  <block id="86d85c8f18d99b8b865f7c6d94244def" category="paragraph">您可以使用 Sustainability 儀表板來達成您的環境目標。您可以從永續性儀表板檢視永續性分數、以及電力、直接碳和熱能的預計使用量。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估永續性態勢、並實作 NetApp 建議的行動以改善分數。若要深入瞭解 Sustainability 儀表板、請前往 <block ref="58051d8d22ef1ef0b0d8fdd8d18af919" category="inline-link-macro-rx"></block>。</block>
   <block id="7e173a40533251b9a026b06b164f28ae" category="section-title">永續發展的效益</block>
   <block id="ebfae6189a060b9e62c9f5fecbd6516a" category="paragraph">永續發展可帶來下列效益：</block>
   <block id="1fb360f9d6a57ed97d8536894f3f8efd" category="list-text">減少儲存設備的數量以儲存相同數量的資料、藉此加速效能。</block>
   <block id="b45ed6948b37af462ee5cdb424cfb29a" category="list-text">透過最佳化儲存系統使用率來降低儲存成本。</block>
   <block id="7deccfb8ccadeec05840091d0f6dcace" category="list-text">在資料中心使用可再生能源、減少碳足跡。</block>
   <block id="ee7f876e33250c3bf3bd06dad6065dba" category="list-text">透過執行節能原則來改善能源效率。</block>
-  <block id="17c309cd3ef85e53fa45c90d78949975" category="section-title">成本與授權</block>
-  <block id="e0943fe441310282662d063a6725f72b" category="paragraph">如果您已為系統啟用 AutoSupport 、則可透過有效的支援合約來存取永續性服務。</block>
   <block id="e3d549bf2a651737a2f9dec61a7bca5d" category="summary">從 BlueXP 或 Digital Advisor 中存取 BlueXP 永續性儀表板開始使用。</block>
-  <block id="f4a94060e4d3713508345bb3a954caf3" category="paragraph">永續性儀表板提供啟用 AIOps 的報告和評分功能、並提供可據以行動的洞見、以改善您的永續性狀態。您可以使用 NetApp BlueXP 或數位顧問來檢視 Sustainability 儀表板。</block>
   <block id="69613a6744dc452d818ae93a3ca6e67e" category="inline-link-macro">登入 BlueXP</block>
   <block id="102ef687d04ae33c5b12822aef7fb5a9" category="paragraph">若要登入BlueXP、您可以使用NetApp 支援網站 您的不實證資料、也可以使用電子郵件和密碼註冊NetApp雲端登入。深入瞭解 <block ref="f004bb99255f2fe182e7d54b421131c5" category="inline-link-macro-rx"></block>。</block>
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP主控台</block>
@@ -1437,4 +1429,10 @@
   <block id="752f0c78427b5fffe498798d609a58a7" category="list-text">技術更新建議現在可在觀察清單、網站和群組儀表板中找到。</block>
   <block id="5abb66a3f2a4a3a5e6083eb0e9cb8016" category="list-text">當技術更新建議數量為零時、您現在可以檢視潛在的技術更新候選項目。</block>
   <block id="bd644bc36e5d6955b3d49189c83c45f3" category="paragraph">技術更新建議計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。</block>
+  <block id="4a33ef12db92e241992049db5250349e" category="paragraph">永續性儀表板提供建議的行動、可讓您實作以改善整體永續性分數和叢集層級的永續性分數。</block>
+  <block id="c9a394b5403b3d38eaa06673b8c9050b" category="paragraph">您可以使用 Sustainability 儀表板來檢視永續性分數、以及可持續性儀表板的電力、直接碳和熱能的預計使用量。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估永續性態勢、並實作 NetApp 建議的行動以改善分數。若要深入瞭解 Sustainability 儀表板、請前往 <block ref="53113380bf04c6731431f3e5ed0db598" category="inline-link-macro-rx"></block>。</block>
+  <block id="5e5fa64fce688126dbdf2ee76a2a88dc" category="paragraph">您可以觀看下列影片、瞭解 Sustainability 儀表板：</block>
+  <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">應啟用 AutoSupport 以準確計算永續性分數。</block>
+  <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">存取 Sustainability 儀表板</block>
+  <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">永續性儀表板提供啟用 AIOps 的報告和評分功能、並提供可據以行動的洞見、以改善您的永續性狀態。您可以透過 NetApp BlueXP 或數位顧問來存取 Sustainability 儀表板。</block>
 </blocks>

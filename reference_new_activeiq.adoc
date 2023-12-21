@@ -5,17 +5,14 @@ keywords: 'what"s new, features, new'
 summary: 提供版本新功能的相關資訊。 
 ---
 = 數位顧問的新功能
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

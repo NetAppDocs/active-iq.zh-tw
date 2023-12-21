@@ -5,17 +5,14 @@ keywords: config drift, configuration deviation, add template, compare template
 summary: 提供組態飄移功能的總覽 
 ---
 = 瞭解組態偏差
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

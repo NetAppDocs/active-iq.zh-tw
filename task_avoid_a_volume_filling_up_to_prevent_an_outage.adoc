@@ -5,17 +5,14 @@ keywords: volume filling up, prevent an outage
 summary: 提供如何避免磁碟區滿量以避免中斷運作的相關資訊。 
 ---
 = 避免大量佔用、以避免中斷運作
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

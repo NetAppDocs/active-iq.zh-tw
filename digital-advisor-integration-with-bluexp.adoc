@@ -5,17 +5,14 @@ keywords: digital advisor, integration, bluexp
 summary: 數位顧問（前身Active IQ Digital Advisor 為《》）現已與BlueXP完全整合。您現在可以從BlueXP使用者介面（UI）管理叢集、並存取Digital Advisor的所有功能。 
 ---
 = 數位顧問與BlueXP整合
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,26 +5,21 @@ keywords: activeiq, sustainability dashboard, recommended actions, digital advis
 summary: 透過建議的行動、提供改善永續性分數的步驟。 
 ---
 = 改善永續性分數
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
-永續性儀表板會產生建議的動作、供您用來改善永續性分數。您可以從 NetApp BlueXP 或數位顧問檢視及實作這些建議動作。
-
-您可以改善整體永續性分數和叢集層級的永續性分數。
+永續性儀表板提供建議的行動、可讓您實作以改善整體永續性分數和叢集層級的永續性分數。
 
 
-NOTE: 必須啟用 AutoSupport 才能計算整體永續性分數和叢集層級的永續性分數。
+NOTE: 若要從儀表板取得最佳結果、您必須啟用 AutoSupport 。如果未啟用 AutoSupport 、資料將會根據產品規格而定。若要取得即時電力詳細資料、您需要啟用 Cloud Insights 。如需如何啟用 Cloud Insights 的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
 
 
 

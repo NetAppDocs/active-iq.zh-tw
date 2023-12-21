@@ -4,22 +4,19 @@ permalink: get_started_sustainability_dashboard.html
 keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
 summary: 從 BlueXP 或 Digital Advisor 中存取 BlueXP 永續性儀表板開始使用。 
 ---
-= 開始使用 Sustainability 儀表板
-:toc: macro
+= 存取 Sustainability 儀表板
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
-永續性儀表板提供啟用 AIOps 的報告和評分功能、並提供可據以行動的洞見、以改善您的永續性狀態。您可以使用 NetApp BlueXP 或數位顧問來檢視 Sustainability 儀表板。
+永續性儀表板提供啟用 AIOps 的報告和評分功能、並提供可據以行動的洞見、以改善您的永續性狀態。您可以透過 NetApp BlueXP 或數位顧問來存取 Sustainability 儀表板。
 
 [role="tabbed-block"]
 ====

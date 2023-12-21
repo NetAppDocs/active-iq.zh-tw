@@ -5,17 +5,14 @@ keywords: keystone, capacity utilization, service tiers, Keystone subscription, 
 summary: 提供NetApp Keystone 有關容量使用率的資訊、請參閱「用作支援」。 
 ---
 = 透過NetApp Keystone 「View訂閱」檢視容量使用率
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

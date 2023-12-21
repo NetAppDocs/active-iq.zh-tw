@@ -5,17 +5,14 @@ keywords: update, AFF, FAS firmware, firmware
 summary: 提供如何更新AFF 支援功能及FAS 更新功能的資訊。 
 ---
 = 下載AFF 《Ansible FAS Automation套件》的《更新與更新》韌體
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: Cloud Insights, VMs, virtual machines
 summary: 提供Cloud Insights 有關VMware中虛擬機器的資訊 
 ---
 = 與Cloud Insights VMware整合以檢視虛擬機器詳細資料
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

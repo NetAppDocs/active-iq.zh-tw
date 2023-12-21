@@ -5,17 +5,14 @@ keywords: validate, firmware, firmware installation
 summary: 提供如何驗證韌體安裝的資訊。 
 ---
 = 驗證韌體安裝
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

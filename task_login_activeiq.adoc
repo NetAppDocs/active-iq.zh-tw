@@ -5,17 +5,14 @@ keywords: login, log in
 summary: 提供登入數位顧問的資訊。 
 ---
 = 登入Digital Advisor
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

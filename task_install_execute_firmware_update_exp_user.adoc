@@ -5,17 +5,14 @@ keywords: install, execute, firmware update, Ansible Playbook, ansible, playbook
 summary: 提供如何使用Ansible教戰手冊安裝及執行韌體更新的資訊。 
 ---
 = 安裝及執行AFF 功能不受FAS 限的自動化套件（經驗豐富的使用者）
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: Ansible Playbook, Ansible, playbook, without docker
 summary: 提供如何使用Docker映像執行「可執行教戰手冊」的相關資訊。 
 ---
 = 執行不含NetApp Docker映像的可執行教戰手冊
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 .步驟

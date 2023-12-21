@@ -5,17 +5,14 @@ keywords: faq, frequently asked questions, non-technical, non-technical case, in
 summary: 如果您只是想要快速回答問題、這個常見問題集就能幫上忙。 
 ---
 = 數位顧問的常見問題集
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

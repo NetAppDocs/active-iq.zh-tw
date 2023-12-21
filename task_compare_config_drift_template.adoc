@@ -5,17 +5,14 @@ keywords: config deviation, drift, configuration, compare template
 summary: 提供比較組態偏移範本的資訊。 
 ---
 = 比較組態偏移範本
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

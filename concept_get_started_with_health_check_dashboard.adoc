@@ -5,17 +5,14 @@ keywords: activeiq, health check, health, HCA, health check dashboard, autosuppo
 summary: 提供儀表板、健全狀況分數、功能和小工具的相關資訊。 
 ---
 = 健全狀況檢查儀表板入門
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

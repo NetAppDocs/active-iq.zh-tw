@@ -5,17 +5,14 @@ keywords: ransomware, risks, ransomware risks
 summary:  
 ---
 = 保護系統免受勒索軟體風險的侵害
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

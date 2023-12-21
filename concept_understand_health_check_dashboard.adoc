@@ -5,17 +5,14 @@ keywords: activeiq, health check, health, HCA, health check dashboard, health ch
 summary: 提供資訊、讓您熟悉「狀況檢查儀表板」。 
 ---
 = 瞭解健全狀況檢查儀表板
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

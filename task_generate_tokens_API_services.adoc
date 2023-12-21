@@ -5,17 +5,14 @@ keywords: generate token, access token, refresh token, API services
 summary: 提供如何產生權杖以存取API的相關資訊。 
 ---
 = 產生權杖以使用API
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

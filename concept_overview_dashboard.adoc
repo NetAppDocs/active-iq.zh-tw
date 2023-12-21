@@ -5,17 +5,14 @@ keywords: overview, provision, dashboard, widget, watchlist
 summary: 提供儀表板、觀察清單和小工具的相關資訊。 
 ---
 = 瞭解觀察名單
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

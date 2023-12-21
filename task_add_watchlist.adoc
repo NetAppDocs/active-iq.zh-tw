@@ -5,17 +5,14 @@ keywords: dashboard, watchlist, add watchlist
 summary: 提供資訊以將觀察清單新增至儀表板。 
 ---
 = 建立觀察名單
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
