@@ -1,0 +1,128 @@
+---
+sidebar: sidebar 
+permalink: generate_upgrade_plan_single_multiple_clusters.html 
+keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters 
+summary: 提供步驟、為單一叢集和多個叢集成功進行 ONTAP 升級或還原而產生升級計畫。 
+---
+= 為單一叢集和多個叢集產生升級計畫
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以使用 Upgrade Advisor 來檢視符合升級資格或不符合升級資格的叢集清單。您可以檢視合格叢集的升級建議、並產生升級計畫。您可以修正不合格叢集的問題、使其符合升級資格。
+
+您可以依照下列步驟、為單一叢集和多個叢集產生升級計畫：
+
+[role="tabbed-block"]
+====
+.單一叢集
+--
+. 在儀表板上、按一下 * 升級顧問 * Widget 中的叢集數。
++
+image:ua_widget.png["顯示叢集數量的螢幕擷取畫面。"]
+
++
+此時將出現 *Upgrade Advisor ONTAP 頁面。
+
+. 驗證 * 增強型升級顧問 * 切換是否已啟用。
++
+image:r_enhanced_ua_toggle.png["顯示增強升級建議程式切換的螢幕擷取畫面已開啟。"]
+
++
+您可以檢視符合資格且不符合資格的叢集清單、以進行升級。
+
+. 選擇要升級的叢集。
+「 * 目標作業系統版本 * 」欄會顯示建議的目標作業系統版本。您可以按一下 image:edit_icon.png["編輯按鈕的影像"] 圖示、選擇叢集的其他目標作業系統版本。
++
+image:r_ua_select_target_OS_version_single_cluster.png["顯示如何選取目標版本的映像。"]
+
++
+** 您可以按一下 * 節點 * 欄中的節點數、以查看叢集的節點摘要。
+** 您可以按一下 * 建議的動作 * 欄中的 * 解決問題 * 來修正不合格叢集的問題、使其符合升級資格。
+ +
+image:r_ua_resolve_issue.png["顯示問題類型及修正所需解決方案的影像。"]
+
+
+. 按一下 * 產生升級計畫 * 。
+系統會將您重新導向至 * 升級建議 * 頁面。
+. 在 * 升級建議 * 頁面上、您可以透過 * 風險顧問 * 標籤、檢視與叢集相關的風險詳細資料。您可以透過「 * 升級前檢查 * 」標籤來檢視升級封鎖程式、升級警告和必要的行動、以及與所選目標作業系統版本相關的新功能和增強功能的相關資訊、請參閱「 * 增強和更新的 ONTAP 功能 * 」標籤。
++
+image:r_ua_upgrade_recommendation_page.png["顯示升級建議頁面整體檢視的螢幕擷取畫面。"]
+
++
+** 您可以選取其他目標作業系統版本、並檢視風險摘要、升級前檢查報告、以及與該目標作業系統版本相關的新功能和增強功能資訊。
+** 您可以按一下 image:ua_export_icon.png["匯出按鈕"] 將風險摘要匯出至 Excel 工作表的圖示。
+
+
+. 從 * 升級建議 * 頁面按一下 * 產生升級計畫 * 。
+. 在顯示的快顯視窗中提供詳細資料。
+  +
+image:ua_generate_single_clusters_plan.png["快顯視窗可填入詳細資料、以提交產生升級計畫的要求。"]
+. 按一下*產生*。
+系統會將您重新導向至 * 報告 * 頁面。
+. 您可以在 * 報告 * 頁面上下載升級計畫、
++
+
+TIP: 您可以按一下 * 檢視升級建議程式報告 * 來移至 * 報告 * 頁面。
+ +
+image:r_ua_view_reports.png["顯示 View Upgrade Advisor 位置的螢幕擷取畫面、供您按一下。 "]
+
+
+
+在升級 ONTAP 之後、您應該執行一些工作來確認叢集的就緒性。若要深入瞭解、請參閱 link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["ONTAP 升級後的處理方式"]。
+
+--
+.多個叢集
+--
+. 在儀表板上、按一下 * 升級顧問 * Widget 中的叢集數。
++
+image:ua_widget.png["顯示叢集數量的螢幕擷取畫面。"]
+
++
+此時將出現 *Upgrade Advisor ONTAP 頁面。
+
+. 驗證 * 增強型升級顧問 * 切換是否已啟用。
++
+image:r_enhanced_ua_toggle.png["顯示增強升級建議程式切換的螢幕擷取畫面已開啟。"]
+
++
+您可以檢視符合資格且不符合資格的叢集清單、以進行升級。
+
+. 選擇要升級的叢集。
+「 * 目標作業系統版本 * 」欄會顯示建議的目標作業系統版本。您可以按一下 image:edit_icon.png["編輯按鈕的影像"] 圖示、選擇叢集的其他目標作業系統版本。
++
+image:r_ua_select_target_OS_version.png["顯示如何選取目標版本的映像。"]
+
++
+** 您可以按一下 * 節點 * 欄中的節點數、以查看叢集的節點摘要。
+** 您可以按一下 * 建議動作 * 欄中的 * 解決問題 * 來修正不合格叢集的問題、使其符合升級資格。
+ +
+image:r_ua_resolve_issue.png["顯示問題類型及修正所需解決方案的影像。"]
+
+
+. 按一下 * 產生升級計畫 * 。
+. 在顯示的快顯視窗中提供詳細資料。
+  +
+image:ua_generate_multiple_clusters_plan.png["快顯視窗可填入詳細資料、以提交產生升級計畫的要求。"]
+. 按一下*產生*。
+系統會將您重新導向至 * 報告 * 頁面。
+. 您可以在 * 報告 * 頁面上下載升級計畫、
++
+
+TIP: 您可以按一下 * 檢視升級建議程式報告 * 來移至 * 報告 * 頁面。
+ +
+image:r_ua_view_reports.png["顯示 View Upgrade Advisor 位置的螢幕擷取畫面、供您按一下。 "]
+
+
+
+在升級 ONTAP 之後、您應該執行一些工作來確認叢集的就緒性。若要深入瞭解、請參閱 link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["ONTAP 升級後的處理方式"]。
+
+--
+====

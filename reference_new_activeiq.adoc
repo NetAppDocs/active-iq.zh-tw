@@ -20,6 +20,16 @@ summary: 提供版本新功能的相關資訊。
 
 
 
+== 2024 年 1 月 3 日
+
+
+
+== 升級顧問
+
+升級建議程式已增強、可針對單一叢集和多個叢集、提供自動化的不中斷升級計畫。您只能檢視單一叢集的升級建議、包括風險摘要、升級前檢查報告、以及新功能和增強功能的相關資訊。 link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["瞭解如何檢視升級建議並產生升級計畫。"]
+
+
+
 == 2023 年 11 月 16 日
 
 
@@ -55,7 +65,7 @@ summary: 提供版本新功能的相關資訊。
 === 升級顧問
 
 * 您可以使用存取預設報價表的 Upgrade Advisor 頁面 link:https://activeiq.netapp.com/redirect/upgrade-advisor["升級顧問"^] 連結：
-* 升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["瞭解如何產生及檢視升級計畫"]。
+* 升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["瞭解如何產生及檢視升級計畫"]。
 
 
 

@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: upgrade_advisor_overview.html 
+keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters, storage systems 
+summary: 提供 Upgrade Advisor 的概觀、簡化 ONTAP 升級的規劃。 
+---
+= 總覽
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+升級建議程式可讓您產生升級計畫、其中包含成功 ONTAP 升級或還原所需的詳細逐步資訊。
+
+您可以為單一叢集和多個叢集產生自動化的不中斷升級計畫。您只能檢視單一叢集的升級建議、其中包括與叢集相關的風險清單、包含升級前檢查報告的升級封鎖程式和警告清單、以及新功能和增強功能的相關資訊。若要深入瞭解、請參閱 link:generate_upgrade_plan_single_multiple_clusters.html["為單一叢集和多個叢集產生升級計畫"]。
+
+
+NOTE: 針對 MetroCluster 組態中的每個叢集、產生個別的升級計畫以取得完整的升級指示。
+
+您可以為節點（儲存系統）產生自動化、不中斷營運且不中斷營運的升級計畫。您可以檢閱建議的升級路徑、並產生升級計畫。若要深入瞭解、請參閱 link:task_view_upgrade.html["為節點產生升級計畫"]。
+
+在產生升級計畫之前、您應該準備好進行 ONTAP 升級。適當的準備有助於在您開始升級程序之前、識別並減輕潛在的升級風險或封鎖程式。若要深入瞭解、請參閱 link:https://docs.netapp.com/us-en/ontap/upgrade/prepare.html["準備 ONTAP 升級"^]。

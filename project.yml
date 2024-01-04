@@ -75,6 +75,14 @@ sidebar:
       url: "/BlueXP_sustainability_dashboard_overview.html"
     - title: 改善永續性分數
       url: "/improve_sustainability_score.html"
+  - title: 產生升級計畫
+    entries:
+    - title: 總覽
+      url: "/upgrade_advisor_overview.html"
+    - title: 為單一叢集和多個叢集產生升級計畫
+      url: "/generate_upgrade_plan_single_multiple_clusters.html"
+    - title: 為節點產生升級計畫
+      url: "/task_view_upgrade.html"
   - title: 檢視系統詳細資料
     entries:
     - title: 檢視庫存詳細資料
@@ -125,8 +133,6 @@ sidebar:
       url: "/task_renew_support_contracts_for_your_systems.html"
   - title: 升級以最佳化安裝基礎
     entries:
-    - title: 升級儲存系統的 ONTAP 版本
-      url: "/task_view_upgrade.html"
     - title: 升級支援服務
       url: "/task_upgrade_support_offering.html"
     - title: 使用Ansible教戰手冊更新AFF 您的功能性和FAS 功能性的韌體
