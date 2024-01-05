@@ -1492,7 +1492,6 @@
   <block id="e6a714556ba607de0796b5ebf874022b" category="admonition">您可以按一下 * 檢視升級建議程式報告 * 來移至 * 報告 * 頁面。
  +
 <block ref="17bf329c781a0dba1bb8097588dd3401" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="18e4f5c6e58b95e97aff34068b2ebc6c" category="open-title">多個叢集</block>
   <block id="9847c4aa92db55ca2d4698117caccc8b" category="list-text">選擇要升級的叢集。
 「 * 目標作業系統版本 * 」欄會顯示建議的目標作業系統版本。您可以按一下 <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> 圖示、選擇叢集的其他目標作業系統版本。</block>
   <block id="02a1c6ad942cf70822b83555179da604" category="paragraph"><block ref="02a1c6ad942cf70822b83555179da604" category="inline-image-macro-rx" type="image"></block></block>
@@ -1503,4 +1502,8 @@
   +
 <block ref="f898fc4c474d90827399fc16cb1ce540" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c99a7dfbdf4d3cd808ff275e0e323d69" category="sidebar">產生升級計畫</block>
+  <block id="387baf0199e7c9cc944fae94e96448fa" category="section-title">其他</block>
+  <block id="48c86fda9292a5b410c6b86a0d2e64b7" category="paragraph">為什麼左導覽窗格中儲存健全狀況下的功能會停用？ *
+* 儲存健全狀況 * 下的功能可用度取決於系統類型和層級。例如、叢集檢視器適用於叢集和節點層級的 ONTAP 和 Cloud Volumes ONTAP （ CVO ）系統。您可以將游標移至每項功能旁邊的 * I* 圖示上、以瞭解適用的系統類型和層級。</block>
+  <block id="568d1629463645988ff4868c31e4cba7" category="open-title">多個叢集</block>
 </blocks>
