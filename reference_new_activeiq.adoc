@@ -20,6 +20,22 @@ summary: 提供版本新功能的相關資訊。
 
 
 
+== 2024 年 2 月 8 日
+
+
+
+=== 永續發展儀表板
+
+您現在可以使用直接存取預設儀表板或報價表的 Sustainability 計量 link:https://activeiq.netapp.com/redirect/sustainability["永續發展儀表板"^] 連結：
+
+
+
+=== ClusterViewer
+
+您現在可以在「磁碟摘要」區段中檢視磁碟 RPM 資訊、此區段可在「儲存」索引標籤和 ClusterViewer 報告中找到。
+
+
+
 == 2024 年 1 月 3 日
 
 

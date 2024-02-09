@@ -175,50 +175,6 @@ sidebar:
     url: "/concept_get_more_information.html"
   - title: 法律聲明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 開始使用
-    links:
-    - title: 深入瞭解數位顧問
-      url: https://tv.netapp.com/detail/video/6254074753001/what-can-you-do-with-active-iq
-    - title: 數位顧問快速入門
-      url: concept_getting_started_2.html
-    - title: 主要概念
-      url: concept_key_terms.html
-    - title: 建立觀察名單
-      url: task_add_watchlist.html
-  - title: 使用Digital Advisor
-    links:
-    - title: 檢視風險並採取修正行動
-      url: task_view_risk_and_take_action.html
-    - title: 偵測組態差異
-      url: task_compare_config_drift_template.html
-    - title: 修正重大安全風險
-      url: task_increase_protection_against_hackers_and_Ransomware_attacks.html
-    - title: 分析儲存效能
-      url: task_view_performance_graphs.html
-    - title: 產生報告
-      url: task_generate_reports.html
-  - title: 使用數位顧問進行分析
-    links:
-    - title: 檢視ONTAP 有關升級的建議
-      url: task_view_upgrade.html
-    - title: 根據雲端建議做出明智決策
-      url: task-informed-decisions-based-on-cloud-recommendations.html
-    - title: 透過NetApp Keystone 「View訂閱」檢視容量使用率
-      url: view_keystone_capacity_utilization.html
-  - title: 更多資源
-    links:
-    - title: 數位顧問Web入口網站
-      url: https://mysupport.netapp.com/myautosupport/home.html
-    - title: 數位顧問影片
-      url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
-    - title: NetApp社群–數位顧問
-      url: https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport
-    - title: 數位顧問行動應用程式（Android）
-      url: https://play.google.com/store/apps/details?id=com.netapp.myautosupport
-    - title: 數位顧問行動應用程式（iOS）
-      url: https://apps.apple.com/us/app/active-iq/id1230542480
 product-family:
   name: BlueXP
   repo: cloud-manager-family
