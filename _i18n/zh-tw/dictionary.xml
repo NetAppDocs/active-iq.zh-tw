@@ -543,12 +543,10 @@
   <block id="1dce4feb01121addbdaf71931c469035" category="list-text">提供您的使用者名稱和密碼、然後按一下*登入*。</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">提供資訊以將觀察清單新增至儀表板。</block>
   <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">建立觀察名單</block>
-  <block id="a6b5018db137b1873575388bb66fd696" category="paragraph">您可以建立觀察清單、以便快速輕鬆地存取一組系統。您可以根據類別或位置合併系統組。</block>
   <block id="da2d66a259f4a63d3108ebfd2b3e72c3" category="list-text">在左窗格中、按一下*觀察名單*</block>
   <block id="ba76cc75fba1482c23f5d61fcf99fc47" category="paragraph">畫面會顯示*管理觀察清單*畫面。</block>
   <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">按一下「*建立觀察名單*」。</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">提供觀察名單的名稱。</block>
-  <block id="d92f20aa0037ca0433951e4c3075ac1e" category="list-text">提供您要新增至觀察清單的系統詳細資料。</block>
   <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">您最多可以在類別下新增15、000個系統、並在序號下新增500個系統。</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">隨即顯示觀察清單儀表板。</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">提供儀表板、健全狀況分數、功能和小工具的相關資訊。</block>
@@ -984,7 +982,6 @@
   <block id="45b708abb9ee2f917c7896e31ae4c7b6" category="paragraph">Digital Advisor會顯示具有有效支援合約的系統。如果合約到期、系統會提供 90 天的寬限期、讓系統持續可見。之後、數位顧問無法搜尋或顯示系統。</block>
   <block id="5c711ca6514b7bc5e8b54eb7d0514b90" category="paragraph">NetApp技術支援會使用這些資料來加速問題的診斷與解決、而數位顧問則會主動偵測並避免潛在問題。您也可以將其傳送給內部支援組織和支援合作夥伴。</block>
   <block id="5da64b23743d20365a812a148d09b65f" category="admonition">數位顧問AutoSupport 只會針對AutoSupport 未滿60天的系統顯示與功能不相關的資料。</block>
-  <block id="2d0aa76ea44ffecf44fd1e54e726b8a1" category="summary">Digital Advisor可透過雲端型入口網站和行動應用程式、提供可據以行動的預測分析和主動式支援、讓您在全球混合雲中最佳化資料基礎架構。數位顧問的雲端服務運用NetApp龐大安裝基礎所產生的社群智慧與同儕比較、將這些洞見與AutoSupport 遙測和My AutoSupport 支援功能結合、提供一組先進的無與倫比的分析服務。</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="doc">數位顧問文件</block>
   <block id="571d621f51c49640d8adb2c5bb15554a" category="paragraph">Digital Advisor會持續分析您的系統、並提供建議、以改善系統的效能、效率和健全狀況。</block>
   <block id="ee8a7221101a63a879e7b11a9e134817" category="admonition">數位顧問將帶您前往藍圖XP、以實作建議。</block>
@@ -1030,7 +1027,6 @@
   <block id="e3f44fedccc2711587690bd9581827ed" category="paragraph">數位顧問利用遙測資料和已發佈的產品安全性摘要報告來偵測涵蓋範圍*的安全性問題、以及授權支援的產品。產品遙測資料必須透過AutoSupport NetApp透過NetApp傳輸、以便Digital Advisor偵測風險。</block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">登入Digital Advisor。</block>
   <block id="ca249192c36cc85e44209b65bfb3ec3d" category="list-text">最重要的步驟是在Digital Advisor的* Upgrade Advisor *中規劃作業系統升級。</block>
-  <block id="16d182da6aeb172074cbe06d557991cc" category="paragraph">報價表可用來快速輕鬆地存取數位顧問內部預先選取的系統。如果您經常檢視某位客戶或一組系統、建議您建立觀察名單。您最多可建立50個報價表、每個報價表最多可依類別包含15、000個系統、或依序號包含500個系統。</block>
   <block id="fdcefef7d938550393c7f560b2c30cac" category="paragraph">第一次存取Digital Advisor時、您可以建立報價表、或是搜尋客戶名稱、網站名稱、群組名稱、StorageGRID 列舉名稱、主機名稱、 叢集、序號或系統ID。</block>
   <block id="8fe538800aeef2cc4ce4a036305bf264" category="paragraph">Digital Advisor API Services使用自動化功能來提升工作流程效率。內部API服務位於* API目錄*、其中描述超過100個不同的API端點、這些端點分為20個以上不同的服務區域。這些API可作為NetApp客戶提供給您、涵蓋不同的興趣領域、例如系統資訊、儲存效率、效能、健全狀況和升級。</block>
   <block id="b55b7f8ad3b486e6903c05d80410b389" category="paragraph">API是可讓您撰寫簡單程式碼的介面、可透過程式設計方式聯絡Digital Advisor、並將資料帶回運算環境。您可以撰寫程式碼、讓IT人員每天都能聯絡Digital Advisor、並在您感興趣的領域提供最新的資料。然後您可以使用此資料填入您的票證系統、或建立自己的儀表板、網頁或報告。數位顧問API目錄包含程式碼範例、以及可讓您在瀏覽器中試用API的工具。</block>
@@ -1498,4 +1494,27 @@
   <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">永續發展儀表板</block>
   <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">您現在可以使用直接存取預設儀表板或報價表的 Sustainability 計量 <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> 連結：</block>
   <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">您現在可以在「磁碟摘要」區段中檢視磁碟 RPM 資訊、此區段可在「儲存」索引標籤和 ClusterViewer 報告中找到。</block>
+  <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">2024 年 2 月 29 日</block>
+  <block id="a87afd0ebe87406d33b58f65b33a438b" category="paragraph">您現在可以根據 Keystone 訂閱號碼建立報價表、並使用訂閱號碼或報價表名稱的前三個字元來搜尋 Keystone 訂閱。</block>
+  <block id="bb6677c30e1599d498cc331db9ae9ac1" category="paragraph">報價表可用來快速輕鬆地存取數位顧問內部預先選取的系統。如果您經常檢視某位客戶或一組系統、建議您建立觀察名單。您最多可以建立 100 個觀察名單、每個觀察名單最多可包含 15,000 個系統（依類別）、或 500 個系統（依序號）。</block>
+  <block id="0c9919bc11a911adb7dfe0c3fcfec57e" category="paragraph">第一次存取 Digital Advisor 時、您可以建立觀察名單、或搜尋客戶名稱、站台名稱、群組名稱、 StorageGRID 、主機名稱、 叢集、序號、系統 ID 或 Keystone 訂閱。</block>
+  <block id="696132aa64e1de699fed134cebca0cb4" category="paragraph">您可以建立觀察清單、以便快速輕鬆地存取一組系統。您可以根據類別或序號新增系統。</block>
+  <block id="8724cab6ff3882b095d7f7a1af087d3c" category="list-text">選取下列其中一個選項、將系統新增至觀察清單：</block>
+  <block id="046b77894dfde73619bb48b4dc431dd0" category="list-text">* 類別 * ：此選項可讓您新增與特定類別相關的整個庫存、例如客戶、站台、群組或 Keystone 訂閱、 至您的報價表。</block>
+  <block id="ca5b91a68ba656cb1cb6cdd4e75f646a" category="inline-link-macro">依 Keystone 觀察名單搜尋</block>
+  <block id="a5a3e88ca2e2f72fdd690c7bf4473d53" category="admonition">「 * 基礎概念訂閱 * 」選項可讓您加入任何與 Keystone 訂閱相關的訂閱號碼。在依觀察清單搜尋時、您可以在 Digital Advisor 儀表板上的 * 基礎概念訂閱 * 小工具中檢視訂閱內容。如需詳細資訊、請參閱 <block ref="6c48397e666066c17d428674ea869bc7" category="inline-link-macro-rx"></block>。</block>
+  <block id="abc045a62577e8c80a76e2f49162b3ae" category="list-text">* 序號 * ：此選項可讓您根據指定的序號、將庫存納入報價表。您可以直接輸入序號、或從客戶、網站或群組等類別中選擇序號。</block>
+  <block id="28fa24f22582565336a20a99aac1a3b6" category="sidebar">Active IQ Digital Advisor （也稱為數位顧問）可透過雲端型入口網站和行動應用程式、提供可據以行動的預測分析和主動式支援、讓您在全球混合雲中最佳化資料基礎架構。數位顧問的雲端服務運用NetApp龐大安裝基礎所產生的社群智慧與同儕比較、將這些洞見與AutoSupport 遙測和My AutoSupport 支援功能結合、提供一組先進的無與倫比的分析服務。</block>
+  <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">深入瞭解數位顧問</block>
+  <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">使用Digital Advisor</block>
+  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">檢視風險並採取修正行動</block>
+  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">偵測組態差異</block>
+  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">修正重大安全風險</block>
+  <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">使用數位顧問進行分析</block>
+  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">檢視ONTAP 有關升級的建議</block>
+  <block id="5649476905365d651ff75a651e4e79a8" category="sidebar">根據雲端建議做出明智決策</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多資源</block>
+  <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">數位顧問Web入口網站</block>
+  <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">數位顧問影片</block>
+  <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp社群–數位顧問</block>
 </blocks>
