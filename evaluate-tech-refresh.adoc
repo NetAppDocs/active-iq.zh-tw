@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: evaluate-tech-refresh.html 
+keywords: tech refresh, tech support contract, hardware 
+summary: 提供資訊以評估技術支援合約或硬體的技術更新 
+---
+= 評估技術更新
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您想確定技術支援合約或硬體是否建議進行技術更新、您可以使用技術更新選項。
+
+
+NOTE: 您可以透過 BlueXP 經濟效益（ * 治理 > 經濟效益 > 技術更新 * ）或透過 NetApp 數位顧問（ * 儀表板 > 規劃小工具 > 技術更新 * ）來存取此功能。
+
+如需此功能的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["評估技術更新"] 在 BlueXP 文件中。

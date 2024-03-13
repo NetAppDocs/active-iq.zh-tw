@@ -1517,4 +1517,9 @@
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">數位顧問Web入口網站</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">數位顧問影片</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp社群–數位顧問</block>
+  <block id="a05a52081b0fa90b1547ef6f59f35788" category="summary">提供資訊以評估技術支援合約或硬體的技術更新</block>
+  <block id="33a9c4b5f0c522c38ff9b1b46ebd1498" category="doc">評估技術更新</block>
+  <block id="2d6605eb73e95419014e86f084d39681" category="paragraph">如果您想確定技術支援合約或硬體是否建議進行技術更新、您可以使用技術更新選項。</block>
+  <block id="65a5dc35cec4fdb5b8c204304a2ab99a" category="admonition">您可以透過 BlueXP 經濟效益（ * 治理 &gt; 經濟效益 &gt; 技術更新 * ）或透過 NetApp 數位顧問（ * 儀表板 &gt; 規劃小工具 &gt; 技術更新 * ）來存取此功能。</block>
+  <block id="26528bfb42ca87e3e5f7846afd863bb0" category="paragraph">如需此功能的詳細資訊、請參閱 <block ref="a230b818a44a7d13155b37e12838fa41" category="inline-link-macro-rx"></block> 在 BlueXP 文件中。</block>
 </blocks>

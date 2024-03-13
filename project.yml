@@ -101,6 +101,8 @@ sidebar:
       url: "/task_identify_capacity_system.html"
     - title: 避免大量佔用、以避免中斷運作
       url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
+    - title: 評估技術更新
+      url: "/evaluate-tech-refresh.html"
     - title: 更新軟體與硬體
       url: "/task_renew_software_and_hardware.html"
   - title: 根據雲端建議做出明智決策
