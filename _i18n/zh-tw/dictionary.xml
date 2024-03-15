@@ -188,7 +188,6 @@
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="30a3a5781ffac6a88cce2ccd6925d533" category="doc">保護系統免受勒索軟體風險的侵害</block>
   <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">您可以檢視Snapshot建立、保留和ONTAP 不確定FPolicy風險、然後採取行動加以修正。</block>
-  <block id="6f75bc30c5b47eb48f72d647d67781a9" category="list-text">按一下「*勒索軟體防禦*」小工具上的「*動作*」。</block>
   <block id="5e0e2c126796ee31f891f0f923d864f9" category="list-text">針對所顯示的風險、請檢查影響層級、並遵循建議的行動。</block>
   <block id="9468b2f5ff83e6a3ed59b51e8ca38dc2" category="list-text">按一下「Unique風險」（獨特風險）索引標籤、然後在「* Corrective Action"（修正行動*）欄</block>
   <block id="719f031257428b8b9c9c34ee45a1c9ae" category="list-text">按一下「*受影響的系統*」索引標籤、即可檢視有風險的系統。</block>
@@ -680,9 +679,7 @@
   <block id="1c4f0f720caa935586c5ce44a7df6b85" category="list-text">*可用度與保護：*顯示儲存系統可用度與保護的相關資訊。</block>
   <block id="f0ee5c8e0425d79cc4821f46b896129b" category="list-text">*容量：*由風險組成、並具有影響區域值的容量屬性。</block>
   <block id="b9a9426de6f2aeaaa8a2431da4900e30" category="list-text">*組態：*由風險組成、其中包含影響區域值的組態屬性、其排序方式對頂端影響最高。</block>
-  <block id="8dae33fe79be13ef64d47e7f786ed059" category="list-text">*安全性弱點：*由風險組成、並具有影響區域值的安全屬性。</block>
   <block id="0df29eb5c3a3cf627598e14216743f20" category="list-text">*健康記錄：*顯示過去三個月發生的系統風險資訊、讓您瞭解他們如何加班。</block>
-  <block id="8d4304747bf1c53a7a27da5249a5a0c3" category="list-text">*勒索軟體防禦：*提供有關勒索軟體偵測、預防及恢復相關風險與修正行動的資訊。</block>
   <block id="927c2765ee865261a716c54a2fde3878" category="list-text">*認知風險（Ack）：*可讓您瞭解受影響的風險和系統。您可以瞭解這些風險、並熟悉可採取哪些行動來減輕這些風險。</block>
   <block id="91351fc68db7f9bca112a2fb897a0902" category="list-text">*取消認可風險（取消認可）：*可讓您取消認可已確認的風險與系統。</block>
   <block id="0f4f0d8eb7497054f3f3160501e62e20" category="list-text">*修正：* Active IQ 使用NetApp Manager（UM）9.7或更新版本來修正系統的風險。按一下此按鈕以啟動UM、並執行降低風險的步驟。</block>
@@ -791,7 +788,6 @@
   <block id="f7e6c88265534036ac8e0f442a755875" category="doc">偵測安全性弱點</block>
   <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">*涵蓋產品：ONTAP 支援VMware *的支援範圍：支援內部部署與雲端技術的支援、SANtricity 支援VMware *的支援範SolidFire 圍包括：VMware *的支援範StorageGRID 圍包括：VMware *支援內部部署與雲端*、支援VMware *的支援範圍涵蓋範圍涵蓋範圍涵蓋範圍涵蓋Active IQ Unified Manager ONTAP</block>
   <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">安全漏洞小工具</block>
-  <block id="b690081b833e8f28d12bf81f4c46d353" category="list-text">按一下「*安全性弱點*」小工具中的「*動作*」。<block ref="8410ae438d98c330146456538464956f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c17e33981c0b062b393672808567a4ab" category="paragraph">針對高影響的安全風險、請遵循建議的行動來升級作業系統。</block>
   <block id="75b13b2a3ff2cb52d35b06fcc7348713" category="inline-image-macro">修正行動欄</block>
   <block id="d13ac08a85c268be8e12fb2c5fc6a61f" category="list-text">按一下「*獨特風險*」標籤、然後按一下「*修正行動*」欄中的連結。<block ref="b8e4538a50e97a4603efab53e7672864" category="inline-image-macro-rx" type="image"></block></block>
@@ -1032,7 +1028,6 @@
   <block id="b55b7f8ad3b486e6903c05d80410b389" category="paragraph">API是可讓您撰寫簡單程式碼的介面、可透過程式設計方式聯絡Digital Advisor、並將資料帶回運算環境。您可以撰寫程式碼、讓IT人員每天都能聯絡Digital Advisor、並在您感興趣的領域提供最新的資料。然後您可以使用此資料填入您的票證系統、或建立自己的儀表板、網頁或報告。數位顧問API目錄包含程式碼範例、以及可讓您在瀏覽器中試用API的工具。</block>
   <block id="2eba3fd530b8be90290c1ea2652f4310" category="paragraph">API自動化是提升日常或每週工作效率與準確度的絕佳方法。它可釋出您的資源、以執行更複雜的活動或自動化新的工作流程。例如、如果您有需要修正的系統健全狀況風險、您至少可以自動化從Digital Advisor中取出這些項目、並將其推入您的票證系統。</block>
   <block id="ee67d4518095f8899eb8244097de7a35" category="paragraph">啟動是自動的、應該是即時的。一旦您獲得授權使用Digital Advisor API、就能產生權杖、以便在進行程式化API呼叫時使用。您也可以使用這些權杖、從API目錄中執行「試用」。當以程式設計方式取得時、權杖一律會以兩種形式提供：存取權杖和更新權杖。必須傳遞存取權杖、才能成功使用所有API（除了一種API之外、「重新整理權杖」是用來以程式設計方式取得一組新的權杖）。</block>
-  <block id="ea91f255c0d20a5fbac87ebc9647b943" category="paragraph">登入數位顧問時、您可以檢視*勒索軟體防衛*小工具上反白顯示的*動作*、以顯示風險計數。</block>
   <block id="ec51503b0f35cbc8702985e4aa3ca3c5" category="paragraph">如需容量與儲存效率的詳細資訊、請參閱 <block ref="de007cfc8081d514ce95fa7f06caeee8" category="inline-link-macro-rx"></block>。</block>
   <block id="ddd5bde8e3e027f9a9efab7fcfa90542" category="doc">數位顧問的新功能</block>
   <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">數位顧問提供下列功能與增強功能：</block>
@@ -1495,7 +1490,6 @@
   <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">您現在可以使用直接存取預設儀表板或報價表的 Sustainability 計量 <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> 連結：</block>
   <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">您現在可以在「磁碟摘要」區段中檢視磁碟 RPM 資訊、此區段可在「儲存」索引標籤和 ClusterViewer 報告中找到。</block>
   <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">2024 年 2 月 29 日</block>
-  <block id="a87afd0ebe87406d33b58f65b33a438b" category="paragraph">您現在可以根據 Keystone 訂閱號碼建立報價表、並使用訂閱號碼或報價表名稱的前三個字元來搜尋 Keystone 訂閱。</block>
   <block id="bb6677c30e1599d498cc331db9ae9ac1" category="paragraph">報價表可用來快速輕鬆地存取數位顧問內部預先選取的系統。如果您經常檢視某位客戶或一組系統、建議您建立觀察名單。您最多可以建立 100 個觀察名單、每個觀察名單最多可包含 15,000 個系統（依類別）、或 500 個系統（依序號）。</block>
   <block id="0c9919bc11a911adb7dfe0c3fcfec57e" category="paragraph">第一次存取 Digital Advisor 時、您可以建立觀察名單、或搜尋客戶名稱、站台名稱、群組名稱、 StorageGRID 、主機名稱、 叢集、序號、系統 ID 或 Keystone 訂閱。</block>
   <block id="696132aa64e1de699fed134cebca0cb4" category="paragraph">您可以建立觀察清單、以便快速輕鬆地存取一組系統。您可以根據類別或序號新增系統。</block>
@@ -1522,4 +1516,18 @@
   <block id="2d6605eb73e95419014e86f084d39681" category="paragraph">如果您想確定技術支援合約或硬體是否建議進行技術更新、您可以使用技術更新選項。</block>
   <block id="65a5dc35cec4fdb5b8c204304a2ab99a" category="admonition">您可以透過 BlueXP 經濟效益（ * 治理 &gt; 經濟效益 &gt; 技術更新 * ）或透過 NetApp 數位顧問（ * 儀表板 &gt; 規劃小工具 &gt; 技術更新 * ）來存取此功能。</block>
   <block id="26528bfb42ca87e3e5f7846afd863bb0" category="paragraph">如需此功能的詳細資訊、請參閱 <block ref="a230b818a44a7d13155b37e12838fa41" category="inline-link-macro-rx"></block> 在 BlueXP 文件中。</block>
+  <block id="ef2753666e2bb535cdbdfcab50c1a017" category="list-text">* 安全性與勒索軟體防禦： * 提供與安全性弱點、勒索軟體偵測、預防及恢復相關的風險與修正行動資訊。</block>
+  <block id="1f4882587636b2511732cfb3b14bfbcf" category="list-text">* 永續性： * 顯示建議行動的數量、以改善客戶、觀察名單、站台及群組層級的永續性分數。</block>
+  <block id="0235bcf89237278317e178c8c295ac74" category="list-text">按一下 * 安全性與勒索軟體防護 * 小工具中的 * 行動 * 。
+<block ref="2fcb804d5a34085afa85e482ac09263f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="83dec637bc884dc4a2f4600da2ca5f4a" category="list-text">清除 *勒索 軟體防護 * 核取方塊。</block>
+  <block id="434c0382d376982e5be3c7cf351f2ee1" category="section-title">2024 年 3 月 15 日</block>
+  <block id="02a4f8fbb0ee7f45b63d85dd6999883c" category="list-text">Wellness 工作流程現在包含 Sustainability 小工具、可在客戶、報價表、網站和群組層級提供建議動作的數量。您可以按一下動作數目、在 Sustainability 儀表板上詳細檢視這些建議動作。若要深入瞭解、請參閱 <block ref="53ff1edd2c20f94d2a6e053c55aa3849" category="inline-link-macro-rx"></block>。</block>
+  <block id="6dca4e9566164889a09a5302487f229a" category="list-text">Wellness 工作流程中的安全漏洞和勒索軟體防禦小工具合併為單一小工具、現在稱為 Security &amp; 勒索軟體防禦。</block>
+  <block id="5bf96d52d5b39a06798b24dfa7469237" category="section-title">健全狀況檢查儀表板</block>
+  <block id="15853c3ab7376c7041427b2140bbd504" category="paragraph">技術案例的時間表已經過強化、可檢視 6 或 12 個月的完整案例記錄。</block>
+  <block id="51832813a6cc95d32db002987711fdc7" category="paragraph">您現在可以根據 Keystone 訂閱號碼建立報價表、並使用訂閱號碼或報價表名稱的前三個字元來搜尋 Keystone 訂閱。</block>
+  <block id="994ea9e16920acdbe0ac6e35ae6fffad" category="paragraph">登入 Digital Advisor 時、您可以檢視 * 安全性與勒索軟體防護 * 小工具中反白顯示的 * 行動 * 、其中會顯示風險計數。</block>
+  <block id="e8563fdf2c4612622ba50a5e8cfcb99a" category="list-text">按一下 * 安全性與勒索軟體防護 * 小工具上的 * 行動 * 。</block>
+  <block id="4d7b0b036dd7f28233ff7e59c3c1dbf5" category="list-text">清除 *Security 弱點 * 核取方塊。</block>
 </blocks>

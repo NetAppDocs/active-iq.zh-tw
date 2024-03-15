@@ -26,10 +26,10 @@ NetApp安全網站是NetApp產品安全的真實來源： link:https://security.
 
 .步驟
 . 登入Digital Advisor。
-. 按一下「*安全性弱點*」小工具中的「*動作*」。image:Security_Image 1 Ransomware attacks.png["安全漏洞小工具"]
-+
-針對高影響的安全風險、請遵循建議的行動來升級作業系統。
-
+. 按一下 * 安全性與勒索軟體防護 * 小工具中的 * 行動 * 。
+image:Security_Image 2 Ransomware attacks.png["安全漏洞小工具"]
+. 清除 *勒索 軟體防護 * 核取方塊。
+. 針對高影響的安全風險、請遵循建議的行動來升級作業系統。
 . 按一下「*獨特風險*」標籤、然後按一下「*修正行動*」欄中的連結。image:Corrective Action_Image 2 Ransomware attacks.png["修正行動欄"]
 +
 此風險已在ONTAP 更新版本的《更新版本：1.7P8（更新版本）」中修正。image:Remediations_Image 3 Ransomware attacks.png["「修正」索引標籤"]
