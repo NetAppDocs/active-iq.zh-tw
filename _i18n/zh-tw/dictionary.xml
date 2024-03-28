@@ -526,7 +526,6 @@
   <block id="26ae7bdd1d6fb8c4886e6fde8d12601c" category="cell">延遲</block>
   <block id="363feef65df9d9b2c15feec5eeae6961" category="cell">平均使用率</block>
   <block id="52d04ac041f40e180ee13d2d46edbfc6" category="cell">傳輸協定IOPS</block>
-  <block id="23f1323406f594572732c2bad13eebde" category="admonition">節點延遲效能圖表和Volume效能圖表僅在執行ONTAP VMware版9.2及更新版本的系統上受支援。</block>
   <block id="194a23f51af9ff2576303b43382ec1b9" category="list-text">E系列控制器可取得下列效能圖表及必要的指標：</block>
   <block id="cc2748501c3e7b4010b19883a07f8053" category="list-text">CPU使用率</block>
   <block id="0b85467ebafa7ca3c47e82dc38184484" category="list-text">處理量</block>
@@ -970,8 +969,6 @@
   <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">多跳升級</block>
   <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">對於非鄰近版本的自動不中斷升級（andu）、您可以安裝中間版本和目標版本的軟體映像。自動化升級程序會使用背景中的中繼映像來完成目標版本的更新。例如、如果叢集執行9.3且您想升級至9.7、則會載入ONTAP 9.5和9.7的版次安裝套件、然後啟動andu至9.7。然後、將叢集先自動升級至9.5、再升級至9.7。ONTAP您應預期在程序期間會有多個接管/恢復作業及相關的重新開機。</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">升級顧問</block>
-  <block id="64916198004d1ee19b1b50002f51f1a8" category="inline-image-macro">升級選項</block>
-  <block id="b58373ef1164bbd04be01f9d80e8c58e" category="inline-image-macro">產生升級計畫</block>
   <block id="241d0a5c7d11b08c4b6742aafec7ad3e" category="paragraph">「*詳細目錄*」小工具可提供您擁有的系統總數總和的彙總套件。這包括已啟用數位顧問功能的產品和未啟用的產品。</block>
   <block id="e58b12802a7d54b8bca5c0033174b2d8" category="summary">提供登入數位顧問的資訊。</block>
   <block id="5a68b284b7bcd8f7a66fdc39f1dcbcd7" category="doc">登入Digital Advisor</block>
@@ -1359,19 +1356,11 @@
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">如果您已訂閱 NetApp Keystone STaaS 服務、您可以在數位顧問儀表板上檢視 Keystone Subscription 小工具。</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone與Digital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Keystone訂閱小工具可提供您帳戶容量使用量的摘要。它包含與實體容量有關的容量使用率圖表。如需不同層級訂閱資料和使用資訊的詳細資訊、請參閱 <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>。</block>
-  <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">風險顧問標籤</block>
-  <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">總風險</block>
-  <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">快顯視窗可填入詳細資料、以提交產生升級計畫的要求</block>
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023 年 9 月 27 日</block>
   <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">您可以使用存取預設報價表的 Upgrade Advisor 頁面 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> 連結：</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">瞭解如何產生及檢視升級計畫</block>
   <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">永續性儀表板提供寶貴的見解、讓您深入瞭解儲存系統的環境永續性。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
-  <block id="a51f3b59b1e2e55eb492198c5498a7bf" category="list-text">選擇升級選項。</block>
-  <block id="fd23e666b2cc48f70922dc0a25bed60d" category="list-text">按一下相容系統的數量以產生升級計畫。
-此時將顯示 * 升級詳細資料 * 頁面。</block>
-  <block id="f4e13f16e7fba0f60794942036b0d5b3" category="list-text">如果升級選項包括 * 總風險 * 、您可以按一下總風險數、在 * 風險顧問 * 標籤中檢視風險清單。</block>
   <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">按一下 * 產生升級計畫 * 。</block>
-  <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">在顯示的快顯視窗中提供詳細資料。您也可以選取 * 恢復計畫 * 核取方塊、將退出計畫納入升級計畫中。</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">分析儲存系統的永續性</block>
   <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023 年 10 月 4 日</block>
   <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">規劃 Widget</block>
@@ -1392,53 +1381,29 @@
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">應啟用 AutoSupport 以準確計算永續性分數。</block>
   <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">存取 Sustainability 儀表板</block>
   <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">永續性儀表板提供啟用 AIOps 的報告和評分功能、並提供可據以行動的洞見、以改善您的永續性狀態。您可以透過 NetApp BlueXP 或數位顧問來存取 Sustainability 儀表板。</block>
-  <block id="be5178143d843340e4e67eba4c9e81e5" category="summary">提供檢視和升級節點（儲存系統） ONTAP 版本的資訊。</block>
-  <block id="8601f406e80391d056c58948aa581fb2" category="doc">為節點產生升級計畫</block>
-  <block id="2bd844d4631a34a970dfaf3be90c4a0b" category="paragraph">您可以使用 Upgrade Advisor 來檢視建議的升級、並為節點（儲存系統）產生升級計畫。您可以在與節點相關的風險顧問標籤中檢視風險清單、並在升級至較新版本的 ONTAP 時減輕這些風險。</block>
   <block id="24fbd138c7dc295cdff7b25fb0003595" category="list-text">在儀表板上、按一下 * 升級顧問 * Widget 中的叢集數。</block>
   <block id="bcc117d8c868654bdcb5b2de44d7fbf2" category="inline-image-macro">顯示叢集數量的螢幕擷取畫面。</block>
   <block id="28c5b9b9eefe3c1e8c902c9d79cc6787" category="paragraph"><block ref="28c5b9b9eefe3c1e8c902c9d79cc6787" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a66487996a06c28a71be20aa0af1d26c" category="paragraph">此時將出現 *Upgrade Advisor ONTAP 頁面。</block>
-  <block id="154c77c413a39ecb8c39b457c5252f40" category="list-text">停用 * 增強升級建議程式 * 切換。</block>
-  <block id="8b60d322239e9b30aae8b8fd47a48ce3" category="inline-image-macro">顯示增強升級建議程式切換的螢幕擷取畫面已停用。</block>
-  <block id="0041204be6f9f2e470c98ebfb3d5b0b0" category="paragraph"><block ref="0041204be6f9f2e470c98ebfb3d5b0b0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="aad5368020cbd683aeba5851f49b4a38" category="paragraph"><block ref="aad5368020cbd683aeba5851f49b4a38" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a7b4dbfcbcafcdcc68cd3071fff921ef" category="paragraph"><block ref="a7b4dbfcbcafcdcc68cd3071fff921ef" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9d13760352c3ef2c67f70c65eb9218c3" category="inline-image-macro">編輯按鈕的影像</block>
-  <block id="42dc80a9f868807808bfb3bd6d3fa3e4" category="list-text">您可以按一下 <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> 圖示從 * 目標作業系統版本 * 中選取另一個目標作業系統版本的叢集。</block>
-  <block id="81782223768cc597145a7fe6649737aa" category="list-text">您可以前往 * 風險顧問 * 標籤、檢視風險清單及其嚴重性等級。
-  +
-<block ref="64ab9e5ee435c8d4125b4c4b2f334200" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="141bbe67ced8a85bfd11063ebb59d88d" category="paragraph"><block ref="141bbe67ced8a85bfd11063ebb59d88d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="13c6c834b23acb47e87a7edcc32e7f88" category="list-text">在 * 升級顧問 * 標籤中、選取要升級的系統。</block>
-  <block id="f5a352aea6c7a54f54feff2b5821b2f0" category="paragraph"><block ref="f5a352aea6c7a54f54feff2b5821b2f0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="680ec4642757efc9cf2d150edf5ce5fc" category="list-text">按一下*提交*。
-系統會將您重新導向至 * 報告 * 頁面。</block>
   <block id="d983f30395f8346ffd80f3672dfe8b2a" category="list-text">您可以在 * 報告 * 頁面上下載升級計畫、</block>
   <block id="e914294f6ad533c4cc5d44ff79ab35e3" category="inline-link-macro">ONTAP 升級後的處理方式</block>
   <block id="bbc10f30b2ee9ee55d84238475ba20b0" category="paragraph">在升級 ONTAP 之後、您應該執行一些工作來確認叢集的就緒性。若要深入瞭解、請參閱 <block ref="49be8ce40deb1a0b7eb5c98a4fed6622" category="inline-link-macro-rx"></block>。</block>
   <block id="ef2ca72de9895714706408c3a660a3ad" category="summary">提供 Upgrade Advisor 的概觀、簡化 ONTAP 升級的規劃。</block>
   <block id="67ee936e795ffe8e8018ac6757105eae" category="paragraph">升級建議程式可讓您產生升級計畫、其中包含成功 ONTAP 升級或還原所需的詳細逐步資訊。</block>
   <block id="d9b9898ac1165db3daef0e6e50933c02" category="inline-link-macro">為單一叢集和多個叢集產生升級計畫</block>
-  <block id="db336d8bf73f1c92f4ed725650c533e9" category="paragraph">您可以為單一叢集和多個叢集產生自動化的不中斷升級計畫。您只能檢視單一叢集的升級建議、其中包括與叢集相關的風險清單、包含升級前檢查報告的升級封鎖程式和警告清單、以及新功能和增強功能的相關資訊。若要深入瞭解、請參閱 <block ref="41932a416de65dadbc9f715244a32fe5" category="inline-link-macro-rx"></block>。</block>
   <block id="86889b2158b4ac7c9d8fcef2845d3f55" category="admonition">針對 MetroCluster 組態中的每個叢集、產生個別的升級計畫以取得完整的升級指示。</block>
-  <block id="5681200d8f1383312047ace6aad75922" category="inline-link-macro">為節點產生升級計畫</block>
-  <block id="9b7d1ab37e6749081c5ac63cb683b1c4" category="paragraph">您可以為節點（儲存系統）產生自動化、不中斷營運且不中斷營運的升級計畫。您可以檢閱建議的升級路徑、並產生升級計畫。若要深入瞭解、請參閱 <block ref="480e8086971f91861d6dfe49fd297465" category="inline-link-macro-rx"></block>。</block>
   <block id="7b410e5aa098af7d98f180ce6460fdfe" category="inline-link-macro">準備 ONTAP 升級</block>
   <block id="222865b37915c0c4bc9b2b9bfcf5b07b" category="paragraph">在產生升級計畫之前、您應該準備好進行 ONTAP 升級。適當的準備有助於在您開始升級程序之前、識別並減輕潛在的升級風險或封鎖程式。若要深入瞭解、請參閱 <block ref="ea9d3240085371b5bf3a3755f96d8f6d" category="inline-link-macro-rx"></block>。</block>
   <block id="0850cf3036348eacfcb9da9c7e6dff71" category="section-title">2024 年 1 月 3 日</block>
-  <block id="9c818280eee76d75834ab648289ae85f" category="inline-link-macro">瞭解如何檢視升級建議並產生升級計畫。</block>
-  <block id="bdc2200252b96cc6ed0c081012882ca8" category="paragraph">升級建議程式已增強、可針對單一叢集和多個叢集、提供自動化的不中斷升級計畫。您只能檢視單一叢集的升級建議、包括風險摘要、升級前檢查報告、以及新功能和增強功能的相關資訊。 <block ref="5432771afbfeb8bee17b110b384d0041" category="inline-link-macro-rx"></block></block>
   <block id="fdee59a37f60e4c66e5c6b1c6c80b2c1" category="list-text">升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 <block ref="f0e67dfcb5ef41ef22b88debd0952b4f" category="inline-link-macro-rx"></block>。</block>
   <block id="54c8d286439441f65d676d4c8b3f8e5d" category="paragraph">您可以從網路型主控台登入 Digital Advisor 、以檢視儲存系統的整體狀態。</block>
   <block id="1e483625e81b84fcdebccdf1e8a9446a" category="inline-link-macro">如何以客戶或來賓使用者身分註冊 NetApp 支援網站 帳戶</block>
   <block id="dd535b546ee88a50134df4a8bcb9ebc7" category="paragraph">您必須擁有有效NetApp 支援網站 的資訊提供憑證、才能登入Digital Advisor。如果您沒有帳戶且正在開始使用、請參閱下列知識庫文章來建立帳戶：
 <block ref="b73ff2fa987bdb24b44ced01bb2bd4c6" category="inline-link-macro-rx"></block>。</block>
   <block id="cb6d856529734d9ca63ed119e0c1bba6" category="summary">提供步驟、為單一叢集和多個叢集成功進行 ONTAP 升級或還原而產生升級計畫。</block>
-  <block id="85af6d120b0bc5a9e283fc346b4434ba" category="paragraph">您可以使用 Upgrade Advisor 來檢視符合升級資格或不符合升級資格的叢集清單。您可以檢視合格叢集的升級建議、並產生升級計畫。您可以修正不合格叢集的問題、使其符合升級資格。</block>
   <block id="6e394bcec3129051274784fa1f725065" category="paragraph">您可以依照下列步驟、為單一叢集和多個叢集產生升級計畫：</block>
   <block id="94df3919fe9cfa11e61d8a1c34ab29ac" category="open-title">單一叢集</block>
-  <block id="a8a13bd076efa14c76bf4d2412097a76" category="list-text">驗證 * 增強型升級顧問 * 切換是否已啟用。</block>
   <block id="b8b6bd2d3e7273f469feb9820cd57266" category="inline-image-macro">顯示增強升級建議程式切換的螢幕擷取畫面已開啟。</block>
   <block id="e5030f0aad42928362a1dd6d459850f1" category="paragraph"><block ref="e5030f0aad42928362a1dd6d459850f1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="97bf638dd7855f5b871198e3de655fb7" category="paragraph">您可以檢視符合資格且不符合資格的叢集清單、以進行升級。</block>
@@ -1530,4 +1495,12 @@
   <block id="994ea9e16920acdbe0ac6e35ae6fffad" category="paragraph">登入 Digital Advisor 時、您可以檢視 * 安全性與勒索軟體防護 * 小工具中反白顯示的 * 行動 * 、其中會顯示風險計數。</block>
   <block id="e8563fdf2c4612622ba50a5e8cfcb99a" category="list-text">按一下 * 安全性與勒索軟體防護 * 小工具上的 * 行動 * 。</block>
   <block id="4d7b0b036dd7f28233ff7e59c3c1dbf5" category="list-text">清除 *Security 弱點 * 核取方塊。</block>
+  <block id="8ab2cb8f529884d0aa70d068b846421e" category="admonition">只有執行 ONTAP 9.2 及更新版本的系統才支援節點延遲、本機層（ Aggregate ）和 Volume 效能圖表。</block>
+  <block id="fbf668c351539b8a0b137fcc8beb4b5e" category="paragraph">您可以為單一叢集和多個叢集產生自動化的不中斷升級計畫。您可以檢視單一叢集的升級建議、其中包括與叢集相關的風險清單、包含升級前檢查報告、其中包含升級封鎖程式和警告清單、以及新功能和增強功能的相關資訊。升級建議不適用於多個叢集。若要深入瞭解、請參閱 <block ref="41932a416de65dadbc9f715244a32fe5" category="inline-link-macro-rx"></block>。</block>
+  <block id="cd65827c11cd37b34e44b3a7ab206c41" category="list-text">對於執行 ONTAP 9.6 或更舊版本的叢集、您可以在升級建議中檢視有關新功能和增強功能的資訊。升級前檢查報告和風險摘要無法使用、您可以以舊格式產生升級計畫。</block>
+  <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">2024 年 3 月 28 日</block>
+  <block id="888059a12fa3532d54872d17517e780c" category="inline-link-macro">瞭解如何檢視升級建議並產生升級計畫。</block>
+  <block id="9d10674ae163e749f65c1eeb852cdf2b" category="paragraph">升級建議程式的舊版現已過時。您可以使用升級建議程式的增強版本、為單一叢集和多個叢集產生升級計畫。 <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
+  <block id="09e1051fd25e78ca51d5f56f36581890" category="paragraph">升級建議程式已增強、可針對單一叢集和多個叢集、提供自動化的不中斷升級計畫。您只能檢視單一叢集的升級建議、包括風險摘要、升級前檢查報告、以及新功能和增強功能的相關資訊。 <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
+  <block id="cd798e0859b41c1efded8de089ce45b3" category="paragraph">您可以使用 Upgrade Advisor 來檢視符合升級資格或不符合升級資格的叢集清單。您可以檢視合格叢集的升級建議、並產生升級計畫。您可以修正不合格叢集的問題、使其符合升級資格。</block>
 </blocks>

@@ -81,8 +81,6 @@ sidebar:
       url: "/upgrade_advisor_overview.html"
     - title: 為單一叢集和多個叢集產生升級計畫
       url: "/generate_upgrade_plan_single_multiple_clusters.html"
-    - title: 為節點產生升級計畫
-      url: "/task_view_upgrade.html"
   - title: 檢視系統詳細資料
     entries:
     - title: 檢視庫存詳細資料

@@ -20,6 +20,16 @@ summary: 提供版本新功能的相關資訊。
 
 
 
+== 2024 年 3 月 28 日
+
+
+
+=== 升級顧問
+
+升級建議程式的舊版現已過時。您可以使用升級建議程式的增強版本、為單一叢集和多個叢集產生升級計畫。 link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["瞭解如何檢視升級建議並產生升級計畫。"]
+
+
+
 == 2024 年 3 月 15 日
 
 
