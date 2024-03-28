@@ -1,0 +1,3472 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head class="at-element-marker">
+  <title>數位顧問的新功能 | NetApp Documentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="數位顧問的新功能 | NetApp Documentation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/zh-tw/active-iq/reference_new_activeiq.html" />
+	<meta property="og:description" content="提供版本新功能的相關資訊。" />
+  <meta property="og:image" content="https://docs.netapp.com/zh-tw/active-iq/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="提供版本新功能的相關資訊。">
+  <meta name="keywords" content=" what"s new, features, new"><!-- Icons -->
+  <link rel="icon" href="/zh-tw/active-iq/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><link rel="alternate" type="application/rss+xml" title="NetApp Documentation" href="/zh-tw/active-iq/feed.xml"><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/zh-tw/active-iq/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/zh-tw/active-iq/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/zh-tw/active-iq/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/zh-tw/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/active-iq/reference_new_activeiq.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/active-iq/reference_new_activeiq.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-tw/active-iq/js/na-search.js'></script><script src='/zh-tw/active-iq/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/zh-tw/active-iq/js/custom-dropdown.js'></script>
+  <script src='/zh-tw/active-iq/js/FileSaver.min.js'></script>
+  <script src='/zh-tw/active-iq/js/jszip-utils.min.js'></script>
+  <script src='/zh-tw/active-iq/js/jszip.min.js'></script><script src='/zh-tw/active-iq/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/zh-tw/active-iq/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/tw">
+                <image id="ie-header-logo" src="/zh-tw/active-iq/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/support-and-training/documentation/">文件</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --><li id="ie-language-dropdown">
+            <div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+                <div class="custom-dropdown-select custom-dropdown-select-lang">
+                    <img src="/zh-tw/active-iq/images/language_white_24dp.svg" class="n-globe__icon" />
+                    <span class="lang-name">繁體中文</span>
+                    <img src="/zh-tw/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/zh-tw/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu"><li>
+                        <a href="https://docs.netapp.com/zh-tw/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">English</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ja-jp/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">日本語</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ko-kr/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">한국어</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-cn/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/de-de/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/es-es/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">Español</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/fr-fr/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">Français</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/it-it/active-iq/reference_new_activeiq.html"
+                            target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+                    </li></ul>
+            </div>
+            </li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/zh-tw/active-iq/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">所有 NetApp</span>
+                    <img src="/zh-tw/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/zh-tw/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">支援</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">知識庫</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">訓練</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/zh-tw/active-iq/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/zh-tw/active-iq/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">所有文件</a>
+    </li>
+    
+    
+    <li class="">
+      <a href="https://docs.netapp.com/us-en/cloud/">雲端文件</a>
+    </li>
+    
+
+    
+    <li class="">
+      <a href="https://docs.netapp.com/zh-tw/cloud-manager-family/">
+        BlueXP
+      </a>
+    </li>
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/zh-tw/active-iq/">-->
+      Digital Advisor
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/zh-tw/active-iq/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/zh-tw/active-iq/search.html" 
+        data-type="widget"
+        data-placeholder="搜尋說明文件"
+        data-no-results-found="找不到 {query} 的結果"
+        data-did-you-mean="搜尋 {suggestion}。"
+        data-no-results-found-did-you-mean="找不到 {query} 的結果。您的意思是 {suggestion} 嗎？"
+        data-results-found="找到 {hitCount} 個結果"
+        data-error-message="發生錯誤。請再試一次。"
+        data-error-reset="重設搜尋"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="數位顧問文件"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/index.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-tw/active-iq/index.html">
+        數位顧問文件
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="數位顧問與BlueXP整合"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/digital-advisor-integration-with-bluexp.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-tw/active-iq/digital-advisor-integration-with-bluexp.html">
+        數位顧問與BlueXP整合
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="版本資訊"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 版本資訊</div>-->
+         版本資訊
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="新增功能"
+      data-li-level="2#" 
+      class="  ie-sidebar-selected    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/reference_new_activeiq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/reference_new_activeiq.html">
+        新增功能
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="已知限制"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/reference_limitations_activeiq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/reference_limitations_activeiq.html">
+        已知限制
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="開始使用"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 開始使用</div>-->
+         開始使用
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="快速入門"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_getting_started_2.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/concept_getting_started_2.html">
+        快速入門
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="瞭解Digital Advisor功能"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_understand_activeiq_features.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/concept_understand_activeiq_features.html">
+        瞭解Digital Advisor功能
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="主要概念"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_key_terms.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/concept_key_terms.html">
+        主要概念
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="什麼AutoSupport 是呢"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_autosupport.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/concept_autosupport.html">
+        什麼AutoSupport 是呢
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="登入Digital Advisor"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_login_activeiq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_login_activeiq.html">
+        登入Digital Advisor
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="資源配置觀察清單"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 資源配置觀察清單</div>-->
+         資源配置觀察清單
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="總覽"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_overview_dashboard.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/concept_overview_dashboard.html">
+        總覽
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="建立觀察名單"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_add_watchlist.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_add_watchlist.html">
+        建立觀察名單
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="管理觀察名單"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_manage_watchlists.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_manage_watchlists.html">
+        管理觀察名單
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="分析健全屬性"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 分析健全屬性</div>-->
+         分析健全屬性
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="總覽"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_overview_wellness.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/concept_overview_wellness.html">
+        總覽
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="檢視風險並手動採取修正行動"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_risk_and_take_action.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_view_risk_and_take_action.html">
+        檢視風險並手動採取修正行動
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="偵測安全性弱點"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_increase_protection_against_hackers_and_Ransomware_attacks.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html">
+        偵測安全性弱點
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="保護系統免受勒索軟體風險的侵害"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_protect_systems_against_ransomware_risks.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_protect_systems_against_ransomware_risks.html">
+        保護系統免受勒索軟體風險的侵害
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="檢視並確認風險"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_and_acknowledge_risks.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_view_and_acknowledge_risks.html">
+        檢視並確認風險
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="檢視健康歷史"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_wellness_history.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_view_wellness_history.html">
+        檢視健康歷史
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="檢視Active IQ Unified Manager 可透過《不經認證的戰術》或《可執行的戰術》來自動減輕的風險"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_risks_remediated_unified_manager.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_view_risks_remediated_unified_manager.html">
+        檢視Active IQ Unified Manager 可透過《不經認證的戰術》或《可執行的戰術》來自動減輕的風險
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="避免停機和可能的資料遺失"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_avoid_the_downtime_and_possible_data_loss.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_avoid_the_downtime_and_possible_data_loss.html">
+        避免停機和可能的資料遺失
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="訂閱健康審查電子郵件"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_subscribe_to_wellness_review_email.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_subscribe_to_wellness_review_email.html">
+        訂閱健康審查電子郵件
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="更新軟體與硬體"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_renew_software_and_hardware.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_renew_software_and_hardware.html">
+        更新軟體與硬體
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="分析叢集和節點的健全狀況"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_analyze_wellness_clusters_and_nodes.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_analyze_wellness_clusters_and_nodes.html">
+        分析叢集和節點的健全狀況
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="分析儲存系統的永續性"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 分析儲存系統的永續性</div>-->
+         分析儲存系統的永續性
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="瞭解永續發展"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/learn_BlueXP_sustainability.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/learn_BlueXP_sustainability.html">
+        瞭解永續發展
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="存取 Sustainability 儀表板"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/get_started_sustainability_dashboard.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/get_started_sustainability_dashboard.html">
+        存取 Sustainability 儀表板
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="永續性儀表板總覽"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/BlueXP_sustainability_dashboard_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/BlueXP_sustainability_dashboard_overview.html">
+        永續性儀表板總覽
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="改善永續性分數"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/improve_sustainability_score.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/improve_sustainability_score.html">
+        改善永續性分數
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="產生升級計畫"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 產生升級計畫</div>-->
+         產生升級計畫
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="總覽"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/upgrade_advisor_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/upgrade_advisor_overview.html">
+        總覽
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="為單一叢集和多個叢集產生升級計畫"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/generate_upgrade_plan_single_multiple_clusters.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/generate_upgrade_plan_single_multiple_clusters.html">
+        為單一叢集和多個叢集產生升級計畫
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="檢視系統詳細資料"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 檢視系統詳細資料</div>-->
+         檢視系統詳細資料
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="檢視庫存詳細資料"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_inventory_details.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_view_inventory_details.html">
+        檢視庫存詳細資料
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="與Cloud Insights VMware整合以檢視虛擬機器詳細資料"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task-integrating-with-cloud-insights-to-view-vm-details.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task-integrating-with-cloud-insights-to-view-vm-details.html">
+        與Cloud Insights VMware整合以檢視虛擬機器詳細資料
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="檢視寶貴的洞見"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_valuable_insight_widget.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_view_valuable_insight_widget.html">
+        檢視寶貴的洞見
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="檢視Keystone訂閱容量使用率"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/view_keystone_capacity_utilization.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/view_keystone_capacity_utilization.html">
+        檢視Keystone訂閱容量使用率
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="主動識別系統需求"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 主動識別系統需求</div>-->
+         主動識別系統需求
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="總覽"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_overview_planning.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/concept_overview_planning.html">
+        總覽
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="識別容量達到限制的系統"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_identify_capacity_system.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_identify_capacity_system.html">
+        識別容量達到限制的系統
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="避免大量佔用、以避免中斷運作"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_avoid_a_volume_filling_up_to_prevent_an_outage.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_avoid_a_volume_filling_up_to_prevent_an_outage.html">
+        避免大量佔用、以避免中斷運作
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="評估技術更新"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/evaluate-tech-refresh.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/evaluate-tech-refresh.html">
+        評估技術更新
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="更新軟體與硬體"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_renew_software_and_hardware.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_renew_software_and_hardware.html">
+        更新軟體與硬體
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="根據雲端建議做出明智決策"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task-informed-decisions-based-on-cloud-recommendations.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-tw/active-iq/task-informed-decisions-based-on-cloud-recommendations.html">
+        根據雲端建議做出明智決策
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="識別組態差異"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 識別組態差異</div>-->
+         識別組態差異
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="總覽"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_overview_config_drift.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/concept_overview_config_drift.html">
+        總覽
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="新增組態偏移範本"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_add_config_drift_template.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_add_config_drift_template.html">
+        新增組態偏移範本
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="比較組態偏移範本"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_compare_config_drift_template.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_compare_config_drift_template.html">
+        比較組態偏移範本
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="產生飄移時間軸報告"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_generate_drift_timeline_report.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_generate_drift_timeline_report.html">
+        產生飄移時間軸報告
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="管理範本"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_manage_template.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_manage_template.html">
+        管理範本
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="提升儲存系統的效率與效能"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 提升儲存系統的效率與效能</div>-->
+         提升儲存系統的效率與效能
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="分析容量與效率節約效益"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_analyze_storage_efficiency.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_analyze_storage_efficiency.html">
+        分析容量與效率節約效益
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="分析儲存效能"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_performance_graphs.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_view_performance_graphs.html">
+        分析儲存效能
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="分析儲存系統的健全狀況"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 分析儲存系統的健全狀況</div>-->
+         分析儲存系統的健全狀況
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="總覽"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_understand_health_check_dashboard.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/concept_understand_health_check_dashboard.html">
+        總覽
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="健全狀況檢查儀表板入門"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_get_started_with_health_check_dashboard.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/concept_get_started_with_health_check_dashboard.html">
+        健全狀況檢查儀表板入門
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="續約您的支援合約"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_renew_support_contracts_for_your_systems.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_renew_support_contracts_for_your_systems.html">
+        續約您的支援合約
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="升級以最佳化安裝基礎"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 升級以最佳化安裝基礎</div>-->
+         升級以最佳化安裝基礎
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="升級支援服務"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_upgrade_support_offering.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_upgrade_support_offering.html">
+        升級支援服務
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用Ansible教戰手冊更新AFF 您的功能性和FAS 功能性的韌體"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 使用Ansible教戰手冊更新AFF 您的功能性和FAS 功能性的韌體</div>-->
+         使用Ansible教戰手冊更新AFF 您的功能性和FAS 功能性的韌體
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="下載AFF 《Ansible FAS Automation套件》的《更新與更新》韌體"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_update_AFF_FAS_firmware.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/zh-tw/active-iq/task_update_AFF_FAS_firmware.html">
+        下載AFF 《Ansible FAS Automation套件》的《更新與更新》韌體
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="安裝並執行AFF 不FAS 受限的Automation套件（經驗豐富的使用者）"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_install_execute_firmware_update_exp_user.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/zh-tw/active-iq/task_install_execute_firmware_update_exp_user.html">
+        安裝並執行AFF 不FAS 受限的Automation套件（經驗豐富的使用者）
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="安裝並執行AFF 不FAS 受限的Automation套件（初學者）"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-3  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 安裝並執行AFF 不FAS 受限的Automation套件（初學者）</div>-->
+         安裝並執行AFF 不FAS 受限的Automation套件（初學者）
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用Web伺服器來裝載韌體檔案"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_hosting_firmware_files_using_web_server.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/zh-tw/active-iq/task_hosting_firmware_files_using_web_server.html">
+        使用Web伺服器來裝載韌體檔案
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用Inventory檔案"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_working_with_inventory_file.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/zh-tw/active-iq/concept_working_with_inventory_file.html">
+        使用Inventory檔案
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用NetApp Docker映像執行Ansible教戰手冊"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_execute_ansible_playbook_using_docker.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/zh-tw/active-iq/task_execute_ansible_playbook_using_docker.html">
+        使用NetApp Docker映像執行Ansible教戰手冊
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="執行不含Docker的可執行教戰手冊"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_execute_ansible_playbook_without_docker.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/zh-tw/active-iq/task_execute_ansible_playbook_without_docker.html">
+        執行不含Docker的可執行教戰手冊
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="驗證韌體安裝"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_validate_firmware_installation.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/zh-tw/active-iq/task_validate_firmware_installation.html">
+        驗證韌體安裝
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="疑難排解、意見反應與支援"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/reference_ansible_troubleshoot_feedback_support.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/zh-tw/active-iq/reference_ansible_troubleshoot_feedback_support.html">
+        疑難排解、意見反應與支援
+      </a></li></ul></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用API整合資料"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 使用API整合資料</div>-->
+         使用API整合資料
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="總覽"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_overview_API_service.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/concept_overview_API_service.html">
+        總覽
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="產生權杖以存取API"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_generate_tokens_API_services.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_generate_tokens_API_services.html">
+        產生權杖以存取API
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用API目錄來執行API"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_view_API_catalog.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_view_API_catalog.html">
+        使用API目錄來執行API
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="產生自訂報告"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/active-iq/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/active-iq/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 產生自訂報告</div>-->
+         產生自訂報告
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="報告類型"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_report_types.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/concept_report_types.html">
+        報告類型
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="產生報告"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/task_generate_reports.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/active-iq/task_generate_reports.html">
+        產生報告
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="常見問題集"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="reference_aiq_faq.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-tw/active-iq/reference_aiq_faq.html">
+        常見問題集
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="取得更多資訊"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/concept_get_more_information.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-tw/active-iq/concept_get_more_information.html">
+        取得更多資訊
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="法律聲明"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_activeiq.html" 
+      dale-entry-url="/legal-notices.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-tw/active-iq/legal-notices.html">
+        法律聲明
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/zh-tw/active-iq"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/zh-tw/active-iq"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <img src="/zh-tw/active-iq/images/notification-icons.svg" class="luci-icon" alt="" />
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> 本繁體中文版使用機器翻譯，譯文僅供參考，若與英文版本牴觸，應以英文版本為準。 </span>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </span>
+  </div><div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">數位顧問的新功能</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2024-03-28 11:10:06 +0000">03/28/2024</time>
+        
+    
+    
+        <span>貢獻者
+        </span>
+    
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/zh-tw/active-iq/images/discuss-sm.svg" alt="" class="github-icon" />建議變更</span>
+        <img src="/zh-tw/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/zh-tw/active-iq/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/active-iq.zh-tw/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/zh-tw/active-iq/reference_new_activeiq.html&page-title=數位顧問的新功能" class="page-nav-contribute-link" role="button">請求文件變更</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/active-iq/blob/main/reference_new_activeiq.adoc" class="page-nav-contribute-link" role="button">編輯本頁</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >瞭解如何貢獻</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>PDF<img src="/zh-tw/active-iq/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/zh-tw/active-iq/pdfs/fullsite-sidebar/數位顧問文件.pdf" >
+                    <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>此文件 PDF 的網站</a>
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/版本資訊.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            版本資訊
+          </a>
+          
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/開始使用.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            開始使用
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/資源配置觀察清單.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            資源配置觀察清單
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/分析健全屬性.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            分析健全屬性
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/分析儲存系統的永續性.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            分析儲存系統的永續性
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/產生升級計畫.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            產生升級計畫
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/檢視系統詳細資料.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            檢視系統詳細資料
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/主動識別系統需求.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            主動識別系統需求
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/識別組態差異.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            識別組態差異
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/提升儲存系統的效率與效能.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            提升儲存系統的效率與效能
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/分析儲存系統的健全狀況.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            分析儲存系統的健全狀況
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/升級以最佳化安裝基礎.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            升級以最佳化安裝基礎
+          </a>
+          
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/使用Ansible教戰手冊更新AFF_您的功能性和FAS_功能性的韌體.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            使用Ansible教戰手冊更新AFF 您的功能性和FAS 功能性的韌體
+          </a>
+          
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/安裝並執行AFF_不FAS_受限的Automation套件_初學者_.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            安裝並執行AFF 不FAS 受限的Automation套件（初學者）
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/使用API整合資料.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            使用API整合資料
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/active-iq/pdfs/sidebar/產生自訂報告.pdf" 
+            
+          >
+            <img src="/zh-tw/active-iq/images/pdf-icon.png" alt="" width="16" height="16"/>
+            產生自訂報告
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/zh-tw/active-iq/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>個別的 PDF 文件集合<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>數位顧問提供下列功能與增強功能：</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2024-年-3-月-28-日">2024 年 3 月 28 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="升級顧問">升級顧問</h3>
+<div class="paragraph">
+<p>升級建議程式的舊版現已過時。您可以使用升級建議程式的增強版本、為單一叢集和多個叢集產生升級計畫。 <a href="https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html">"瞭解如何檢視升級建議並產生升級計畫。"</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2024-年-3-月-15-日">2024 年 3 月 15 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健康">健康</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Wellness 工作流程現在包含 Sustainability 小工具、可在客戶、報價表、網站和群組層級提供建議動作的數量。您可以按一下動作數目、在 Sustainability 儀表板上詳細檢視這些建議動作。若要深入瞭解、請參閱 <a href="https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html">"分析儲存系統的永續性"</a>。</p>
+</li>
+<li>
+<p>Wellness 工作流程中的安全漏洞和勒索軟體防禦小工具合併為單一小工具、現在稱為 Security &amp; 勒索軟體防禦。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全狀況檢查儀表板">健全狀況檢查儀表板</h3>
+<div class="paragraph">
+<p>技術案例的時間表已經過強化、可檢視 6 或 12 個月的完整案例記錄。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2024-年-2-月-29-日">2024 年 2 月 29 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="觀察名單">觀察名單</h3>
+<div class="paragraph">
+<p>您現在可以根據 Keystone 訂閱號碼建立報價表、並使用訂閱號碼或報價表名稱的前三個字元來搜尋 Keystone 訂閱。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2024-年-2-月-8-日">2024 年 2 月 8 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="永續發展儀表板">永續發展儀表板</h3>
+<div class="paragraph">
+<p>您現在可以使用直接存取預設儀表板或報價表的 Sustainability 計量 <a href="https://activeiq.netapp.com/redirect/sustainability" target="_blank" rel="noopener">"永續發展儀表板"</a> 連結：</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="clusterviewer">ClusterViewer</h3>
+<div class="paragraph">
+<p>您現在可以在「磁碟摘要」區段中檢視磁碟 RPM 資訊、此區段可在「儲存」索引標籤和 ClusterViewer 報告中找到。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2024-年-1-月-3-日">2024 年 1 月 3 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="升級顧問-2">升級顧問</h3>
+<div class="paragraph">
+<p>升級建議程式已增強、可針對單一叢集和多個叢集、提供自動化的不中斷升級計畫。您只能檢視單一叢集的升級建議、包括風險摘要、升級前檢查報告、以及新功能和增強功能的相關資訊。 <a href="https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html">"瞭解如何檢視升級建議並產生升級計畫。"</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023-年-11-月-16-日">2023 年 11 月 16 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="觀察名單-2">觀察名單</h3>
+<div class="paragraph">
+<p>現在您最多可以建立 100 個觀察名單。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="規劃-widget">規劃 Widget</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>技術更新建議現在可在觀察清單、網站和群組儀表板中找到。</p>
+</li>
+<li>
+<p>當技術更新建議數量為零時、您現在可以檢視潛在的技術更新候選項目。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023-年-10-月-4-日">2023 年 10 月 4 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="規劃-widget-2">規劃 Widget</h3>
+<div class="paragraph">
+<p>技術更新建議計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023-年-9-月-27-日">2023 年 9 月 27 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="升級顧問-3">升級顧問</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>您可以使用存取預設報價表的 Upgrade Advisor 頁面 <a href="https://activeiq.netapp.com/redirect/upgrade-advisor" target="_blank" rel="noopener">"升級顧問"</a> 連結：</p>
+</li>
+<li>
+<p>升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 <a href="https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html">"瞭解如何產生及檢視升級計畫"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023-年-7-月-16-日">2023 年 7 月 16 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="儲存效率">儲存效率</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>顯示效率比率的標籤 * 儲存效率 * 會重新命名為 * 資料減量 * 。</p>
+</li>
+<li>
+<p>標籤 * 儲存效率所儲存的資料 * 會重新命名為 * 資料減量節省 * 。</p>
+</li>
+<li>
+<p>切換「不使用 Snapshot 備份的節省」 * 會重新命名為 * 使用 Snapshot Copies * 、並變更其功能。 <a href="https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency">"深入瞭解"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023-年-6-月-21-日">2023 年 6 月 21 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="永續發展儀表板-2">永續發展儀表板</h3>
+<div class="paragraph">
+<p>永續性儀表板提供寶貴的見解、讓您深入瞭解儲存系統的環境永續性。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <a href="https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html">"深入瞭解"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023年2月22日">2023年2月22日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="效能圖表">效能圖表</h3>
+<div class="paragraph">
+<p>您可以在Volume IOPS圖表中檢視平均讀取、寫入及其他作業。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="儲存效率-2">儲存效率</h3>
+<div class="paragraph">
+<p>SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10》及更新版本的各種系統、包括AFF ：VMware、AFF VMware、VMware ONTAP 、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023年1月12日">2023年1月12日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="效能報告">效能報告</h3>
+<div class="paragraph">
+<p>您可以在磁碟區層級的效能報告中檢視平均讀取、寫入及其他作業。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年11月1日">2022年11月1日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="與bluexp整合的數位顧問">與BlueXP整合的數位顧問</h3>
+<div class="paragraph">
+<p>目前、NetApp的統一化管理主控台已改為Digital Advisor、並已整合至適用於混合式多雲端環境的BlueXP。Active IQ Digital Advisor <a href="https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html">"深入瞭解"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年8月25日">2022年8月25日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="庫存">庫存</h3>
+<div class="paragraph">
+<p>VMware資產的vCenter、ESXi主機和虛擬機器相關資訊現已包含在詳細目錄中、以提供完整的堆疊庫存和互通性檢查。 <a href="https://docs.netapp.com/us-en/active-iq/task-integrating-with-cloud-insights-to-view-vm-details.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="多跳升級">多跳升級</h3>
+<div class="paragraph">
+<p>對於非鄰近版本的自動不中斷升級（andu）、您可以安裝中間版本和目標版本的軟體映像。自動化升級程序會使用背景中的中繼映像來完成目標版本的更新。例如、如果叢集執行9.3且您想升級至9.7、則會載入ONTAP 9.5和9.7的版次安裝套件、然後啟動andu至9.7。然後、將叢集先自動升級至9.5、再升級至9.7。ONTAP您應預期在程序期間會有多個接管/恢復作業及相關的重新開機。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年7月14日">2022年7月14日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全狀況檢查儀表板-2">健全狀況檢查儀表板</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>您現在可以在Cloud Volumes ONTAP 「健全狀況檢查儀表板」中檢視針對各種系統所建立的技術案例詳細資料。</p>
+</li>
+<li>
+<p>新增了平台索引標籤、可協助您輕鬆瀏覽不同平台的KPI。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="e系列系統">E系列系統</h3>
+<div class="paragraph">
+<p>您可以SANtricity 在建議的版本和健全狀況檢查KPI中檢視版本的支援。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康-2">健康</h3>
+<div class="paragraph">
+<p>引進色彩編碼、可快速輕鬆地識別不需要任何軟體或韌體版本升級的系統。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="升級工作流程">升級工作流程</h3>
+<div class="paragraph">
+<p>您現在可以檢視E系列系統的升級建議。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年6月22日">2022年6月22日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid">StorageGRID</h3>
+<div class="paragraph">
+<p>Grid檢視器中已包含資訊生命週期管理（ILM）for StorageGRID the功能。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="雲端建議">雲端建議</h3>
+<div class="paragraph">
+<p>提供工作負載及其各自磁碟區的建議、這些工作負載及磁碟區可透過Cloud Volumes ONTAP SnapMirror資料複寫移至NetApp還原、NetApp Cloud Volumes Service 還原及NetApp雲端備份（先前AltaVault 稱為「還原」）。 <a href="https://docs.netapp.com/us-en/active-iq/task-informed-decisions-based-on-cloud-recommendations.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="報告">報告</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>您現在可以使用為已產生報告所定義的準則來產生報告。</p>
+</li>
+<li>
+<p>您現在可以嘗試3次、重試產生失敗的報告。</p>
+</li>
+<li>
+<p>所產生報告的保留期間已從3天增加至90天。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年6月1日">2022年6月1日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="庫存-2">庫存</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>您現在可以檢視庫存中系統的銷售代表資訊。</p>
+</li>
+<li>
+<p>Astra Control Center系統現已在庫存中提供。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年5月12日">2022年5月12日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid-2">StorageGRID</h3>
+<div class="paragraph">
+<p>其他容量指標會包含在StorageGRID 「能力與容量報告」中。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="clusterviewer-2">ClusterViewer</h3>
+<div class="paragraph">
+<p>叢集的SnapMirror（資料保護）摘要現已包含在ClusterViewer中。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="升級工作流程-2">升級工作流程</h3>
+<div class="paragraph">
+<p>您現在可以使用升級工作流程來檢視升級建議、以及目標E系列版本中可用的新功能摘要。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康-3">健康</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Ansible教戰手冊已經過強化、可降低軟體組態風險。</p>
+</li>
+<li>
+<p>篩選條件已整合至健全狀況行動與風險中。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年4月7日">2022年4月7日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健康-4">健康</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>針對最新作業系統版本和「6個月」支援合約與支援結束KPI的關鍵建議評分已降低、以符合解決的減少急迫性。</p>
+</li>
+<li>
+<p>遠端管理和 HA 配對（建議組態）的主要建議事項已更新，納入了 NetApp 支援網站的 URL，以供客戶自助服務使用。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年3月31日">2022年3月31日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid-3">StorageGRID</h3>
+<div class="paragraph">
+<p>您可以在網格檢視器中檢視租戶和鏟斗的相關資訊。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年3月24日">2022年3月24日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全狀況檢查儀表板-3">健全狀況檢查儀表板</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>健全狀況評估執行摘要PPT的增強功能與錯誤修正。</p>
+</li>
+<li>
+<p>能夠產生最低建議版本升級計畫。</p>
+</li>
+<li>
+<p>健全狀況檢查區塊的增強功能、可識別每個KPI需要注意的節點數量。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="storagegrid-4">StorageGRID</h3>
+<div class="paragraph">
+<p>您可以在網格檢視器中檢視網格組態詳細資料。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="藍圖">藍圖</h3>
+<div class="paragraph">
+<p>BlueXP使用者現在可以在新的索引標籤中開啟「數位顧問」連結（如適用）、類似於數位顧問的現有功能。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年1月12日">2022年1月12日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="設定飄移">設定飄移</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>您可以複製範本以複製原始範本。</p>
+</li>
+<li>
+<p>您可以透過唯讀或完整存取這些範本的權限、與其他獲授權的使用者共用黃金範本。<br>
+<a href="https://docs.netapp.com/us-en/active-iq/task_manage_template.html">"瞭解方法"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年12月15日">2021年12月15日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="報告-2">報告</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>叢集檢視器報告</strong>：此報告提供客戶與報價表層級的單一叢集或多個叢集相關資訊。您可以使用ClusterViewer報告、將所有資訊下載到單一檔案中。您只能針對最多100個節點的觀察清單產生此報告。</p>
+</li>
+<li>
+<p><strong>效能報告</strong>：此報告以單一壓縮檔提供叢集、節點、本機層級（Aggregate）和磁碟區效能的詳細資訊。每個壓縮檔都包含單一叢集的效能資料、有助於使用者分析每個叢集的資料。您只能針對最多100個節點的觀察清單產生此報告。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="與e系列系統整合">與E系列系統整合</h3>
+<div class="paragraph">
+<p>您可以在Digital Advisor中檢視所選E系列系統的容量詳細資料和效能圖表。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年11月18日">2021年11月18日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="儲存效率-3">儲存效率</h3>
+<div class="paragraph">
+<p>您可以檢視由NetApp Cloud Insights 資源中心維護及監控之節點的儲存效率詳細資料。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年11月11日">2021年11月11日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全狀況檢查儀表板-4">健全狀況檢查儀表板</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>新增的圖示位於「Health Check（狀況檢查）」區塊、僅適用於裝有SupportEdge Advisor 支援功能的系統SupportEdge Expert 。我們已針對「建議的軟體-軟體貨幣和韌體貨幣」區段、「建議的組態」和「最佳實務做法」進行增強。</p>
+</li>
+<li>
+<p>在「Digital Advisor–Reports」（數位顧問–報告）畫面上新增了適用於內部和外部（客戶和合作夥伴）使用者的機密資料橫幅。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全狀況與升級小工具">健全狀況與升級小工具</h3>
+<div class="paragraph">
+<p>在「Wellness Action History（健康行動記錄）」欄中新增E系列升級建議和風險觸發日期、以強化儀表板。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="clusterviewer-3">ClusterViewer</h3>
+<div class="paragraph">
+<p>ClusterViewer堆疊視覺化模組已經過強化、可納入「放大/縮小及儲存映像」功能。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="儲存效率-4">儲存效率</h3>
+<div class="paragraph">
+<p>您可以檢視由NetApp Cloud Insights 執行維護與監控之系統的儲存效率詳細資料。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年10月14日">2021年10月14日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="可ansible-inventory">可Ansible Inventory</h3>
+<div class="paragraph">
+<p>您現在可以在區域和站台層級產生.yml和.ini檔案格式的Ansible庫存檔案。 <a href="https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="非作用中資料報告印尼盾">非作用中資料報告（印尼盾）</h3>
+<div class="paragraph">
+<p>在「功能性顧問」畫面中、您可以啟動非作用中的資料報告（IDR）來監控Aggregate並產生可執行的教戰手冊。FabricPool</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="飄移時間軸報告">飄移時間軸報告</h3>
+<div class="paragraph">
+<p>您可以比較AutoSupport 過去90天的資料不完整、並產生飄移時間軸報告。 <a href="https://docs.netapp.com/us-en/active-iq/task_generate_drift_timeline_report.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="符合法規的系統切換">符合法規的系統切換</h3>
+<div class="paragraph">
+<p>健全狀況檢查儀表板已透過「最小作業系統」和「最新作業系統」索引標籤的切換功能增強、因此您可以檢視符合建議和最新版本最低要求且不符合要求的系統。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="重要建議摘要">重要建議摘要</h3>
+<div class="paragraph">
+<p>在「健全狀況檢查」儀表板上、您可以檢視前5大主要建議摘要。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="適用於netapp-cloud-volumes-ontap-的選項卡和e系列平台">適用於NetApp Cloud Volumes ONTAP 的選項卡和E系列平台</h3>
+<div class="paragraph">
+<p>健全狀況檢查儀表板已透過Cloud Volumes ONTAP 更新功能的支援功能、可讓您檢視這些平台的健全狀況檢查KPI和詳細資料。</p>
+</div>
+<div class="paragraph">
+<p>此外ONTAP 、我們也新增了「支援」索引標籤、以及其他平台、這些平台現在已啟用。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="容量">容量</h3>
+<div class="paragraph">
+<p>您可以在Cloud Volumes ONTAP Digital Advisor中檢視NetApp的容量詳細資料。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="報告-3">報告</h3>
+<div class="paragraph">
+<p>報告時程已延長至12個月。排程報告即將到期時、您也會收到通知。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年9月30日">2021年9月30日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="客戶合格版本">客戶合格版本</h3>
+<div class="paragraph">
+<p>客戶合格版本可協助支援客戶經理（SAM）管理客戶安裝基礎的一部分、其中裝載了需要下列條件的應用程式：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>較早且有時不受支援的ONTAP 版本的不支援</p>
+</li>
+<li>
+<p>或客戶的安裝基礎已通過測試和認證、可使用特定作業系統版本。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="技術案例工作流程">技術案例工作流程</h3>
+<div class="paragraph">
+<p>在儀表板和向下切入畫面中、資料圖表和折線圖都有圖形增強功能。您也可以選擇在長條圖中檢視該資料。在折線圖視窗中、您可以檢視、選取及取消選取這兩個使用者介面中的「開啟」、「關閉」和「個案總數」圖表。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="效能圖表-2">效能圖表</h3>
+<div class="paragraph">
+<p>除了CSV格式之外、您現在也可以下載PNG和JPG格式的效能圖表。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="超過12個月的終止支援eos控制器">超過12個月的終止支援（EOS）控制器</h3>
+<div class="paragraph">
+<p>健全狀況檢查儀表板的索引標籤已增強、顯示EOS超過12個月的控制器。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年9月16日">2021年9月16日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健康-5">健康</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>勒索軟體防禦小工具現在是Wellness工作流程的一部分、而非獨立式小工具。</p>
+</li>
+<li>
+<p>在Wellness Review電子郵件中、您會看到勒索軟體防禦的相關資訊、而非續約。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="容量-2">容量</h3>
+<div class="paragraph">
+<p>您可以在ONTAP Digital Advisor中檢視NetApp SolidW®Select系統的容量詳細資料。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="clusterviewer-4">ClusterViewer</h3>
+<div class="paragraph">
+<p>您可以在ClusterViewer的「視覺化」索引標籤中檢視纜線故障和其他錯誤。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年9月6日">2021年9月6日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid-5">StorageGRID</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>檢視AutoSupport 功能：檢視AutoSupport 有關功能不全及基礎節點的資訊。StorageGRID</p>
+</li>
+<li>
+<p>《產品介紹：檢視有關應用程式的詳細資料、例如節點類型、應用裝置機型、磁碟機大小、磁碟機類型、RAID模式、StorageGRID StorageGRID 網格檢視器-網格資源清冊區段中的其他項目。</p>
+</li>
+<li>
+<p>續約：檢視應續約的網格清單和基礎節點。</p>
+</li>
+<li>
+<p>E系列SANtricity 產品不含風險：在SANtricity Grid Dashboard - Wellness區段中檢視基礎節點的E系列產品不含風險。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="容量預測">容量預測</h3>
+<div class="paragraph">
+<p>容量預測小工具已更新為改良的演算法、可更妥善地因應系統重新組態。 <a href="https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#capacity">"深入瞭解"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年8月26日">2021年8月26日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="數位顧問行動應用程式">數位顧問行動應用程式</h3>
+<div class="paragraph">
+<p>您現在可以在Digital Advisor行動應用程式上啟用生物特徵驗證。驗證可用的選項會因手機支援的功能而有所不同。</p>
+</div>
+<div class="paragraph">
+<p>下載應用程式以深入瞭解：<a href="https://play.google.com/store/apps/details?id=com.netapp.myautosupport" target="_blank" rel="noopener">"數位顧問行動應用程式（Android）"</a><br>
+<a href="https://apps.apple.com/us/app/active-iq/id1230542480" target="_blank" rel="noopener">"數位顧問行動應用程式（iOS）"</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康-6">健康</h3>
+<div class="paragraph">
+<p>健全狀況小工具已透過勒索軟體的「防衛」屬性增強。您現在可以檢視勒索軟體偵測、預防及恢復的相關風險和修正行動。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年8月16日">2021年8月16日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健康審查">健康審查</h3>
+<div class="paragraph">
+<p>您現在可以產生隨需報告。此外、您也可以從Wellness Review訂閱畫面下載上次排程的報告。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="庫存-3">庫存</h3>
+<div class="paragraph">
+<p>在Grid Inventory（網格清單）選項卡中、您現在可以根據站台層級、以可擴充且可摺疊的格式來檢視節點詳細資料。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="混合模式叢集旗標">混合模式叢集旗標</h3>
+<div class="paragraph">
+<p>如果叢集有混合式硬體模型、則在叢集上套用的OS版本是所有節點都能使用的版本。因此、較新硬體機型的某些節點作業系統版本可能會從應該的位置縮減。為了讓這些混合模型叢集更為可見、我們已套用「混合模式」圖示。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="建議的組態儲存虛擬機器svm健全狀況volume層級摘要">建議的組態/儲存虛擬機器（SVM）健全狀況：Volume層級摘要</h3>
+<div class="paragraph">
+<p>按一下SVM表格中的藍色「Volume Summary」（Volume摘要）方塊後、會出現「快顯」視窗、顯示有關主控或附加至特定序號或實體節點之磁碟區的詳細資訊。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年7月12日">2021年7月12日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="系統韌體">系統韌體</h3>
+<div class="paragraph">
+<p>您現在可以檢視系統韌體的相關資訊、這些資訊會隨ONTAP 附於主要版本和修補程式版本的資訊。您可以從「快速連結」功能表存取此功能。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全狀況檢查儀表板-5">健全狀況檢查儀表板</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>健全狀況檢查儀表板已經過強化、加入藍色橫幅、通知使用者SupportEdge Advisor 在SupportEdge Expert 計算健全狀況分數時、不會將不受支援的系統納入考量。</p>
+</li>
+<li>
+<p>建議的組態Widget已經過強化、可針對儲存VM（SVM）的失敗檢查提供深入分析、並可針對每個風險採取建議的修正行動。</p>
+</li>
+<li>
+<p>對於ONTAP 使用不同硬體機型設定的叢集中的所有節點、建議的目標版本現在都相同。所有節點均支援目標版本。</p>
+</li>
+<li>
+<p>您現在可以透過購買PVR來延長控制器、磁碟和磁碟櫃的EOS時程。購買時可在支援結束小工具中檢視PVR日期和延長詳細資料。PVR詳細資料也會在EOSL報告中提供。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="庫存-4">庫存</h3>
+<div class="paragraph">
+<p>您可以在詳細目錄頁面上檢視硬體、軟體及不可回收磁碟的支援合約終止日期。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="支援服務升級">支援服務升級</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>使用者介面已經過增強、可顯示您在Digital Advisor中訂閱的特定支援服務項目。</p>
+</li>
+<li>
+<p>您現在可以從系統儀表板提出升級支援服務訂閱的申請、以存取更多功能。 <a href="https://docs.netapp.com/us-en/active-iq/task_upgrade_support_offering.html">"瞭解方法"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年6月25日">2021年6月25日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="keystone訂閱小工具">Keystone訂閱小工具</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>如果您已選擇ONTAP 使用「資源收集器」取得容量使用量的資料、您可以在「共用和磁碟」索引標籤中檢視檔案共用和磁碟的詳細資料。您可以識別即將提交容量的儲存空間、以節省儲存空間。</p>
+</li>
+<li>
+<p>Keystone -容量使用率儀表板上顯示並用於計費的容量使用量、現在是根據邏輯容量來決定。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年6月17日">2021年6月17日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="報告-4">報告</h3>
+<div class="paragraph">
+<p>您現在可以針對儲存VM中的所有Volume、針對任何日期、週或月產生彙總Volume效能報告。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康審查電子郵件">健康審查電子郵件</h3>
+<div class="paragraph">
+<p>健康審查電子郵件已增強功能、可納入健康檢查和升級行動所提供的支援和授權資訊。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="升級工作流程-3">升級工作流程</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>使用者介面已經過增強、可提供資訊的表格檢視。</p>
+</li>
+<li>
+<p>您現在可以在ONTAP 「Upgrade Details」（升級詳細資料）畫面中、檢視有關停止支援的資訊。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="設定飄移-2">設定飄移</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Config Drivft現在支援200多AutoSupport 個功能區段、可建立黃金範本、並在客戶、站台、群組、觀察清單、叢集、 和主機。</p>
+</li>
+<li>
+<p>組態飄移可讓您使用組態飄移報告有效負載中所含的Ansible教戰手冊來降低差異。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全狀況檢查儀表板-6">健全狀況檢查儀表板</h3>
+<div class="paragraph">
+<p>此功能已經過強化、可比較您的儲存VM（SVM）與預先定義的風險目錄、以評估落差並建議相關的修正行動。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年6月9日">2021年6月9日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全狀況檢查儀表板-7">健全狀況檢查儀表板</h3>
+<div class="paragraph">
+<p>您現在可以檢視根據其計算健全狀況分數的系統數量。此增強功能適用於「狀況檢查儀表板」中的所有屬性。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年5月20日">2021年5月20日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="針對容量新增要求使用飄移聊天室">針對容量新增要求使用「飄移聊天室」</h3>
+<div class="paragraph">
+<p>如需容量新增要求的即時協助、請直接從儀表板與銷售人員交談。 <a href="https://docs.netapp.com/us-en/active-iq/task_identify_capacity_system.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年4月29日">2021年4月29日</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>以下說明如何保護您的系統免受駭客和勒索軟體攻擊。 <a href="https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html">"瞭解方法"</a>。</p>
+</li>
+<li>
+<p>您可以避免停機和可能的資料遺失。 <a href="https://docs.netapp.com/us-en/active-iq/task_avoid_the_downtime_and_possible_data_loss.html">"瞭解方法"</a>。</p>
+</li>
+<li>
+<p>瞭解如何避免容量滿溢、以避免中斷運作。 <a href="https://docs.netapp.com/us-en/active-iq/task_avoid_a_volume_filling_up_to_prevent_an_outage.html">"瞭解方法"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年4月7日">2021年4月7日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="觀察名單-3">觀察名單</h3>
+<div class="paragraph">
+<p>第一次存取Digital Advisor時、您現在應該建立觀察清單、而非儀表板。您也可以檢視不同觀察名單的儀表板、編輯現有觀察名單的詳細資料、以及刪除觀察名單。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年2月24日">2021年2月24日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="設定飄移-3">設定飄移</h3>
+<div class="paragraph">
+<p>此版本提供下列功能：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>可在建立範本期間編輯屬性。</p>
+</li>
+<li>
+<p>將各個部分分組AutoSupport 。</p>
+</li>
+<li>
+<p>在客戶、站台、群組、觀察清單、叢集、 和主機名稱。 <a href="https://docs.netapp.com/us-en/active-iq/task_compare_config_drift_template.html">"瞭解方法"</a>。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="報告-5">報告</h3>
+<div class="paragraph">
+<p>您可以產生或排程容量與效率報告、以檢視系統容量與儲存效率節約效益的詳細資訊。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年2月10日">2021年2月10日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid-6">StorageGRID</h3>
+<div class="paragraph">
+<p>使用NextGen API架構啟用「支援資訊儀表板」StorageGRID 。</p>
+</div>
+<div class="paragraph">
+<p>您可以使用StorageGRID 「報價單」儀表板來檢視報價表、客戶、群組和站台層級的資訊。</p>
+</div>
+<div class="paragraph">
+<p>此版本提供下列功能：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>*詳細目錄小工具：*檢視StorageGRID 所選層級下可用的各種系統資源清冊。</p>
+</li>
+<li>
+<p>*健全狀況小工具：*根據StorageGRID 現有的可用系統ARS規則、檢視所有風險與行動、包括與之相關的風險與行動。</p>
+</li>
+<li>
+<p><strong>規劃小工具：</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>*新增容量：*若網格站台超過現有容量70%的臨界值、您將會收到通知。如果容量臨界值可能超過70%、您可以在未來1、3和6個月內、為站台的StorageGRID新增容量。</p>
+</li>
+<li>
+<p><strong>續約：</strong> StorageGRID 若授權合約已到期或即將在未來6個月內到期、您將會收到通知。您可以選取一或多個系統、向NetApp支援團隊提出續約申請。</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>*網格儀表板：*網格儀表板提供所選網格的健全狀況、規劃及組態詳細資料。</p>
+</li>
+<li>
+<p>*組態小工具：*提供StorageGRID 小工具中所選功能的基本詳細資料、例如網格名稱、主機名稱、序號、型號、作業系統版本、 客戶名稱、出貨地點及聯絡詳細資料。</p>
+</li>
+<li>
+<p>*網格檢視器：*在*組態*小工具中、您可以按一下*網格檢視器*連結來檢視網格組態的詳細資料。在*組態*小工具中、StorageGRID 按一下*網格檢視器*畫面中的*下載*按鈕、即可下載所選的「站台詳細資料」和「容量詳細資料」。</p>
+</li>
+<li>
+<p>*站台詳細資料：*此索引標籤提供每個站台可用的網格摘要和儲存節點。</p>
+</li>
+<li>
+<p>*網格摘要：*包含基本資訊、例如授權類型、授權容量、已安裝節點數量、支援期限（授權合約終止日期）、主要管理節點和主要管理節點的主要站台。此索引標籤也會提供站台名稱、以及在對應站台下標記的儲存節點數量。在此版本中、按一下可檢視對應站台儲存節點的超連結、即可檢視節點名稱清單。</p>
+</li>
+<li>
+<p>*容量詳細資料索引標籤：*提供為網格設定的網格層級和網站容量詳細資料。容量詳細資料、例如已安裝的儲存容量、可用儲存容量、已用儲存容量總計、以及用於資料和中繼資料的容量。網格和站台層級均提供這些詳細資料。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="資訊顧問fabricpool">資訊顧問FabricPool</h3>
+<div class="paragraph">
+<p>「階層資料」按鈕已新增至FabricPool 「階層資料」儀表板、可讓您使用NetApp BlueXP將資料分層至低成本的物件儲存層。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="雲端就緒工作負載">雲端就緒工作負載</h3>
+<div class="paragraph">
+<p>您可以檢視儲存系統內可用的不同工作負載類型、並識別雲端就緒的工作負載。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年12月21日">2020年12月21日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全狀況檢查儀表板-8">健全狀況檢查儀表板</h3>
+<div class="paragraph">
+<p>儀表板已新增下列小工具：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>建議軟體：此小工具提供所有軟體和韌體升級的合併清單、以及建議的貨幣。</p>
+</li>
+<li>
+<p>訊號遺失：此小工具提供有關系統的分數和資訊、AutoSupport 這些系統因為某些原因而停止傳送某些資訊。如果AutoSupport 在7天內未從主機名稱接收到任何非功能性資料、則會提供相關資訊。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年11月12日">2020年11月12日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="使用api整合資料">使用API整合資料</h3>
+<div class="paragraph">
+<p>您可以使用數位顧問API來提取感興趣的資料、並將其直接整合到貴公司的工作流程中。 <a href="https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html">"深入瞭解"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全狀況-升級小工具">健全狀況-升級小工具</h3>
+<div class="paragraph">
+<p>增強的Risk Advisor和Upgrade Advisor索引標籤可讓您檢視所有系統風險、並協助您規劃升級以降低所有風險。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全狀況檢查儀表板-9">健全狀況檢查儀表板</h3>
+<div class="paragraph">
+<p>建議的組態Widget已新增至儀表板、並提供遠端管理風險、備援磁碟機和故障磁碟機風險以及HA配對風險所監控的系統數量摘要。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="資訊顧問fabricpool-2">資訊顧問FabricPool</h3>
+<div class="paragraph">
+<p>您可以監控叢集、將其分為四類：非作用中的本機層（Aggregate）資料、非作用中磁碟區資料、階層式資料、以及未啟用印尼盾的資料、藉此減少儲存佔用空間及相關成本。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="簡體中文和日文的本地化">簡體中文和日文的本地化</h3>
+<div class="paragraph">
+<p>數位顧問現在提供三種語言：中文、英文和日文。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="報告-6">報告</h3>
+<div class="paragraph">
+<p>您可以產生或排程ClusterViewer報告、以檢視系統實體和邏輯組態的詳細資訊。 <a href="https://docs.netapp.com/us-en/active-iq/task_generate_reports.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年10月15日">2020年10月15日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="健全狀況檢查儀表板-10">健全狀況檢查儀表板</h3>
+<div class="paragraph">
+<p>「數位顧問健全狀況檢查儀表板」提供整體環境的時間點審查。根據健全狀況檢查分數、您可以將儲存系統調整為建議的NetApp最佳實務做法、以利進行長期規劃、並改善安裝基礎的健全狀況。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="設定飄移-4">設定飄移</h3>
+<div class="paragraph">
+<p>此功能可讓您近乎即時地比較系統與叢集組態、以及偵測組態差異。 <a href="https://docs.netapp.com/us-en/active-iq/task_add_config_drift_template.html">"瞭解如何新增組態偏移範本"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="autosupport">AutoSupport</h3>
+<div class="paragraph">
+<p>您可以檢視AutoSupport 您的資料、並檢閱詳細資料。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康審查訂閱">健康審查訂閱</h3>
+<div class="paragraph">
+<p>您可以訂閱每月收到一封電子郵件通知、摘要說明系統的健全狀態、這些系統即將續約、且需要升級您安裝基礎上的NetApp產品。 <a href="https://docs.netapp.com/us-en/active-iq/task_subscribe_to_wellness_review_email.html">"立即訂閱"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="報告-7">報告</h3>
+<div class="paragraph">
+<p>您可以使用報告功能立即產生報告、或排程每週或每月產生報告。 <a href="https://docs.netapp.com/us-en/active-iq/task_generate_reports.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="手動autosupport-上傳">手動AutoSupport 上傳</h3>
+<div class="paragraph">
+<p>手動AutoSupport 上傳功能已增強、可改善使用者體驗。已提供額外的欄位、以供註解上傳狀態。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="keystone訂閱小工具-2">Keystone訂閱小工具</h3>
+<div class="paragraph">
+<p>您可以監控NetApp Keystone 針對您的《支援訂閱服務》所做的承諾、耗用及突發儲存容量。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年9月30日">2020年9月30日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="使用ansible教戰手冊的韌體更新aff-fas">使用Ansible教戰手冊的韌體更新AFF FAS</h3>
+<div class="paragraph">
+<p>文件內容已經過強化、包括有關下載、安裝及執行AFF 更新版的資訊、包括可FAS 執行的更新版的更新版、包括更新版的更新版、以及更新版的更新版。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/active-iq/task_update_AFF_FAS_firmware.html">"瞭解如何AFF 使用「可執行教戰手冊」來更新BIOS和FAS BIOS韌體"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年8月18日">2020年8月18日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="效能">效能</h3>
+<div class="paragraph">
+<p>效能圖表已增強、可讓您評估磁碟區的效能。您可以在同一個畫面上的節點索引標籤、叢集索引標籤、本機層索引標籤和Volume索引標籤之間瀏覽及切換。 <a href="https://docs.netapp.com/us-en/active-iq/task_view_performance_graphs.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="使用ansible教戰手冊的韌體更新aff-fas-2">使用Ansible教戰手冊的韌體更新AFF FAS</h3>
+<div class="paragraph">
+<p>功能強化的「更新版」和「更新版」韌體畫面、提供更好的使用者體驗。AFF FAS</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年7月17日">2020年7月17日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="效能-2">效能</h3>
+<div class="paragraph">
+<p>效能圖表已增強、可讓您評估本機層級的效能。您可以在同一個畫面上的節點索引標籤、叢集索引標籤和本機層索引標籤之間瀏覽及切換。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康-7">健康</h3>
+<div class="paragraph">
+<p>健全狀況屬性已增強、可檢視所有受影響的系統、而不需深入瞭解行動和風險。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年6月19日">2020年6月19日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="產生庫存報告">產生庫存報告</h3>
+<div class="paragraph">
+<p>您現在可以產生所選觀察名單的報告、並以電子郵件將報告傳送給最多5位收件者。 <a href="https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="效能-3">效能</h3>
+<div class="paragraph">
+<p>效能圖表已增強、可讓您評估儲存系統的叢集效能。您可以在同一個畫面上的節點索引標籤和叢集索引標籤之間瀏覽及切換。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="儲存效率-5">儲存效率</h3>
+<div class="paragraph">
+<p>儲存效率小工具已經過增強、可讓您檢視叢集層級的儲存效率比與節約效益。您可以在同一個畫面上的節點索引標籤和叢集索引標籤之間瀏覽及切換。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="更新預設首頁">更新預設首頁</h3>
+<div class="paragraph">
+<p>您現在可以提供您的意見反應、並告知我們您更新數位顧問預設首頁畫面的原因。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="更新至庫存小工具">更新至庫存小工具</h3>
+<div class="paragraph">
+<p>庫存小工具已經過強化、可提供使用者友好的日期格式、用於平台結束支援的其他欄位、以及版本結束支援、藉此改善使用者體驗。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年5月19日">2020年5月19日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="設定預設首頁">設定預設首頁</h3>
+<div class="paragraph">
+<p>您現在可以設定數位顧問的預設首頁畫面。您可以將其設定為數位顧問或傳統。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="儲存效率-6">儲存效率</h3>
+<div class="paragraph">
+<p>您可以檢視儲存系統的儲存效率與節約效益、無論是否使用AFF 適用於各種系統、非AFF系統或兩者的Snapshot複本。您可以在節點層級檢視儲存效率資訊。 <a href="https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="效能-4">效能</h3>
+<div class="paragraph">
+<p>效能圖表可讓您評估儲存設備在不同重要領域的效能。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="使用ansible教戰手冊進行韌體升級aff-fas">使用Ansible教戰手冊進行韌體升級AFF FAS</h3>
+<div class="paragraph">
+<p>使用AFF 儲存系統上的Ansible更新功能的更新功能、FAS 以減輕已識別的風險、並讓儲存系統保持最新狀態。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="停用健全狀況分數功能">停用健全狀況分數功能</h3>
+<div class="paragraph">
+<p>目前正在暫時停用「健康評分」功能、以改善評分演算法並簡化整體體驗。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年4月2日">2020年4月2日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="就職總覽影片">就職總覽影片</h3>
+<div class="paragraph">
+<p>入門影片可協助使用者快速熟悉數位顧問的選項與功能。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健全狀況分數">健全狀況分數</h3>
+<div class="paragraph">
+<p>健全度分數可根據高風險數量和過期合約、為客戶提供已安裝基礎的整合分數。分數可以是「好」、「一般」或「差」。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="風險摘要">風險摘要</h3>
+<div class="paragraph">
+<p>風險摘要提供有關風險、風險影響、修正行動的詳細資訊。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="支援確認及忽略風險">支援確認及忽略風險</h3>
+<div class="paragraph">
+<p>如果您確實想要減輕風險或無法減輕風險、請提供確認風險的選項。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年3月19日">2020年3月19日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="升級工作流程-4">升級工作流程</h3>
+<div class="paragraph">
+<p>您可以使用升級工作流程來檢視升級建議、以及目標ONTAP 版本可用的新功能摘要。 <a href="https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="寶貴見解">寶貴見解</h3>
+<div class="paragraph">
+<p>您可以檢視透過Digital Advisor和支援合約所獲得的效益摘要。對於選定的系統、價值報告整合了過去一年的效益。 <a href="https://docs.netapp.com/us-en/active-iq/task_view_valuable_insight_widget.html">"立即檢視"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="深入探討細節">深入探討細節</h3>
+<div class="paragraph">
+<p>提供更深入的資訊、這是深入瞭解資料、並根據需要立即深入瞭解彙總資訊的組成。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="增加容量">增加容量</h3>
+<div class="paragraph">
+<p>您可以主動識別已超過容量或接近90%容量的系統、並傳送要求以增加容量。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2020年2月29日">2020年2月29日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="增強的使用者介面">增強的使用者介面</h3>
+<div class="paragraph">
+<p>最新的數位顧問儀表板提供個人化體驗。它能在不同的儀表板、小工具和螢幕上順暢無礙地導覽、並具備直覺功能。提供一體化體驗。它傳達比較、關係和趨勢。它提供深入見解、可協助您根據不同儀表板顯示的資料、偵測並驗證重要關係和有意義的差異。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="可自訂的儀表板">可自訂的儀表板</h3>
+<div class="paragraph">
+<p>在一個或多個頁面或畫面上提供有關資料的重要見解和分析、協助您一目瞭然地監控系統。您也可以建立最多10個儀表板、並做出有效的業務決策。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html">"深入瞭解"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="利用本解決方法降低風險active-iq-unified-manager">利用本解決方法降低風險Active IQ Unified Manager</h3>
+<div class="paragraph">
+<p>您可以檢視風險、並使用Active IQ Unified Manager 無法判斷的功能加以修正。 <a href="https://docs.netapp.com/us-en/active-iq/task_view_risks_remediated_unified_manager.html">"瞭解方法"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="健康-8">健康</h3>
+<div class="paragraph">
+<p>提供儲存系統狀態的詳細資訊、這些資訊可分為下列6個小工具：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>效能與效率</p>
+</li>
+<li>
+<p>可用度與保護</p>
+</li>
+<li>
+<p>容量</p>
+</li>
+<li>
+<p>組態</p>
+</li>
+<li>
+<p>安全性</p>
+</li>
+<li>
+<p>續約</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>請參閱 <a href="https://docs.netapp.com/us-en/active-iq/concept_overview_wellness.html">"分析健全屬性"</a> 以取得更多詳細資料。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="更聰明更快速的搜尋">更聰明、更快速的搜尋</h3>
+<div class="paragraph">
+<p>可讓您搜尋參數、例如序號、系統ID、主機名稱、站台名稱、群組名稱、 以及使用單一系統檢視的叢集名稱。您也可以搜尋系統群組、此外、您也可以依客戶名稱、站台名稱或依系統群組的群組名稱進行搜尋。</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/zh-tw/active-iq/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/zh-tw/active-iq/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">在本頁</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2024 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">使用條款</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">隱私權政策</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Cookie 政策</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Cookie 設定</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">傳送有關本網頁的意見反應</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/zh-tw/active-iq/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/zh-tw/active-iq/js/prism.js'></script>
+      <script type="text/javascript" src='/zh-tw/active-iq/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/zh-tw/active-iq/js/ie-tabbed-blocks.js'></script>
+    <script src='/zh-tw/active-iq/js/ie-sidebar.js'></script>
+  </body>
+
+</html>
