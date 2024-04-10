@@ -56,9 +56,7 @@
   <block id="73cbb404e3fdd583d819be0e2eb8034e" category="section-title">非技術案例</block>
   <block id="b09ac678fb70485b6003259d225086ea" category="paragraph">*什麼是非技術案例？*</block>
   <block id="49b0363cd6699cf55e78d722000a5e8c" category="paragraph">無法檢視庫存中的系統、不正確的合約期限等問題、本質上並非技術性質的問題、均歸類為非技術案例。</block>
-  <block id="5eb51f8ff81951a471d845f526636e66" category="paragraph">*何時需要建立非技術案例？*</block>
   <block id="53184e7a4bde7d1975ba90074c0a52d3" category="paragraph">應針對下列案例建立非技術案例：</block>
-  <block id="83f77ac81e7b9adec1ae7943c11aef16" category="list-text">無法存取某些功能</block>
   <block id="9f289da80756bc405e29b49d51ac81d8" category="list-text">庫存中遺失系統</block>
   <block id="7f03ee6a26eada8c343d4876fe635184" category="list-text">從安裝基礎解除委任系統</block>
   <block id="e8298308fc4d536ad5a50bc21152434f" category="list-text">合約期限日期不正確或遺失</block>
@@ -1503,4 +1501,23 @@
   <block id="9d10674ae163e749f65c1eeb852cdf2b" category="paragraph">升級建議程式的舊版現已過時。您可以使用升級建議程式的增強版本、為單一叢集和多個叢集產生升級計畫。 <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
   <block id="09e1051fd25e78ca51d5f56f36581890" category="paragraph">升級建議程式已增強、可針對單一叢集和多個叢集、提供自動化的不中斷升級計畫。您只能檢視單一叢集的升級建議、包括風險摘要、升級前檢查報告、以及新功能和增強功能的相關資訊。 <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
   <block id="cd798e0859b41c1efded8de089ce45b3" category="paragraph">您可以使用 Upgrade Advisor 來檢視符合升級資格或不符合升級資格的叢集清單。您可以檢視合格叢集的升級建議、並產生升級計畫。您可以修正不合格叢集的問題、使其符合升級資格。</block>
+  <block id="1f9ef86a19fb9104f4d7a15dcd85da08" category="section-title">技術案例</block>
+  <block id="3a3fe5cea8eb171bc705034869baf974" category="paragraph">* 我何時建立技術案例？ *</block>
+  <block id="34146078710488bcb88e2208ddabb74e" category="paragraph">建立技術案例是為了尋求任何 NetApp 產品的協助、以解決與硬體中斷、效能不佳、資料問題或技術資訊要求相關的技術問題。</block>
+  <block id="8fa70b8a3fbd3112ebe49465f5e4f6f4" category="paragraph">* 如何建立技術案例？ *</block>
+  <block id="74345213f8d76009dd92f861947ff81d" category="list-text">按一下 <block ref="a45cbd48db1a7657ddea8845179b9e30" category="inline-link-macro-rx"></block> 開啟 NetApp 支援網站 。</block>
+  <block id="ab26c6ed73849626062a39e18c415af0" category="list-text">從上方功能表中、按一下 * 我的個案 * 。</block>
+  <block id="97026494f28ea8b85c28720a5dcc49ba" category="list-text">按一下 * 建立案例 * 。</block>
+  <block id="2017e57b58cd03255505cd1386833eda" category="list-text">選取類別、提供必要的詳細資料、然後按一下 * 新搜尋 * 、從您的庫存中搜尋系統。</block>
+  <block id="3a7cf8f60b6dbf828b28e59d650f69c7" category="list-text">從顯示的系統清單中、選取要建立案例的系統。</block>
+  <block id="d25803d7582f3b219af4a612ad2ec38a" category="list-text">選取新案例的優先順序。</block>
+  <block id="d58cf7db3887b590a8c6217f53660b52" category="list-text">從「 * 問題類別 * 」下拉式清單中選取適當的類別。</block>
+  <block id="5b2a1684bf941c030a190eeaca82ea46" category="list-text">在「問題說明」欄位中輸入問題說明、然後按一下 * 繼續 * 。</block>
+  <block id="4f42268c65a397c8cddfe11341e788b6" category="list-text">提供問題的其他詳細資料。</block>
+  <block id="0d105b5d8aad07987a8fc6ca830c5c98" category="list-text">按一下 * 選取檔案 * 來上傳可能有助於診斷問題的檔案或影像。</block>
+  <block id="2f88e5cbd35ab951b0bce5a96b06bb36" category="list-text">按一下* Proce*。</block>
+  <block id="dd270a8aa811a52ca44969147eaf4518" category="list-text">提供您的聯絡詳細資料。</block>
+  <block id="06d3f9f9f2de449fd422952b01199c74" category="list-text">按一下 * 建立案例 * 。</block>
+  <block id="04bfee7a9caf8ee1fb8cd6090edec89f" category="paragraph">* 何時建立非技術案例？ *</block>
+  <block id="748f6ba28053e4e8537665ce73aed705" category="list-text">無法存取某些功能、或需要任何 Digital Advisor 功能的協助</block>
 </blocks>
