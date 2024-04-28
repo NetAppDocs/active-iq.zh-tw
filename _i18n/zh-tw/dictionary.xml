@@ -631,14 +631,6 @@
   <block id="07fd0f116aaad9b880128783daa7bc1a" category="list-text">檢閱小工具中的資訊、瞭解從您的支援合約中獲得的商業和技術價值。</block>
   <block id="8830ebf30b3e1ad7b344461753f7d3dd" category="summary">提供資訊以增加系統容量。</block>
   <block id="9438f616517805af3f4c395324944dff" category="doc">識別容量達到限制的系統</block>
-  <block id="9112a7f041cc3afbe8bca565f29fc0a9" category="paragraph">主動識別達到容量限制的系統、並透過即時聊天室傳送要求、以增加儲存系統的容量。</block>
-  <block id="99a992296fff4706d4ef607ee5c43843" category="paragraph">您可以在1、3和6個月內檢視已超過90%容量或超過90%容量的系統。與銷售人員交談、輕鬆提出容量新增要求、並取得即時協助。</block>
-  <block id="7f5131aab7fa520fc9551135afbbe9e3" category="list-text">在* Planning（規劃）*小工具中、按一下* Capacity Additions *（*新增容量）、即可檢視容量超過90%或接近90%的系統。</block>
-  <block id="64130d6cdb0009d5982c553eaac6efd4" category="paragraph">您可以檢視在未來1、3和6個月內已超過90%容量或超過90%容量的系統數量。</block>
-  <block id="050156d031ad136ed72a48cba4a7a4cf" category="list-text">選取一張卡以檢視系統。</block>
-  <block id="60dc2e9f7ab275abe0ffe373abf95dae" category="list-text">選取您要增加容量的系統、然後按一下*聯絡銷售人員*。</block>
-  <block id="a234330eca66f8c170189efebab23db1" category="list-text">確認您的聯絡詳細資料。</block>
-  <block id="19f756ea7d458dddec483de6c8fb3ddc" category="list-text">最多可複製五個主機名稱並貼到聊天室中、以提高容量新增要求。</block>
   <block id="fea651c80f853524fd5c34e4ec0610f8" category="summary">提供如何使用Ansible教戰手冊安裝及執行韌體更新的資訊。</block>
   <block id="c8cc6f58456eb3a7923573bb5d9a8b03" category="doc">安裝及執行AFF 功能不受FAS 限的自動化套件（經驗豐富的使用者）</block>
   <block id="c35aa20a55cbeb586909eacd3abea8d0" category="paragraph">經驗豐富的使用者可以AFF 快速安裝及執行功能豐富的功能豐富的功能、包括功能豐富的功能豐富FAS 的功能。</block>
@@ -1520,4 +1512,14 @@
   <block id="06d3f9f9f2de449fd422952b01199c74" category="list-text">按一下 * 建立案例 * 。</block>
   <block id="04bfee7a9caf8ee1fb8cd6090edec89f" category="paragraph">* 何時建立非技術案例？ *</block>
   <block id="748f6ba28053e4e8537665ce73aed705" category="list-text">無法存取某些功能、或需要任何 Digital Advisor 功能的協助</block>
+  <block id="71ba49d3e291eb6557085c00a26f1f0e" category="paragraph">主動識別達到容量限制的系統、並傳送要求以增加儲存系統容量。</block>
+  <block id="64c0215a49227967002da65613b613e8" category="paragraph">對於 ONTAP 、您可以在 1 、 3 和 6 個月內檢視超過 90% 容量或超過 90% 容量的系統。對於 StorageGRID 、您可以在 1 、 3 和 6 個月內檢視超過 70% 容量或超過 70% 容量的系統。</block>
+  <block id="c8a74c1549aa26d254c47b2fe445b5be" category="list-text">在 * 規劃 * Widget 中、按一下 * 容量新增 * 。</block>
+  <block id="6af6f792a8c574d32c21182caaac6294" category="paragraph">依預設、會顯示容量超過 90% 或接近 90% 的 ONTAP 系統。</block>
+  <block id="8774a5436b96ad3e78450845bce43111" category="list-text">按一下 * StorageGRID * 標籤、檢視超過 70% 容量或接近 70% 容量的 StorageGRID 系統。</block>
+  <block id="cd521d4f21b981f0132bcab8c1cd1129" category="list-text">選取您要增加容量的系統。</block>
+  <block id="6aeda814c1d41515a83e1377f67f46b6" category="list-text">按一下 * 檢視容量預測 * 以檢視未來 6 個月的容量預測。</block>
+  <block id="8d79993c5d29c4e1c65aa5714a30b889" category="list-text">按一下 * 要求新增容量 * 。</block>
+  <block id="db58d45951c63fe2dd675478f6b9865f" category="list-text">您也可以選擇提供任何意見。</block>
+  <block id="1b4b8457b3e396737f084de0f45936c7" category="list-text">按一下 * 傳送 * 、將要求傳送給 NetApp 儲存團隊、以協助增加所選系統的容量。</block>
 </blocks>
