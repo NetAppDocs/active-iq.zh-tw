@@ -33,7 +33,7 @@ summary: 數位顧問（前身Active IQ Digital Advisor 為《》）現已與Blu
 您可以從BlueXP存取Digital Advisor來管理叢集。
 
 .步驟
-. 開啟網頁瀏覽器並前往 https://cloudmanager.netapp.com/app-redirect/active-iq["藍圖"^]
+. 開啟網頁瀏覽器並前往 https://cloudmanager.netapp.com/app-redirect/active-iq["藍圖"^]。
 . 選取* NetApp 支援網站 以您的「身份證明」登入*、然後輸入您的認證資料。
 +
 如果您先前使用電子郵件和密碼建立了BlueXP登入、則需要改用該登入選項。
@@ -52,4 +52,4 @@ summary: 數位顧問（前身Active IQ Digital Advisor 為《》）現已與Blu
 
 == 深入瞭解BlueXP
 
-https://docs.netapp.com/us-en/cloud-manager-family/concept-overview.html["請參閱BlueXP文件以深入瞭解"^]
+https://docs.netapp.com/us-en/bluexp-family/index.html["請參閱BlueXP文件以深入瞭解"^]

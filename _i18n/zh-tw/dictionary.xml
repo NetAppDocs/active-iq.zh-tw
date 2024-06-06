@@ -980,7 +980,6 @@
   <block id="1e4e863e9bb066c5ea215c0e2d8f2294" category="section-title">在BlueXP中存取Digital Advisor</block>
   <block id="e6511c2050ba50e9735ddc384cd6c266" category="paragraph">您可以從BlueXP存取Digital Advisor來管理叢集。</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link">藍圖</block>
-  <block id="f207a2ae57c57cda458c66d1a31abdc5" category="list-text">開啟網頁瀏覽器並前往<block ref="728980458233383868b0f55c1d2cfb83" category="inline-link-rx"></block></block>
   <block id="3d8ba78e98400d1897334797f80e1dae" category="list-text">選取* NetApp 支援網站 以您的「身份證明」登入*、然後輸入您的認證資料。</block>
   <block id="7bf7a114c4d9a11615b02eb4c0feafa4" category="paragraph">如果您先前使用電子郵件和密碼建立了BlueXP登入、則需要改用該登入選項。</block>
   <block id="468fcd95163fdf7aa102458d21bf0cf2" category="list-text">出現提示時、請使用NetApp 支援網站 您的功能驗證登入。</block>
@@ -989,7 +988,6 @@
   <block id="87fb1e35365d1159833f632569b95ca4" category="paragraph">您現有的所有監視清單和組態都會顯示出來、現在您可以像平常一樣使用數位顧問。</block>
   <block id="78d1c9f9c86eecd86f5f568cfe0c0721" category="section-title">深入瞭解BlueXP</block>
   <block id="a4a905679dfffb1a3a7838893b13c23e" category="inline-link">請參閱BlueXP文件以深入瞭解</block>
-  <block id="48c964ad1de807447dde351c1714184d" category="paragraph"><block ref="48c964ad1de807447dde351c1714184d" category="inline-link-rx"></block></block>
   <block id="79017d339350abc9b4fad94b4618ddbe" category="paragraph">Digital Advisor現在已與Cloud Insights 《支援資訊》的版本整合、為客戶提供完整的堆疊庫存和互通性檢查。</block>
   <block id="ed4e4f8de723a17e6e6c4047c2858152" category="admonition">此功能僅適用於SupportEdge Advisor VMware、SupportEdge Expert VMware及Digital Advisor升級合約。</block>
   <block id="0e7d981aa2a68d23eec3e0bd5998b81a" category="paragraph">數位顧問提供多種報告選項、可讓您監控及管理系統健全狀況和營運成功。</block>
@@ -1131,7 +1129,6 @@
   <block id="6af161dea04328fb2cd0c0438e1f8355" category="list-text">深入瞭解儲存系統的所有風險、以及降低風險的行動。</block>
   <block id="36cec47f7689f0259d19d5b01531f4e9" category="list-text">使用 Active IQ Unified Manager 降低風險。</block>
   <block id="2c1d81e3772d9ef164c64b411ca4e8f2" category="list-text">升級您的儲存系統。</block>
-  <block id="a3724fe4c82d2e588a76d98b41647731" category="list-text">檢視永續性分數、以及電力、直接碳和熱能的預計使用率。根據永續性分數、評估儲存系統的整體效率、並配合 NetApp 建議的行動來改善分數。 <block ref="2a00df11659d53cc6af50733fabe3a4a" category="inline-link-macro-rx"></block>。</block>
   <block id="125859f7a75ea087ef61995849562e3b" category="list-text">檢視效能資料的圖形格式、分析儲存裝置的效能。</block>
   <block id="dacf9744e039d2c6cd15d0001ef8a424" category="list-text">取得在未來 6 個月內過期或即將到期的硬體和軟體相關資訊。</block>
   <block id="bb684054961f57c4a18794310f91e0e7" category="list-text">使用 Ansible 更新 ONTAP 韌體。</block>
@@ -1366,7 +1363,6 @@
   <block id="5abb66a3f2a4a3a5e6083eb0e9cb8016" category="list-text">當技術更新建議數量為零時、您現在可以檢視潛在的技術更新候選項目。</block>
   <block id="bd644bc36e5d6955b3d49189c83c45f3" category="paragraph">技術更新建議計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。</block>
   <block id="4a33ef12db92e241992049db5250349e" category="paragraph">永續性儀表板提供建議的行動、可讓您實作以改善整體永續性分數和叢集層級的永續性分數。</block>
-  <block id="c9a394b5403b3d38eaa06673b8c9050b" category="paragraph">您可以使用 Sustainability 儀表板來檢視永續性分數、以及可持續性儀表板的電力、直接碳和熱能的預計使用量。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估永續性態勢、並實作 NetApp 建議的行動以改善分數。若要深入瞭解 Sustainability 儀表板、請前往 <block ref="53113380bf04c6731431f3e5ed0db598" category="inline-link-macro-rx"></block>。</block>
   <block id="5e5fa64fce688126dbdf2ee76a2a88dc" category="paragraph">您可以觀看下列影片、瞭解 Sustainability 儀表板：</block>
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">應啟用 AutoSupport 以準確計算永續性分數。</block>
   <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">存取 Sustainability 儀表板</block>
@@ -1439,7 +1435,6 @@
   <block id="48c86fda9292a5b410c6b86a0d2e64b7" category="paragraph">為什麼左導覽窗格中儲存健全狀況下的功能會停用？ *
 * 儲存健全狀況 * 下的功能可用度取決於系統類型和層級。例如、叢集檢視器適用於叢集和節點層級的 ONTAP 和 Cloud Volumes ONTAP （ CVO ）系統。您可以將游標移至每項功能旁邊的 * I* 圖示上、以瞭解適用的系統類型和層級。</block>
   <block id="568d1629463645988ff4868c31e4cba7" category="open-title">多個叢集</block>
-  <block id="d873b57150944650b53661161f297953" category="admonition">AFF 系統支援永續性、包括 A 系列和 C 系列、 FAS 系統和 Cloud Volumes ONTAP 。</block>
   <block id="82e62a186bc8e1499e10d1400cd762e1" category="section-title">2024 年 2 月 8 日</block>
   <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">永續發展儀表板</block>
   <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">您現在可以使用直接存取預設儀表板或報價表的 Sustainability 計量 <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> 連結：</block>
@@ -1522,4 +1517,11 @@
   <block id="8d79993c5d29c4e1c65aa5714a30b889" category="list-text">按一下 * 要求新增容量 * 。</block>
   <block id="db58d45951c63fe2dd675478f6b9865f" category="list-text">您也可以選擇提供任何意見。</block>
   <block id="1b4b8457b3e396737f084de0f45936c7" category="list-text">按一下 * 傳送 * 、將要求傳送給 NetApp 儲存團隊、以協助增加所選系統的容量。</block>
+  <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024 年 5 月 15 日</block>
+  <block id="0108740b4afbf178bb60484e5406b8b8" category="paragraph">E 系列和 StorageGRID 系統現在支援永續性。您可以從這些系統的 Sustainability 儀表板檢視建議動作和環境指標的清單、以顯示電力預測、直接碳使用量和熱能。若要深入瞭解、請參閱 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>。</block>
+  <block id="7f7cec1be1735b1983c4a5c393d28f95" category="list-text">開啟網頁瀏覽器並前往<block ref="728980458233383868b0f55c1d2cfb83" category="inline-link-rx"></block>。</block>
+  <block id="75a2fb3e65876cbcfa3205242ff8f481" category="paragraph"><block ref="75a2fb3e65876cbcfa3205242ff8f481" category="inline-link-rx"></block></block>
+  <block id="aa5dc235d62725940283cabf93c99f56" category="paragraph">您可以從 Sustainability 儀表板檢視永續性分數、以及電力、直接碳和熱能的預計使用量。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估永續性態勢、並實作 NetApp 建議的行動以改善分數。若要深入瞭解 Sustainability 儀表板、請前往 <block ref="53113380bf04c6731431f3e5ed0db598" category="inline-link-macro-rx"></block>。</block>
+  <block id="e5ec30fe5fd65ba8d529a625838c30d8" category="admonition">Cloud Volumes ONTAP 、 AFF 系統（ A 系列和 C 系列）、 E 系列、 FAS 和 StorageGRID 系統均支援永續性。</block>
+  <block id="85146254574b987d9cbb6cab677e0b41" category="list-text">檢視永續性分數、以及電力、直接碳和熱能的預計使用率。根據永續性分數、評估儲存系統的整體效率、並配合 NetApp 建議的行動來改善分數。 <block ref="39c6b2486cd9bf17fda30dbe2d930cc2" category="inline-link-macro-rx"></block>。</block>
 </blocks>

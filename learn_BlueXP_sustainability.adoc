@@ -18,10 +18,10 @@ summary: 提供永續發展的相關資訊、可讓您減少能源消耗、並�
 [role="lead"]
 永續性即服務可讓您減少能源消耗、並協助您達成環保目標。這可讓您將儲存系統與環保實務一致、並達成永續發展目標。
 
-您可以使用 Sustainability 儀表板來檢視永續性分數、以及可持續性儀表板的電力、直接碳和熱能的預計使用量。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估永續性態勢、並實作 NetApp 建議的行動以改善分數。若要深入瞭解 Sustainability 儀表板、請前往 link:BlueXP_sustainability_dashboard_overview.html["永續性儀表板總覽"]。
+您可以從 Sustainability 儀表板檢視永續性分數、以及電力、直接碳和熱能的預計使用量。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估永續性態勢、並實作 NetApp 建議的行動以改善分數。若要深入瞭解 Sustainability 儀表板、請前往 link:BlueXP_sustainability_dashboard_overview.html["永續性儀表板總覽"]。
 
 
-NOTE: AFF 系統支援永續性、包括 A 系列和 C 系列、 FAS 系統和 Cloud Volumes ONTAP 。
+NOTE: Cloud Volumes ONTAP 、 AFF 系統（ A 系列和 C 系列）、 E 系列、 FAS 和 StorageGRID 系統均支援永續性。
 
 您可以觀看下列影片、瞭解 Sustainability 儀表板：
 
