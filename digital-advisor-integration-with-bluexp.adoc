@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: digital-advisor-integration-with-bluexp.html 
 keywords: digital advisor, integration, bluexp 
-summary: 數位顧問（前身Active IQ Digital Advisor 為《》）現已與BlueXP完全整合。您現在可以從BlueXP使用者介面（UI）管理叢集、並存取Digital Advisor的所有功能。 
+summary: Digital Advisor 現在已與 BlueXP 完全整合。您現在可以從BlueXP使用者介面（UI）管理叢集、並存取Digital Advisor的所有功能。 
 ---
 = 數位顧問與BlueXP整合
 :hardbreaks:
@@ -16,7 +16,7 @@ summary: 數位顧問（前身Active IQ Digital Advisor 為《》）現已與Blu
 
 
 [role="lead"]
-數位顧問（前身Active IQ Digital Advisor 為《》）現已與BlueXP完全整合。您現在可以從BlueXP使用者介面（UI）管理叢集、並存取Digital Advisor的所有功能。
+Digital Advisor 現在已與 BlueXP 完全整合。您現在可以從BlueXP使用者介面（UI）管理叢集、並存取Digital Advisor的所有功能。
 
 使用BlueXP、IT專家和雲端架構設計師可以集中管理混合式多雲端基礎架構。您只需要NetApp 支援網站 一個用來存取BlueXP數位顧問的功能（NSS）帳戶即可。
 

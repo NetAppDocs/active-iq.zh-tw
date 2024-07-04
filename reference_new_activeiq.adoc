@@ -20,13 +20,23 @@ summary: 提供版本新功能的相關資訊。
 
 
 
+== 2024 年 7 月 04 日
+
+
+
+=== 永續發展儀表板
+
+環境指標可深入瞭解儲存系統的環境健全狀況、現在可根據先進的預測模型、提供更精確的預測用電量、直接碳使用量和熱能排放值。若要深入瞭解、請 link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["永續性儀表板總覽"^]參閱。
+
+
+
 == 2024 年 5 月 15 日
 
 
 
 === 永續發展儀表板
 
-E 系列和 StorageGRID 系統現在支援永續性。您可以從這些系統的 Sustainability 儀表板檢視建議動作和環境指標的清單、以顯示電力預測、直接碳使用量和熱能。若要深入瞭解、請參閱 link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["永續性儀表板總覽"^]。
+E 系列和 StorageGRID 系統現在支援永續性。您可以從這些系統的 Sustainability 儀表板檢視建議動作和環境指標的清單、以顯示電力預測、直接碳使用量和熱能。若要深入瞭解、請 link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["永續性儀表板總覽"^]參閱。
 
 
 

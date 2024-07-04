@@ -972,7 +972,6 @@
   <block id="044be2af3d7a8e5a1f40d130d2438c9f" category="list-text">按一下*層級資料*以啟動*藍圖XP*。</block>
   <block id="d47e8f11a965b60f93af502da96f983a" category="list-text">按一下*備份到雲端*以啟動*藍圖XP*。</block>
   <block id="75bbd62b379d56356d9a8bb6cfdedb8d" category="list-text">按一下*「Replicate to Cloud」（複寫至雲端）*以啟動*藍圖XP*。</block>
-  <block id="37d1c7cc9a28ed0051987a7bb5b7d027" category="summary">數位顧問（前身Active IQ Digital Advisor 為《》）現已與BlueXP完全整合。您現在可以從BlueXP使用者介面（UI）管理叢集、並存取Digital Advisor的所有功能。</block>
   <block id="460143bcf999273db551806a244f984a" category="doc">數位顧問與BlueXP整合</block>
   <block id="8c36f4cc3d20ca0b82973d5efc0db5f7" category="paragraph">使用BlueXP、IT專家和雲端架構設計師可以集中管理混合式多雲端基礎架構。您只需要NetApp 支援網站 一個用來存取BlueXP數位顧問的功能（NSS）帳戶即可。</block>
   <block id="ef968e276f61485a7817ba225a8c20b6" category="section-title">整合概述</block>
@@ -1174,17 +1173,13 @@
   <block id="0212b08a947e9079148b138fa48a9e62" category="list-text"><block ref="0212b08a947e9079148b138fa48a9e62" category="inline-link-macro-rx"></block></block>
   <block id="3bb41de04026c13803b9189b287bb05a" category="list-text"><block ref="3bb41de04026c13803b9189b287bb05a" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">永續性儀表板總覽</block>
-  <block id="4c2b4426b7dc09f399ba26ed28948574" category="paragraph">永續性儀表板可針對您的儲存系統進行環境評估、並提供可據以行動的洞見、以 NetApp 建議行動的形式進行改善。</block>
   <block id="ca83c30c00a0e9764753dfe902966c87" category="inline-image-macro">顯示永續性儀表板的 UI 螢幕擷取畫面。</block>
   <block id="3cab16f01bfdfc4bc2969c6d95293181" category="paragraph"><block ref="3cab16f01bfdfc4bc2969c6d95293181" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b4f83b03956523a39e8bbbd0895f0f29" category="inline-link-macro">Cloud Insights</block>
   <block id="b571f57eccbda9dd69031db85e4d4c3c" category="admonition">若要從儀表板取得最佳結果、您必須啟用 AutoSupport 。如果未啟用 AutoSupport 、資料將會根據產品規格而定。若要取得即時電力詳細資料、您需要啟用 Cloud Insights 。如需如何啟用 Cloud Insights 的詳細資訊、請參閱 <block ref="0287186bd1777b27f244433b8d45ea17" category="inline-link-macro-rx"></block>。</block>
-  <block id="349d5b603d0e4251a3e164f95f8c02f8" category="paragraph">* 環境指標 * ：顯示電力、直接碳使用量和熱能排放量的預測、以評估儲存系統的環境健全狀況。這些預測是根據實際電力（如果無法使用）的典型電源值。您可以從本節右上角的下拉式清單中選取所需選項、以每月、每季或每年檢視這些預測。</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">螢幕擷取畫面顯示網站的碳排放百分比、以及如何編輯此百分比。</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
   <block id="beb260be8cea3e84f70f9430a752b705" category="inline-link-macro">改善永續性分數</block>
-  <block id="fe143bdce72bc5ab4569489181cdd2e4" category="paragraph">* 建議行動 * ：顯示建議行動清單、以改善儲存系統的永續性分數。這些行動可以立即或稍後採取。
-如需如何改善永續性分數的詳細資訊、請參閱 <block ref="873cf785eea222f4f03b5ce3115ed1d1" category="inline-link-macro-rx"></block>。</block>
   <block id="8567bc66d7819e8863325a79e4709020" category="paragraph">* 工作環境 * ：在表格中顯示環境參數、有助於識別叢集以移轉至更有效率的儲存設備。從這個表格中、您可以：</block>
   <block id="62fddd607dc9693b0c872b37a4574243" category="inline-link-macro">改善叢集層級的永續性分數</block>
   <block id="d349bd444ea7cf19afb8883ebd796f29" category="list-text">檢視叢集層級的永續性分數、選取要存取的叢集名稱 * ClusterViewer* 、採取特定的建議行動來改善永續性。如需詳細資訊、請參閱 <block ref="7b74333fc84c714028dfd344685516f9" category="inline-link-macro-rx"></block>。</block>
@@ -1518,10 +1513,20 @@
   <block id="db58d45951c63fe2dd675478f6b9865f" category="list-text">您也可以選擇提供任何意見。</block>
   <block id="1b4b8457b3e396737f084de0f45936c7" category="list-text">按一下 * 傳送 * 、將要求傳送給 NetApp 儲存團隊、以協助增加所選系統的容量。</block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024 年 5 月 15 日</block>
-  <block id="0108740b4afbf178bb60484e5406b8b8" category="paragraph">E 系列和 StorageGRID 系統現在支援永續性。您可以從這些系統的 Sustainability 儀表板檢視建議動作和環境指標的清單、以顯示電力預測、直接碳使用量和熱能。若要深入瞭解、請參閱 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>。</block>
   <block id="7f7cec1be1735b1983c4a5c393d28f95" category="list-text">開啟網頁瀏覽器並前往<block ref="728980458233383868b0f55c1d2cfb83" category="inline-link-rx"></block>。</block>
   <block id="75a2fb3e65876cbcfa3205242ff8f481" category="paragraph"><block ref="75a2fb3e65876cbcfa3205242ff8f481" category="inline-link-rx"></block></block>
   <block id="aa5dc235d62725940283cabf93c99f56" category="paragraph">您可以從 Sustainability 儀表板檢視永續性分數、以及電力、直接碳和熱能的預計使用量。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估永續性態勢、並實作 NetApp 建議的行動以改善分數。若要深入瞭解 Sustainability 儀表板、請前往 <block ref="53113380bf04c6731431f3e5ed0db598" category="inline-link-macro-rx"></block>。</block>
   <block id="e5ec30fe5fd65ba8d529a625838c30d8" category="admonition">Cloud Volumes ONTAP 、 AFF 系統（ A 系列和 C 系列）、 E 系列、 FAS 和 StorageGRID 系統均支援永續性。</block>
   <block id="85146254574b987d9cbb6cab677e0b41" category="list-text">檢視永續性分數、以及電力、直接碳和熱能的預計使用率。根據永續性分數、評估儲存系統的整體效率、並配合 NetApp 建議的行動來改善分數。 <block ref="39c6b2486cd9bf17fda30dbe2d930cc2" category="inline-link-macro-rx"></block>。</block>
+  <block id="f78aea7a273ac10c7cb721f1b73054d6" category="paragraph">永續性儀表板可針對您的儲存系統進行環境評估、並提供可據以行動的洞見、以 NetApp 建議行動的形式進行改善。</block>
+  <block id="1894439cce0793aa137fea7a4b35dabb" category="paragraph">* 環境指標 * ：顯示電力、直接碳使用量和熱能排放量的預測、以評估儲存系統的環境健全狀況。這些預測是根據實際電力（如果無法使用）的典型電源值。您可以從本節右上角的下拉式清單中選取所需選項、以每月、每季或每年檢視這些預測。</block>
+  <block id="be7240e9b76d1939220e2878a2db9c57" category="paragraph">* 建議行動 * ：顯示建議行動清單、以改善儲存系統的永續性分數。這些行動可以立即或稍後採取。如需如何改善永續性分數的詳細資訊，請參閱 <block ref="873cf785eea222f4f03b5ce3115ed1d1" category="inline-link-macro-rx"></block>。</block>
+  <block id="e24114b3239c82dab2f946aab9cd9d56" category="summary">Digital Advisor 現在已與 BlueXP 完全整合。您現在可以從BlueXP使用者介面（UI）管理叢集、並存取Digital Advisor的所有功能。</block>
+  <block id="d16ed76d9bbe68a33a560068a6d75b3a" category="section-title">永續性分數計算</block>
+  <block id="1edb693117135d541a37bbf14f07ec73" category="paragraph">永續性分數是根據與儲存系統相關的一組規則來計算、每個規則都會處理特定風險、並提供建議的緩解行動。每條規則都有一個分數來反映其重要性。例如、如果儲存系統有三個相關規則：維持環境溫度、確保理想的容量使用率、以及使用鈦金屬電源供應器、分別獲得 30 、 40 和 30 分。加總這些分數可獲得 100 分、即為分母。</block>
+  <block id="4d17f9cca03c70725a36605d7c17e756" category="paragraph">如果儲存系統完全符合所有條件、則可獲得 100% 的永續性分數。如果系統的效能達到最佳等級的一半、則可能會獲得 50% 的分數。總分是標準、用來比較實際效能與理想效能。您可以實作建議的行動、以加強遵守這些規則、進而改善永續性分數。</block>
+  <block id="8e4743bb176d909e65d015847fc93346" category="admonition">永續性分數最初是在叢集層級計算、然後在客戶或報價表層級等其他層級進行彙總。</block>
+  <block id="a6cba69e97a9115b21cbf35b24b33d83" category="section-title">2024 年 7 月 04 日</block>
+  <block id="5e63fb298525a46837cedfd7fc3c5002" category="paragraph">環境指標可深入瞭解儲存系統的環境健全狀況、現在可根據先進的預測模型、提供更精確的預測用電量、直接碳使用量和熱能排放值。若要深入瞭解、請 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">E 系列和 StorageGRID 系統現在支援永續性。您可以從這些系統的 Sustainability 儀表板檢視建議動作和環境指標的清單、以顯示電力預測、直接碳使用量和熱能。若要深入瞭解、請 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>參閱。</block>
 </blocks>
