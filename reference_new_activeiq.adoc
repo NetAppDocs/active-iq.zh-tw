@@ -20,6 +20,16 @@ summary: 提供版本新功能的相關資訊。
 
 
 
+== 2024 年 8 月 21 日
+
+
+
+=== 報告
+
+由於 7-Mode 系統已達到有限支援的結尾、因此 *7-Mode Upgrade Advisor Plans * 報告將不再提供使用。如需更多資訊、請參閱 link:https://mysupport.netapp.com/site/info/version-support["軟體版本支援"^]。深入瞭解 link:https://docs.netapp.com/a/ontap/7-mode/8.2.1/Upgrade-And-Revert-Or-Downgrade-Guide-For-7-Mode.pdf["升級以 7-Mode 模式運作的 Data ONTAP 儲存系統"^]。
+
+
+
 == 2024 年 7 月 04 日
 
 

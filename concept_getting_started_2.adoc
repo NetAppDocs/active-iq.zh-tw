@@ -40,7 +40,7 @@ video::rEPtldosjWM[youtube,width=848,height=480]
 | 續約 | 支援所有平台 | 支援所有平台 | 支援所有平台 
 
 
-| 增加容量 | 僅支援ONTAP 在支援的支援平台（Data ONTAP 以7-Mode和叢集Data ONTAP 式的功能運作） | 僅支援ONTAP 在支援的支援平台（Data ONTAP 以7-Mode和叢集Data ONTAP 式的功能運作） | 僅支援ONTAP 在支援的支援平台（Data ONTAP 以7-Mode和叢集Data ONTAP 式的功能運作） 
+| 增加容量 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 
 
 
 | 庫存 | 支援所有平台 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 
