@@ -4,7 +4,7 @@ permalink: view_keystone_capacity_utilization.html
 keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
 summary: 提供NetApp Keystone 有關容量使用率的資訊、請參閱「用作支援」。 
 ---
-= 透過NetApp Keystone 「View訂閱」檢視容量使用率
+= 透過 NetApp Keystone 訂閱檢視容量使用率
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

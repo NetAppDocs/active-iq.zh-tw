@@ -4,7 +4,7 @@ permalink: task_view_API_catalog.html
 keywords: API Catalog, APIs, integrate data, view catalog 
 summary: 提供API目錄中可用API的相關資訊。 
 ---
-= 使用API目錄來執行API
+= 使用 API 目錄執行 API
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

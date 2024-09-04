@@ -24,8 +24,8 @@ summary: 提供如何使用Docker映像執行「可執行教戰手冊」的相�
 
 在使用NetApp泊塢視窗執行「可執行教戰手冊」之前、您應該：
 
-* link:task_update_AFF_FAS_firmware.html["下載AFF 《Ansible FAS Automation套件》的《更新與更新》韌體"]
-* link:task_hosting_firmware_files_using_web_server.html["使用Web伺服器裝載韌體檔案"]
+* link:task_update_AFF_FAS_firmware.html["下載 AFF 和 FAS 韌體 Ansible Automation 套件"]
+* link:task_hosting_firmware_files_using_web_server.html["使用 Web 伺服器託管韌體檔案"]
 * link:concept_working_with_inventory_file.html["使用庫存檔案"]
 * 確保已安裝NetApp Docker。
 

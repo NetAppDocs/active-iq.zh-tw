@@ -4,7 +4,7 @@ permalink: get_started_sustainability_dashboard.html
 keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
 summary: 從 BlueXP 或 Digital Advisor 中存取 BlueXP 永續性儀表板開始使用。 
 ---
-= 存取 Sustainability 儀表板
+= 開始使用 Sustainability 儀表板
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

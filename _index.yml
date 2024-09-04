@@ -35,7 +35,7 @@ indexpage:
       url: task_view_upgrade.html
     - title: 根據雲端建議做出明智決策
       url: task-informed-decisions-based-on-cloud-recommendations.html
-    - title: 透過NetApp Keystone 「View訂閱」檢視容量使用率
+    - title: 透過 NetApp Keystone 訂閱檢視容量使用率
       url: view_keystone_capacity_utilization.html
   - title: 更多資源
     links:

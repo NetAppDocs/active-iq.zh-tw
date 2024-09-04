@@ -4,7 +4,7 @@ permalink: task_update_AFF_FAS_firmware.html
 keywords: update, AFF, FAS firmware, firmware 
 summary: 提供如何更新AFF 支援功能及FAS 更新功能的資訊。 
 ---
-= 下載AFF 《Ansible FAS Automation套件》的《更新與更新》韌體
+= 下載 AFF 和 FAS 韌體 Ansible Automation 套件
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

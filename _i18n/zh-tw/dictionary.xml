@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="79e6bb72bf3b27322743b85d46e7028f" category="summary">提供如何避免停機和可能的資料遺失的相關資訊。</block>
-  <block id="aab3d4ecb2113aebbbf0fc0f4e0bd569" category="doc">避免停機和可能的資料遺失</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
   <block id="a9d1a3c661cd780de1547f8874ba7fa9" category="inline-image-macro">可用度與安培；保護小工具</block>
   <block id="4b5886406c71d9a6478bc858959901d2" category="list-text">按一下*可用度與保護*小工具中的*動作*。<block ref="5a8b574aaf1c16ebb902595925228ace" category="inline-image-macro-rx" type="image"></block></block>
@@ -46,7 +45,6 @@
   <block id="3c1579e4105c256057f7f7b8f1c3f947" category="cell">偏離已記錄的最佳實務做法</block>
   <block id="6fe43a0bc5267b501dd5c7825c17e1be" category="paragraph">您可以觀看下列影片、瞭解健康特質的重要性：</block>
   <block id="a789bbd5cd15d75a39f05ef8f875cf51" category="summary">提供更新儲存系統軟體與硬體的資訊。</block>
-  <block id="20827f5f11724ac7658af2f39f50f964" category="doc">更新儲存系統的軟體與硬體</block>
   <block id="6134af206850e07eeb1d6838aae2ceb5" category="paragraph">您可以主動識別已過期或即將在未來6個月內到期的軟體和硬體、並傳送更新硬體和軟體的要求。</block>
   <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">按一下「*規劃*」小工具中的「*續約*」。</block>
   <block id="0d9283785cad0930c05662c95f72d63d" category="list-text">選取您要續約的系統、然後按一下*更新*。</block>
@@ -209,9 +207,7 @@
   <block id="1d644c91a129f4fee67bbeac164d1355" category="list-text">選取報告的開始日期和結束日期。</block>
   <block id="da46c99001fe56b84201c7d1c1bb16f1" category="paragraph">系統會傳送一封電子郵件、內含所選系統之間組態差異的詳細資料。</block>
   <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">提供資訊、讓您熟悉「狀況檢查儀表板」。</block>
-  <block id="8bd30f76be476058b4d8d425fef989b2" category="doc">瞭解健全狀況檢查儀表板</block>
   <block id="3cc3a0dbf287ac1f117caad7c4ff3529" category="paragraph">根據健全狀況檢查分數、您可以根據建議的NetApp最佳實務做法來調整儲存系統、以利進行長期規劃。它可協助您透過集中化的使用者介面、監控軟體和硬體上執行的所有系統。健全狀況檢查分數可讓您快速深入瞭解系統風險。主要建議與最佳實務做法可協助您採取行動、改善安裝基礎的健全狀況。</block>
-  <block id="73b22abb2810760940bcbce346e76523" category="admonition">您只能透過NetApp SupportEdge Advisor 的功能與SupportEdge Expert 服務項目來存取「狀況檢查儀表板」。</block>
   <block id="cf03e3b283bc7fa70a7713acb40de102" category="doc">訂閱健康審查電子郵件</block>
   <block id="21ad3730eb42f0e7e97440864d89b224" category="paragraph">您可以訂閱健康審查電子郵件、每月都會收到一封電子郵件、摘要說明健康狀態、即將續約日期的系統、以及需要在您安裝的基礎上升級NetApp產品的系統。您將收到一封健康審查電子郵件、以便檢視每月摘要、並針對您的系統採取行動。您也可以選擇檢視、編輯、分享及刪除訂閱。如果您決定不接收電子郵件、也可以隨時取消訂閱、不再收到電子郵件。</block>
   <block id="74bac88334325995c9ac3011aacb8ce6" category="paragraph">啟用訂閱之後、您應該在新增訂閱時選擇開始日期。每月電子郵件摘要可讓您檢視出色的健康、續約、升級及健康檢查行動。您可以確認電子郵件地址、並將電子郵件傳送至指定的電子郵件地址。您也可以選擇刪除訂閱。</block>
@@ -240,7 +236,6 @@
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">您應該新增範本、以比較系統和叢集組態、並近乎即時偵測組態差異。組態偏移範本是使用執行AutoSupport 不實資料的系統來新增。</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">按一下*新增範本*。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">提供所需的值。</block>
-  <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">透過NetApp Keystone 「View訂閱」檢視容量使用率</block>
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">提供版本新功能的相關資訊。</block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">瞭解方法</block>
@@ -471,7 +466,6 @@
   <block id="e350176e2ca4464b7c8bb3efa4e581fa" category="inline-link-macro">可寬延工作區</block>
   <block id="e1ceb514961568f187bb88fa116f776f" category="list-text">mailto：ng-active-iq-feedback@netapp.com [電子郵件]</block>
   <block id="989ffda8482c36243642e39d9d8e50ff" category="summary">提供如何更新AFF 支援功能及FAS 更新功能的資訊。</block>
-  <block id="439d63cd3905d44125be50793bdd3ab5" category="doc">下載AFF 《Ansible FAS Automation套件》的《更新與更新》韌體</block>
   <block id="6032e7db579fa00df8e3062fcbc04a91" category="paragraph">您應該AFF 使用Ansible更新更新版的更新版的功能、FAS 以減輕已識別的風險、並讓儲存系統保持最新狀態。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">開始之前</block>
   <block id="1564b29b093f31fb45180a4db5577505" category="paragraph">在使用AFF Ansible更新功能的韌FAS 體之前、您應該：</block>
@@ -546,7 +540,6 @@
   <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">您最多可以在類別下新增15、000個系統、並在序號下新增500個系統。</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">隨即顯示觀察清單儀表板。</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">提供儀表板、健全狀況分數、功能和小工具的相關資訊。</block>
-  <block id="e916508b5fb2cdc772d71fc2a189c67b" category="doc">健全狀況檢查儀表板入門</block>
   <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">此儀表板可透過下列小工具、提供已安裝基礎的概覽摘要：</block>
   <block id="820ed668f5824044ba24b743388d94f8" category="list-text">*《*》採用率*：顯示啟用了功能的系統數量和百分比。AutoSupport AutoSupport您也可以檢視標示為「異排」的系統、AutoSupport 已啟用* HTTPS *和*支援*的「隨需」*的系統、以及過去AutoSupport 7天內停止傳送資訊的系統*遺失訊號*。若要檢視安裝基礎中系統的健全狀況檢查分數和相關資訊、請按一下* AutoSupport 《採用*》小工具。</block>
   <block id="5a203b8ad736b84e1741fd3d04b50fd8" category="list-text">*建議組態*：根據*建議組態*小工具、顯示相容且不相容的系統。這有助於您採取行動、確保系統在安裝基礎上均設定完善。您可以檢視儀表板上提供的分數、並根據依優先順序提供的重要建議採取行動。</block>
@@ -773,7 +766,6 @@
   <block id="e151846aa3b308b87c9d25ba4b1deba4" category="list-text">任何其他升級要求</block>
   <block id="0c152bcc14bc08edd4b0de34a463af86" category="list-text">新增您的任何留言、然後按一下*傳送*。購買支援服務升級的要求會傳送給NetApp續約團隊。</block>
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">提供如何加強防範駭客和勒索軟體攻擊的相關資訊。</block>
-  <block id="f7e6c88265534036ac8e0f442a755875" category="doc">偵測安全性弱點</block>
   <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">*涵蓋產品：ONTAP 支援VMware *的支援範圍：支援內部部署與雲端技術的支援、SANtricity 支援VMware *的支援範SolidFire 圍包括：VMware *的支援範StorageGRID 圍包括：VMware *支援內部部署與雲端*、支援VMware *的支援範圍涵蓋範圍涵蓋範圍涵蓋範圍涵蓋Active IQ Unified Manager ONTAP</block>
   <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">安全漏洞小工具</block>
   <block id="c17e33981c0b062b393672808567a4ab" category="paragraph">針對高影響的安全風險、請遵循建議的行動來升級作業系統。</block>
@@ -782,7 +774,6 @@
   <block id="ac7de22f816f2710cfe2e83f6abc78bf" category="inline-image-macro">「修正」索引標籤</block>
   <block id="159d95fb8858b00a76199e1c9300be15" category="paragraph">此風險已在ONTAP 更新版本的《更新版本：1.7P8（更新版本）」中修正。<block ref="4975e5a0a99336b95db3342c05516170" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f839cdbae8d80bc224d943c9c45a46f0" category="summary">提供資訊以檢視及分析儲存系統的健全狀況、並降低風險。</block>
-  <block id="20ee74a30034c5c1341368bee35c84ff" category="doc">檢視風險並手動採取修正行動</block>
   <block id="0e3a68f1f6b2f1d1d9fe331b11c5efa2" category="paragraph">您可以檢視與儲存系統相關的行動與風險、來分析儲存系統的健全屬性。您應該檢視相關的修正行動、並手動降低風險。</block>
   <block id="9bbf83543e304f4973370a44626c0d09" category="list-text">按一下儀表板上的* Wellness（健康）*小工具、或按一下* View All Actions（檢視所有動作）*、即可檢視所有行動與風險的清單。</block>
   <block id="4c1501034b347258e5d755cf7e7fb1a3" category="list-text">按一下風險名稱以檢視有關風險的資訊。</block>
@@ -792,9 +783,6 @@
   <block id="ffa09fb8e8764d736920c50362846ed7" category="doc">使用NetApp Docker映像執行可執行的教戰手冊</block>
   <block id="18e4b799fc66943cb5ca094c22421d14" category="paragraph">在執行Ansible Playbook之前、請先確認已解壓縮* NetApp_Ansible _*。*壓縮*檔案、且已準備好含有磁碟或機櫃韌體檔案的Web伺服器。</block>
   <block id="2e539a8b55656611ca1f039b25d5987b" category="paragraph">在使用NetApp泊塢視窗執行「可執行教戰手冊」之前、您應該：</block>
-  <block id="82d6e33ffa2d3e136792c8074ac54f9c" category="list-text"><block ref="82d6e33ffa2d3e136792c8074ac54f9c" category="inline-link-macro-rx"></block></block>
-  <block id="cd52899f1679a9b2e3b756255e5c3676" category="inline-link-macro">使用Web伺服器裝載韌體檔案</block>
-  <block id="4e934f63fd61cf954bde477d71345e3c" category="list-text"><block ref="4e934f63fd61cf954bde477d71345e3c" category="inline-link-macro-rx"></block></block>
   <block id="6b4dbbb245371383fcc0b1b43ca85958" category="inline-link-macro">使用庫存檔案</block>
   <block id="27f8f6c7481c543f7ac1c0d9d320816e" category="list-text"><block ref="27f8f6c7481c543f7ac1c0d9d320816e" category="inline-link-macro-rx"></block></block>
   <block id="3570d1e60985f402f1d406b1bb17fabe" category="list-text">確保已安裝NetApp Docker。</block>
@@ -812,7 +800,6 @@
   <block id="5769cb0edb876ded60913f5ed79c0ed3" category="inline-link-macro">韌體安裝驗證</block>
   <block id="09fb789b79f3191a076b495425e54de6" category="paragraph">執行「Ansible Playbook」之後、請參閱 <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> 以取得執行後的指示。</block>
   <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">提供有關ClusterViewer的資訊。</block>
-  <block id="6e6b112d636d5497f59ccca67738fac3" category="doc">分析叢集和節點的健全狀況</block>
   <block id="964f0ca73e7ebb063af3a2240b8483fb" category="paragraph">您可以使用ClusterViewer來分析叢集和節點的健全狀況、這是一站式的來源、可提供有關叢集和節點實體和邏輯組態的資訊。</block>
   <block id="6db3885477641d8e5ca59335970bf0b0" category="paragraph">ClusterViewer提供的資訊包括節點的堆疊圖、儲存使用量與效率、硬體容量的保留空間等、可協助您做出明智的決策、改善叢集與節點的健全度。</block>
   <block id="acc7732ef13d215f323b715a75c23913" category="paragraph">您可以在纜線、堆疊和RAID磁碟層級檢視節點實體組態的視覺效果或圖形呈現。您也可以下載svg格式的視覺效果。</block>
@@ -820,7 +807,6 @@
   <block id="05f9cea794823bcfe9edd186fcb424a3" category="list-text">在叢集或節點層級、按一下*組態*小工具旁的*叢集檢視器*。</block>
   <block id="6551f219e2490db3bc60a0ba2bac261d" category="list-text">按一下「*視覺化*」索引標籤、即可檢視叢集的圖形化呈現。</block>
   <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">提供API目錄中可用API的相關資訊。</block>
-  <block id="99690ba41792c97440fb7507094c827d" category="doc">使用API目錄來執行API</block>
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">API目錄可讓您瀏覽各個類別中的類別和可用API。</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">使用有效的存取權杖和正確輸入必要欄位、您就能對API進行測試呼叫。</block>
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">*瀏覽*</block>
@@ -928,31 +914,16 @@
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速入門</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">資源配置觀察清單</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">總覽</block>
-  <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">檢視Active IQ Unified Manager 可透過《不經認證的戰術》或《可執行的戰術》來自動減輕的風險</block>
-  <block id="e5c576a815351e15ac0b32011a7cd066" category="sidebar">更新軟體與硬體</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">檢視系統詳細資料</block>
-  <block id="46edca0ff6e552183e1d49c7d4a3ff08" category="sidebar">與Cloud Insights VMware整合以檢視虛擬機器詳細資料</block>
-  <block id="6721d14778dfec7598747969baedc497" category="sidebar">檢視Keystone訂閱容量使用率</block>
   <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">主動識別系統需求</block>
-  <block id="b3f73dc804d731e2fd50580bfb4bd2bb" category="sidebar">識別組態差異</block>
-  <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">產生飄移時間軸報告</block>
   <block id="0cc0b1a131ca25b1ae5d22ddb1c11865" category="sidebar">提升儲存系統的效率與效能</block>
-  <block id="6029b29ba0bf4fa906d9b33aeb4affea" category="sidebar">分析容量與效率節約效益</block>
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">分析儲存效能</block>
   <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">分析儲存系統的健全狀況</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">升級以最佳化安裝基礎</block>
   <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">使用Ansible教戰手冊更新AFF 您的功能性和FAS 功能性的韌體</block>
-  <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">安裝並執行AFF 不FAS 受限的Automation套件（經驗豐富的使用者）</block>
-  <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">安裝並執行AFF 不FAS 受限的Automation套件（初學者）</block>
-  <block id="d9daa9f2104f9630f56fba5a79e00e16" category="sidebar">使用Web伺服器來裝載韌體檔案</block>
-  <block id="1ecec82935ab6d53ed561471cf78dfed" category="sidebar">使用Inventory檔案</block>
   <block id="09a5a45f88e6f466acff860555335df6" category="sidebar">使用NetApp Docker映像執行Ansible教戰手冊</block>
-  <block id="72d8c17b82a8128c57dce58c29f29979" category="sidebar">執行不含Docker的可執行教戰手冊</block>
-  <block id="624bf3c50fda6cdcdab599281e893dee" category="sidebar">疑難排解、意見反應與支援</block>
   <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">使用API整合資料</block>
-  <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">產生權杖以存取API</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">產生自訂報告</block>
-  <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">常見問題集</block>
   <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">多跳升級</block>
   <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">對於非鄰近版本的自動不中斷升級（andu）、您可以安裝中間版本和目標版本的軟體映像。自動化升級程序會使用背景中的中繼映像來完成目標版本的更新。例如、如果叢集執行9.3且您想升級至9.7、則會載入ONTAP 9.5和9.7的版次安裝套件、然後啟動andu至9.7。然後、將叢集先自動升級至9.5、再升級至9.7。ONTAP您應預期在程序期間會有多個接管/恢復作業及相關的重新開機。</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">升級顧問</block>
@@ -1043,7 +1014,6 @@
   <block id="de1371cd93c5974f25486b1d0496e7ff" category="paragraph">編輯觀察清單並不會立即更新數位顧問中的資訊。變更可能需要60分鐘才能反映在數位顧問中。</block>
   <block id="d46650e342e5c88508541b7bf48a859f" category="section-title">數位顧問可能需要60分鐘的時間來反映已確認和未確認的風險</block>
   <block id="de031b37ae88787ef3cdc870e9177445" category="paragraph">數位顧問不會立即反映已確認和未確認的風險狀態。變更可能需要60分鐘的時間、才能反映在數位顧問和健康報告中。</block>
-  <block id="194c61820d9b82b7329e3153ac5cd674" category="paragraph">「數位顧問健全狀況檢查儀表板」提供整體環境的時間點審查。</block>
   <block id="39c8987e43727590806ec031b3dd0a86" category="summary">提供數位顧問使用的關鍵詞彙資訊。</block>
   <block id="9d20c3f0e792e5776281264573b1c017" category="paragraph">開始使用數位顧問時、請務必瞭解數位顧問中預期會看到的一些基本術語。</block>
   <block id="d3ad3d0846f828c5868eb4c6ab09e928" category="list-text">*觀察名單：*提供您存取數位顧問系統的彈性、因為數位顧問已被選中。您可以使用觀察名單來新增一或多個客戶的系統。</block>
@@ -1355,7 +1325,6 @@
   <block id="4a33ef12db92e241992049db5250349e" category="paragraph">永續性儀表板提供建議的行動、可讓您實作以改善整體永續性分數和叢集層級的永續性分數。</block>
   <block id="5e5fa64fce688126dbdf2ee76a2a88dc" category="paragraph">您可以觀看下列影片、瞭解 Sustainability 儀表板：</block>
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">應啟用 AutoSupport 以準確計算永續性分數。</block>
-  <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">存取 Sustainability 儀表板</block>
   <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">永續性儀表板提供啟用 AIOps 的報告和評分功能、並提供可據以行動的洞見、以改善您的永續性狀態。您可以透過 NetApp BlueXP 或數位顧問來存取 Sustainability 儀表板。</block>
   <block id="24fbd138c7dc295cdff7b25fb0003595" category="list-text">在儀表板上、按一下 * 升級顧問 * Widget 中的叢集數。</block>
   <block id="bcc117d8c868654bdcb5b2de44d7fbf2" category="inline-image-macro">顯示叢集數量的螢幕擷取畫面。</block>
@@ -1530,4 +1499,29 @@
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">軟體版本支援</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">升級以 7-Mode 模式運作的 Data ONTAP 儲存系統</block>
   <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">由於 7-Mode 系統已達到有限支援的結尾、因此 *7-Mode Upgrade Advisor Plans * 報告將不再提供使用。如需更多資訊、請參閱 <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>。深入瞭解 <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>。</block>
+  <block id="f316bc2d9abc434547fa8fee1b52c8ca" category="doc">開始使用狀況檢查儀表板</block>
+  <block id="67b672f77d14898a21dd7c6d39e4fa6a" category="doc">瞭解健全狀況檢查儀表板</block>
+  <block id="1fca6cd27ed3729b316e545f40560430" category="paragraph">Digital Advisor Health Check 儀表板可提供整體環境的時間點審查。</block>
+  <block id="85de05b2e998b63934fdb41cb0ae1267" category="admonition">您只能透過 NetApp SupportEdge Advisor 和 SupportEdge Expert 服務產品來存取「健全狀況檢查」儀表板。</block>
+  <block id="65d0a6b734949784b0887407ba3ca70d" category="doc">開始使用 Sustainability 儀表板</block>
+  <block id="bf8be6c11a39d44324275419a51aa06d" category="doc">分析叢集和節點的健全狀況</block>
+  <block id="3a9edb9763f2d4f0983c1ba1d9c37307" category="doc">避免停機和可能的資料遺失</block>
+  <block id="2ffe9e86d8e5979dbd4b981f50f1aa43" category="inline-link-macro">下載 AFF 和 FAS 韌體 Ansible Automation 套件</block>
+  <block id="16fa1266171f008ddc9bdf0c3a3101de" category="list-text"><block ref="16fa1266171f008ddc9bdf0c3a3101de" category="inline-link-macro-rx"></block></block>
+  <block id="5d66e54e3beb67d22f4fce6eed9083ee" category="inline-link-macro">使用 Web 伺服器託管韌體檔案</block>
+  <block id="fe767912a8dc4f32a2931397397e89a4" category="list-text"><block ref="fe767912a8dc4f32a2931397397e89a4" category="inline-link-macro-rx"></block></block>
+  <block id="c2abfe15bc2ca33fe842167128892ed3" category="doc">偵測安全性弱點</block>
+  <block id="88ee9568f7a3ba0f64aee190914804a5" category="doc">更新儲存系統的軟體和硬體</block>
+  <block id="87d10a1ebc7440bb06c109388cf143ad" category="doc">使用 API 目錄執行 API</block>
+  <block id="a1b35cc8af8f9016bf417e1cb56f58c4" category="doc">檢視風險並手動採取修正行動</block>
+  <block id="c65128dfcbb07719f3725e4d63112c78" category="doc">透過 NetApp Keystone 訂閱檢視容量使用率</block>
+  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">常見問題集</block>
+  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">分析儲存系統的永續性</block>
+  <block id="f79801f4d29b490bbe3ea28f5605af09" category="sidebar">識別組態偏差</block>
+  <block id="952f02280592bc013c384a90a7d80069" category="sidebar">安裝並執行 AFF 和 FAS 韌體 Ansible 自動化套件（經驗豐富的使用者）</block>
+  <block id="52337cbca028caf9e3f5a7f4d46f0bf5" category="sidebar">安裝並執行 AFF 和 FAS 韌體 Ansible 自動化套件（初學者）</block>
+  <block id="bb56f3fc7f81eda7cac1534c7986e8f5" category="sidebar">在不使用 NetApp Docker 映像的情況下執行 Ansible 教戰手冊</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="sidebar">註冊以取得支援</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="sidebar">取得協助</block>
 </blocks>

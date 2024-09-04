@@ -4,7 +4,7 @@ permalink: task_renew_software_and_hardware.html
 keywords: renew, hardware, software 
 summary: 提供更新儲存系統軟體與硬體的資訊。 
 ---
-= 更新儲存系統的軟體與硬體
+= 更新儲存系統的軟體和硬體
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
