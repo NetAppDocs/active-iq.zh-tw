@@ -1524,4 +1524,7 @@
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="sidebar">註冊以取得支援</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="sidebar">取得協助</block>
+  <block id="67f165f48588df98eb8f59d8a7c512d8" category="section-title">2024 年 23 月 9 日</block>
+  <block id="6a9f822bb587b015bf3224364464cbed" category="section-title">支援服務</block>
+  <block id="65077e068c20e8afeca74c12711e893e" category="paragraph">NetApp SupportEdge Basic 服務產品現在包含 SupportEdge Advisor 和 SupportEdge Expert 中所有可用的數位顧問功能、但完整堆疊拓撲（ VMware ）除外、即使啟用此功能、也無法提供 VMware 完整堆疊監控的可見度。</block>
 </blocks>

@@ -20,6 +20,16 @@ summary: 提供版本新功能的相關資訊。
 
 
 
+== 2024 年 23 月 9 日
+
+
+
+=== 支援服務
+
+NetApp SupportEdge Basic 服務產品現在包含 SupportEdge Advisor 和 SupportEdge Expert 中所有可用的數位顧問功能、但完整堆疊拓撲（ VMware ）除外、即使啟用此功能、也無法提供 VMware 完整堆疊監控的可見度。
+
+
+
 == 2024 年 8 月 21 日
 
 
