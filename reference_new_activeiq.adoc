@@ -46,7 +46,7 @@ NetApp SupportEdge Basic 服務產品現在包含 SupportEdge Advisor 和 Suppor
 
 === 永續發展儀表板
 
-環境指標可深入瞭解儲存系統的環境健全狀況、現在可根據先進的預測模型、提供更精確的預測用電量、直接碳使用量和熱能排放值。若要深入瞭解、請 link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["永續性儀表板總覽"^]參閱。
+環境指標可深入瞭解儲存系統的環境健全狀況、現在可根據先進的預測模型、提供更精確的預測用電量、直接碳使用量和熱能排放值。若要深入瞭解、請 link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["永續性儀表板總覽"]參閱。
 
 
 
@@ -736,6 +736,10 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 
 
 == 2021年4月29日
+
+
+
+=== 防範駭客和攻擊
 
 * 以下說明如何保護您的系統免受駭客和勒索軟體攻擊。 link:https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html["瞭解方法"]。
 * 您可以避免停機和可能的資料遺失。 link:https://docs.netapp.com/us-en/active-iq/task_avoid_the_downtime_and_possible_data_loss.html["瞭解方法"]。

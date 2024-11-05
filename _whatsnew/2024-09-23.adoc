@@ -1,0 +1,9 @@
+= 支援服務
+:allow-uri-read: 
+
+
+
+
+=== 支援服務
+
+NetApp SupportEdge Basic 服務產品現在包含 SupportEdge Advisor 和 SupportEdge Expert 中所有可用的數位顧問功能、但完整堆疊拓撲（ VMware ）除外、即使啟用此功能、也無法提供 VMware 完整堆疊監控的可見度。
