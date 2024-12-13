@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: view-firmware-update-recommendations.html 
+keywords: Upgrade Advisor, firmware recommendations, storage firmware, SP/BMC firmware, system files, security files 
+summary: 檢視儲存韌體， SP / BMC 韌體，系統檔案和安全檔案的更新建議。 
+---
+= 檢視韌體更新建議
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+現在，客戶可以使用最新的韌體版本自動更新系統，免除手動介入或排程的需求，進而節省時間和精力。此更新可降低因韌體版本過時或不相容而發生問題的風險，確保最佳的系統效能，穩定性和安全性。
+
+客戶會收到有關韌體更新狀態的及時通知和警示，並可選擇啟用 AutoSupport 和自動更新設定。
+
+.步驟
+. 在儀表板頁面上，按一下 * 升級顧問 * 小工具中的 * 其他建議 * 。
+. 按一下 * 檢視建議 * 以檢視建議清單。
+. 在 * 更新狀態 * 欄中，按一下 * 查看進度 * 以檢視符合更新資格的叢集。
+. 如果發生任何問題，請按一下相關連結，以檢視緩解問題的步驟。
+

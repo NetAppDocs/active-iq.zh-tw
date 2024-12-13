@@ -20,6 +20,16 @@ summary: 提供版本新功能的相關資訊。
 
 
 
+== 2024 年 12 月 12 日
+
+
+
+=== 升級顧問
+
+您現在可以檢視建議更新的儲存韌體， SP / BMC 韌體和自動勒索軟體套件（ ARP ）。link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["瞭解如何檢視韌體更新建議"]。
+
+
+
 == 2024 年 23 月 9 日
 
 

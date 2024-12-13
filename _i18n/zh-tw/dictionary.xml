@@ -1441,7 +1441,6 @@
   <block id="4d7b0b036dd7f28233ff7e59c3c1dbf5" category="list-text">清除 *Security 弱點 * 核取方塊。</block>
   <block id="8ab2cb8f529884d0aa70d068b846421e" category="admonition">只有執行 ONTAP 9.2 及更新版本的系統才支援節點延遲、本機層（ Aggregate ）和 Volume 效能圖表。</block>
   <block id="fbf668c351539b8a0b137fcc8beb4b5e" category="paragraph">您可以為單一叢集和多個叢集產生自動化的不中斷升級計畫。您可以檢視單一叢集的升級建議、其中包括與叢集相關的風險清單、包含升級前檢查報告、其中包含升級封鎖程式和警告清單、以及新功能和增強功能的相關資訊。升級建議不適用於多個叢集。若要深入瞭解、請參閱 <block ref="41932a416de65dadbc9f715244a32fe5" category="inline-link-macro-rx"></block>。</block>
-  <block id="cd65827c11cd37b34e44b3a7ab206c41" category="list-text">對於執行 ONTAP 9.6 或更舊版本的叢集、您可以在升級建議中檢視有關新功能和增強功能的資訊。升級前檢查報告和風險摘要無法使用、您可以以舊格式產生升級計畫。</block>
   <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">2024 年 3 月 28 日</block>
   <block id="888059a12fa3532d54872d17517e780c" category="inline-link-macro">瞭解如何檢視升級建議並產生升級計畫。</block>
   <block id="9d10674ae163e749f65c1eeb852cdf2b" category="paragraph">升級建議程式的舊版現已過時。您可以使用升級建議程式的增強版本、為單一叢集和多個叢集產生升級計畫。 <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
@@ -1528,4 +1527,15 @@
   <block id="38d80ed5e3a33df19ee71c05059b6258" category="paragraph">環境指標可深入瞭解儲存系統的環境健全狀況、現在可根據先進的預測模型、提供更精確的預測用電量、直接碳使用量和熱能排放值。若要深入瞭解、請 <block ref="093aadbd7a28ff730cdbe5efbf5b8c02" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="cd0b2a52b53e1925d55439a6132bad52" category="doc">支援服務</block>
   <block id="6a64512211dad24384990fce8b83ddf8" category="section-title">防範駭客和攻擊</block>
+  <block id="39ca8580b0e6a065fa25faac2a2acc86" category="inline-link-macro">瞭解如何檢視韌體更新建議</block>
+  <block id="af79dd5dc56c84e383198dba47e6f6fe" category="paragraph">您現在可以檢視建議更新的儲存韌體， SP / BMC 韌體和自動勒索軟體套件（ ARP ）。<block ref="bb189956f648b21665d5198deffedcc8" category="inline-link-macro-rx"></block>。</block>
+  <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">2024 年 12 月 12 日</block>
+  <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">檢視儲存韌體， SP / BMC 韌體，系統檔案和安全檔案的更新建議。</block>
+  <block id="432405c0f2c1d2289f6d8e3b11ebfd8b" category="doc">檢視韌體更新建議</block>
+  <block id="789b0be6ddd32dcc2218519990c16b5c" category="paragraph">現在，客戶可以使用最新的韌體版本自動更新系統，免除手動介入或排程的需求，進而節省時間和精力。此更新可降低因韌體版本過時或不相容而發生問題的風險，確保最佳的系統效能，穩定性和安全性。</block>
+  <block id="715a43f582d65ce08f118788f9800f7d" category="paragraph">客戶會收到有關韌體更新狀態的及時通知和警示，並可選擇啟用 AutoSupport 和自動更新設定。</block>
+  <block id="fe47ca91d8c9f313f60692015dd2b72c" category="list-text">在儀表板頁面上，按一下 * 升級顧問 * 小工具中的 * 其他建議 * 。</block>
+  <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">按一下 * 檢視建議 * 以檢視建議清單。</block>
+  <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">在 * 更新狀態 * 欄中，按一下 * 查看進度 * 以檢視符合更新資格的叢集。</block>
+  <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">如果發生任何問題，請按一下相關連結，以檢視緩解問題的步驟。</block>
 </blocks>
