@@ -22,8 +22,7 @@ summary: 提供 Upgrade Advisor 的概觀、簡化 ONTAP 升級的規劃。
 
 [NOTE]
 ====
-* 針對 MetroCluster 組態中的每個叢集、產生個別的升級計畫以取得完整的升級指示。
-
+針對 MetroCluster 組態中的每個叢集、產生個別的升級計畫以取得完整的升級指示。
 
 ====
 在產生升級計畫之前、您應該準備好進行 ONTAP 升級。適當的準備有助於在您開始升級程序之前、識別並減輕潛在的升級風險或封鎖程式。若要深入瞭解、請參閱 link:https://docs.netapp.com/us-en/ontap/upgrade/prepare.html["準備 ONTAP 升級"^]。
