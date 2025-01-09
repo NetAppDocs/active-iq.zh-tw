@@ -46,3 +46,21 @@ summary: 提供版本限制的相關資訊。
 == 數位顧問可能需要60分鐘的時間來反映已確認和未確認的風險
 
 數位顧問不會立即反映已確認和未確認的風險狀態。變更可能需要60分鐘的時間、才能反映在數位顧問和健康報告中。
+
+
+
+== AutoSupport Widget 不適用於叢集和序號
+
+AutoSupport Widget 不會針對叢集和序號搜尋提供警示。
+
+
+
+== AutoSupport Widget 無法向下切入至序列層級 AutoSupport 詳細資料
+
+在「 AutoSupport 報告」頁面上，按一下任何狀態，最近停止傳送的系統，或關閉 AutoSupport 的系統，都不會瀏覽至「健全狀況檢查」畫面。
+
+
+
+== 「庫存」 Widget 中無法使用篩選和排序
+
+您無法篩選和排序庫存 Widget 中的資料。如果您在「篩選條件」下拉式清單中選取 ONTAP AFF ， ONTAP ASA ， ONTAP Edge 或 ONTAP Select ，則不會顯示任何資料。

@@ -1538,4 +1538,13 @@
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">按一下 * 檢視建議 * 以檢視建議清單。</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">在 * 更新狀態 * 欄中，按一下 * 查看進度 * 以檢視符合更新資格的叢集。</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">如果發生任何問題，請按一下相關連結，以檢視緩解問題的步驟。</block>
+  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">AutoSupport Widget</block>
+  <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">AutoSupport Widget 已新增至主儀表板畫面，以警示客戶有關 AutoSupport 狀態相關問題的資訊。</block>
+  <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">AutoSupport Widget 不適用於叢集和序號</block>
+  <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">AutoSupport Widget 不會針對叢集和序號搜尋提供警示。</block>
+  <block id="c0ac6b1bce52487f5b5af28ecef07c1f" category="section-title">AutoSupport Widget 無法向下切入至序列層級 AutoSupport 詳細資料</block>
+  <block id="84262a27dab2047f1176d0c336762208" category="paragraph">在「 AutoSupport 報告」頁面上，按一下任何狀態，最近停止傳送的系統，或關閉 AutoSupport 的系統，都不會瀏覽至「健全狀況檢查」畫面。</block>
+  <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">「庫存」 Widget 中無法使用篩選和排序</block>
+  <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">您無法篩選和排序庫存 Widget 中的資料。如果您在「篩選條件」下拉式清單中選取 ONTAP AFF ， ONTAP ASA ， ONTAP Edge 或 ONTAP Select ，則不會顯示任何資料。</block>
+  <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">2024 年 04 月 12 日</block>
 </blocks>

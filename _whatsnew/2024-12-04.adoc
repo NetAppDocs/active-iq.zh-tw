@@ -1,0 +1,9 @@
+= AutoSupport Widget
+:allow-uri-read: 
+
+
+
+
+=== AutoSupport Widget
+
+AutoSupport Widget 已新增至主儀表板畫面，以警示客戶有關 AutoSupport 狀態相關問題的資訊。

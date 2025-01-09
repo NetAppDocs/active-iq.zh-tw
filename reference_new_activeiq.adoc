@@ -30,6 +30,16 @@ summary: 提供版本新功能的相關資訊。
 
 
 
+== 2024 年 04 月 12 日
+
+
+
+=== AutoSupport Widget
+
+AutoSupport Widget 已新增至主儀表板畫面，以警示客戶有關 AutoSupport 狀態相關問題的資訊。
+
+
+
 == 2024 年 23 月 9 日
 
 
