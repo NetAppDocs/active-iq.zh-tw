@@ -863,26 +863,17 @@
   <block id="fb988f484e2c15b2a450e5b4c6255e46" category="cell">報告名稱</block>
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">說明</block>
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">提供未解決及已確認的風險、風險詳細資料、修正行動及受影響系統的相關資訊。</block>
-  <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">健全狀況：彙總</block>
-  <block id="df67990129d3bd9cbda01755e666bbee" category="cell">提供未解決風險的摘要、以及受影響系統的數量。</block>
   <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">提供可Ansible庫存檔案、依地區或站台列出所有系統庫存詳細資料。此檔案可用於自動化。</block>
-  <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
-  <block id="7eaee357275d531796b5348076c7abaa" category="cell">提供非使用中、冷、作用中、熱、階層式、 和未受監控的資料。本報告也包含可在停用的Aggregate上啟用「非作用中資料報告」的可執行方針。</block>
   <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">提供所選觀察清單、客戶、站台、群組層級的安裝基礎相關資訊。此報告可從「庫存詳細資料」頁面直接下載、也可從「報告」頁面產生。</block>
-  <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">提供已達到支援終止（EOS）的控制器、磁碟櫃和磁碟清單資訊。</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">建議組態</block>
-  <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">提供遠端管理組態、備援磁碟機、HA配對和SVM健全狀況等各種建議組態落差的相關資訊。</block>
   <block id="fca571dd1b59c732f4bccd0d20435b5d" category="cell">技術案例詳細資料</block>
   <block id="d6cb167525a6b69100791b38c109bfe9" category="cell">提供所有技術案例及其狀態的年度報告。</block>
   <block id="5cbae6debb1f76f9bf4bec9196da5dc6" category="cell">升級建議（軟體與韌體）</block>
   <block id="9932f2379db681a01520e32c482a3ddb" category="cell">搜尋條件中每個控制器或序列的軟體與韌體幣別及建議版本的多索引標籤式報告。</block>
-  <block id="7ba03c87de2b2098f95107674c8477ff" category="cell">ClusterViewer報告</block>
   <block id="acaaa059ccc549a29b26a0c1ad515bba" category="cell">提供客戶與報價表層級的單一或多個叢集相關資訊。您只能針對最多100個節點的觀察清單產生此報告。</block>
   <block id="2d99f2b259d1d48f91090cd494f911f9" category="cell">容量與效率</block>
   <block id="5da3b92de536337b0597bb58ef5868ac" category="cell">提供叢集、客戶、站台、群組、觀察清單和節點層級的容量與效率詳細資料。</block>
-  <block id="7780a058aaed86fab91b6e7629c71e93" category="cell">Volume效能報告</block>
   <block id="2bc63cd07b97ee266354dc14df194285" category="cell">提供叢集層級磁碟區效能詳細資料的相關資訊。</block>
-  <block id="f7ced170f0a650cade73ee4d9d2d75de" category="cell">效能報告</block>
   <block id="a26bfd54d2d0360c1432f1b51ff336ad" category="cell">提供叢集、節點、本機層級（Aggregate）和磁碟區效能的詳細資訊。您只能針對最多100個節點的觀察清單產生此報告。</block>
   <block id="23ed0325a3e4b1fb0cb88618017f6637" category="doc">執行不含NetApp Docker映像的可執行教戰手冊</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link-macro">Python</block>
@@ -1547,4 +1538,22 @@
   <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">「庫存」 Widget 中無法使用篩選和排序</block>
   <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">您無法篩選和排序庫存 Widget 中的資料。如果您在「篩選條件」下拉式清單中選取 ONTAP AFF ， ONTAP ASA ， ONTAP Edge 或 ONTAP Select ，則不會顯示任何資料。</block>
   <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">2024 年 04 月 12 日</block>
+  <block id="1ae1cd0b4937cfa4a52d9dd9c59a7bff" category="cell">ONTAP 提供</block>
+  <block id="eda9493cdedf376a22ce96af673b5ce1" category="cell">E 系列提供</block>
+  <block id="ae816a91a9239284b014c29def79b1a9" category="cell">StorageGRID 提供</block>
+  <block id="93cba07454f06a4a960172bbd6e2a435" category="cell">是的</block>
+  <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="cell">否</block>
+  <block id="9c575f87ce93324cdc7902925f6337cc" category="cell">針對最佳化雲端資源提供深入見解與建議。其中包括災難恢復，備份，分層和移轉的詳細資料。</block>
+  <block id="710106984647f0730faca0e1eaeeee6d" category="cell">可讓使用者建立系統組態的「黃金基準線」，並在偏離此基準時發出警示。它有助於識別及處理可能影響系統效能或安全性的組態變更。</block>
+  <block id="cb8da66b45b686427a31e5d56a8122db" category="cell">交付物流</block>
+  <block id="d0606acb5c07dedf89ff7c2b06144f81" category="cell">提供產品與服務的物流相關資訊。</block>
+  <block id="fbd781a535485932684e2fdb756c3913" category="cell">健康評估執行摘要</block>
+  <block id="0cb0fa6009199e89058c343d1d127fda" category="cell">以 PowerPoint （ PPT ）格式提供各種 Active IQ KPI 的相關資訊，不同的投影片會說明不同的 KPI 。</block>
+  <block id="83009b6eb15f65a7b4a558c0e23269c3" category="cell">定期摘要</block>
+  <block id="f4786124ed46b14b49d37f9f8c042ce4" category="cell">定期總結關鍵指標和洞見。其中包括系統效能，容量和效率的資料。</block>
+  <block id="17b58822f294ceb27e2330591b9224e4" category="cell">提供有關遠端管理組態，備援和磁碟機， HA 配對， SVM 健全狀況，電池狀態和恢復專家建議事項的各種建議組態落差資訊。</block>
+  <block id="67049dbeb0547988bdd3bb265ef87afc" category="cell">提供合約詳細資料，以及已達到支援終止（ EOS ）的控制器，機櫃和磁碟清單的相關資訊。</block>
+  <block id="9622c46ac664d07f743905654edd5f26" category="cell">升級計畫</block>
+  <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">提供軟體與韌體升級建議。其中包括最新建議版本的詳細資料，潛在問題，以及執行升級的步驟。</block>
+  <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">Volume 效能</block>
 </blocks>
