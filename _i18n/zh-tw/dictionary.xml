@@ -1556,4 +1556,7 @@
   <block id="9622c46ac664d07f743905654edd5f26" category="cell">升級計畫</block>
   <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">提供軟體與韌體升級建議。其中包括最新建議版本的詳細資料，潛在問題，以及執行升級的步驟。</block>
   <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">Volume 效能</block>
+  <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">現在您可以使用磁碟資格審查套件（ DQP ），根據預先定義的健全狀況和效能標準，自動更新磁碟控制器和儲存裝置韌體。如此可減少潛在故障，並提升整體系統可靠性。</block>
+  <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">我們引進時區資料庫（ DB ），以自動維持系統與最新時區定義的一致性。如此可確保即使時區規則變更，時間相關作業仍能順暢運作。</block>
+  <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">2025 年 3 月 05 日</block>
 </blocks>
