@@ -1529,7 +1529,6 @@
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">按一下 * 檢視建議 * 以檢視建議清單。</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">在 * 更新狀態 * 欄中，按一下 * 查看進度 * 以檢視符合更新資格的叢集。</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">如果發生任何問題，請按一下相關連結，以檢視緩解問題的步驟。</block>
-  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">AutoSupport Widget</block>
   <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">AutoSupport Widget 已新增至主儀表板畫面，以警示客戶有關 AutoSupport 狀態相關問題的資訊。</block>
   <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">AutoSupport Widget 不適用於叢集和序號</block>
   <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">AutoSupport Widget 不會針對叢集和序號搜尋提供警示。</block>
@@ -1559,4 +1558,10 @@
   <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">現在您可以使用磁碟資格審查套件（ DQP ），根據預先定義的健全狀況和效能標準，自動更新磁碟控制器和儲存裝置韌體。如此可減少潛在故障，並提升整體系統可靠性。</block>
   <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">我們引進時區資料庫（ DB ），以自動維持系統與最新時區定義的一致性。如此可確保即使時區規則變更，時間相關作業仍能順暢運作。</block>
   <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">2025 年 3 月 05 日</block>
+  <block id="4503a1a889a3b7c3dc4f3af490b089c6" category="doc">AutoSupport Widget</block>
+  <block id="41e1c349288a8b454c83244a4a28b8f7" category="paragraph">AutoSupport Widget 已經過強化，包括快顯視窗，可提供已停止傳送 AutoSupport 資料之系統的詳細資料。啟用 AutoSupport 可降低停機風險，並支援主動式系統健全狀況管理。</block>
+  <block id="dc82c5b795e4118bc2472e86475bf5da" category="section-title">支援合約報告</block>
+  <block id="6877ece75d4d613c107eed29f14b3975" category="paragraph">支援合約報告已經過強化，納入新的 ASP / LSG 旗標欄位。此欄位可讓您篩選及識別由授權支援合作夥伴所涵蓋的系統，也稱為生命週期服務認證。</block>
+  <block id="80604874cd369ef578265c67a223d997" category="paragraph">您現在可以使用 Sustainability 簡報中所包含的連結來啟動 Sustainability 儀表板。</block>
+  <block id="9b6594622a22e82296250ca296e7a0b3" category="section-title">2025 年 08 月 5 日</block>
 </blocks>

@@ -1,0 +1,21 @@
+= AutoSupport Widget
+:allow-uri-read: 
+
+
+
+
+=== AutoSupport Widget
+
+AutoSupport Widget 已經過強化，包括快顯視窗，可提供已停止傳送 AutoSupport 資料之系統的詳細資料。啟用 AutoSupport 可降低停機風險，並支援主動式系統健全狀況管理。
+
+
+
+=== 支援合約報告
+
+支援合約報告已經過強化，納入新的 ASP / LSG 旗標欄位。此欄位可讓您篩選及識別由授權支援合作夥伴所涵蓋的系統，也稱為生命週期服務認證。
+
+
+
+=== 永續發展儀表板
+
+您現在可以使用 Sustainability 簡報中所包含的連結來啟動 Sustainability 儀表板。
