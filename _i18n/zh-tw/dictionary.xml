@@ -1564,4 +1564,10 @@
   <block id="6877ece75d4d613c107eed29f14b3975" category="paragraph">支援合約報告已經過強化，納入新的 ASP / LSG 旗標欄位。此欄位可讓您篩選及識別由授權支援合作夥伴所涵蓋的系統，也稱為生命週期服務認證。</block>
   <block id="80604874cd369ef578265c67a223d997" category="paragraph">您現在可以使用 Sustainability 簡報中所包含的連結來啟動 Sustainability 儀表板。</block>
   <block id="9b6594622a22e82296250ca296e7a0b3" category="section-title">2025 年 08 月 5 日</block>
+  <block id="e0feed907f4bf22cc0b1ffa18048f926" category="list-text">升級顧問計畫新增了多格式下載選項，以簡化ONTAP升級規劃並解決潛在的阻礙或警告。現在，您可以下載 Excel、PDF 和 JSON 格式的升級顧問方案。</block>
+  <block id="e78e85c2863b9ed09c47dacdcfda2a1d" category="list-text">在升級顧問計畫的 Excel 格式中，進行了以下增強：</block>
+  <block id="24a524d6161aca2fe5398b80dd9fa10c" category="list-text">您可以查看在叢集上執行的預檢查，並使用「通過」、「失敗」或「跳過」等指示標記結果。這可確保叢集處於最佳狀態，以完成ONTAP升級。</block>
+  <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">您可以查看適用於叢集的建議最新韌體更新，以及ONTAP目標版本隨附的版本。</block>
+  <block id="6276222a738837860023343f423eb60c" category="list-text">新增了一個選項卡，用於檢查 SAN 叢集的互通性。此選項卡可顯示所選目標ONTAP版本支援的主機作業系統版本。</block>
+  <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">2025 年 09 月 7 日</block>
 </blocks>
