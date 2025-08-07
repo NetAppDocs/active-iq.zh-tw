@@ -811,7 +811,6 @@
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">使用有效的存取權杖和正確輸入必要欄位、您就能對API進行測試呼叫。</block>
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">*瀏覽*</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">隨即顯示API目錄。</block>
-  <block id="82ee712943040cce957254912d97aba0" category="list-text">選取任何API</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">在頁面頂端、將切換開關滑至「實驗」。</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">從左側導覽中、展開類別並選取任何API以檢視詳細資訊。</block>
   <block id="fcf9335996c4ed1473286f8644d4b479" category="list-text">展開API。</block>
@@ -918,7 +917,6 @@
   <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">多跳升級</block>
   <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">對於非鄰近版本的自動不中斷升級（andu）、您可以安裝中間版本和目標版本的軟體映像。自動化升級程序會使用背景中的中繼映像來完成目標版本的更新。例如、如果叢集執行9.3且您想升級至9.7、則會載入ONTAP 9.5和9.7的版次安裝套件、然後啟動andu至9.7。然後、將叢集先自動升級至9.5、再升級至9.7。ONTAP您應預期在程序期間會有多個接管/恢復作業及相關的重新開機。</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">升級顧問</block>
-  <block id="241d0a5c7d11b08c4b6742aafec7ad3e" category="paragraph">「*詳細目錄*」小工具可提供您擁有的系統總數總和的彙總套件。這包括已啟用數位顧問功能的產品和未啟用的產品。</block>
   <block id="e58b12802a7d54b8bca5c0033174b2d8" category="summary">提供登入數位顧問的資訊。</block>
   <block id="5a68b284b7bcd8f7a66fdc39f1dcbcd7" category="doc">登入Digital Advisor</block>
   <block id="45b708abb9ee2f917c7896e31ae4c7b6" category="paragraph">Digital Advisor會顯示具有有效支援合約的系統。如果合約到期、系統會提供 90 天的寬限期、讓系統持續可見。之後、數位顧問無法搜尋或顯示系統。</block>
@@ -1570,4 +1568,29 @@
   <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">您可以查看適用於叢集的建議最新韌體更新，以及ONTAP目標版本隨附的版本。</block>
   <block id="6276222a738837860023343f423eb60c" category="list-text">新增了一個選項卡，用於檢查 SAN 叢集的互通性。此選項卡可顯示所選目標ONTAP版本支援的主機作業系統版本。</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">2025 年 09 月 7 日</block>
+  <block id="a30ce25654f610d7e9e47c6277028c38" category="doc">支援授權開關</block>
+  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">了解如何查看支援授權開關</block>
+  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">您現在可以查看有關有權獲得支援的Brocade光纖通道 SAN 交換器的資訊。這包括有關交換器型號、序號和支援狀態的詳細資訊。<block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> 。</block>
+  <block id="adc76ac62c705df3456206213de66002" category="section-title">RSS AutoSupport資料的閾值</block>
+  <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">AutoSupport小工具中的「最近停止傳送 (RSS)」限制已從 48 小時（2 天）延長至 216 小時（9 天），之後系統才會被標記為 RSS。這樣做是為了適應僅發送每週AutoSupport資料的StorageGRID等平台。</block>
+  <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Digital Advisor API 目錄中已棄用的 API 部分</block>
+  <block id="4632607b0b76f87d36568a2df2c3a267" category="paragraph">Digital Advisor API 目錄中提供了一個新的棄用 API 部分。它列出了計劃棄用的 API，以及棄用時間表和替代 API。</block>
+  <block id="9eadf268f4ef55df53b7403a020082b1" category="section-title">容量預測 V2 和支援結束 API 模組棄用</block>
+  <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">容量預測 V2 和支援終止 API 模組計畫棄用。若要存取已棄用的 API 或了解棄用時間表和替代 API，請導覽至 *API 服務 -&gt; 瀏覽 -&gt; 已棄用的 API*。</block>
+  <block id="6e04d6bd41fa83c137f7b99364e843c9" category="admonition">NetApp Digital Advisor正在從 REST API 過渡到 GraphQL 作為其主要 API 平台，以提高效能、靈活性和可擴展性。過渡將分階段進行，REST API 和 GraphQL API 之間會有一段時間重疊。對於每個棄用的 REST API，都會在Digital Advisor API 目錄中發布棄用通知，並且您有 6 個月的時間將該特定端點遷移到 GraphQL。若要查看已計劃已棄用的 API 列表，請導航至 *API 服務 -&gt; 瀏覽 -&gt; 已棄用的 API*</block>
+  <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
+  <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">存取 GraphQL API</block>
+  <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">點擊 *GraphQL* 並查看文件。</block>
+  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">GraphQL API 端點與審查架構</block>
+  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">使用權<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
+  <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital AdvisorGraphQL Studio</block>
+  <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">使用可立即運行的範例查詢來試用 GraphQL API<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">透過選擇 API 請求標頭中的授權欄位來提供使用者令牌</block>
+  <block id="85608152841a7f2e1feb0fe64d6e0ea6" category="list-text">提供所需的變數</block>
+  <block id="f957bd87c6ca02f7e8d3b7e94c1b1992" category="list-text">運行查詢並查看輸出</block>
+  <block id="56221c5b2b531b839a3cd5c7e9c9cd9f" category="section-title">存取 REST API</block>
+  <block id="35c99013ee51309b261a35e68d7b57ba" category="list-text">點擊“ActiveIQ-Public”並選擇任意 API</block>
+  <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">*庫存* 小部件為您提供了您擁有的整個系統和有權支援的交換器的總和。這包括啟用Digital Advisor和未啟用 Digital Advisor 的產品。</block>
+  <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">查看支援授權切換詳細信息</block>
+  <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">在「*庫存*」小工具中，按一下「*支援授權開關*」以查看有關所有支援授權開關的資訊。</block>
 </blocks>

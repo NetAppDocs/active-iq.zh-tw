@@ -20,13 +20,35 @@ API目錄可讓您瀏覽各個類別中的類別和可用API。
 
 使用有效的存取權杖和正確輸入必要欄位、您就能對API進行測試呼叫。
 
+
+
+== 存取 GraphQL API
+
 .步驟
 . 在*快速連結*功能表中、按一下* API服務*。
 . 按一下 link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*瀏覽*"^] 在「* API目錄*」圖示下。
 +
 隨即顯示API目錄。
 
-. 選取任何API
+. 點擊 *GraphQL* 並查看文件。
+. 使用權link:https://gql.aiq.netapp.com/["GraphQL API 端點與審查架構"^]
+. 使用可立即運行的範例查詢來試用 GraphQL APIlink:https://studio.apollographql.com/public/ActiveIQ-Graph-Prd-API/variant/current/explorer?collectionId=251c50ce-797e-4549-bb9c-f6557ef5a176OPERATION_COLLECTIONfocusCollectionId=251c50ce-797e-4549-bb9c-f6557ef5a176["Digital AdvisorGraphQL Studio"^] 。
+. 透過選擇 API 請求標頭中的授權欄位來提供使用者令牌
+. 提供所需的變數
+. 運行查詢並查看輸出
+
+
+
+
+== 存取 REST API
+
+.步驟
+. 在*快速連結*功能表中、按一下* API服務*。
+. 按一下 link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*瀏覽*"^] 在「* API目錄*」圖示下。
++
+隨即顯示API目錄。
+
+. 點擊“ActiveIQ-Public”並選擇任意 API
 . 在頁面頂端、將切換開關滑至「實驗」。
 . 從左側導覽中、展開類別並選取任何API以檢視詳細資訊。
 . 展開API。
