@@ -1569,8 +1569,6 @@
   <block id="6276222a738837860023343f423eb60c" category="list-text">新增了一個選項卡，用於檢查 SAN 叢集的互通性。此選項卡可顯示所選目標ONTAP版本支援的主機作業系統版本。</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">2025 年 09 月 7 日</block>
   <block id="a30ce25654f610d7e9e47c6277028c38" category="doc">支援授權開關</block>
-  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">了解如何查看支援授權開關</block>
-  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">您現在可以查看有關有權獲得支援的Brocade光纖通道 SAN 交換器的資訊。這包括有關交換器型號、序號和支援狀態的詳細資訊。<block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> 。</block>
   <block id="adc76ac62c705df3456206213de66002" category="section-title">RSS AutoSupport資料的閾值</block>
   <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">AutoSupport小工具中的「最近停止傳送 (RSS)」限制已從 48 小時（2 天）延長至 216 小時（9 天），之後系統才會被標記為 RSS。這樣做是為了適應僅發送每週AutoSupport資料的StorageGRID等平台。</block>
   <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Digital Advisor API 目錄中已棄用的 API 部分</block>
@@ -1593,4 +1591,6 @@
   <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">*庫存* 小部件為您提供了您擁有的整個系統和有權支援的交換器的總和。這包括啟用Digital Advisor和未啟用 Digital Advisor 的產品。</block>
   <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">查看支援授權切換詳細信息</block>
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">在「*庫存*」小工具中，按一下「*支援授權開關*」以查看有關所有支援授權開關的資訊。</block>
+  <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">了解如何查看支援授權開關</block>
+  <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">您現在可以查看有關有權獲得支援的Brocade光纖通道 SAN 交換器的資訊。這包括有關交換器型號、序號和支援狀態的詳細資訊。<block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> 。</block>
 </blocks>
