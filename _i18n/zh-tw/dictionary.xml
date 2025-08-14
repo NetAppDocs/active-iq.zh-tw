@@ -809,7 +809,6 @@
   <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">提供API目錄中可用API的相關資訊。</block>
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">API目錄可讓您瀏覽各個類別中的類別和可用API。</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">使用有效的存取權杖和正確輸入必要欄位、您就能對API進行測試呼叫。</block>
-  <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">*瀏覽*</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">隨即顯示API目錄。</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">在頁面頂端、將切換開關滑至「實驗」。</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">從左側導覽中、展開類別並選取任何API以檢視詳細資訊。</block>
@@ -1112,7 +1111,6 @@
   <block id="ae60d74a912ddc26168a3645463cc941" category="list-text"><block ref="ae60d74a912ddc26168a3645463cc941" category="inline-link-macro-rx"></block></block>
   <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Web伺服器可透過多種方式設定。如需使用Python設定簡易Web伺服器的指示、請參閱 <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>。</block>
-  <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">按一下 <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block> 在「* API目錄*」圖示下。</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">前往 <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> 登入頁面。</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">對於支援靜態系統、當您第一次設定儲存系統時、預設會啟用此功能。ONTAP AutoSupport您應該 <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> 可控制將資訊傳送至技術支援部門和內部支援組織的方式。ONTAP AutoSupport</block>
   <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
@@ -1579,8 +1577,6 @@
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
   <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">存取 GraphQL API</block>
   <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">點擊 *GraphQL* 並查看文件。</block>
-  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">GraphQL API 端點與審查架構</block>
-  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">使用權<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
   <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital AdvisorGraphQL Studio</block>
   <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">使用可立即運行的範例查詢來試用 GraphQL API<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> 。</block>
   <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">透過選擇 API 請求標頭中的授權欄位來提供使用者令牌</block>
@@ -1593,4 +1589,6 @@
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">在「*庫存*」小工具中，按一下「*支援授權開關*」以查看有關所有支援授權開關的資訊。</block>
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">了解如何查看支援授權開關</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">您現在可以查看有關有權獲得支援的Brocade光纖通道 SAN 交換器的資訊。這包括有關交換器型號、序號和支援狀態的詳細資訊。<block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> 。</block>
+  <block id="1b9abf135ccb7ed2f2cd9c155137c351" category="inline-link-macro">瀏覽</block>
+  <block id="2981195e7f0b7a603227ab0ab32a8349" category="list-text">點選<block ref="3dddd0be9b2e921fda9092125563366a" category="inline-link-macro-rx"></block>在 *API 目錄* 圖示下。</block>
 </blocks>
