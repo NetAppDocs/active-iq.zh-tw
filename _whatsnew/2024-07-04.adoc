@@ -6,4 +6,4 @@
 
 === 永續發展儀表板
 
-環境指標可深入瞭解儲存系統的環境健全狀況、現在可根據先進的預測模型、提供更精確的預測用電量、直接碳使用量和熱能排放值。若要深入瞭解、請 link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["永續性儀表板總覽"]參閱。
+環境指標可以深入了解您的儲存系統的環境健康狀況，現在可以根據先進的預測模型為預期的電力使用量、直接碳使用量和熱量排放提供更精確的值。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["永續性儀表板總覽"]。

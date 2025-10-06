@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task-integrating-with-cloud-insights-to-view-vm-details.html 
-keywords: Cloud Insights, VMs, virtual machines 
-summary: 提供Cloud Insights 有關VMware中虛擬機器的資訊 
+keywords: Cloud Insights, VMs, virtual machines, Data Infrastructure Insights 
+summary: 提供有關Data Infrastructure Insights中的虛擬機的信息 
 ---
-= 與Cloud Insights VMware整合以檢視虛擬機器詳細資料
+= 與Data Infrastructure Insights整合以查看虛擬機器詳細信息
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary: 提供Cloud Insights 有關VMware中虛擬機器的資訊
 
 
 [role="lead"]
-Digital Advisor現在已與Cloud Insights 《支援資訊》的版本整合、為客戶提供完整的堆疊庫存和互通性檢查。
+Digital Advisor現已與Data Infrastructure Insights Basic 版本集成，為客戶提供全端庫存和互通性檢查。
 
 這項整合的優點包括：
 
@@ -29,8 +29,8 @@ Digital Advisor現在已與Cloud Insights 《支援資訊》的版本整合、�
 NOTE: 此功能僅適用於SupportEdge Advisor VMware、SupportEdge Expert VMware及Digital Advisor升級合約。
 
 .步驟
-. 在* Inventory（資源清冊）*小工具中、按一下* Virtual Machines（虛擬機器）*以檢視Cloud Insights 在VMware中可用的資料。
+. 在「*庫存*」小工具中，按一下「*虛擬機器*」以查看「Data Infrastructure Insights」中可用的資料。
 . 單擊*虛擬機概述*選項卡。
 . 按一下* ESX主機數*以檢視有關主機的資訊。
-. 按一下「* ESX Name*」瀏覽Cloud Insights 至「介紹」以檢視更多資訊。
+. 點擊 *ESX 名稱* 導航至Data Infrastructure Insights以查看更多資訊。
 

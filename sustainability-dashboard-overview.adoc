@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
-permalink: BlueXP_sustainability_dashboard_overview.html 
-keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
-summary: 提供儀表板、永續性分數、工作環境及建議行動的相關資訊。 
+permalink: sustainability-dashboard-overview.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, systems, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives, NetApp Console 
+summary: 提供有關儀表板、可持續性分數、系統和建議操作的資訊。 
 ---
 = 永續性儀表板總覽
 :hardbreaks:
@@ -18,7 +18,7 @@ summary: 提供儀表板、永續性分數、工作環境及建議行動的相�
 [role="lead"]
 永續性儀表板可針對您的儲存系統進行環境評估、並提供可據以行動的洞見、以 NetApp 建議行動的形式進行改善。
 
-image:get_started_sustainability_dashboard.png["顯示永續性儀表板的 UI 螢幕擷取畫面。"]
+image:sustainability_dashboard_console.png["使用者介面螢幕截圖，概述了控制台中的可持續性儀表板。"]
 
 
 NOTE: 應啟用 AutoSupport 以準確計算永續性分數。
@@ -43,11 +43,11 @@ image:carbon_mitigation_percentage.png["螢幕擷取畫面顯示網站的碳排�
 
 * 建議行動 * ：顯示建議行動清單、以改善儲存系統的永續性分數。這些行動可以立即或稍後採取。如需如何改善永續性分數的詳細資訊，請參閱 link:improve_sustainability_score.html["改善永續性分數"]。
 
-* 工作環境 * ：在表格中顯示環境參數、有助於識別叢集以移轉至更有效率的儲存設備。從這個表格中、您可以：
+*系統*：在表中顯示環境參數，有助於識別叢集以遷移到更有效率的儲存。透過此表，您可以：
 
 * 檢視叢集層級的永續性分數、選取要存取的叢集名稱 * ClusterViewer* 、採取特定的建議行動來改善永續性。如需詳細資訊、請參閱 link:improve_sustainability_score.html["改善叢集層級的永續性分數"]。
 +
-image:working_environments.png["顯示各種環境參數的 UI 螢幕擷取畫面"]
+image:systems.png["顯示各種環境參數的 UI 螢幕擷取畫面"]
 
-* 從「 * 即時電源 * 」欄啟用監控、以檢視叢集層級的即時電源詳細資料。如需詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]。
+* 從*即時功率*列啟用監控，以查看叢集層級的即時功率詳細資訊。有關更多信息，請參閱link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html["Data Infrastructure Insights"^] 。
 

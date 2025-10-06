@@ -32,7 +32,7 @@ indexpage:
   - title: 使用數位顧問進行分析
     links:
     - title: 檢視ONTAP 有關升級的建議
-      url: task_view_upgrade.html
+      url: upgrade_advisor_overview.html
     - title: 根據雲端建議做出明智決策
       url: task-informed-decisions-based-on-cloud-recommendations.html
     - title: 透過 NetApp Keystone 訂閱檢視容量使用率
