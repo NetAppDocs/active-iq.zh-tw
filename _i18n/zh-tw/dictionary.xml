@@ -822,7 +822,6 @@
   <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">根據可做出的明智決策、提供建議。</block>
   <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">移轉</block>
   <block id="4fc6b52f3180163cea93aa7c8da0e7dd" category="paragraph">提供儲存系統內各種可用工作負載的相關資訊、並識別雲端就緒的工作負載。將工作負載移至雲端可節省成本、並提供雲端災難恢復功能。</block>
-  <block id="46c5977f0ec6a34283e38ed39033952e" category="paragraph">建議將符合下列條件的磁碟區移轉至Cloud Volumes ONTAP 下列對象（CVO）和Cloud Volumes Service 介紹（CVS）：</block>
   <block id="4f18efd74627acd1e83311ad6a450b7c" category="list-text">Volume應使用NFS、SMB、CIFS、FCP或iSCSI傳輸協定</block>
   <block id="3c765c5584278c5b7d2bb8a2e48bbea0" category="list-text">排除根磁碟區</block>
   <block id="eee58b17a5b1a316e3d557e27113c69e" category="list-text">磁碟區中的工作負載標記為Oracle、SAP、SAP HANA、MSSQL、MySQL、 SharePoint、檔案共享、虛擬化和Trident</block>
@@ -1561,4 +1560,5 @@
   <block id="5e76877e0dc9fe309e6133171cf4f2c7" category="paragraph">Digital Advisor現已與Data Infrastructure Insights Basic 版本集成，為客戶提供全端庫存和互通性檢查。</block>
   <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">在「*庫存*」小工具中，按一下「*虛擬機器*」以查看「Data Infrastructure Insights」中可用的資料。</block>
   <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">點擊 *ESX 名稱* 導航至Data Infrastructure Insights以查看更多資訊。</block>
+  <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">建議將符合以下條件的磁碟區遷移到Cloud Volumes ONTAP (CVO)：</block>
 </blocks>

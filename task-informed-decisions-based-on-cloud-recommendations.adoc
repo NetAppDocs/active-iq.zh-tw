@@ -27,7 +27,7 @@ NOTE: Digital Advisor會引導您進入NetApp Console 來實作建議。
 
 提供儲存系統內各種可用工作負載的相關資訊、並識別雲端就緒的工作負載。將工作負載移至雲端可節省成本、並提供雲端災難恢復功能。
 
-建議將符合下列條件的磁碟區移轉至Cloud Volumes ONTAP 下列對象（CVO）和Cloud Volumes Service 介紹（CVS）：
+建議將符合以下條件的磁碟區遷移到Cloud Volumes ONTAP (CVO)：
 
 * Volume應使用NFS、SMB、CIFS、FCP或iSCSI傳輸協定
 * 排除根磁碟區
