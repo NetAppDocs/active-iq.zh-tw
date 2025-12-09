@@ -1561,4 +1561,9 @@
   <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">在「*庫存*」小工具中，按一下「*虛擬機器*」以查看「Data Infrastructure Insights」中可用的資料。</block>
   <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">點擊 *ESX 名稱* 導航至Data Infrastructure Insights以查看更多資訊。</block>
   <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">建議將符合以下條件的磁碟區遷移到Cloud Volumes ONTAP (CVO)：</block>
+  <block id="f53ebb0d19beec32f25d5bd12221adf7" category="paragraph">在製定升級計劃之前，您應該：</block>
+  <block id="9c8a06503c0fcff82a72b9a47d15fdd8" category="inline-link-macro">ONTAPAutoSupport解決方案指南</block>
+  <block id="c04b16bfcb0ae04e942f5b8f40f89958" category="list-text">確保已啟用並正確配置AutoSupport（ASUP），並且包含所有必要的部分。有關詳細信息，請參閱 <block ref="d9fca8defeb9ffc51d54bc8014960f3d" category="inline-link-macro-rx"></block>。</block>
+  <block id="5c2f83424a92d9f87bfe784acf51ef8f" category="inline-link-macro">提交一個非技術性案例</block>
+  <block id="ece2db758a882f00813e14d082e4552c" category="list-text">驗證 AutoSupport 叢集成員與 SAP 叢集配置是否相符。更多信息，<block ref="eb6134c35f89e9a6ed78736959d7ff7d" category="inline-link-macro-rx"></block> 。</block>
 </blocks>

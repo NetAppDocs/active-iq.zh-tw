@@ -18,6 +18,17 @@ summary: 提供步驟、為單一叢集和多個叢集成功進行 ONTAP 升級�
 [role="lead"]
 您可以使用 Upgrade Advisor 來檢視符合升級資格或不符合升級資格的叢集清單。您可以檢視合格叢集的升級建議、並產生升級計畫。您可以修正不合格叢集的問題、使其符合升級資格。
 
+
+
+== 開始之前
+
+在製定升級計劃之前，您應該：
+
+* 確保已啟用並正確配置AutoSupport（ASUP），並且包含所有必要的部分。有關詳細信息，請參閱 link:hhttps://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/ONTAP_AutoSupport_Resolution_Guide["ONTAPAutoSupport解決方案指南"]。
+* 驗證 AutoSupport 叢集成員與 SAP 叢集配置是否相符。更多信息，link:https://kb.netapp.com/Support/NSS/Support_Site/How_to_open_a_non-technical_case["提交一個非技術性案例"] 。
+
+
+.步驟
 您可以依照下列步驟、為單一叢集和多個叢集產生升級計畫：
 
 [role="tabbed-block"]
