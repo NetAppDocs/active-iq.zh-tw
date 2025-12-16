@@ -4,7 +4,7 @@ permalink: concept_overview_dashboard.html
 keywords: overview, provision, dashboard, widget, watchlist 
 summary: 提供儀表板、觀察清單和小工具的相關資訊。 
 ---
-= 瞭解觀察名單
+= 在Digital Advisor中了解觀察列表
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: concept_autosupport.html
 keywords: AutoSupport 
 summary: 提供AutoSupport 關於功能的概述。 
 ---
-= 什麼AutoSupport 是呢
+= 了解Digital Advisor中的AutoSupport
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

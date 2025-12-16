@@ -4,7 +4,7 @@ permalink: task_increase_protection_against_hackers_and_Ransomware_attacks.html
 keywords: protection, hackers, ransomware, ransomware attacks, attack 
 summary: 提供如何加強防範駭客和勒索軟體攻擊的相關資訊。 
 ---
-= 偵測安全性弱點
+= 利用Digital Advisor檢測安全風險並採取糾正措施
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

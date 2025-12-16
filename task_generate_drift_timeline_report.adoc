@@ -4,7 +4,7 @@ permalink: task_generate_drift_timeline_report.html
 keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
 summary: 提供產生飄移時間軸報告的資訊。 
 ---
-= 產生飄移時間軸報告
+= 在Digital Advisor中產生配置漂移時間軸報告
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

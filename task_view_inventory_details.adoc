@@ -4,7 +4,7 @@ permalink: task_view_inventory_details.html
 keywords: inventory, platforms, systems, clusters, sites 
 summary: 提供您擁有的整體庫存資訊。 
 ---
-= 檢視庫存詳細資料
+= 在Digital Advisor中查看您的儲存系統庫存詳情
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

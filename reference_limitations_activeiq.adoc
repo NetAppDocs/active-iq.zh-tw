@@ -4,7 +4,7 @@ permalink: reference_limitations_activeiq.html
 keywords: limitation, issues, not supported, drawbacks 
 summary: 提供版本限制的相關資訊。 
 ---
-= 已知限制
+= Digital Advisor的已知局限性
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

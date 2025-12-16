@@ -4,7 +4,7 @@ permalink: task_view_wellness_history.html
 keywords: wellness history, risks, wellness, view all actions, risk history, 
 summary: 提供系統風險及如何檢視健康記錄的相關資訊。 
 ---
-= 檢視健康歷史
+= 在Digital Advisor中查看您的儲存系統風險歷史記錄
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary: 提供系統風險及如何檢視健康記錄的相關資訊。
 
 
 [role="lead"]
-您可以檢視過去三個月內發生的系統風險、以便瞭解這些風險如何造成加班。
+您可以查看過去三個月內發生的儲存系統風險，以便了解這些風險隨時間推移的發展。
 
 這些風險分為四類風險：*未解決*、*新增*、*已解決*及*已確認*。它們以不同的色彩表示。這些風險的摘要會透過*風險歷程*圖表來呈現。
 

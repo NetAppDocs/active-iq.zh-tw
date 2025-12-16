@@ -22,157 +22,157 @@ sidebar:
       url: "/reference_limitations_activeiq.html"
   - title: 開始使用
     entries:
-    - title: 快速入門
+    - title: 數位顧問快速入門
       url: "/concept_getting_started_2.html"
-    - title: 瞭解Digital Advisor功能
+    - title: 了解Digital Advisor功能
       url: "/concept_understand_activeiq_features.html"
-    - title: Digital Advisor與NetApp Console 集成
+    - title: 在NetApp控制台中存取Digital Advisor
       url: "/digital-advisor-integration-with-console.html"
-    - title: 主要概念
+    - title: 深入瞭解數位顧問
       url: "/concept_key_terms.html"
-    - title: 什麼AutoSupport 是呢
+    - title: 了解AutoSupport
       url: "/concept_autosupport.html"
     - title: 登入Digital Advisor
       url: "/task_login_activeiq.html"
     - title: 資源配置觀察清單
       entries:
-      - title: 總覽
+      - title: 了解監視名單
         url: "/concept_overview_dashboard.html"
       - title: 建立觀察名單
         url: "/task_add_watchlist.html"
       - title: 管理觀察名單
         url: "/task_manage_watchlists.html"
-    - title: 常見問題集
+    - title: Digital Advisor常見問題解答
       url: reference_aiq_faq.html
   - title: 使用Digital Advisor
     entries:
     - title: 分析健全屬性
       entries:
-      - title: 總覽
+      - title: 了解健康小部件
         url: "/concept_overview_wellness.html"
-      - title: 檢視風險並手動採取修正行動
+      - title: 查看儲存系統風險並採取糾正措施
         url: "/task_view_risk_and_take_action.html"
-      - title: 偵測安全性弱點
+      - title: 偵測安全風險並採取糾正措施
         url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
-      - title: 保護系統免受勒索軟體風險的侵害
+      - title: 保護儲存系統免受勒索軟體風險侵害
         url: "/task_protect_systems_against_ransomware_risks.html"
-      - title: 檢視並確認風險
+      - title: 分析健康屬性並認識到風險
         url: "/task_view_and_acknowledge_risks.html"
-      - title: 檢視健康歷史
+      - title: 查看儲存系統風險歷史記錄
         url: "/task_view_wellness_history.html"
-      - title: 檢視可以使用Unified Manager或Ansible教戰手冊自動減輕的風險
+      - title: 使用統一管理器或 Ansible Playbook 查看風險並降低風險
         url: "/task_view_risks_remediated_unified_manager.html"
-      - title: 避免停機和可能的資料遺失
+      - title: 使用Digital Advisor來解決已識別的關鍵風險
         url: "/task_avoid_the_downtime_and_possible_data_loss.html"
-      - title: 訂閱健康審查電子郵件
+      - title: 訂閱儲存系統健康狀況通知
         url: "/task_subscribe_to_wellness_review_email.html"
-      - title: 更新儲存系統的軟體和硬體
+      - title: 確定儲存系統的軟體和硬體更新需求
         url: "/task_renew_software_and_hardware.html"
-      - title: 分析叢集和節點的健全狀況
+      - title: 使用 ClusterViewer 小工具查看叢集和節點的運作狀況
         url: "/task_analyze_wellness_clusters_and_nodes.html"
-    - title: 分析儲存系統的永續性
+    - title: 分析儲存系統的可持續性
       entries:
       - title: 瞭解永續發展
         url: "/learn-about-sustainability.html"
-      - title: 開始使用 Sustainability 儀表板
+      - title: 造訪可持續發展儀錶板
         url: "/get_started_sustainability_dashboard.html"
-      - title: 永續性儀表板總覽
+      - title: 了解永續發展儀錶板功能
         url: "/sustainability-dashboard-overview.html"
-      - title: 改善永續性分數
+      - title: 提高儲存系統可持續性評分
         url: "/improve_sustainability_score.html"
     - title: 產生升級計畫
       entries:
-      - title: 總覽
+      - title: 了解如何產生ONTAP升級計劃
         url: "/upgrade_advisor_overview.html"
-      - title: 為單一叢集和多個叢集產生升級計畫
+      - title: 為單一和多個叢集產生ONTAP升級計劃
         url: "/generate_upgrade_plan_single_multiple_clusters.html"
       - title: 檢視韌體更新建議
         url: "/view-firmware-update-recommendations.html"
     - title: 檢視系統詳細資料
       entries:
-      - title: 檢視庫存詳細資料
+      - title: 查看儲存系統庫存詳情
         url: "/task_view_inventory_details.html"
-      - title: 與Data Infrastructure Insights整合以查看虛擬機器詳細信息
+      - title: 在Data Infrastructure Insights中查看可用的虛擬機器數據
         url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
-      - title: 檢視寶貴的洞見
+      - title: 使用「實用資訊」小工具查看支援案例和儲存系統詳情
         url: "/task_view_valuable_insight_widget.html"
       - title: 透過 NetApp Keystone 訂閱檢視容量使用率
         url: "/view_keystone_capacity_utilization.html"
     - title: 主動識別系統需求
       entries:
-      - title: 總覽
+      - title: 使用規劃小工具管理儲存系統容量需求
         url: "/concept_overview_planning.html"
-      - title: 識別容量達到限制的系統
+      - title: 識別接近容量極限的儲存系統
         url: "/task_identify_capacity_system.html"
-      - title: 避免大量佔用、以避免中斷運作
+      - title: 管理磁碟區儲存容量閾值
         url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-      - title: 評估技術更新
+      - title: 確定是否建議對儲存系統進行技術更新。
         url: "/evaluate-tech-refresh.html"
       - title: 更新儲存系統的軟體和硬體
         url: "/task_renew_software_and_hardware.html"
-    - title: 根據雲端建議做出明智決策
+    - title: 利用雲端建議分析儲存系統健康狀況
       url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: 識別組態偏差
       entries:
-      - title: 總覽
+      - title: 檢測儲存系統的配置偏差
         url: "/concept_overview_config_drift.html"
-      - title: 新增組態偏移範本
+      - title: 為儲存系統新增配置漂移模板
         url: "/task_add_config_drift_template.html"
-      - title: 比較組態偏移範本
+      - title: 比較配置漂移模板
         url: "/task_compare_config_drift_template.html"
-      - title: 產生飄移時間軸報告
+      - title: 產生配置漂移時間軸報告
         url: "/task_generate_drift_timeline_report.html"
-      - title: 管理範本
+      - title: 管理配置漂移模板
         url: "/task_manage_template.html"
-    - title: 提升儲存系統的效率與效能
+    - title: 提高儲存系統的效率和效能
       entries:
-      - title: 分析容量與儲存效率節約效益
+      - title: 查看容量和儲存效率節省情況
         url: "/task_analyze_storage_efficiency.html"
-      - title: 分析效能圖表
+      - title: 查看儲存系統效能圖表
         url: "/task_view_performance_graphs.html"
-    - title: 分析儲存系統的健全狀況
+    - title: 分析儲存系統的健康狀況
       entries:
-      - title: 總覽
+      - title: 了解健康檢查儀表板
         url: "/concept_understand_health_check_dashboard.html"
       - title: 開始使用狀況檢查儀表板
         url: "/concept_get_started_with_health_check_dashboard.html"
-      - title: 續約您的支援合約
+      - title: 續約支援合約
         url: "/task_renew_support_contracts_for_your_systems.html"
     - title: 升級以最佳化安裝基礎
       entries:
       - title: 升級支援服務
         url: "/task_upgrade_support_offering.html"
-      - title: 使用Ansible教戰手冊更新AFF 您的功能性和FAS 功能性的韌體
+      - title: 使用 Ansible Playbook 更新AFF和FAS韌體
         entries:
-        - title: 下載 AFF 和 FAS 韌體 Ansible Automation 套件
+        - title: 下載AFF和FAS韌體 Ansible 套件
           url: "/task_update_AFF_FAS_firmware.html"
-        - title: 安裝並執行 AFF 和 FAS 韌體 Ansible 自動化套件（經驗豐富的使用者）
+        - title: 使用 Ansible 軟體包更新AFF和FAS韌體（適合有經驗的用戶）
           url: "/task_install_execute_firmware_update_exp_user.html"
         - title: 安裝並執行 AFF 和 FAS 韌體 Ansible 自動化套件（初學者）
           entries:
-          - title: 使用Web伺服器來裝載韌體檔案
+          - title: 在 Web 伺服器上託管AFF和FAS韌體文件
             url: "/task_hosting_firmware_files_using_web_server.html"
-          - title: 使用庫存檔案
+          - title: 更新AFF和FAS韌體更新的庫存文件
             url: "/concept_working_with_inventory_file.html"
-          - title: 使用NetApp Docker映像執行Ansible教戰手冊
+          - title: 使用NetApp Docker 映像執行 Ansible playbook
             url: "/task_execute_ansible_playbook_using_docker.html"
-          - title: 在不使用 NetApp Docker 映像的情況下執行 Ansible 教戰手冊
+          - title: 執行 Ansible playbook 時不使用NetApp Docker 映像
             url: "/task_execute_ansible_playbook_without_docker.html"
-          - title: 驗證韌體安裝
+          - title: 驗證儲存系統上AFF和FAS韌體的安裝情況
             url: "/task_validate_firmware_installation.html"
     - title: 使用API整合資料
       entries:
-      - title: 總覽
+      - title: 了解Digital AdvisorAPI 服務
         url: "/concept_overview_API_service.html"
-      - title: 產生權杖以使用API
+      - title: 產生用於使用Digital AdvisorAPI 服務的令牌
         url: "/task_generate_tokens_API_services.html"
-      - title: 使用 API 目錄執行 API
+      - title: 使用Digital AdvisorAPI 目錄來執行 API。
         url: "/task_view_API_catalog.html"
     - title: 產生自訂報告
       entries:
-      - title: 報告類型
+      - title: 了解Digital Advisor報告
         url: "/concept_report_types.html"
-      - title: 產生報告
+      - title: 產生或安排報告
         url: "/task_generate_reports.html"
   - title: 知識與支援
     entries:

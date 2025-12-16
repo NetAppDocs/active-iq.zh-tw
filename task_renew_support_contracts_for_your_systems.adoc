@@ -4,7 +4,7 @@ permalink: task_renew_support_contracts_for_your_systems.html
 keywords: renew, renewals, support contracts, support & entitlements, active support contracts, 
 summary: 提供如何續約系統支援合約的相關資訊。 
 ---
-= 續約您的支援合約
+= 在Digital Advisor中續簽您的支援合約
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: concept_key_terms.html
 keywords: overview, inventory, wellness, widgets, actions 
 summary: 提供數位顧問使用的關鍵詞彙資訊。 
 ---
-= 主要概念
+= 深入瞭解數位顧問
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

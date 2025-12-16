@@ -4,7 +4,7 @@ permalink: task_renew_software_and_hardware.html
 keywords: renew, hardware, software 
 summary: 提供更新儲存系統軟體與硬體的資訊。 
 ---
-= 更新儲存系統的軟體和硬體
+= 透過Digital Advisor確定儲存系統的軟體和硬體更新方案
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,11 +16,11 @@ summary: 提供更新儲存系統軟體與硬體的資訊。
 
 
 [role="lead"]
-您可以主動識別已過期或即將在未來6個月內到期的軟體和硬體、並傳送更新硬體和軟體的要求。
+您可以主動識別儲存系統中已過期或將在未來 6 個月內到期的軟體和硬件，並發送硬體和軟體續訂請求。
 
 .步驟
 . 按一下「*規劃*」小工具中的「*續約*」。
-. 選取您要續約的系統、然後按一下*更新*。
+. 選擇要續訂的儲存系統，然後按一下「續訂」。
 . 您也可以提供其他意見。
 . 按一下*傳送*。
 

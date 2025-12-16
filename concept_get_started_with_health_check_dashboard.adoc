@@ -4,7 +4,7 @@ permalink: concept_get_started_with_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations,  digital advisor, features, recommended software 
 summary: 提供儀表板、健全狀況分數、功能和小工具的相關資訊。 
 ---
-= 開始使用狀況檢查儀表板
+= 開始使用Digital Advisor健康檢查儀表板
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

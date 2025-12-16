@@ -4,7 +4,7 @@ permalink: generate_upgrade_plan_single_multiple_clusters.html
 keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters 
 summary: 提供步驟、為單一叢集和多個叢集成功進行 ONTAP 升級或還原而產生升級計畫。 
 ---
-= 為單一叢集和多個叢集產生升級計畫
+= 在Digital Advisor中為單一和多個叢集產生ONTAP升級計劃
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

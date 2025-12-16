@@ -4,7 +4,7 @@ permalink: reference_aiq_faq.html
 keywords: faq, frequently asked questions, non-technical, non-technical case, inventory, storage efficiency, capacity, performance 
 summary: 如果您只是想要快速回答問題、這個常見問題集就能幫上忙。 
 ---
-= 數位顧問的常見問題集
+= Digital Advisor常見問題解答
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

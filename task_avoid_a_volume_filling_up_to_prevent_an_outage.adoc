@@ -4,7 +4,7 @@ permalink: task_avoid_a_volume_filling_up_to_prevent_an_outage.html
 keywords: volume filling up, prevent an outage 
 summary: 提供如何避免磁碟區滿量以避免中斷運作的相關資訊。 
 ---
-= 避免大量佔用、以避免中斷運作
+= 在Digital Advisor中管理卷存儲容量閾值
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

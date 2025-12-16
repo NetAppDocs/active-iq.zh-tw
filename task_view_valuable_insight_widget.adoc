@@ -4,7 +4,7 @@ permalink: task_view_valuable_insight_widget.html
 keywords: valuable insight, support cases, storage efficiency savings, mitigated risks 
 summary: 提供寶貴見解小工具的相關資訊。 
 ---
-= 檢視寶貴的洞見
+= 使用Digital Advisor中的“Valuable Insights”小部件查看支援案例和儲存系統詳細信息
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

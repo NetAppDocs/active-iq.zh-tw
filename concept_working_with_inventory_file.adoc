@@ -4,7 +4,7 @@ permalink: concept_working_with_inventory_file.html
 keywords: inventory file, file format 
 summary: 提供使用庫存檔案的相關資訊。 
 ---
-= 使用庫存檔案
+= 更新AFF和FAS韌體更新的庫存文件
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_hosting_firmware_files_using_web_server.html
 keywords: firmware, web server, hosting 
 summary: 提供使用Web伺服器代管韌體檔案的相關資訊。 
 ---
-= 使用Web伺服器來裝載韌體檔案
+= 在 Web 伺服器上託管AFF和FAS韌體文件
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

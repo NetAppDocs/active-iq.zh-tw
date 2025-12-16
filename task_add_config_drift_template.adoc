@@ -4,7 +4,7 @@ permalink: task_add_config_drift_template.html
 keywords: config deviation, drift, configuration, add template 
 summary: 提供新增組態偏移範本的資訊。 
 ---
-= 新增組態偏移範本
+= 在Digital Advisor中為您的儲存系統新增配置漂移模板
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

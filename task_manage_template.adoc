@@ -4,7 +4,7 @@ permalink: task_manage_template.html
 keywords: templates, share template, clone template, edit template, delete template 
 summary: 提供管理範本的資訊。 
 ---
-= 管理範本
+= 在Digital Advisor中管理配置漂移模板
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

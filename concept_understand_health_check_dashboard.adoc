@@ -4,7 +4,7 @@ permalink: concept_understand_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
 summary: 提供資訊、讓您熟悉「狀況檢查儀表板」。 
 ---
-= 瞭解健全狀況檢查儀表板
+= 了解Digital Advisor中的健康檢查儀表板
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

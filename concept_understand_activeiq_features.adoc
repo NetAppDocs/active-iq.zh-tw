@@ -4,7 +4,7 @@ permalink: concept_understand_activeiq_features.html
 keywords: digital advisor, features, upgrade, support offering 
 summary: 提供儀表板、觀察清單、功能和小工具的相關資訊。 
 ---
-= 瞭解Digital Advisor功能
+= 了解Digital Advisor功能
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

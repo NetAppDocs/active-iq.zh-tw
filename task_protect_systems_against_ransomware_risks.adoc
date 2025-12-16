@@ -4,7 +4,7 @@ permalink: task_protect_systems_against_ransomware_risks.html
 keywords: ransomware, risks, ransomware risks 
 summary:  
 ---
-= 保護系統免受勒索軟體風險的侵害
+= 保護Digital Advisor管理的儲存系統免受勒索軟體風險侵害
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: concept_overview_config_drift.html
 keywords: config drift, configuration deviation, add template, compare template 
 summary: 提供組態飄移功能的總覽 
 ---
-= 瞭解組態偏差
+= 使用Digital Advisor檢測儲存系統的配置偏差
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

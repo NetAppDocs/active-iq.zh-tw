@@ -4,7 +4,7 @@ permalink: task_analyze_wellness_clusters_and_nodes.html
 keywords: cluster, node, clusterviewer, configuration 
 summary: 提供有關ClusterViewer的資訊。 
 ---
-= 分析叢集和節點的健全狀況
+= 使用 Digital Advisor 中的 ClusterViewer 小工具查看叢集和節點的運作狀況
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

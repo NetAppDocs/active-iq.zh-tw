@@ -4,7 +4,7 @@ permalink: task_identify_capacity_system.html
 keywords: capacity, space, increase, ONTAP systems, StorageGRID 
 summary: 提供資訊以增加系統容量。 
 ---
-= 識別容量達到限制的系統
+= 在Digital Advisor中識別接近容量極限的儲存系統
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

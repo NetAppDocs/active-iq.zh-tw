@@ -4,7 +4,7 @@ permalink: task_avoid_the_downtime_and_possible_data_loss.html
 keywords: downtime, data loss, avoid downtime, avoid data loss 
 summary: 提供如何避免停機和可能的資料遺失的相關資訊。 
 ---
-= 避免停機和可能的資料遺失
+= 使用Digital Advisor修復可用性和保護組件中識別出的關鍵風險
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

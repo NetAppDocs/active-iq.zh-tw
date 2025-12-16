@@ -4,7 +4,7 @@ permalink: concept_overview_wellness.html
 keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
 summary: 提供有關健全狀況和風險類型的資訊、協助您改善儲存系統。 
 ---
-= 瞭解健全狀況
+= 了解Digital Advisor中的健康小部件
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

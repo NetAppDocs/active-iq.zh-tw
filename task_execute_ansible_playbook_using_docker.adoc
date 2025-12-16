@@ -4,7 +4,7 @@ permalink: task_execute_ansible_playbook_using_docker.html
 keywords: Ansible Playbook, Ansible, Playbook, docker 
 summary: 提供如何使用Docker映像執行「可執行教戰手冊」的相關資訊。 
 ---
-= 使用NetApp Docker映像執行可執行的教戰手冊
+= 使用NetApp Docker 映像執行 Ansible playbook
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

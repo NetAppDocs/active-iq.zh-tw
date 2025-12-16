@@ -4,7 +4,7 @@ permalink: task-informed-decisions-based-on-cloud-recommendations.html
 keywords: cloud recommendations, migration, backup and archive, disaster recovery, FabricPool, FabricPool Advisor, inactive data, tiered data, IDR 
 summary: 根據可做出的明智決策、提供建議。 
 ---
-= 根據雲端建議做出明智決策
+= 利用Digital Advisor中的雲端建議分析您的儲存系統健康狀況
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

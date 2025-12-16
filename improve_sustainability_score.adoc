@@ -4,7 +4,7 @@ permalink: improve_sustainability_score.html
 keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp, sustainability core, cluster level, NetApp Console 
 summary: 透過建議的行動、提供改善永續性分數的步驟。 
 ---
-= 改善永續性分數
+= 透過Digital Advisor提升您的儲存系統永續性評分
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

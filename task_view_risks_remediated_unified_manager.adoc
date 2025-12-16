@@ -4,7 +4,7 @@ permalink: task_view_risks_remediated_unified_manager.html
 keywords: risks, actions, remediation, corrective action, unified manager 
 summary: 提供資訊以檢視可使用Unified Manager自動修正的風險。 
 ---
-= 檢視可以使用Unified Manager或Ansible教戰手冊自動減輕的風險
+= 在Digital Advisor中查看操作風險，並使用 Unified Manager 或 Ansible Playbook 進行緩解。
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

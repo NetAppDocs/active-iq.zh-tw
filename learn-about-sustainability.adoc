@@ -4,7 +4,7 @@ permalink: learn-about-sustainability.html
 keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP, NetApp Console 
 summary: 提供永續發展的相關資訊、可讓您減少能源消耗、並協助您達成環保目標。 
 ---
-= 瞭解永續發展
+= 透過Digital Advisor了解永續發展
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
