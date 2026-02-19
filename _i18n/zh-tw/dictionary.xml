@@ -897,7 +897,6 @@
   <block id="d7a018b0994fcd8c73438187d3cd257d" category="paragraph">*容量顯示在Digital Advisor Base 2或Base 10中嗎？*數位顧問中顯示的所有容量都是Base 2（除以1024）、代表GiB/TiB的容量。NetApp產品及其他NetApp產品也會在Base 2中顯示容量使用量。ONTAP</block>
   <block id="a6f53b7c2d98e66115a149a04939e113" category="list-text">新系統在SAP中新增或更新後、需要一天的時間才能在Digital Advisor中反映出來。</block>
   <block id="7b8ca3eb07a8240bd90e77dc0b6b4b64" category="list-text">您無法在Digital Advisor中編輯報告。您應該刪除現有報告並建立新報告。</block>
-  <block id="b38cbc17f5d9a4695d51db9473e7dffd" category="admonition">報告會儲存在數位顧問中3天。</block>
   <block id="ba5f7135032775c8c999ecabfd7ec65b" category="summary">提供數位顧問的詳細資訊。</block>
   <block id="e3f44fedccc2711587690bd9581827ed" category="paragraph">數位顧問利用遙測資料和已發佈的產品安全性摘要報告來偵測涵蓋範圍*的安全性問題、以及授權支援的產品。產品遙測資料必須透過AutoSupport NetApp透過NetApp傳輸、以便Digital Advisor偵測風險。</block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">登入Digital Advisor。</block>
@@ -1623,4 +1622,5 @@
   <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor 現已支援為已結束有限支援的 ONTAP 版本產生升級計劃，並提供 9 個月的寬限期。此功能可在過渡期內提供清晰的指導，幫助客戶及時採取行動，避免升級中斷。</block>
   <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">提供 ONTAP 儲存安全風險和跨叢集、SVM 和磁碟區的合規性差距的全面、可匯出概述。</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026 年 2 月 04 日</block>
+  <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">該報告將在 Digital Advisor 中儲存 3 個月。</block>
 </blocks>
