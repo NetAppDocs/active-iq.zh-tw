@@ -160,14 +160,8 @@ sidebar:
             url: "/task_execute_ansible_playbook_without_docker.html"
           - title: 驗證儲存系統上AFF和FAS韌體的安裝情況
             url: "/task_validate_firmware_installation.html"
-    - title: 使用API整合資料
-      entries:
-      - title: 了解Digital AdvisorAPI 服務
-        url: "/concept_overview_API_service.html"
-      - title: 產生用於使用Digital AdvisorAPI 服務的令牌
-        url: "/task_generate_tokens_API_services.html"
-      - title: 使用Digital AdvisorAPI 目錄來執行 API。
-        url: "/task_view_API_catalog.html"
+    - title: 了解Digital AdvisorAPI 服務
+      url: "/concept_overview_API_service.html"
     - title: 產生自訂報告
       entries:
       - title: 了解Digital Advisor報告

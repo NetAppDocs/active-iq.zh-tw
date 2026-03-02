@@ -537,13 +537,6 @@
   <block id="e06ee5f4d38e3f442020774d590dd8ae" category="paragraph">任一檢視都可讓使用者使用左側的導覽窗格瀏覽可用的項目。這些項目會依服務的字母順序排列。在特定服務中、您可以展開標題以顯示個別的API端點。按一下服務標題或API端點、即可前往中間窗格中目錄的該區段。</block>
   <block id="32389560c3f1a6bf5e949c0c90761d9b" category="section-title">使用API</block>
   <block id="39560be2ac4b28448572ca6aff31945e" category="paragraph">一旦您獲得授權並可產生權杖、您就可以利用權杖來進行程式化查詢及擷取資料。您也可以從API目錄中測試API、以第一手瞭解查詢的運作方式、以及傳回的資料類型。這是一種很好的方法、可確保您瞭解API在系統中建置程式碼架構之前的運作方式。</block>
-  <block id="23fc079b14c319bb82e85f2e815d0f03" category="summary">提供如何產生權杖以存取API的相關資訊。</block>
-  <block id="3a2fdf84bfcc3c891b43f0d51724ccde" category="paragraph">註冊API服務並產生權杖很簡單。</block>
-  <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">在*快速連結*功能表中、按一下* API服務*。</block>
-  <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">按一下 * 註冊 * 。</block>
-  <block id="d3ea808b3d55f3adc011ccc0b25a4a36" category="list-text">填寫授權申請表、然後按一下*提交*。</block>
-  <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">在「主要API服務」頁面上、按一下「*產生Token *」以檢視及下載存取權杖、並重新整理權杖以叫用API。</block>
-  <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">入口網站提供多種方法、可將一個或兩個權杖儲存在集合中。您可以將它們複製到剪貼簿、下載為文字檔、或以純文字檢視。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">法律聲明提供版權聲明、商標、專利等存取權限。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
@@ -772,17 +765,6 @@
   <block id="2d57c025a86cbb3c18376b2e6594182b" category="list-text">在* Inventory（詳細目錄）* Widget中、選取您要的叢集或節點（主機）。</block>
   <block id="05f9cea794823bcfe9edd186fcb424a3" category="list-text">在叢集或節點層級、按一下*組態*小工具旁的*叢集檢視器*。</block>
   <block id="6551f219e2490db3bc60a0ba2bac261d" category="list-text">按一下「*視覺化*」索引標籤、即可檢視叢集的圖形化呈現。</block>
-  <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">提供API目錄中可用API的相關資訊。</block>
-  <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">API目錄可讓您瀏覽各個類別中的類別和可用API。</block>
-  <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">使用有效的存取權杖和正確輸入必要欄位、您就能對API進行測試呼叫。</block>
-  <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">隨即顯示API目錄。</block>
-  <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">在頁面頂端、將切換開關滑至「實驗」。</block>
-  <block id="835a43b0478137c574edbef583d126a1" category="list-text">從左側導覽中、展開類別並選取任何API以檢視詳細資訊。</block>
-  <block id="fcf9335996c4ed1473286f8644d4b479" category="list-text">展開API。</block>
-  <block id="3bf0bb81ef29ed72536c933fd264a98e" category="list-text">按一下右側的*試用*按鈕。</block>
-  <block id="10d2154e0509c65c04341184204f6715" category="list-text">提供所需的參數、然後按一下*執行*以檢視結果。</block>
-  <block id="541d1e8525d813225b5812766f70549c" category="paragraph">您也可以查看API的*回應*區段、瞭解將會傳回的資料。您可以按一下*範例值*來查看資料的格式、或按一下*模型*、然後按一下插入符號來展開區段、以查看每個元素的定義。</block>
-  <block id="dd2ac633c61d9191fba57c56e22336db" category="paragraph">只要將切換切換切換到* Cod*檢視、就能以各種語言檢視程式碼範例。</block>
   <block id="e4f7548bfc57cb05ec15b81412fadffb" category="summary">提供您擁有的整體庫存資訊。</block>
   <block id="95cc9b63edd3c2016f97c0476635528a" category="paragraph">您也可以產生所選觀察名單的報告、並以電子郵件將報告傳送給最多5位收件者。</block>
   <block id="2a533baae54ffebd2a7ae449c7f45df9" category="list-text">下載* Inventory *報告、以.xls格式檢視系統詳細資料。</block>
@@ -866,7 +848,6 @@
   <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">主動識別系統需求</block>
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">分析儲存效能</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">升級以最佳化安裝基礎</block>
-  <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">使用API整合資料</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">產生自訂報告</block>
   <block id="2eec6525cedefe6316db600adeaf337c" category="section-title">多跳升級</block>
   <block id="01b9a3f3b3303730f5c2525f136ad86b" category="paragraph">對於非鄰近版本的自動不中斷升級（andu）、您可以安裝中間版本和目標版本的軟體映像。自動化升級程序會使用背景中的中繼映像來完成目標版本的更新。例如、如果叢集執行9.3且您想升級至9.7、則會載入ONTAP 9.5和9.7的版次安裝套件、然後啟動andu至9.7。然後、將叢集先自動升級至9.5、再升級至9.7。ONTAP您應預期在程序期間會有多個接管/恢復作業及相關的重新開機。</block>
@@ -905,7 +886,6 @@
   <block id="8fe538800aeef2cc4ce4a036305bf264" category="paragraph">Digital Advisor API Services使用自動化功能來提升工作流程效率。內部API服務位於* API目錄*、其中描述超過100個不同的API端點、這些端點分為20個以上不同的服務區域。這些API可作為NetApp客戶提供給您、涵蓋不同的興趣領域、例如系統資訊、儲存效率、效能、健全狀況和升級。</block>
   <block id="b55b7f8ad3b486e6903c05d80410b389" category="paragraph">API是可讓您撰寫簡單程式碼的介面、可透過程式設計方式聯絡Digital Advisor、並將資料帶回運算環境。您可以撰寫程式碼、讓IT人員每天都能聯絡Digital Advisor、並在您感興趣的領域提供最新的資料。然後您可以使用此資料填入您的票證系統、或建立自己的儀表板、網頁或報告。數位顧問API目錄包含程式碼範例、以及可讓您在瀏覽器中試用API的工具。</block>
   <block id="2eba3fd530b8be90290c1ea2652f4310" category="paragraph">API自動化是提升日常或每週工作效率與準確度的絕佳方法。它可釋出您的資源、以執行更複雜的活動或自動化新的工作流程。例如、如果您有需要修正的系統健全狀況風險、您至少可以自動化從Digital Advisor中取出這些項目、並將其推入您的票證系統。</block>
-  <block id="ee67d4518095f8899eb8244097de7a35" category="paragraph">啟動是自動的、應該是即時的。一旦您獲得授權使用Digital Advisor API、就能產生權杖、以便在進行程式化API呼叫時使用。您也可以使用這些權杖、從API目錄中執行「試用」。當以程式設計方式取得時、權杖一律會以兩種形式提供：存取權杖和更新權杖。必須傳遞存取權杖、才能成功使用所有API（除了一種API之外、「重新整理權杖」是用來以程式設計方式取得一組新的權杖）。</block>
   <block id="ec51503b0f35cbc8702985e4aa3ca3c5" category="paragraph">如需容量與儲存效率的詳細資訊、請參閱 <block ref="de007cfc8081d514ce95fa7f06caeee8" category="inline-link-macro-rx"></block>。</block>
   <block id="ddd5bde8e3e027f9a9efab7fcfa90542" category="doc">數位顧問的新功能</block>
   <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">數位顧問提供下列功能與增強功能：</block>
@@ -956,7 +936,6 @@
   <block id="7668feb1d998cf5c94c1e24359309154" category="list-text">登入數位顧問。</block>
   <block id="eea107c69ccee0cbe0becace353b156f" category="paragraph">Digital Advisor會產生自訂的可執行指令碼或教戰手冊、以更新所需的磁碟韌體、包括磁碟韌體檔案。</block>
   <block id="c8a6259aed44fea9ff6723eeb59cce9e" category="sidebar">數位顧問文件</block>
-  <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">您應該下載並儲存存取權杖和重新整理權杖、以供日後使用。存取權杖一經產生即過期一小時、更新權杖應每7天手動重新產生一次、並安裝在應用程式中。若要這麼做、您不需要登入應用程式。不過、90天後、您需要登入應用程式、才能取得新的存取權杖和重新整理權杖。</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">組態偏移範本中的屬性是可編輯的、下列範本群組支援某些區段的規則運算式：</block>
   <block id="03937134cedab9078be39a77ee3a48a0" category="cell">群組</block>
   <block id="d2c24d59e0baff4d0155fbdf62590867" category="cell">區段</block>
@@ -1426,22 +1405,11 @@
   <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">容量預測 V2 和支援終止 API 模組計畫棄用。若要存取已棄用的 API 或了解棄用時間表和替代 API，請導覽至 *API 服務 -&gt; 瀏覽 -&gt; 已棄用的 API*。</block>
   <block id="6e04d6bd41fa83c137f7b99364e843c9" category="admonition">NetApp Digital Advisor正在從 REST API 過渡到 GraphQL 作為其主要 API 平台，以提高效能、靈活性和可擴展性。過渡將分階段進行，REST API 和 GraphQL API 之間會有一段時間重疊。對於每個棄用的 REST API，都會在Digital Advisor API 目錄中發布棄用通知，並且您有 6 個月的時間將該特定端點遷移到 GraphQL。若要查看已計劃已棄用的 API 列表，請導航至 *API 服務 -&gt; 瀏覽 -&gt; 已棄用的 API*</block>
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
-  <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">存取 GraphQL API</block>
-  <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">點擊 *GraphQL* 並查看文件。</block>
-  <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital AdvisorGraphQL Studio</block>
-  <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">使用可立即運行的範例查詢來試用 GraphQL API<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> 。</block>
-  <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">透過選擇 API 請求標頭中的授權欄位來提供使用者令牌</block>
-  <block id="85608152841a7f2e1feb0fe64d6e0ea6" category="list-text">提供所需的變數</block>
-  <block id="f957bd87c6ca02f7e8d3b7e94c1b1992" category="list-text">運行查詢並查看輸出</block>
-  <block id="56221c5b2b531b839a3cd5c7e9c9cd9f" category="section-title">存取 REST API</block>
-  <block id="35c99013ee51309b261a35e68d7b57ba" category="list-text">點擊“ActiveIQ-Public”並選擇任意 API</block>
   <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">*庫存* 小部件為您提供了您擁有的整個系統和有權支援的交換器的總和。這包括啟用Digital Advisor和未啟用 Digital Advisor 的產品。</block>
   <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">查看支援授權切換詳細信息</block>
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">在「*庫存*」小工具中，按一下「*支援授權開關*」以查看有關所有支援授權開關的資訊。</block>
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">了解如何查看支援授權開關</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">您現在可以查看有關有權獲得支援的Brocade光纖通道 SAN 交換器的資訊。這包括有關交換器型號、序號和支援狀態的詳細資訊。<block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> 。</block>
-  <block id="1b9abf135ccb7ed2f2cd9c155137c351" category="inline-link-macro">瀏覽</block>
-  <block id="2981195e7f0b7a603227ab0ab32a8349" category="list-text">點選<block ref="3dddd0be9b2e921fda9092125563366a" category="inline-link-macro-rx"></block>在 *API 目錄* 圖示下。</block>
   <block id="56f48a0b7ef64f3dcd95534228f6c5f3" category="paragraph">環境指標可以深入了解您的儲存系統的環境健康狀況，現在可以根據先進的預測模型為預期的電力使用量、直接碳使用量和熱量排放提供更精確的值。要了解更多信息，請參閱<block ref="a9f485271892e0176d2cdaee960db816" category="inline-link-macro-rx"></block>。</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP現在是NetApp控制台</block>
   <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。</block>
@@ -1541,7 +1509,6 @@
   <block id="1d171292f5d993b6b1a0ace428002ae8" category="doc">執行 Ansible playbook 時不使用NetApp Docker 映像</block>
   <block id="90f3ab06fb2b5ec1e539116cfe0cd3bb" category="doc">在Digital Advisor中產生配置漂移時間軸報告</block>
   <block id="1b12ad840be07a671cddf255ef0ba4a8" category="doc">在Digital Advisor中產生或排程報告</block>
-  <block id="fcdc266661735ff673a0dd6db9dee871" category="doc">產生用於使用Digital AdvisorAPI 服務的令牌</block>
   <block id="8bb48da551b9f18b9a7bb8a26c2143b5" category="doc">在 Web 伺服器上託管AFF和FAS韌體文件</block>
   <block id="dbf951fc2e241b15feb7e005fe4a45bf" category="doc">在Digital Advisor中識別接近容量極限的儲存系統</block>
   <block id="10dbc72fe842008d2175d0d6c8409b92" category="doc">利用Digital Advisor檢測安全風險並採取糾正措施</block>
@@ -1558,7 +1525,6 @@
   <block id="35aedce653ee05a4fca3b7e9369bfd70" category="doc">從Digital Advisor下載AFF和FAS韌體 Ansible 軟體包</block>
   <block id="36d1684f85846e6901819bfb095f4fc7" category="doc">升級您在Digital Advisor中的支援服務</block>
   <block id="6c96fdceac3302fe4a465f308ef622a1" category="doc">驗證儲存系統上AFF和FAS韌體的安裝。</block>
-  <block id="e11965f61e6b60a8c6e2460a84cc204c" category="doc">使用Digital AdvisorAPI 目錄來執行 API。</block>
   <block id="7d8cfcd1375c38dde47d477af932e6f3" category="doc">在Digital Advisor中分析健康屬性並識別風險</block>
   <block id="e2b13842235a9d8f6222d5443d06264d" category="doc">在Digital Advisor中查看您的儲存系統庫存詳情</block>
   <block id="55e59275438e24e489c9eedadc22e820" category="doc">在Digital Advisor中查看儲存系統效能圖表</block>
@@ -1623,4 +1589,6 @@
   <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">提供 ONTAP 儲存安全風險和跨叢集、SVM 和磁碟區的合規性差距的全面、可匯出概述。</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026 年 2 月 04 日</block>
   <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">該報告將在 Digital Advisor 中儲存 3 個月。</block>
+  <block id="acdb887b3053b4cb61257e8d616a27a9" category="inline-link-macro">NetApp Digital Advisor API 文件</block>
+  <block id="ba16647c06b4add5fc0093f31f94dd0d" category="paragraph">有關如何存取和使用 Digital Advisor API 的資訊，請參閱 <block ref="268007c749dcd53dd83a4024c6f56680" category="inline-link-macro-rx"></block>。</block>
 </blocks>
