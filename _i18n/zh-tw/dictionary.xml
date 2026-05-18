@@ -1591,4 +1591,6 @@
   <block id="acdb887b3053b4cb61257e8d616a27a9" category="inline-link-macro">NetApp Digital Advisor API 文件</block>
   <block id="ba16647c06b4add5fc0093f31f94dd0d" category="paragraph">有關如何存取和使用 Digital Advisor API 的資訊，請參閱 <block ref="268007c749dcd53dd83a4024c6f56680" category="inline-link-macro-rx"></block>。</block>
   <block id="ed124d5bdf3fe0a1c3c145d0a44b1707" category="list-text">請確保 AutoSupport (ASUP) 已啟用並正確配置，且包含所有必要部分。有關更多資訊，請參閱<block ref="40cef9e2460f87a6d015a209e1716d2b" category="inline-link-macro-rx"></block>。</block>
+  <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">自 2026 年 7 月起，Digital Advisor 中的 Wellness Review 功能將不再提供。如有任何疑問，請發送電子郵件至 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]。</block>
+  <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026 年 5 月 18 日</block>
 </blocks>
