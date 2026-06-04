@@ -37,10 +37,10 @@ video::rEPtldosjWM[youtube,width=848,height=480]
 | 健康 | 支援所有平台 | 支援所有平台 | 支援所有平台 
 
 
-| 續約 | 支援所有平台 | 支援所有平台 | 支援所有平台 
+| 支援續約 | 支援所有平台 | 支援所有平台 | 支援所有平台 
 
 
-| 增加容量 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 
+| 儲存擴充 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 
 
 
 | 庫存 | 支援所有平台 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 

@@ -106,7 +106,7 @@ sidebar:
         url: "/task_identify_capacity_system.html"
       - title: 管理磁碟區儲存容量閾值
         url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-      - title: 確定是否建議對儲存系統進行技術更新。
+      - title: 確定是否建議對儲存系統進行系統重新整理
         url: "/evaluate-tech-refresh.html"
       - title: 更新儲存系統的軟體和硬體
         url: "/task_renew_software_and_hardware.html"

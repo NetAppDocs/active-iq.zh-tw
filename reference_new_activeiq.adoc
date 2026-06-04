@@ -20,6 +20,21 @@ summary: 提供版本新功能的相關資訊。
 
 
 
+== 2026 年 6 月 3 日
+
+
+
+=== Digital Advisor 小工具名稱更新
+
+以下 Digital Advisor 功能已更改名稱：
+
+* Tech Refresh 功能現已更名為 System Refresh。了解如何link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["評估系統重新整理"]。
+* 容量新增功能現已更名為儲存擴充。深入瞭解link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor 小工具"]。
+* 續訂功能現已更名為 Support Renewals。了解更多link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor 小工具"]。
+
+
+
+
 == 2026 年 5 月 18 日
 
 
@@ -939,7 +954,7 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 * *健全狀況小工具：*根據StorageGRID 現有的可用系統ARS規則、檢視所有風險與行動、包括與之相關的風險與行動。
 * *規劃小工具：*
 +
-** *新增容量：*若網格站台超過現有容量70%的臨界值、您將會收到通知。如果容量臨界值可能超過70%、您可以在未來1、3和6個月內、為站台的StorageGRID新增容量。
+** *容量增加：* 對於任何容量使用率超過現有容量 70% 的 GRID 站點，您將收到通知。如果容量使用率可能超過 70%，您可以選擇在未來 1 個月、3 個月和 6 個月內為該站點的 StorageGRID 增加容量。
 ** *續約：* StorageGRID 若授權合約已到期或即將在未來6個月內到期、您將會收到通知。您可以選取一或多個系統、向NetApp支援團隊提出續約申請。
 
 

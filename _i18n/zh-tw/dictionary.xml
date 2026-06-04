@@ -25,7 +25,6 @@
   <block id="75a224357589706495901ad497cb3098" category="paragraph">您可以看到_機櫃_fw_file_金鑰和值已從叢集1移除。</block>
   <block id="dd2f14a8d126300e4d4b5f68789f76c1" category="admonition">不支援手動新增叢集或控制器。</block>
   <block id="834e689bebc0737b35009981790fcddc" category="summary">提供有關健全狀況和風險類型的資訊、協助您改善儲存系統。</block>
-  <block id="16ae463ae4f1266939a871f237f322a5" category="paragraph">健全狀況小工具提供儲存系統的詳細資訊。它提供儲存系統不同屬性的相關資訊、例如效能與效率、容量、組態設定、安全性弱點、續約、 及其他。</block>
   <block id="fce1523be4b4cc1966774ce59fd20610" category="inline-image-macro">健全工作流程</block>
   <block id="32a4a6962e2e1ab900312c2d4eefa0de" category="paragraph"><block ref="32a4a6962e2e1ab900312c2d4eefa0de" category="inline-image-macro-rx" type="image"></block></block>
   <block id="15d214cfadac5e15f2d227c604756873" category="paragraph">健全狀況小工具也會提供風險的相關資訊、以及應採取哪些行動來降低每個健全狀況屬性的風險。以下是每種風險的風險類型及相關後果：</block>
@@ -43,7 +42,6 @@
   <block id="3c1579e4105c256057f7f7b8f1c3f947" category="cell">偏離已記錄的最佳實務做法</block>
   <block id="6fe43a0bc5267b501dd5c7825c17e1be" category="paragraph">您可以觀看下列影片、瞭解健康特質的重要性：</block>
   <block id="a789bbd5cd15d75a39f05ef8f875cf51" category="summary">提供更新儲存系統軟體與硬體的資訊。</block>
-  <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">按一下「*規劃*」小工具中的「*續約*」。</block>
   <block id="f3a5f842bf6c3b73bcf58318a3511acf" category="list-text">您也可以提供其他意見。</block>
   <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">按一下*傳送*。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想要快速回答問題、這個常見問題集就能幫上忙。</block>
@@ -366,7 +364,6 @@
   <block id="7a02010f1fdbb3243b633245324dbadf" category="list-text">*詳細目錄小工具：*檢視StorageGRID 所選層級下可用的各種系統資源清冊。</block>
   <block id="b9928cfa30ad75fb5efb2c79cc8b812e" category="list-text">*健全狀況小工具：*根據StorageGRID 現有的可用系統ARS規則、檢視所有風險與行動、包括與之相關的風險與行動。</block>
   <block id="5c9ed548c23a9e1a91cf1c652e779a1a" category="list-text">*規劃小工具：*</block>
-  <block id="5ad57484a0088c331d00073cc0508f63" category="list-text">*新增容量：*若網格站台超過現有容量70%的臨界值、您將會收到通知。如果容量臨界值可能超過70%、您可以在未來1、3和6個月內、為站台的StorageGRID新增容量。</block>
   <block id="b1022932a0a6c2bc62b19907e4e14bea" category="list-text">*續約：* StorageGRID 若授權合約已到期或即將在未來6個月內到期、您將會收到通知。您可以選取一或多個系統、向NetApp支援團隊提出續約申請。</block>
   <block id="c4e80074735e6ff2daec051071dbc429" category="list-text">*網格儀表板：*網格儀表板提供所選網格的健全狀況、規劃及組態詳細資料。</block>
   <block id="b71490eeea3abb6f9a0c159a3418dd5e" category="list-text">*組態小工具：*提供StorageGRID 小工具中所選功能的基本詳細資料、例如網格名稱、主機名稱、序號、型號、作業系統版本、 客戶名稱、出貨地點及聯絡詳細資料。</block>
@@ -555,7 +552,6 @@
   <block id="f72e303ceb317ddb2d49f55359f01d75" category="cell">*叢集*</block>
   <block id="04eaef0c64f7604067332b0b05e598d3" category="cell">*節點*</block>
   <block id="fe40d8b49a8a95c2a28179b7ef3039d6" category="cell">支援所有平台</block>
-  <block id="28e26766a62bd9ef329986f7963b6357" category="cell">增加容量</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">僅在叢集Data ONTAP 式的不支援</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">升級</block>
   <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">提供管理觀察名單的資訊。</block>
@@ -636,9 +632,6 @@
   <block id="91351fc68db7f9bca112a2fb897a0902" category="list-text">*取消認可風險（取消認可）：*可讓您取消認可已確認的風險與系統。</block>
   <block id="0f4f0d8eb7497054f3f3160501e62e20" category="list-text">*修正：* Active IQ 使用NetApp Manager（UM）9.7或更新版本來修正系統的風險。按一下此按鈕以啟動UM、並執行降低風險的步驟。</block>
   <block id="70997d9cb46f1884262203c0386ee9ba" category="list-text">*產生報告：*產生所選觀察名單的報告、並以電子郵件將報告寄送給最多5位收件者。</block>
-  <block id="4f34ff28c8e6e0459e7e8b7c218ea60a" category="list-text">*規劃小工具：*顯示需要更新的容量新增、軟體及硬體相關資訊。</block>
-  <block id="f455a78311af3f0899cacd26d802aabd" category="list-text">*新增容量：*識別已超過或接近90%容量的系統、以及已超過或接近70%容量的網格站台。您可以提出要求、以增加儲存系統的容量。</block>
-  <block id="a14095eb1402d18db0b8da516449039e" category="list-text">*續約：*提供未來6個月內已過期或即將到期的軟體與硬體相關資訊。</block>
   <block id="893c77a9be3c9d01629801789ac3c684" category="list-text">*升級小工具：*提供ONTAP 適用於下列系統的升級數量：</block>
   <block id="802c8daa153570ef0dadaf2d8be9ee78" category="list-text">若為ONTAP 「更新」系統、您可以檢視需要升級的系統數量資訊、然後申請升級計畫。</block>
   <block id="ac697c7fc74ba789f9ec5a46df7312c6" category="list-text">對於E系列系統、您只能檢視需要升級的系統數量資訊。</block>
@@ -1259,9 +1252,6 @@
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">數位顧問Web入口網站</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">數位顧問影片</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp社群–數位顧問</block>
-  <block id="a05a52081b0fa90b1547ef6f59f35788" category="summary">提供資訊以評估技術支援合約或硬體的技術更新</block>
-  <block id="33a9c4b5f0c522c38ff9b1b46ebd1498" category="doc">評估技術更新</block>
-  <block id="2d6605eb73e95419014e86f084d39681" category="paragraph">如果您想確定技術支援合約或硬體是否建議進行技術更新、您可以使用技術更新選項。</block>
   <block id="ef2753666e2bb535cdbdfcab50c1a017" category="list-text">* 安全性與勒索軟體防禦： * 提供與安全性弱點、勒索軟體偵測、預防及恢復相關的風險與修正行動資訊。</block>
   <block id="1f4882587636b2511732cfb3b14bfbcf" category="list-text">* 永續性： * 顯示建議行動的數量、以改善客戶、觀察名單、站台及群組層級的永續性分數。</block>
   <block id="0235bcf89237278317e178c8c295ac74" category="list-text">按一下 * 安全性與勒索軟體防護 * 小工具中的 * 行動 * 。
@@ -1303,14 +1293,12 @@
   <block id="748f6ba28053e4e8537665ce73aed705" category="list-text">無法存取某些功能、或需要任何 Digital Advisor 功能的協助</block>
   <block id="71ba49d3e291eb6557085c00a26f1f0e" category="paragraph">主動識別達到容量限制的系統、並傳送要求以增加儲存系統容量。</block>
   <block id="64c0215a49227967002da65613b613e8" category="paragraph">對於 ONTAP 、您可以在 1 、 3 和 6 個月內檢視超過 90% 容量或超過 90% 容量的系統。對於 StorageGRID 、您可以在 1 、 3 和 6 個月內檢視超過 70% 容量或超過 70% 容量的系統。</block>
-  <block id="c8a74c1549aa26d254c47b2fe445b5be" category="list-text">在 * 規劃 * Widget 中、按一下 * 容量新增 * 。</block>
   <block id="6af6f792a8c574d32c21182caaac6294" category="paragraph">依預設、會顯示容量超過 90% 或接近 90% 的 ONTAP 系統。</block>
   <block id="8774a5436b96ad3e78450845bce43111" category="list-text">按一下 * StorageGRID * 標籤、檢視超過 70% 容量或接近 70% 容量的 StorageGRID 系統。</block>
   <block id="cd521d4f21b981f0132bcab8c1cd1129" category="list-text">選取您要增加容量的系統。</block>
   <block id="6aeda814c1d41515a83e1377f67f46b6" category="list-text">按一下 * 檢視容量預測 * 以檢視未來 6 個月的容量預測。</block>
   <block id="8d79993c5d29c4e1c65aa5714a30b889" category="list-text">按一下 * 要求新增容量 * 。</block>
   <block id="db58d45951c63fe2dd675478f6b9865f" category="list-text">您也可以選擇提供任何意見。</block>
-  <block id="1b4b8457b3e396737f084de0f45936c7" category="list-text">按一下 * 傳送 * 、將要求傳送給 NetApp 儲存團隊、以協助增加所選系統的容量。</block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024 年 5 月 15 日</block>
   <block id="e5ec30fe5fd65ba8d529a625838c30d8" category="admonition">Cloud Volumes ONTAP 、 AFF 系統（ A 系列和 C 系列）、 E 系列、 FAS 和 StorageGRID 系統均支援永續性。</block>
   <block id="f78aea7a273ac10c7cb721f1b73054d6" category="paragraph">永續性儀表板可針對您的儲存系統進行環境評估、並提供可據以行動的洞見、以 NetApp 建議行動的形式進行改善。</block>
@@ -1430,8 +1418,6 @@
   <block id="70eb71406501e224ffe5e1e4571fcc65" category="list-text">開啟 Web 瀏覽器並前往<block ref="24972d13214bf960aed8a7602883d866" category="inline-link-macro-rx"></block>。</block>
   <block id="5bf5d855aa43f8908638c956b6a6ef8b" category="paragraph">如果您之前使用電子郵件和密碼建立了控制台登錄，則需要繼續使用該登入選項。</block>
   <block id="e55f1920f154b5cf14dc8dc4428d7185" category="paragraph">此次登入與步驟2中完成的登入不同。在步驟 2 中，您登入控制台。現在您正在登入Digital Advisor。</block>
-  <block id="53d31668ff4a0d2a40cc587f9c13ec8e" category="admonition">您可以透過生命週期規劃（*儲存* &gt; *生命週期規劃*）或透過Digital Advisor（*儀表板 &gt; 規劃小工具 &gt; 技術更新*）存取此功能。</block>
-  <block id="81726c1bdc965a2834b9dcfa001ef6b0" category="paragraph">有關此功能的更多信息，請參閱<block ref="a230b818a44a7d13155b37e12838fa41" category="inline-link-macro-rx"></block>在控制台文件中。</block>
   <block id="251a116e3518821c4cb40f8abb066a2f" category="summary">透過造訪NetApp Console 或Digital Advisor開始使用永續性儀表板。</block>
   <block id="eb78fdcbf8bbae675c7ee0f97a884a74" category="paragraph">永續性儀表板提供支援 AIOps 的報告和評分以及可操作的見解，以改善您的永續性態勢。您可以透過NetApp Console 或Digital Advisor存取永續性儀表板。</block>
   <block id="f5d302c73eacff7b76d482bf489706b0" category="inline-link-macro">登入控制台</block>
@@ -1484,7 +1470,6 @@
   <block id="570719b584e6e69c4931e958bef6979e" category="doc">了解Digital Advisor功能</block>
   <block id="8083f9b299587af579ece9bb64335b08" category="doc">了解Digital Advisor中的健康檢查儀表板</block>
   <block id="e5961c9ba5d2ded320c587ca2be451d3" category="doc">更新AFF和FAS韌體更新的庫存文件</block>
-  <block id="17cf57a799d9d94a0c583f49a7f30df1" category="doc">在Digital Advisor中確定是否建議對您的儲存系統進行技術更新。</block>
   <block id="2aa63ba789e73b06bdbb2c2a977b1a63" category="doc">在Digital Advisor中為單一和多個叢集產生ONTAP升級計劃</block>
   <block id="c1f1e34afc313dc547fc394981f53ffd" category="doc">在Digital Advisor中存取可持續發展儀表板</block>
   <block id="6a67202f32080d987cdaf104a007ea9f" category="doc">透過Digital Advisor提升您的儲存系統永續性評分</block>
@@ -1560,7 +1545,6 @@
   <block id="d89f3b8963bef2ec6e2b190588136909" category="sidebar">使用規劃小工具管理儲存系統容量需求</block>
   <block id="670c1f5b09d4ee058170a248707f6cf0" category="sidebar">識別接近容量極限的儲存系統</block>
   <block id="670d5d545130d51748bc5083b6b61b03" category="sidebar">管理磁碟區儲存容量閾值</block>
-  <block id="619122f60cc5d0d60681fb618a43634b" category="sidebar">確定是否建議對儲存系統進行技術更新。</block>
   <block id="38ce951a3b0659ec3d5cbbb32de780f8" category="sidebar">更新儲存系統的軟體和硬體</block>
   <block id="df1499afb39a1c2cf9d675ff51761e59" category="sidebar">利用雲端建議分析儲存系統健康狀況</block>
   <block id="29da45b00d724bc9c112a3904192176a" category="sidebar">檢測儲存系統的配置偏差</block>
@@ -1593,4 +1577,29 @@
   <block id="ed124d5bdf3fe0a1c3c145d0a44b1707" category="list-text">請確保 AutoSupport (ASUP) 已啟用並正確配置，且包含所有必要部分。有關更多資訊，請參閱<block ref="40cef9e2460f87a6d015a209e1716d2b" category="inline-link-macro-rx"></block>。</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">自 2026 年 7 月起，Digital Advisor 中的 Wellness Review 功能將不再提供。如有任何疑問，請發送電子郵件至 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]。</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026 年 5 月 18 日</block>
+  <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Digital Advisor 小工具名稱更新</block>
+  <block id="10db272222005cd4785bf41eb8f2d16f" category="paragraph">以下 Digital Advisor 功能已更改名稱：</block>
+  <block id="c1e03330b4662e637d1bbe6857651076" category="inline-link-macro">評估系統重新整理</block>
+  <block id="7e46c4cf133c5a7da9a1738efe1b7df3" category="list-text">Tech Refresh 功能現已更名為 System Refresh。了解如何<block ref="b9c9fb213cb3859574b8b90c3e01e8f8" category="inline-link-macro-rx"></block>。</block>
+  <block id="ffbdf4857ebb280d918de41e3ecebb17" category="inline-link-macro">Digital Advisor 小工具</block>
+  <block id="7b68bc21ce78c08210db229203879260" category="list-text">容量新增功能現已更名為儲存擴充。深入瞭解<block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>。</block>
+  <block id="6be411ea1de1ddb5d78a1efaf383f88c" category="list-text">續訂功能現已更名為 Support Renewals。了解更多<block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>。</block>
+  <block id="4e48390599cbc0039283bd380eac0cdd" category="cell">支援續約</block>
+  <block id="a6622e39d0619e452c435935de0631a7" category="cell">儲存擴充</block>
+  <block id="51b0c2b7b72e87dd0bf515df5f9e6f5e" category="list-text">*規劃小工具：* 顯示有關需要更新的儲存擴充功能、軟體和硬體的資訊。</block>
+  <block id="72249fa940a7ec954e6f3d3abf4091cf" category="list-text">*Storage Expansion：* 識別已超過或接近 90% 容量的系統，以及已超過或接近 70% 容量的 GRID 站台。您可以提出要求以增加儲存系統的容量。</block>
+  <block id="4147677b5e66a7db19581c18353c5d87" category="list-text">*支援續約：* 提供有關已過期或將在未來 6 個月內到期的軟體和硬體的資訊。</block>
+  <block id="05990f83c518983518d1838e09f090e8" category="paragraph">健康管理小工具提供有關您儲存系統的詳細資訊。它提供有關您儲存系統不同屬性的資訊，例如效能和效率、容量、組態設定、安全性弱點、支援續約等。</block>
+  <block id="9b9e31bebddf0b3c6a491e94b6ef64b5" category="summary">提供資訊以評估您的技術支援合約或硬體的系統更新</block>
+  <block id="c4d91836762c79f24882b84639da9ecd" category="doc">在 Digital Advisor 中確定是否建議對您的儲存系統進行系統重新整理</block>
+  <block id="ae7c8af4913d5ed60eee9eba144d34f2" category="paragraph">如果您想確定是否建議您對 Tech Support 合約或硬體進行系統更新，可以使用系統更新選項。</block>
+  <block id="b673e7cded650c08d6c0289225510337" category="paragraph">您可以透過生命週期規劃（*儲存* &gt; *生命週期規劃*）或 Digital Advisor（*儀表板* &gt; *規劃小工具* &gt; *系統重新整理*）存取此功能。</block>
+  <block id="dcd5d8e34e28517df35c9ef34326b7f8" category="inline-link-macro">評估系統重新整理</block>
+  <block id="4b6c29e1e0ca5888882f9afb85d41460" category="paragraph">如需此功能的詳細資訊，請參閱主控台文件中的 <block ref="60246966bc8fb02ea32471ffe11e7654" category="inline-link-macro-rx"></block>。</block>
+  <block id="ded0a309adbbd30fc9482b49a9ac79cd" category="section-title">2026 年 6 月 3 日</block>
+  <block id="2014a31fd7c5aa735efd9b3eab46bae2" category="list-text">*容量增加：* 對於任何容量使用率超過現有容量 70% 的 GRID 站點，您將收到通知。如果容量使用率可能超過 70%，您可以選擇在未來 1 個月、3 個月和 6 個月內為該站點的 StorageGRID 增加容量。</block>
+  <block id="0cd056bd26e169de7bcb1a020c6b1264" category="list-text">在 *Planning* 小工具中，按一下 *Storage Expansion*。</block>
+  <block id="2e703d88e9f579295840057715d9e123" category="list-text">按一下 *Send* ，將要求傳送給 NetApp 儲存設備團隊、以協助擴充所選系統的儲存設備。</block>
+  <block id="9db2bee503b4dd39ee519c9d3147cd82" category="list-text">從 *Planning* 小工具點選 *Support Renewals*。</block>
+  <block id="ac7c07737d772453b955c31ac43f2b1f" category="sidebar">確定是否建議對儲存系統進行系統重新整理</block>
 </blocks>

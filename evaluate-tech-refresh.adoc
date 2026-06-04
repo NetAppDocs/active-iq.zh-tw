@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: evaluate-tech-refresh.html 
-keywords: tech refresh, tech support contract, hardware 
-summary: 提供資訊以評估技術支援合約或硬體的技術更新 
+keywords: tech refresh, tech support contract, hardware, system refresh 
+summary: 提供資訊以評估您的技術支援合約或硬體的系統更新 
 ---
-= 在Digital Advisor中確定是否建議對您的儲存系統進行技術更新。
+= 在 Digital Advisor 中確定是否建議對您的儲存系統進行系統重新整理
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,8 +16,8 @@ summary: 提供資訊以評估技術支援合約或硬體的技術更新
 
 
 [role="lead"]
-如果您想確定技術支援合約或硬體是否建議進行技術更新、您可以使用技術更新選項。
+如果您想確定是否建議您對 Tech Support 合約或硬體進行系統更新，可以使用系統更新選項。
 
-您可以透過生命週期規劃（*儲存* > *生命週期規劃*）或透過Digital Advisor（*儀表板 > 規劃小工具 > 技術更新*）存取此功能。
+您可以透過生命週期規劃（*儲存* > *生命週期規劃*）或 Digital Advisor（*儀表板* > *規劃小工具* > *系統重新整理*）存取此功能。
 
-有關此功能的更多信息，請參閱link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["評估技術更新"]在控制台文件中。
+如需此功能的詳細資訊，請參閱主控台文件中的 link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["評估系統重新整理"]。
