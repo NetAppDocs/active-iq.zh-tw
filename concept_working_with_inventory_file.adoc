@@ -22,6 +22,7 @@ summary: 提供使用庫存檔案的相關資訊。
 
 
 
+[[inventory-file-format]]
 == 庫存檔案格式
 
 以下是含有磁碟和機櫃韌體更新的庫存檔案格式範例：
@@ -51,6 +52,7 @@ clusters:
 
 
 
+[[delete-a-cluster-from-the-inventory-file]]
 == 從庫存檔案中刪除叢集
 
 如果您不想在特定叢集上套用韌體更新、可以從庫存檔案中移除叢集。

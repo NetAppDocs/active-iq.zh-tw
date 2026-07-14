@@ -20,6 +20,7 @@ summary: 提供如何更新AFF 支援功能及FAS 更新功能的資訊。
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 在使用AFF Ansible更新功能的韌FAS 體之前、您應該：

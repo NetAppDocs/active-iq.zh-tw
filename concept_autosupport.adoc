@@ -36,6 +36,6 @@ NOTE: 不含任何使用者資料。AutoSupport
 * link:https://docs.netapp.com/us-en/storagegrid-117/admin/what-is-autosupport.html["StorageGRID"^]
 * link:https://docs.netapp.com/us-en/e-series-santricity/sm-support/autosupport-feature-overview.html["（E系列和EF系列）SANtricity"^]
 * link:https://docs.netapp.com/us-en/solidfire-active-iq/concept-active-iq-learn-about-active-iq.html["元素NetApp HCI （支援功能）SolidFire"^]
-* link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444pdf.pdf["技術報告ONTAP AutoSupport -根據AutoSupport 需求提供支援"^]
+* link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444.pdf["技術報告ONTAP AutoSupport -根據AutoSupport 需求提供支援"^]
 * link:https://www.netapp.com/pdf.html?item=/media/10439-tr4688pdf.pdf["技術報告- NetApp遙測資料的安全性與隱私權"^]
 

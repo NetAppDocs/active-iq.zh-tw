@@ -20,6 +20,7 @@ summary: 提供如何驗證韌體安裝的資訊。
 
 
 
+[[validate-disk-firmware-installation]]
 == 驗證磁碟韌體安裝
 
 .步驟
@@ -52,6 +53,7 @@ disk     firmware-revision model
 
 
 
+[[validate-shelf-firmware-installation]]
 == 驗證機櫃韌體安裝
 
 .步驟
@@ -103,6 +105,7 @@ Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 
 
 
+[[validating-spbmc-firmware-installation]]
 == 正在驗證SP/BMC韌體安裝
 
 啟用服務處理器/BMC韌體更新的可執行教戰手冊、並提供選項來驗證控制器上最新的SP/BMC韌體的安裝。驗證完成後（更新最多需要兩小時）、Ansible教戰手冊會連線至SP/BMC主控台、套用內部交換器韌體更新。

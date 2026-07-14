@@ -543,7 +543,6 @@
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="inline-link-macro">NetApp社群</block>
-  <block id="2250dada69ecec08ffc29ac659683495" category="inline-link-macro">文件資源</block>
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">NetApp遙測資料的安全性與隱私</block>
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">隨需提供的功能ONTAP AutoSupport AutoSupport</block>
   <block id="6fda8feb3296b57c0c20a9ab7542ac2a" category="paragraph">請閱讀下列資訊、以瞭解儲存系統支援的小工具。</block>
@@ -1019,7 +1018,6 @@
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Web伺服器可透過多種方式設定。如需使用Python設定簡易Web伺服器的指示、請參閱 <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>。</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">前往 <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> 登入頁面。</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">對於支援靜態系統、當您第一次設定儲存系統時、預設會啟用此功能。ONTAP AutoSupport您應該 <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> 可控制將資訊傳送至技術支援部門和內部支援組織的方式。ONTAP AutoSupport</block>
-  <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
   <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
   <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">如需FabricPool 深入瞭解有關資訊、請參閱 <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>。</block>
   <block id="c9a7e25beb9575351b078da21d059517" category="list-text">*技術案例*：根據案例類型、開啟或關閉狀態、以及可選擇的時間範圍、提供您技術案例歷程的詳細檢視。  您可以深入案例群組、並透過檢視案例詳細資料 <block ref="4052dc01853e78687038691ab3fc5cc0" category="inline-link-macro-rx"></block> 或其他案例入口網站。</block>
@@ -1029,7 +1027,6 @@
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
   <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
-  <block id="847b7c4d19d7d7ef0daee103975b7b83" category="list-text"><block ref="847b7c4d19d7d7ef0daee103975b7b83" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">永續性儀表板總覽</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">螢幕擷取畫面顯示網站的碳排放百分比、以及如何編輯此百分比。</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
@@ -1310,7 +1307,6 @@
   <block id="8e4743bb176d909e65d015847fc93346" category="admonition">永續性分數最初是在叢集層級計算、然後在客戶或報價表層級等其他層級進行彙總。</block>
   <block id="a6cba69e97a9115b21cbf35b24b33d83" category="section-title">2024 年 7 月 04 日</block>
   <block id="2a4b13cd943c24cfe2735c05922d1427" category="list-text"><block ref="2a4b13cd943c24cfe2735c05922d1427" category="inline-link-macro-rx"></block></block>
-  <block id="7581b2408d4adfb3df4e98d5f1f96473" category="list-text"><block ref="7581b2408d4adfb3df4e98d5f1f96473" category="inline-link-macro-rx"></block></block>
   <block id="788b77f1903c86b79d6ab3fa3aeac01e" category="section-title">2024 年 8 月 21 日</block>
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">軟體版本支援</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">升級以 7-Mode 模式運作的 Data ONTAP 儲存系統</block>
@@ -1618,4 +1614,6 @@
   <block id="e20432694f9004583c0756c875ad9910" category="cell">過去 30 天內未傳送 AutoSupport 的系統</block>
   <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">在上述受影響的系統上重新觸發 AutoSupport，以還原健康檢查視圖中的最新資料。</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026 年 6 月 29 日</block>
+  <block id="78c07c506154e08621f506935129d56b" category="list-text"><block ref="78c07c506154e08621f506935129d56b" category="inline-link-macro-rx"></block></block>
+  <block id="47f181ab6ea1bbd9a2696556081c4ba8" category="list-text"><block ref="47f181ab6ea1bbd9a2696556081c4ba8" category="inline-link-macro-rx"></block></block>
 </blocks>
