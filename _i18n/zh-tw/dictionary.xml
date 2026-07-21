@@ -1331,7 +1331,6 @@
   <block id="39ca8580b0e6a065fa25faac2a2acc86" category="inline-link-macro">瞭解如何檢視韌體更新建議</block>
   <block id="af79dd5dc56c84e383198dba47e6f6fe" category="paragraph">您現在可以檢視建議更新的儲存韌體， SP / BMC 韌體和自動勒索軟體套件（ ARP ）。<block ref="bb189956f648b21665d5198deffedcc8" category="inline-link-macro-rx"></block>。</block>
   <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">2024 年 12 月 12 日</block>
-  <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">檢視儲存韌體， SP / BMC 韌體，系統檔案和安全檔案的更新建議。</block>
   <block id="432405c0f2c1d2289f6d8e3b11ebfd8b" category="doc">檢視韌體更新建議</block>
   <block id="789b0be6ddd32dcc2218519990c16b5c" category="paragraph">現在，客戶可以使用最新的韌體版本自動更新系統，免除手動介入或排程的需求，進而節省時間和精力。此更新可降低因韌體版本過時或不相容而發生問題的風險，確保最佳的系統效能，穩定性和安全性。</block>
   <block id="715a43f582d65ce08f118788f9800f7d" category="paragraph">客戶會收到有關韌體更新狀態的及時通知和警示，並可選擇啟用 AutoSupport 和自動更新設定。</block>
@@ -1501,7 +1500,6 @@
   <block id="72b48ce9fe92eb0c8e3daa730f3b40d4" category="list-text">選擇要續訂的儲存系統，然後按一下「續訂」。</block>
   <block id="af8b8a799d4d3f00f43e2a15c03d0b3e" category="doc">在Digital Advisor中續簽您的支援合約</block>
   <block id="fec0069eb53aaf302edb450eb9a816d9" category="doc">訂閱Digital Advisor的儲存系統健康狀況通知</block>
-  <block id="f7f16f63ab4db119d5fadbab01ead079" category="paragraph">您可以訂閱健康狀況審查電子郵件，每月收到一封電子郵件，其中總結了健康狀況、即將到期的儲存系統、需要升級的儲存系統以及您已安裝的NetApp產品。您將收到一封健康狀況回顧郵件，以便您可以查看每月總結並採取措施改善您的儲存系統。您也可以查看、編輯、分享和刪除您的訂閱。如果您決定不再接收電子郵件，您可以隨時取消訂閱。</block>
   <block id="35aedce653ee05a4fca3b7e9369bfd70" category="doc">從Digital Advisor下載AFF和FAS韌體 Ansible 軟體包</block>
   <block id="36d1684f85846e6901819bfb095f4fc7" category="doc">升級您在Digital Advisor中的支援服務</block>
   <block id="6c96fdceac3302fe4a465f308ef622a1" category="doc">驗證儲存系統上AFF和FAS韌體的安裝。</block>
@@ -1616,4 +1614,11 @@
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026 年 6 月 29 日</block>
   <block id="78c07c506154e08621f506935129d56b" category="list-text"><block ref="78c07c506154e08621f506935129d56b" category="inline-link-macro-rx"></block></block>
   <block id="47f181ab6ea1bbd9a2696556081c4ba8" category="list-text"><block ref="47f181ab6ea1bbd9a2696556081c4ba8" category="inline-link-macro-rx"></block></block>
+  <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">Wellness Review 的棄用通知</block>
+  <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">自 2026 年 7 月起，Wellness Review 功能已被棄用，不再於 Digital Advisor 中提供。</block>
+  <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">如有任何問題或想共享回饋，請發送電子郵件至：mailto:ng-activeiq-feedback@netapp.com[聯絡 Active IQ 團隊]。</block>
+  <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026年7月15日</block>
+  <block id="0e1f11a16da786670316988e6939f0dc" category="paragraph">您可以訂閱系統健康狀況審查郵件，每月接收一封郵件，其中匯總了健康狀況、即將到期的儲存設備系統，以及安裝基礎中需要升級 NetApp 產品的儲存設備系統。您將收到健康狀況審查郵件，以便檢視每月摘要並針對您的儲存設備系統採取行動。</block>
+  <block id="5dc75508ba4ef965dd5e67e824749acf" category="paragraph">您也可以檢視、編輯、共享和刪除您的訂閱。如果您決定不再接收電子郵件，您也可以隨時取消訂閱。</block>
+  <block id="9700c329d00878c280440dc2e026802a" category="summary">檢視儲存設備韌體、SP 和 BMC 韌體、系統檔案和安全性檔案的更新建議。</block>
 </blocks>
