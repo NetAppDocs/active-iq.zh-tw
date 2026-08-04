@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: digital-advisor-integration-with-console.html 
-keywords: digital advisor, integration, bluexp, NetApp Console 
+keywords: digital advisor, integration, netapp console 
 summary: 'Digital Advisor現已與NetApp Console 完全整合。現在您可以從NetApp控制台使用者介面 (UI) 管理您的叢集並存取Digital Advisor的所有功能。' 
 ---
 = 在NetApp控制台中存取Digital Advisor
@@ -29,9 +29,9 @@ Digital Advisor現已與NetApp Console 完全整合。現在您可以從控制�
 
 NetApp控制台提供企業級跨本機和雲端環境的NetApp儲存和資料服務的集中管理。需要控制台才能存取和使用NetApp資料服務。作為管理介面，它使您能夠從一個介面管理許多儲存資源。控制台管理員可以控制企業內所有系統的儲存和服務的存取。
 
-您不需要許可證或訂閱即可開始使用NetApp控制台，並且只有當您需要在雲端部署控制台代理程式以確保與儲存系統或NetApp資料服務的連接時才需要付費。但是，一些可從控制台存取的NetApp資料服務是需要授權或基於訂閱的。
+您無需授權或訂閱即可開始使用 NetApp Console，只有當您需要在雲端部署 Console 代理程式以確保與儲存系統或 NetApp 資料服務的連線時才會產生費用。但是，某些可從 Console 存取的 NetApp 資料服務需要授權或訂閱。
 
-詳細了解 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp控制台"]。
+深入瞭解 https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp控制台"]。
 
 您可以從控制台存取Digital Advisor來管理您的叢集。
 
@@ -39,11 +39,11 @@ NetApp控制台提供企業級跨本機和雲端環境的NetApp儲存和資料�
 . 開啟 Web 瀏覽器並前往link:https://console.netapp.com/["安慰"^]。
 . 選取* NetApp 支援網站 以您的「身份證明」登入*、然後輸入您的認證資料。
 +
-如果您之前使用電子郵件和密碼建立了控制台登錄，則需要繼續使用該登入選項。
+如果您之前已使用電子郵件和密碼建立了 Console 登入帳戶，則需要繼續使用該登入選項。
 
 . 出現提示時、請使用NetApp 支援網站 您的功能驗證登入。
 +
-此次登入與步驟2中完成的登入不同。在步驟 2 中，您登入控制台。現在您正在登入Digital Advisor。
+這次登入與步驟 2 中完成的登入不同。在步驟 2 中，您登入的是 Console。現在您正在登入 Digital Advisor。
 
 
 

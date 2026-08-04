@@ -40,11 +40,13 @@ video::rEPtldosjWM[youtube,width=848,height=480]
 | 支援續約 | 支援所有平台 | 支援所有平台 | 支援所有平台 
 
 
-| 儲存擴充 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 
+| 儲存擴充 | 僅在 ONTAP 上受支援 | 僅在 ONTAP 上受支援 | 僅在 ONTAP 上受支援 
 
 
-| 庫存 | 支援所有平台 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 
+| 庫存 | 支援所有平台 | 僅在 ONTAP 上受支援 | 僅在 ONTAP 上受支援 
 
 
-| 升級 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 | 僅在叢集Data ONTAP 式的不支援 
+| 升級 | 僅在 ONTAP 上受支援 | 僅在 ONTAP 上受支援 | 僅在 ONTAP 上受支援 
 |===
+
+NOTE: 所有平台指 ONTAP、E 系列、StorageGRID、ONTAP Select 和 Cloud Volumes ONTAP。

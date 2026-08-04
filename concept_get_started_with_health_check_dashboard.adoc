@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_get_started_with_health_check_dashboard.html 
-keywords: activeiq, health check, health, HCA, health check dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations,  digital advisor, features, recommended software 
+keywords: activeiq, health check, health, hca, health check dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations, digital advisor, features, recommended software 
 summary: 提供儀表板、健全狀況分數、功能和小工具的相關資訊。 
 ---
 = 開始使用Digital Advisor健康檢查儀表板
@@ -18,7 +18,7 @@ summary: 提供儀表板、健全狀況分數、功能和小工具的相關資�
 [role="lead"]
 此儀表板可透過下列小工具、提供已安裝基礎的概覽摘要：
 
-* *《*》採用率*：顯示啟用了功能的系統數量和百分比。AutoSupport AutoSupport您也可以檢視標示為「異排」的系統、AutoSupport 已啟用* HTTPS *和*支援*的「隨需」*的系統、以及過去AutoSupport 7天內停止傳送資訊的系統*遺失訊號*。若要檢視安裝基礎中系統的健全狀況檢查分數和相關資訊、請按一下* AutoSupport 《採用*》小工具。
+* *AutoSupport 採用率*：顯示已啟用 AutoSupport 的系統數量和百分比。您也可以檢視標記為「已拒絕」的系統、已啟用 *HTTPS* 和 *AutoSupport on Demand* 的系統，以及 *訊號遺失* 的系統（即過去 7 天內停止傳送 AutoSupport 資料的系統）。若要檢視您的資訊健檢評分及安裝基礎中系統的相關資訊，請按一下 *AutoSupport 採用率* 小工具。
 * *建議組態*：根據*建議組態*小工具、顯示相容且不相容的系統。這有助於您採取行動、確保系統在安裝基礎上均設定完善。您可以檢視儀表板上提供的分數、並根據依優先順序提供的重要建議採取行動。
 * *推薦軟體*：顯示所有軟體與韌體升級及貨幣建議的合併清單。您可以檢視AutoSupport 啟用了支援功能的系統、這些系統應為最低或最新的軟體或韌體版本。
 * *支援與權利*：顯示已到期且即將在6至12個月內到期的支援合約。它會顯示支援平台、磁碟、磁碟櫃、權利法規遵循、等待到期、 終止平台與硬體支援則不適用。您可以檢視儀表板上提供的健全狀況檢查分數、並根據主要建議採取行動、這些建議會依優先順序提供。若要檢視支援合約的詳細資訊、請按一下*支援與權利*小工具。您也可以使用此小工具來續約支援合約。

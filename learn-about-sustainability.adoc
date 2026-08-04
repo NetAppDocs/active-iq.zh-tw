@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: learn-about-sustainability.html 
-keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP, NetApp Console 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, benefits, ontap, netapp console 
 summary: 提供永續發展的相關資訊、可讓您減少能源消耗、並協助您達成環保目標。 
 ---
 = 透過Digital Advisor了解永續發展
@@ -18,7 +18,7 @@ summary: 提供永續發展的相關資訊、可讓您減少能源消耗、並�
 [role="lead"]
 永續性使您能夠減少能源消耗並使您能夠努力實現環境目標。這使您能夠使您的儲存系統與環保實踐保持一致並實現永續發展目標。
 
-您可以從可持續性儀表板查看可持續性得分以及電力、直接碳和熱量的預期使用情況。您可以調整特定站點的碳減量百分比。您還可以在集群層級查看可持續性分數。根據永續性評分，您可以評估永續性態勢並實施 NetApp 建議的措施來提高評分。要了解有關可持續性儀表板的更多信息，請訪問link:sustainability-dashboard-overview.html["永續性儀表板總覽"]。
+您可以透過「永續發展儀表板」檢視永續發展評分以及預期的電力、直接碳排放和熱能使用量。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續發展評分。根據永續發展評分，您可以評估永續發展狀況，並實作 NetApp 建議的措施以提高評分。若要深入瞭解永續發展儀表板，請前往 link:sustainability-dashboard-overview.html["永續性儀表板總覽"]。
 
 
 NOTE: Cloud Volumes ONTAP 、 AFF 系統（ A 系列和 C 系列）、 E 系列、 FAS 和 StorageGRID 系統均支援永續性。

@@ -18,7 +18,7 @@ summary:
 [role="lead"]
 登入 Digital Advisor 時、您可以檢視 * 安全性與勒索軟體防護 * 小工具中反白顯示的 * 行動 * 、其中會顯示風險計數。
 
-您可以檢視Snapshot建立、保留和ONTAP 不確定FPolicy風險、然後採取行動加以修正。
+您可以檢視快照建立、保留和 ONTAP FPolicy 風險，然後採取行動加以修正。
 
 .步驟
 . 登入Digital Advisor。

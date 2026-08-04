@@ -20,4 +20,4 @@ summary: 提供資訊以評估您的技術支援合約或硬體的系統更新
 
 您可以透過生命週期規劃（*儲存* > *生命週期規劃*）或 Digital Advisor（*儀表板* > *規劃小工具* > *系統重新整理*）存取此功能。
 
-如需此功能的詳細資訊，請參閱主控台文件中的 link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["評估系統重新整理"]。
+如需此功能的詳細資訊，請參閱主控台文件中的 link:https://docs.netapp.com/us-en/console-lifecycle-planning/use/tech-refresh.html["評估系統重新整理"]。

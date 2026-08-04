@@ -134,12 +134,12 @@ Upgrade Advisor 現已支援為已結束有限支援的 ONTAP 版本產生升級
 
 
 
-[[bluexp-is-now-netapp-console]]
-=== BlueXP現在是NetApp控制台
+[[netapp-console-previously-known-as-bluexp]]
+=== NetApp Console （前身為 BlueXP）
 
-NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+NetApp Console 以增強且重組的 NetApp Console 基礎為基礎，在企業級層級上提供跨本地端與雲端環境的 NetApp 儲存設備與 NetApp Data Services 集中管理，提供即時洞察、更快速的工作流程及簡化的管理，且高度安全並符合法規。
 
-有關更改的詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。
+如需變更內容的詳細資訊，請參閱 https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp控制台發行說明"]。
 
 
 
@@ -441,7 +441,7 @@ E 系列和StorageGRID系統現在支援永續性。您可以從這些系統的�
 
 * 顯示效率比率的標籤 * 儲存效率 * 會重新命名為 * 資料減量 * 。
 * 標籤 * 儲存效率所儲存的資料 * 會重新命名為 * 資料減量節省 * 。
-* 切換「不使用 Snapshot 備份的節省」 * 會重新命名為 * 使用 Snapshot Copies * 、並變更其功能。 link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["深入瞭解"]。
+* *Savings without snapshot backups* 切換按鈕已重新命名為 *With snapshot copies*，其功能也隨之變更。link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["深入瞭解"]。
 
 
 
@@ -473,7 +473,7 @@ E 系列和StorageGRID系統現在支援永續性。您可以從這些系統的�
 [[storage-efficiency]]
 === 儲存效率
 
-SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10》及更新版本的各種系統、包括AFF ：VMware、AFF VMware、VMware ONTAP 、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware
+ONTAP 系統（包括 AFF A-Series、AFF C190、All SAN Array 和 FAS500）的節點層級 SAN 和 NAS 儲存效率均可取得。
 
 
 
@@ -494,10 +494,10 @@ SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10�
 
 
 
-[[digital-advisor-integrating-with-bluexp]]
-=== 與BlueXP整合的數位顧問
+[[digital-advisor-integrating-with-netapp-console]]
+=== Digital Advisor 與 NetApp Console 整合
 
-Active IQ Digital Advisor正在更改為Digital Advisor ，並且現在已整合到BlueXP（NetApp 用於混合多雲環境的統一管理控制台）中。link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["深入瞭解"] 。
+Active IQ Digital Advisor 已更名為 Digital Advisor，並已整合到 NetApp Console 中，NetApp Console 是混合多雲環境的統一管理主控台。link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["深入瞭解"]。
 
 
 
@@ -681,10 +681,10 @@ Grid檢視器中已包含資訊生命週期管理（ILM）for StorageGRID the功
 
 
 
-[[bluexp]]
-=== 藍圖
+[[netapp-console]]
+=== NetApp控制台
 
-BlueXP使用者現在可以在新的索引標籤中開啟「數位顧問」連結（如適用）、類似於數位顧問的現有功能。
+NetApp Console 使用者現在可以在新索引標籤中開啟 Digital Advisor 連結（如適用），類似於 Digital Advisor 中現有的功能。
 
 
 
@@ -880,7 +880,7 @@ ClusterViewer堆疊視覺化模組已經過強化、可納入「放大/縮小及
 === 健康
 
 * 勒索軟體防禦小工具現在是Wellness工作流程的一部分、而非獨立式小工具。
-* 在Wellness Review電子郵件中、您會看到勒索軟體防禦的相關資訊、而非續約。
+* 在健康回顧郵件中，您將找到有關勒索軟體防禦的資訊，而不是續訂資訊。
 
 
 
@@ -973,7 +973,7 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 [[recommended-configuration-storage-virtual-machine-svm-health-volume-level-summary]]
 === 建議的組態/儲存虛擬機器（SVM）健全狀況：Volume層級摘要
 
-按一下SVM表格中的藍色「Volume Summary」（Volume摘要）方塊後、會出現「快顯」視窗、顯示有關主控或附加至特定序號或實體節點之磁碟區的詳細資訊。
+點擊 SVM 表中的藍色「Volume Summary」方塊後，將彈出一個視窗，顯示有關託管或附加到特定序號或實體節點的 Volume 的詳細資訊。
 
 
 
@@ -1167,8 +1167,8 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 * *健全狀況小工具：*根據StorageGRID 現有的可用系統ARS規則、檢視所有風險與行動、包括與之相關的風險與行動。
 * *規劃小工具：*
 +
-** *容量增加：* 對於任何容量使用率超過現有容量 70% 的 GRID 站點，您將收到通知。如果容量使用率可能超過 70%，您可以選擇在未來 1 個月、3 個月和 6 個月內為該站點的 StorageGRID 增加容量。
-** *續約：* StorageGRID 若授權合約已到期或即將在未來6個月內到期、您將會收到通知。您可以選取一或多個系統、向NetApp支援團隊提出續約申請。
+** *容量增加：*對於任何超過現有容量 70% 臨界值的 GRID 站台，您將收到通知。如果容量臨界值可能超過 70%，您可以選擇在未來 1 個月、3 個月和 6 個月內為該站台的 StorageGRID 增加容量。
+** *續約：*對於任何授權合約已過期或將在未來 6 個月內到期的 StorageGRID 系統，您將收到通知。您可以選擇一個或多個系統，向 NetApp 支援團隊提交續約請求。
 
 
 * *網格儀表板：*網格儀表板提供所選網格的健全狀況、規劃及組態詳細資料。
@@ -1184,7 +1184,7 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 [[fabricpool-advisor]]
 === 資訊顧問FabricPool
 
-「階層資料」按鈕已新增至FabricPool 「階層資料」儀表板、可讓您使用NetApp BlueXP將資料分層至低成本的物件儲存層。
+FabricPool 儀表板中新增了「分層資料」按鈕，您可以使用 NetApp Console 將資料分層至低成本的物件儲存分層。
 
 
 
@@ -1219,7 +1219,7 @@ link:https://apps.apple.com/us/app/active-iq/id1230542480["數位顧問行動應
 [[integrating-data-using-apis]]
 === 使用API整合資料
 
-您可以使用數位顧問API來提取感興趣的資料、並將其直接整合到貴公司的工作流程中。 link:https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html["深入瞭解"]。
+您可以使用 Digital Advisor API 提取感興趣的資料，並將其直接整合到公司的工作流程中。link:https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html["深入瞭解"]。
 
 
 
@@ -1419,7 +1419,7 @@ link:https://docs.netapp.com/us-en/active-iq/task_update_AFF_FAS_firmware.html["
 [[storage-efficiency]]
 === 儲存效率
 
-您可以檢視儲存系統的儲存效率與節約效益、無論是否使用AFF 適用於各種系統、非AFF系統或兩者的Snapshot複本。您可以在節點層級檢視儲存效率資訊。 link:https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["瞭解方法"]。
+您可以檢視儲存系統在啟用和停用快照複本情況下的儲存效率比率和節省情況，適用於 AFF 系統、非 AFF 系統或兩者。您可以在節點層級檢視儲存效率資訊。link:https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["瞭解方法"]。
 
 
 

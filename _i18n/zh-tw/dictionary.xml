@@ -72,39 +72,21 @@
   <block id="4607346b33eee4e6a2891bed9f7bd75f" category="paragraph">*使用什麼實體資料和使用的邏輯資料？*</block>
   <block id="fa23175e7bcd622e3124ac47ad2ac225" category="list-text">實體區塊使用量/實體資料使用量</block>
   <block id="eccc5f12f48e88329c29d59f7fb7399f" category="list-text">目前用於資料的空間量（而非保留供未來使用）</block>
-  <block id="c299ceefe4739c6609844682b86349c4" category="list-text">包括Aggregate Snapshot複本所使用的空間</block>
   <block id="fa72b749302bf3b8957c8abf2acf2d82" category="list-text">用戶端實際使用/寫入的空間</block>
   <block id="de71714b6d790e6f2a901c6c63045604" category="list-text">使用的邏輯資料總計</block>
   <block id="522573efa17813e55f87c7cbae5c665d" category="list-text">顯示用於集合體的邏輯大小。</block>
-  <block id="76961ec33cf185290a8b0dced033a18b" category="list-text">這包括集合體中的Volume、Clones和Snapshot。</block>
   <block id="43f302f7ba1d2f90ab1fb1a174f89e61" category="list-text">邏輯大小是根據實體使用量（實際寫入）和在集合體中取得的節約成本來計算。</block>
   <block id="770b033112d1f3ec483eae3f0376cba5" category="list-text">不包含保留供未來使用的空間</block>
   <block id="fee1bf4ad7d1f9d9f0b5840dbdfc417a" category="list-text">根Aggregate</block>
   <block id="174527e8830337d88ba77cf782633189" category="list-text">離線磁碟區</block>
   <block id="872d1e8c2f7648403bbfc1b139c3b484" category="list-text">Vserver根/管理根磁碟區</block>
   <block id="2e3f400b5c42bd491bb0b106dbc41434" category="list-text">MCC組態磁碟區</block>
-  <block id="5104ffb6ada9a72f38b9cfe6696d45ef" category="paragraph">不使用Snapshot複本（先根據Aggr計算）：</block>
   <block id="aee8bfb2d0d5d3e3c92513c62e58c58e" category="cell">*營運*</block>
   <block id="fa556b827144248698e8b0105e5108b3" category="cell">*公式*</block>
-  <block id="8cc25718cb08fca5f9a9711a17f71e9b" category="cell">使用Aggr邏輯時不使用Snapshot複本</block>
-  <block id="93e1642b9a2163d0e286ed5b4dd986a4" category="cell">集合體中的Volume、Clones、Snapshot複本所使用的邏輯大小–Snapshot複本所使用的邏輯大小</block>
-  <block id="c13349c903de3c465840d6a0c76af43c" category="cell">不使用Snapshot複本的aggr實體</block>
-  <block id="08cef9a368702eeeac7161ce30e64036" category="cell">不含Snapshot複本的客戶效率比率</block>
-  <block id="f567b2b8924d3eb6ec09c5dc410cbffc" category="cell">總計[不使用Snapshot複本的Aggr邏輯用於客戶的所有集合體和所有節點]/總計[不使用Snapshot複本的Aggr實體用於客戶的所有集合體和所有節點]：1.</block>
-  <block id="202ef30b2f3a15d4c82c8b78c06fa753" category="paragraph">使用Snapshot複本：</block>
-  <block id="888f76b18cd7638b969e9ac5eebc981e" category="cell">使用Snapshot複本的客戶邏輯大小</block>
-  <block id="5e172371942a821fe719bb9927e028ac" category="cell">總計[適用於所有集合體和客戶所有節點的Volume、Clones、Snapshot複本所使用的邏輯大小]</block>
-  <block id="ad553b325f74022f6cdb9816eef8e372" category="cell">使用Snapshot複本的客戶實體大小</block>
   <block id="caac557a2f6913ad1dc30764cebdcb51" category="cell">總和[用於所有集合體和客戶所有節點的實體大小總計]</block>
-  <block id="ef57ca9e5d4bfb77cfc6e251d21a1763" category="cell">Snapshot複本的客戶效率比率</block>
-  <block id="94ac4db23e5bf0c5c79c132d9e499226" category="cell">使用Snapshot複本和Clones的客戶邏輯大小/使用Snapshot複本和Clones的客戶實體大小：1.</block>
   <block id="504e36e2268a4abc438382c6e58210df" category="paragraph">效率功能表計算：</block>
   <block id="b12bcb5d643bed309360544737bf24d4" category="cell">已使用的客戶實體空間</block>
   <block id="d27940afaa3670698836aa97aaaf5284" category="cell">集合體使用的實體空間總和、用於客戶的所有集合體和所有節點</block>
-  <block id="625abfc517917229cf36b11cf3bdec00" category="cell">不使用Snapshot複本的客戶邏輯大小</block>
-  <block id="cac9b390967d1a57de89a94a58768553" category="cell">Volume、Clones、Snapshot複本所使用的邏輯大小總和- Snapshot複本所使用的邏輯大小、適用於客戶所有節點的所有集合體</block>
-  <block id="35861b17dd609cc6e380a872314d8539" category="cell">與Snapshot複本搭配使用的客戶邏輯大小</block>
-  <block id="f4c53520bd67a034cfda9f5ab6850807" category="cell">適用於客戶所有節點之所有集合體的Volume、Clones、Snapshot複本、其所使用的邏輯大小總和</block>
   <block id="32fe127357a619e7e7f62af1d2f3819c" category="cell">已儲存空間總計</block>
   <block id="39769b329c3be86894154b7e697acdb4" category="cell">已用邏輯空間總計：已用實體空間總計</block>
   <block id="755336e4aa89a7752f104b5a608365fc" category="cell">重複資料刪除技術的節省</block>
@@ -118,7 +100,6 @@
   <block id="57b49fee86d691b1f71efb03f0ec9eb6" category="cell">FlexClone節約效益</block>
   <block id="0399cea9f76ca035b776ca55a99908ef" category="cell">客戶所有節點的每個集合（FlexClone Volumes使用的邏輯大小- FlexClone Volumes使用的實體大小）總和</block>
   <block id="9eb91200dfeecc085364dc670f2b9143" category="cell">Snapshot複本備份節約效益</block>
-  <block id="1f5c59c0f85bb3e3a1746576ff27a1f2" category="cell">客戶所有節點的所有集合體（Snapshot複本使用的邏輯大小- Snapshot複本使用的實體大小）總和</block>
   <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="section-title">容量</block>
   <block id="97b94c75518b90d30aeab5f6ccdd903e" category="cell">*容量*</block>
   <block id="2c132960410953edab40f07fdeedf275" category="cell">*透過新增每個Aggregate…*來計算</block>
@@ -133,11 +114,8 @@
   <block id="6bec843fabf7f6cd4135638b444c3d76" category="cell">實體容量（實際）</block>
   <block id="bb5423bbb1fc0323b5236bc5dc1d9e20" category="cell">「agg-Eff效率.xml」的實體使用量總計</block>
   <block id="1e1a0981d9d71863eca6149c902bbb20" category="cell">邏輯容量（有效）</block>
-  <block id="dcf1f48a16982fe7600e5723a145d50f" category="cell">「aggreg-Eff效率.xml」集合體中的Volume、Clones及Snapshot複本所使用的邏輯大小</block>
-  <block id="c3b80bbabb8e4b1ce4ee6427b05862ed" category="paragraph">*適用於本機層（含Snapshot複本的Aggregate）*</block>
   <block id="0316961c4a7633e0b942acc96b6339e9" category="cell">*使用…*計算</block>
   <block id="2c5ce898cb91b251aea8073cb30504b1" category="cell">「DF -A」的KB（已分配）</block>
-  <block id="b91181e4331aac3998cc67a3414d845b" category="paragraph">*適用於Volume（含Snapshot複本的Volume）*</block>
   <block id="69ba447dc5e9ab1619f330f106eabbf3" category="cell">Volume容量</block>
   <block id="031c81f326ba7c94b87e1cb512182696" category="cell">Volume大小為「Volume .xml」</block>
   <block id="dbaabc345dc2b075bd176cd810e7ab94" category="cell">已使用的「Volume .xml」大小</block>
@@ -149,13 +127,10 @@
   <block id="9f949105f5563a86c9335097398679a2" category="list-text">用戶端實際使用或寫入的空間</block>
   <block id="9132eec7c7956d6b79d64f13ce5ce15e" category="list-text">已使用邏輯容量（有效）邏輯資料</block>
   <block id="2f5b8aad51a721e7769a29a26b16a760" category="list-text">顯示用於集合體的邏輯大小</block>
-  <block id="e02b370212cb3372e44be273e3f9dd04" category="list-text">集合體會將Volume、Cles及Snapshot複本內化。</block>
   <block id="c1430459f384e529728a1369a5ad1347" category="admonition">不包含保留供未來使用的空間。</block>
   <block id="acf8af6ea046a9190f032ee604a25ac1" category="list-text">已用/已用資料容量總計（含保留）</block>
-  <block id="f220560d0803053aa622dc91a4c63fc2" category="list-text">集合體中所有已用或保留空間的總和（依磁碟區、中繼資料或Snapshot複本）</block>
   <block id="004016a613c0ec93cc34b1dd36fd4bfc" category="admonition">其中包含保留給檔案或磁碟區保證類型磁碟區的空間。除了保留資源之外、還包括延遲釋出、aggr部落格和中繼資料。它會顯示為已用空間、直到清除延遲的可用區塊為止。清除後、已用空間會減少。</block>
   <block id="00de952105fc077b1333ac55d8d0bb98" category="paragraph">*容量預測如何計算？*容量預測使用去年使用的容量資料來計算系統的每週平均成長率。系統使用率的這種變更率會從目前使用的容量中推斷出、以證明系統使用率在未來6個月內將如何改變（假設總可用容量維持不變）。</block>
-  <block id="62b464a696f86c90363b4594cfca87f4" category="paragraph">*為什麼每個磁碟區的「已新增使用容量」與節點層級的「已使用容量」不符？*節點層級的「已使用容量」包括由磁碟區、中繼資料和Snapshot複本保留的空間。它也包含保留給磁碟區的空間（檔案或磁碟區保證類型）。因此兩者可能不相符。</block>
   <block id="5144b142028342a902f17914b7d8eeb1" category="paragraph">就功能而言、容量會以Base 10顯示、容量單位則以TB表示。StorageGRID</block>
   <block id="4d604dd8f008145471dc845683399189" category="section-title">庫存</block>
   <block id="490faa3ce28cbfbdad8226dd7dc88a66" category="list-text">系統安全無虞、您無權檢視安全系統。</block>
@@ -164,7 +139,6 @@
   <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">請按這裡。</block>
   <block id="d05dbf74dd4a436186ee08c15e9b81d8" category="paragraph">您可以檢視系統的容量詳細資料及儲存效率節約效益、並採取適當行動。容量與儲存效率資訊可在叢集層級或節點層級檢視。</block>
   <block id="17c1d72dbea38c3c03aed0e08dbb37f9" category="admonition">E系列系統不支援此功能。</block>
-  <block id="1b7b69815feec90db643b8ced3964b38" category="paragraph">容量儀表板會顯示容量詳細資料和系統容量預測。容量預測會使用歷史容量資訊來識別每個系統的使用率。根據已使用和已分配容量的歷史資料（一年的資料、若有）、演算法會考量每個系統的目前使用率、並針對未來1到6個月內的系統使用率產生預測。</block>
   <block id="ee810de9566deba98dbe4a46fbcf7410" category="list-text">在左窗格中、按一下*容量與效率*。</block>
   <block id="672a98e16d598ad5d32b32f96bbf4db5" category="paragraph">預設會選取*容量*索引標籤。</block>
   <block id="283c169bd8b723905691a0368b1eaf2a" category="list-text">在叢集和節點層級檢視容量詳細資料。</block>
@@ -175,7 +149,6 @@
   <block id="f4211b7ee285529c0082b53f3b17de86" category="list-text">如果您的儲存系統儲存效率比高於平均儲存效率比率、請按一下*分享您的成功案例*、讓我們瞭解所遵循的最佳實務做法。</block>
   <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">如果您的儲存系統儲存效率比低於平均儲存效率比率、請按一下*聯絡我們*、讓我們知道您的儲存系統組態。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
-  <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">您可以檢視Snapshot建立、保留和ONTAP 不確定FPolicy風險、然後採取行動加以修正。</block>
   <block id="5e0e2c126796ee31f891f0f923d864f9" category="list-text">針對所顯示的風險、請檢查影響層級、並遵循建議的行動。</block>
   <block id="9468b2f5ff83e6a3ed59b51e8ca38dc2" category="list-text">按一下「Unique風險」（獨特風險）索引標籤、然後在「* Corrective Action"（修正行動*）欄</block>
   <block id="719f031257428b8b9c9c34ee45a1c9ae" category="list-text">按一下「*受影響的系統*」索引標籤、即可檢視有風險的系統。</block>
@@ -307,7 +280,6 @@
   <block id="2fab76159eccef44ca8dd94e1dee4665" category="paragraph">健全狀況檢查儀表板的索引標籤已增強、顯示EOS超過12個月的控制器。</block>
   <block id="1201772d73bae2bd2ca29d21ab61238f" category="section-title">2021年9月16日</block>
   <block id="e334c16b25916f028d0cccfe5500fd69" category="list-text">勒索軟體防禦小工具現在是Wellness工作流程的一部分、而非獨立式小工具。</block>
-  <block id="0452e82e921087d7b1a83c2f02b68e57" category="list-text">在Wellness Review電子郵件中、您會看到勒索軟體防禦的相關資訊、而非續約。</block>
   <block id="9ee1a0b7aa28c278380f54797be2bc29" category="paragraph">您可以在ClusterViewer的「視覺化」索引標籤中檢視纜線故障和其他錯誤。</block>
   <block id="6be3e4cc137acae41c32679736c4a678" category="section-title">2021年9月6日</block>
   <block id="b3133741a2e146480d59529cf245b52d" category="list-text">檢視AutoSupport 功能：檢視AutoSupport 有關功能不全及基礎節點的資訊。StorageGRID</block>
@@ -324,7 +296,6 @@
   <block id="9d8ce84c0bf081ce006dd3eb8e15fffe" category="section-title">混合模式叢集旗標</block>
   <block id="eb2249e8ced682cca59b7347422fd3ae" category="paragraph">如果叢集有混合式硬體模型、則在叢集上套用的OS版本是所有節點都能使用的版本。因此、較新硬體機型的某些節點作業系統版本可能會從應該的位置縮減。為了讓這些混合模型叢集更為可見、我們已套用「混合模式」圖示。</block>
   <block id="cc85a81e9d6e17fbea80420c8dbe7efa" category="section-title">建議的組態/儲存虛擬機器（SVM）健全狀況：Volume層級摘要</block>
-  <block id="3a48ac5fd188547db06b9f51266e7df6" category="paragraph">按一下SVM表格中的藍色「Volume Summary」（Volume摘要）方塊後、會出現「快顯」視窗、顯示有關主控或附加至特定序號或實體節點之磁碟區的詳細資訊。</block>
   <block id="a9fc8b0c7515ed8f092626e8b6dfe6ae" category="section-title">2021年7月12日</block>
   <block id="5d74c31f1e66f6dedf097f9a9ae5f31d" category="section-title">系統韌體</block>
   <block id="18f3c6e410315e65fda0ade6fb1eb520" category="paragraph">您現在可以檢視系統韌體的相關資訊、這些資訊會隨ONTAP 附於主要版本和修補程式版本的資訊。您可以從「快速連結」功能表存取此功能。</block>
@@ -364,7 +335,6 @@
   <block id="7a02010f1fdbb3243b633245324dbadf" category="list-text">*詳細目錄小工具：*檢視StorageGRID 所選層級下可用的各種系統資源清冊。</block>
   <block id="b9928cfa30ad75fb5efb2c79cc8b812e" category="list-text">*健全狀況小工具：*根據StorageGRID 現有的可用系統ARS規則、檢視所有風險與行動、包括與之相關的風險與行動。</block>
   <block id="5c9ed548c23a9e1a91cf1c652e779a1a" category="list-text">*規劃小工具：*</block>
-  <block id="b1022932a0a6c2bc62b19907e4e14bea" category="list-text">*續約：* StorageGRID 若授權合約已到期或即將在未來6個月內到期、您將會收到通知。您可以選取一或多個系統、向NetApp支援團隊提出續約申請。</block>
   <block id="c4e80074735e6ff2daec051071dbc429" category="list-text">*網格儀表板：*網格儀表板提供所選網格的健全狀況、規劃及組態詳細資料。</block>
   <block id="b71490eeea3abb6f9a0c159a3418dd5e" category="list-text">*組態小工具：*提供StorageGRID 小工具中所選功能的基本詳細資料、例如網格名稱、主機名稱、序號、型號、作業系統版本、 客戶名稱、出貨地點及聯絡詳細資料。</block>
   <block id="a22fe4c7486ab7ffb8d4bc05dcab6336" category="list-text">*網格檢視器：*在*組態*小工具中、您可以按一下*網格檢視器*連結來檢視網格組態的詳細資料。在*組態*小工具中、StorageGRID 按一下*網格檢視器*畫面中的*下載*按鈕、即可下載所選的「站台詳細資料」和「容量詳細資料」。</block>
@@ -457,7 +427,6 @@
   <block id="1564b29b093f31fb45180a4db5577505" category="paragraph">在使用AFF Ansible更新功能的韌FAS 體之前、您應該：</block>
   <block id="745230e54aaf2b7a27c00a64f7313bd5" category="inline-link-macro">在儲存系統上安裝及設定Ansible</block>
   <block id="5c5c784bf4fbab90a4f6348de576d5da" category="inline-link-macro">在儲存系統上安裝內含集合的Ansible 2.9</block>
-  <block id="b6b47e144c6cacc9e6c8bdaafc85da05" category="list-text">將您的儲存系統升級至ONTAP 更新版本的更新版本</block>
   <block id="15236e2742dc8cb603caee435694fbe2" category="list-text">以系統管理員角色設定您的帳戶</block>
   <block id="ffc6cdcd4e33637452d7cabcc86954ab" category="list-text">按一下儀表板上的任何健全狀況小工具、或按一下*檢視所有動作*、即可檢視所有行動與風險的清單。</block>
   <block id="cd6050a6bccf4f0492eade7e0a8b22b4" category="list-text">按一下*韌體升級*以檢視所有韌體升級風險。</block>
@@ -522,7 +491,6 @@
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">隨即顯示觀察清單儀表板。</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">提供儀表板、健全狀況分數、功能和小工具的相關資訊。</block>
   <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">此儀表板可透過下列小工具、提供已安裝基礎的概覽摘要：</block>
-  <block id="820ed668f5824044ba24b743388d94f8" category="list-text">*《*》採用率*：顯示啟用了功能的系統數量和百分比。AutoSupport AutoSupport您也可以檢視標示為「異排」的系統、AutoSupport 已啟用* HTTPS *和*支援*的「隨需」*的系統、以及過去AutoSupport 7天內停止傳送資訊的系統*遺失訊號*。若要檢視安裝基礎中系統的健全狀況檢查分數和相關資訊、請按一下* AutoSupport 《採用*》小工具。</block>
   <block id="5a203b8ad736b84e1741fd3d04b50fd8" category="list-text">*建議組態*：根據*建議組態*小工具、顯示相容且不相容的系統。這有助於您採取行動、確保系統在安裝基礎上均設定完善。您可以檢視儀表板上提供的分數、並根據依優先順序提供的重要建議採取行動。</block>
   <block id="e94ebb58e29dcb4765fa5c479c8e07d7" category="list-text">*推薦軟體*：顯示所有軟體與韌體升級及貨幣建議的合併清單。您可以檢視AutoSupport 啟用了支援功能的系統、這些系統應為最低或最新的軟體或韌體版本。</block>
   <block id="63d26e96496f498e8ddc517162407ad9" category="list-text">*支援與權利*：顯示已到期且即將在6至12個月內到期的支援合約。它會顯示支援平台、磁碟、磁碟櫃、權利法規遵循、等待到期、 終止平台與硬體支援則不適用。您可以檢視儀表板上提供的健全狀況檢查分數、並根據主要建議採取行動、這些建議會依優先順序提供。若要檢視支援合約的詳細資訊、請按一下*支援與權利*小工具。您也可以使用此小工具來續約支援合約。</block>
@@ -551,7 +519,6 @@
   <block id="f72e303ceb317ddb2d49f55359f01d75" category="cell">*叢集*</block>
   <block id="04eaef0c64f7604067332b0b05e598d3" category="cell">*節點*</block>
   <block id="fe40d8b49a8a95c2a28179b7ef3039d6" category="cell">支援所有平台</block>
-  <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">僅在叢集Data ONTAP 式的不支援</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">升級</block>
   <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">提供管理觀察名單的資訊。</block>
   <block id="6e963896d19c6e8365735dbf8e7f8cba" category="doc">管理觀察名單</block>
@@ -563,10 +530,7 @@
   <block id="6d18f9cdd03d3a175d54504f01f0c78b" category="summary">提供版本限制的相關資訊。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">已知限制</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="paragraph">已知限制指出本產品版本不支援的平台、裝置或功能、或是無法與產品正確互通的平台、裝置或功能。請仔細檢閱這些限制。</block>
-  <block id="30c68d7c9821acafb85ce89d3dd5cf9e" category="paragraph">存在下列限制：</block>
-  <block id="6f4abdbff187f79e2ea1ac06a9e104b5" category="list-text">僅適用於以7-Mode運作的支援系統（以7-Mode運作的VMware儲存系統即將終止支援壽命）Data ONTAP Data ONTAP</block>
   <block id="e10f6958064ae5f36e8b132d4142e626" category="list-text">效能圖表</block>
-  <block id="2a6091be36acbf3db3bd34443d143abf" category="list-text">升級顧問不支援ONTAP 9.0之前的叢集式功能升級計畫。</block>
   <block id="2bdc4897dd362e50492e84b2adbd474b" category="section-title">排程報告時會顯示空白報告</block>
   <block id="6eeadd9a025ffd894de9d068b4e77d24" category="paragraph">排定的報告只能搭配SupportEdge Advisor 支援服務SupportEdge Expert 合約使用。如果您的系統不符合SupportEdge Advisor 不完整支援SupportEdge Expert 合約或不完整支援合約、您可能會在排程報告時收到空白報告。</block>
   <block id="35e66ec67a2e099ca561a914e3070a54" category="summary">提供管理範本的資訊。</block>
@@ -629,18 +593,15 @@
   <block id="0df29eb5c3a3cf627598e14216743f20" category="list-text">*健康記錄：*顯示過去三個月發生的系統風險資訊、讓您瞭解他們如何加班。</block>
   <block id="927c2765ee865261a716c54a2fde3878" category="list-text">*認知風險（Ack）：*可讓您瞭解受影響的風險和系統。您可以瞭解這些風險、並熟悉可採取哪些行動來減輕這些風險。</block>
   <block id="91351fc68db7f9bca112a2fb897a0902" category="list-text">*取消認可風險（取消認可）：*可讓您取消認可已確認的風險與系統。</block>
-  <block id="0f4f0d8eb7497054f3f3160501e62e20" category="list-text">*修正：* Active IQ 使用NetApp Manager（UM）9.7或更新版本來修正系統的風險。按一下此按鈕以啟動UM、並執行降低風險的步驟。</block>
   <block id="70997d9cb46f1884262203c0386ee9ba" category="list-text">*產生報告：*產生所選觀察名單的報告、並以電子郵件將報告寄送給最多5位收件者。</block>
   <block id="893c77a9be3c9d01629801789ac3c684" category="list-text">*升級小工具：*提供ONTAP 適用於下列系統的升級數量：</block>
   <block id="802c8daa153570ef0dadaf2d8be9ee78" category="list-text">若為ONTAP 「更新」系統、您可以檢視需要升級的系統數量資訊、然後申請升級計畫。</block>
   <block id="ac697c7fc74ba789f9ec5a46df7312c6" category="list-text">對於E系列系統、您只能檢視需要升級的系統數量資訊。</block>
-  <block id="c7d11c557339c95279902ee082ba9f5b" category="list-text">*儲存效率：*可識別儲存系統的儲存效率比、以及儲存系統的儲存效率與節約效益、無論是否使用AFF Snapshot複本、均適用於非AFF系統或兩者。</block>
   <block id="b397fac92f5d136f7fe3fb94680c6e6f" category="list-text">*效能圖表：*可讓您檢視效能資料的圖形格式、以分析儲存裝置的效能。您可以檢視ONTAP 所選節點的詳細效能圖表。</block>
   <block id="c6a6fbd3c93831286955b654f3a43c2d" category="list-text">*《寶貴見解》小工具：*提供支援案例數量、擱置中的軟體升級、儲存效率節約、降低風險等相關資訊。它也會主動列出Wellness屬性的風險通知。</block>
   <block id="d949398a0cd9559b70782bfb2f9ac159" category="list-text">*《*》：*可讓您從高層或詳細的角度檢視《*》。AutoSupport AutoSupport詳細資料包括系統詳細資料、可能發生問題的原因、以及建議的行動。</block>
   <block id="9739d4ffc25558588df6f57e8041f639" category="list-text">* ClusterViewer:*可讓您查看詳細的實體和邏輯組態資訊。詳細資料會顯示在多個索引標籤上的數個易於檢視的表格中、這些索引標籤包括叢集與節點組態的摘要、本機層級與磁碟區資訊、網路介面與連接埠資訊、詳細說明磁碟與磁碟櫃資訊的堆疊圖表、以及一些纜線視覺效果。您也可以下載svg格式的纜線視覺效果圖形。</block>
   <block id="e10554f48e3ad865c8bd3aa251010031" category="paragraph">E系列系統不支援ClusterViewer功能。</block>
-  <block id="c3ee6b10a82ee8a739a196c0f92e9cc7" category="list-text">* API服務：*可讓您提取感興趣的資料、並將其直接整合至貴公司的工作流程中。</block>
   <block id="cf6603053c3facd929d0e865e9f65807" category="list-text">*《上傳：*》可讓您分析各種故障或問題、包括在支援範圍內的各種系統上。AutoSupport ONTAP瑕疵或問題由支援網站人員手動檢閱及修正。</block>
   <block id="37adb256aff16968048142b85e04d7cc" category="list-text">*系統韌體：*可讓您檢視ONTAP 系統韌體的相關資訊、這些資訊會隨附於每個主要版本和修補程式版本的資訊。</block>
   <block id="87b3d4ff312f3761998135fad1e654e6" category="list-text">*搜尋：*可讓您根據各種類別來搜尋系統、例如客戶名稱、序號、叢集、站台名稱、群組名稱、 主機名稱及其他。</block>
@@ -851,7 +812,6 @@
   <block id="5da64b23743d20365a812a148d09b65f" category="admonition">數位顧問AutoSupport 只會針對AutoSupport 未滿60天的系統顯示與功能不相關的資料。</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="doc">數位顧問文件</block>
   <block id="571d621f51c49640d8adb2c5bb15554a" category="paragraph">Digital Advisor會持續分析您的系統、並提供建議、以改善系統的效能、效率和健全狀況。</block>
-  <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link">藍圖</block>
   <block id="3d8ba78e98400d1897334797f80e1dae" category="list-text">選取* NetApp 支援網站 以您的「身份證明」登入*、然後輸入您的認證資料。</block>
   <block id="468fcd95163fdf7aa102458d21bf0cf2" category="list-text">出現提示時、請使用NetApp 支援網站 您的功能驗證登入。</block>
   <block id="600901e70afccc50e18676048766ba78" category="paragraph">* 結果 *</block>
@@ -865,8 +825,6 @@
   <block id="8ddbb4960ae1ce3eafd141c7e16ad702" category="paragraph">*如何在Digital Advisor中存取儲存效率？*</block>
   <block id="f079f17b0940258743d34e7b771c715f" category="inline-link-macro">數位顧問</block>
   <block id="2206003195e83e7dfa4c2c9011926729" category="paragraph">*數位顧問是否顯示所有ONTAP 的不全系統的比率？*</block>
-  <block id="2c66ccfb9136989ebd0b2f7794383ba0" category="paragraph">Digital Advisor會顯示ONTAP 執行效能更新版本的系統的比率。</block>
-  <block id="b158ad6d14f96b16232682ec9719f63d" category="paragraph">*如何在Digital Advisor中計算容量？* Digital Advisor中的容量是針對叢集和節點（不包括root和Snapshot複本）計算而得</block>
   <block id="d7a018b0994fcd8c73438187d3cd257d" category="paragraph">*容量顯示在Digital Advisor Base 2或Base 10中嗎？*數位顧問中顯示的所有容量都是Base 2（除以1024）、代表GiB/TiB的容量。NetApp產品及其他NetApp產品也會在Base 2中顯示容量使用量。ONTAP</block>
   <block id="a6f53b7c2d98e66115a149a04939e113" category="list-text">新系統在SAP中新增或更新後、需要一天的時間才能在Digital Advisor中反映出來。</block>
   <block id="7b8ca3eb07a8240bd90e77dc0b6b4b64" category="list-text">您無法在Digital Advisor中編輯報告。您應該刪除現有報告並建立新報告。</block>
@@ -882,8 +840,6 @@
   <block id="ddd5bde8e3e027f9a9efab7fcfa90542" category="doc">數位顧問的新功能</block>
   <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">數位顧問提供下列功能與增強功能：</block>
   <block id="ae90f5ddd6bedf0784aa3f4496ea1cad" category="section-title">2022年11月1日</block>
-  <block id="8170292c601a72e4a24d3cbac63d8070" category="section-title">與BlueXP整合的數位顧問</block>
-  <block id="f668b17ee05cd74c11dbf1d1d949072e" category="paragraph">BlueXP使用者現在可以在新的索引標籤中開啟「數位顧問」連結（如適用）、類似於數位顧問的現有功能。</block>
   <block id="de07e5fcc39a7c8a7ee2ef456f8e167e" category="paragraph">您可以在Digital Advisor中檢視所選E系列系統的容量詳細資料和效能圖表。</block>
   <block id="0762a98733fb0259b2c034300821b8eb" category="list-text">在「Digital Advisor–Reports」（數位顧問–報告）畫面上新增了適用於內部和外部（客戶和合作夥伴）使用者的機密資料橫幅。</block>
   <block id="df47487af8662ffcf5c1cb4c764b23fc" category="paragraph">您可以在Cloud Volumes ONTAP Digital Advisor中檢視NetApp的容量詳細資料。</block>
@@ -894,7 +850,6 @@
   <block id="d2bb1a06f3434afc8ca9c8ea68155750" category="inline-link-macro">數位顧問行動應用程式（iOS）</block>
   <block id="d78a9201b5a1da34052eb6d1da7c7414" category="list-text">使用者介面已經過增強、可顯示您在Digital Advisor中訂閱的特定支援服務項目。</block>
   <block id="606d45bc02a4e58356236313e91bb72f" category="paragraph">第一次存取Digital Advisor時、您現在應該建立觀察清單、而非儀表板。您也可以檢視不同觀察名單的儀表板、編輯現有觀察名單的詳細資料、以及刪除觀察名單。</block>
-  <block id="e07c66941c84e7feebe88312021581ff" category="paragraph">「階層資料」按鈕已新增至FabricPool 「階層資料」儀表板、可讓您使用NetApp BlueXP將資料分層至低成本的物件儲存層。</block>
   <block id="423dd400f697bb08eca274e1e810b26e" category="paragraph">數位顧問現在提供三種語言：中文、英文和日文。</block>
   <block id="7a528fe08556f70d64e31f51b17654f7" category="paragraph">您現在可以提供您的意見反應、並告知我們您更新數位顧問預設首頁畫面的原因。</block>
   <block id="242af7c119838a4ad767c52325947075" category="paragraph">您現在可以設定數位顧問的預設首頁畫面。您可以將其設定為數位顧問或傳統。</block>
@@ -918,7 +873,6 @@
   <block id="acf7d20d0268fb3265f641fbc7ac8d68" category="list-text">*詳細目錄小工具：*顯示您擁有的系統總數彙總。這包括已啟用數位顧問功能的產品和未啟用的產品。</block>
   <block id="ec20f764d25cf1eba2cf41562f1a4dc7" category="paragraph">若要存取AutoSupport 此功能、請登入Digital Advisor並搜尋叢集或主機名稱。左側窗格提供了這個選項。AutoSupport</block>
   <block id="56f4dbda16e117456735f4152501a126" category="list-text">*快速連結：*提供可使用數位顧問啟動的應用程式清單。</block>
-  <block id="8b4015616b4ebb333b0bb005e28e4b8e" category="list-text">*客戶：*可讓您檢視及管理客戶的安裝基礎。客戶儀表板是數位顧問的中央入口網站。</block>
   <block id="c185e2d804ea74628fccd45ec760120b" category="paragraph">當您登入Digital Advisor時、請注意*組態*小工具上的紅色徽章。按一下小工具後、您會發現磁碟區已滿98%、這可能會導致中斷運作。修正此問題可避免磁碟區充滿、這會使其變成唯讀、導致存取它的應用程式當機且故障。</block>
   <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">您可以使用數位顧問、在報價表層級檢視儲存系統的整體狀態、系統健全狀況的高階資訊、庫存管理、規劃、升級、以及寶貴的見解。</block>
   <block id="4d7ba674630738cac5e8b1e2fed17854" category="paragraph">數位顧問的部分功能如下：</block>
@@ -961,7 +915,6 @@
   <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">IO密度</block>
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">IO密度報告針對客戶的尖峰輸入輸出作業、提供資料和中繼資料使用量與密度的深入見解。</block>
   <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">您可以在Volume IOPS圖表中檢視平均讀取、寫入及其他作業。</block>
-  <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10》及更新版本的各種系統、包括AFF ：VMware、AFF VMware、VMware ONTAP 、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware</block>
   <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">2023年2月22日</block>
   <block id="c97236d0432cf7fbbc8c3b120b3e6701" category="inline-link-macro">NetApp產品安全</block>
   <block id="30becc7ff660741781b33df4424a976b" category="paragraph">NetApp安全網站是NetApp產品安全的真實來源： <block ref="5e78a47b9f3f07f171347317054eb0a4" category="inline-link-macro-rx"></block></block>
@@ -1077,12 +1030,9 @@
   <block id="d7ca0761e2d4019376e0400aa4cbbcaf" category="paragraph"><block ref="d7ca0761e2d4019376e0400aa4cbbcaf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f62e67d6344fc6de4c0cdc48cfd75461" category="inline-link-macro">深入瞭解報價表</block>
   <block id="826fd50d36107e836a8e3498874a9ed5" category="admonition">若未設定報價表、則會停用 * Sustainability * 選項。若要啟用、您可以建立觀察名單、或使用客戶名稱、站台名稱、群組名稱、 StorageGRID 、主機名稱、 叢集、序號或系統 ID 。 <block ref="2ea4bc1ae55c17aa30ac5a2b6a6bc216" category="inline-link-macro-rx"></block>。</block>
-  <block id="49e5c79c17d604001b21c104016f13ab" category="paragraph">儲存效率儀表板會顯示資料減量比率、使用的邏輯空間、使用的實體空間、以及儲存給執行 ONTAP 9.1 及更新版本之儲存系統的總資料。無論 AFF 系統、非 AFF 系統、或兩者都有 Snapshot 複本、都能看到資料減量率和節約效益。每項效率功能（例如 Volume 重複資料刪除、 Volume 壓縮、壓縮、 FlexClone Volume 和 Snapshot 複本）均可讓客戶儲存設備的整體資料節約效益。您可以檢視效率最高的前 5 大儲存系統。您也可以在節點層級檢視 SAN 和 NAS 效率、而不需 Snapshot 複本、即可執行 ONTAP 9.10 及更新版本的 ONTAP 系統、包括 AFF A 系列、 AFF C190 、 All SAN Array 和 FAS500 。</block>
-  <block id="d37f37bcec2c93811716d3be7ec8bc92" category="list-text">檢視資料減量比率、使用的邏輯空間、使用的實體空間、以及儲存給執行 ONTAP 9.1 及更新版本之儲存系統的總資料。</block>
   <block id="51f8ba1e739f07ed09f1ba20bff5e7fc" category="section-title">2023 年 7 月 16 日</block>
   <block id="520e6a90f7dfce96c54641856d8584f2" category="list-text">顯示效率比率的標籤 * 儲存效率 * 會重新命名為 * 資料減量 * 。</block>
   <block id="cc50d008d8b1e1f6ba13bbe127a1bf29" category="list-text">標籤 * 儲存效率所儲存的資料 * 會重新命名為 * 資料減量節省 * 。</block>
-  <block id="2a88859b894ead28756789553bc66754" category="list-text">切換「不使用 Snapshot 備份的節省」 * 會重新命名為 * 使用 Snapshot Copies * 、並變更其功能。 <block ref="3a01d99aaa6c74ce8f92a2ac5ca4e5e9" category="inline-link-macro-rx"></block>。</block>
   <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">永續發展儀表板</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
@@ -1092,9 +1042,6 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
-  <block id="2a3684ac064fb92899057c9c77be7b70" category="paragraph">* 效率儀表板上的「含 Snapshot 複本」切換為何？ *</block>
-  <block id="f8ce983c20863d5ca1224cd961651189" category="paragraph">Digital Advisor Efficiency Dashboard 可計算多個層級的資料減量比率、包括客戶、站台、群組、叢集、 和節點。如果您開啟「 * 使用快照複本 * 」切換、資料減量比率計算會包含下列儲存效率技術：</block>
-  <block id="461662a7d362f24e412be63da5d820a7" category="paragraph">根據預設、資料減量比率計算不包含 Snapshot 儲存效率技術。</block>
   <block id="be76c1509b98001f6c35cf3715776135" category="paragraph">* 哪些 AutoSupport 執行個體用於計算資料減量比率？ *</block>
   <block id="70df27820e59c3cfe942663b98cd6884" category="paragraph">計算是使用最新的每週或使用者觸發的 AutoSupport 執行個體來執行、這些執行個體通常包含計算比率所需的大部分區段。</block>
   <block id="55ec2efd25a5fc14516c0d831fea7c6e" category="paragraph">* 資料減量計算中排除哪些磁碟區或集合體？ *</block>
@@ -1102,8 +1049,6 @@
   <block id="27b228cdac26ea1e1d4677c11f66b9c3" category="paragraph">* 如何看待資料減量比率的趨勢？ *</block>
   <block id="4f6485dbcd25eeb2c74e5217258dfeca" category="paragraph">目前、資料減量比率是根據最新的每週或使用者觸發的 AutoSupport 執行個體來計算。未來版本可能會考慮趨勢分析。</block>
   <block id="f8af0e51ad03daa14cc1051c4aaeacde" category="paragraph">* 如何計算客戶層級的比率與資料減量節省？ *</block>
-  <block id="df0e3b60c8f0dc2c364d159e4dd455e0" category="paragraph">客戶層級的儲存效率儀表板可提供資料減量率、以及不含 AFF 和非 AFF 系統的 Snapshot 複本、並可在客戶安裝的基礎上、針對執行 ONTAP 9.1 及更新版本的系統進行整合。下列計算所需的參數來自ONTAP AutoSupport 於下列項目：</block>
-  <block id="296178570f2543b72c33dc745457e4a8" category="cell">總實體使用量–（ Snapshot 複本使用的實體大小 / Aggregate Data Reduction Ratio ）</block>
   <block id="caabfdbc0d0287aff339e2db76b3c8ed" category="paragraph">* 為什麼新增所有個人資料減量節省額、並不意味於節省資料？ *</block>
   <block id="567b01f0b5cd67001d808012ef0e7dd2" category="paragraph">儲存效率儀表板中顯示的是 Volume 和本機層（集合體）的資料減量節省量。  您無法在不同的儲存物件上同時新增磁碟區節約效益和集合節約效益。</block>
   <block id="fb8e35ae91d9f2d1bbfa26a865e3bdde" category="paragraph">* 升級至 ONTAP 之前、為什麼資料減量報告為較高或不正確？ *</block>
@@ -1121,7 +1066,6 @@
   <block id="affbae51cb248fc228a64eff8ef4b19a" category="list-text">您可以避免停機和可能的資料遺失。 <block ref="cdc6118fb0dd484c6eecea2c16368d88" category="inline-link-macro-rx"></block>。</block>
   <block id="e9914ee0052933ab0eb5ed245f68f4be" category="list-text">瞭解如何避免容量滿溢、以避免中斷運作。 <block ref="5cdf43ceea4370a0a68934a3b004b9d7" category="inline-link-macro-rx"></block>。</block>
   <block id="533dbe637c2f68cac9ab973ac9a2c30d" category="list-text">在客戶、站台、群組、觀察清單、叢集、 和主機名稱。 <block ref="de81add81e119065d94ddeac8ee64650" category="inline-link-macro-rx"></block>。</block>
-  <block id="109fc841d00ef808e65701bf12c832d9" category="paragraph">您可以使用數位顧問API來提取感興趣的資料、並將其直接整合到貴公司的工作流程中。 <block ref="1cadb4b3b896f461880aeba67b4bebd1" category="inline-link-macro-rx"></block>。</block>
   <block id="d2d5b2832ad6260f7e47f21eda203625" category="paragraph">您可以產生或排程ClusterViewer報告、以檢視系統實體和邏輯組態的詳細資訊。 <block ref="b5110609d22aa395850743bf41df8a3c" category="inline-link-macro-rx"></block>。</block>
   <block id="7f468348ccf6d1b2c89a41ca66585095" category="paragraph">此功能可讓您近乎即時地比較系統與叢集組態、以及偵測組態差異。 <block ref="b3bd45262a4931447b29e389f808703b" category="inline-link-macro-rx"></block>。</block>
   <block id="2ea25d3aa454a8719fbcd77c0cb45036" category="paragraph">您可以訂閱每月收到一封電子郵件通知、摘要說明系統的健全狀態、這些系統即將續約、且需要升級您安裝基礎上的NetApp產品。 <block ref="6ebaac8877cbf874499b8874b314ad68" category="inline-link-macro-rx"></block>。</block>
@@ -1129,7 +1073,6 @@
   <block id="d08dfd94a4d36eb2bcd5fbae59ee124d" category="paragraph"><block ref="b46bd81d9b5d17f9607d3bf70532f303" category="inline-link-macro-rx"></block>。</block>
   <block id="85a5b85b171db93012b817af7272c528" category="paragraph">效能圖表已增強、可讓您評估磁碟區的效能。您可以在同一個畫面上的節點索引標籤、叢集索引標籤、本機層索引標籤和Volume索引標籤之間瀏覽及切換。 <block ref="4513feee0626ae09dfa51f7c8eb5d5ce" category="inline-link-macro-rx"></block>。</block>
   <block id="ccd4252e1ddc49da690f804e7aeabf6f" category="paragraph">您現在可以產生所選觀察名單的報告、並以電子郵件將報告傳送給最多5位收件者。 <block ref="e49140995889c841dca106143f17c244" category="inline-link-macro-rx"></block>。</block>
-  <block id="99019cd797a33c2f1f0354aa51829694" category="paragraph">您可以檢視儲存系統的儲存效率與節約效益、無論是否使用AFF 適用於各種系統、非AFF系統或兩者的Snapshot複本。您可以在節點層級檢視儲存效率資訊。 <block ref="a712d09976009a64cc618b068e6daeda" category="inline-link-macro-rx"></block>。</block>
   <block id="840f469fb410bb3332071cd390daa1a8" category="paragraph">您可以使用升級工作流程來檢視升級建議、以及目標ONTAP 版本可用的新功能摘要。 <block ref="7f4976c761eb4018266cc0d54f5b87cd" category="inline-link-macro-rx"></block>。</block>
   <block id="07be922df0906b959295384caa9e817a" category="paragraph">您可以檢視透過Digital Advisor和支援合約所獲得的效益摘要。對於選定的系統、價值報告整合了過去一年的效益。 <block ref="64d68cf7646e7bd28259850f10575416" category="inline-link-macro-rx"></block>。</block>
   <block id="4ab7ab489ac4d021f39004a1bc70c209" category="paragraph"><block ref="ab7ef85b2ffc5cc75de4e5a966fa1b9d" category="inline-link-macro-rx"></block>。</block>
@@ -1262,7 +1205,6 @@
   <block id="994ea9e16920acdbe0ac6e35ae6fffad" category="paragraph">登入 Digital Advisor 時、您可以檢視 * 安全性與勒索軟體防護 * 小工具中反白顯示的 * 行動 * 、其中會顯示風險計數。</block>
   <block id="e8563fdf2c4612622ba50a5e8cfcb99a" category="list-text">按一下 * 安全性與勒索軟體防護 * 小工具上的 * 行動 * 。</block>
   <block id="4d7b0b036dd7f28233ff7e59c3c1dbf5" category="list-text">清除 *Security 弱點 * 核取方塊。</block>
-  <block id="8ab2cb8f529884d0aa70d068b846421e" category="admonition">只有執行 ONTAP 9.2 及更新版本的系統才支援節點延遲、本機層（ Aggregate ）和 Volume 效能圖表。</block>
   <block id="fbf668c351539b8a0b137fcc8beb4b5e" category="paragraph">您可以為單一叢集和多個叢集產生自動化的不中斷升級計畫。您可以檢視單一叢集的升級建議、其中包括與叢集相關的風險清單、包含升級前檢查報告、其中包含升級封鎖程式和警告清單、以及新功能和增強功能的相關資訊。升級建議不適用於多個叢集。若要深入瞭解、請參閱 <block ref="41932a416de65dadbc9f715244a32fe5" category="inline-link-macro-rx"></block>。</block>
   <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">2024 年 3 月 28 日</block>
   <block id="888059a12fa3532d54872d17517e780c" category="inline-link-macro">瞭解如何檢視升級建議並產生升級計畫。</block>
@@ -1356,7 +1298,6 @@
   <block id="cb8da66b45b686427a31e5d56a8122db" category="cell">交付物流</block>
   <block id="d0606acb5c07dedf89ff7c2b06144f81" category="cell">提供產品與服務的物流相關資訊。</block>
   <block id="fbd781a535485932684e2fdb756c3913" category="cell">健康評估執行摘要</block>
-  <block id="0cb0fa6009199e89058c343d1d127fda" category="cell">以 PowerPoint （ PPT ）格式提供各種 Active IQ KPI 的相關資訊，不同的投影片會說明不同的 KPI 。</block>
   <block id="83009b6eb15f65a7b4a558c0e23269c3" category="cell">定期摘要</block>
   <block id="f4786124ed46b14b49d37f9f8c042ce4" category="cell">定期總結關鍵指標和洞見。其中包括系統效能，容量和效率的資料。</block>
   <block id="17b58822f294ceb27e2330591b9224e4" category="cell">提供有關遠端管理組態，備援和磁碟機， HA 配對， SVM 健全狀況，電池狀態和恢復專家建議事項的各種建議組態落差資訊。</block>
@@ -1394,10 +1335,7 @@
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">了解如何查看支援授權開關</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">您現在可以查看有關有權獲得支援的Brocade光纖通道 SAN 交換器的資訊。這包括有關交換器型號、序號和支援狀態的詳細資訊。<block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> 。</block>
   <block id="56f48a0b7ef64f3dcd95534228f6c5f3" category="paragraph">環境指標可以深入了解您的儲存系統的環境健康狀況，現在可以根據先進的預測模型為預期的電力使用量、直接碳使用量和熱量排放提供更精確的值。要了解更多信息，請參閱<block ref="a9f485271892e0176d2cdaee960db816" category="inline-link-macro-rx"></block>。</block>
-  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP現在是NetApp控制台</block>
-  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link">NetApp控制台發行說明</block>
-  <block id="377c338b114283d24b3f1ef1a73bd1a9" category="paragraph">有關更改的詳細信息，請參閱<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block>。</block>
   <block id="72f7167f9069924b2f82beb448023d6b" category="list-text">查看可持續性評分以及預期的電力、直接碳和熱量使用。根據永續性評分，評估儲存系統的整體效率，並根據 NetApp 的建議採取相應措施來提高評分。<block ref="88471609a02ffbaf7f222a2aedb3d7f2" category="inline-link-macro-rx"></block> 。</block>
   <block id="a9aa66a7b3cfc4542dbfc9211a6c428b" category="summary">Digital Advisor現已與NetApp Console 完全整合。現在您可以從NetApp控制台使用者介面 (UI) 管理您的叢集並存取Digital Advisor的所有功能。</block>
   <block id="ab8fdb90e4f7afafc378a1b57c166a3f" category="paragraph">Digital Advisor現已與NetApp Console 完全整合。現在您可以從控制台使用者介面 (UI) 管理您的叢集並存取Digital Advisor的所有功能。</block>
@@ -1405,14 +1343,10 @@
   <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp控制台</block>
   <block id="fc5428c3e9353a1232f1b8d1121de46a" category="paragraph">可透過NetApp控制台存取Digital Advisor 。</block>
   <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">NetApp控制台提供企業級跨本機和雲端環境的NetApp儲存和資料服務的集中管理。需要控制台才能存取和使用NetApp資料服務。作為管理介面，它使您能夠從一個介面管理許多儲存資源。控制台管理員可以控制企業內所有系統的儲存和服務的存取。</block>
-  <block id="7118a6b22768dabe4720d84710ea1e43" category="paragraph">您不需要許可證或訂閱即可開始使用NetApp控制台，並且只有當您需要在雲端部署控制台代理程式以確保與儲存系統或NetApp資料服務的連接時才需要付費。但是，一些可從控制台存取的NetApp資料服務是需要授權或基於訂閱的。</block>
-  <block id="4d0bb76e32bfe205406b10f5dfa9d47b" category="paragraph">詳細了解<block ref="e6368f2dd82be1e975475a1098863578" category="inline-link-rx"></block>。</block>
   <block id="be1012f6c753487e150ce4e491128d61" category="section-title">在NetApp控制台中存取Digital Advisor</block>
   <block id="d22b3faa7b5960ccee52656e53fbe17c" category="paragraph">您可以從控制台存取Digital Advisor來管理您的叢集。</block>
   <block id="bccaa4aa80831b76c11240a16447975f" category="inline-link-macro">安慰</block>
   <block id="70eb71406501e224ffe5e1e4571fcc65" category="list-text">開啟 Web 瀏覽器並前往<block ref="24972d13214bf960aed8a7602883d866" category="inline-link-macro-rx"></block>。</block>
-  <block id="5bf5d855aa43f8908638c956b6a6ef8b" category="paragraph">如果您之前使用電子郵件和密碼建立了控制台登錄，則需要繼續使用該登入選項。</block>
-  <block id="e55f1920f154b5cf14dc8dc4428d7185" category="paragraph">此次登入與步驟2中完成的登入不同。在步驟 2 中，您登入控制台。現在您正在登入Digital Advisor。</block>
   <block id="251a116e3518821c4cb40f8abb066a2f" category="summary">透過造訪NetApp Console 或Digital Advisor開始使用永續性儀表板。</block>
   <block id="eb78fdcbf8bbae675c7ee0f97a884a74" category="paragraph">永續性儀表板提供支援 AIOps 的報告和評分以及可操作的見解，以改善您的永續性態勢。您可以透過NetApp Console 或Digital Advisor存取永續性儀表板。</block>
   <block id="f5d302c73eacff7b76d482bf489706b0" category="inline-link-macro">登入控制台</block>
@@ -1429,12 +1363,10 @@
   <block id="daaa41b894b4479d1b6d9615f338eeb9" category="admonition">您可以使用<block ref="2152c38f4a2771e87024e1e087a05f24" category="inline-image-macro-rx" type="image"></block>圖標，並可使用<block ref="12f258362dcb80dcb781736a1d5e0dbf" category="inline-image-macro-rx" type="image"></block>圖示.</block>
   <block id="18e85132fdad5a7fcc03bc34aefafe82" category="list-text">前往Digital Advisor儀表板左側導航中的「永續性」。</block>
   <block id="07837f561e3ee48313730477a0ce7e0f" category="paragraph">永續性使您能夠減少能源消耗並使您能夠努力實現環境目標。這使您能夠使您的儲存系統與環保實踐保持一致並實現永續發展目標。</block>
-  <block id="6fed10fa3a6c658947e3629cf7d4000f" category="paragraph">您可以從可持續性儀表板查看可持續性得分以及電力、直接碳和熱量的預期使用情況。您可以調整特定站點的碳減量百分比。您還可以在集群層級查看可持續性分數。根據永續性評分，您可以評估永續性態勢並實施 NetApp 建議的措施來提高評分。要了解有關可持續性儀表板的更多信息，請訪問<block ref="ad420490bfb0f9b164f2afe15fdac1a6" category="inline-link-macro-rx"></block>。</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
   <block id="1ca03fcdf1edff8f13c5ab3d96f71ef4" category="paragraph">E 系列和StorageGRID系統現在支援永續性。您可以從這些系統的可持續性儀表板查看建議操作和環境指標的列表，其中顯示了電力、直接碳使用量和熱量的預測。要了解更多信息，請參閱<block ref="324fa1323a5d1b555b99e90b4dfa69b7" category="inline-link-macro-rx"></block>。</block>
   <block id="e0bce4b165696e8af8dc9f23db141bb9" category="list-text">健康工作流程現在包括永續性小部件，它提供客戶、監視清單、網站和群組層級的建議操作的數量。您可以點擊操作數量，以在永續性儀表板上詳細查看這些建議的操作。要了解更多信息，請參閱<block ref="0cf51c2fcac81ed872c11f6f85a6fa1e" category="inline-link-macro-rx"></block>。</block>
   <block id="c0271ca41d216c76fc4707af387b19ff" category="paragraph">永續性儀表板為您的儲存系統的環境永續性提供了寶貴的見解。您可以查看可持續性得分、碳減排百分比、預計電力使用量、直接碳排放和熱量等資訊。您可以調整特定站點的碳減量百分比。您還可以在集群層級查看可持續性分數。根據永續性評分，您可以評估儲存系統的整體效率，並使其與 NetApp 建議的措施保持一致，以提高永續性。<block ref="573ac558e55731509c8353e25f1ec473" category="inline-link-macro-rx"></block> 。</block>
-  <block id="fb15b2b9b96abb2a3da191b2524b19ae" category="paragraph">Active IQ Digital Advisor正在更改為Digital Advisor ，並且現在已整合到BlueXP（NetApp 用於混合多雲環境的統一管理控制台）中。<block ref="7cc56b953de24cf166f6b18ad0920a18" category="inline-link-macro-rx"></block> 。</block>
   <block id="f33417edb722273e609d7466e4031b36" category="summary">提供有關儀表板、可持續性分數、系統和建議操作的資訊。</block>
   <block id="cc3f62c281ad35f63b6650989fb52283" category="paragraph"><block ref="cc3f62c281ad35f63b6650989fb52283" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e24b0640f322a3589a6a2425105a8a7b" category="paragraph">*系統*：在表中顯示環境參數，有助於識別叢集以遷移到更有效率的儲存。透過此表，您可以：</block>
@@ -1589,9 +1521,7 @@
   <block id="ae7c8af4913d5ed60eee9eba144d34f2" category="paragraph">如果您想確定是否建議您對 Tech Support 合約或硬體進行系統更新，可以使用系統更新選項。</block>
   <block id="b673e7cded650c08d6c0289225510337" category="paragraph">您可以透過生命週期規劃（*儲存* &gt; *生命週期規劃*）或 Digital Advisor（*儀表板* &gt; *規劃小工具* &gt; *系統重新整理*）存取此功能。</block>
   <block id="dcd5d8e34e28517df35c9ef34326b7f8" category="inline-link-macro">評估系統重新整理</block>
-  <block id="4b6c29e1e0ca5888882f9afb85d41460" category="paragraph">如需此功能的詳細資訊，請參閱主控台文件中的 <block ref="60246966bc8fb02ea32471ffe11e7654" category="inline-link-macro-rx"></block>。</block>
   <block id="ded0a309adbbd30fc9482b49a9ac79cd" category="section-title">2026 年 6 月 3 日</block>
-  <block id="2014a31fd7c5aa735efd9b3eab46bae2" category="list-text">*容量增加：* 對於任何容量使用率超過現有容量 70% 的 GRID 站點，您將收到通知。如果容量使用率可能超過 70%，您可以選擇在未來 1 個月、3 個月和 6 個月內為該站點的 StorageGRID 增加容量。</block>
   <block id="0cd056bd26e169de7bcb1a020c6b1264" category="list-text">在 *Planning* 小工具中，按一下 *Storage Expansion*。</block>
   <block id="2e703d88e9f579295840057715d9e123" category="list-text">按一下 *Send* ，將要求傳送給 NetApp 儲存設備團隊、以協助擴充所選系統的儲存設備。</block>
   <block id="9db2bee503b4dd39ee519c9d3147cd82" category="list-text">從 *Planning* 小工具點選 *Support Renewals*。</block>
@@ -1620,5 +1550,71 @@
   <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026年7月15日</block>
   <block id="0e1f11a16da786670316988e6939f0dc" category="paragraph">您可以訂閱系統健康狀況審查郵件，每月接收一封郵件，其中匯總了健康狀況、即將到期的儲存設備系統，以及安裝基礎中需要升級 NetApp 產品的儲存設備系統。您將收到健康狀況審查郵件，以便檢視每月摘要並針對您的儲存設備系統採取行動。</block>
   <block id="5dc75508ba4ef965dd5e67e824749acf" category="paragraph">您也可以檢視、編輯、共享和刪除您的訂閱。如果您決定不再接收電子郵件，您也可以隨時取消訂閱。</block>
-  <block id="9700c329d00878c280440dc2e026802a" category="summary">檢視儲存設備韌體、SP 和 BMC 韌體、系統檔案和安全性檔案的更新建議。</block>
+  <block id="03c5b42b885a94fc682f43b75d5086a9" category="doc">NetApp Console （前身為 BlueXP）</block>
+  <block id="096e72f185cd5ba74fed5d48c1f555a9" category="paragraph">NetApp Console 以增強且重組的 NetApp Console 基礎為基礎，在企業級層級上提供跨本地端與雲端環境的 NetApp 儲存設備與 NetApp Data Services 集中管理，提供即時洞察、更快速的工作流程及簡化的管理，且高度安全並符合法規。</block>
+  <block id="9a46da86154f0e764fc998d06fe64b60" category="paragraph">如需變更內容的詳細資訊，請參閱<block ref="55233a601a39d3cf31ec58df3f760d9b" category="inline-link-rx"></block>。</block>
+  <block id="7d6ce3bee9fd5da819af4cfb0b2ade4f" category="list-text">*AutoSupport 採用率*：顯示已啟用 AutoSupport 的系統數量和百分比。您也可以檢視標記為「已拒絕」的系統、已啟用 *HTTPS* 和 *AutoSupport on Demand* 的系統，以及 *訊號遺失* 的系統（即過去 7 天內停止傳送 AutoSupport 資料的系統）。若要檢視您的資訊健檢評分及安裝基礎中系統的相關資訊，請按一下 *AutoSupport 採用率* 小工具。</block>
+  <block id="3730e1e889435130618fcdb87bf46f1c" category="cell">僅在 ONTAP 上受支援</block>
+  <block id="1e6ddc0aa4336129b8430dfbbb3741bb" category="admonition">所有平台指 ONTAP、E 系列、StorageGRID、ONTAP Select 和 Cloud Volumes ONTAP。</block>
+  <block id="ba541209b2d31087fd8081e9f1a7235f" category="list-text">*修正：* 使用 Active IQ Unified Manager 修復系統風險。按一下此按鈕以開啟 Unified Manager 並執行降低風險的步驟。</block>
+  <block id="a7c3a3c652c30011db60f3b6078330ce" category="list-text">*儲存效率：* 識別您的儲存系統在有/無快照複本的情況下，針對 AFF 系統、非 AFF 系統或兩者的儲存效率比率與節省量。</block>
+  <block id="57fd96c602ee5183b4c64c101687c0a4" category="list-text">*API 服務：* 允許您提取感興趣的資料，並將其直接整合到貴公司的工作流程中。</block>
+  <block id="fd7b263f8186cddb5aa64a9ee6549eec" category="list-text">*客戶：*允許您檢視和管理客戶的安裝基礎。客戶儀表板是 Digital Advisor 中的中心入口網站。</block>
+  <block id="729605c82c0bbf0ebd4f4377813faf0a" category="cell">以 PowerPoint （PPT）格式提供有關各種 Digital Advisor KPI 的資訊，不同的 KPI 在不同的投影片上進行描述。</block>
+  <block id="05801be000263018d476e6ba066f50ea" category="list-text">檢視資料減量比率、使用的邏輯空間、使用的實體空間以及節省的總資料量。</block>
+  <block id="874065797510ef71853078d085cab4b0" category="paragraph">您無需授權或訂閱即可開始使用 NetApp Console，只有當您需要在雲端部署 Console 代理程式以確保與儲存系統或 NetApp 資料服務的連線時才會產生費用。但是，某些可從 Console 存取的 NetApp 資料服務需要授權或訂閱。</block>
+  <block id="1a90436cad6b2c834a6f0bf4b63bb676" category="paragraph">深入瞭解<block ref="185be9890bef04443cd0fba90b4aff11" category="inline-link-rx"></block>。</block>
+  <block id="53c621ae7df9116f8ec407452e8efdbb" category="paragraph">如果您之前已使用電子郵件和密碼建立了 Console 登入帳戶，則需要繼續使用該登入選項。</block>
+  <block id="51603e563844ec78e7e14a188fd184f2" category="paragraph">這次登入與步驟 2 中完成的登入不同。在步驟 2 中，您登入的是 Console。現在您正在登入 Digital Advisor。</block>
+  <block id="eb4c4556f1e58a659f927289beefed42" category="paragraph">如需此功能的詳細資訊，請參閱主控台文件中的 <block ref="c9db3d27e451d67dba90184b9b5622ce" category="inline-link-macro-rx"></block>。</block>
+  <block id="92f74741b9959f2b8786b8d7b3059c90" category="paragraph">您可以透過「永續發展儀表板」檢視永續發展評分以及預期的電力、直接碳排放和熱能使用量。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續發展評分。根據永續發展評分，您可以評估永續發展狀況，並實作 NetApp 建議的措施以提高評分。若要深入瞭解永續發展儀表板，請前往 <block ref="ad420490bfb0f9b164f2afe15fdac1a6" category="inline-link-macro-rx"></block>。</block>
+  <block id="b624efa5cd5831fb1d5596ba38fe16f7" category="paragraph">是的，Digital Advisor 會顯示所有 ONTAP 系統的比率。</block>
+  <block id="aa21fcf62250f4d3f0ad1ad5dbb93684" category="paragraph">*效率儀表板上的「包含快照副本」開關是做什麼用的？*</block>
+  <block id="7c1596561a20622c6421671b4004ef67" category="paragraph">Digital Advisor 效率儀表板會計算多個層級的資料減量比率，包括客戶、站台、群組、叢集和節點。如果啟用 *With snapshot copies* 切換，資料減量比率的計算將包含以下儲存效率技術：</block>
+  <block id="3449d54ebb7743bfc41d56127465f788" category="paragraph">預設情況下，資料減量比率計算不包括快照儲存效率技術。</block>
+  <block id="dc18671c8ac768094a8eceee997d8206" category="list-text">包含彙總快照副本使用的空間</block>
+  <block id="ecee7cf76c131bce9c79b4b445548b50" category="list-text">這包括彙總中的 Volume、FlexClone® 和快照。</block>
+  <block id="f598a38eae9b19934d4734c48d6c184e" category="paragraph">客戶層級儲存效率儀表板提供 AFF 和非 AFF 系統在有無快照複本情況下的資料減量比率，並彙總整個客戶安裝基礎。以下計算所需的參數取自 ONTAP AutoSupport：</block>
+  <block id="8be3c4972895cb750e7d1545a84cae53" category="paragraph">不包含快照副本（先按彙總計算）：</block>
+  <block id="8699da88f887f27157f0d8de19ecd4c0" category="cell">Aggr 邏輯使用（不含快照複本）</block>
+  <block id="f31b4c494b555a36aca7fdc6249631eb" category="cell">Aggregate 中 Volume、複製和快照複本使用的邏輯大小 – 快照複本使用的邏輯大小</block>
+  <block id="ec3132bbe2406c82db49707e0f19b733" category="cell">彙總實體已使用（不含快照複本）</block>
+  <block id="60a1c30b93883611ccf2331a39b65b47" category="cell">總實體空間使用量 – （快照副本使用的實體空間 / 彙總資料減量比率）</block>
+  <block id="19523cdb9890b6c04a57e90e3afad053" category="cell">不含快照副本的客戶效率比率</block>
+  <block id="924a9f5bb78f486cf0b6146377a782a4" category="cell">客戶所有彙總和所有節點的彙總邏輯已用空間（不含快照副本）之和 / 客戶所有彙總和所有節點的彙總實體已用空間（不含快照副本）之和：1</block>
+  <block id="64b706fea0ebc99d0ec25de4338a3336" category="paragraph">使用快照副本：</block>
+  <block id="2da26b7d02f4f3f1a5ee2ab38444b452" category="cell">客戶邏輯大小（含快照副本）</block>
+  <block id="bad4044d371664f2415d2264532aafe4" category="cell">客戶所有彙總和所有節點的 Volume、Clone、快照複本所使用的邏輯大小總和</block>
+  <block id="ded18883ed012593f39f0cb85406ba6e" category="cell">客戶實際大小（含快照複本）</block>
+  <block id="556a71abb60368aa19e053fe0c6425b2" category="cell">客戶效率比率（含快照副本）</block>
+  <block id="5ad6fd88c67d2f747e3cb192dc23722e" category="cell">包含快照複本和 Clone 的客戶邏輯大小 / 包含快照複本和 Clone 的客戶實體大小：1</block>
+  <block id="2fd9b8396f5cfa5d207f028308c0a691" category="cell">客戶邏輯大小（不含快照複本）</block>
+  <block id="f511ea9bc03aa281621a5ed459cbe3c5" category="cell">Volume、FlexClone® 及快照複本所使用的邏輯大小總和 - 客戶所有節點所有彙總的快照複本所使用的邏輯大小</block>
+  <block id="99f1f407245a73f2e52dc0516700b1d4" category="cell">客戶邏輯大小，用於快照副本</block>
+  <block id="1c7b695bec8cb63b774940bea7e08df1" category="cell">在客戶所有節點的所有彙總中，Volume、FlexClone® 及 Snapshot 複本所使用的邏輯大小總和</block>
+  <block id="c8fcef6ef9da5513972a1ae959911375" category="cell">客戶所有節點的所有彙總的（快照複本使用的邏輯大小 - 快照複本使用的實體大小）之總和</block>
+  <block id="efb492f880e7c0d2d44315e144bf6184" category="paragraph">*Digital Advisor 中的容量是如何計算的？*Digital Advisor 中的容量是針對叢集和節點計算的－不包括根目錄，但包括快照副本</block>
+  <block id="793f7fde2f13274833e3854bacf92203" category="cell">「AGGR-EFFICIENCY.XML」彙總中 Volume、FlexClone® 和快照複本所使用的邏輯大小</block>
+  <block id="266a9e94309647563ad313e8d3bc1905" category="paragraph">*適用於本機層（含快照複本的彙總）*</block>
+  <block id="2535aca3fd66300e3669db36061fbd17" category="paragraph">*適用於 Volume （含快照複本的 Volume ）*</block>
+  <block id="4e120127561301cb3c475983093b3ec0" category="list-text">此彙總包括 Volume、複本和快照複本。</block>
+  <block id="43f936f277529ec87f2d4975d0ca9dc2" category="list-text">磁碟區、中繼資料或快照複本在彙總中所用或預留空間的總和</block>
+  <block id="e45cbb9ba1cce708236dcc659175f496" category="paragraph">*為什麼每個 Volume 的已使用容量增加值與節點層級的總計已使用容量不符？*節點層級的已使用容量包括 Volume、中繼資料和快照副本預留的空間。它還包括為檔案或 Volume 保證類型預留的空間。因此，兩者可能不符。</block>
+  <block id="03a5f3ddae5fd6b026773636a8ca0009" category="list-text">*Savings without snapshot backups* 切換按鈕已重新命名為 *With snapshot copies*，其功能也隨之變更。<block ref="3a01d99aaa6c74ce8f92a2ac5ca4e5e9" category="inline-link-macro-rx"></block>。</block>
+  <block id="4cd079cf19920ecfc0164e586d40e795" category="paragraph">ONTAP 系統（包括 AFF A-Series、AFF C190、All SAN Array 和 FAS500）的節點層級 SAN 和 NAS 儲存效率均可取得。</block>
+  <block id="d507c23704c3e103d5201e1a43b0828e" category="section-title">Digital Advisor 與 NetApp Console 整合</block>
+  <block id="8de0b8b02d2bfd48482512c91fa6e18e" category="paragraph">Active IQ Digital Advisor 已更名為 Digital Advisor，並已整合到 NetApp Console 中，NetApp Console 是混合多雲環境的統一管理主控台。<block ref="7cc56b953de24cf166f6b18ad0920a18" category="inline-link-macro-rx"></block>。</block>
+  <block id="c37f219aa571929728262a5acf740a28" category="paragraph">NetApp Console 使用者現在可以在新索引標籤中開啟 Digital Advisor 連結（如適用），類似於 Digital Advisor 中現有的功能。</block>
+  <block id="a6c74eb040ea726fb2c4e5feca0368c2" category="list-text">在健康回顧郵件中，您將找到有關勒索軟體防禦的資訊，而不是續訂資訊。</block>
+  <block id="b6eeb808a3c1a36cdf1c37ebd476b922" category="paragraph">點擊 SVM 表中的藍色「Volume Summary」方塊後，將彈出一個視窗，顯示有關託管或附加到特定序號或實體節點的 Volume 的詳細資訊。</block>
+  <block id="b9cf4e905e96b235770e49865f22f11e" category="list-text">*容量增加：*對於任何超過現有容量 70% 臨界值的 GRID 站台，您將收到通知。如果容量臨界值可能超過 70%，您可以選擇在未來 1 個月、3 個月和 6 個月內為該站台的 StorageGRID 增加容量。</block>
+  <block id="599bbd3b519be9802a8dfd330b44eee9" category="list-text">*續約：*對於任何授權合約已過期或將在未來 6 個月內到期的 StorageGRID 系統，您將收到通知。您可以選擇一個或多個系統，向 NetApp 支援團隊提交續約請求。</block>
+  <block id="5e3cf62c27b7f1398ad383a1c7dab255" category="paragraph">FabricPool 儀表板中新增了「分層資料」按鈕，您可以使用 NetApp Console 將資料分層至低成本的物件儲存分層。</block>
+  <block id="6af6c61735431a6255a872b1464ad115" category="paragraph">您可以使用 Digital Advisor API 提取感興趣的資料，並將其直接整合到公司的工作流程中。<block ref="1cadb4b3b896f461880aeba67b4bebd1" category="inline-link-macro-rx"></block>。</block>
+  <block id="c411645bc88deb98a18a62a7fdb66c40" category="paragraph">您可以檢視儲存系統在啟用和停用快照複本情況下的儲存效率比率和節省情況，適用於 AFF 系統、非 AFF 系統或兩者。您可以在節點層級檢視儲存效率資訊。<block ref="a712d09976009a64cc618b068e6daeda" category="inline-link-macro-rx"></block>。</block>
+  <block id="d35680f69bb80e4d2980c78ac22f986c" category="summary">檢視儲存系統的容量詳細資料和儲存效率節省。</block>
+  <block id="54ccc6028941c31a0165a2963a324aab" category="paragraph">容量儀表板顯示系統的容量詳情和容量預測。容量預測利用歷史容量資訊來確定每個系統的使用率。根據已使用和已分配容量的歷史資料（如有，則為一年的資料），演算法會考慮每個系統的當前使用率，並產生未來 1 至 6 個月的系統使用率預測。</block>
+  <block id="7c1309f4b0731ed18fb594c6d632c067" category="paragraph">儲存效率儀表板會顯示資料減量比率、已使用的邏輯空間、已使用的實體空間，以及節省的總資料量。針對 AFF 系統、非 AFF 系統或兩者，不論是否包含 Snapshot 複本，都可以檢視其資料減量比率與節省量。您可以依據各項效率功能（例如 Volume 重複資料刪除、Volume 壓縮、資料精簡、FlexClone® Volume 及 Snapshot 複本），檢視客戶儲存設備所節省的總資料量。您可以檢視效率比率最佳的前 5 個儲存系統。您也可以在節點層級檢視 ONTAP 系統（包括 AFF A-Series、AFF C190、All SAN Array 及 FAS500）不含 Snapshot 複本的 SAN 與 NAS 效率。</block>
+  <block id="6bb86861540256654ad78af590cbca2e" category="paragraph">您可以檢視快照建立、保留和 ONTAP FPolicy 風險，然後採取行動加以修正。</block>
+  <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">檢視儲存設備韌體、SP/BMC 韌體、系統檔案和安全性檔案的更新建議。</block>
 </blocks>

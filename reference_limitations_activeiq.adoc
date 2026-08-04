@@ -18,17 +18,6 @@ summary: 提供版本限制的相關資訊。
 [role="lead"]
 已知限制指出本產品版本不支援的平台、裝置或功能、或是無法與產品正確互通的平台、裝置或功能。請仔細檢閱這些限制。
 
-存在下列限制：
-
-* 僅適用於以7-Mode運作的支援系統（以7-Mode運作的VMware儲存系統即將終止支援壽命）Data ONTAP Data ONTAP
-+
-** 效能圖表
-** 儲存效率
-
-
-* 升級顧問不支援ONTAP 9.0之前的叢集式功能升級計畫。
-
-
 
 
 [[editing-a-watchlist-may-take-60-minutes-to-reflect-in-digital-advisor]]

@@ -61,9 +61,6 @@ video::fWrHYX17xT8[youtube,width=848,height=480]
 
 |  | 網路處理量 |  |  
 |===
-
-NOTE: 只有執行 ONTAP 9.2 及更新版本的系統才支援節點延遲、本機層（ Aggregate ）和 Volume 效能圖表。
-
 . E系列控制器可取得下列效能圖表及必要的指標：
 +
 ** CPU使用率

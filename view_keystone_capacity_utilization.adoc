@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: view_keystone_capacity_utilization.html 
-keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
+keywords: keystone, capacity utilization, service tiers, keystone subscription, keystone subscription, shares, disks 
 summary: 提供NetApp Keystone 有關容量使用率的資訊、請參閱「用作支援」。 
 ---
 = 在Digital Advisor中查看NetApp Keystone訂閱的容量利用率
