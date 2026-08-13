@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference_new_activeiq.html 
 keywords: 'what"s new, features, new' 
-summary: 提供版本新功能的相關資訊。 
+summary: 了解 Digital Advisor 的新功能和增強功能。 
 ---
 = 數位顧問的新功能
 :hardbreaks:
@@ -17,6 +17,20 @@ summary: 提供版本新功能的相關資訊。
 
 [role="lead"]
 數位顧問提供下列功能與增強功能：
+
+
+
+[[12-august-2026]]
+== 2026年8月12日
+
+
+
+[[deprecation-notice-for-config-drift]]
+=== Config Drift 功能棄用通知
+
+Digital Advisor 中的 Config Drift 功能將於 2026 年 9 月棄用。
+
+如有任何問題或想共享回饋，請發送電子郵件至：mailto:ng-activeiq-feedback@netapp.com[聯絡 Active IQ 團隊]。
 
 
 

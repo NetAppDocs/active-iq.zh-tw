@@ -196,7 +196,6 @@
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">您應該新增範本、以比較系統和叢集組態、並近乎即時偵測組態差異。組態偏移範本是使用執行AutoSupport 不實資料的系統來新增。</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">按一下*新增範本*。</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">提供所需的值。</block>
-  <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">提供版本新功能的相關資訊。</block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">2022年8月25日</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">瞭解方法</block>
   <block id="0e1335531f896df953b41fb40e52c70e" category="section-title">2022年7月14日</block>
@@ -979,7 +978,6 @@
   <block id="85da219929dec7990a12ce28aff47903" category="paragraph">如需* Ansible playbook *命令的詳細資訊、請參閱 <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> 若要以檢查模式（演習）執行「Ansible Playbook」、請參閱 <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
-  <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">永續性儀表板總覽</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">螢幕擷取畫面顯示網站的碳排放百分比、以及如何編輯此百分比。</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
@@ -1617,4 +1615,9 @@
   <block id="7c1309f4b0731ed18fb594c6d632c067" category="paragraph">儲存效率儀表板會顯示資料減量比率、已使用的邏輯空間、已使用的實體空間，以及節省的總資料量。針對 AFF 系統、非 AFF 系統或兩者，不論是否包含 Snapshot 複本，都可以檢視其資料減量比率與節省量。您可以依據各項效率功能（例如 Volume 重複資料刪除、Volume 壓縮、資料精簡、FlexClone® Volume 及 Snapshot 複本），檢視客戶儲存設備所節省的總資料量。您可以檢視效率比率最佳的前 5 個儲存系統。您也可以在節點層級檢視 ONTAP 系統（包括 AFF A-Series、AFF C190、All SAN Array 及 FAS500）不含 Snapshot 複本的 SAN 與 NAS 效率。</block>
   <block id="6bb86861540256654ad78af590cbca2e" category="paragraph">您可以檢視快照建立、保留和 ONTAP FPolicy 風險，然後採取行動加以修正。</block>
   <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">檢視儲存設備韌體、SP/BMC 韌體、系統檔案和安全性檔案的更新建議。</block>
+  <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift 功能棄用通知</block>
+  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Digital Advisor 中的 Config Drift 功能將於 2026 年 9 月棄用。</block>
+  <block id="1cf5700bf190dbae716a593be587283a" category="list-text"><block ref="1cf5700bf190dbae716a593be587283a" category="inline-link-macro-rx"></block></block>
+  <block id="d71ef8f8c3bc3420442db2005d522d56" category="summary">了解 Digital Advisor 的新功能和增強功能。</block>
+  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026年8月12日</block>
 </blocks>
