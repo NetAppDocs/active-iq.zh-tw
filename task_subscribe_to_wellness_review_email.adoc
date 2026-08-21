@@ -28,10 +28,10 @@ NOTE: 自 2026 年 7 月起，Wellness Review 功能已被棄用，不再於 Dig
 NOTE: 此功能僅可透過NetApp SupportEdge Advisor 的功能與SupportEdge Expert 功能性服務項目取得。
 
 .步驟
-. 在左窗格中、按一下* Wellness Review*。
-. 按一下 * 新增訂閱 * 。
+. 從左側面板中選取 *Wellness Review*。
+. 選擇 *Add Subscription*。
 . 請在「*新增訂閱*」對話方塊的「*命名訂閱*」、「*選擇類別*」、「*搜尋客戶*」及「*電子郵件*」欄位中提供必要資訊。
-. 按一下*訂閱*。
+. 選擇*訂閱*。
 +
 成功訂閱後、您將會收到*訂閱已新增*訊息。
 

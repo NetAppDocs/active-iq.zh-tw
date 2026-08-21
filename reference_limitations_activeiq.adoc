@@ -51,7 +51,7 @@ AutoSupport Widget 不會針對叢集和序號搜尋提供警示。
 [[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == AutoSupport Widget 無法向下切入至序列層級 AutoSupport 詳細資料
 
-在「 AutoSupport 報告」頁面上，按一下任何狀態，最近停止傳送的系統，或關閉 AutoSupport 的系統，都不會瀏覽至「健全狀況檢查」畫面。
+在 AutoSupport 報告頁面上，選取任何狀態、最近停止傳送的系統或已關閉 AutoSupport 的系統，都不會導覽至資訊健檢畫面。
 
 
 

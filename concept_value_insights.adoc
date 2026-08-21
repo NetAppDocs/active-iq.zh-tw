@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: concept_value_insights.html 
+keywords: value insights, health, savings, stability, security, ontap systems 
+summary: 提供有關 ONTAP 系統的整體健全狀況、節省成本、穩定性和安全性計量的資訊。 
+---
+= 在 Digital Advisor 中發現價值洞察
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+「價值洞察」功能整合了 ONTAP 系統的整體健全狀況、節省成本、穩定性和安全性資訊。您可以利用這些資訊，透過持續的資料導向 ONTAP 環境檢視來改善系統健全狀況和效能。
+
+
+NOTE: Value Insights 功能僅適用於 ONTAP 系統。
+
+Value Insights 提供以下資訊：
+
+* ONTAP 系統的整體健全狀況由九項關鍵效能指標（KPI）組成，並以健全狀況評分計量來衡量。每個部分都有詳細的 KPI 和評分細分。
+* 節省和穩定性評分顯示如何透過高效的資源利用來實現容量和儲存設備的節省。存取有關儲存設備正常運作時間和非計畫性停機的趨勢資訊，包括下載 EMS 檔案的功能。
+* 安全性與未來規劃詳細說明了避免的風險和預防的問題。成本節約是根據儲存效率計算得出的。
+* 最大化基礎架構價值建議額外的功能，以進一步提升基礎架構效能，達到尖峰效率。
+
+
+.接下來
+link:task_view_value_insights_dashboard.html["檢視 Value Insights 儀表板"]

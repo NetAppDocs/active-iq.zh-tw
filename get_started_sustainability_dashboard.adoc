@@ -40,7 +40,7 @@ NOTE: 如果未設定 Sustainability 儀表板 , 則會出現選項 * 新增 NSS
 
 .步驟
 . 開啟網頁瀏覽器、然後前往 link:https://activeiq.netapp.com/?source=onlinedocs["數位顧問"^] 登入頁面。
-. 提供您的使用者名稱和密碼、然後按一下*登入*。
+. 輸入您的使用者名稱和密碼，然後選擇 *Sign In*。
 . 從左側導覽中選擇*可持續性*。
 +
 image:sustainability_dashboard.png["UI 螢幕擷取畫面、提供永續性儀表板的概觀。"]

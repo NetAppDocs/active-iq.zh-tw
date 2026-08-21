@@ -29,8 +29,8 @@ Digital Advisor現已與Data Infrastructure Insights Basic 版本集成，為客
 NOTE: 此功能僅適用於SupportEdge Advisor VMware、SupportEdge Expert VMware及Digital Advisor升級合約。
 
 .步驟
-. 在「*庫存*」小工具中，按一下「*虛擬機器*」以查看「Data Infrastructure Insights」中可用的資料。
-. 單擊*虛擬機概述*選項卡。
-. 按一下* ESX主機數*以檢視有關主機的資訊。
-. 點擊 *ESX 名稱* 導航至Data Infrastructure Insights以查看更多資訊。
+. 在「*庫存*」小工具中，選擇「*虛擬機器*」以檢視 Data Infrastructure Insights 中可用的資料。
+. 選擇 *Virtual Machine Overview* 索引標籤。
+. 選擇 *ESX 主機數量* 以檢視有關主機的資訊。
+. 選擇 *ESX Name* 以導覽至 Data Infrastructure Insights，檢視更多資訊。
 

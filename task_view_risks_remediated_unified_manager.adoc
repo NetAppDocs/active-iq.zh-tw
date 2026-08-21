@@ -20,8 +20,8 @@ summary: 提供資訊以檢視可使用Unified Manager自動修正的風險。
 
 video::XusFvXM7h-E[youtube,width=848,height=480]
 .步驟
-. 按一下儀表板上的*檢視所有動作*。
-. 按一下「*動作*」以檢視與動作相關的風險、按一下「*風險*」以檢視所有風險、或按一下「*受影響的系統*」以檢視需要注意的系統。
+. 在儀表板上選擇 *View All Actions*。
+. 選擇 *Actions* 以檢視與操作相關的風險，選擇 *Risks* 以檢視所有風險，或選擇 *Affected Systems* 以檢視需要注意的系統。
 +
 如果您可以使用Active IQ Unified Manager 不確定的功能來減輕風險、請使用 image:spanner.png["西班牙文"] 圖示會反白顯示、如果您可以使用Ansible教戰手冊來減輕風險、請參閱 image:update_ansible.png["更新Ansible"] 圖示會反白顯示。
 
@@ -33,14 +33,14 @@ video::XusFvXM7h-E[youtube,width=848,height=480]
 
 
  a| 
-. 按一下 image:spanner.png["西班牙文"] 圖示。
-. 按一下「*修正*」以啟動Active IQ Unified Manager 「更新」功能。
-. 按一下「*安裝*」以安裝Active IQ Unified Manager 更新版本的資訊、以使用「*修復*」選項。
-. 按一下「*升級*」以升級Active IQ Unified Manager 至VMware 9.7或更新版本、以使用「*修復*」選項。
+. 選擇 image:spanner.png["西班牙文"] 圖示。
+. 選擇「修復」以啟動 Active IQ Unified Manager。
+. 選擇「安裝」以安裝 Active IQ Unified Manager 9.7 或更高版本，即可使用「修正」選項。
+. 選擇 *升級* 以升級至 Active IQ Unified Manager 9.7 或更高版本，即可使用 *修正* 選項。
 
  a| 
-. 按一下 image:update_ansible.png["更新Ansible"] 圖示。
-. 按一下「*下載*」下載AFF 「功能性與FAS 功能性」韌體「功能性自動化」套件。
+. 選擇 image:update_ansible.png["更新Ansible"] 圖示。
+. 選擇 *Download* 以下載 AFF 和 FAS 韌體 Ansible Automation 套件。
 
 
 |===

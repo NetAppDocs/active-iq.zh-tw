@@ -168,6 +168,12 @@ sidebar:
         url: "/concept_report_types.html"
       - title: 產生或安排報告
         url: "/task_generate_reports.html"
+    - title: 探索價值洞察
+      entries:
+      - title: 了解價值洞察
+        url: "/concept_value_insights.html"
+      - title: 檢視 Value Insights 儀表板
+        url: "/task_view_value_insights_dashboard.html"
   - title: 知識與支援
     entries:
     - title: 註冊以取得支援

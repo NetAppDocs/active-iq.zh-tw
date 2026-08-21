@@ -25,6 +25,6 @@ ClusterViewer提供的資訊包括節點的堆疊圖、儲存使用量與效率�
 video::FVbb2bbIY9E[youtube,width=848,height=480]
 .步驟
 . 在* Inventory（詳細目錄）* Widget中、選取您要的叢集或節點（主機）。
-. 在叢集或節點層級、按一下*組態*小工具旁的*叢集檢視器*。
-. 按一下「*視覺化*」索引標籤、即可檢視叢集的圖形化呈現。
+. 在叢集或節點層級，選擇「組態」小工具旁的 *ClusterViewer*。
+. 選取 *Visualization* 索引標籤，以檢視叢集的圖形表示。
 

@@ -29,19 +29,19 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 * 如何建立技術案例？ *
 
-. 按一下 link:https://mysupport.netapp.com/site/global/dashboard["請按這裡"^] 開啟 NetApp 支援網站 。
-. 從上方功能表中、按一下 * 我的個案 * 。
-. 按一下 * 建立案例 * 。
-. 選取類別、提供必要的詳細資料、然後按一下 * 新搜尋 * 、從您的庫存中搜尋系統。
+. 選擇 link:https://mysupport.netapp.com/site/global/dashboard["請按這裡"^] 以開啟 NetApp 支援站台。
+. 從頂部選單中選擇 *My Cases*。
+. 選擇 *Create a Case*。
+. 選擇類別，提供所需詳細資訊，然後選擇 *New Search* 以從您的庫存中搜尋系統。
 . 從顯示的系統清單中、選取要建立案例的系統。
 . 選取新案例的優先順序。
 . 從「 * 問題類別 * 」下拉式清單中選取適當的類別。
-. 在「問題說明」欄位中輸入問題說明、然後按一下 * 繼續 * 。
+. 在「問題描述」欄位中輸入問題執行摘要，然後選擇 *Proceed*。
 . 提供問題的其他詳細資料。
-. 按一下 * 選取檔案 * 來上傳可能有助於診斷問題的檔案或影像。
-. 按一下* Proce*。
+. 選擇 *Select Files* 以上傳可能有助於診斷問題的檔案或映像。
+. 選擇 *Proceed*。
 . 提供您的聯絡詳細資料。
-. 按一下 * 建立案例 * 。
+. 選擇 *Create Case*。
 
 
 
@@ -66,10 +66,10 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 *如何建立非技術案例？*
 
-. 按一下 link:https://mysupport.netapp.com/site/help["請按這裡"^] 開啟 NetApp 支援網站上的「Non Technical Feedback Tool（非技術意見回饋工具）」。
+. 選擇 link:https://mysupport.netapp.com/site/help["請按這裡"^] 以開啟 NetApp 支援站台上的「非技術回饋工具」。
 . 從「*意見反應類別*」下拉式清單中選取適當的類別。
 . 輸入所需的詳細資料、並在「Comments（註解）」方塊中提供額外資訊。
-. 按一下*提交*。
+. 選擇 *Submit* 。
 
 
 系統會建立個案、並提供個案編號供您參考。
@@ -87,7 +87,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 . 開啟的首頁 link:https://activeiq.netapp.com/?source=onlinedocs["數位顧問"^]。
 . 從右上方的搜尋方塊中搜尋客戶、站台、群組、叢集或節點、以前往各自的儀表板。
-. 按一下左側導覽中的*儲存效率*。
+. 從左側導覽窗格選擇*Storage Efficiency*。
 
 
 
@@ -236,7 +236,7 @@ Digital Advisor 效率儀表板會計算多個層級的資料減量比率，包�
 * 系統在 SAP 中處於非使用中、歸檔或停用狀態。
 
 
-如果您因為任何其他原因而無法檢視系統、有疑問或想要要求存取、 link:https://mysupport.netapp.com/site/help["建立非技術案例"^]。若要深入瞭解非技術案例、請按一下 <<非技術案例,請按這裡。>>
+如果您因其他原因無法檢視系統、有任何疑問或希望申請存取，link:https://mysupport.netapp.com/site/help["建立非技術案例"^]。若要了解更多非技術案例，請選擇 <<非技術案例,請按這裡。>>
 
 
 

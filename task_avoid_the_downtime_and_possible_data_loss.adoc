@@ -20,14 +20,14 @@ summary: 提供如何避免停機和可能的資料遺失的相關資訊。
 
 .步驟
 . 登入數位顧問。
-. 按一下*可用度與保護*小工具中的*動作*。image:Availability and protection_image 1 downtime and data loss.png["可用度與安培；保護小工具"]
+. 在*可用性與保護*小工具中選取*動作*。image:Availability and protection_image 1 downtime and data loss.png["可用性與保護小工具"]
 +
 針對高影響的安全性風險、請遵循建議的更新磁碟韌體動作。
 
-. 按一下*風險名稱*連結以檢視風險摘要。image:Risk summary_image 2 downtime and data loss.png["風險摘要"]
-. 按一下「*獨特風險*」標籤、然後按一下「*修正行動*」欄中的連結。image:Corrective action_image 3 downtime and data loss.png["修正行動"]
+. 選擇*風險名稱*連結以檢視風險總結。image:Risk summary_image 2 downtime and data loss.png["風險摘要"]
+. 選取 *Unique Risks* 索引標籤，然後選取 *Corrective Action* 欄中的連結。image:Corrective action_image 3 downtime and data loss.png["修正行動"]
 +
 Digital Advisor會產生自訂的可執行指令碼或教戰手冊、以更新所需的磁碟韌體、包括磁碟韌體檔案。
 
-. 按一下* Ansible「A」*圖示、即可產生及下載指令碼。image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["韌體AFF FAS"]
+. 選擇 *Ansible "A"* 圖示以產生和下載腳本。image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["韌體AFF FAS"]
 

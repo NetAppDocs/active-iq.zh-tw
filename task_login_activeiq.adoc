@@ -27,5 +27,5 @@ link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_
 +
 Digital Advisor會顯示具有有效支援合約的系統。如果合約到期、系統會提供 90 天的寬限期、讓系統持續可見。之後、數位顧問無法搜尋或顯示系統。
 
-. 提供您的使用者名稱和密碼、然後按一下*登入*。
+. 輸入您的使用者名稱和密碼，然後選擇 *Sign In*。
 

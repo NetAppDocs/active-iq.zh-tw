@@ -29,6 +29,8 @@ indexpage:
       url: task_view_performance_graphs.html
     - title: 產生報告
       url: task_generate_reports.html
+    - title: 探索價值洞察
+      url: concept_value_insights.html
   - title: 使用數位顧問進行分析
     links:
     - title: 檢視ONTAP 有關升級的建議
@@ -46,7 +48,7 @@ indexpage:
     - title: 數位顧問影片
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
     - title: NetApp社群–數位顧問
-      url: https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport
+      url: https://community.netapp.com/community/
     - title: 數位顧問行動應用程式（Android）
       url: https://play.google.com/store/apps/details?id=com.netapp.myautosupport
     - title: 數位顧問行動應用程式（iOS）

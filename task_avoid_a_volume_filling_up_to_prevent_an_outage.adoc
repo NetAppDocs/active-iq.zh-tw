@@ -16,10 +16,10 @@ summary: 提供如何避免磁碟區滿量以避免中斷運作的相關資訊�
 
 
 [role="lead"]
-當您登入Digital Advisor時、請注意*組態*小工具上的紅色徽章。按一下小工具後、您會發現磁碟區已滿98%、這可能會導致中斷運作。修正此問題可避免磁碟區充滿、這會使其變成唯讀、導致存取它的應用程式當機且故障。
+當您登入 Digital Advisor 時，會注意到「組態」小工具上出現紅色徽章。點擊該小工具後，您會發現 Volume 已使用 98%，這可能會導致服務停機。修復此問題可以避免 Volume 被填滿，從而防止磁碟區變為唯讀模式，導致存取該磁碟區的應用程式當機或失敗。
 
 .步驟
 . 登入Digital Advisor。
-. 按一下*組態*小工具中的*動作*。image:Configuration_image 1 prevent an outage.png["組態Widget"]
-. 按一下*獨特風險*索引標籤。按一下「*修正行動*」連結後、您可以變更警告臨界值、或為磁碟區分配更多空間。image:Risk summary_image 2 prevent an outage.png["風險摘要"]
+. 在*組態*小工具中選取*動作*。image:Configuration_image 1 prevent an outage.png["組態Widget"]
+. 選擇 *Unique Risks* 索引標籤。選擇 *Corrective Action* 連結後，您可以變更警告閾值或為 Volume 分配更多空間。image:Risk summary_image 2 prevent an outage.png["風險摘要"]
 
