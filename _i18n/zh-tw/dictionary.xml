@@ -387,7 +387,6 @@
   <block id="6a46e3c3984001a8a2d4481982e69a8f" category="section-title">更聰明、更快速的搜尋</block>
   <block id="d9c7072ff9d902e7ac9964e95c163d94" category="paragraph">可讓您搜尋參數、例如序號、系統ID、主機名稱、站台名稱、群組名稱、 以及使用單一系統檢視的叢集名稱。您也可以搜尋系統群組、此外、您也可以依客戶名稱、站台名稱或依系統群組的群組名稱進行搜尋。</block>
   <block id="75fb68630cabac33011c445584315dfc" category="summary">提供有關Ansible的詳細資訊。</block>
-  <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">取得更多資訊</block>
   <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">您可以透過各種資源取得協助並尋找更多資訊。</block>
   <block id="5d08ea99dda2f857e6edb3d641d26b98" category="inline-link-macro">疑難排解資訊</block>
   <block id="e350176e2ca4464b7c8bb3efa4e581fa" category="inline-link-macro">可寬延工作區</block>
@@ -1255,14 +1254,12 @@
   <block id="2b1a2e89f1b2f5c6d6515a6dc429c7fd" category="doc">Digital Advisor的已知局限性</block>
   <block id="f2a73885c1e995cc3311a29291a28fde" category="doc">了解Digital Advisor中的永續發展儀錶板功能</block>
   <block id="e44ce4d3422f101f306224bb091ea2db" category="doc">利用Digital Advisor中的雲端建議分析您的儲存系統健康狀況</block>
-  <block id="b9456a2df38d30018b5aa1d2c39d55ba" category="doc">使用Digital Advisor查看Data Infrastructure Insights中可用的虛擬機器數據</block>
   <block id="6b067412319dd9485298444d9a34fc87" category="doc">在Digital Advisor中為您的儲存系統新增配置漂移模板</block>
   <block id="e67ed4f24a1e1077c5eb307d08729f7c" category="doc">在Digital Advisor中創建監視列表</block>
   <block id="a526a7fadbc4d3ff6b76aeace82c0a35" category="paragraph">您可以建立監視列表，以便快速輕鬆地存取一組儲存系統。您可以按類別或序號新增儲存系統。</block>
   <block id="186b444c7e1538546cd3797bc4e13f6b" category="admonition">每個類別下最多可新增 15,000 個儲存系統，每個序號下最多可新增 500 個儲存系統。</block>
   <block id="ade07d6bbbe7ba4dca1efb40aa7352bd" category="list-text">選擇以下選項之一，將儲存系統新增至監視清單：</block>
   <block id="9e626aab5b921b3ca1f8a803c59e26c3" category="doc">在Digital Advisor中查看容量和儲存效率節省情況</block>
-  <block id="f20d4ff4105f49a3027ff751b2efde6c" category="doc">使用 Digital Advisor 中的 ClusterViewer 小工具查看叢集和節點的運作狀況</block>
   <block id="9ac4aca4ac0756136b6042d0474cfcf3" category="doc">在Digital Advisor中管理卷存儲容量閾值</block>
   <block id="8aed0befb763089b90784f7bb6c222cd" category="doc">使用Digital Advisor修復可用性和保護組件中識別出的關鍵風險</block>
   <block id="65185bbce1d7f537b3c14697168318fc" category="doc">在Digital Advisor中比較配置漂移模板</block>
@@ -1273,7 +1270,6 @@
   <block id="8bb48da551b9f18b9a7bb8a26c2143b5" category="doc">在 Web 伺服器上託管AFF和FAS韌體文件</block>
   <block id="dbf951fc2e241b15feb7e005fe4a45bf" category="doc">在Digital Advisor中識別接近容量極限的儲存系統</block>
   <block id="10dbc72fe842008d2175d0d6c8409b92" category="doc">利用Digital Advisor檢測安全風險並採取糾正措施</block>
-  <block id="a7780228d5aa137f7cb990b61a022315" category="doc">使用 Ansible 軟體包更新AFF和FAS韌體（適合有經驗的用戶）</block>
   <block id="8a88e2413d4f95f64b219b6c28f57a07" category="doc">在Digital Advisor中管理配置漂移模板</block>
   <block id="8b7cb0834e8dc268b50c925ad45b6ddd" category="doc">在Digital Advisor中管理關注列表</block>
   <block id="6b8c1d667d3b152f62b23882186f49ef" category="doc">保護Digital Advisor管理的儲存系統免受勒索軟體風險侵害</block>
@@ -1315,7 +1311,6 @@
   <block id="bac3163878d2374ee594903ac6c1802c" category="sidebar">了解如何產生ONTAP升級計劃</block>
   <block id="114d8ec8c75a41f7a77d940bbedc89ba" category="sidebar">為單一和多個叢集產生ONTAP升級計劃</block>
   <block id="ebc19daf25c395407a52101068117655" category="sidebar">查看儲存系統庫存詳情</block>
-  <block id="8c3ce1cbbe048dec5ffdc13f56c2ccf4" category="sidebar">在Data Infrastructure Insights中查看可用的虛擬機器數據</block>
   <block id="aa80415eea92e632f36c8f4c62c4b138" category="sidebar">使用「實用資訊」小工具查看支援案例和儲存系統詳情</block>
   <block id="d89f3b8963bef2ec6e2b190588136909" category="sidebar">使用規劃小工具管理儲存系統容量需求</block>
   <block id="670c1f5b09d4ee058170a248707f6cf0" category="sidebar">識別接近容量極限的儲存系統</block>
@@ -1687,4 +1682,12 @@
   <block id="681c88be2de4220c0cbacb47fed97b82" category="list-text">如有任何問題，請選取對應連結以檢視解決問題的步驟。</block>
   <block id="e7a471dd8d8c761a219d09c2091e92a1" category="sidebar">了解價值洞察</block>
   <block id="729a2290f604400a065ab66e68e8365c" category="sidebar">檢視 Value Insights 儀表板</block>
+  <block id="e3bf61ee8c8fee9ffb69993bd28d87a8" category="doc">Digital Advisor 的其他資源</block>
+  <block id="1b7791b3614101fe0419ae77deeacf88" category="doc">Digital Advisor 中的關鍵術語和定義</block>
+  <block id="182708895bd34a37bc21f98f7d14d0a2" category="doc">Digital Advisor 的故障排除和支援資源</block>
+  <block id="e124694694f1a62071bd7725254b9327" category="doc">使用 Digital Advisor 檢視 Data Infrastructure Insights 中可用的虛擬機器資料</block>
+  <block id="155f865ff2277e5b3d0c9cabfd7007d7" category="doc">使用 Digital Advisor 中的 ClusterViewer 小工具檢視叢集和節點的健全狀況</block>
+  <block id="e5054a84cf54978ce838e701041a4239" category="doc">使用 Ansible 套件更新 AFF 和 FAS 韌體</block>
+  <block id="9331d73e3c99004c7679e085ea303447" category="sidebar">在 Data Infrastructure Insights 中檢視可用的虛擬機器資料</block>
+  <block id="608a46677d36b132542feed4a0445c56" category="sidebar">使用 Ansible 套件更新 AFF 和 FAS 韌體（適用於有經驗的使用者）</block>
 </blocks>

@@ -4,7 +4,7 @@ permalink: task_install_execute_firmware_update_exp_user.html
 keywords: install, execute, firmware update, ansible playbook, ansible, playbook, docker, experienced user 
 summary: 提供如何使用Ansible教戰手冊安裝及執行韌體更新的資訊。 
 ---
-= 使用 Ansible 軟體包更新AFF和FAS韌體（適合有經驗的用戶）
+= 使用 Ansible 套件更新 AFF 和 FAS 韌體
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

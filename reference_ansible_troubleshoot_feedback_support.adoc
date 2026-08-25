@@ -4,7 +4,7 @@ permalink: reference_ansible_troubleshoot_feedback_support.html
 keywords: troubleshoot, feedback, support 
 summary: 提供有關Ansible的詳細資訊。 
 ---
-= 取得更多資訊
+= Digital Advisor 的故障排除和支援資源
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

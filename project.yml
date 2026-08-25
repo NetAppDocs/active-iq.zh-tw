@@ -28,7 +28,7 @@ sidebar:
       url: "/concept_understand_activeiq_features.html"
     - title: 在NetApp控制台中存取Digital Advisor
       url: "/digital-advisor-integration-with-console.html"
-    - title: 深入瞭解數位顧問
+    - title: Digital Advisor 中的關鍵術語和定義
       url: "/concept_key_terms.html"
     - title: 了解AutoSupport
       url: "/concept_autosupport.html"
@@ -92,7 +92,7 @@ sidebar:
       entries:
       - title: 查看儲存系統庫存詳情
         url: "/task_view_inventory_details.html"
-      - title: 在Data Infrastructure Insights中查看可用的虛擬機器數據
+      - title: 在 Data Infrastructure Insights 中檢視可用的虛擬機器資料
         url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
       - title: 使用「實用資訊」小工具查看支援案例和儲存系統詳情
         url: "/task_view_valuable_insight_widget.html"
@@ -146,7 +146,7 @@ sidebar:
         entries:
         - title: 下載AFF和FAS韌體 Ansible 套件
           url: "/task_update_AFF_FAS_firmware.html"
-        - title: 使用 Ansible 軟體包更新AFF和FAS韌體（適合有經驗的用戶）
+        - title: 使用 Ansible 套件更新 AFF 和 FAS 韌體（適用於有經驗的使用者）
           url: "/task_install_execute_firmware_update_exp_user.html"
         - title: 安裝並執行 AFF 和 FAS 韌體 Ansible 自動化套件（初學者）
           entries:

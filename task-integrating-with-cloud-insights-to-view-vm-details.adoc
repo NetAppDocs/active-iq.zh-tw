@@ -4,7 +4,7 @@ permalink: task-integrating-with-cloud-insights-to-view-vm-details.html
 keywords: cloud insights, vms, virtual machines, data infrastructure insights 
 summary: 提供有關Data Infrastructure Insights中的虛擬機的信息 
 ---
-= 使用Digital Advisor查看Data Infrastructure Insights中可用的虛擬機器數據
+= 使用 Digital Advisor 檢視 Data Infrastructure Insights 中可用的虛擬機器資料
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
