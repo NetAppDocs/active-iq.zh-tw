@@ -1690,4 +1690,7 @@
   <block id="e5054a84cf54978ce838e701041a4239" category="doc">使用 Ansible 套件更新 AFF 和 FAS 韌體</block>
   <block id="9331d73e3c99004c7679e085ea303447" category="sidebar">在 Data Infrastructure Insights 中檢視可用的虛擬機器資料</block>
   <block id="608a46677d36b132542feed4a0445c56" category="sidebar">使用 Ansible 套件更新 AFF 和 FAS 韌體（適用於有經驗的使用者）</block>
+  <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">虛擬機器棄用通知</block>
+  <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">Digital Advisor 中的虛擬機器功能將於 2026 年 10 月棄用。</block>
+  <block id="84de9715d135be833103283dc9df0296" category="section-title">2026年9月14日</block>
 </blocks>
