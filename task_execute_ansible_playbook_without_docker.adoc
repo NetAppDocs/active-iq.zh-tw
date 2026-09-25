@@ -40,7 +40,7 @@ $ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collectio
 $ chmod -R +rw /usr/share/ansible/collections
 ----
 +
-如需Ansible銀河命令的詳細資訊、請參閱 link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Ansible銀河文件"^] 如需NetApp Ansible Collection的詳細資訊、請參閱 link:https://galaxy.ansible.com/netapp/ontap["NetApp Ansible收藏頁面"^]。
+如需有關 ansible-galaxy 命令的詳細資訊，請參閱 link:https://docs.ansible.com/projects/ansible/latest/cli/ansible-galaxy.html["Ansible銀河文件"^]，如需有關 NetApp Ansible Collection 的詳細資訊，請參閱 link:https://galaxy.ansible.com/netapp/ontap["NetApp Ansible收藏頁面"^]。
 
 . 使用* Ansible playbook*命令執行Ansible Playbook：
 +

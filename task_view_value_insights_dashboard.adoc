@@ -123,3 +123,5 @@ NOTE: 此功能僅適用於 ONTAP 系統，不適用於 Cloud Volumes ONTAP、ON
 
 
 
+
+深入瞭解link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["如何在 Digital Advisor 中使用 Value Insights Dashboard"^]。
