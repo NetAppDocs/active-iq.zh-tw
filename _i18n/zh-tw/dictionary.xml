@@ -1472,9 +1472,7 @@
   <block id="6c972d629a4b8ce6dde8752e4413ad48" category="list-text"><block ref="b444585736ac78c423532d41fccd5521" category="inline-link-macro-rx"></block>，提供 ONTAP 系統的整體健全狀況、節省成本、穩定性和安全性資訊。</block>
   <block id="bca0dd4752d962832123c179d6f29ae3" category="summary">提供有關 ONTAP 系統的整體健全狀況、節省成本、穩定性和安全性計量的資訊。</block>
   <block id="17b21ea825fede0731081b59fb813a26" category="doc">在 Digital Advisor 中發現價值洞察</block>
-  <block id="e810df921218b2ae3c2ae8c157e80003" category="paragraph">「價值洞察」功能整合了 ONTAP 系統的整體健全狀況、節省成本、穩定性和安全性資訊。您可以利用這些資訊，透過持續的資料導向 ONTAP 環境檢視來改善系統健全狀況和效能。</block>
   <block id="3970e17ab0355896a02ce146a4b6a41b" category="paragraph">Value Insights 提供以下資訊：</block>
-  <block id="fb3197cd95658195a5685c80f2cf096f" category="list-text">ONTAP 系統的整體健全狀況由九項關鍵效能指標（KPI）組成，並以健全狀況評分計量來衡量。每個部分都有詳細的 KPI 和評分細分。</block>
   <block id="071a5902c78d3712cf6ca92b6e3ffed7" category="list-text">節省和穩定性評分顯示如何透過高效的資源利用來實現容量和儲存設備的節省。存取有關儲存設備正常運作時間和非計畫性停機的趨勢資訊，包括下載 EMS 檔案的功能。</block>
   <block id="f23694bbe7451573bb87ca1b5c04b7d0" category="list-text">安全性與未來規劃詳細說明了避免的風險和預防的問題。成本節約是根據儲存效率計算得出的。</block>
   <block id="4d059f5635fea2016015f6e1469efea7" category="list-text">最大化基礎架構價值建議額外的功能，以進一步提升基礎架構效能，達到尖峰效率。</block>
@@ -1615,7 +1613,6 @@
   <block id="1f51cfdc5fa1daf48bec5fe331ef373d" category="list-text">選擇 *Download* 以下載 AFF 和 FAS 韌體 Ansible Automation 套件。</block>
   <block id="bbd590fe13d8dd24702f484b96583127" category="summary">檢視 Value Insights 儀表板，以存取 ONTAP 系統的健全狀況、節省成本、穩定性和安全性資訊。</block>
   <block id="f650563cfd75874602716b4ff731fff3" category="list-text">選擇「顧客成功 &gt; 價值洞察」。</block>
-  <block id="127eba23a5c4e6b42ae1b92d1960b6b7" category="list-text">在「整體健全狀況及 NetApp 如何提供協助」區域，您可以檢視 ONTAP 系統的整體健全狀況評分（以百分比表示）。此評分以 KPI 為基礎。</block>
   <block id="431d370ffae7b3191357c28b56dcd569" category="list-text">選擇「更多建議」以查看所有 KPI：</block>
   <block id="f2ba2dce0328465674c26a76d33915f0" category="cell">KPI</block>
   <block id="40fd61ecb915e6889c685487160de14e" category="cell">針對永續營運的建議</block>
@@ -1699,4 +1696,13 @@
   <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">組態漂移功能已棄用，自 2026 年 9 月起，Digital Advisor 中不再提供該功能。</block>
   <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">2026 年 9 月 25 日</block>
   <block id="1d2715b65bd9e5fca57122f543d61e60" category="paragraph">如需有關 ansible-galaxy 命令的詳細資訊，請參閱 <block ref="a42b19d985084b52ec12dfca2fc50aad" category="inline-link-macro-rx"></block>，如需有關 NetApp Ansible Collection 的詳細資訊，請參閱 <block ref="d786fc4574d9c68470d2f8b53d708c65" category="inline-link-macro-rx"></block>。</block>
+  <block id="d6705c5666d00557618ae9bce3d12c37" category="doc">Value Insights 中的 E 系列和 StorageGRID 支援</block>
+  <block id="f7074f3c85b7a79fbc50870db7f09881" category="paragraph">Value Insights 現在將 ONTAP、E 系列和 StorageGRID 系統納入健全狀況、風險、安全性風險和生命週期總計的分析範圍。您可以按平台篩選儀表板，檢視特定平台的詳細資訊。已實現和預計的節省金額仍然僅適用於 ONTAP 系統。</block>
+  <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>。</block>
+  <block id="5e8c477e3e0719f7edf2927c1d933b6c" category="paragraph">「價值洞察」功能整合了您的 E 系列、ONTAP 和 StorageGRID 系統的整體健全狀況評分、節省成本、穩定性和安全性資訊。您可以利用這些資訊，透過對您的 E 系列、ONTAP 和 StorageGRID 環境進行持續、資料導向的檢視，來提升系統健全狀況評分和效能。</block>
+  <block id="c5f6b0719211ae09e8aba87dc0d9cb6f" category="admonition">Value Insights 適用於 E 系列、ONTAP 和 StorageGRID 系統。</block>
+  <block id="85b2022a323e43c4ae8c4065c865e789" category="list-text">系統的整體健全狀況是由九項關鍵效能指標所組成的健全狀況評分指標。每個部分都有詳細的 KPI 和評分細分。</block>
+  <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026 年 10 月 15 日</block>
+  <block id="f2829ff704f24f01c25064041d022f39" category="paragraph">檢視 Value Insights 儀表板，以存取 E 系列、ONTAP 和 StorageGRID 系統的健全狀況評分、節省、穩定性和安全性資訊。</block>
+  <block id="291aee6b8ad3956987850224f2960ac6" category="list-text">在「整體健全狀況，以及 NetApp 如何提供協助」區域中，您可以檢視 E 系列、ONTAP 和 StorageGRID 系統的整體健全狀況評分（以百分比表示）。此評分基於關鍵績效指標（KPI）。</block>
 </blocks>

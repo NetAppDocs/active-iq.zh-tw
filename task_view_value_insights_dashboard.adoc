@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_view_value_insights_dashboard.html 
-keywords: value insights, health, savings, stability, security, ontap systems 
+keywords: value insights, health, savings, stability, security, ontap, e-series, storagegrid 
 summary: 檢視 Value Insights 儀表板，以存取 ONTAP 系統的健全狀況、節省成本、穩定性和安全性資訊。 
 ---
 = 檢視 Value Insights 儀表板
@@ -16,11 +16,11 @@ summary: 檢視 Value Insights 儀表板，以存取 ONTAP 系統的健全狀況
 
 
 [role="lead"]
-檢視 Value Insights 儀表板，以存取 ONTAP 系統的健全狀況、節省成本、穩定性和安全性資訊。
+檢視 Value Insights 儀表板，以存取 E 系列、ONTAP 和 StorageGRID 系統的健全狀況評分、節省、穩定性和安全性資訊。
 
 .步驟
 . 選擇「顧客成功 > 價值洞察」。
-. 在「整體健全狀況及 NetApp 如何提供協助」區域，您可以檢視 ONTAP 系統的整體健全狀況評分（以百分比表示）。此評分以 KPI 為基礎。
+. 在「整體健全狀況，以及 NetApp 如何提供協助」區域中，您可以檢視 E 系列、ONTAP 和 StorageGRID 系統的整體健全狀況評分（以百分比表示）。此評分基於關鍵績效指標（KPI）。
 +
 ** 選擇「更多建議」以查看所有 KPI：
 +
