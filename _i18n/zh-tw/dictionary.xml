@@ -879,7 +879,6 @@
   <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
   <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">如需FabricPool 深入瞭解有關資訊、請參閱 <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>。</block>
   <block id="c9a7e25beb9575351b078da21d059517" category="list-text">*技術案例*：根據案例類型、開啟或關閉狀態、以及可選擇的時間範圍、提供您技術案例歷程的詳細檢視。  您可以深入案例群組、並透過檢視案例詳細資料 <block ref="4052dc01853e78687038691ab3fc5cc0" category="inline-link-macro-rx"></block> 或其他案例入口網站。</block>
-  <block id="0abfb28c0c42381f5bdaaa9ae0da77db" category="list-text">安裝 <block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> 和 <block ref="b37d22802e31da3263bb8117bdd516f1" category="inline-link-macro-rx"></block>。</block>
   <block id="85da219929dec7990a12ce28aff47903" category="paragraph">如需* Ansible playbook *命令的詳細資訊、請參閱 <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> 若要以檢查模式（演習）執行「Ansible Playbook」、請參閱 <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
@@ -1705,4 +1704,5 @@
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026 年 10 月 15 日</block>
   <block id="f2829ff704f24f01c25064041d022f39" category="paragraph">檢視 Value Insights 儀表板，以存取 E 系列、ONTAP 和 StorageGRID 系統的健全狀況評分、節省、穩定性和安全性資訊。</block>
   <block id="291aee6b8ad3956987850224f2960ac6" category="list-text">在「整體健全狀況，以及 NetApp 如何提供協助」區域中，您可以檢視 E 系列、ONTAP 和 StorageGRID 系統的整體健全狀況評分（以百分比表示）。此評分基於關鍵績效指標（KPI）。</block>
+  <block id="e44972e0feb4e8ce723a5b8e319c7632" category="list-text">安裝 <block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> 和 <block ref="335afa7963b775a01549fa6757d9b16e" category="inline-link-macro-rx"></block>。</block>
 </blocks>
