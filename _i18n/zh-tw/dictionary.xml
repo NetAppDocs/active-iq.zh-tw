@@ -870,7 +870,6 @@
   <block id="ba117b364c26b06c871a54fc6945f641" category="list-text"><block ref="3eaf8bde6ca57cae1e0245ca6f31a246" category="inline-link-macro-rx"></block>。</block>
   <block id="472c223fae3612be8aadf50d73eb0809" category="paragraph">如需有關Docker Pull命令的詳細資訊、請參閱 <block ref="4b16511182941b47e25fae103f9d15b4" category="inline-link-macro-rx"></block>。</block>
   <block id="793420e8298f81919bf32aff38b47ae2" category="paragraph">容器隨即啟動、主控台現在位於容器的Bash Shell。如需Docker Run命令的詳細資訊、請參閱 <block ref="2e999d289da5bafdf839ad8763a0ba40" category="inline-link-macro-rx"></block>。</block>
-  <block id="2a0dd6c3bcb96a2f49ec6fd9a82e2f4a" category="paragraph">如需* Ansible playbook *命令的詳細資訊、請參閱 <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> 若要以檢查模式執行Ansible教戰手冊（演習）、請參閱 <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
   <block id="ae60d74a912ddc26168a3645463cc941" category="list-text"><block ref="ae60d74a912ddc26168a3645463cc941" category="inline-link-macro-rx"></block></block>
   <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Web伺服器可透過多種方式設定。如需使用Python設定簡易Web伺服器的指示、請參閱 <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>。</block>
@@ -879,7 +878,6 @@
   <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
   <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">如需FabricPool 深入瞭解有關資訊、請參閱 <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>。</block>
   <block id="c9a7e25beb9575351b078da21d059517" category="list-text">*技術案例*：根據案例類型、開啟或關閉狀態、以及可選擇的時間範圍、提供您技術案例歷程的詳細檢視。  您可以深入案例群組、並透過檢視案例詳細資料 <block ref="4052dc01853e78687038691ab3fc5cc0" category="inline-link-macro-rx"></block> 或其他案例入口網站。</block>
-  <block id="85da219929dec7990a12ce28aff47903" category="paragraph">如需* Ansible playbook *命令的詳細資訊、請參閱 <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> 若要以檢查模式（演習）執行「Ansible Playbook」、請參閱 <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>。</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">永續性儀表板總覽</block>
@@ -1705,4 +1703,6 @@
   <block id="f2829ff704f24f01c25064041d022f39" category="paragraph">檢視 Value Insights 儀表板，以存取 E 系列、ONTAP 和 StorageGRID 系統的健全狀況評分、節省、穩定性和安全性資訊。</block>
   <block id="291aee6b8ad3956987850224f2960ac6" category="list-text">在「整體健全狀況，以及 NetApp 如何提供協助」區域中，您可以檢視 E 系列、ONTAP 和 StorageGRID 系統的整體健全狀況評分（以百分比表示）。此評分基於關鍵績效指標（KPI）。</block>
   <block id="e44972e0feb4e8ce723a5b8e319c7632" category="list-text">安裝 <block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> 和 <block ref="335afa7963b775a01549fa6757d9b16e" category="inline-link-macro-rx"></block>。</block>
+  <block id="39cfe90c31baec382584c29b304120ee" category="paragraph">如需有關 *ansible-playbook* 命令的詳細資訊，請參閱 <block ref="3d297fe59aeab4f52033a16e4cb1092d" category="inline-link-macro-rx"></block>，若要以檢查模式（試執行）執行 Ansible playbook，請參閱 <block ref="65608cec1d866267bc1786752d36cf72" category="inline-link-macro-rx"></block>。</block>
+  <block id="d285978e658e21733e1a83f07dcbabbb" category="paragraph">如需有關 *ansible-playbook* 命令的詳細資訊，請參閱 <block ref="3d297fe59aeab4f52033a16e4cb1092d" category="inline-link-macro-rx"></block>，若要以檢查模式（試執行）執行 Ansible Playbook，請參閱 <block ref="65608cec1d866267bc1786752d36cf72" category="inline-link-macro-rx"></block>。</block>
 </blocks>

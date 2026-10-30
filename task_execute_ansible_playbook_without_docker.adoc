@@ -60,6 +60,6 @@ NOTE: 如果有一組叢集具有不同的登入認證、則必須在每個叢�
 
 
 
-如需* Ansible playbook *命令的詳細資訊、請參閱 link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible教戰手冊文件"^] 若要以檢查模式（演習）執行「Ansible Playbook」、請參閱 link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible：檢查模式"^]。
+如需有關 *ansible-playbook* 命令的詳細資訊，請參閱 link:https://docs.ansible.com/projects/ansible/latest/cli/ansible-playbook.html["Ansible教戰手冊文件"^]，若要以檢查模式（試執行）執行 Ansible Playbook，請參閱 link:https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_checkmode.html["Ansible：檢查模式"^]。
 
 執行本方針後、請參閱 link:task_validate_firmware_installation.html["韌體安裝驗證"] 以取得執行後的指示。
